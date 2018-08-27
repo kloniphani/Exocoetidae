@@ -1,0 +1,542 @@
+  1 Tshilwavhusiku Clinic                                                    -23.097057    29.738118 	391 Ravele Village, Makhado, Louis Trichardt, 0920, South Africa
+  2 Straighthardt Clinic                                                     -22.756527    30.143699 	Maranikhwe, South Africa
+  3 Vhambelani Health Clinic, Maelula, South Africa                          -22.979121    30.147859 	Tshifhire, 0926, South Africa
+  4 Shayandima Clinic                                                        -23.005309    30.426705 	Thohoyandou, 0950, South Africa
+  5 Vleifontein Clinic                                                       -23.213499    29.991891 	Ha-Tshikota-A, Louis Trichardt, 0920, South Africa
+  6 Dr Lindiwe Women's Clinic                                                -22.355600    30.038930 	27 Cass St, Musina, 0900, South Africa
+  7 Mpheni Clinic                                                            -23.139538    30.071085 	Djunani, Elim, 0960, South Africa
+  8 Muledane Clinic                                                          -22.994753    30.455873 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+  9 Tshikuwi Clinic                                                          -22.902151    29.950082 	Tshikuwi, 0955, South Africa
+ 10 Masakona Clinic                                                          -23.273748    30.244264 	Masakona, 0941, South Africa
+ 11 Tshino Clinic                                                            -23.115177    30.398480 	Tshino, 0952, South Africa
+ 12 Makuleke Clinic                                                          -22.865220    30.914540 	Unnamed Rd,, Makuleke, 1007, South Africa
+ 13 Shivulani Clinic                                                         -23.141727    30.701991 	Shivulani, South Africa
+ 14 Khomela Clinic                                                           -22.706528    30.261483 	Garside, South Africa
+ 15 Magwedzha Clinic                                                         -22.958654    30.560791 	Unnamed Road, Dumasi, Thohoyandou, 0950, South Africa
+ 16 Malamulele Clinic                                                        -23.013700    30.701504 	Xitlhelali Villiage, Malamulele, Thohoyandou, 0982, South Africa
+ 17 Manenzhe Clinic                                                          -22.469550    30.681288 	Mataulu, South Africa
+ 18 Valdezia Clinic                                                          -23.100013    30.179323 	Valdezia, 0935, South Africa
+ 19 Makhado Health Center                                                    -22.901057    30.034172 	Makhado, 0920, South Africa
+ 20 Mukhomi Clinic                                                           -23.071965    30.561483 	Mukhomi, South Africa
+ 21 Nancefield Clinic                                                        -22.331423    30.033988 	316 Jeremia Kobe St, Messina-Nancefield, Musina, South Africa
+ 22 Mudimeli Clinic                                                          -22.798374    29.956718 	Far North, South Africa
+ 23 Makonde Clinic                                                           -22.807699    30.567990 	0984, Makonde, Thohoyandou, South Africa
+ 24 Mulala Clinic Sanari                                                     -22.476112    30.877176 	Unnamed Rd,, Mutele, 0959, South Africa
+ 25 Rambuda Clinic                                                           -22.784732    30.434080 	22°47'05. 30°26'02., 0B 7th Ave, Randburg, 2193, South Africa
+ 26 Mbokota Clinic                                                           -23.199992    30.099365 	Bokisi, South Africa
+ 27 Mphephu Clinic                                                           -22.874931    30.138132 	Ha-Mandiwana, 0955, South Africa
+ 28 Makahlule Clinic                                                         -22.892224    30.911466 	Unnamed Road,, Ntlhaveni, 0928, South Africa
+ 29 Tshifudi Clinic                                                          -22.814397    30.698453 	Unnamed Road,, Tshifudi, 0979, South Africa
+ 30 Thohoyandou Clinic                                                       -22.966003    30.478770 	Thohoyandou-G, Thohoyandou, 0950, South Africa
+ 31 Levubu Clinic                                                            -23.087542    30.293421 	Louis Trichardt, South Africa
+ 32 Univen Health Clinic                                                     -22.977307    30.445883 	Thohoyandou, 0950, South Africa
+ 33 Mashamba Clinic                                                          -23.053755    30.352686 	R524, Reubander, Mashamba, 0985, South Africa
+ 34 Davhana Clinic                                                           -23.209743    30.456503 	Davhana, Ha-Davhana, South Africa
+ 35 Mavambe Clinic                                                           -23.003646    30.648765 	Mavambe, 0998, South Africa
+ 36 Waterval Clinic                                                          -23.171851    30.069412 	Waterval, South Africa
+ 37 Livhone Computers And Ratshitanga Clinic                                 -22.959503    30.443826 	Thohoyandou, 0950, South Africa
+ 38 Waterval Clinic                                                          -23.160304    30.069591 	A, Waterval, Elim, South Africa
+ 39 Manyima Clinic                                                           -23.276403    30.018664 	Unnamed Road, Thovhalas-Kraal, 0817, South Africa
+ 40 Mphambo Clinic                                                           -23.084812    30.671079 	Ka-Mphambo, South Africa
+ 41 Louis Trichardt Clinic                                                   -23.037655    29.907454 	27 Devenish St, Louis Trichardt, 0920, South Africa
+ 42 Spec-Savers Louis Trichardt                                              -23.031500    29.911167 	87 Krogh Straat, Louis Trichardt, 0920, South Africa
+ 43 Dzingahe Clinic                                                          -22.909313    30.522301 	Dzingahe, Thohoyandou, 0971, South Africa
+ 44 Basani Clinic                                                            -23.369055    30.519020 	R81, Ka Nwamankena, South Africa
+ 45 Belleview Clinic                                                         -23.411908    30.420875 	c0004 Belleview location 1 118,8N national road, molototsi, R81, 0826, South Africa
+ 46 Thomo Clinic                                                             -23.248447    30.788410 	Thomo, 0826, South Africa
+ 47 Masisi Clinic                                                            -22.422830    30.863168 	R525, Masisi, 0989, South Africa
+ 48 Musina Medical Centre                                                    -22.342220    30.043680 	7 Limpopo Ave, Musina, 0900, South Africa
+ 49 Madombidzha Clinic                                                       -23.114893    29.819738 	Madombidzha, Louis Trichardt, South Africa
+ 50 OLIFANTSHOEK CLINIC                                                      -23.334507    30.274907 	Unnamed Road, Olifantshoek, South Africa
+ 51 Chavani Clinic                                                           -23.198244    30.136559 	Chavani, South Africa
+ 52 Nkurhi Clinic                                                            -23.213869    30.554045 	Rihanyo Street unit # 316 & 318, South Africa
+ 53 Tlangelani Clinic                                                        -23.125142    30.535060 	Machele, South Africa
+ 54 Matoks Clinic                                                            -23.491607    29.736813 	1 Mangata Village, Dwars River, Polokwane, 0812, South Africa
+ 55 Zoutpansberg Medical Care Clinic                                         -23.040677    29.897381 	47 Joubert St, Louis Trichardt, 0920, South Africa
+ 56 Tshaulu Health Center                                                    -22.805203    30.753105 	Tshaulu, 0987, South Africa
+ 57 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+ 58 Mutale Health Center                                                     -22.736251    30.521393 	0956, South Africa
+ 59 Lambani Clinic                                                           -22.721387    30.831579 	Ha-Lambani, 0906, South Africa
+ 60 Msengi Clinic                                                            -23.345596    30.370077 	Noblehoek, South Africa
+ 61 Musina Medical Centre                                                    -22.342220    30.043680 	7 Limpopo Ave, Musina, 0900, South Africa
+ 62 Mutale Health Center                                                     -22.736251    30.521393 	0956, South Africa
+ 63 Tshilwavhusiku Clinic                                                    -23.097057    29.738118 	391 Ravele Village, Makhado, Louis Trichardt, 0920, South Africa
+ 64 Makhado Health Center                                                    -22.901057    30.034172 	Makhado, 0920, South Africa
+ 65 Bungeni Health Centre                                                    -23.202387    30.197912 	Ka-Bungeni, South Africa
+ 66 Vhambelani Health Clinic, Maelula, South Africa                          -22.979121    30.147859 	Tshifhire, 0926, South Africa
+ 67 Mpheni Clinic                                                            -23.139538    30.071085 	Djunani, Elim, 0960, South Africa
+ 68 Mvuso Medical Centre                                                     -23.128667    30.422124 	Vuwani, 0952, South Africa
+ 69 Wayeni Health Centre                                                     -23.241312    30.218933 	Wayeni St, Ka-Bungeni, 0943, South Africa
+ 70 Rambuda Clinic                                                           -22.784732    30.434080 	22°47'05. 30°26'02., 0B 7th Ave, Randburg, 2193, South Africa
+ 71 Khubvi Medical Centre                                                    -22.827426    30.557825 	Khubvi, Thohoyandou, 0984, South Africa
+ 72 Tshaulu Health Center                                                    -22.805203    30.753105 	Tshaulu, 0987, South Africa
+ 73 Kgotso medical centre                                                    -23.048205    29.919383 	121 Commercial St, Elti Villas, Louis Trichardt, 0922, South Africa
+ 74 Dr M Manenzhe 's Matoks Medical center                                   -23.493903    29.732793 	stand 424 village Dwarsrivier, Sefene, 0812, South Africa
+ 75 Dr Lindiwe Women's Clinic                                                -22.355600    30.038930 	27 Cass St, Musina, 0900, South Africa
+ 76 Cheapside medical centre                                                 -23.000528    30.691041 	478 0982, Malamulele Rd, Giyani, South Africa
+ 77 Makhado Medical Centre                                                   -22.897983    30.036074 	Makhado, 0955, South Africa
+ 78 Tshikombani Medical Centre                                               -22.912151    30.217079 	Unnamed Road, Dopeni, 0969, South Africa
+ 79 Univen Health Clinic                                                     -22.977307    30.445883 	Thohoyandou, 0950, South Africa
+ 80 Straighthardt Clinic                                                     -22.756527    30.143699 	Maranikhwe, South Africa
+ 81 fholani medical centre                                                   -22.830675    30.854739 	Saselamani, 0928, South Africa
+ 82 Maringa Medical Centre                                                   -23.160922    30.077534 	A, Waterval, Elim, South Africa
+ 83 Cloudy Womens Clinic                                                     -22.355927    30.040949 	10 Joubert St, Musina, 0900, South Africa
+ 84 Cloudy Womens Clinic                                                     -22.923872    30.490380 	Thohoyandou, South Africa
+ 85 Zoutpansberg Medical Care Clinic                                         -23.040677    29.897381 	47 Joubert St, Louis Trichardt, 0920, South Africa
+ 86 Vleifontein Clinic                                                       -23.213499    29.991891 	Ha-Tshikota-A, Louis Trichardt, 0920, South Africa
+ 87 Muledane Clinic                                                          -22.994753    30.455873 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+ 88 Matoks Clinic                                                            -23.491607    29.736813 	1 Mangata Village, Dwars River, Polokwane, 0812, South Africa
+ 89 Tshikuwi Clinic                                                          -22.902151    29.950082 	Tshikuwi, 0955, South Africa
+ 90 Elim District Hospital                                                   -23.153376    30.056596 	Mpheni, Elim, 0960, South Africa
+ 91 Tshilidzini Hospital                                                     -22.995015    30.414615 	Phundamaria Main Road, Shayandima, Thohoyandou, 0945, South Africa
+ 92 Siloam Hospital                                                          -22.901600    30.193245 	Siloam, 0993, South Africa
+ 93 Quality Care Private Hospital                                            -23.044830    29.913130 	83 Grobler St, Louis Trichardt, 0920, South Africa
+ 94 Messina Hospital.                                                        -22.341386    30.044035 	3A Magazine Road, Musina, 0900, South Africa
+ 95 Malamulele Hospital                                                      -22.996367    30.697213 	Malamulela Street, Malamulele-A, Malamuela, 0982, South Africa
+ 96 Zoutpansberg Private Hospital                                            -23.040690    29.897380 	47 Joubert St, Louis Trichardt, 0920, South Africa
+ 97 Siloam Hospital Pharmacy                                                 -23.040720    29.907180 	93 Krogh Straat, Louis Trichardt, 0920, South Africa
+ 98 Botlokwa Hospital                                                        -23.492489    29.742791 	Mmatseke, 0812, South Africa
+ 99 Louis Trichardt Memorial Hospital.                                       -23.028596    29.905744 	Hospital Street, Louis Trichardt, 0920, South Africa
+100 Mutale Health Center                                                     -22.736251    30.521393 	0956, South Africa
+101 Hayani Psychiatric Hospital                                              -22.941248    30.485553 	Road, R523, Thohoyandou, South Africa
+102 Tlangelani Clinic                                                        -23.125142    30.535060 	Machele, South Africa
+103 Mediclinic                                                               -22.995415    30.480405 	Thohoyandou-L, Polokwane, 0950, South Africa
+104 Tshilidzini Hospital                                                     -22.955125    30.545778 	phunda maria 0945, Main Rd, Shayandima, Thohoyandou, 0950, South Africa
+105 Tshilidzini Hospital, Amu's Room                                         -22.990777    30.413871 	Makumbane, Thohoyandou, 0945, South Africa
+106 FNB Bank ATM Donald Fraser Hospital                                      -22.887920    30.478205 	Donald Fraser Hospital road Vhufuli, Vhufuli, 0971, South Africa
+107 Bungeni Health Centre                                                    -23.202387    30.197912 	Ka-Bungeni, South Africa
+108 Tshikombani Medical Centre                                               -22.912151    30.217079 	Unnamed Road, Dopeni, 0969, South Africa
+109 Mhlava Wellem Clinic                                                     -23.211130    30.860020 	17, Mlhava, Oman
+110 Elim Hospital In South Africa                                            -23.311625    30.692842 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+111 Blouberg Hospital                                                        -23.277760    29.124090 	South Africa
+112 Nkhensani Hospital                                                       -23.318164    30.710865 	Main Street, Giyani-D, Giyani, 0826, South Africa
+113 Helena Franz Hospital                                                    -23.283366    29.112320 	Bochum Road, South Africa
+114 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+115 Sekhiming Health Centre                                                  -23.430388    30.560966 	Sekhiming, South Africa
+116 Kgapane Hospital                                                         -23.649340    30.217102 	Modjadji College Road, Ga-Kgapane, Modjadjiskloof, 0830, South Africa
+117 Mankweng hospital                                                        -23.880948    29.725874 	Polokwane Local Municipality, South Africa
+118 Dr M Manenzhe 's Matoks Medical center                                   -23.493903    29.732793 	stand 424 village Dwarsrivier, Sefene, 0812, South Africa
+119 Cheapside medical centre                                                 -23.000528    30.691041 	478 0982, Malamulele Rd, Giyani, South Africa
+120 Makhado Medical Centre                                                   -22.897983    30.036074 	Makhado, 0955, South Africa
+121 Tshikombani Medical Centre                                               -22.912151    30.217079 	Unnamed Road, Dopeni, 0969, South Africa
+122 Musina Medical Centre                                                    -22.342220    30.043680 	7 Limpopo Ave, Musina, 0900, South Africa
+123 Maringa Medical Centre                                                   -23.160922    30.077534 	A, Waterval, Elim, South Africa
+124 Khubvi Medical Centre                                                    -22.827426    30.557825 	Khubvi, Thohoyandou, 0984, South Africa
+125 Messina Hospital.                                                        -22.341386    30.044035 	3A Magazine Road, Musina, 0900, South Africa
+126 Zoutpansberg Private Hospital                                            -23.040690    29.897380 	47 Joubert St, Louis Trichardt, 0920, South Africa
+127 Kgotso medical centre                                                    -23.048205    29.919383 	121 Commercial St, Elti Villas, Louis Trichardt, 0922, South Africa
+128 Elim District Hospital                                                   -23.153376    30.056596 	Mpheni, Elim, 0960, South Africa
+129 Mvuso Medical Centre                                                     -23.128667    30.422124 	Vuwani, 0952, South Africa
+130 fholani medical centre                                                   -22.830675    30.854739 	Saselamani, 0928, South Africa
+131 Mediclinic                                                               -22.995415    30.480405 	Thohoyandou-L, Polokwane, 0950, South Africa
+132 Tshilwavhusiku Clinic                                                    -23.097057    29.738118 	391 Ravele Village, Makhado, Louis Trichardt, 0920, South Africa
+133 Mutakalo Medical Centre                                                  -23.035668    29.918490 	Hlanganani St, Louis Trichardt, 0920, South Africa
+134 Tshilwavhusiku Clinic                                                    -23.097057    29.738118 	391 Ravele Village, Makhado, Louis Trichardt, 0920, South Africa
+135 South African Police Service                                             -22.727413    30.614237 	Tshilamba, Mutale, 0956, South Africa
+136 SAPS - Mutale                                                            -22.735249    30.523137 	0956, South Africa
+137 Vuwani Police Station                                                    -23.129688    30.420978 	Vuwani, 0952, South Africa
+138 SAPS                                                                     -23.412378    30.150437 	Senwamokgope-A, Senwamokgope, 0815, South Africa
+139 Tshaulu Police Station                                                   -22.803343    30.747771 	Tshaulu, 0987, South Africa
+140 Zimbabwe Republic Police Dulibadzimu Base                                -22.207618    29.986352 	Beitbridge, Zimbabwe
+141 Malamulele SAPS                                                          -23.004497    30.686515 	Malamulele Hospital Road, Malamulele, 0982, South Africa
+142 Dzanani Satellite Police Station                                         -22.886968    30.069412 	Ha-Mphaila, 0955, South Africa
+143 Muswodi Satellite                                                        -22.576307    30.526961 	Muswodi Dipeni, South Africa
+144 SAPS - Dzanani                                                           -22.899132    30.040444 	Unnamed Rd, 0920, Makhado, South Africa
+145 SAPS                                                                     -23.097068    29.741658 	Ravele Village, Ha-Ravele, Tshilwavhusiku, 0938, South Africa
+146 Thohoyandou Traffic Department                                           -22.971102    30.495256 	Tshilungoma, Thohoyandou, 0950, South Africa
+147 saps levubu                                                              -23.080099    30.255257 	Saps Levubu,, 0929, South Africa
+148 BUNGENI POLICE STATION                                                   -23.200464    30.185664 	Xitaci, South Africa
+149 Kutama Sinthumule Correctional Centre (Kscc).                            -23.062331    29.920588 	Sparrow Road, Louis Trichardt, 0920, South Africa
+150 Senwabarwana Police Station                                              -23.285576    29.138918 	Bochum-A, Bochum, 0790, South Africa
+151 Mphephu                                                                  -22.879674    30.148695 	Dzanani, South Africa
+152 Thulamela Municipality                                                   -22.970998    30.460753 	Casino Blvd, Thohoyandou, 0950, South Africa
+153 Matatshe Prison                                                          -22.894417    30.531202 	matatshe prison near Thohoyandou, South Africa
+154 Department of Home Affairs Office - Vuwani                               -23.130422    30.419727 	Magistrate’s Office, Vuwani, 0952, South Africa
+155 Sibasa Traffic Department                                                -22.944030    30.472410 	Thohoyandou-Q, Thohoyandou, 0950, South Africa
+156 Limpopo High Court, Thohoyandou                                          -22.968335    30.456734 	Thohoyandou, 0950, South Africa
+157 SAPS Supply Chain Management                                             -23.900403    29.451789 	105 Excelsior St, Polokwane Central, Polokwane, 0600, South Africa
+158 South African Police Service                                             -23.643680    30.221770 	Post Office Street, Ga-Kgapane, Modjadjiskloof, 0838, South Africa
+159 Tzaneen Police Station                                                   -23.828211    30.162108 	Tzaneen, Limpopo, South Africa, South Africa
+160 SAPS - Mutale                                                            -22.735249    30.523137 	0956, South Africa
+161 Malamulele SAPS                                                          -23.004497    30.686515 	Malamulele Hospital Road, Malamulele, 0982, South Africa
+162 SAPS                                                                     -23.097068    29.741658 	Ravele Village, Ha-Ravele, Tshilwavhusiku, 0938, South Africa
+163 saps levubu                                                              -23.080099    30.255257 	Saps Levubu,, 0929, South Africa
+164 SAPS                                                                     -23.412378    30.150437 	Senwamokgope-A, Senwamokgope, 0815, South Africa
+165 Saps - Musina                                                            -22.341777    30.045217 	Calderwood Ave, Musina, 0900, South Africa
+166 Saps - Thohoyandou                                                       -22.972340    30.455640 	Thohoyandou, 0950, South Africa
+167 SAPS - Dzanani                                                           -22.899132    30.040444 	Unnamed Rd, 0920, Makhado, South Africa
+168 tshamutumbu saps                                                         -22.385255    30.544263 	Unnamed Rd, South Africa
+169 Saps - Makhado                                                           -23.038313    29.907921 	President Street, Louis Trichardt, 0920, South Africa
+170 SAPS Levubu                                                              -23.083333    30.283333 	Tshakhuma, South Africa
+171 Mutale Magistrates Court                                                 -22.735120    30.522187 	0956, South Africa
+172 Thohoyandou Magistrate Court                                             -22.972491    30.457150 	Thohoyandou, South Africa
+173 Magisterial Court - Mutale Rural                                         -22.596300    30.641410 	South Africa
+174 Magisterial Court - NP343 Rural                                          -22.972660    30.786100 	South Africa
+175 Magistrate Court Tshilwavhusiku                                          -23.097102    29.740868 	Ha-Ravele, Louis Trichardt, 0920, South Africa
+176 Sibasa Regional Court                                                    -22.948251    30.470351 	Thohoyandou-A, Thohoyandou, 0950, South Africa
+177 Magisterial Court - Messina                                              -22.349800    30.036670 	Musina, 0900, South Africa
+178 Magisterial Court - Louis Trichardt Rural                                -23.040720    29.907180 	Louis Trichardt, 0920, South Africa
+179 Mudzwiri Court                                                           -22.339486    30.043725 	1 Hospitaal Rd, Musina, 0900, South Africa
+180 Magistrate Court Dzanani                                                 -22.895367    30.038614 	Makhado, 0955, South Africa
+181 Magisterial Court - Molemole Rural                                       -23.524240    29.512850 	South Africa
+182 Magistrate Court - Giyani                                                -23.312199    30.694588 	Giyani-BA, Giyani, 0826, South Africa
+183 Limpopo Division of the High Court                                       -23.913146    29.457639 	36 Biccard St, Polokwane Central, Polokwane, 0700, South Africa
+184 Magisterial Court - Greater Giyani Rural                                 -23.419040    30.679480 	South Africa
+185 Correctional Services                                                    -23.036583    29.905204 	106 Anderson St, Louis Trichardt, 0920, South Africa
+186 Correctional Services                                                    -22.971794    30.442806 	South Africa
+187 Dept of Correctional Services Pharmacy (Kutama Sinthumule Correctional Centre)   -23.040720    29.907180 	Kutama Sinthumele Maximum Section Prison, Sparrow Road, Louis Trichardt, 0920, South Africa
+188 Kutama Sinthumule Correctional Centre (Kscc).                            -23.062331    29.920588 	Sparrow Road, Louis Trichardt, 0920, South Africa
+189 Dept of Correctional Services Pharmacy (Thohoyandou)                     -23.401295    29.417932 	Sibasa Thengwe Road, Sibasa, Thohoyandou, 0970, South Africa
+190 Sibasa Traffic Department                                                -22.944030    30.472410 	Thohoyandou-Q, Thohoyandou, 0950, South Africa
+191 Thohoyandou Traffic Department                                           -22.971102    30.495256 	Tshilungoma, Thohoyandou, 0950, South Africa
+192 Vuwani Department of Traffic Testing Station                             -23.130253    30.418308 	Vuwani, 0952, South Africa
+193 Malamulele Traffic Department                                            -23.003459    30.687045 	Malamulele-A, Malamulele, 0982, South Africa
+194 Thulamela Municipality                                                   -22.970998    30.460753 	Casino Blvd, Thohoyandou, 0950, South Africa
+195 BUNGENI POLICE STATION                                                   -23.200464    30.185664 	Xitaci, South Africa
+196 Dept of Agriculture (Vhembe)                                             -22.945789    30.489153 	Cnr Sibasa Veterinary, Sibasa, Thohoyandou, 0970, South Africa
+197 Takalani Land Surveyors Inc                                              -23.049490    29.870122 	Tshikota, Louis Trichardt, 0920, South Africa
+198 Department of Home Affairs Office - Vuwani                               -23.130422    30.419727 	Magistrate’s Office, Vuwani, 0952, South Africa
+199 Department of Home Affairs - Dzanani District Office                     -22.899888    30.037471 	Tshituni tsha ntha opposite Standard Bank, Dzanani, 0955, South Africa
+200 Department of Home Affairs Office - Makhado                              -23.038105    29.906361 	103 Munnik St, Louis Trichardt, 0920, South Africa
+201 Department of Home Affairs - Thohoyandou Regional Office                 -22.934890    30.468350 	Shumela Street, Sibasa, Thohoyandou, 0970, South Africa
+202 Thengwe Secondary School                                                 -22.748280    30.511130 	South Africa
+203 Murunwa Private School                                                   -22.994770    30.459140 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+204 Tshapasha Primary School                                                 -22.781180    30.461110 	Tshaphasha, 0956, South Africa
+205 E.P.P. Mhinga Secondary School                                           -23.005172    30.707002 	Malamulele-B, Malamulele, 0982, South Africa
+206 Saint Brendan's Catholic Secondary School                                -23.428030    29.716000 	South Africa
+207 Vhudzani Secondary School                                                -23.140787    30.187911 	Louis Trichardt, 0943, South Africa
+208 Bashasha Primary School                                                  -22.726870    30.536520 	South Africa
+209 Vele Secondary School                                                    -22.765080    30.343630 	Mavhuwa, South Africa
+210 Vhembe district                                                          -22.735064    29.995055 	Louis Trichardt, South Africa
+211 Vhutshilo Mountain School                                                -22.915811    30.223563 	Tshikombani, South Africa
+212 Vhulaudzi Secondary School                                               -22.961493    30.184964 	Louis Trichardt, 0992, South Africa
+213 Venda Nursing College                                                    -23.014420    30.421680 	Phundamaria Main Road, Shayandima, Thohoyandou, 0945, South Africa
+214 Musina Secondary School.                                                 -22.330610    30.027010 	795, Messina-Nancefield, Musina, South Africa
+215 Rasema Secondary School                                                  -23.478910    29.755870 	South Africa
+216 Tshamulungwi Primary School                                              -22.737350    30.411780 	South Africa
+217 Rathoma Primary School                                                   -23.459270    29.800050 	South Africa
+218 Ntshuxi Primary School                                                   -23.258880    30.352600 	South Africa
+219 Emmanuel Christrian School                                               -23.068258    29.920558 	Sparrow St, Louis Trichardt, 0920, South Africa
+220 Matiyani Primary School                                                  -22.743450    30.978750 	South Africa
+221 Manghena Primary School                                                  -22.865700    30.737650 	South Africa
+222 Nhombelani Primary School                                                -23.129130    30.578320 	South Africa
+223 Thengwe High School                                                      -22.749470    30.515063 	0956, South Africa
+224 Makahlule Primary School                                                 -22.890900    30.900120 	South Africa
+225 Lukau Primary School                                                     -22.739901    30.515719 	South Africa
+226 Begwa Tshitumbe Junior Primary School                                    -22.780830    30.816650 	South Africa
+227 Sheshe Primary School                                                    -22.818430    30.304000 	South Africa
+228 Phatima Primary School                                                   -23.116420    30.898680 	South Africa
+229 Mangomani J & S Primary School                                           -23.020780    30.389057 	South Africa
+230 Tshidongololwe Primary School                                            -22.688500    30.585830 	South Africa
+231 Shimambani Primary School                                                -22.926530    30.716580 	South Africa
+232 Dzondo Primary School                                                    -23.053375    30.382384 	South Africa
+233 Guyuni Primary School                                                    -22.726200    30.644250 	South Africa
+234 B.R. Nemulodi Primary School                                             -22.742846    30.554500 	South Africa
+235 Belemu Junior Primary School                                             -22.987730    30.341780 	South Africa
+236 Mphalaleni Secondary School                                              -22.809830    30.539850 	Matangari, Thohoyandou, 0984, South Africa
+237 MakumekeL H Primary School                                               -22.988658    30.634606 	South Africa
+238 Todani Secondary School                                                  -22.738470    30.524470 	0956, South Africa
+239 Tshivhale Junior Primary School                                          -23.003130    30.346180 	South Africa
+240 Gidjana Secondary School                                                 -23.015050    30.884820 	South Africa
+241 Hlengani Primary School                                                  -22.534950    30.792150 	South Africa
+242 Tshokotshoko Junior and Secondary School                                 -22.608970    30.628870 	South Africa
+243 Jim Chavani High School                                                  -22.827700    30.840500 	South Africa
+244 Masambelwe Primary School                                                -23.014930    30.343020 	South Africa
+245 Pembelani Primary School                                                 -23.373774    30.349683 	South Africa
+246 Makakavhale Secondary School                                             -22.991800    30.346630 	South Africa
+247 Shondoni Secondary School                                                -23.016450    30.360970 	South Africa
+248 Tshiakhatho Primary School                                               -22.668830    30.687500 	South Africa
+249 Ripambeta High School                                                    -22.769420    30.892930 	South Africa
+250 Khudugane Secondary School                                               -23.384025    30.177239 	South Africa
+251 Shikundu High School                                                     -22.841000    30.814230 	South Africa
+252 Tshikundamalema Secondary School                                         -22.416730    30.794570 	South Africa
+253 Khangale Secondary School                                                -22.669370    30.674000 	South Africa
+254 Maphuphe Junior Primary School                                           -23.018630    30.367430 	South Africa
+255 Luvhaivhai Secondary School                                              -23.016670    30.378500 	South Africa
+256 Nghezimani High School                                                   -22.918020    30.801230 	South Africa
+257 Ranndogwana Secondary School                                             -22.757170    30.865720 	South Africa
+258 Overvlakte Farm Primary School                                           -22.156170    29.655330 	South Africa
+259 Dzamba Primary School                                                    -22.826180    30.329430 	South Africa
+260 Matshele Primary School                                                  -23.015317    30.361444 	South Africa
+261 Murunwa Combined School                                                  -23.049170    29.913180 	Louis Trichardt, 0920, South Africa
+262 Makhado Satellite Campus, Vhembe TVET College                            -23.037533    29.910667 	113 Burger St, Louis Trichardt, 0920, South Africa
+263 Tshisimani Campus, Vhembe TVET College                                   -23.055352    30.308840 	Unnamed Road,, Tshakhuma, 0951, South Africa
+264 Vhembe FET College                                                       -22.942310    30.482588 	Sibasa, Thohoyandou, 0970, South Africa
+265 Venda Nursing College                                                    -23.014420    30.421680 	Phundamaria Main Road, Shayandima, Thohoyandou, 0945, South Africa
+266 Mashamba Campus, Vhembe TVET College                                     -23.239914    30.124431 	Ha-Mashamba, 0942, South Africa
+267 Thengwe Campus, Vhembe TVET College                                      -22.749929    30.511224 	South Africa
+268 Madzivhandila College of Agriculture                                     -22.987020    30.550850 	Ha-Budeli, Thohoyandou, 0950, South Africa
+269 Vhembe T.V.E.T College - Central Offices                                 -22.946388    30.469620 	Thohoyandou-A, Thohoyandou, 0950, South Africa
+270 Shingwedzi Campus, Vhembe TVET College                                   -23.013031    30.715750 	Malamulele, 0982, South Africa
+271 vhembe Tvet ( Mavhoi campus)                                             -22.889462    30.045214 	Makhado, 0920, South Africa
+272 Vhembe FET, Mashamba Campus                                              -23.239138    30.124297 	Ha-Mashamba, 0942, South Africa
+273 Northern Technical College                                               -22.990589    30.441979 	Unnamed Road, Thohoyandou, 0950, South Africa
+274 P C Training & Business College                                          -23.040670    29.907480 	93 Krogh Straat, Louis Trichardt, 0920, South Africa
+275 Ridgeway College                                                         -23.043790    29.924462 	Leeu St, Louis Trichardt, 0920, South Africa
+276 KHOMBO SAFETY AND SECURITY COLLEGE                                       -22.946024    30.471875 	Mbilwi street 182A KWCRS Building, Sibasa, Thohyandou, 0970, South Africa
+277 Ramaano Mbulaheni College                                                -23.058961    30.308936 	Tshakhuma, 0951, South Africa
+278 Richfield Graduate Institute Of Technology                               -22.977422    30.457816 	Garden Rte, Thohoyandou-P, Thohoyandou, 0950, South Africa
+279 Eagles Landing                                                           -22.337073    30.034873 	Musina, 0900, South Africa
+280 Harvesters Theological Seminary                                          -23.014954    30.703339 	Xitlhelani, Site 783, South Africa
+281 Capricorn TVET College - Ramokgopa Campus                                -23.467603    29.817312 	Mokomene Zone 5, Mokonene, 0811, South Africa
+282 Lemana College                                                           -23.177400    30.048620 	Lemana Road, Bellegaan, Louis Trichardt, 0960, South Africa
+283 Manenu Traffic College                                                   -22.745787    30.525575 	Tshilamba, 0956, South Africa
+284 Makhado CPD Centre (Former Makhado College of Education )                -22.898541    30.029196 	Makhado, 0920, South Africa
+285 Trinity College SA                                                       -22.976573    30.489377 	Thohoyandou-M, Thohoyandou, 0950, South Africa
+286 Ribolla learning academy                                                 -23.073608    29.857778 	30 Erasmus Louis Trichardt, Makhado, Louis Trichardt, 0920, South Africa
+287 Ribolla learning academy                                                 -23.046600    29.908860 	67 Kruger St, Louis Trichardt, 0920, South Africa
+288 Comprehensive Trinity Academy                                            -22.953454    30.199335 	South Africa
+289 Mulenga College                                                          -22.878330    29.988890 	Matsa, 0955, South Africa
+290 University of Venda                                                      -22.976135    30.446480 	University Rd, Thohoyandou, 0950, South Africa
+291 Giyani Education Multipurpose Centre(GEMPC)                              -23.297808    30.725730 	South Africa
+292 Matoks -Avuxeni Computer Academy                                         -23.493773    29.722673 	11 N1, Mphakane 1, Mphakane, 0812, South Africa
+293 Letaba FET College Giyani Campus                                         -23.316256    30.715353 	Industrial Road, Giyani-A, Giyani, 0826, South Africa
+294 Millennium College                                                       -23.365030    29.405770 	South Africa
+295 Vhutshilo Fire and Rescue Academy                                        -23.058639    30.292698 	Tshakhuma, 0951, South Africa
+296 Datya Ministries International South Africa                              -23.915289    29.529627 	Myngenoegen - Datya Ministries Base Camp, Limpopo Province, Myngenoegen, Polokwane, 0699, South Africa
+297 Giyani Campus Of Nursing College                                         -23.307248    30.706253 	Giyani-D, Giyani, 0826, South Africa
+298 Boston City Campus & Business College - Tzaneen                          -23.833123    30.162326 	Veritas Building, 34 Skirving St, Tzaneen, 0850, South Africa
+299 Capricorn TVET College - Senwabarwana Campus                             -23.286720    29.132587 	A, Bochum, South Africa
+300 Boston City Campus and Business College                                  -23.920260    29.455300 	Floor 3 Standard Bank Bldg, Landros Mare St, Polokwane, 0699, South Africa
+301 School                                                                   -23.010180    30.439530 	Shayandima Zone 10, Shayandima, Thohoyandou, 0945, South Africa
+302 University of Venda                                                      -22.976135    30.446480 	University Rd, Thohoyandou, 0950, South Africa
+303 University of Venda Microbiology Lab                                     -22.950000    30.483333 	Room 170 - 121 Ground Floor Science Building, University Road, Thohoyandou, 0950, South Africa
+304 Unisa Louis Trichardt                                                    -23.041050    29.907420 	91 Krogh Straat, Louis Trichardt, 0920, South Africa
+305 Mulenga College                                                          -22.878330    29.988890 	Matsa, 0955, South Africa
+306 Makhosani Primary School                                                 -23.264511    30.384772 	Khomanani, 0933, South Africa
+307 We-Build Academy                                                         -22.984438    30.464176 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+308 University Of Venda School Of Environmental Sciences                     -22.977470    30.444161 	Thohoyandou, 0950, South Africa
+309 University of Limpopo                                                    -23.888819    29.738550 	Polokwane, 0727, South Africa
+310 University Of Venda Satelite Maths And Science Centre                    -23.130690    30.424328 	Vuwani, 0952, South Africa
+311 Thengwe Campus, Vhembe TVET College                                      -22.749929    30.511224 	South Africa
+312 Makhado Satellite Campus, Vhembe TVET College                            -23.037533    29.910667 	113 Burger St, Louis Trichardt, 0920, South Africa
+313 Tshisimani Campus, Vhembe TVET College                                   -23.055352    30.308840 	Unnamed Road,, Tshakhuma, 0951, South Africa
+314 Mashamba Campus, Vhembe TVET College                                     -23.239914    30.124431 	Ha-Mashamba, 0942, South Africa
+315 Clicks - Musina                                                          -22.338059    30.042572 	Shop no 6 A and B Great North Plaza, N1 Great North, Musina, Polokwane, 0900, South Africa
+316 Game Thohoyandou                                                         -22.973824    30.455954 	Main Rd (R523), Shop 1, Game Shopping Centre, Thohoyandou, 0950, South Africa
+317 Game Makhado                                                             -23.042940    29.912413 	Cnr President & Songozwi St, Louis Trichardt, 0920, South Africa
+318 Checkers                                                                 -23.039313    29.904495 	Cnr Shongwosi Street and Munnik Avenue, Louis Trichardt, 0920, South Africa
+319 Pick n Pay Thohoyandou                                                   -22.976164    30.459709 	Cnr Post Office & Tshandukulu Str, (Inside Mvusuludozo Complex), Thohoyandou, 0950, South Africa
+320 OK Furniture                                                             -23.012167    30.716314 	23, Mangalani Shopping Center, Main Rd, Malamulele, 0982, South Africa
+321 Shoprite Venda Plaza                                                     -22.971294    30.455513 	Venda Sun Road, Thohoyandou-D, Thohoyandou, 0950, South Africa
+322 Pick n Pay Makhado                                                       -23.044661    29.918942 	Cnr N1 & Sebasa St, Makhado, Louis Trichardt, 0920, South Africa
+323 LiquorShop Phangami Mall                                                 -22.972244    30.487884 	Phangami Mall, R524, Thohoyandou, 0950, South Africa
+324 Thohoyandou Boxer Superstores                                            -22.969734    30.455246 	Shop No. 7 Thohoyandou Center, Thohoyandou, 0950, South Africa
+325 Pick n Pay Malamulele                                                    -22.998363    30.693506 	Main Rd, Mala Plaza, Malamulele, 0982, South Africa
+326 PC Worx Musina                                                           -22.340566    30.041221 	Shop 29 Great North Plaza, Musina, South Africa, South Africa
+327 Surat Trading                                                            -23.051608    29.917886 	55 Commercial St, Elti Villas, Louis Trichardt, 0920, South Africa
+328 Beares                                                                   -22.359022    30.032918 	National Rd, Musina, 0900, South Africa
+329 P&L Hardware Musina                                                      -22.331931    30.037335 	Musina, 0900, South Africa
+330 Checkers                                                                 -22.337159    30.042587 	Musina Military Base, Musina, 0900, South Africa
+331 Ravi's Discount World                                                    -22.344520    30.042710 	17 Klaff Ave, Musina, 0900, South Africa
+332 SHOPRITE - Thoyoyandou (Venda Plaza)                                     -22.973123    30.459049 	Main Rd, Thohoyandou, 0950, South Africa
+333 Spar - Louis Trichardt                                                   -23.040237    29.908039 	Songozwi St, Louis Trichardt, 0920, South Africa
+334 P&L Hardware Xikundu                                                     -22.831787    30.859201 	South Africa
+335 Shoprite Mussina                                                         -22.337872    30.042081 	Great North Road Plaza, Shop 9 & 10, Mussina, Musina, 0900, South Africa
+336 Shoprite Louis Trichardt                                                 -23.038000    29.910000 	Sanlam Centre, 105 Burger Street, Louis Trichardt, 0920, South Africa
+337 Musina Spar                                                              -22.350657    30.036428 	5 Irwin St, Musina, 0900, South Africa
+338 Shoprite Malamulele                                                      -22.997157    30.693324 	Mangalani Centre, Shop 973 Malamulele Main Road, Malamulele, 0982, South Africa
+339 Shoprite LiquorShop Sibasa                                               -22.948084    30.471365 	R523, Shoprite Sibisa centre, Sibasa, Thohoyandou, 0970, South Africa
+340 Clicks Pharmacy- Egoli Shopping Centre                                   -23.041795    29.906393 	Shop 2 Egoli Shopping Centre, Makhado, Louis Trichardt, 0920, South Africa
+341 Spar - Elim                                                              -23.156774    30.053154 	Shop 15 Huybeni Shopping Centre, Elim Hospital, Louis Trichardt, 0960, South Africa
+342 PEP Store                                                                -23.038708    29.908205 	103 Krogh Straat, Louis Trichardt, 0920, South Africa
+343 Shoprite Thohoyandou                                                     -22.973067    30.459034 	Thohoyandou Centre, Off East Parking Area, Thohoyandou, 0950, South Africa
+344 Build It                                                                 -23.045141    29.909025 	75 Kruger St, Louis Trichardt, 0920, South Africa
+345 Spar - Thohoyandou                                                       -22.976306    30.461423 	Erf 98, Thohoyandou, 0950, South Africa
+346 Shoprite Usave Thohoyandou                                               -22.976262    30.457378 	Thohoyandou, 0950, South Africa
+347 P&L Hardware                                                             -23.041910    29.909790 	92 Kruger St, Louis Trichardt, 0920, South Africa
+348 Wylliespoort Trading Store                                               -23.042963    29.914123 	South Africa
+349 Tops Bottle Store                                                        -22.350742    30.036867 	2 Irwin St, Musina, 0900, South Africa
+350 CTM - Vhembe                                                             -22.977204    30.475468 	R524 Punda Maria Road, Vhembe, Thohoyandou, 0950, South Africa
+351 Shoprite Elim                                                            -23.156110    30.056390 	Cnr Makhado, Giyani and Levubu Roads, Elim Hospital, Louis Trichardt, 0960, South Africa
+352 Mr Price                                                                 -23.039300    29.907030 	27 Songozwi St, Louis Trichardt, 0920, South Africa
+353 Y&M SUPERMARKET                                                          -22.972146    30.462276 	Thohoyandou, 0950, South Africa
+354 Spar - Messina                                                           -22.342820    30.042060 	National Road, Musina, 0900, South Africa
+355 Jet - Thohoyandou                                                        -22.923930    30.490420 	Thohoyandou, South Africa
+356 Quick Save Supermarket                                                   -22.999776    30.697988 	Plot 793, Malamulele-A, Malamulele, 0982, South Africa
+357 Noorde Wapens - Guns & Ammo                                              -23.045929    29.918937 	N1, Makhado Crossing, Shop 5, Louis Trichardt, 0920, South Africa
+358 Lahcos Agro Dealers ( Pty) Ltd                                           -22.951455    30.186576 	Shop 3/4 VDC Complex,, D449, Phadzima, 0926, South Africa
+359 Shoprite Malamulele Crossing                                             -23.004590    30.685380 	Cnr R81 & Main Road, Malamulele, 0982, South Africa
+360 P&L Hardware Boere                                                       -23.090781    30.273964 	South Africa
+361 Exact - Messina                                                          -22.345550    30.040407 	1 Klaff Ave, Musina, 0900, South Africa
+362 PEP Store                                                                -23.492642    29.724715 	Shop NR 5, Botlokwa Plaza, Matoks, 0600, South Africa
+363 Build It                                                                 -23.155126    30.057088 	Elim, 0960, South Africa
+364 Zulani Safaris                                                           -23.161397    29.260298 	712 R521, 712 R521, South Africa
+365 Green Farms Nut Company (Pty) Ltd                                        -23.059388    30.256725 	Punda Maria Road, 0929, South Africa
+366 Lalepa Pty Ltd                                                           -23.063974    29.911151 	Unika St, Louis Trichardt, 0920, South Africa
+367 Osbro Motors                                                             -23.048160    29.908740 	16 Rissik St, Louis Trichardt, 0920, South Africa
+368 Tshakhuma Fresh Produce Market                                           -23.061761    30.306392 	R524, Tshakhuma, 0951, South Africa
+369 P&L Hardware Tshakuma                                                    -23.062409    30.306119 	Laatsgevonden, Tshakhuma, 0951, South Africa
+370 NMT PHARMACY                                                             -22.969294    30.461747 	Thohoyandou, 0950, South Africa
+371 Supa Quick Auto Centre                                                   -22.348792    30.037298 	N1, Musina, 0900, South Africa
+372 Saifee Tech & Stationers                                                 -22.338213    30.039683 	Musina, 0900, South Africa
+373 KMA BUSINESS CONSULTING                                                  -22.976306    30.461423 	1001 Thohoyandou St, Isithame, Tembisa, 0950, South Africa
+374 BDSmart                                                                  -23.054223    29.901510 	15 Kort Straat, Louis Trichardt, 0920, South Africa
+375 Clicks - Musina                                                          -22.338059    30.042572 	Shop no 6 A and B Great North Plaza, N1 Great North, Musina, Polokwane, 0900, South Africa
+376 Game Thohoyandou                                                         -22.973824    30.455954 	Main Rd (R523), Shop 1, Game Shopping Centre, Thohoyandou, 0950, South Africa
+377 Clicks Pharmacy- Egoli Shopping Centre                                   -23.041795    29.906393 	Shop 2 Egoli Shopping Centre, Makhado, Louis Trichardt, 0920, South Africa
+378 OK Furniture                                                             -23.012167    30.716314 	23, Mangalani Shopping Center, Main Rd, Malamulele, 0982, South Africa
+379 Game Makhado                                                             -23.042940    29.912413 	Cnr President & Songozwi St, Louis Trichardt, 0920, South Africa
+380 Shoprite Venda Plaza                                                     -22.971294    30.455513 	Venda Sun Road, Thohoyandou-D, Thohoyandou, 0950, South Africa
+381 Pick n Pay Malamulele                                                    -22.998363    30.693506 	Main Rd, Mala Plaza, Malamulele, 0982, South Africa
+382 Shoprite Phangami Mall                                                   -22.972263    30.487778 	Phangami Shopping Centre, Cnr Phunda Maria Rd (R524) and R523, Thohoyandou, 0950, South Africa
+383 Pick n Pay Makhado                                                       -23.044661    29.918942 	Cnr N1 & Sebasa St, Makhado, Louis Trichardt, 0920, South Africa
+384 Pick n Pay Thohoyandou                                                   -22.976164    30.459709 	Cnr Post Office & Tshandukulu Str, (Inside Mvusuludozo Complex), Thohoyandou, 0950, South Africa
+385 PEP Store                                                                -23.038708    29.908205 	103 Krogh Straat, Louis Trichardt, 0920, South Africa
+386 Thohoyandou Boxer Superstores                                            -22.969734    30.455246 	Shop No. 7 Thohoyandou Center, Thohoyandou, 0950, South Africa
+387 Lahcos Agro Dealers ( Pty) Ltd                                           -22.951455    30.186576 	Shop 3/4 VDC Complex,, D449, Phadzima, 0926, South Africa
+388 Build It                                                                 -23.045141    29.909025 	75 Kruger St, Louis Trichardt, 0920, South Africa
+389 PC Worx Musina                                                           -22.340566    30.041221 	Shop 29 Great North Plaza, Musina, South Africa, South Africa
+390 P&L Hardware                                                             -23.041910    29.909790 	92 Kruger St, Louis Trichardt, 0920, South Africa
+391 Mr Price                                                                 -23.039300    29.907030 	27 Songozwi St, Louis Trichardt, 0920, South Africa
+392 PEP Cell                                                                 -22.897738    30.036541 	Shop 9 Nzhelele, Valley Shopping Centre, Makhado, 0920, South Africa
+393 Beares                                                                   -22.359022    30.032918 	National Rd, Musina, 0900, South Africa
+394 Checkers LiqourShop                                                      -22.337704    30.042880 	Musina Military Base, Musina, 0900, South Africa
+395 P&L Hardware Musina                                                      -22.331931    30.037335 	Musina, 0900, South Africa
+396 Ravi's Discount World                                                    -22.344520    30.042710 	17 Klaff Ave, Musina, 0900, South Africa
+397 Exact - Messina                                                          -22.345550    30.040407 	1 Klaff Ave, Musina, 0900, South Africa
+398 P&L Hardware Xikundu                                                     -22.831787    30.859201 	South Africa
+399 P&L Hardware Boere                                                       -23.090781    30.273964 	South Africa
+400 SHOPRITE - Thoyoyandou (Venda Plaza)                                     -22.973123    30.459049 	Main Rd, Thohoyandou, 0950, South Africa
+401 Real Paints and Chemicals cc (Thohoyandou branch)                        -22.975137    30.462024 	Tshanduko Complex Shop 17 & 18, Thohoyandou, Thulamela, Vhembe, 0950, South Africa
+402 Green Farms Nut Company (Pty) Ltd                                        -23.059388    30.256725 	Punda Maria Road, 0929, South Africa
+403 PEP Store                                                                -23.492642    29.724715 	Shop NR 5, Botlokwa Plaza, Matoks, 0600, South Africa
+404 Noorde Wapens - Guns & Ammo                                              -23.045929    29.918937 	N1, Makhado Crossing, Shop 5, Louis Trichardt, 0920, South Africa
+405 Zulani Safaris                                                           -23.161397    29.260298 	712 R521, 712 R521, South Africa
+406 Goloza Pharmacy & Medicine Depot                                         -22.974107    30.462542 	Shop No 3 Ynot Complex, Thohoyandou, 0950, South Africa
+407 NMT PHARMACY                                                             -22.969294    30.461747 	Thohoyandou, 0950, South Africa
+408 P&L Hardware Tshakuma                                                    -23.062409    30.306119 	Laatsgevonden, Tshakhuma, 0951, South Africa
+409 Osbro Motors                                                             -23.048160    29.908740 	16 Rissik St, Louis Trichardt, 0920, South Africa
+410 Tshakhuma Fresh Produce Market                                           -23.061761    30.306392 	R524, Tshakhuma, 0951, South Africa
+411 Musina Spar                                                              -22.350657    30.036428 	5 Irwin St, Musina, 0900, South Africa
+412 Checkers                                                                 -23.039313    29.904495 	Cnr Shongwosi Street and Munnik Avenue, Louis Trichardt, 0920, South Africa
+413 Wylliespoort Trading Store                                               -23.042963    29.914123 	South Africa
+414 Spar                                                                     -23.045959    29.277163 	Plaas Amersfoort, Vivo, Makhado, 0924, South Africa
+415 Jet - Thohoyandou                                                        -22.923930    30.490420 	Thohoyandou, South Africa
+416 Supa Quick Auto Centre                                                   -22.348792    30.037298 	N1, Musina, 0900, South Africa
+417 Clicks Pharmacy - Masingita Crossing                                     -23.005200    30.685000 	25 Malemulele Crossing, Cnr Main and Malemulele Roads, Malemulele, Polokwane, 0382, South Africa
+418 KMA BUSINESS CONSULTING                                                  -22.976306    30.461423 	1001 Thohoyandou St, Isithame, Tembisa, 0950, South Africa
+419 BDSmart                                                                  -23.054223    29.901510 	15 Kort Straat, Louis Trichardt, 0920, South Africa
+420 SI HARDWARE                                                              -22.974363    30.463941 	OPPOSITE TO OLD UIF BUILDING, THOHOYANDOU, Thohoyandou, 0950, South Africa
+421 Shoprite Sibasa                                                          -22.948165    30.471603 	Mphephu Avenue, Sibasa, 0970, South Africa
+422 Mr Price                                                                 -22.339779    30.040369 	Shop 69 Bepro Shop Ctr, National Rd, Musina, 0900, South Africa
+423 Mr Price / MRP                                                           -22.341500    30.038900 	Shop B03 Great North Plaza, N1 road, Limpopo North, Musina, 0900, South Africa
+424 Spar - Nzhelele                                                          -22.898418    30.036909 	Shop 7 Nzhelele Shopping Centre, R523, Dzanani, Makhado Rural, 0955, South Africa
+425 Mr Price / MRP                                                           -23.156167    30.053936 	Shop 6 Mall Erf 1,2,4,8,9,& 12 Elim-pheni, Limpopo St, Elim, CBS Township Limpopo, 7284, South Africa
+426 CTM - Vhembe                                                             -22.977204    30.475468 	R524 Punda Maria Road, Vhembe, Thohoyandou, 0950, South Africa
+427 Lalepa Pty Ltd                                                           -23.063974    29.911151 	Unika St, Louis Trichardt, 0920, South Africa
+428 Musina Superstores                                                       -22.345638    30.039808 	N1, National Road, Musina, Limpopo, 0900, South Africa
+429 P&L Hardware Venda                                                       -22.991677    30.425976 	F.N. Ravele Road, Shayandima-A, Thohoyandou, 0950, South Africa
+430 Arthur Ford Superior                                                     -22.339767    30.041471 	Musina, 0900, South Africa
+431 Masequa Bricks.                                                          -22.835106    29.887598 	Louis Trichardt, South Africa
+432 PC Worx Makhado                                                          -23.045087    29.918628 	Shop 16, Makhado Crossing, Cnr N1 and Sibasa street, Makhado, Louis Trichardt, 0920, South Africa
+433 P&L Hardware Malamulele                                                  -23.008159    30.688532 	Xitlhelani, South Africa
+434 The Crazy Store                                                          -22.339159    30.040593 	Shop 55B, Musina Mall, Cnr Smelter Avenue and Great North, Musina, Limpopo, 0900, South Africa
+435 Thavhani Mall                                                            -22.983885    30.463210 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+436 MVUSULUDZO MALL                                                          -22.975716    30.459226 	Thohoyandou, 0950, South Africa
+437 Botlokwa Shopping Plaza                                                  -23.492840    29.724701 	Sefene, 0812, South Africa
+438 Musina Mall                                                              -22.337544    30.041957 	Musina, 0900, South Africa
+439 Malamulele Plaza                                                         -22.998704    30.692829 	Malamulele-A, Malamulele, 0982, South Africa
+440 Makhado Crossing Mall                                                    -23.045518    29.918819 	Louis Trichardt, 0920, South Africa
+441 Venda Plaza                                                              -22.970746    30.456025 	Cnr. Mphephu St & Main Rd, Sibasa, Thohoyandou, 0970, South Africa
+442 Musina Centre                                                            -22.349800    30.036670 	Messina Road, Musina, 0900, South Africa
+443 Elim Mall                                                                -23.156640    30.057435 	Elim, 0960, South Africa
+444 Nkuzana Shopping Centre (Proposed)                                       -23.211568    30.309836 	23°12'41. 30°18'35., 6"S 4th St, Louis Trichardt, 0920, South Africa
+445 SABINA PLAZA                                                             -22.976198    30.456599 	93 Mphephu Main Road, Thohoyandou CBD, Thohoyandou, 0950, South Africa
+446 Vhembe Agriculture Hub                                                   -22.974538    30.459650 	Thohoyandou, 0950, South Africa
+447 MUTSINDO MALL                                                            -22.975998    30.461276 	Thohoyandou, 0950, South Africa
+448 Masingita Crossing Mall                                                  -23.004358    30.685601 	Malamulele-A, Malamulele, 0982, South Africa
+449 Sasekisa Mini Shopping Centre                                            -23.213612    30.245423 	Ka-Bungeni, South Africa
+450 Mala Plaza                                                               -23.002610    30.698570 	Main Road, Malamulele-A, Malamulele, 0982, South Africa
+451 Shoprite Centre - Makhado                                                -23.039461    29.909645 	105 Burger St, Louis Trichardt, 0920, South Africa
+452 Mushavhi Shoping Centre                                                  -22.941126    30.708957 	shopping near, Shigalo, South Africa
+453 Tshidzini Shopping centre                                                -22.827901    30.690485 	Tshifudi, 0979, South Africa
+454 Selokwe Shopping Centre                                                  -23.256992    30.104862 	Mukondeni, 0942, South Africa
+455 Sasekisa Mini Shopping Centre, Bungeni                                   -23.184520    30.169033 	Bungeni, South Africa
+456 Ndou Mall                                                                -22.971992    30.460609 	South Rd, Thohoyandou, Sandton, 0950, South Africa
+457 Sanity Factory Shop                                                      -23.039273    29.908191 	23°02'21. 29°54'29., 4 5th St, Louis Trichardt, 0920, South Africa
+458 Boxer - Saselamani                                                       -22.838723    30.858508 	Saselamani Shopping Centre, Punda Maria Road, Saselamani, Thulamela Rural, 0928, South Africa
+459 Laduma Hardware Malamulele                                               -23.007626    30.686907 	Xitlhelani, South Africa
+460 Bindulavhathu                                                            -22.736968    30.536089 	Tshilamba, 0956, South Africa
+461 Bettabets Musina                                                         -22.343589    30.041322 	4 Limpopo Ave, Musina, 0900, South Africa
+462 TechnoLab - Your I.T. Partner                                            -22.974862    30.462127 	Thohoyandou, 0950, South Africa
+463 FNB Bank ATM Phangami Mall                                               -22.971770    30.488800 	Shop No 18 Block G, Thohoyandou, 0950, South Africa
+464 FNB Bank ATM                                                             -23.045420    29.918240 	Cnr N1 and Sibasa Road, Makhado, Louis Trichardt, 0920, South Africa
+465 Giyani Plaza Centre                                                      -23.309520    30.692820 	Danie Theron Street, Giyani-BA, Giyani, 0826, South Africa
+466 Giyani Regional Mall                                                     -23.313041    30.696605 	Giyani-BA, Giyani, 0826, South Africa
+467 Masingita Mall                                                           -23.310250    30.694650 	Giyani-BA, Giyani, 0826, South Africa
+468 Mopani Super Spar Centre - Vukile                                        -23.311922    30.693387 	Giyani-BA, Giyani, 0826, South Africa
+469 Masingita Plaza                                                          -23.306264    30.686888 	23°18'22. 30°41'12.8"E, 6th Rd, Northern Farm, 2189, South Africa
+470 Bochum and Blouberg Plaza                                                -23.288682    29.137873 	366 Dendron Road, Bochum-A, Bochum, 0790, South Africa
+471 Bochum Plaza                                                             -23.271000    29.123000 	364 Dendron Road, Bochum, 0790, South Africa
+472 Teyisi Shopping Centre                                                   -23.289780    30.711797 	Giyani-F, Giyani, 0826, South Africa
+473 Siksha Decor & Lifestyle Centre                                          -23.907870    29.446580 	8 Jorissen St, Polokwane Central, Polokwane Limpopo Province South Africa, 0699, South Africa
+474 Shoe Zone                                                                -23.313043    30.695503 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+475 SLEEPMASTERS                                                             -22.347171    30.040273 	4 Turner Ave, Musina, 0900, South Africa
+476 Lutumba Shopping Centre                                                  -22.086250    30.118359 	Beitbridge, Zimbabwe
+477 Tzaneen Crossing Mall                                                    -23.830185    30.162330 	37 California St, Arbor Park, Tzaneen, 0850, South Africa
+478 Tzaneng Mall Centre                                                      -23.825830    30.161900 	26 Danie Joubert St, Tzaneen, 0850, South Africa
+479 Mall of the North                                                        -23.873690    29.509297 	Cnr R81 & N1, Bendor Park, Polokwane, 0699, South Africa
+480 Side Step Limpopo Mall                                                   -23.904344    29.449768 	86 Devenish St, Polokwane Central, Polokwane, 0700, South Africa
+481 Healing Miracle Church                                                   -22.967613    30.493691 	4923 mbaleni Makwarela ext 3 limpopo province vhembe district south africa, South Africa
+482 dzimauli baptist church                                                  -22.781576    30.447399 	Unnamed Rd,Tshibvumo,, 0956, South Africa
+483 Charis Missionary Church (VHEMBE)                                        -22.943424    30.490950 	Unnamed Road, Thohoyandou, 0950, South Africa
+484 Emmanuel Church Louis Trichardt                                          -23.032920    29.921360 	3 Koraalboom St, Louis Trichardt, 0920, South Africa
+485 Christ Worship House Church                                              -22.994461    30.418870 	Shayandima, Thohoyandou, 0950, South Africa
+486 Mushiru Assemblies Of God Church                                         -22.760271    30.846280 	Mahagala, 0928, South Africa
+487 Mukovhawabale Seventh-Day Adventist Church                               -22.573703    30.538790 	South Africa
+488 Fountain of Life Bible Church                                            -22.955732    30.189062 	South Africa
+489 House Of Grace Church                                                    -23.053134    29.920555 	46 3rd St, Louis Trichardt, 0920, South Africa
+490 Higher Grace Church                                                      -22.893083    30.031157 	Makhado, South Africa
+491 Ngovhela Roman Catholic Church                                           -22.932497    30.467446 	Main Street, Sibasa, Thohoyandou, 0970, South Africa
+492 St. Mark's Anglican Church                                               -23.033640    29.907850 	128 Munnik St, Louis Trichardt, 0920, South Africa
+493 Lighthouse Christian Church                                              -22.891021    30.179136 	Sendedza, 0993, South Africa
+494 African Church Apostolic In Zion                                         -22.840367    30.629255 	Thohoyandou, South Africa
+495 African Baptist Apostolic Church                                         -23.349567    30.149840 	Ga-Phooko, South Africa
+496 Masakona Church of Christ                                                -23.276206    30.243266 	Masakona, 0941, South Africa
+497 Our Lady of Peace Catholic Church                                        -23.049750    29.905890 	45 Burger St, Louis Trichardt, 0920, South Africa
+498 Gidjamhandeni Independent Baptist Church                                 -23.009820    30.784195 	Gijamandzini, 0982, South Africa
+499 AME CHURCH                                                               -22.963928    30.496242 	Makwarela, Thohoyandou, 0950, South Africa
+500 Thengwe United Bible Church                                              -22.721031    30.553096 	Thengwe, 0956, South Africa
+501 Shivulani Healing Ministry Church                                        -23.146435    30.704060 	Shivulani, South Africa
+502 Bungeni Full Gospel Church                                               -23.190502    30.185209 	Bodwe Rd, Chavani 3, South Africa
+503 Bungeni Afm Church                                                       -23.197577    30.195385 	Xitaci, Bungeni, South Africa
+504 Ramugondo SDA Church                                                     -22.872190    30.553159 	Mukula, Thohoyandou, 0978, South Africa
+505 African Methodist Church                                                 -23.048884    29.881147 	Tshikota, Louis Trichardt, 0920, South Africa
+506 Khubvi Worshiping Church Center                                          -22.816618    30.544393 	Khubvi, Thohoyandou, South Africa
+507 Immanuel Kingdom Church(IKC)                                             -23.158894    30.475249 	Mianzwi,, 0952, South Africa
+508 Beuster Evangelial Lutheran Church                                       -22.968538    30.427170 	481 Block F, Thohoyandou, Maungani, Thohoyandou, 0950, South Africa
+509 Messina Baptist Church                                                   -22.342002    30.044991 	13 Limpopo Ave, Musina, 0900, South Africa
+510 Dutch Reformed Church                                                    -23.045449    29.873082 	Legong Street,, Louis Trichardt, 0920, South Africa
+511 Church of God In Christ                                                  -22.881293    30.258856 	Tshiheni, South Africa
+512 Christian Worship Centre, Thohoyandou                                    -22.980143    30.476328 	K, Thohoyandou, Thohoyandou, 0950, South Africa
+513 Parousia Christian Church Centre                                         -22.807144    30.754169 	Masiwane, 0987, South Africa
+514 Oasis Of Life Bible Church                                               -23.006649    30.698265 	Caltex and Du Light Road,, Malamulele, 0982, South Africa
+515 Trinity Baptist Church                                                   -23.199287    30.091576 	Stand Number 3298, Mbhokota, South Africa
+516 Ramokgopa Catholic Church                                                -23.465494    29.819261 	Mokomene Zone 2, Mokonene, 0811, South Africa
+517 Elim Evangelical Presbyterian Church (Epc)                               -23.160009    30.058580 	Elim, 0960, South Africa
+518 Agape Christian Centre                                                   -23.040354    29.905179 	90 Munnik St, Louis Trichardt, 0920, South Africa
+519 Bethlehem Apostolic Church                                               -22.726969    30.530847 	Masisi, South Africa
+520 DUVHULEDZA REFORMED CHURCH                                               -22.757870    30.790311 	Lukalo, 0987, South Africa
+521 Masakona Reformed Church                                                 -23.280981    30.247734 	Masakona, 0941, South Africa
+522 Nederduitsch Hervormde Kerk Van Afrika - Vivo                            -23.042680    29.278970 	South Africa
+523 Twcc True Worship Christian Centre (Twcc church)                         -23.040709    29.642633 	R522 Makhado/Vivo Road, Midoroni Village, Midoroni, 0940, South Africa
+524 TSHIDZINI REFORMED CHURCH                                                -22.839958    30.668463 	Tshidzini, Thohoyandou, 0987, South Africa
+525 Jesus Fellowship Church                                                  -22.980896    30.503647 	Tshilungoma, Thohoyandou, 0950, South Africa
+526 The Will Of God Church                                                   -22.893579    30.195437 	Siloam, 0993, South Africa
+527 Tshifulanani Anglican Church, Dzindi Parish, Diocese Of St Mark          -23.034687    30.386685 	343 Mathule Street, Tshifulanani, 0945, South Africa
+528 RCCM Church.                                                             -22.345077    30.008547 	Musina, 0900, South Africa
+529 Faith Centered Evangelical Church                                        -22.764402    30.787594 	Lukalo, 0987, South Africa
+530 Ngovhela Lutheran Church                                                 -22.953720    30.430574 	Ngovhela, Thohoyandou, South Africa
+531 Lutheran church                                                          -22.998348    30.457263 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+532 Tshifulanani Lutheran Church                                             -23.041252    30.392308 	Mathule, 0945, South Africa
+533 Nyavani Seventh Day Adventist Church                                     -22.899211    30.760699 	Nyavani,, South Africa
+534 Folovhodwe Church Of Nazarene                                            -22.588891    30.427035 	Folovhodwe, 0907, South Africa
+535 Full Gospel Church                                                       -22.360931    30.046957 	Musina, 0900, South Africa
+536 Malamulele Catholic Parish                                               -22.999370    30.697033 	lot 28 A, Malamulele Rd, Giyani, South Africa
+537 Lutheran Church                                                          -23.251713    30.102528 	Louis Trichardt, South Africa
+538 Almighty Christian Church                                                -22.906819    30.717841 	Thohoyandou, South Africa
+539 Roman Catholic Church                                                    -22.939644    30.176689 	Phadzima, 0926, South Africa
+540 St. Mary Anglican Church Mangata                                         -23.474876    29.708968 	Unnamed Road, Mangata, 0812, South Africa
+541 Venetia Mine                                                             -22.433889    29.313889 	22°26'02.0"S 29°18'50.، 0، South Africa
+542 Tshikondeni Mine                                                         -22.515134    30.941899 	South Africa

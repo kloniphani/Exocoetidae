@@ -22,7 +22,15 @@
     <ClInclude Include="topology.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="topology.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\bachauling.json" />
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\kmeans.json" />
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\myopic.json" />
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\nodes.json" />
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\nodesMopani.json" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

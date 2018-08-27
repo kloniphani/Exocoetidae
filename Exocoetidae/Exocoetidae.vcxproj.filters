@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{2f6fe2bb-844f-4814-8485-6f5a787bda01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support\Location">
+      <UniqueIdentifier>{453e8cf6-8de6-4d55-82b8-7bcd339af133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support\Location\Mopani">
+      <UniqueIdentifier>{dd9ecc45-c490-4065-b4e6-165d60605536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support\Location\Mopani\Distribution">
+      <UniqueIdentifier>{0054e429-675a-4130-81b2-36a8cd2604f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support\Location\Mopani\Distribution\Uniform">
+      <UniqueIdentifier>{be2ae88b-ea25-4d2a-bff2-f7d00b8e8b6f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="topology.h">
@@ -23,5 +38,25 @@
     <ClCompile Include="topology.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\bachauling.json">
+      <Filter>Support\Location\Mopani\Distribution\Uniform</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\kmeans.json">
+      <Filter>Support\Location\Mopani\Distribution\Uniform</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\myopic.json">
+      <Filter>Support\Location\Mopani\Distribution\Uniform</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\nodes.json">
+      <Filter>Support\Location\Mopani\Distribution\Uniform</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\nodesMopani.json">
+      <Filter>Support\Location\Mopani\Distribution\Uniform</Filter>
+    </None>
   </ItemGroup>
 </Project>

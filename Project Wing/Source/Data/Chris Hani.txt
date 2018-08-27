@@ -1,0 +1,330 @@
+  1 Frontier Hospital                                                        -31.888320    26.871640 	Kingsway Ave, Queenstown, 5320, South Africa
+  2 Philani Clinic                                                           -31.910528    26.867722 	Top St, Mlungisi, Queenstown, 5319, South Africa
+  3 Gwatyu Clinic                                                            -32.006299    27.321928 	Thembani, South Africa
+  4 Khuze Clinic                                                             -32.213587    27.627979 	Lalini, South Africa
+  5 Noupoort Christian Care Centre                                           -31.177822    24.951383 	C/O Shaw Street & Mill Street, Noupoort, 5950, South Africa
+  6 FRANSBURY CLINIC                                                         -31.964835    27.078034 	Rayini, South Africa
+  7 Mens Clinic International - Queenstown                                   -31.897494    26.879510 	20 Ebden St, Queenstown, 5325, South Africa
+  8 Spec-Savers Cradock                                                      -32.164749    25.616667 	90 Adderley St, Cradock, 5880, South Africa
+  9 Thembalethu Clinic Elliot                                                -31.336823    27.861064 	Bungani St, Elliot, 5460, South Africa
+ 10 Spec-Savers Queenstown                                                   -31.895833    26.873167 	3 Robinson Rd, Queenstown, 5320, South Africa
+ 11 Bedford Municipality Clinic                                              -32.684120    26.088750 	Coal Street, Bedford, 5780, South Africa
+ 12 Mqanduli Community Clinic                                                -31.819899    28.767630 	Mqanduli, 5080, South Africa
+ 13 Frontier Hospital                                                        -31.888320    26.871640 	Kingsway Ave, Queenstown, 5320, South Africa
+ 14 Nomzamo Health Centre                                                    -31.913158    26.970551 	Ezibeleni, Queenstown, 5326, South Africa
+ 15 Philani Clinic                                                           -31.910528    26.867722 	Top St, Mlungisi, Queenstown, 5319, South Africa
+ 16 V Tuluma                                                                 -31.898355    26.882451 	80 Ebden St, Queenstown, 5320, South Africa
+ 17 LAMSA Occupational Health                                                -32.169520    25.614460 	11A Dundas St, Cradock, 5880, South Africa
+ 18 Christo Klopper Psychologist                                             -31.876000    26.871146 	1 Cedarberg Rd, Bergsig, Queenstown, 5319, South Africa
+ 19 Baziya Clinic                                                            -31.615340    28.383772 	Baziya Mission, South Africa
+ 20 Queenstown Private Hospital                                              -31.898067    26.879719 	63 Ebden Road, Queenstown, 5320, South Africa
+ 21 All Saints Hospital                                                      -31.659595    28.046632 	All Saints Mission, Mxesibe, South Africa
+ 22 Hewu Hospital                                                            -32.169849    26.791426 	Main Road, Whittlesea, 5360, South Africa
+ 23 Wilhelm Stahl Hospital                                                   -31.491133    24.996126 	11 Du Plessis St, Middelburg - Ec, Middelburg, 5900, South Africa
+ 24 Cradock Provincial Hospital                                              -32.167300    25.621503 	Hospital Street, Cradock, 5880, South Africa
+ 25 Frontier Hospital                                                        -31.888320    26.871640 	Kingsway Ave, Queenstown, 5320, South Africa
+ 26 Elliot Hospital                                                          -31.336610    27.837830 	Elliot, Eastern Cape, South Africa, South Africa
+ 27 Dordrecht Hospital                                                       -31.369340    27.042370 	34 Grey Street, Dordrecht, 5435, South Africa
+ 28 Cathcart Hospital                                                        -32.297771    27.136586 	1 Main St, Cathcart, 5310, South Africa
+ 29 Sterkstroom Hospital                                                     -31.553024    26.554103 	18 La Grange St, Sterkstroom, Eastern Cape, 5425, South Africa
+ 30 Indwe Hospital                                                           -31.467622    27.340414 	Graham St, Indwe, 5445, South Africa
+ 31 Mjanyana Hospital                                                        -31.832455    28.106336 	Mjanyana, Ngcobo, 5050, South Africa
+ 32 Cofimvaba Hospital                                                       -32.011352    27.581764 	Cofimvaba, 5380, South Africa
+ 33 FRANSBURY CLINIC                                                         -31.964835    27.078034 	Rayini, South Africa
+ 34 Nurture Care Cure Queenstown                                             -31.900690    26.860913 	Queenstown, 5319, South Africa
+ 35 Butterworth Hospital                                                     -32.332519    28.138180 	Scanlon Road, Siyanda, 4960, South Africa
+ 36 Andries Vosloo Hospital                                                  -32.732692    25.590796 	Charles St, Somerset East, 5850, South Africa
+ 37 Provincial Hospital                                                      -31.293083    25.811941 	Steynsburg, 5920, South Africa
+ 38 Maclear General Hospital                                                 -31.075871    28.347714 	Fourie St, Maclear, 5480, South Africa
+ 39 Stutterheim Hospital                                                     -32.571370    27.419490 	South Africa
+ 40 Hospital                                                                 -32.107959    28.313488 	Idutywa, 5000, South Africa
+ 41 Cloete Joubert Hospital - Pharmacy                                       -30.968233    27.586717 	Voortrekker Road, Barkly East, 9786, South Africa
+ 42 Burgersdorp Hospital                                                     -30.993925    26.314299 	Daantjie Van Der Heever Street, Burgersdorp, 9744, South Africa
+ 43 Bedford Orthopidic Hospital                                              -31.576497    28.707005 	Bedford Convent, Mthatha, Chris Hani, South Africa
+ 44 Adelaide Hospital                                                        -32.700290    26.294230 	43 Church St, Adelaide, 5760, South Africa
+ 45 Bedford Hospital                                                         -32.676368    26.082549 	4 Maitland St, Bedford, 5780, South Africa
+ 46 Nelson Mandela Academic Hospital                                         -31.586462    28.764164 	Sisson St, Fort Gale, Mthatha, 5100, South Africa
+ 47 Saint Lucy's Hospital                                                    -31.298272    28.629830 	ST Cuthberts Mission, Tsolo, 5170, South Africa
+ 48 Life St Marys Private Hospital                                           -31.591429    28.785323 	30 Durham St, Norwood, Mthatha, 5100, South Africa
+ 49 Mthatha Private Hospital                                                 -31.592778    28.781317 	59 Nelson Mandela Dr, Norwood, Mthatha, 5100, South Africa
+ 50 Victoria Hospital                                                        -32.775335    26.846398 	Kuntselamanzi St, Wynberg, Cape Town, 5700, South Africa
+ 51 Cradock Hospital                                                         -32.167249    25.621488 	49 Hospitaal St, Cradock, 5880, South Africa
+ 52 Frontier Hospital                                                        -31.888320    26.871640 	Kingsway Ave, Queenstown, 5320, South Africa
+ 53 Hewu Hospital                                                            -32.169849    26.791426 	Main Road, Whittlesea, 5360, South Africa
+ 54 All Saints Hospital                                                      -31.659595    28.046632 	All Saints Mission, Mxesibe, South Africa
+ 55 Nurture Care Cure Queenstown                                             -31.900690    26.860913 	Queenstown, 5319, South Africa
+ 56 Christo Klopper Psychologist                                             -31.876000    26.871146 	1 Cedarberg Rd, Bergsig, Queenstown, 5319, South Africa
+ 57 LAMSA Occupational Health                                                -32.169520    25.614460 	11A Dundas St, Cradock, 5880, South Africa
+ 58 Police Station (Kleinbulhoek)                                            -32.166093    26.574934 	Eastern Cape, South Africa, South Africa
+ 59 Police Station (Engcobo)                                                 -31.676439    27.998618 	R61, Engcobo, Ngcobo, 5050, South Africa
+ 60 Elliot Traffic Department                                                -31.336199    27.840466 	Elliot, South Africa
+ 61 Sherrif of The Court                                                     -32.159272    25.601754 	Cradock, 5880, South Africa
+ 62 South African Police Service                                             -30.687680    26.710914 	15 Barkly St, Aliwal North, 9750, South Africa
+ 63 South African Police Services (Mqanduli)                                 -31.819106    28.762783 	Main St, Mqanduli, 5080, South Africa
+ 64 The South African Police Service                                         -32.830077    27.200954 	Siwani St, Dimbaza, 5671, South Africa
+ 65 South African Police Service                                             -32.718809    25.590944 	345 Glen Avon St, Somerset East, 5850, South Africa
+ 66 South African Police Service                                             -32.945965    27.725608 	Mazaule Road, Riverine, Mdantsane, 5219, South Africa
+ 67 Stutterheim Traffic Department                                           -32.573980    27.422246 	Stutterheim, 4930, South Africa
+ 68 Tsolo Police station                                                     -31.312470    28.757780 	168 Welsh Street, Tsolo, 5170, South Africa
+ 69 Madeira Police Station                                                   -31.587119    28.789885 	Norwood, Mthatha, 5100, South Africa
+ 70 Saps - Queenstown                                                        -31.897080    26.871310 	Queenstown, 5320, South Africa
+ 71 Ida Saps                                                                 -31.396971    27.787309 	Elliot, South Africa
+ 72 Saps - Middelburg(C)                                                     -31.492520    25.006230 	73 Meintjies St, Middelburg - Ec, Middelburg, 5900, South Africa
+ 73 Middelburg Correctional Services                                         -31.483832    24.995072 	Van Niekerk Street Ext, Middelburg, 5900, South Africa
+ 74 Correctional Service                                                     -32.168580    25.650410 	Cradock, 5880, South Africa
+ 75 Elliot Traffic Department                                                -31.336199    27.840466 	Elliot, South Africa
+ 76 Provincial Traffic Control                                               -32.180971    25.650991 	Lingelihle, Cradock, 5881, South Africa
+ 77 Provincial Traffic Control - Cradock                                     -32.159122    25.601710 	Cradock, 5880, South Africa
+ 78 Department Of Home Affairs Queenstown                                    -31.895208    26.871006 	5, Hexagon Hotel, Zeiler St & Cathcart St, Queenstown, 5320, South Africa
+ 79 CHRIS HANI DISTRICT MUNICIPALITY                                         -31.900497    26.876028 	15 Bells Rd, Queenstown, 5319, South Africa
+ 80 Police Station                                                           -32.204688    27.941470 	Nqamakwe, 4990, South Africa
+ 81 South African Department of Labour                                       -31.895629    26.872756 	10 Robinson Rd, Queenstown, 5320, South Africa
+ 82 Department of Home Affairs - Engcobo District Office                     -31.676019    27.997284 	61 Church St, Engcobo, Ngcobo, 5050, South Africa
+ 83 Chris Hani Public Primary School                                         -31.381400    27.036470 	783, Dordrecht, 5435, South Africa
+ 84 EFF Chris Hani REgional Office                                           -31.902616    26.876136 	31 Komani St, Queenstown, 5320, South Africa
+ 85 Queenstown Girls' High School                                            -31.888151    26.879021 	18 Frost St, Eastern Cape, Queenstown, 5320, South Africa
+ 86 Ikhwezi Lokusa SP School                                                 -31.477120    27.531920 	South Africa
+ 87 Freemantle Boys' High School                                             -31.708930    27.187050 	Freemantle, South Africa
+ 88 Queens College Senior School                                             -31.889510    26.876679 	South Africa
+ 89 Southbourne Preparatory School                                           -31.903150    26.883250 	52 Wodehouse St, Queenstown, 5320, South Africa
+ 90 Christ the King Primary School                                           -31.898811    26.875806 	36 Owen St, Queenstown, 5319, South Africa
+ 91 Hangklip Primary School                                                  -31.885520    26.868230 	15 Frost St, Queenstown, 5320, South Africa
+ 92 Balmoral Girls' Primary School                                           -31.887389    26.882460 	20 Haig Ave, Queenstown, 5320, South Africa
+ 93 Queen's College Boys Primary School                                      -31.885222    26.876381 	2 Haig Ave, Queenstown, 5320, South Africa
+ 94 Louis Rex Primary School                                                 -31.909430    26.873940 	24 Adams St, Queenstown, 5320, South Africa
+ 95 Hexagon High School                                                      -31.892157    26.871480 	27 Robinson Rd, Queenstown, 5320, South Africa
+ 96 Cathcart High School                                                     -32.295220    27.144870 	45 Merriman St, Cathcart, 5310, South Africa
+ 97 Cala Pass Primary School                                                 -31.470900    27.718250 	South Africa
+ 98 Mzamomhle High School                                                    -32.304760    26.655590 	South Africa
+ 99 Maria Louw High School                                                   -31.922235    26.872149 	Scholars Wlk, Victoria Park, Queenstown, 5319, South Africa
+100 Petrusdal Farm School                                                    -32.187920    24.980640 	South Africa
+101 Van Coller Primary School                                                -31.910777    26.865316 	Top St, Bongweni, Queenstown, 5320, South Africa
+102 Guba Hoek JS School                                                      -31.522190    27.278130 	South Africa
+103 Bangilizwe JS School                                                     -32.136920    27.485160 	South Africa
+104 Cradock High School                                                      -32.163479    25.621169 	14 Naested St, Cradock, 5880, South Africa
+105 Stepping Stone Pre School                                                -31.895538    26.885569 	81 Livingstone St, Queenstown, 5319, South Africa
+106 Hangklip High School                                                     -31.889965    26.870178 	Olivier Rd, Queenstown, 5319, South Africa
+107 Nyalabane Primary School                                                 -32.130220    26.026940 	South Africa
+108 Sherwood Farm School                                                     -31.732910    26.742520 	South Africa
+109 Bongolethu Primary                                                       -32.173770    26.784000 	Ekuphumleni, Whittlesea, 5360, South Africa
+110 Kwakomani Secondary School                                               -31.909220    26.858040 	Mlungisi, Queenstown, 5321, South Africa
+111 Michausdal Primary School                                                -32.175560    25.636910 	Cradock, 5880, South Africa
+112 John Noah High School                                                    -31.924520    26.855720 	Mlungisi, Queenstown, 5321, South Africa
+113 Ntsonkotha SS School                                                     -31.696870    27.032830 	Agnes, Lady Frere, South Africa
+114 Get Ahead Project                                                        -31.910764    26.919375 	Faraday Rd, Queenstown, 5320, South Africa
+115 Nkwanca Public High School                                               -31.915430    26.869910 	5027 Yekani St, Mlungisi, Queenstown, 5321, South Africa
+116 W.S.U campus                                                             -32.170055    26.821621 	Whittlesea, 5360, South Africa
+117 Ikhala TVET College                                                      -31.901159    26.970157 	Gwadana Drive, Ezibeleni, Queenstown, 5326, South Africa
+118 Enoch Mamba Secondary School                                             -31.871730    28.331980 	South Africa
+119 Buthisizwe L/HP School                                                   -32.428930    26.782420 	South Africa
+120 Ikhala                                                                   -31.893186    26.871137 	Robinson Rd, Queenstown, 5319, South Africa
+121 E.N.Seku Secondary School                                                -31.853350    28.486910 	South Africa
+122 Nqabane JS School                                                        -31.894340    28.356090 	South Africa
+123 Boston City Campus & Business College - Queenstown                       -31.893834    26.875410 	3 Grey St, Queenstown, 5319, South Africa
+124 CHRIS HANI DISTRICT MUNICIPALITY                                         -31.900497    26.876028 	15 Bells Rd, Queenstown, 5319, South Africa
+125 Nozibele Primary School                                                  -31.144850    27.487110 	South Africa
+126 Ikhala TVET College                                                      -31.901159    26.970157 	Gwadana Drive, Ezibeleni, Queenstown, 5326, South Africa
+127 Ikhala                                                                   -31.893186    26.871137 	Robinson Rd, Queenstown, 5319, South Africa
+128 King Sabatha Dalindyebo College (KSD)                                    -31.686798    27.989462 	Ngcobo, 5050, South Africa
+129 Queens College Senior School                                             -31.889510    26.876679 	South Africa
+130 Grootfontein Agricultural College                                        -31.473288    25.028575 	South Africa
+131 Queen's College Boys Primary School                                      -31.885222    26.876381 	2 Haig Ave, Queenstown, 5320, South Africa
+132 Lukhanji FET College                                                     -31.910520    26.896727 	16-, 18 Dieprivier St, Laurie Dashwood, Queenstown, 5320, South Africa
+133 Get Ahead College                                                        -31.909065    26.917074 	Faraday Rd, Queenstown, 5320, South Africa
+134 Grootfontein Agric Development Institute                                 -31.471348    25.025200 	On N9 Road to Pe, Middelburg, 5900, South Africa
+135 Royal Academy High School                                                -31.894368    26.879712 	35 Queens Dr, Queenstown, 5319, South Africa
+136 No College Pre-School                                                    -31.666010    26.831920 	Thozamisa, South Africa
+137 Boston City Campus & Business College - Queenstown                       -31.893834    26.875410 	3 Grey St, Queenstown, 5319, South Africa
+138 Plumb Line Christian Academy                                             -32.034729    26.211971 	Sixth Orange St, Northern Farm, 2189, South Africa
+139 Christ the King Primary School                                           -31.898811    26.875806 	36 Owen St, Queenstown, 5319, South Africa
+140 Walter Sisulu University - Queenstown Campus                             -31.894618    26.873020 	Shepstone St, Queenstown, 5319, South Africa
+141 Queenstown Girls' High School                                            -31.888151    26.879021 	18 Frost St, Eastern Cape, Queenstown, 5320, South Africa
+142 Get Ahead Project                                                        -31.910764    26.919375 	Faraday Rd, Queenstown, 5320, South Africa
+143 Kwakomani Secondary School                                               -31.909220    26.858040 	Mlungisi, Queenstown, 5321, South Africa
+144 Chris Hani Primary School                                                -25.106670    29.051830 	Siyabuswa-B, Siyabuswa, 0472, South Africa
+145 Rhodes University                                                        -31.896017    26.876122 	24 Ebden St, Queenstown, 5319, South Africa
+146 Walter Sisulu University - Queenstown Campus                             -31.894618    26.873020 	Shepstone St, Queenstown, 5319, South Africa
+147 Walter Sisulu University                                                 -31.896370    26.883280 	66 Grey St, Queenstown, 5320, South Africa
+148 Grootfontein Agricultural College                                        -31.473288    25.028575 	South Africa
+149 University                                                               -32.172039    26.787550 	No 280 Shepston Road, Whittlesea, 5360, South Africa
+150 Boston City Campus & Business College - Queenstown                       -31.893834    26.875410 	3 Grey St, Queenstown, 5319, South Africa
+151 Get Ahead College                                                        -31.909065    26.917074 	Faraday Rd, Queenstown, 5320, South Africa
+152 Walter sisulu university                                                 -32.176027    26.790893 	Ekuphumleni, Whittlesea, 5360, South Africa
+153 University of Fort Hare, Alice Campus                                    -32.785940    26.848470 	Ring Road, Alice, 5700, South Africa
+154 Eastern Cape Technikon                                                   -32.299440    28.204440 	South Africa
+155 Rhodes University                                                        -33.313591    26.516313 	Drosty Rd, Grahamstown, 6139, South Africa
+156 Nelson Mandela University - North Campus                                 -34.000994    25.671487 	University Way, Summerstrand, Port Elizabeth, 6019, South Africa
+157 University of Transkei                                                   -31.598500    28.803980 	Tipini, Mthatha, South Africa
+158 Shoprite Queenstown                                                      -31.897000    26.871000 	Sanlam Builiding, Cnr Hexagon And Bowker Street, Queenstown, 5319, South Africa
+159 Game Queenstown laptops                                                  -31.903034    26.873324 	Komani St, Shop 28, Nonesi Mall, Queenstown, 5319, South Africa
+160 O K Furniture                                                            -31.893991    26.871451 	63 Robinson Rd, Queenstown, 5319, South Africa
+161 Clicks Pharmacy - Nonesi Mall                                            -31.900675    26.871993 	Shop N20 Nonesi Mall, Victoria and Komani Road, Queenstown, 5319, South Africa
+162 Pick n Pay Queenstown                                                    -31.903581    26.889026 	Brewery St, Queenstown, 5319, South Africa
+163 Shoprite Elliot Sp                                                       -31.334460    27.847290 	7 Maclear Rd, Elliot, 5460, South Africa
+164 Shoprite Cradock                                                         -32.168000    25.616000 	17 Beeren St, Cradock, 5880, South Africa
+165 Spar - Ndu                                                               -31.671470    27.992520 	High Street, Engcobo, Ngcobo, 5050, South Africa
+166 Hardware Warehouse Queenstown                                            -31.899136    26.866058 	7545 Dunbar St, Queenstown, 5319, South Africa
+167 Superspar - Protea                                                       -31.896349    26.874874 	15 Ebden St, Queenstown, 5319, South Africa
+168 Queenstown Boxer Superstores                                             -31.899814    26.871790 	8245 Victoria Rd, Queenstown, 5320, South Africa
+169 Superspar Spargs Queenstown                                              -31.900093    26.871315 	Komani St & Victoria Rd, CBD, Queenstown, 5319, South Africa
+170 Spar - Middelburg                                                        -31.495732    25.007605 	36 Van Reenen St, Middelburg - Ec, Middelburg, 5900, South Africa
+171 Engcobo Boxer Superstores                                                -31.675246    28.001462 	R61, Titus House, Engcobo, 5050, South Africa
+172 Engcobo Spar                                                             -31.676916    27.998375 	Ngcobo, 5050, South Africa
+173 Qitsi Trading Store                                                      -31.898589    27.946043 	South Africa
+174 Spar - Cala                                                              -31.525443    27.694568 	Tsomo Road, Cala, 5455, South Africa
+175 Mr Price Home Queenstown                                                 -31.895613    26.871378 	Shepstone Street, Hexagon Building, Queenstown, 5319, South Africa
+176 Lewis Stores                                                             -31.702256    27.228472 	Indwe St, Lady Frere, 5410, South Africa
+177 Lewis Stores                                                             -32.180335    26.825250 	R67, South Africa
+178 Checkers Nonesi Mall Queenstown                                          -31.902500    26.873060 	Royal Mall, Komani St, Queenstown, 5319, South Africa
+179 Cala Boxer Superstores                                                   -31.524213    27.695489 	17 Tsomo Road, Cala, 5455, South Africa
+180 Lewis Stores                                                             -31.896647    26.869674 	Calderwood St, Queenstown, 5320, South Africa
+181 Lewis Stores                                                             -31.896399    26.872719 	N6, Queenstown, 5320, South Africa
+182 Interiors                                                                -31.894565    26.873106 	Robinson Rd, Queenstown, 5319, South Africa
+183 Ultra Wholesale Liquors                                                  -31.897171    26.868497 	17 Calderwood St, Queenstown, 5320, South Africa
+184 Weirs - Queenstown                                                       -31.904103    26.877875 	11 Pope Street, Queenstown, 5320, South Africa
+185 PEP Store                                                                -31.701894    27.230458 	Winkel NR 1, H/V Indwe- & Nonesistraat, Lady Frere, 5410, South Africa
+186 PEP Store                                                                -32.038716    27.820593 	Village Square, Main Street, Tsomo, 5400, South Africa
+187 Shoprite Tsomo                                                           -32.038660    27.819850 	Main Road, Tsomo, 5400, South Africa
+188 ACKERMANS                                                                -31.896159    26.870190 	The Hexagon & Calderwood St, Queenstown, 5320, South Africa
+189 Shoprite Ngcobo                                                          -31.675400    27.997800 	Shoprite Ngcobo, 23 High Street, Ngcobo, Engcobo, 5050, South Africa
+190 MTN Store - Nonesi Mall                                                  -31.902434    26.872390 	Komani St, Queenstown, 5320, South Africa
+191 MTN Store - Cradock                                                      -32.170688    25.618339 	4 Voortrekker St, Cradock, 5880, South Africa
+192 Builders Express Queenstown                                              -31.901877    26.885035 	1A Cathcart Rd, Queenstown, 5319, South Africa
+193 Edgars                                                                   -31.897346    26.873726 	66 Cathcart Rd, Queenstown, Queenstown CBD, 5319, South Africa
+194 Russells                                                                 -31.487900    25.007410 	Meintjies St & Mark St, Middelburg, 5900, South Africa
+195 Totalsports                                                              -31.898735    26.878122 	Cathcart Rd, Aqswde F, Queenstown, Eastern Cape, 5320, South Africa
+196 Vodacom 4U                                                               -31.898481    26.876737 	20 Cathcart Rd, Queenstown, 5319, South Africa
+197 Shoprite Middelburg                                                      -31.494760    25.006030 	Meintjies Street, Middelburg (Cape), Eastern Cape, South Africa, South Africa
+198 Exact Clothing Cradock                                                   -32.166230    25.616660 	59 Adderley St, Cradock, 5880, South Africa
+199 Hi-Q Queenstown                                                          -31.895247    26.868496 	106-108 Cathcart Rd, Queenstown, 5320, South Africa
+200 Russells                                                                 -31.871000    26.871000 	Shop 2 Bowker Street, Queenstown, 5320, South Africa
+201 Foschini Ltd                                                             -31.896000    26.872000 	Cnr. St George's St & Cathcart Rd East, Queenstown, 5319, South Africa
+202 TopT                                                                     -31.894659    26.868601 	123 Cathcart Rd, Queenstown, 5320, South Africa
+203 Bradlows                                                                 -31.895237    26.871754 	SHEPSTONE STREET, QUEENSTOWN, Queenstown, 5319, South Africa
+204 The Crazy Store                                                          -32.169854    25.617739 	J A Calata, Shop 7,J A Calata, Cradock, Cradock, 5880, South Africa
+205 The Crazy Store                                                          -31.904261    26.889531 	Brewery Lane, Shop 20-22, Pick N Pay Mall, Queenstown, Queenstown, 5319, South Africa
+206 Bradlows                                                                 -31.897679    26.875004 	CATHCART ROAD, QUEENSTOWN, Queenstown, 5319, South Africa
+207 MTN Store - Mark St - Middelburg                                         -31.495668    25.006934 	5 Mark Street, Middelburg, 5900, South Africa
+208 Sheet Street                                                             -32.166264    25.617251 	Shop 33-, 35 Adderley St, Cradock, 5880, South Africa
+209 Spar Ngqamakhwe                                                          -32.201478    27.936921 	20 Main Street, Nqamakwe, 4990, South Africa
+210 AutoZone Queenstown                                                      -31.897717    26.870058 	Shop no. 2, 74 Robinson Rd, Queenstown, 5320, South Africa
+211 Lewis Stores                                                             -31.676533    28.003089 	High St, Ngcobo, 5050, South Africa
+212 Lewis Stores                                                             -32.169578    25.619066 	Frere St, Cradock, 5880, South Africa
+213 Build It Hardware                                                        -31.896339    26.868950 	54-56 Robinson Rd, Queenstown, 5320, South Africa
+214 Best Home & Electric                                                     -32.168495    25.617512 	9 Adderley St, Cradock, 5880, South Africa
+215 PEP Store                                                                -32.167009    25.616892 	Winkel NR 43-45, Adderleystraat 43, Cradock, 5880, South Africa
+216 Jack's Paint & Hardware                                                  -31.900000    26.883333 	28 Bert Strauss Str, Bufflo Timber & Hardware, Queenstown, 5230, South Africa
+217 PEP Store                                                                -31.676792    28.002168 	Shop 4 Beegun Building, High Street, Ngcobo, 5050, South Africa
+218 Game Queenstown laptops                                                  -31.903034    26.873324 	Komani St, Shop 28, Nonesi Mall, Queenstown, 5319, South Africa
+219 Shoprite Elliot Sp                                                       -31.334460    27.847290 	7 Maclear Rd, Elliot, 5460, South Africa
+220 Shoprite Queenstown                                                      -31.897000    26.871000 	Sanlam Builiding, Cnr Hexagon And Bowker Street, Queenstown, 5319, South Africa
+221 Qitsi Trading Store                                                      -31.898589    27.946043 	South Africa
+222 Mr Price / MRP                                                           -31.895356    26.871219 	Shop 4 Hexagon Square, Cathcart Rd, Karoo, Queenstown, 5320, South Africa
+223 CALA                                                                     -31.523505    27.696310 	Shop NO 1, Cala Shopping Centre, Cala, 5455, South Africa
+224 Interiors                                                                -31.894565    26.873106 	Robinson Rd, Queenstown, 5319, South Africa
+225 Ultra Wholesale Liquors                                                  -31.897171    26.868497 	17 Calderwood St, Queenstown, 5320, South Africa
+226 Lewis Stores                                                             -32.180335    26.825250 	R67, South Africa
+227 Lewis Stores                                                             -31.702256    27.228472 	Indwe St, Lady Frere, 5410, South Africa
+228 Lewis Stores                                                             -31.896647    26.869674 	Calderwood St, Queenstown, 5320, South Africa
+229 Lewis Stores                                                             -31.896399    26.872719 	N6, Queenstown, 5320, South Africa
+230 Mr Price / MRP                                                           -31.900930    26.872000 	Shop 37 Nonesi Shopping Centre Victoria RD &, Komani St, Karoo, Queenstown, 5139, South Africa
+231 PEP Store                                                                -31.701894    27.230458 	Winkel NR 1, H/V Indwe- & Nonesistraat, Lady Frere, 5410, South Africa
+232 PEP Store                                                                -32.038716    27.820593 	Village Square, Main Street, Tsomo, 5400, South Africa
+233 Barnetts                                                                 -31.897698    26.872295 	85 Robinson Rd, Queenstown, 5320, South Africa
+234 MTN Store - Nonesi Mall                                                  -31.902434    26.872390 	Komani St, Queenstown, 5320, South Africa
+235 ACKERMANS                                                                -31.896159    26.870190 	The Hexagon & Calderwood St, Queenstown, 5320, South Africa
+236 MTN Store - Cradock                                                      -32.170688    25.618339 	4 Voortrekker St, Cradock, 5880, South Africa
+237 Russells                                                                 -31.487900    25.007410 	Meintjies St & Mark St, Middelburg, 5900, South Africa
+238 O K Furniture                                                            -31.893991    26.871451 	63 Robinson Rd, Queenstown, 5319, South Africa
+239 Pick n Pay Queenstown                                                    -31.903581    26.889026 	Brewery St, Queenstown, 5319, South Africa
+240 Clicks Pharmacy - Nonesi Mall                                            -31.900675    26.871993 	Shop N20 Nonesi Mall, Victoria and Komani Road, Queenstown, 5319, South Africa
+241 Checkers Nonesi Mall Queenstown                                          -31.902500    26.873060 	Royal Mall, Komani St, Queenstown, 5319, South Africa
+242 Engcobo Boxer Superstores                                                -31.675246    28.001462 	R61, Titus House, Engcobo, 5050, South Africa
+243 Shoprite Middelburg                                                      -31.494760    25.006030 	Meintjies Street, Middelburg (Cape), Eastern Cape, South Africa, South Africa
+244 Vodacom 4U                                                               -31.898481    26.876737 	20 Cathcart Rd, Queenstown, 5319, South Africa
+245 Shoprite Cradock                                                         -32.168000    25.616000 	17 Beeren St, Cradock, 5880, South Africa
+246 Russells                                                                 -31.871000    26.871000 	Shop 2 Bowker Street, Queenstown, 5320, South Africa
+247 Engcobo Build                                                            -31.676347    28.001626 	High Street, Engcobo, 5050, South Africa
+248 Hi-Q Queenstown                                                          -31.895247    26.868496 	106-108 Cathcart Rd, Queenstown, 5320, South Africa
+249 Edgars                                                                   -31.897346    26.873726 	66 Cathcart Rd, Queenstown, Queenstown CBD, 5319, South Africa
+250 MTN Store - Mark St - Middelburg                                         -31.495668    25.006934 	5 Mark Street, Middelburg, 5900, South Africa
+251 Spar Ngqamakhwe                                                          -32.201478    27.936921 	20 Main Street, Nqamakwe, 4990, South Africa
+252 Totalsports                                                              -31.898735    26.878122 	Cathcart Rd, Aqswde F, Queenstown, Eastern Cape, 5320, South Africa
+253 Bradlows                                                                 -31.897679    26.875004 	CATHCART ROAD, QUEENSTOWN, Queenstown, 5319, South Africa
+254 Bradlows                                                                 -31.895237    26.871754 	SHEPSTONE STREET, QUEENSTOWN, Queenstown, 5319, South Africa
+255 Foschini Ltd                                                             -31.896000    26.872000 	Cnr. St George's St & Cathcart Rd East, Queenstown, 5319, South Africa
+256 The Crazy Store                                                          -32.169854    25.617739 	J A Calata, Shop 7,J A Calata, Cradock, Cradock, 5880, South Africa
+257 The Crazy Store                                                          -31.904261    26.889531 	Brewery Lane, Shop 20-22, Pick N Pay Mall, Queenstown, Queenstown, 5319, South Africa
+258 Woolworths Nonesi Mall                                                   -31.900650    26.872367 	13386 Komani St, Queenstown, 5320, South Africa
+259 Exact Clothing Cradock                                                   -32.166230    25.616660 	59 Adderley St, Cradock, 5880, South Africa
+260 Builders Express Queenstown                                              -31.901877    26.885035 	1A Cathcart Rd, Queenstown, 5319, South Africa
+261 Lewis Stores                                                             -32.169578    25.619066 	Frere St, Cradock, 5880, South Africa
+262 Sheet Street                                                             -32.166264    25.617251 	Shop 33-, 35 Adderley St, Cradock, 5880, South Africa
+263 Supa Quick Tyre Experts Queenstown                                       -31.896702    26.879003 	24 Griffiths St, Queenstown, 5319, South Africa
+264 PEP Store                                                                -31.676792    28.002168 	Shop 4 Beegun Building, High Street, Ngcobo, 5050, South Africa
+265 Build It Hardware                                                        -31.896339    26.868950 	54-56 Robinson Rd, Queenstown, 5320, South Africa
+266 AutoZone Queenstown                                                      -31.897717    26.870058 	Shop no. 2, 74 Robinson Rd, Queenstown, 5320, South Africa
+267 Jack's Paint & Hardware                                                  -31.900000    26.883333 	28 Bert Strauss Str, Bufflo Timber & Hardware, Queenstown, 5230, South Africa
+268 Russells                                                                 -31.915220    26.887646 	Komani St, Queenstown, 5319, South Africa
+269 Supa Quick Tyre Experts Cradock                                          -32.166480    25.617814 	101 Frere St, Cradock, 5880, South Africa
+270 Karoo Build It                                                           -31.496329    25.007828 	21 Van Reenen St, Middelburg - Ec, Middelburg, 5900, South Africa
+271 Jack's Paint & Hardware                                                  -31.465875    27.338913 	2 Xalanga St, Indwe, 5445, South Africa
+272 Bradlows                                                                 -32.166873    25.617421 	SHOP 26 - ADDERLEY STREET, CRADOCK, Cradock, 5880, South Africa
+273 SLEEPMASTERS ENGCOBO                                                     -31.676722    27.997107 	Standard Bank Centre, High Stree, Ngcobo, 5050, South Africa
+274 Clicks Pharmacy- Queenstown                                              -31.893076    26.863064 	Cathcard Street, Queenstown, 5319, South Africa
+275 Shoprite Tsomo                                                           -32.038660    27.819850 	Main Road, Tsomo, 5400, South Africa
+276 Shoprite Ngcobo                                                          -31.675400    27.997800 	Shoprite Ngcobo, 23 High Street, Ngcobo, Engcobo, 5050, South Africa
+277 Sasol Queenstown                                                         -31.898837    26.878064 	2 Cathcart Rd, Queenstown, 5319, South Africa
+278 Nonesi Mall, Queenstown                                                  -31.903097    26.872693 	8698 Victoria Rd, Queenstown, 5320, South Africa
+279 The Mall - Queenstown                                                    -31.904118    26.889447 	Brewery St, Queenstown, 5320, South Africa
+280 Tsolo Eastern Cape                                                       -32.296840    26.419389 	South Africa
+281 Dutywa mall                                                              -32.099536    28.303271 	Richard St, Idutywa, 5000, South Africa
+282 Fingoland Mall                                                           -32.333997    28.142506 	N2, Butterworth, 4960, South Africa
+283 Mthatha Plaza                                                            -31.592983    28.786955 	68 Owen St, Norwood, Mthatha, 5100, South Africa
+284 Circus Triangle                                                          -31.587990    28.793530 	Umtata Central, Mthatha, 5100, South Africa
+285 Cathcart Methodist Church                                                -32.297563    27.145417 	Cnr Hemming & Marquard Streets, Marquard St, Cathcart, 5310, South Africa
+286 St. Columba's Presbyterian Church                                        -31.895046    26.873310 	2 Ebden St, Queenstown, 5320, South Africa
+287 The Holy Free Cornerstone Apostolic Church in Zion of South Africa       -31.887263    26.973512 	205 Zone 1, Ezibeleni, Queenstown, 5326, South Africa
+288 GRACELAND FELLOWSHIP CHURCH                                              -32.002785    27.582681 	Main Street, Cofimvaba, 5380, South Africa
+289 Middelburg Church Of Christ Mission                                      -31.511102    25.003350 	41 Ndamane St, Kwanonzame, Middelburg, 5900, South Africa
+290 Methodist Church                                                         -31.523570    27.695070 	Cala, 5455, South Africa
+291 Free Reformed Apostolic Church Of Southern Africa                        -31.713413    27.132429 	Magemfaneni, South Africa
+292 Clarkebury Methodist Church                                              -31.786765    28.287421 	Clarkebury, 5024, South Africa
+293 His Grace Tabernacle                                                     -31.904895    26.890392 	Cnr Cathcart Road and, Hertzog St, Queenstown, 5319, South Africa
+294 New Apostolic Church Queenstown                                          -31.896372    26.867272 	12 Joubert St, Queenstown, 5320, South Africa
+295 Who-Can-Tell Catholic Church                                             -32.059862    26.765472 	Whittlesea, South Africa
+296 Wesleyan Church                                                          -31.647525    27.061452 	Agnes, Lady Frere, South Africa
+297 NG Church                                                                -32.169291    25.617554 	6 Durban St, Cradock, 5880, South Africa
+298 NG Church                                                                -32.160807    25.623717 	6 Pres C R Swart St, Cradock, 5880, South Africa
+299 Christ The Rock Ministries                                               -31.901783    26.867847 	1 Derby St, Queenstown, 5320, South Africa
+300 John Wesley Methodist Church                                             -31.906300    26.951602 	Unnamed Road, Queenstown, 5326, South Africa
+301 Dutch Reformed Church                                                    -31.892506    26.866003 	Tylden St, Queenstown, 5320, South Africa
+302 Phaphama S.D.A Church                                                    -32.190210    25.646220 	255 Sikulu St, Lingelihle, Cradock, 5880, South Africa
+303 Ethiopian Episcopal Church                                               -31.896667    26.952306 	Ezibeleni, Queenstown, 5326, South Africa
+304 Dutch Reformed Church                                                    -32.297155    27.148709 	Palmerston St, Cathcart, 5310, South Africa
+305 Apostolic Church                                                         -31.652771    27.063450 	Agnes, Lady Frere, South Africa
+306 Wesley Methodist Church                                                  -31.896483    26.877376 	34 Ebden St, Queenstown, 5319, South Africa
+307 Kidwell Memorial Church                                                  -31.122859    26.808033 	Jamestown, 9742, South Africa
+308 Duff Presbyterian Church                                                 -32.099039    28.298785 	Idutywa, 5000, South Africa
+309 Sizini Methodist Church                                                  -32.067678    28.358921 	Siszini, South Africa
+310 Methodist Church                                                         -32.140053    28.041212 	Nomaheya Mission, South Africa
+311 Idutywa Methodist Church                                                 -32.097399    28.302097 	Idutywa, 5000, South Africa
+312 Rhema Ministries                                                         -32.096009    28.296554 	Idutywa, 5000, South Africa
+313 Maclear Baptist Church                                                   -31.065780    28.348921 	Mill St, Maclear, 5480, South Africa
+314 The Holy United Church of Christ                                         -31.275522    25.808496 	Unnamed Road, Khayamnandi, Steynsburg, 5920, South Africa
+315 Presbyterian Church                                                      -31.781830    28.612904 	Ngaphezulu, South Africa
+316 New Apostolic Church                                                     -32.738240    26.923804 	Ncera, 5265, South Africa
+317 Dutch Reformed Church                                                    -30.995502    26.330800 	Kerk St, Burgersdorp, 9744, South Africa
+318 St Andrew's Presbyterian Church                                          -31.178057    24.953485 	18 Shaw St, Noupoort, 5950, South Africa
+319 Reformed Church                                                          -30.993840    26.329900 	3 Van Der Walt St, Burgersdorp, 9744, South Africa
+320 Dutch Reformed Church                                                    -32.575009    27.423714 	Church St, Stutterheim, 4930, South Africa
+321 Errol Spring Avenue, Mthatha, 5100                                       -31.597356    28.766223 	5100, Southernwood, Mthatha, South Africa
+322 Zimbane Valley Seventh-Day Adventist Church                              -31.620642    28.771935 	Zimbane Valley, South Africa
+323 Church Of Prayers                                                        -30.993713    26.329991 	3 Jan Greyling St, Burgersdorp, 9744, South Africa
+324 The Church of Jesus Christ of Latter-day saints                          -31.608706    28.799265 	10 Gerald Spilken St, Ikwezi, Mthatha, 5100, South Africa
+325 Hillston Farm                                                            -31.398004    25.495133 	Schoombee, Middelburg - Ec, Middelburg - EC, 5900, South Africa
+326 Many Waters Farm                                                         -32.406415    26.243913 	South Africa
+327 My Farm                                                                  -32.257796    27.029478 	South Africa
+328 Harrison Hope Wine Estate                                                -32.176556    26.835222 	Harrison Farm, Whittlesea, 5360, South Africa
+329 Galla Hills Dairy                                                        -31.953084    26.801118 	Queenstown, South Africa
+330 Allendale Farm Guest Cottage                                             -32.077992    24.678640 	Allendale, Graaff Reinet, 6280, South Africa
