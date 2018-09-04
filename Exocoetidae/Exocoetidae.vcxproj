@@ -25,13 +25,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="topology.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\bachauling.json" />
-    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\kmeans.json" />
-    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\myopic.json" />
-    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\nodes.json" />
-    <None Include="..\..\..\..\Desktop\sky\support\network\mopani\distribution\uniform\nodesMopani.json" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{6D7288E9-E6A1-4875-9007-6F56C80F96B3}</ProjectGuid>
