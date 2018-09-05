@@ -27,4 +27,8 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Project Wing\Source\Topology\BackhauilingNetwork.csv" />
+    <None Include="..\Project Wing\Source\Topology\BackhauilingNodes.csv" />
+  </ItemGroup>
 </Project>

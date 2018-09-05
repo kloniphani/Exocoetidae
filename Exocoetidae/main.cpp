@@ -9,7 +9,7 @@ int main()
 {	
 	location T = location();
 
-	string filename = "..\Project Wing\Source\Topology\BackhauilingNetwork.csv";
+	string filename = "C:\\Users\\Kloniphani\\source\\repos\\Exocoetidae\\Project Wing\\Source\\Topology\\BackhauilingNetwork.csv";
 	vector<vector<string>> dataList = T.parseNodes(filename);
 
 	for (vector<string> vec : dataList)
