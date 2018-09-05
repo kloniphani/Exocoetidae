@@ -9,7 +9,7 @@ location::~location()
 {
 }
 
-vector<vector<string>> parseNodes(string filename, char delimeter = ',')
+vector<vector<string>> location::parseNodes(string filename, char delimeter)
 {
 	ifstream file(filename);
 	vector<vector<string>> dataList;

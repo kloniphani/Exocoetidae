@@ -9,7 +9,7 @@ int main()
 {	
 	location T = location();
 
-	string filename = "C:\\Users\\Kloniphani\\source\\repos\\Exocoetidae\\Project Wing\\Source\\Topology\\BackhauilingNetwork.csv";
+	string filename = "..\\Project Wing\\Source\\Topology\\BackhauilingNetwork.csv";
 	vector<vector<string>> dataList = T.parseNodes(filename);
 
 	for (vector<string> vec : dataList)
@@ -20,6 +20,8 @@ int main()
 		}
 		cout << endl;
 	}
+
+	string dummy; cout << "\n\nPress any key to continue..."; getline(cin, dummy);
 
 	return 0;
 }
