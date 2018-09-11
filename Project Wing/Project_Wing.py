@@ -103,7 +103,6 @@ class Display(object):
 			print(item)
 
 	def SaveToCSV(Nodes, Network, Name = None):
-		FileName = ''
 		if Name is not None:
 			FileName = str(Name)
 
@@ -128,6 +127,32 @@ class Display(object):
 				Writer.writerow(Temp)
 		fp.close()
 				
+	def SaveTopology(Nodes, Network, Name = None):
+		FileName = ''
+		if Name is not None:
+			FileName = str(Name)
+		
+		with open('./Source/Topology/' + FileName + 'Topology.json', 'w') as fp:
+			Data = {}; N = {}; L = [];
+			N["P1"] = {} #Service Provider
+			for key, value in Nodes.items():
+				N["N" + key] = {
+					"x": 6367.445 * cos(value.Position[1]) * cos(value.Position[0]),
+					"y": 6367.445 * cos(value.Position[1]) * sin(value.Position[0]),
+					"RE" : value.ResidualEnergy
+					} 
+
+			Data["nodes"] = N
+
+			for key, value in Network.items():
+				L.append({"from": "N" + value.Id, "to" : "P1", "SNR": value.SNR})
+				for node in value.MEMBERS:
+					L.append({"from": "N" + node.Id, "to" : "N" + value.Id, "SNR": node.SNR})
+
+			Data["links"] = L
+
+			json.dump(Data, fp, indent = 4)
+		fp.close()
 
 
 	def SaveNetwork(Nodes, Network, Radius, Name = None):
@@ -305,7 +330,7 @@ if __name__ == '__main__':
 	#Display.DrawPoints(NODES, NETWORK, Place +'-Bachauling-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	Display.SaveToCSV(NODES, NETWORK, "Backhauiling");
+	Display.SaveToCSV(NODES, NETWORK, "Backhauiling"); Display.SaveTopology(NODES, NETWORK, "Backhauiling");
 	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
 
 	"""NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
