@@ -1,0 +1,1349 @@
+file 55164 1537093982                                           
+version 2
+run General-0-20180916-12:32:43-9104
+attr configname General
+attr datetime 20180916-12:32:43
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network eagle
+attr processid 9104
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.numHost 20
+param **.hasStatus true
+param **.displayEnergyStorages true
+param **.energyStorage.typename "\"SimpleEpEnergyStorage\""
+param **.energyConsumer.typename "\"StateBasedEpEnergyConsumer\""
+param **.energyManagement.typename "\"SimpleEpEnergyManagement\""
+param **.energyStorage.nominalCapacity 0.05J
+param **.energyManagement.nodeShutdownCapacity 0J
+param **.energyManagement.nodeStartCapacity 0.025J
+param *.host[*].energyStorage.initialCapacity "uniform(0J, this.nominalCapacity)"
+param *.host[*].energyGenerator.typename "\"AlternatingEpEnergyGenerator\""
+param *.host[*].energyGenerator.energySinkModule "\"^.energyStorage\""
+param *.host[*].energyGenerator.powerGeneration 1mW
+param *.host[*].energyGenerator.sleepInterval exponential(10s)
+param *.host[*].energyGenerator.generationInterval exponential(10s)
+param **.mobility.constraintAreaMinZ 0m
+param **.mobility.constraintAreaMinX 0m
+param **.mobility.constraintAreaMinY 0m
+param **.mobility.constraintAreaMaxX 1000m
+param **.mobility.constraintAreaMaxY 1000m
+param **.mobility.constraintAreaMaxZ 0m
+param **.mobility.initFromDisplayString false
+param **.mobility.initialZ 0m
+param *.host*.mobility.typename "\"StationaryMobility\""
+param *.host[0].numApps 1
+param *.host[0].app[0].typename "\"PingApp\""
+param *.host[*].numApps 1
+param *.host[*].app[0].typename "\"PingApp\""
+param *.host[*].app[0].destAddr "\"host[0]\""
+param *.host[*].app[0].printPing true
+
+vector 0 eagle.host[0].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 1 eagle.host[0].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 2 eagle.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 3 eagle.host[1].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 4 eagle.host[1].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 5 eagle.host[1].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 6 eagle.host[2].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 7 eagle.host[2].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 8 eagle.host[2].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 9 eagle.host[3].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 10 eagle.host[3].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 11 eagle.host[3].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 12 eagle.host[4].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 13 eagle.host[4].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 14 eagle.host[4].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 15 eagle.host[5].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 16 eagle.host[5].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 17 eagle.host[5].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 18 eagle.host[6].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 19 eagle.host[6].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 20 eagle.host[6].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 21 eagle.host[7].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 22 eagle.host[7].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 23 eagle.host[7].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 24 eagle.host[8].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 25 eagle.host[8].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 26 eagle.host[8].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 27 eagle.host[9].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 28 eagle.host[9].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 29 eagle.host[9].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 30 eagle.host[10].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 31 eagle.host[10].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 32 eagle.host[10].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 33 eagle.host[11].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 34 eagle.host[11].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 35 eagle.host[11].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 36 eagle.host[12].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 37 eagle.host[12].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 38 eagle.host[12].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 39 eagle.host[13].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 40 eagle.host[13].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 41 eagle.host[13].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 42 eagle.host[14].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 43 eagle.host[14].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 44 eagle.host[14].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 45 eagle.host[15].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 46 eagle.host[15].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 47 eagle.host[15].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 48 eagle.host[16].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 49 eagle.host[16].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 50 eagle.host[16].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 51 eagle.host[17].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 52 eagle.host[17].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 53 eagle.host[17].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 54 eagle.host[18].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 55 eagle.host[18].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 56 eagle.host[18].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 57 eagle.host[19].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 58 eagle.host[19].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 59 eagle.host[19].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 60 eagle.host[0].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 61 eagle.host[0].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 62 eagle.host[1].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 63 eagle.host[1].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 64 eagle.host[2].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 65 eagle.host[2].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 66 eagle.host[3].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 67 eagle.host[3].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 68 eagle.host[4].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 69 eagle.host[4].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 70 eagle.host[5].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 71 eagle.host[5].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 72 eagle.host[6].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 73 eagle.host[6].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 74 eagle.host[7].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 75 eagle.host[7].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 76 eagle.host[8].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 77 eagle.host[8].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 78 eagle.host[9].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 79 eagle.host[9].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 80 eagle.host[10].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 81 eagle.host[10].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 82 eagle.host[11].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 83 eagle.host[11].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 84 eagle.host[12].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 85 eagle.host[12].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 86 eagle.host[13].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 87 eagle.host[13].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 88 eagle.host[14].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 89 eagle.host[14].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 90 eagle.host[15].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 91 eagle.host[15].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 92 eagle.host[16].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 93 eagle.host[16].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 94 eagle.host[17].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 95 eagle.host[17].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 96 eagle.host[18].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 97 eagle.host[18].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 98 eagle.host[19].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 99 eagle.host[19].energyStorage powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 100 eagle.host[0].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 101 eagle.host[0].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 102 eagle.host[1].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 103 eagle.host[1].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 104 eagle.host[2].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 105 eagle.host[2].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 106 eagle.host[3].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 107 eagle.host[3].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 108 eagle.host[4].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 109 eagle.host[4].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 110 eagle.host[5].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 111 eagle.host[5].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 112 eagle.host[6].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 113 eagle.host[6].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 114 eagle.host[7].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 115 eagle.host[7].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 116 eagle.host[8].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 117 eagle.host[8].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 118 eagle.host[9].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 119 eagle.host[9].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 120 eagle.host[10].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 121 eagle.host[10].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 122 eagle.host[11].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 123 eagle.host[11].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 124 eagle.host[12].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 125 eagle.host[12].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 126 eagle.host[13].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 127 eagle.host[13].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 128 eagle.host[14].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 129 eagle.host[14].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 130 eagle.host[15].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 131 eagle.host[15].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 132 eagle.host[16].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 133 eagle.host[16].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 134 eagle.host[17].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 135 eagle.host[17].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 136 eagle.host[18].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 137 eagle.host[18].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 138 eagle.host[19].wlan[0].radio.energyConsumer powerConsumption:vector ETV
+attr interpolationmode sample-hold
+attr source powerConsumptionChanged
+attr title "Power consumption, vector"
+vector 139 eagle.host[19].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 140 eagle.host[0].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 141 eagle.host[1].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 142 eagle.host[2].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 143 eagle.host[3].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 144 eagle.host[4].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 145 eagle.host[5].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 146 eagle.host[6].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 147 eagle.host[7].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 148 eagle.host[8].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 149 eagle.host[9].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 150 eagle.host[10].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 151 eagle.host[11].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 152 eagle.host[12].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 153 eagle.host[13].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 154 eagle.host[14].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 155 eagle.host[15].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 156 eagle.host[16].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 157 eagle.host[17].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 158 eagle.host[18].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 159 eagle.host[19].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 160 eagle.host[0].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 161 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 162 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 163 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 164 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 165 eagle.host[1].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 166 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 167 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 168 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 169 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 170 eagle.host[2].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 171 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 172 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 173 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 174 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 175 eagle.host[3].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 176 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 177 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 178 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 179 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 180 eagle.host[4].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 181 eagle.host[4].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 182 eagle.host[4].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 183 eagle.host[4].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 184 eagle.host[4].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 185 eagle.host[5].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 186 eagle.host[5].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 187 eagle.host[5].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 188 eagle.host[5].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 189 eagle.host[5].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 190 eagle.host[6].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 191 eagle.host[6].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 192 eagle.host[6].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 193 eagle.host[6].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 194 eagle.host[6].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 195 eagle.host[7].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 196 eagle.host[7].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 197 eagle.host[7].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 198 eagle.host[7].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 199 eagle.host[7].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 200 eagle.host[8].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 201 eagle.host[8].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 202 eagle.host[8].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 203 eagle.host[8].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 204 eagle.host[8].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 205 eagle.host[9].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 206 eagle.host[9].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 207 eagle.host[9].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 208 eagle.host[9].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 209 eagle.host[9].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 210 eagle.host[10].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 211 eagle.host[10].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 212 eagle.host[10].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 213 eagle.host[10].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 214 eagle.host[10].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 215 eagle.host[11].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 216 eagle.host[11].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 217 eagle.host[11].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 218 eagle.host[11].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 219 eagle.host[11].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 220 eagle.host[12].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 221 eagle.host[12].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 222 eagle.host[12].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 223 eagle.host[12].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 224 eagle.host[12].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 225 eagle.host[13].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 226 eagle.host[13].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 227 eagle.host[13].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 228 eagle.host[13].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 229 eagle.host[13].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 230 eagle.host[14].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 231 eagle.host[14].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 232 eagle.host[14].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 233 eagle.host[14].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 234 eagle.host[14].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 235 eagle.host[15].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 236 eagle.host[15].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 237 eagle.host[15].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 238 eagle.host[15].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 239 eagle.host[15].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 240 eagle.host[16].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 241 eagle.host[16].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 242 eagle.host[16].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 243 eagle.host[16].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 244 eagle.host[16].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 245 eagle.host[17].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 246 eagle.host[17].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 247 eagle.host[17].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 248 eagle.host[17].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 249 eagle.host[17].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 250 eagle.host[18].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 251 eagle.host[18].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 252 eagle.host[18].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 253 eagle.host[18].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 254 eagle.host[18].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 255 eagle.host[19].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 256 eagle.host[19].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 257 eagle.host[19].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 258 eagle.host[19].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 259 eagle.host[19].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+0	48454 63 0 0 0 0.010919956025 2 0.027429755159188 0.027440675115213 0.054870430274401 0.0015053821188716
+1	48517 13 0 0 0 0 1 0.001 0.001 0.001 1e-006
+2	48530 27 0 0 0 0 3 0 2 2 4
+3	48557 63 0 0 0 0.010919956025 2 0.030127248562872 0.030138168518897 0.060265417081769 0.0018159603076425
+4	48620 13 0 0 0 0 1 0.001 0.001 0.001 1e-006
+5	48633 27 0 0 0 0 3 0 2 2 4
+6	48660 63 0 0 0 0.010919956025 2 0.021171819883398 0.021182739839423 0.042354559722822 0.00089695442427976
+7	48723 13 0 0 0 0 1 0.001 0.001 0.001 1e-006
+8	48736 27 0 0 0 0 3 0 2 2 4
+9	48763 62 0 0 0 0.010919956025 2 0.021868440542835 0.02187936049886 0.043747801041696 0.00095693510761463
+10	48825 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+11	48839 30 0 0 0 0 3 0 2 2 4
+12	48869 65 0 0 0 0.010919956025 2 0.048172218246851 0.048183138202876 0.096355356449727 0.0046421774178997
+13	48934 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+14	48948 30 0 0 0 0 3 0 2 2 4
+15	48978 65 0 0 0 0.010919956025 2 0.039575331715401 0.039586251671426 0.079161583386827 0.0031332782017775
+16	49043 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+17	49057 30 0 0 0 0 3 0 2 2 4
+18	49087 64 0 0 0 0.010919956025 2 0.028391308231745 0.02840222818777 0.056793536419514 0.0016127529491401
+19	49151 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+20	49165 30 0 0 0 0 3 0 2 2 4
+21	49195 67 0 0 0 0.010919956025 2 0.0035408829795194 0.0035518029355444 0.0070926859150638 2.5153156367592e-005
+22	49262 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+23	49276 30 0 0 0 0 3 0 2 2 4
+24	49306 68 0 0 0 0.010919956025 2 0.00099999999999974 0.0010109199560247 0.0020109199560245 2.0219591574885e-006
+25	49374 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+26	49388 30 0 0 0 0 3 0 2 2 4
+27	49418 65 0 0 0 0.010919956025 2 0.038896917888429 0.038907837844454 0.077804755732883 0.0030267900669495
+28	49483 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+29	49497 30 0 0 0 0 3 0 2 2 4
+30	49527 65 0 0 0 0.010919956025 2 0.048919997188728 0.048930917144753 0.097850914333481 0.0047874007775718
+31	49592 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+32	49606 30 0 0 0 0 3 0 2 2 4
+33	49636 65 0 0 0 0.010919956025 2 0.023063048183918 0.023073968139943 0.04613701632386 0.0010643121972568
+34	49701 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+35	49715 30 0 0 0 0 3 0 2 2 4
+36	49745 67 0 0 0 0.010919956025 2 0.0059028012319465 0.0059137211879715 0.011816522419918 6.9815160672933e-005
+37	49812 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+38	49826 30 0 0 0 0 3 0 2 2 4
+39	49856 65 0 0 0 0.010919956025 2 0.007156744319014 0.007167664275039 0.014324408594053 0.00010259440040741
+40	49921 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+41	49935 30 0 0 0 0 3 0 2 2 4
+42	49965 65 0 0 0 0.010919956025 2 0.026081496452912 0.026092416408937 0.05217391286185 0.0013610586512807
+43	50030 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+44	50044 30 0 0 0 0 3 0 2 2 4
+45	50074 65 0 0 0 0.010919956025 2 0.013216860614717 0.013227780570742 0.026444641185458 0.00034965958333654
+46	50139 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+47	50153 30 0 0 0 0 3 0 2 2 4
+48	50183 65 0 0 0 0.010919956025 2 0.022796596841886 0.022807516797911 0.045604113639798 0.0010398676500585
+49	50248 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+50	50262 30 0 0 0 0 3 0 2 2 4
+51	50292 69 0 0 0 0.010919956025 2 0.00092856994504083 0.00093948990106583 0.0018680598461067 1.7448834170378e-006
+52	50361 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+53	50375 30 0 0 0 0 3 0 2 2 4
+54	50405 65 0 0 0 0.010919956025 2 0.030593866167124 0.030604786123149 0.061198652290273 0.0018726375806956
+55	50470 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+56	50484 30 0 0 0 0 3 0 2 2 4
+57	50514 64 0 0 0 0.010919956025 2 0.047176483808085 0.04718740376411 0.094363887572195 0.0044522716984917
+58	50578 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+59	50592 30 0 0 0 0 3 0 2 2 4
+60	50622 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+61	50636 44 0 0 0 0 4 0 0.002 0.002 4e-006
+62	50680 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+63	50694 44 0 0 0 0 4 0 0.002 0.002 4e-006
+64	50738 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+65	50752 44 0 0 0 0 4 0 0.002 0.002 4e-006
+66	50796 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+67	50810 44 0 0 0 0 4 0 0.002 0.002 4e-006
+68	50854 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+69	50868 44 0 0 0 0 4 0 0.002 0.002 4e-006
+70	50912 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+71	50926 44 0 0 0 0 4 0 0.002 0.002 4e-006
+72	50970 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+73	50984 44 0 0 0 0 4 0 0.002 0.002 4e-006
+74	51028 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+75	51042 44 0 0 0 0 4 0 0.002 0.002 4e-006
+76	51086 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+77	51100 44 0 0 0 0 4 0 0.002 0.002 4e-006
+78	51144 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+79	51158 44 0 0 0 0 4 0 0.002 0.002 4e-006
+80	51202 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+81	51216 44 0 0 0 0 4 0 0.002 0.002 4e-006
+82	51260 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+83	51274 44 0 0 0 0 4 0 0.002 0.002 4e-006
+84	51318 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+85	51332 44 0 0 0 0 4 0 0.002 0.002 4e-006
+86	51376 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+87	51390 44 0 0 0 0 4 0 0.002 0.002 4e-006
+88	51434 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+89	51448 44 0 0 0 0 4 0 0.002 0.002 4e-006
+90	51492 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+91	51506 44 0 0 0 0 4 0 0.002 0.002 4e-006
+92	51550 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+93	51564 44 0 0 0 0 4 0 0.002 0.002 4e-006
+94	51608 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+95	51622 44 0 0 0 0 4 0 0.002 0.002 4e-006
+96	51666 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+97	51680 44 0 0 0 0 4 0 0.002 0.002 4e-006
+98	51724 14 0 0 0 0 1 0.001 0.001 0.001 1e-006
+99	51738 44 0 0 0 0 4 0 0.002 0.002 4e-006
+100	51782 37 0 0 0 0 3 0 0.002 0.002 4e-006
+101	51819 11 0 0 0 0 1 0 0 0 0
+102	51830 37 0 0 0 0 3 0 0.002 0.002 4e-006
+103	51867 11 0 0 0 0 1 0 0 0 0
+104	51878 37 0 0 0 0 3 0 0.002 0.002 4e-006
+105	51915 11 0 0 0 0 1 0 0 0 0
+106	51926 37 0 0 0 0 3 0 0.002 0.002 4e-006
+107	51963 11 0 0 0 0 1 0 0 0 0
+108	51974 37 0 0 0 0 3 0 0.002 0.002 4e-006
+109	52011 11 0 0 0 0 1 0 0 0 0
+110	52022 37 0 0 0 0 3 0 0.002 0.002 4e-006
+111	52059 11 0 0 0 0 1 0 0 0 0
+112	52070 37 0 0 0 0 3 0 0.002 0.002 4e-006
+113	52107 11 0 0 0 0 1 0 0 0 0
+114	52118 37 0 0 0 0 3 0 0.002 0.002 4e-006
+115	52155 11 0 0 0 0 1 0 0 0 0
+116	52166 37 0 0 0 0 3 0 0.002 0.002 4e-006
+117	52203 11 0 0 0 0 1 0 0 0 0
+118	52214 37 0 0 0 0 3 0 0.002 0.002 4e-006
+119	52251 11 0 0 0 0 1 0 0 0 0
+120	52262 37 0 0 0 0 3 0 0.002 0.002 4e-006
+121	52299 11 0 0 0 0 1 0 0 0 0
+122	52310 37 0 0 0 0 3 0 0.002 0.002 4e-006
+123	52347 11 0 0 0 0 1 0 0 0 0
+124	52358 37 0 0 0 0 3 0 0.002 0.002 4e-006
+125	52395 11 0 0 0 0 1 0 0 0 0
+126	52406 37 0 0 0 0 3 0 0.002 0.002 4e-006
+127	52443 11 0 0 0 0 1 0 0 0 0
+128	52454 37 0 0 0 0 3 0 0.002 0.002 4e-006
+129	52491 11 0 0 0 0 1 0 0 0 0
+130	52502 37 0 0 0 0 3 0 0.002 0.002 4e-006
+131	52539 11 0 0 0 0 1 0 0 0 0
+132	52550 37 0 0 0 0 3 0 0.002 0.002 4e-006
+133	52587 11 0 0 0 0 1 0 0 0 0
+134	52598 37 0 0 0 0 3 0 0.002 0.002 4e-006
+135	52635 11 0 0 0 0 1 0 0 0 0
+136	52646 37 0 0 0 0 3 0 0.002 0.002 4e-006
+137	52683 11 0 0 0 0 1 0 0 0 0
+138	52694 37 0 0 0 0 3 0 0.002 0.002 4e-006
+139	52731 11 0 0 0 0 1 0 0 0 0
+140	52742 11 0 0 0 0 1 1 1 1 1
+141	52753 11 0 0 0 0 1 1 1 1 1
+142	52764 11 0 0 0 0 1 1 1 1 1
+143	52775 11 0 0 0 0 1 1 1 1 1
+144	52786 11 0 0 0 0 1 1 1 1 1
+145	52797 11 0 0 0 0 1 1 1 1 1
+146	52808 11 0 0 0 0 1 1 1 1 1
+147	52819 11 0 0 0 0 1 1 1 1 1
+148	52830 11 0 0 0 0 1 1 1 1 1
+149	52841 11 0 0 0 0 1 1 1 1 1
+150	52852 11 0 0 0 0 1 1 1 1 1
+151	52863 11 0 0 0 0 1 1 1 1 1
+152	52874 11 0 0 0 0 1 1 1 1 1
+153	52885 11 0 0 0 0 1 1 1 1 1
+154	52896 11 0 0 0 0 1 1 1 1 1
+155	52907 11 0 0 0 0 1 1 1 1 1
+156	52918 11 0 0 0 0 1 1 1 1 1
+157	52929 11 0 0 0 0 1 1 1 1 1
+158	52940 11 0 0 0 0 1 1 1 1 1
+159	52951 11 0 0 0 0 1 1 1 1 1
+160	52962 22 0 0 0 0 2 0 0 0 0
+161	52984 22 0 0 0 0 2 0 0 0 0
+162	53006 22 0 0 0 0 2 0 0 0 0
+163	53028 22 0 0 0 0 2 0 0 0 0
+164	53050 22 0 0 0 0 2 0 0 0 0
+165	53072 22 0 0 0 0 2 0 0 0 0
+166	53094 22 0 0 0 0 2 0 0 0 0
+167	53116 22 0 0 0 0 2 0 0 0 0
+168	53138 22 0 0 0 0 2 0 0 0 0
+169	53160 22 0 0 0 0 2 0 0 0 0
+170	53182 22 0 0 0 0 2 0 0 0 0
+171	53204 22 0 0 0 0 2 0 0 0 0
+172	53226 22 0 0 0 0 2 0 0 0 0
+173	53248 22 0 0 0 0 2 0 0 0 0
+174	53270 22 0 0 0 0 2 0 0 0 0
+175	53292 22 0 0 0 0 2 0 0 0 0
+176	53314 22 0 0 0 0 2 0 0 0 0
+177	53336 22 0 0 0 0 2 0 0 0 0
+178	53358 22 0 0 0 0 2 0 0 0 0
+179	53380 22 0 0 0 0 2 0 0 0 0
+180	53402 22 0 0 0 0 2 0 0 0 0
+181	53424 22 0 0 0 0 2 0 0 0 0
+182	53446 22 0 0 0 0 2 0 0 0 0
+183	53468 22 0 0 0 0 2 0 0 0 0
+184	53490 22 0 0 0 0 2 0 0 0 0
+185	53512 22 0 0 0 0 2 0 0 0 0
+186	53534 22 0 0 0 0 2 0 0 0 0
+187	53556 22 0 0 0 0 2 0 0 0 0
+188	53578 22 0 0 0 0 2 0 0 0 0
+189	53600 22 0 0 0 0 2 0 0 0 0
+190	53622 22 0 0 0 0 2 0 0 0 0
+191	53644 22 0 0 0 0 2 0 0 0 0
+192	53666 22 0 0 0 0 2 0 0 0 0
+193	53688 22 0 0 0 0 2 0 0 0 0
+194	53710 22 0 0 0 0 2 0 0 0 0
+195	53732 22 0 0 0 0 2 0 0 0 0
+196	53754 22 0 0 0 0 2 0 0 0 0
+197	53776 22 0 0 0 0 2 0 0 0 0
+198	53798 22 0 0 0 0 2 0 0 0 0
+199	53820 22 0 0 0 0 2 0 0 0 0
+200	53842 22 0 0 0 0 2 0 0 0 0
+201	53864 22 0 0 0 0 2 0 0 0 0
+202	53886 22 0 0 0 0 2 0 0 0 0
+203	53908 22 0 0 0 0 2 0 0 0 0
+204	53930 22 0 0 0 0 2 0 0 0 0
+205	53952 22 0 0 0 0 2 0 0 0 0
+206	53974 22 0 0 0 0 2 0 0 0 0
+207	53996 22 0 0 0 0 2 0 0 0 0
+208	54018 22 0 0 0 0 2 0 0 0 0
+209	54040 22 0 0 0 0 2 0 0 0 0
+210	54062 22 0 0 0 0 2 0 0 0 0
+211	54084 22 0 0 0 0 2 0 0 0 0
+212	54106 22 0 0 0 0 2 0 0 0 0
+213	54128 22 0 0 0 0 2 0 0 0 0
+214	54150 22 0 0 0 0 2 0 0 0 0
+215	54172 22 0 0 0 0 2 0 0 0 0
+216	54194 22 0 0 0 0 2 0 0 0 0
+217	54216 22 0 0 0 0 2 0 0 0 0
+218	54238 22 0 0 0 0 2 0 0 0 0
+219	54260 22 0 0 0 0 2 0 0 0 0
+220	54282 22 0 0 0 0 2 0 0 0 0
+221	54304 22 0 0 0 0 2 0 0 0 0
+222	54326 22 0 0 0 0 2 0 0 0 0
+223	54348 22 0 0 0 0 2 0 0 0 0
+224	54370 22 0 0 0 0 2 0 0 0 0
+225	54392 22 0 0 0 0 2 0 0 0 0
+226	54414 22 0 0 0 0 2 0 0 0 0
+227	54436 22 0 0 0 0 2 0 0 0 0
+228	54458 22 0 0 0 0 2 0 0 0 0
+229	54480 22 0 0 0 0 2 0 0 0 0
+230	54502 22 0 0 0 0 2 0 0 0 0
+231	54524 22 0 0 0 0 2 0 0 0 0
+232	54546 22 0 0 0 0 2 0 0 0 0
+233	54568 22 0 0 0 0 2 0 0 0 0
+234	54590 22 0 0 0 0 2 0 0 0 0
+235	54612 22 0 0 0 0 2 0 0 0 0
+236	54634 22 0 0 0 0 2 0 0 0 0
+237	54656 22 0 0 0 0 2 0 0 0 0
+238	54678 22 0 0 0 0 2 0 0 0 0
+239	54700 22 0 0 0 0 2 0 0 0 0
+240	54722 22 0 0 0 0 2 0 0 0 0
+241	54744 22 0 0 0 0 2 0 0 0 0
+242	54766 22 0 0 0 0 2 0 0 0 0
+243	54788 22 0 0 0 0 2 0 0 0 0
+244	54810 22 0 0 0 0 2 0 0 0 0
+245	54832 22 0 0 0 0 2 0 0 0 0
+246	54854 22 0 0 0 0 2 0 0 0 0
+247	54876 22 0 0 0 0 2 0 0 0 0
+248	54898 22 0 0 0 0 2 0 0 0 0
+249	54920 22 0 0 0 0 2 0 0 0 0
+250	54942 22 0 0 0 0 2 0 0 0 0
+251	54964 22 0 0 0 0 2 0 0 0 0
+252	54986 22 0 0 0 0 2 0 0 0 0
+253	55008 22 0 0 0 0 2 0 0 0 0
+254	55030 22 0 0 0 0 2 0 0 0 0
+255	55052 22 0 0 0 0 2 0 0 0 0
+256	55074 22 0 0 0 0 2 0 0 0 0
+257	55096 22 0 0 0 0 2 0 0 0 0
+258	55118 22 0 0 0 0 2 0 0 0 0
+259	55140 22 0 0 0 0 2 0 0 0 0
+
