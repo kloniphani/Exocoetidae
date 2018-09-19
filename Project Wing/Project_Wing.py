@@ -7,6 +7,7 @@ Copyright:  2017 ISAT, Department of Computer Science
 #PACKAGES
 #Object Oriented Classes
 from Clustering.Distribution import *
+from xml.etree import ElementTree
 from Clustering.Model import *
 from Object.Node import *
 from Object.Provider import *
@@ -127,7 +128,7 @@ class Display(object):
 				Writer.writerow(Temp)
 		fp.close()
 				
-	def SaveTopology(Nodes, Network, Name = None):
+	def SaveTopology(Nodes, Network, Name = None, Links = False):
 		FileName = ''
 		if Name is not None:
 			FileName = str(Name)
@@ -144,15 +145,53 @@ class Display(object):
 
 			Data["nodes"] = N
 
-			for key, value in Network.items():
-				L.append({"from": "N" + value.Id, "to" : "P1", "SNR": value.SNR})
-				for node in value.MEMBERS:
-					L.append({"from": "N" + node.Id, "to" : "N" + value.Id, "SNR": node.SNR})
+			if Links is True:
+				for key, value in Network.items():
+					L.append({"from": "N" + value.Id, "to" : "P1", "SNR": value.SNR})
+					for node in value.MEMBERS:
+						L.append({"from": "N" + node.Id, "to" : "N" + value.Id, "SNR": node.SNR})
 
-			Data["links"] = L
+				Data["links"] = L
 
 			json.dump(Data, fp, indent = 4)
 		fp.close()
+
+
+	def SaveRouting(Nodes, Network, Name = None):
+		from lxml import etree
+
+		FileName = ''
+		if Name is not None:
+			FileName = str(Name)
+
+	
+		Data = {}; N = {}; L = [];
+		AccessPoint = 192 #Service Provider
+		ClusterHead = 1;
+		ClusterMember = 1;
+
+			
+
+		page = etree.Element('config')
+		doc = etree.ElementTree(page)
+
+		AccesPointAdreess = '192.0.0.0'
+
+		etree.SubElement(page, 'interface', host='P1', address=AccesPointAdreess, netmask='255.x.x.x', addDefaultRoutes = 'false', addStaticRoutes ='false', addSubnetRoutes='false') 
+
+		for key, value in Network.items():	
+			ClusterHeadAddress = '' + str(AccessPoint) + '.' + str(ClusterHead) + '.0.0'
+
+			for node in value.MEMBERS:
+				etree.SubElement(page, 'interface', host='N' + node.Id, address=''+str(AccessPoint) + '.' + str(ClusterHead) + '.' + str(ClusterMember)+ '.x', netmask='255.255.255.0', addDefaultRoutes = 'false', addStaticRoutes ='false', addSubnetRoutes='false')
+				etree.SubElement(page, 'route', host='N' + node.Id, destination=ClusterHeadAddress, netmask='255.255.255.0', gateway=ClusterHeadAddress)
+				ClusterMember += 1;
+
+			etree.SubElement(page, 'interface', host='N' + value.Id, address=ClusterHeadAddress, netmask='255.255.0.0', addDefaultRoutes = 'false', addStaticRoutes ='false', addSubnetRoutes='false')
+			etree.SubElement(page, 'route', host='N' + value.Id, destination=AccesPointAdreess, netmask='255.255.0.0', gateway = AccesPointAdreess)
+			ClusterHead += 1
+
+		doc.write('./Source/Topology/' + FileName + 'Routing.xml', xml_declaration = True, pretty_print=True, encoding='utf-16')
 
 
 	def SaveNetwork(Nodes, Network, Radius, Name = None):
@@ -330,7 +369,7 @@ if __name__ == '__main__':
 	#Display.DrawPoints(NODES, NETWORK, Place +'-Bachauling-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	Display.SaveToCSV(NODES, NETWORK, "Backhauiling"); Display.SaveTopology(NODES, NETWORK, "Backhauiling");
+	Display.SaveToCSV(NODES, NETWORK, "Backhauiling"); Display.SaveTopology(NODES, NETWORK, "Backhauiling"); Display.SaveRouting(NODES, NETWORK, "Backhauiling");
 	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
 
 	"""NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()

@@ -30,21 +30,27 @@ import inet.visualizer.contract.IIntegratedVisualizer;
 module Provider extends AccessPoint
 {
     parameters:
-  
+        @display("p=205,69");
+
+        numWlanInterfaces = 8;
     gates:
-        
+
     connections allowunconnected:
 }
 
-module Node extends AdhocHost 
+module Node extends AdhocHost
 {
     parameters:
         double RE = default(0);
         bool sendMsgOnInit = default(false);
+
+        numWlanInterfaces = 4;
+        @display("bgb=1255.2749,741.82495");
 }
 
 module ClusterHead extends Node
 {
+    @display("bgb=1253.7,741.82495");
 }
 
 module ClusterMember extends Node
@@ -53,14 +59,14 @@ module ClusterMember extends Node
         sendMsgOnInit = true;
 }
 
-channel Link extends ned.DatarateChannel 
+channel Link extends ned.DatarateChannel
 {
     parameters:
         int cost = default(0);
         int SNR = default(0);
-        
-        datarate = default(1024bps);
-        delay = default(5ms);
+
+        datarate = default(1.5 Gbps);
+        delay = default(1ms);
         ber = default(0); // bit error rate (BER)
         per = default(0); // packet error rate (PER)
 }
@@ -69,33 +75,33 @@ network eagle
 {
     parameters:
         int numHost;
+
     submodules:
-        visualizer: <default("IntegratedCanvasVisualizer")> like IIntegratedVisualizer if hasVisualizer() 
-        {
+        visualizer: <default("IntegratedCanvasVisualizer")> like IIntegratedVisualizer if hasVisualizer() {
             parameters:
                 @display("p=100,300;is=s");
         }
-        
-        configurator: Ipv4NetworkConfigurator 
-        {
+
+        configurator: Ipv4NetworkConfigurator {
             parameters:
                 @display("p=100,100;is=s");
         }
-        
-        radioMedium: Ieee80211ScalarRadioMedium 
-        {
+
+        radioMedium: Ieee80211ScalarRadioMedium {
             parameters:
                 @display("p=100,200;is=s");
         }
-        
-        provider: Provider
-        {
-                @display("p=205,69");
-        }
-        
-        host[numHost]: Node 
-        {
+
+        provider: Provider;
+
+        host[numHost]: Node {
             parameters:
                 @display("p=250,200");
         }
+
+    connections:
+        host[0].pppg++ <--> Link <--> host[1].pppg++;
+        host[1].pppg++ <--> Link <--> host[2].pppg++;
+        host[2].pppg++ <--> Link <--> host[3].pppg++;
+        host[3].pppg++ <--> Link <--> host[4].pppg++;
 }
