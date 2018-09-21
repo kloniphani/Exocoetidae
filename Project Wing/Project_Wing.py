@@ -175,20 +175,20 @@ class Display(object):
 		page = etree.Element('config')
 		doc = etree.ElementTree(page)
 
-		AccesPointAdreess = '192.0.0.0'
+		AccesPointAdreess = '192.0.0.x'
 
-		etree.SubElement(page, 'interface', host='P1', address=AccesPointAdreess, netmask='255.x.x.x', addDefaultRoutes = 'false', addStaticRoutes ='false', addSubnetRoutes='false') 
+		etree.SubElement(page, 'interface', hosts='P1', names='wlan0', address=AccesPointAdreess, netmask='255.x.x.x') 
 
 		for key, value in Network.items():	
 			ClusterHeadAddress = '' + str(AccessPoint) + '.' + str(ClusterHead) + '.0.0'
 
 			for node in value.MEMBERS:
-				etree.SubElement(page, 'interface', host='N' + node.Id, address=''+str(AccessPoint) + '.' + str(ClusterHead) + '.' + str(ClusterMember)+ '.x', netmask='255.255.255.0', addDefaultRoutes = 'false', addStaticRoutes ='false', addSubnetRoutes='false')
-				etree.SubElement(page, 'route', host='N' + node.Id, destination=ClusterHeadAddress, netmask='255.255.255.0', gateway=ClusterHeadAddress)
+				etree.SubElement(page, 'interface', hosts='N' + node.Id, names='wlan0', address=''+str(AccessPoint) + '.' + str(ClusterHead) + '.' + str(ClusterMember)+ '.x', netmask='255.255.255.0')
+				etree.SubElement(page, 'route', hosts='N' + node.Id, destination=ClusterHeadAddress, netmask='255.255.255.0', gateway=ClusterHeadAddress)
 				ClusterMember += 1;
 
-			etree.SubElement(page, 'interface', host='N' + value.Id, address=ClusterHeadAddress, netmask='255.255.0.0', addDefaultRoutes = 'false', addStaticRoutes ='false', addSubnetRoutes='false')
-			etree.SubElement(page, 'route', host='N' + value.Id, destination=AccesPointAdreess, netmask='255.255.0.0', gateway = AccesPointAdreess)
+			etree.SubElement(page, 'interface', hosts='N' + value.Id, names='wlan0', address=ClusterHeadAddress, netmask='255.255.0.0')
+			etree.SubElement(page, 'route', hosts='N' + value.Id, destination=AccesPointAdreess, netmask='255.255.0.0', gateway = AccesPointAdreess)
 			ClusterHead += 1
 
 		doc.write('./Source/Topology/' + FileName + 'Routing.xml', xml_declaration = True, pretty_print=True, encoding='utf-16')

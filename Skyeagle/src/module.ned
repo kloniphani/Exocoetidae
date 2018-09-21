@@ -18,6 +18,7 @@ package skyeagle;
 import inet.networklayer.configurator.ipv4.Ipv4NetworkConfigurator;
 
 import inet.node.inet.AdhocHost;
+import inet.node.aodv.AodvRouter;
 import inet.node.inet.Router;
 import inet.node.inet.StandardHost;
 import inet.node.inet.WirelessHost;
@@ -32,19 +33,19 @@ module Provider extends AccessPoint
     parameters:
         @display("p=205,69");
 
-        numWlanInterfaces = 8;
+        numWlanInterfaces = 1;
     gates:
 
     connections allowunconnected:
 }
 
-module Node extends AdhocHost
+module Node extends AodvRouter
 {
     parameters:
         double RE = default(0);
         bool sendMsgOnInit = default(false);
-
-        numWlanInterfaces = 4;
+		
+        numWlanInterfaces = 1;
         @display("bgb=1255.2749,741.82495");
 }
 
@@ -65,7 +66,7 @@ channel Link extends ned.DatarateChannel
         int cost = default(0);
         int SNR = default(0);
 
-        datarate = default(1.5 Gbps);
+        datarate = default(100Mbps);
         delay = default(1ms);
         ber = default(0); // bit error rate (BER)
         per = default(0); // packet error rate (PER)
@@ -93,15 +94,12 @@ network eagle
         }
 
         provider: Provider;
-
+        router: Router;
         host[numHost]: Node {
             parameters:
                 @display("p=250,200");
         }
 
     connections:
-        host[0].pppg++ <--> Link <--> host[1].pppg++;
-        host[1].pppg++ <--> Link <--> host[2].pppg++;
-        host[2].pppg++ <--> Link <--> host[3].pppg++;
-        host[3].pppg++ <--> Link <--> host[4].pppg++;
+        provider.ethg++ <--> Link <--> router.ethg++;
 }
