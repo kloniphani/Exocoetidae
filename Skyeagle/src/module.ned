@@ -15,10 +15,11 @@
 
 package skyeagle;
 
+import inet.networklayer.ipv4.RoutingTableRecorder;
 import inet.networklayer.configurator.ipv4.Ipv4NetworkConfigurator;
 
-import inet.node.inet.AdhocHost;
 import inet.node.aodv.AodvRouter;
+import inet.node.inet.AdhocHost;
 import inet.node.inet.Router;
 import inet.node.inet.StandardHost;
 import inet.node.inet.WirelessHost;
@@ -28,6 +29,8 @@ import inet.physicallayer.ieee80211.packetlevel.Ieee80211ScalarRadioMedium;
 
 import inet.visualizer.contract.IIntegratedVisualizer;
 
+
+
 module Provider extends AccessPoint
 {
     parameters:
@@ -35,7 +38,7 @@ module Provider extends AccessPoint
 
         numWlanInterfaces = 1;
     gates:
-
+		
     connections allowunconnected:
 }
 
@@ -47,6 +50,8 @@ module Node extends AodvRouter
 		
         numWlanInterfaces = 1;
         @display("bgb=1255.2749,741.82495");
+    submodules:
+        
 }
 
 module ClusterHead extends Node
@@ -78,28 +83,37 @@ network eagle
         int numHost;
 
     submodules:
-        visualizer: <default("IntegratedCanvasVisualizer")> like IIntegratedVisualizer if hasVisualizer() {
+        visualizer: <default("IntegratedCanvasVisualizer")> like IIntegratedVisualizer if hasVisualizer() 
+        {
+            parameters:
+                @display("p=100,400;is=s");
+        }
+        
+        routingTableRecorder: RoutingTableRecorder 
+        {
             parameters:
                 @display("p=100,300;is=s");
         }
-
-        configurator: Ipv4NetworkConfigurator {
+        
+        configurator: Ipv4NetworkConfigurator 
+        {
             parameters:
                 @display("p=100,100;is=s");
         }
-
-        radioMedium: Ieee80211ScalarRadioMedium {
+        
+        radioMedium: Ieee80211ScalarRadioMedium 
+        {
             parameters:
                 @display("p=100,200;is=s");
         }
 
         provider: Provider;
-        router: Router;
-        host[numHost]: Node {
+        
+        host[numHost]: Node 
+        {
             parameters:
                 @display("p=250,200");
         }
 
-    connections:
-        provider.ethg++ <--> Link <--> router.ethg++;
+    connections: 
 }

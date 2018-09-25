@@ -1,15 +1,15 @@
-                                                                
+file 3212 1537773697                                            
 version 2
-run General-0-20180921-16:46:52-24588
+run General-0-20180924-09:21:00-31052
 attr configname General
-attr datetime 20180921-16:46:52
+attr datetime 20180924-09:21:00
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network eagle
-attr processid 24588
+attr processid 31052
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -39,27 +39,28 @@ param **.mobility.constraintAreaMaxZ 0m
 param **.mobility.initFromDisplayString false
 param **.mobility.initialZ 0m
 param *.host*.mobility.typename "\"StationaryMobility\""
-param *.*.wlan[*].radio.transmitter.power 1mW
+param *.*.wlan[*].radio.transmitter.power 3mW
 param *.*.wlan[*].bitrate 54Mbps
 param *.provider.wlan[*].mgmt.ssid "\"provider\""
-param *.host[*].wlan[*].agent.default_ssid "\"provider\""
 param *.configurator.config "xmldoc(\"route.xml\")"
-param *.configurator.addDefaultRoutes true
-param *.configurator.addStaticRoutes true
-param *.configurator.addSubnetRoutes true
-param *.configurator.optimizeRoutes true
+param *.configurator.addDefaultRoutes false
+param *.configurator.addStaticRoutes false
+param *.configurator.addSubnetRoutes false
+param *.configurator.optimizeRoutes false
 param *.configurator.dumpAddresses true
 param *.configurator.dumpTopology true
 param *.configurator.dumpLinks true
 param *.configurator.dumpRoutes true
 param *.*.ipv4.arp.typename "\"GlobalArp\""
 param *.*.ipv4.routingTable.netmaskRoutes "\"\""
+param *.*.ipv4.routingTable.routingFile "\"route.xml\""
 param *.host[*].numApps 1
 param *.host[*].app[0].typename "\"PingApp\""
-param *.host[*].app[*].destAddr "\"provider\""
+param *.host[*].app[*].destAddr "\"*\""
 param *.host[*].app[*].startTime 0.5s
-param *.visualizer.routingTableVisualizer.displayRoutingTables true
-param *.visualizer.routingTableVisualizer.displayRoutesIndividually false
+param *.visualizer.routingTableVisualizer.displayRoutingTables false
+param *.visualizer.routingTableVisualizer.displayRoutesIndividually true
+param *.visualizer.networkRouteVisualizer.displayRoutes true
 param *.visualizer.routingTableVisualizer.labelFormat "\"\""
 param *.visualizer.routingTableVisualizer.lineShift 0
 param *.visualizer.routingTableVisualizer.lineShiftMode "\"none\""
@@ -70,308 +71,4 @@ param *.visualizer.mediumVisualizer.displayCommunicationRanges true
 param *.visualizer.interfaceTableVisualizer.displayInterfaceTables true
 param *.visualizer.interfaceTableVisualizer.nodeFilter "\"not (*switch* or *Switch* or *AP*)\""
 
-vector 0 eagle.provider.wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 1 eagle.host[0].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 2 eagle.host[0].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 3 eagle.host[0].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 4 eagle.host[1].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 5 eagle.host[1].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 6 eagle.host[1].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 7 eagle.host[2].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 8 eagle.host[2].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 9 eagle.host[2].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 10 eagle.host[3].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 11 eagle.host[3].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 12 eagle.host[3].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 13 eagle.host[4].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 14 eagle.host[4].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 15 eagle.host[4].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 16 eagle.host[5].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 17 eagle.host[5].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 18 eagle.host[5].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 19 eagle.host[6].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 20 eagle.host[6].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 21 eagle.host[6].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 22 eagle.host[7].energyStorage residualEnergyCapacity:vector ETV
-attr interpolationmode linear
-attr source residualEnergyCapacityChanged
-attr title "Residual energy capacity, vector"
-vector 23 eagle.host[7].energyGenerator powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 24 eagle.host[7].wlan[0].radio radioMode:vector ETV
-attr interpolationmode sample-hold
-attr source radioModeChanged
-attr title "Radio mode, vector"
-vector 25 eagle.host[0].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 26 eagle.host[1].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 27 eagle.host[2].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 28 eagle.host[3].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 29 eagle.host[4].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 30 eagle.host[5].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 31 eagle.host[6].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 32 eagle.host[7].energyStorage powerGeneration:vector ETV
-attr interpolationmode sample-hold
-attr source powerGenerationChanged
-attr title "Power generation, vector"
-vector 33 eagle.provider.wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 34 eagle.host[0].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 35 eagle.host[1].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 36 eagle.host[2].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 37 eagle.host[3].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 38 eagle.host[4].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 39 eagle.host[5].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 40 eagle.host[6].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 41 eagle.host[7].wlan[0].radio radioChannel:vector ETV
-attr interpolationmode sample-hold
-attr source radioChannelChanged
-attr title "Radio channel, vector"
-vector 42 eagle.provider.wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 43 eagle.host[0].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 44 eagle.host[1].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 45 eagle.host[2].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 46 eagle.host[3].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 47 eagle.host[4].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 48 eagle.host[5].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 49 eagle.host[6].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 50 eagle.host[7].wlan[0].radio receptionState:vector ETV
-attr interpolationmode sample-hold
-attr source receptionStateChanged
-attr title "Radio reception state, vector"
-vector 51 eagle.provider.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 52 eagle.provider.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 53 eagle.provider.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 54 eagle.provider.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 55 eagle.provider.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 56 eagle.host[0].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 57 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 58 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 59 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 60 eagle.host[0].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 61 eagle.host[1].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 62 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 63 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 64 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 65 eagle.host[1].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 66 eagle.host[2].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 67 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 68 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 69 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 70 eagle.host[2].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 71 eagle.host[3].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 72 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 73 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 74 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 75 eagle.host[3].wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
-attr interpolationmode none
-attr source stateChanged
-attr title "contention state, vector"
-vector 76 eagle.host[4].wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+
