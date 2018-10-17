@@ -1,14 +1,14 @@
 version 2
-run General-0-20180924-09:21:00-31052
+run General-0-20181007-22:25:40-19984
 attr configname General
-attr datetime 20180924-09:21:00
+attr datetime 20181007-22:25:40
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network eagle
-attr processid 31052
+attr processid 19984
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -38,6 +38,11 @@ param **.mobility.constraintAreaMaxZ 0m
 param **.mobility.initFromDisplayString false
 param **.mobility.initialZ 0m
 param *.host*.mobility.typename "\"StationaryMobility\""
+param *.host*.wlan[0].typename "\"AckingWirelessInterface\""
+param *.host*.wlan[0].mac.useAck false
+param *.host*.wlan[0].mac.fullDuplex false
+param *.host*.wlan[0].radio.transmitter.communicationRange 500m
+param *.host*.wlan[0].radio.receiver.ignoreInterference true
 param *.*.wlan[*].radio.transmitter.power 3mW
 param *.*.wlan[*].bitrate 54Mbps
 param *.provider.wlan[*].mgmt.ssid "\"provider\""
@@ -52,12 +57,16 @@ param *.configurator.dumpLinks true
 param *.configurator.dumpRoutes true
 param *.*.ipv4.arp.typename "\"GlobalArp\""
 param *.*.ipv4.routingTable.netmaskRoutes "\"\""
-param *.*.ipv4.routingTable.routingFile "\"route.xml\""
-param *.host[*].numApps 1
-param *.host[*].app[0].typename "\"PingApp\""
-param *.host[*].app[*].destAddr "\"*\""
-param *.host[*].app[*].startTime 0.5s
-param *.visualizer.routingTableVisualizer.displayRoutingTables false
+param *.host[*].numApps 2
+param *.host[*].app[0].typename "\"UdpBasicApp\""
+param *.host[*].app[0].destAddresses "\"host[*]\""
+param *.host[*].app[0].destPort 5000
+param *.host[*].app[0].messageLength 1000B
+param *.host[*].app[0].sendInterval exponential(12ms)
+param *.host[*].app[0].packetName "\"UDPData\""
+param *.host[*].app[1].typename "\"UdpSink\""
+param *.host[*].app[1].localPort 5000
+param *.visualizer.routingTableVisualizer.displayRoutingTables true
 param *.visualizer.routingTableVisualizer.displayRoutesIndividually true
 param *.visualizer.networkRouteVisualizer.displayRoutes true
 param *.visualizer.routingTableVisualizer.labelFormat "\"\""
@@ -66,8 +75,226 @@ param *.visualizer.routingTableVisualizer.lineShiftMode "\"none\""
 param *.visualizer.routingTableVisualizer.destinationFilter "\"*\""
 param *.visualizer.routingTableVisualizer.zIndex -9999
 param *.visualizer.routingTableVisualizer.displayLabels true
-param *.visualizer.mediumVisualizer.displayCommunicationRanges true
+param *.visualizer.mediumVisualizer.displayCommunicationRanges false
 param *.visualizer.interfaceTableVisualizer.displayInterfaceTables true
 param *.visualizer.interfaceTableVisualizer.nodeFilter "\"not (*switch* or *Switch* or *AP*)\""
 
+vector 0 eagle.provider.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 1 eagle.host[0].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 2 eagle.host[0].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 3 eagle.host[0].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 4 eagle.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 5 eagle.host[1].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 6 eagle.host[1].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 7 eagle.host[1].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 8 eagle.host[1].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 9 eagle.host[2].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 10 eagle.host[2].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 11 eagle.host[2].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 12 eagle.host[2].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 13 eagle.host[3].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 14 eagle.host[3].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 15 eagle.host[3].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 16 eagle.host[3].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 17 eagle.host[4].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 18 eagle.host[4].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 19 eagle.host[4].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 20 eagle.host[4].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 21 eagle.host[5].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 22 eagle.host[5].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 23 eagle.host[5].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 24 eagle.host[5].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 25 eagle.host[6].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 26 eagle.host[6].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 27 eagle.host[6].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 28 eagle.host[6].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 29 eagle.host[7].energyStorage residualEnergyCapacity:vector ETV
+attr interpolationmode linear
+attr source residualEnergyCapacityChanged
+attr title "Residual energy capacity, vector"
+vector 30 eagle.host[7].energyGenerator powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 31 eagle.host[7].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 32 eagle.host[7].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 33 eagle.host[0].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 34 eagle.host[1].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 35 eagle.host[2].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 36 eagle.host[3].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 37 eagle.host[4].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 38 eagle.host[5].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 39 eagle.host[6].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 40 eagle.host[7].energyStorage powerGeneration:vector ETV
+attr interpolationmode sample-hold
+attr source powerGenerationChanged
+attr title "Power generation, vector"
+vector 41 eagle.provider.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 42 eagle.provider.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+0	0	0	0
+0	0	0	0
+0	0	0	2
+1	0	0	0.03575946824858
+2	0	0	0.001
+3	0	0	0
+4	0	0	0
+4	0	0	0
+4	0	0	2
+5	0	0	0.027244158869144
+6	0	0	0.001
+7	0	0	0
+8	0	0	0
+8	0	0	0
+9	0	0	0.032294705754612
+10	0	0	0.001
+11	0	0	0
+12	0	0	0
+12	0	0	0
+13	0	0	0.044588650087826
+14	0	0	0.001
+15	0	0	0
+16	0	0	0
+16	0	0	0
+17	0	0	0.019172076066025
+18	0	0	0.001
+19	0	0	0
+20	0	0	0
+20	0	0	0
+21	0	0	0.026444746076595
+22	0	0	0.001
+23	0	0	0
+24	0	0	0
+24	0	0	0
+25	0	0	0.046279831661377
+26	0	0	0.001
+27	0	0	0
+28	0	0	0
+28	0	0	0
+29	0	0	0.004356464848388
+30	0	0	0.001
+31	0	0	0
+32	0	0	0
+32	0	0	0
+33	0	0	0.001
+34	0	0	0.001
+35	0	0	0.001
+36	0	0	0.001
+37	0	0	0.001
+38	0	0	0.001
+39	0	0	0.001
+40	0	0	0.001
+41	0	0	0
+42	0	0	1
 

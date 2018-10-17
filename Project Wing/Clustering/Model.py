@@ -46,11 +46,11 @@ class Model(object):
 		if Results is True: print('Nodes Deleted: {0:3}\tNodes in List B: {1:3}\tNodes Before: {2:3}\tNodes in List A: {3:3}'.format(Total - len(ListA), len(ListB), Total, len(ListA)))
 		return ListA, ListB;
 	
-	def Backhauling(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+	def Backhauling(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nBackhauling Model Processing")
-		if ResidualEnergy_Median is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
 			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(self.NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
@@ -59,7 +59,7 @@ class Model(object):
 			Minimum_SNR = TEMP[0].SNR
 			Maximum_SNR = TEMP[-1].SNR
 
-			ResidualEnergy_Median = median([node.ResidualEnergy for node in TEMP])
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 
 		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:
@@ -68,7 +68,7 @@ class Model(object):
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAP
 				#Check if the Residual Energy Ei of the selected node is greater than or equal to the median Residual Energy of the set node within the processing set 
 				while(index < len(UNUSSIGNED)):	
-					if NODES[UNUSSIGNED[index]].ResidualEnergy >=  ResidualEnergy_Median:
+					if NODES[UNUSSIGNED[index]].ResidualEnergy >=  Median_ResidualEnergy:
 						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1
 
@@ -95,11 +95,11 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Myopic(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+	def Myopic(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nMyopic Model Processing")
-		if ResidualEnergy_Median is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
 			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
@@ -110,7 +110,7 @@ class Model(object):
 			Minimum_SNR = TEMP[0].SNR
 			Maximum_SNR = TEMP[-1].SNR
 
-			ResidualEnergy_Median = median([node.ResidualEnergy for node in TEMP])
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 
 		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:
@@ -119,7 +119,7 @@ class Model(object):
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAP
 				#Check if the Residual Energy Ei of the selected node is greater than or equal to the median Residual Energy of the set node within the processing set 
 				while(index < len(UNUSSIGNED)):	
-					if NODES[UNUSSIGNED[index]].ResidualEnergy >= ResidualEnergy_Median:
+					if NODES[UNUSSIGNED[index]].ResidualEnergy >= Median_ResidualEnergy:
 						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1
 
@@ -157,11 +157,81 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Odd(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+	def Successive(NODES, NETWORK, UNUSSIGNED, DATA, 
+				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
+				Theta = 0.5, Beta = 0.5, Profit = 0):
+		"""
+		"""
+		print("\nSuccessive Selection Model Processing")
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+			#Sorting the Nodes in Descending order based on their SNR
+			TEMP = list(NODES.values());
+			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
+
+			UNUSSIGNED = [node.Id for node in TEMP]
+
+			Best_SNR = 2e-07
+			Minimum_SNR = TEMP[-1].SNR
+			Maximum_SNR = TEMP[0].SNR
+
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
+			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
+			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
+
+		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
+		with progressbar.ProgressBar(max_value = EndA) as bar:			
+			while(len(UNUSSIGNED) > 0 and TrackA < EndA):
+				index = 0; Head = None				
+				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAPTime?
+				for node in UNUSSIGNED:
+					Reward = (Theta * (NODES[node].SNR/Maximum_SNR) - Beta * ((Average_ResidualEnergy - NODES[node].ResidualEnergy)/(Maximum_ResidualEnergy - Average_ResidualEnergy)))/2;
+					if Reward >= Profit:
+						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
+					index += 1
+
+				if Head is not None:
+					#Calculating the number of Nodes per Cluster.
+					#NumberOfNodes = int(ceil(abs((len(NODES) * (NODES[Head].SNR + abs(Minimum_SNR)) * 0.05)/(Maximum_SNR + abs(Minimum_SNR)))))
+					NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
+
+					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
+					NETWORK[Head] = NODES[Head]
+
+					count = 1;
+					for node in UNUSSIGNED:
+						if(count > NumberOfNodes): break;
+						else:
+							if(NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node):
+								NODES[node].ChangeToClusterMember(NODES[Head])
+								NETWORK[Head].MEMBERS.append(NODES[node])
+								count +=1
+
+					#Checking if The Head Cluster has Leaf Nodes, If Not, delete the Head from Cluster and append to the Unussiged list.
+					if len(NETWORK[Head].MEMBERS) == 0:
+						if Head not in UNUSSIGNED:
+							UNUSSIGNED.append(Head)
+
+						NODES[Head].ChangeToNode(Results = False)
+						if Head in list(NETWORK.keys()):
+							NETWORK.pop(Head)
+							Head = None
+
+					#Removing Selected Nodes for a cluster Network.
+					if Head is not None:	
+						Model.RemoveNode(NETWORK, Head, UNUSSIGNED)
+
+				TrackA += 1
+				bar.update(TrackA)
+		return NODES, NETWORK, UNUSSIGNED, DATA
+
+	def Greedy(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+		pass
+
+	def Odd(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nOdd Model Processing")
-		if ResidualEnergy_Median is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
 			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
@@ -172,7 +242,7 @@ class Model(object):
 			Minimum_SNR = TEMP[0].SNR
 			Maximum_SNR = TEMP[-1].SNR
 
-			ResidualEnergy_Median = median([node.ResidualEnergy for node in TEMP])
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 
 		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:
@@ -181,7 +251,7 @@ class Model(object):
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAP
 				#Check if the Residual Energy Ei of the selected node is greater than or equal to the median Residual Energy of the set node within the processing set 
 				while(index < len(UNUSSIGNED)):	
-					if NODES[UNUSSIGNED[index]].ResidualEnergy >= ResidualEnergy_Median:
+					if NODES[UNUSSIGNED[index]].ResidualEnergy >= Median_ResidualEnergy:
 						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1
 
@@ -223,11 +293,11 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def OddRange(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+	def OddRange(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nOddRange Model Processing")
-		if ResidualEnergy_Median is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
 			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
@@ -238,7 +308,7 @@ class Model(object):
 			Minimum_SNR = TEMP[0].SNR
 			Maximum_SNR = TEMP[-1].SNR
 
-			ResidualEnergy_Median = median([node.ResidualEnergy for node in TEMP])
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 
 		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:
@@ -247,7 +317,7 @@ class Model(object):
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAP
 				#Check if the Residual Energy Ei of the selected node is greater than or equal to the median Residual Energy of the set node within the processing set 
 				while(index < len(UNUSSIGNED)):	
-					if NODES[UNUSSIGNED[index]].ResidualEnergy >= ResidualEnergy_Median:
+					if NODES[UNUSSIGNED[index]].ResidualEnergy >= Median_ResidualEnergy:
 						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1
 
@@ -271,7 +341,7 @@ class Model(object):
 						node = UNUSSIGNED[i]
 						
 						if sqrt(len(NODES)) > len(UNUSSIGNED): 
-							if(NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node and NODES[node].ResidualEnergy < ResidualEnergy_Median):
+							if(NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node and NODES[node].ResidualEnergy < Median_ResidualEnergy):
 								NODES[node].ChangeToClusterMember(NODES[Head])
 								NETWORK[Head].MEMBERS.append(NODES[node])
 								Model.RemoveNode(NETWORK, Head, UNUSSIGNED)
@@ -297,7 +367,7 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Converse(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+	def Converse(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nConverse Model Processing")
@@ -314,7 +384,7 @@ class Model(object):
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAP
 				#Check if the Residual Energy Ei of the selected node is greater than or equal to the median Residual Energy of the set node within the processing set 
 				while(index < len(UNUSSIGNED)):	
-					if NODES[UNUSSIGNED[index]].ResidualEnergy >= ResidualEnergy_Median:
+					if NODES[UNUSSIGNED[index]].ResidualEnergy >= Median_ResidualEnergy:
 						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1
 
@@ -352,7 +422,7 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Balancing(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+	def Balancing(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nBalancing Model Processing")
@@ -401,7 +471,7 @@ class Model(object):
 						Head = None;
 						for h in NETWORK.values():
 							for n in h.MEMBERS:
-								if n.ResidualEnergy >= ResidualEnergy_Median:
+								if n.ResidualEnergy >= Median_ResidualEnergy:
 									Head = n.Id;
 									NODES[Head].ChangeToNode();
 									NODES[Head].ChangeToClusterHead()
@@ -444,7 +514,7 @@ class Model(object):
 			
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Redistribute(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
+	def Redistribute(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
 		"""
 		"""
 		print("\nRedistribute Model Processing")
@@ -485,7 +555,7 @@ class Model(object):
 
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Chaining(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
+	def Chaining(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nChaining Model Processing")
@@ -512,7 +582,7 @@ class Model(object):
 				for node in head.MEMBERS:
 					for h in NETWORK.values():
 						if h.Id is not head.Id and ((node.Position[0] - head.Position[0])**2 + (node.Position[1] - head.Position[1])**2 < RADIUS[head.Id]**2 and (node.Position[0] - h.Position[0])**2 + (node.Position[1] - h.Position[1])**2 < RADIUS[h.Id]**2):
-							if node.ResidualEnergy > ResidualEnergy_Median and node.Type is 0:
+							if node.ResidualEnergy > Median_ResidualEnergy and node.Type is 0:
 								if node.Type is not 2 and node.Type is not -1:
 									node.ChangeToChainNode()
 								node.AddMember(h)
@@ -542,7 +612,7 @@ class Model(object):
 		if Results is True: print('Nodes Deleted: {0:3}\tNodes Remaining: {1:3}\tNodes Before: {2:3}'.format(L - len(List), len(List), L)) 
 		return Nodes, Network, List
 
-	def Hoop(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, ServiceProvider = None):
+	def Hoop(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, ServiceProvider = None):
 		"""
 		"""
 		TEMP = []
@@ -556,7 +626,7 @@ class Model(object):
 			Minimum_SNR = TEMP[-1].SNR
 			Maximum_SNR = TEMP[0].SNR
 
-			ResidualEnergy_Median = median([node.ResidualEnergy for node in TEMP])
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 			
 		G = Graph()
 		G.add_node(ServiceProvider.Id)
@@ -587,7 +657,7 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def KMeans(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
+	def KMeans(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
 		"""
 		"""
 		print("\nK-Means Model Processing")
@@ -643,7 +713,7 @@ class Model(object):
 
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Hierarchical(NODES, NETWORK, UNUSSIGNED, DATA, ResidualEnergy_Median, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
+	def Hierarchical(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
 		"""
 		"""
 		print("\nHierarchical Model Processing")

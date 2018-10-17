@@ -116,4 +116,10 @@ network eagle
         }
 
     connections: 
+        //host[4].pppg++ <--> Link <--> host[3].pppg++;
+        //host[4].pppg++ <--> Link <--> host[0].pppg++;
+        //host[4].pppg++ <--> Link <--> host[1].pppg++;
+        //host[5].pppg++ <--> Link <--> host[2].pppg++;
+        //host[5].pppg++ <--> Link <--> host[7].pppg++;
+        //host[5].pppg++ <--> Link <--> host[6].pppg++;
 }
