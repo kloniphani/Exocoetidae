@@ -224,22 +224,22 @@ class Display(object):
 				
 				if Type is '2D':					
 					for head in list(network.values()):
-						figure.scatter(head.Position[1], head.Position[0], zorder = 3, c = 'k', marker = 'o', s = 80)
+						figure.scatter(head.Position[0], head.Position[1], zorder = 3, c = 'k', marker = 'o', s = 80)
 			
 						color = next(colors)
 		
-						figure.scatter(head.Position[1], head.Position[0], zorder = 4, c = color, marker = 'o', s = 10)
-						figure.text(head.Position[1], head.Position[0], head.Id)
+						figure.scatter(head.Position[0], head.Position[1], zorder = 4, c = color, marker = 'o', s = 10)
+						figure.text(head.Position[0], head.Position[1], head.Id)
 				
 						for leaf in head.MEMBERS:
 							#Drawing a line in 3d
 							spacing = 100
-							ys = linspace(head.Position[0], leaf.Position[0], spacing)
-							xs = linspace(head.Position[1], leaf.Position[1], spacing)
+							xs = linspace(head.Position[0], leaf.Position[0], spacing)
+							ys = linspace(head.Position[1], leaf.Position[1], spacing)
 
 							figure.plot(xs, ys, zorder = 1, c = color)
-							figure.scatter(leaf.Position[1], leaf.Position[0], zorder = 2, c = color, marker = 'o', s = 30)
-							figure.text(leaf.Position[1], leaf.Position[0], leaf.Id)
+							figure.scatter(leaf.Position[0], leaf.Position[1], zorder = 2, c = color, marker = 'o', s = 30)
+							figure.text(leaf.Position[0], leaf.Position[1], leaf.Id)
 
 						count += 1
 						bar.update(count)
@@ -253,8 +253,12 @@ class Display(object):
 									break
 		
 							if draw is True:
-								figure.scatter(node.Position[1], node.Position[0], zorder = 5, c = 'gray', marker = 'o', s = 30)
-								figure.text(node.Position[1], node.Position[0], node.Id)
+								if node.Type == -2:
+									figure.scatter(node.Position[0], node.Position[1], zorder = 6, c = 'black', marker = 'o', s = 80)
+									figure.text(node.Position[0], node.Position[1], node.Id)
+								else:
+									figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'gray', marker = 'o', s = 30)
+									figure.text(node.Position[0], node.Position[1], node.Id)
 
 		figure.set_xlabel('Latitude')
 		figure.set_ylabel('Lonitude')

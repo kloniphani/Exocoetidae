@@ -61,7 +61,7 @@ class Nodes(object):
 
 			if ClusterRadius is not None: self.ClusterRadius = ClusterRadius;
 
-			ResidualEnergies, SNRs = Distribution.ChiSquare() #Loading Normal Distributed Random Values
+			ResidualEnergies, SNRs = Distribution.Normal() #Loading Normal Distributed Random Values
 
 			#Initialising the Provider
 			if ServiceProvider is None:
@@ -71,7 +71,7 @@ class Nodes(object):
 			if Results is True:	print("{0:3} {1:70} {2:27s} {3:3s}".format(
 			'ID', 'NAME', 'RESIDUAL ENERGY', 'SNR'))
 			for key, value in JsonGeoData.items():
-				self.__NODES[key] = Node(Id = key, Name = value['name'], Position = [value['geometry']['location']['lat'], value['geometry']['location']['lng']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies))
+				self.__NODES[key] = Node(Id = key, Name = value['name'], Position = [value['geometry']['location']['lng'], value['geometry']['location']['lat']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies))
 				if Results is True: 
 					print("{0:4} {1:70} {2:15f} {3:15f}".format(self.__NODES[key].Id, self.__NODES[key].Name, self.__NODES[key].ResidualEnergy, self.__NODES[key].SNR))
 
@@ -105,59 +105,14 @@ if __name__ == '__main__':
 
 	#MODELS
 	print("\n#02: Running Models!\n")
+	Technique = 'Greedy';	Distribution = 'Uniform'
 	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Successive(NODES, NETWORK, UNUSSIGNED, DATA)
-	#Display.DrawPoints(NODES, NETWORK, Place + '-Successive-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	#Display.MapNetwork(NODES, NETWORK, Place + '-Successive-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
+	NODES, NETWORK, UNUSSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNUSSIGNED, DATA)
+	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
+	#Display.MapNetwork(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	Display.SaveToCSV(NODES, NETWORK, "Backhauiling"); Display.SaveTopology(NODES, NETWORK, "Backhauiling", Links = True); Display.SaveRouting(NODES, NETWORK, "Backhauiling");
+	Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);
 	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
 
-	"""
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	#Display.DrawPoints(NODES, NETWORK, Place +'-Bachauling-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	#Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	Display.SaveToCSV(NODES, NETWORK, "Backhauiling"); Display.SaveTopology(NODES, NETWORK, "Backhauiling", Links = True); Display.SaveRouting(NODES, NETWORK, "Backhauiling");
-	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-
-	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Redistribute(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Hoop(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius, ServiceProvider = ServiceProvider)	
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Chaining(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	#Display.DrawPoints(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	#Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-
-	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Odd(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	#Display.DrawPoints(NODES, NETWORK, Place +'-Bachauling-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	#Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-
-	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Converse(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	#Display.DrawPoints(NODES, NETWORK, Place +'-Bachauling-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	#Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-
-	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Converse(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	#Display.DrawPoints(NODES, NETWORK, Place +'-Bachauling-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	#Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-	
-	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.KMeans(NODES, NETWORK, UNUSSIGNED, DATA, Network.ResidualEnergy_Median, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	#Display.DrawPoints(NODES, NETWORK, Place + '-KMeans-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	Display.MapNetwork(NODES, NETWORK, Place + '-Myopic-Uniform-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();"""
 
 	print('\n\n-----DONE-----')

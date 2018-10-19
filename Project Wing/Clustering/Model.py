@@ -159,7 +159,7 @@ class Model(object):
 
 	def Successive(NODES, NETWORK, UNUSSIGNED, DATA, 
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
-				Theta = 0.5, Beta = 0.5, Profit = 0):
+				Theta = 0.5, Beta = 0.5, Profit = 0, Best_SNR = 10):
 		"""
 		"""
 		print("\nSuccessive Selection Model Processing")
@@ -170,7 +170,6 @@ class Model(object):
 
 			UNUSSIGNED = [node.Id for node in TEMP]
 
-			Best_SNR = 2e-07
 			Minimum_SNR = TEMP[-1].SNR
 			Maximum_SNR = TEMP[0].SNR
 
@@ -191,7 +190,6 @@ class Model(object):
 
 				if Head is not None:
 					#Calculating the number of Nodes per Cluster.
-					#NumberOfNodes = int(ceil(abs((len(NODES) * (NODES[Head].SNR + abs(Minimum_SNR)) * 0.05)/(Maximum_SNR + abs(Minimum_SNR)))))
 					NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
 
 					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
@@ -201,16 +199,13 @@ class Model(object):
 					for node in UNUSSIGNED:
 						if(count > NumberOfNodes): break;
 						else:
-							if(NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node):
+							if(NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node and NODES[Head].ComputeLinkBudget(NODES[node].Position, Results = False) >= Best_SNR):
 								NODES[node].ChangeToClusterMember(NODES[Head])
 								NETWORK[Head].MEMBERS.append(NODES[node])
 								count +=1
 
 					#Checking if The Head Cluster has Leaf Nodes, If Not, delete the Head from Cluster and append to the Unussiged list.
 					if len(NETWORK[Head].MEMBERS) == 0:
-						if Head not in UNUSSIGNED:
-							UNUSSIGNED.append(Head)
-
 						NODES[Head].ChangeToNode(Results = False)
 						if Head in list(NETWORK.keys()):
 							NETWORK.pop(Head)
@@ -224,8 +219,127 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Greedy(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
-		pass
+	def Greedy(NODES, NETWORK, UNUSSIGNED, DATA, 
+				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
+				Theta = 0.5, Beta = 0.5, Profit = 0, Best_SNR = 10):
+		"""
+		"""
+		print("\nGreedy Selection Model Processing")
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+			#Sorting the Nodes in Descending order based on their SNR
+			TEMP = list(NODES.values());
+			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
+
+			UNUSSIGNED = [node.Id for node in TEMP]
+
+			Minimum_SNR = TEMP[-1].SNR
+			Maximum_SNR = TEMP[0].SNR
+
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
+			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
+			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
+
+		#Selecting the Base Station
+		BASESTATIONS = []
+		Count = 0; Total = 10;
+
+		while Count < Total:
+			node = random.choice(UNUSSIGNED)
+			Reward = (Theta * (NODES[node].SNR/Maximum_SNR) - Beta * ((Average_ResidualEnergy - NODES[node].ResidualEnergy)/(Maximum_ResidualEnergy - Average_ResidualEnergy)))/2;
+			if Reward >= Profit:
+				BASESTATIONS.append(node) 
+				NODES[node].ChangeToBaseStation()
+				Count += 1
+
+		TrackA = 0; EndA = len(UNUSSIGNED)*2 + len(BASESTATIONS);
+		with progressbar.ProgressBar(max_value = EndA) as bar:
+			#Creating a graph
+			G = Graph()
+			G.add_nodes_from([node.Id for node in TEMP])
+			for node in UNUSSIGNED:
+				for s in NODES.values(): 
+					if node != s.Id:
+						G.add_edge(s.Id, NODES[node].Id, weight = s.Distance(NODES[node].Position, Type = '2D', Results = False))	
+				TrackA += 1
+				bar.update(TrackA)
+
+			#Average Geodesic Distance
+			_GDS = 0;  _GDN = 0; 
+			for i in BASESTATIONS:
+				for j in BASESTATIONS:
+					if i != j:
+						_GDS += NODES[i].Distance(NODES[j].Position, Type = '2D', Results = False)
+				TrackA += 1
+				bar.update(TrackA)
+	
+			for i in UNUSSIGNED:
+				for j in BASESTATIONS:
+					if i != j:
+						Path = astar_path(G, i, j)
+						for source in Path:
+							for destination in Path:
+								if source != destination:
+									_GDN += NODES[source].Distance(NODES[destination].Position, Type = '2D', Results = False)
+
+				TrackA += 1
+				bar.update(TrackA)
+
+		Average_GD_Basestations = (len(BASESTATIONS) - 1)/_GDS
+		Average_GD_Nodes = (len(UNUSSIGNED) - 1)/_GDN
+		Profit = Average_GD_Basestations + Average_GD_Nodes + (Maximum_ResidualEnergy - Average_ResidualEnergy)
+
+		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
+		with progressbar.ProgressBar(max_value = EndA) as bar:			
+			while(len(UNUSSIGNED) > 0 and TrackA < EndA):
+				index = 0; Head = None				
+				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAPTime?
+				for node in UNUSSIGNED:
+					_GDS = 0; _GDN = 0;
+					for i in BASESTATIONS:
+						_GDS += NODES[i].Distance(NODES[UNUSSIGNED[index]].Position, Type = '2D', Results = False)
+
+					for i in UNUSSIGNED:
+						if i != UNUSSIGNED[index] and i not in BASESTATIONS:
+							Path = astar_path(G, UNUSSIGNED[index], i)
+							for source in Path:
+								for destination in Path:
+									if source != destination:
+										_GDN += NODES[source].Distance(NODES[destination].Position, Type = '2D', Results = False)
+
+					Average_GDS = (len(BASESTATIONS) - 1)/_GDS
+					Average_GDN = (len(UNUSSIGNED) - 1)/_GDN
+					Reward = Average_GDS + Average_GDN + (NODES[UNUSSIGNED[index]].SNR - Average_ResidualEnergy);
+
+					if Reward >= Profit and UNUSSIGNED[index] not in BASESTATIONS:
+						print("Reward: {0}\tProfit: {1}\tSNR: {2}".format(Rewad, Profit, NODES[UNUSSIGNED[index]].SNR))
+						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
+					index += 1
+
+				if Head is not None:
+					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
+					NETWORK[Head] = NODES[Head]
+
+					count = 1;
+					for node in UNUSSIGNED:
+						if(NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node and NODES[Head].ComputeLinkBudget(NODES[node].Position, Results = False) >= Best_SNR and node not in BASESTATIONS):
+							NODES[node].ChangeToClusterMember(NODES[Head])
+							NETWORK[Head].MEMBERS.append(NODES[node])
+							count +=1
+
+					#Checking if The Head Cluster has Leaf Nodes, If Not, delete the Head from Cluster and append to the Unussiged list.
+					if len(NETWORK[Head].MEMBERS) == 0:
+						NODES[Head].ChangeToNode(Results = False)
+						if Head in list(NETWORK.keys()):
+							NETWORK.pop(Head)
+							Head = None
+
+					#Removing Selected Nodes for a cluster Network.
+					if Head is not None:	
+						Model.RemoveNode(NETWORK, Head, UNUSSIGNED)
+
+				TrackA += 1
+				bar.update(TrackA)
+		return NODES, NETWORK, UNUSSIGNED, DATA
 
 	def Odd(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""

@@ -41,14 +41,14 @@ class Node(object):
 			else:
 				self.SNR = SNR
 
-		self.Gt = 160 #dBi
-		self.Gr = 80 #dBi
-		self.Pt = 120 #dBm
+		self.Gt = 10 #dBi
+		self.Gr = 10 #dBi
+		self.Pt = 20 #dBm
 		self.Pr = -999 #dBm
 		self.Tx = 0 ######
 		self.Frequency = 5e5
 		self.Channel = 1
-		self.VRMS = 2
+		self.VRMS = 10
 		self.Bandwidth = 10 #Mb/s
 
 		#TELEMETRY 		
@@ -76,6 +76,7 @@ class Node(object):
 			if len(Position) < 3:
 				Position.append(self.Height)
 			self.Position = Position
+		self.Point = (self.Position[0], self.Position[1])
 
 		#COMPUTING SNR-To-LAP
 		if SNR is not None:
@@ -94,11 +95,11 @@ class Node(object):
 	def __str__(self):
 		return ("Node:\t{},\tPosition:\t{},\tSignal-to-Noise Ratio:\t{},\tResidual Energy\t{},\tType:\t{}".format(self.Id, self.Position, self.SNR, self.ResidualEnergy, self.Type))
 
-	def ComputePathLoss(self, Point):
+	def ComputePathLoss(self, Point, Gr):
 		"""
 		"""
 		return ((20*(log10(distance.vincenty((self.Position[0], self.Position[1]),(Point[0], Point[1])).kilometers) + (
-			log10(self.Frequency) + log10((4*constants.pi)/constants.c)))) - self.Gt - self.Gr)
+			log10(self.Frequency) + log10((4*constants.pi)/constants.c)))) - self.Gt - Gr)
 
 	def ComputeFriisTransmission(self, Point, WaveLength = None):
 		"""
@@ -107,6 +108,19 @@ class Node(object):
 			value, unit, uncertainty = constants.physical_constants['Compton wavelength']
 			WaveLength = value
 		return (self.Pt + self.Gt + self.Gr + (20*log10(WaveLength/(4*constants.pi*(distance.vincenty((self.Position[0], self.Position[1]),(Point[0], Point[1])))))))
+
+	def ChangeToBaseStation(self, Results = False):
+		"""
+		"""
+		self.Type = -2
+		self.Height = self.__headHeight
+		self.Position[2] = self.Height
+
+		#CLUSTER HEADS
+		self.CLUSTERHEADS = []
+
+		if Results is True:
+			print("Node: {} Changed to be Cluster head".format(self.Id))
 
 	def ChangeToClusterHead(self, Results = False):
 		"""
@@ -184,7 +198,7 @@ class Node(object):
 			if self.Position[i] != Point[i]: return False
 		return True
 
-	def Distance(self, Point, Results = False):
+	def Distance(self, Point, Type = '2D', Results = True):
 		"""
 		"""
 		Adjecent = distance.vincenty((self.Position[0], self.Position[1]),(Point[0], Point[1])).kilometers
@@ -195,7 +209,8 @@ class Node(object):
 		if Results is True:
 			print("Distance: {0:8f}\tAdject: {1:8f}\tOpposite: {2:8f}".format(Hypotenuse, Adjecent, Opposite))
 
-		return Hypotenuse
+		if Type is '2D': return Adjecent
+		else: return Hypotenuse
 
 	def ReferenceDistance(self, Point):
 		"""
@@ -277,12 +292,12 @@ class Node(object):
 		#The peak height and mean in the power spectrum is an estimate of the RMS amplitude.
 		return [sqrt(Pxx_spec.max()), mean(Pxx_den[25000:])]
 
-	def ComputePathLoss(self, Point, Proportion = 1, Results = False):
+	def ComputeProportionPathLoss(self, Point, Proportion = 1, Results = True):
 		"""
 		"""
 		SpeedOfLight = 3 * power(10, 8) #m/s
-		FreeSpacePathLoss = power(4 * pi 	* self.Frequency * ReferenceDistance(Point), 2)/SpeedOfLight
-		ProportionDistance = power((Distance(Point)/ReferenceDistance(Point)), Proportion)
+		FreeSpacePathLoss = power(4 * pi 	* self.Frequency * self.ReferenceDistance(Point), 2)/SpeedOfLight
+		ProportionDistance = power((self.Distance(Point)/self.ReferenceDistance(Point)), Proportion)
 
 		#PRINTING THE RESULTS
 		if Results is True:
@@ -290,7 +305,7 @@ class Node(object):
 
 		return FreeSpacePathLoss * ProportionDistance
 
-	def ComputeBitEnergy(self, Point, PartialDifferential = 6e8, Results = False):
+	def ComputeBitEnergy(self, Point, PartialDifferential = 6e8, Results = True):
 		"""
 		PartialDifferential = Bits per second
 		"""
@@ -305,7 +320,7 @@ class Node(object):
 
 		return BE
 
-	def ComputeSNR(self, Point, Results = False):
+	def ComputeSNR(self, Point, Results = True):
 		"""
 		"""
 		BitEnergy = self.ComputeBitEnergy(Point, Results = Results) 
@@ -315,11 +330,11 @@ class Node(object):
 		Computed_SNR = (BitEnergy * MeanPowerGain)/PowerSpectralDensity
 		#PRINTING THE RESULTS
 		if Results is True:
-			print("SNR: {}".format(SNR))
+			print("SNR: {0}".format(Computed_SNR))
 
 		return Computed_SNR
 
-	def GenerateTransmittedSignal(self, Size = 256, Graph = False, Results = False):
+	def GenerateTransmittedSignal(self, Size = 256, Graph = False, Results = True):
 		"""
 		"""
 		from scipy import signal
@@ -340,14 +355,14 @@ class Node(object):
 
 		return Signal, SignalNoise
 
-	def ComputeRS(self, Point, Results = False):
+	def ComputeRS(self, Point, Results = True):
 		"""
 		Compute Recieved Signal
 		"""
 		from scipy import signal
 
 		d = sqrt(self.Distance(Point))
-		FadingModel = self.FadingModel()
+		FadingModel = self.FadingModel(Results = Results)
 		Noise = random.choice(signal.gaussian(100, std = 5))
 
 		#Generate the Transmitted Signal
@@ -399,6 +414,32 @@ class Node(object):
 		"""
 		"""
 		plt.show();
+
+	def ComputeLinkBudget(self, Point, Results = True):
+		"""
+		@Pout = power at the received in dBm
+		@Pt = power at the transmitter in dBm
+		@Gt, @Gr = gains of the transmit and receive antennas respectively
+		@Lt, @Lr = losses at the transmit and receive circuits respectively
+		@Lfs = free space path loss = 20log10d+20log10f+32.44
+		"""
+
+		Pt = self.Pt
+		Gt = self.Gt
+		Gr = float(self.ComputeRS(Point = Point, Results = Results))
+		Lt = 3
+		Lr = 2
+		Lm = self.FadingModel(Results = Results);
+		Lfs = float(self.ComputePathLoss(Point = Point, Gr = Gr))
+
+		Pr = Pt + Gt - Lt - Lfs - Lm + Gr - Lr
+		
+		if Results is True:
+			print("Pt: {0}\tGt: {1}\tLt: {2}\tLfs: {3}\tLm: {4}\tGr: {5}\tLr:{6}\t|Pr: {7}".format(Pt, Gt, Lt, Lfs, Lm, Gr, Lr, Pr))
+
+		return Pr
+
+
 
 	def ConfigureNetwork(self, SNR = None, Gt = None, Gr = None, Pt = None, Pr = None, Frequency = None, Channel = None, VRMS = None, Results = False):
 		"""

@@ -33,7 +33,7 @@ function initMap() {
                     color = colors[4];
                 }
                 marker = $(function () {
-                    position = new google.maps.LatLng(node.Position[0], node.Position[1]);
+                    position = new google.maps.LatLng(node.Position[1], node.Position[0]);
                     return new google.maps.Marker({
                         title: "#" + key + " - " + nodes[key].Name,
                         icon: new google.maps.MarkerImage("http://maps.google.com/mapfiles/ms/icons/"+ color + "-dot.png"),
@@ -65,11 +65,11 @@ function initMap() {
                 }
                 $.each(head.MEMBERS, function (i, node) {
                     console.log(node);
-                    distances.push(distance(head.Position[0], head.Position[1], nodes[node].Position[0], nodes[node].Position[1]));
+                    distances.push(distance(head.Position[1], head.Position[0], nodes[node].Position[1], nodes[node].Position[0]));
                     var line = $(function () {
                         return new google.maps.Polygon({
-                            path: [new google.maps.LatLng(nodes[node].Position[0], nodes[node].Position[1]),
-                                new google.maps.LatLng(head.Position[0], head.Position[1])],
+                            path: [new google.maps.LatLng(nodes[node].Position[1], nodes[node].Position[0]),
+                                new google.maps.LatLng(head.Position[1], head.Position[0])],
                             strokeColor: color,
                             strokeOpacity: 1.0,
                             strokeWeight: 1,
@@ -85,7 +85,7 @@ function initMap() {
                         fillColor: color,
                         fillOpacity: 0.15,
                         map: map,
-                        center: new google.maps.LatLng(head.Position[0], head.Position[1]),
+                        center: new google.maps.LatLng(head.Position[1], head.Position[0]),
                         radius: Math.abs(Math.max(distances) *0)
                     });
                 });
