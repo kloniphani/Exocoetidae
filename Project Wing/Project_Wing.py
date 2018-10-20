@@ -94,7 +94,7 @@ class Nodes(object):
 if __name__ == '__main__':
 	import time
 
-	Place = 'Mopani'
+	Place = 'Dummy'
 	Heads = [] #To store computed number of Cluster Heads
 	Unussigned = [] #To store number of nodes not connected
 	
@@ -108,7 +108,7 @@ if __name__ == '__main__':
 	Technique = 'Greedy';	Distribution = 'Uniform'
 	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
 	NODES, NETWORK, UNUSSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNUSSIGNED, DATA)
-	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
+	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.MapNetwork(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
 	Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);

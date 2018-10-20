@@ -198,7 +198,7 @@ class Node(object):
 			if self.Position[i] != Point[i]: return False
 		return True
 
-	def Distance(self, Point, Type = '2D', Results = True):
+	def Distance(self, Point, Type = '2D', Results = False):
 		"""
 		"""
 		Adjecent = distance.vincenty((self.Position[0], self.Position[1]),(Point[0], Point[1])).kilometers
@@ -292,7 +292,7 @@ class Node(object):
 		#The peak height and mean in the power spectrum is an estimate of the RMS amplitude.
 		return [sqrt(Pxx_spec.max()), mean(Pxx_den[25000:])]
 
-	def ComputeProportionPathLoss(self, Point, Proportion = 1, Results = True):
+	def ComputeProportionPathLoss(self, Point, Proportion = 1, Results = False):
 		"""
 		"""
 		SpeedOfLight = 3 * power(10, 8) #m/s
@@ -305,7 +305,7 @@ class Node(object):
 
 		return FreeSpacePathLoss * ProportionDistance
 
-	def ComputeBitEnergy(self, Point, PartialDifferential = 6e8, Results = True):
+	def ComputeBitEnergy(self, Point, PartialDifferential = 6e8, Results = False):
 		"""
 		PartialDifferential = Bits per second
 		"""
@@ -320,7 +320,7 @@ class Node(object):
 
 		return BE
 
-	def ComputeSNR(self, Point, Results = True):
+	def ComputeSNR(self, Point, Results = False):
 		"""
 		"""
 		BitEnergy = self.ComputeBitEnergy(Point, Results = Results) 
@@ -334,7 +334,7 @@ class Node(object):
 
 		return Computed_SNR
 
-	def GenerateTransmittedSignal(self, Size = 256, Graph = False, Results = True):
+	def GenerateTransmittedSignal(self, Size = 256, Graph = False, Results = False):
 		"""
 		"""
 		from scipy import signal
@@ -355,7 +355,7 @@ class Node(object):
 
 		return Signal, SignalNoise
 
-	def ComputeRS(self, Point, Results = True):
+	def ComputeRS(self, Point, Results = False):
 		"""
 		Compute Recieved Signal
 		"""
@@ -376,7 +376,7 @@ class Node(object):
 
 		return RS
 
-	def EnergyConsumption(self, Bandwidth = None, Pt = None, Prcv = 100, Nbpp = 200, Npkt = 10000,  Results = True, ReduceEnergy = True):
+	def EnergyConsumption(self, Bandwidth = None, Pt = None, Prcv = 100, Nbpp = 200, Npkt = 10000,  Results = False, ReduceEnergy = True):
 		"""
 		@Pt: float - Transmission Power
 		@Prcv: float - Power required at the receiver for receiving the data, mW
@@ -397,7 +397,7 @@ class Node(object):
 		else:
 			return e
 
-	def DelayEnergyConsumption(self, Delay = 5, Results = True):
+	def DelayEnergyConsumption(self, Delay = 5, Results = False):
 		"""
 		"""
 		import time
@@ -415,7 +415,7 @@ class Node(object):
 		"""
 		plt.show();
 
-	def ComputeLinkBudget(self, Point, Results = True):
+	def ComputeLinkBudget(self, Point, Results = False):
 		"""
 		@Pout = power at the received in dBm
 		@Pt = power at the transmitter in dBm

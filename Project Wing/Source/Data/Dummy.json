@@ -1,0 +1,1614 @@
+{
+    "1": {
+        "formatted_address": "Khangela, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.960285,
+                "lng": 30.36935919999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.9589360197085,
+                    "lng": 30.37070818029149
+                },
+                "southwest": {
+                    "lat": -23.9616339802915,
+                    "lng": 30.36801021970849
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "e884b2463c100cc026ae3a7a844b38445c2d6cea",
+        "name": "Mafarana Clinic",
+        "place_id": "ChIJ-1ol4jj3wx4ROM9cvSpecjg",
+        "reference": "CmRRAAAA4l_qBzSS2I62bX93HIwLrppj0EFQX5PafLC2wCAqXBiPuLzw8dQD3B5q4q_5G2lT_KskXaYkaFQ57rppcPz4XXYkfQHwxsBu6-LkbT7tXwrPo2F8HwgfZJd4um-3k6-yEhCmgdsxXbLtDZg8_hz-jCsGGhR0NwfFwXMvNM8A9yNswZQxu-UFwg",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "2": {
+        "formatted_address": "Ben-A, Phalaborwa, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9160157,
+                "lng": 31.0370016
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.9146667197085,
+                    "lng": 31.0383505802915
+                },
+                "southwest": {
+                    "lat": -23.9173646802915,
+                    "lng": 31.0356526197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "a80171032b7c291607c5107c30132369e7a7e73c",
+        "name": "Benfarm Clinic",
+        "place_id": "ChIJ7fzn_H5wwx4RyV8KR3TTWNQ",
+        "rating": 5,
+        "reference": "CmRSAAAA4X7twiCDbZHdq_alhxLbwOdWbryw-43sbHz_4MMjDMZBQ9wrBnAqNeXAFGDXUc9msT-w0CY_3QqoMEmX98YXHgZRbrRDYSrmHVTvbLKZ6cFmcJjfTxyLKH0NrZeapCQGEhBlRlAEwTFwUc8IbXSPeJwNGhSAFFLJSBfq8Q-w-52J19qlY4HsKw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "3": {
+        "formatted_address": "Boyne, 0728, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9456275,
+                "lng": 29.7983906
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94427851970849,
+                    "lng": 29.7997395802915
+                },
+                "southwest": {
+                    "lat": -23.9469764802915,
+                    "lng": 29.7970416197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "0a5bd7fc37690ad5a9ae6097004a9fbe686eaa0f",
+        "name": "Evelyn Lekganyane Clinic",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109361001108793686147/photos\">Joseph ML</a>"
+                ],
+                "photo_reference": "CmRaAAAAN2pKbO6tRzMCkJiL6caTzcXMFhMROiBakSk5Xu0vHgiZIADs8UM9wDqB3SJUcksdx4y4POW6V89BzctT8vQzZbBvweW_Xnf4XelBGtwNOrd52jfYRpbER-SwCdA8I7EIEhDA6IKUtBqzdn5kipJAJF7BGhSr56FJoswcq7SehurOsHqkP9zbdw",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJT3IR6PK1xh4RiGIYmWzQ8KM",
+        "rating": 5,
+        "reference": "CmRSAAAAr8kcVXfQKxKk3LlwycYJxcJbea5HfDw6DDi5QzyA_Fhr2gZpQsmtG3vciOYLMftvbclFkTB_y_-hJ6ghclCpVnESGludfteAFu9lc8eb72L_LSlHJ3GtBf5Cjz2zboulEhDK9sgYBQXzw3ygPWWg6WnEGhQVdFec_KJEV2kH49-64wZ-3YCT3w",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "4": {
+        "formatted_address": "giyani section a vuxakeni street, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.3187641,
+                "lng": 30.7288359
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.3174151197085,
+                    "lng": 30.7301848802915
+                },
+                "southwest": {
+                    "lat": -23.3201130802915,
+                    "lng": 30.7274869197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "cb545eff8467ef2325ad1196d064f3ff3d951576",
+        "name": "Evuxakeni Hospital",
+        "photos": [
+            {
+                "height": 720,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109645809663671484813/photos\">Mogorosi Molemela john</a>"
+                ],
+                "photo_reference": "CmRaAAAANVgoKD4mDLKpvIZ-Pb8uT5kz4tCnxVKNjBfm-t0jZy8-EYMbZPbLJm9FfUKzXUp01v4j0zxWzpakcTKz3nwopPKtfw4WAOWI7A6wGRjjKta-JWwIQENcdUrBYN3WBeU4EhDM3rZRR0Cs-DCOnX3kuDfcGhT9NVk68wCNI64wRF23vjE0hSNOqA",
+                "width": 1280
+            }
+        ],
+        "place_id": "ChIJ_QlNUcdaxB4Rfgs4nR6eY2Q",
+        "reference": "CmRRAAAADxSmBuhoUbyg1mAYGOtoO85_JmTPChOPlAOCxCJVz24-Pfa5uHbCWWglRPCxSo7czvjsG94PGv5GTM7J2rNVz2URsWAEq-NRvO2u3fRvzyP0YKTvjcoHxdVNG305C6TbEhDTVpHMXzncYoXIrWjYQlq-GhSOes8r_T6A1I-xkB-ODCM_ScdmhA",
+        "types": [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "5": {
+        "formatted_address": "Unnamed Road, Mohlabaneng, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.4620914,
+                "lng": 30.36743209999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.4607424197085,
+                    "lng": 30.36878108029149
+                },
+                "southwest": {
+                    "lat": -23.4634403802915,
+                    "lng": 30.3660831197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c3d12db2afa4eb58b615b886ae6b71a64dab33c6",
+        "name": "Lebaka Clinic",
+        "place_id": "ChIJDaiLkZ88xB4RjZRr3PfQtuQ",
+        "reference": "CmRSAAAA21I1ZzaCfrXdbZHxW6oWWGJbuj4Ljqytbc7Ex3GKtpy9_oX4XnZmHWYjX-jINhmoi6iCPKD512ntzb_JOcV1qmVZf7dv1mQhphwbzNEKSO8gyHSbizDk72zyJadjuCUqEhD5nlivKuH2HmhtCwWMCVdyGhSiF-gj-XC2uHeE_PbjCJzIN4hveQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "6": {
+        "formatted_address": "c0004 Belleview location 1 118,8N national road, molototsi, R81, 0826, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.4119083,
+                "lng": 30.420875
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.4106196697085,
+                    "lng": 30.42252368029149
+                },
+                "southwest": {
+                    "lat": -23.4133176302915,
+                    "lng": 30.41982571970849
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c6177122f963852d5448a4f7781dcf2fc37d5436",
+        "name": "Belleview Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "photos": [
+            {
+                "height": 2736,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102209586241532618827/photos\">amzo sithole</a>"
+                ],
+                "photo_reference": "CmRaAAAAJaz_alqgbZzu4pgoFpQVffRYHwwzLP-CxAH9quimhRAaTSra1_zcoQ442D6BIB_DBdvVUZ-mTyrVK5wvKWE6SimjXx8415yo4yI4tb4daz2EfeVTRhCbnz8dw9_IyAMCEhC5RkjbH9kNE_DaZQ8x0xK1GhQ6G2-K1cYTq79vrPB8Ra8tBLunJg",
+                "width": 4864
+            }
+        ],
+        "place_id": "ChIJtVhOhM47xB4RLo5g51t5b-g",
+        "rating": 5,
+        "reference": "CmRSAAAAm7Z9RzyyvGZ4G3L8i6PM_mFYhTTu0WpU93-ponmYLY4QY2Lo7KBh1fc_bA5SDWUb8wgsQpD3yipK6f183-HuaNGN8FnMMPbAjegVF2iJUZNrTIZEc3YczvxRKKUcTvcUEhBPmZjpY09q1bTb4qhu4aqQGhQt7TrQVYFgPBCrr2j8PkyDbNCl6g",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "7": {
+        "formatted_address": "Masakona, 0941, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.2737484,
+                "lng": 30.2442637
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.2722729197085,
+                    "lng": 30.2455638302915
+                },
+                "southwest": {
+                    "lat": -23.2749708802915,
+                    "lng": 30.2428658697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "8d2876ca91309c8a6e41c439453365e60ec8b656",
+        "name": "Masakona Clinic",
+        "place_id": "ChIJn0ciOYIrxB4RN0YP-HM5qn8",
+        "rating": 5,
+        "reference": "CmRRAAAAtnE9qVDZ7a8NbMiBUi3LaZ7gcU6OCOr985YK8NeckLS2EMKON3HZZSfKBQnpo5mhgjNElpnFDtnDicEaHxIdRLzSyFBzFy7McvadhGFNGZmOlGCEsldqsuGDtXMV2phxEhCaqxGiuvfNwCMEKfdGlgOpGhQ-tsrSw5yptElL3aAL3YlIX8A0pw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "8": {
+        "formatted_address": "Loloka Village, Loloka Main Rd, Loloka, 0826, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.550548,
+                "lng": 30.7948843
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.5490830197085,
+                    "lng": 30.7963447802915
+                },
+                "southwest": {
+                    "lat": -23.5517809802915,
+                    "lng": 30.7936468197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "07492b067250767747eb35b052ba53420bc0626e",
+        "name": "Loloka Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJX4tYhA9kxB4Rv8LyRz1QYtY",
+        "rating": 5,
+        "reference": "CmRSAAAA7WFXH8yy902x6qfJMD-Bxkbov0WC2hC17xCrrHFzOh2RLzwxPJjKfiXqNyV9aMVoTL1skKkqpzFXMSqgoByhdzwSYNy_kuqnkkS5C4-KmbNXuXxE_3ZQt6D2EVDuXwN9EhCus9QPD2nEst0kqjOeC8YNGhSl7-1bxK9XgAPsvdeEHfL4YKe-4g",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "9": {
+        "formatted_address": "R81, Maphalle, 0827, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.4682557,
+                "lng": 30.3117192
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.4664637197085,
+                    "lng": 30.3130189302915
+                },
+                "southwest": {
+                    "lat": -23.4691616802915,
+                    "lng": 30.3103209697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "f28d8ec35e564b631eb10f736e13e73f9717b6c0",
+        "name": "Maphalle Clinic",
+        "photos": [
+            {
+                "height": 1746,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107834644800782946097/photos\">Tawanda Nyaswimbo</a>"
+                ],
+                "photo_reference": "CmRaAAAAVQFUrzg-Qnkw_Ni90yMAwvTN72S94H6CFKWtw82Tl1n0OQryHN2dyYvPiF4VfVIiaEJgzt09ssvTbIHXy-gN5UGoKLd1MfrQTUP_DWGE9ww_5hlUsGl4yO0JLxCYoj0mEhCWSLGSwyGGefaXMZ_izGl8GhT-sLJ57Add75GZe0pXIgSs9pidlg",
+                "width": 3104
+            }
+        ],
+        "place_id": "ChIJ3xfPipwkxB4Rm-aWBhsxwpc",
+        "rating": 3.5,
+        "reference": "CmRSAAAAD-cFntFkVL_DM-QVsjMNh0H4pWrj2uIIbIREnTioWXIZMskzY1sk9zX0tc8qaJOXhdydtdT4GexBj7NT7SxCheWEtRQB9_WAZpPrwmTtBr3aswhP33whcKfeBzLMrpcIEhDAoEC4kIBrfzTOnjbr0BHeGhTN-xScDgcA6qLy616pD23_Q_OsJA",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "10": {
+        "formatted_address": "Unnamed Rd,, Makuleke, 1007, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.86522,
+                "lng": 30.91454
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.86387101970849,
+                    "lng": 30.9158889802915
+                },
+                "southwest": {
+                    "lat": -22.8665689802915,
+                    "lng": 30.9131910197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "ca74a595ef2410cdda0a81edff69bde9078be428",
+        "name": "Makuleke Clinic",
+        "photos": [
+            {
+                "height": 2988,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103846333460495710019/photos\">Cyril Gabriels</a>"
+                ],
+                "photo_reference": "CmRaAAAAiD4kk6WPqVhOjQ4UZyW4-CgktFLCG6cW7lkt6P3W7u1AEF21Qq55p_sEdO5a3JIujqUue9gnZKUqdDSszwIPUIaXfvGLzFafdvQM6Lc2WI7G3TTWgBpzJ-SHcjmfTnq7EhBVgb-N_BZLIuBZTusItOfFGhTFeIiRk5IE69dUY2KwwEZELrjHSQ",
+                "width": 5312
+            }
+        ],
+        "place_id": "ChIJh7XsFckJxR4RXRoz64dCQHk",
+        "reference": "CmRRAAAArVmbGyYp_4fOxLSlksylftnc7d5jkaCoB8XVeco16SLBi1D361N_e6htbqcrXa8U515KrNieLXUJg3P1JtDy3H8881nzXAd3hm0FT0j25wT7O7pD_i-o8VQMKdCf-yXeEhAmy_vjB6gFm77UvKlTYZxgGhQhbgVmAZQGRI8blYHB8rYVU08VqQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "11": {
+        "formatted_address": "Shivulani, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.1417273,
+                "lng": 30.701991
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.1403783197085,
+                    "lng": 30.7033399802915
+                },
+                "southwest": {
+                    "lat": -23.1430762802915,
+                    "lng": 30.7006420197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c987132c1f4a18b1189582a17132c82cdb2aa234",
+        "name": "Shivulani Clinic",
+        "place_id": "ChIJGerHclBNxB4R31ZeQiAJmCA",
+        "rating": 5,
+        "reference": "CmRRAAAATeG_cOxlIWC6iaQBGYDar6cb5TPwVhistcq0hJXw056wCbZEJVH5s35MIsYv6ByLgMLAnvkuXu8U2MWcSXtIMymHvMOxzkyqfny25arJ3-0BdLe3FqGCbXWbM67cKWObEhC79R8KTzzGCDqZOSXZE92AGhQhCZPF7eGtnsxBX5rKxzMXuCSvlw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "12": {
+        "formatted_address": "Ga-Mmamatsha, 0728, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9983316,
+                "lng": 29.8062633
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.9969826197085,
+                    "lng": 29.8076122802915
+                },
+                "southwest": {
+                    "lat": -23.9996805802915,
+                    "lng": 29.8049143197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9f3bce62b15e3ae00ddd670f52f41aa16d417a2c",
+        "name": "Sehlale Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJOUCH4kW1xh4RX6M-_Xjn8jk",
+        "reference": "CmRRAAAAivqI4l6J8ddAuGsyffFA-CNkzg2wYz3TIWy9YoZ2vdUt6Rbssm4oNfu10tINoyRL-UG4IamphV9PO06u6U0bd-jtA8OZc4VW6B49xqfs93Dh25O8CttZ4LnXddHw_0IDEhA0wVMIty7oCgytNppPjnZJGhTYltPE56e0DsCGk553Yca0uc80sw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "13": {
+        "formatted_address": "0838, Ga-Kgapane-A, Modjadjiskloof, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6404178,
+                "lng": 30.2181252
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.6390688197085,
+                    "lng": 30.2194741802915
+                },
+                "southwest": {
+                    "lat": -23.6417667802915,
+                    "lng": 30.2167762197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "1d929a68fb73e49c5a4fd82c39b84be098324e56",
+        "name": "Kgapane Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJx_cuDe0exB4RPV5kBzNjveY",
+        "reference": "CmRSAAAASGUqeL1yZVSgdjp-DVwwUM06eILL_E7eGl_yiIJP7sB_56BAUUuXcW5RY0rB_AmzAycXePRw_vywVVeQgCg4HulJMSTMji8MR4jIC8s8CMR2ZFP8Paqfip2StHJSJhLZEhCbJclZGgvNUBcA6oJUGfGQGhQkIqYGvxK28uWTl9RqMfN2LQNQpQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "14": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.8630831197085,
+                    "lng": 31.0789457802915
+                },
+                "southwest": {
+                    "lat": -23.8657810802915,
+                    "lng": 31.0762478197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "reference": "CmRSAAAAgsLgvJcS6l-MzPuTASPh5-Q0pc7B3pyBGQ0Mw-W2cZxlU8CiP4-0fSTttsXEVWqOCaSXSKL_LVMCdA_wECdWWqGqreZEZEajqB-Pm5zirXhfrYOOe_h4_nyj3VEdhgthEhAJGwa2vaG2X860yhnsSfWIGhQND7BAdiwfiVpC5cb-5whb2rV1lw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "15": {
+        "formatted_address": "Ka-Xihlakati, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6607816,
+                "lng": 30.8811845
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.6594326197085,
+                    "lng": 30.8825334802915
+                },
+                "southwest": {
+                    "lat": -23.66213058029151,
+                    "lng": 30.8798355197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "53b6363e3553790db45b1387ce02a823a951f368",
+        "name": "xitlakati clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJRW-59JB9xB4R5CHsRC5mMPY",
+        "reference": "CmRSAAAAQeu99QAyIsEG31bXUiVc1Z4FWulnf_16U6GLd80lc-aav_IKzd6atoGIZnpvjanJkhTn4c4s8n83zj3B2F21Oy6viTW9-Zpye3XJjOa_Oi7vx-u-87-ufHZu1EZJRVmsEhC11rThErEH2DAF8ge_Bvs8GhSxdqyuMBngggfFuu01t9vKC_kVKA",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "16": {
+        "formatted_address": "Dan, 0878, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9044161,
+                "lng": 30.2717248
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.9030671197085,
+                    "lng": 30.2730737802915
+                },
+                "southwest": {
+                    "lat": -23.9057650802915,
+                    "lng": 30.2703758197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "4e891a4770f4dc6e40d619c53fa87032cc646861",
+        "name": "Dan Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJ5wNr1F0HxB4RKT4S81qTRgI",
+        "reference": "CmRRAAAAsA21P58m-eNFbjuJFwxJTRo4JkI8BirIeY52VNgw4btju8BTSzevOcEwWcm56iarw1890lcQ0tETFkkO9uqRGRcNacGNNJIst1tnro2h3wCnukcylRq2PfwjIDpKUmxiEhA85CfTkFow6GmxyVA1MSxNGhRgh1c89zAszC3Gl4YEZ22lyrrZTw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "17": {
+        "formatted_address": "Okkerneutboom, Acornhoek, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.5664297,
+                "lng": 31.1439449
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.5650807197085,
+                    "lng": 31.1452938802915
+                },
+                "southwest": {
+                    "lat": -24.56777868029151,
+                    "lng": 31.1425959197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "a606f737fc57a38c414de22d4c252a633967c862",
+        "name": "murhotso clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJUSwRjYvlwh4RKWdXuT75Z34",
+        "reference": "CmRRAAAAuR4RTNPrOLsrTKg2iLOZQfraf7CQhCnVD7vy-UuHSKzZxiSLaNzs51FLqY6GCxPYZ42xWjtVRjrPII1DJvghi5jeuWGPypCwZLSAPjRZFEwj3oEOl4YvhAZKkA3C_tkQEhCOjDAqT7O2F6BHE28arCZNGhS7ym1czHH8bD8vaDx6iwzrIMZyQw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "18": {
+        "formatted_address": "8\"S 8th St, Johannesburg, 2192, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.500227,
+                "lng": 30.88105
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.4988780197085,
+                    "lng": 30.8823989802915
+                },
+                "southwest": {
+                    "lat": -23.50157598029151,
+                    "lng": 30.8797010197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "efd365c567e346449ac6dc961140e54fd9828df4",
+        "name": "Shikhumba Clinic",
+        "place_id": "ChIJSe9DyelhxB4RvceurZTrVPs",
+        "reference": "CmRSAAAA0EYZKW-RxiSRL4U8nhFfw5k6mYyikwyGmbar4ko2rXZo08OzpaveorcKw3trPqSBtF1dSPhv5FKVGOLidYhEpMZ8kbUM-ID_WX7jRtkA4VeAb_GKhF6T1QI9YUCQvAQgEhDH6UM2kKqbj8SdNf4RloN4GhTwy-PqsllCgTCw82gg127D6Oc82g",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "19": {
+        "formatted_address": "9 Loop St, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.825513,
+                "lng": 30.158793
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.8241566197085,
+                    "lng": 30.1601114302915
+                },
+                "southwest": {
+                    "lat": -23.8268545802915,
+                    "lng": 30.15741346970851
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "e2dee7f22312280a564292baa301ed906c3384d5",
+        "name": "Tzaneen Travel Clinic.",
+        "place_id": "ChIJZ0t6jN-pxh4RtTzD2BWsb8s",
+        "reference": "CmRSAAAABNHz9qeoW6cjvKL-xYWdbDtFtwtDDrEUr5bvfm6qpgirjRsEWnQBQnP8-VUq-7fmmME-Iwf8g4Z-ft4ZD3VOEATnEQmlS8KvwhWD1X1Kdd3MhPIxGoMuIuem6G7VjBiOEhAzoNw63ztVFbAM2wYzneNDGhTayG_qVC_IJQG-8M-oyUR9l8rEdQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "20": {
+        "formatted_address": "Tlhabine, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.0133893,
+                "lng": 30.1992568
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.0120403197085,
+                    "lng": 30.2006057802915
+                },
+                "southwest": {
+                    "lat": -24.0147382802915,
+                    "lng": 30.1979078197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "3c47838cf53763ed419254a9436d10027f3d6798",
+        "name": "Mogoboya Clinic",
+        "place_id": "ChIJ_____yb8wx4RQzmnMCneWSw",
+        "reference": "CmRRAAAAIHGXHmWj_mfPiw7m-g405Hie7FhJJC1PGVslz8HkgyFa3hL95J8th1yOMshg3D2gSrqOVk37myp2rWrHcGp7i1PriZqF527wFf8PH1YynR1C262IWjsqzaOn7JHMPA04EhD6Dq6Oqs-NwdWsXWOp7B74GhQKyIIluZJ2LxitGDLk9jN7UBHWRA",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "21": {
+        "formatted_address": "Unnamed Road,, Ntlhaveni, 0928, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.8922237,
+                "lng": 30.9114657
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.8908747197085,
+                    "lng": 30.9128146802915
+                },
+                "southwest": {
+                    "lat": -22.8935726802915,
+                    "lng": 30.9101167197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "85cab2fe227ad1f9bfaefe2ee2753c1c3156c81a",
+        "name": "Makahlule Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "photos": [
+            {
+                "height": 1052,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117298493345801246726/photos\">Ntsako Maluleke</a>"
+                ],
+                "photo_reference": "CmRaAAAAV6Qgwl5uevweRZorQ9tlsg6KluBd5F_Bj9RYm5HCGif_lFdtVOrpoDDkuAVSFJ8Wige0qaCvxC1HCC1bZ_ZyfjHHFw_SLyzgEyF8MqQ6IKOJH2PFobZ0-B57oEnsavFlEhBqljyMcJZRPiwTTy_EHzxCGhRbP-D14ti3TG70BI_Dz-IeRF3zfQ",
+                "width": 780
+            }
+        ],
+        "place_id": "ChIJ_zcwuD0IxR4RoejtvQ9rYuw",
+        "reference": "CmRSAAAAhUbyudq6olmvvM6nYgi2YSKyA7UdB2IoocLw-jSmNZehsVJyD7bcm3kldNg_KAwNv3-s6wTxHgJ5FSkABaO9B0kIx6eMwMBsuWLNs_nrkCGpc2iBVg0nwYU1kCKLQqdxEhAp_OEGcV_42DlqBC-5CR9PGhQso_fmnJ4jF-rtBCzfGmLIX8FTAg",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "22": {
+        "formatted_address": "Thomo, 0826, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.2484469,
+                "lng": 30.78841
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.24709791970849,
+                    "lng": 30.7897589802915
+                },
+                "southwest": {
+                    "lat": -23.2497958802915,
+                    "lng": 30.7870610197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "067d3360e4b7b5e24cdad359f5a8fb3fb58ad234",
+        "name": "Thomo Clinic",
+        "place_id": "ChIJj7c9vNtQxB4RyDwqnU-z6A0",
+        "rating": 5,
+        "reference": "CmRRAAAAYfxoXg-QzlKqS3oz-hur3rQwtXOveekJNFFCEk4jICOer2uTYUS1S40oxsPdYelYymCBZ1FawK-fjGDf7KDDuOQsBm9mzPMYP1TAeRRELW8Fsr_B3P0libmu5DZxOywCEhAQqR5LD22WCrP6HohMPJRtGhS638Tmmy80jTmQRfikW7haqQ6h5g",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "23": {
+        "formatted_address": "0826, Giyani-A, Giyani, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.312801,
+                "lng": 30.7232505
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.3114520197085,
+                    "lng": 30.7245994802915
+                },
+                "southwest": {
+                    "lat": -23.3141499802915,
+                    "lng": 30.7219015197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "b93eddc6ec07fe758fce61cf630d394799388803",
+        "name": "Giyani Health Center",
+        "place_id": "ChIJuWQZn7BaxB4RFPf03vBdoLc",
+        "reference": "CmRSAAAAqi5cbzfpcLX8JyM5Y8NFPQwA8-RiNskQV62jdxQq7BeAzhu9vuL3Mw56nBEAdiT2pULEW-8nagGXOLTVmXO9oobfJJvz52_ZjRmj8iJuxyQrV-ywNCVNRD41EEd-I_m_EhAdD5ZSnSk5qOrCwPh4DFPJGhTqL6fO6YVRcYIL7r4pPPuu3I-A8A",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "24": {
+        "formatted_address": "Protea St, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.839309,
+                "lng": 30.163576
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.8379600197085,
+                    "lng": 30.1649249802915
+                },
+                "southwest": {
+                    "lat": -23.8406579802915,
+                    "lng": 30.1622270197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "3c58edf11d0a6c6f29b5f27118566aaa4f1b7536",
+        "name": "Choice Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJzUqbYQYCxB4R6eeD3JgSW14",
+        "reference": "CmRRAAAAkHqHxYPdHUUgLRNO3U2bvXpvZAF3_6D2JpLmYAV30_m2C9DtddrP5lGlGyXaZpq1XAdKwV9PYZVxA6tQCVk0qBpmOyPMBbWNbFkoacf_wuh39FpSLr-u1gf0wuN3aoSQEhDRu1JW-PCmFY2tJgGFEifwGhSMmaJBslt4nNKvxL3xROBTTHtzow",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "25": {
+        "formatted_address": "Mariveni, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8874615,
+                "lng": 30.3485402
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.8861125197085,
+                    "lng": 30.3498891802915
+                },
+                "southwest": {
+                    "lat": -23.8888104802915,
+                    "lng": 30.3471912197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "79c2defb653b405861de4d2ce3c27b89c75d2fad",
+        "name": "Mariveni Clinic",
+        "place_id": "ChIJA349sAYIxB4RH95gMYZAO-8",
+        "reference": "CmRSAAAAqcIlC4o3Nt_d1F6Lkz1BBjzHym3OYu3ylqLRSF5AUQgoWuWokwyzsu6BFC_lPZvVWuiViNsFFtiIsxZkFo_shUE-SzDAdrBMbJaditJW0-U-oHYm9IjxvFp_YOXqccwrEhCmAnU02jC8pJjyqaNcGfI7GhTgOoEflPRWHLPTdl8HfdOGVZEpjQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "26": {
+        "formatted_address": "R81, Ka Nwamankena, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.3690552,
+                "lng": 30.5190201
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.3677372697085,
+                    "lng": 30.5203748302915
+                },
+                "southwest": {
+                    "lat": -23.3704352302915,
+                    "lng": 30.5176768697085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "b69126dc14b5c63fd26460a02018dc38f09d79fe",
+        "name": "Basani Clinic",
+        "place_id": "ChIJ56LrgHE4xB4RukeuVy1tkpA",
+        "reference": "CmRSAAAASqh2ioioYfpj_Wp57iSfAMLAj8Jrp4ZFsehdoy-U9W9zGomXiCyqlALZH2ZSSwJxbOIR0nLY0fHQgH-bO7gDGZEzW76XRSmD1E7rFRaiZZKuG2mQRW6TzFVlO-yEkJ8cEhCCCeSQ1mbbY_hR9idkl43MGhRbxiKVgpuHWT_L8YdREyJKqz-ZAQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "27": {
+        "formatted_address": "Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.3120544,
+                "lng": 30.6922971
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.3107054197085,
+                    "lng": 30.69364608029149
+                },
+                "southwest": {
+                    "lat": -23.3134033802915,
+                    "lng": 30.6909481197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "22e5d32ce00a4b413b8f270f15c68f41c0081b8b",
+        "name": "Kremetart Clinic",
+        "place_id": "ChIJ09ORTlxFxB4Rf0X_fTkq82o",
+        "reference": "CmRRAAAA-zdijCP-OzhqCo2jBoVQ8J4cI2QR2-BGYhYzkp4Po6lkq-WTh1fa-cCD5RmfB3XTeELtGLv7D0mKXdvVkV6sTJ9j2ugQBY3Xz0UmebjzEWujS9RZYDzfOspX9fRHHUrKEhAUmuP804Ct5fPXjG138ZIiGhRCkHz2uSb6-E7qnwT_KVJvQtVeCw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "28": {
+        "formatted_address": "Medingen, Modjadjiskloof, 0838, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6413454,
+                "lng": 30.2425883
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.6399964197085,
+                    "lng": 30.2439372802915
+                },
+                "southwest": {
+                    "lat": -23.64269438029151,
+                    "lng": 30.2412393197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "26fbf288c7b184444c3d59e11e4e5e62ec5cd910",
+        "name": "medingen clinic",
+        "place_id": "ChIJUeL4H7cexB4RstVu7QWXPn4",
+        "reference": "CmRRAAAALRvnuARJQNg_334JqXagpiwwJGsq9TXAANBXRhom3I9p1Ib6xf94AeQFV_PaoEMTMzJ-6QwxeIY8WhRX-7GY5SoSQXMJ5qgMavuYgVAcYST04EPhmbCnmy-0LOpuSE87EhBxQY5HF6488Xl1J6CuvhbFGhRFILhaKkY9DGVzdb8JgC0ihMauwQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "29": {
+        "formatted_address": "Mavele, 0837, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6766473,
+                "lng": 30.4213592
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.6752983197085,
+                    "lng": 30.4227081802915
+                },
+                "southwest": {
+                    "lat": -23.6779962802915,
+                    "lng": 30.4200102197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "6b6ec1a9c7d3c3414d7d32d6da842cda1da6628c",
+        "name": "Dr Hugo Clinic",
+        "place_id": "ChIJ_____5ARxB4Rb8XjYd8uNNw",
+        "reference": "CmRSAAAA_Cf-nWtCjm0Q50NUAnKM9B5uOjTfETgMwKbOffWMRcvjJNfH1c25SDvm7CwUtQRp2JfUzKo3nJU53Dq1rHFgRNeOejstNkb0XycnwUn_PCWq4I1PYW_vkAIgIPSdE1YyEhB4-QJQFIpHWzmPw5jhYBPSGhRK2A4HEBcP9Pa1R4qqHb4c27qLiQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "30": {
+        "formatted_address": "Letsitele, 0885, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8886492,
+                "lng": 30.38366019999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.8873002197085,
+                    "lng": 30.38500918029149
+                },
+                "southwest": {
+                    "lat": -23.8899981802915,
+                    "lng": 30.38231121970849
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "b7cd1b0a64386e8a7b1f12a92d0d157c80132a16",
+        "name": "Letsitele Clinic",
+        "place_id": "ChIJU0gcgdb3wx4RDI4D1VoI3ME",
+        "reference": "CmRSAAAAU2H7HqkOPsqLORMiquBUz6f4Z0IHN8dvF270qKXYxIDcYcP5Z9VGuAAjfSLZFJ1k0nkAtoH-z7PaWhKI0MEwEF4e-rzss1rUfuoB-iILi8piY-r55SSA8qZ2cTSb1aFxEhBCcElfG9A-i1kvYLaW3Ht0GhSY6WydXtdR4G3X8tQsvAobJVq4FA",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "31": {
+        "formatted_address": "Sethong, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.67495199999999,
+                "lng": 30.332161
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.67360301970849,
+                    "lng": 30.3335099802915
+                },
+                "southwest": {
+                    "lat": -23.6763009802915,
+                    "lng": 30.3308120197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "ea47f062c1bac4771b3046d3524e7f61bbc1aedc",
+        "name": "Relela Clinic",
+        "place_id": "ChIJgWgDLXsaxB4RG1OzLDedVHc",
+        "reference": "CmRRAAAAW2ngSZBRecvTVsAvjfEpcAbKsk_9KFarMhmjGOJ33bhrsGB4dEZhGem44JPH1rS6R4fNaKGUWbaB-PzQ_t-iuD_yhgimAohBsIhuhvnEk69AWjwzE0q2TuJRaWj-M7tEEhB1MA-1hAGC0bP35LgKMzNaGhRTCq_PaW3s_OQiB8C_PAgY0Vh3KA",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "32": {
+        "formatted_address": "Mpepule, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.436165,
+                "lng": 30.63496759999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.4348160197085,
+                    "lng": 30.63631658029149
+                },
+                "southwest": {
+                    "lat": -23.4375139802915,
+                    "lng": 30.63361861970849
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c2d897192f61ff1536954bfbaca6fb2f87ff77bf",
+        "name": "Ratanang Clinic",
+        "place_id": "ChIJZX5Zcs9DxB4Rfw-0ZAc0r00",
+        "reference": "CmRRAAAAayvbSeAOgYvbd6sylWKf97ZnsY5sgMURYNgeUsBe-2jAV-NWPK-lXcAa11bRH3HE9zliUuMmdtz_PGjlZ-fqHE16HkMbE0RFqpR5eNadX0tOYlvM-N9jjhChTS8JXorTEhBf5L7EIl4IH8_oZ_jvunv9GhQfQn2rbELcT-HC1RfAl8d5_pjpXw",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "33": {
+        "formatted_address": "Mahale-A, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6947832,
+                "lng": 30.9694544
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.6934342197085,
+                    "lng": 30.9708033802915
+                },
+                "southwest": {
+                    "lat": -23.6961321802915,
+                    "lng": 30.9681054197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "6c6f784dd884cf2642364ee3c0799055aa262d9d",
+        "name": "Mahale Clinic",
+        "place_id": "ChIJUUe5PWqBxB4R1hsuESdUeAI",
+        "reference": "CmRRAAAAw7eGIpbPv5qi-wp053ereDw1ZY3Y49z1b81r-FhGRu3zuTczZlI_s5LpAmUCu_1mdFUcQGyUqQDSsezFpR3TUiRZeQDLPwgN-k_5k9r0LFo6i4MFAsYzRUgbARLwdNcREhDNhYvR8E2lfwKJKqsSs26TGhRVNZqOU3m3VER370m5TfySvzA5yQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "34": {
+        "formatted_address": "Cnr Palm And Mandela Street, Shop 19 Pick & Pay Centre, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.950333,
+                "lng": 31.135333
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.9489840197085,
+                    "lng": 31.1366819802915
+                },
+                "southwest": {
+                    "lat": -23.95168198029151,
+                    "lng": 31.1339840197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "d09a7932fcab646028a7ec680e1491be32487381",
+        "name": "Spec-Savers Phalaborwa",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJsfluiPFuwx4RV2qCZUfXV4s",
+        "reference": "CmRSAAAABnDa2-QELtNSgmH0cWWq6X7m8U2qQN8lJQcF2oHX80o-VHM8pqskzwp6hu43J8cDQWovQOhOsVTR-eT5bbnYP_tERoguwmkg2ZAKftz8rbsQMPDJmdYRbmxs8fXie5smEhAb0iwY3Ii6GHgeN9KKYv6XGhRPb9-wur3uIR-0SaH5a3KpI-WAaQ",
+        "types": [
+            "doctor",
+            "health",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "35": {
+        "formatted_address": "R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8226407,
+                "lng": 30.1527959
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.8212917197085,
+                    "lng": 30.1541448802915
+                },
+                "southwest": {
+                    "lat": -23.8239896802915,
+                    "lng": 30.1514469197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "56517be4b087f355592b778f4ecc6b994d18dad3",
+        "name": "Tzaneen Medi-Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "photos": [
+            {
+                "height": 2448,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114655300799083713521/photos\">JP Swanepoel</a>"
+                ],
+                "photo_reference": "CmRaAAAAQIHXxWKC65c9h4GmyWkCUr9X9fewt56e7rKPY5O6RqBH6uRcz-HAXwKmwJMO3hoDGRWdhU-0usMBCFyYbGH3Vh5ExejZHp9Wo8qRaIbrBlBGxf0jBbatAoKYUC3iUPdOEhCL4Y6ii2zc8gRmAaj8XbeEGhS5_uVgVLdM5ew16L2uQs2Du-kNDw",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJrdmu5Nupxh4RPTewCPA46aU",
+        "rating": 3.6,
+        "reference": "CmRSAAAAArB0j7HNwzPFhwaVhoj5o7yVXRNcYvsNRUy_vlNGzYN-49k2EOwdoB3VKY7IvVvCQHLDA3ziMoNJART3RXAtx_nyPLtErIIc50PdvZDTngjzGTzhF-i38jcVBdT3Xp45EhC3dX_f6SDsRaa4f0NlGXrCGhTSbutD7g9N3JGxotgv-BJqsl4uPQ",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "36": {
+        "formatted_address": "Shop 05 Life Style Centre, Cnr R71 & Voortrekker Road, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8220548,
+                "lng": 30.1571616
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.8207058197085,
+                    "lng": 30.1585105802915
+                },
+                "southwest": {
+                    "lat": -23.8234037802915,
+                    "lng": 30.1558126197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "990c0183ddbca16287d09ca6215537108fedfe31",
+        "name": "Van Heerden Pharmacy Tzaneen",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115598610988927147937/photos\">Van Heerden Pharmacy Tzaneen</a>"
+                ],
+                "photo_reference": "CmRaAAAARz_U7Ch8IyL2j5Zsr5L33CUUYuik61EK2DJ0L5IwXp_aOP64hNsO0GRF9IuoVtDriS52rHVEqnIxGM9uquayfnUv4vv4Xa6OHHPgmNj1KsO3fbDtMc_8ag8S9C8mrcRqEhCdC4NZvgROhwc-ZvnNGOghGhQ__NyWv9pjwxLDGMKagub4K7RTdg",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJZ8l0YN-pxh4R9yXgyrWt2pQ",
+        "reference": "CmRSAAAAxRyhKdiOIoVEf1ge_GCexZRG2vbmer3JWEOGRObyIU7oX1JWtElJy1dliavonzrkt-73qDgK6Ljsc8UiKrLZmViWToWZOcQBwzV5dhi5FXBRUxtHpUpV8qThJ85I1m-JEhBJPYqz_trGp-_HgiZBO-R6GhQ3RekMPs0o1RkmRLnLMfnNiV557Q",
+        "types": [
+            "pharmacy",
+            "health",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "37": {
+        "formatted_address": "Ka-Mphambo, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.08481159999999,
+                "lng": 30.6710786
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.08346261970849,
+                    "lng": 30.6724275802915
+                },
+                "southwest": {
+                    "lat": -23.0861605802915,
+                    "lng": 30.6697296197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "34fab4a2e790cd1ef6fa634f34a76b1b7cca93eb",
+        "name": "Mphambo Clinic",
+        "place_id": "ChIJs9DcB1KyxR4Rh5nTJ1x1zkw",
+        "reference": "CmRRAAAA35XKTtorMFZWQ7Bs61E_6iatY8fcY4OJJoPQEt4DnyjuI9IDBuXnCca7MjnsarhEh8JI-wciHD6Kpb2OazcXxQHMlHGYrb0EizQQdml1GDeTTaqplTB-52H6nRN4BMNqEhAcyS_LPI2X4M9lFnMd1b5jGhRjod3FfL9Brk2va7c-6XLEAr4oXg",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "38": {
+        "formatted_address": "Lukalo, 0987, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.7565712,
+                "lng": 30.78781129999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.7552222197085,
+                    "lng": 30.78916028029149
+                },
+                "southwest": {
+                    "lat": -22.7579201802915,
+                    "lng": 30.78646231970849
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "37e16b97cedc72b6690eabfa265a3ec2f9538748",
+        "name": "Duvhuledza clinic",
+        "photos": [
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109240513611770540321/photos\">lutendo raymond</a>"
+                ],
+                "photo_reference": "CmRaAAAAQ4txRkzil1JqN03mbzVWgJnjPicZeFXSX_womK4TxjFEzSsCoTHb7WtjLiHhTrb383INNNt9fXKl0BadAGQCYlzWAYP4SFHm6Nkqb4-kx3N_8M5unPeTYEtYtIKatboAEhCYT2CsNJiHKT9EfG2O60CZGhQxFW6oVmoF279PUCw-hY0QlBG5XQ",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJg-OrlruYxR4RpaNK-WaHjtE",
+        "reference": "CmRSAAAAjiNK1vFAsE3NuQHAdrcZwnKsJxECztsJYvcAwo_8El8Ew-Z_RyMbK_fzL1xWd2xYD3MN-FkezopYSw99idnzIeeX_C02FFcltAgz5S6nTo805aq9otD3aIJK7fvbxrfwEhDT7prxmBo_uRUdqPg--Bg3GhQ4lwFxTb0QUx1u56ped0z539jkhg",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "39": {
+        "formatted_address": "Unnamed Rd,, Mutele, 0959, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.4761119,
+                "lng": 30.8771758
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.4747629197085,
+                    "lng": 30.8785247802915
+                },
+                "southwest": {
+                    "lat": -22.4774608802915,
+                    "lng": 30.8758268197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "f3249c64a3a24670f1879a3f4bf6447f3619d5ae",
+        "name": "Mulala Clinic Sanari",
+        "place_id": "ChIJfVfYN-qBxR4RQt0Qexw_Aac",
+        "reference": "CmRSAAAAIunYSq35KdI1iZuM-7vr9eQMUMqFzG_WXBw9Zw8Hx8uxF2jE3_lsVuFOAhhjRj3OGLpRINfNUSuk7eAYjLvmZm7PkuaVT6xe7Afo-cKoTD6g28qZ6uCSaD2cOBk3zOW_EhCXePL3ndfXAvSPQz6NteJVGhS04WuIxJurdoSqUHdgiVYPX6smWg",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "40": {
+        "formatted_address": "Mataulu, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.46954969999999,
+                "lng": 30.6812884
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.46820071970849,
+                    "lng": 30.6826373802915
+                },
+                "southwest": {
+                    "lat": -22.4708986802915,
+                    "lng": 30.6799394197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "62686b5752493cea04f6bc054b3f1cb9a4fce6e2",
+        "name": "Manenzhe Clinic",
+        "opening_hours": {
+            "open_now": true,
+            "weekday_text": []
+        },
+        "place_id": "ChIJdVxWHDmIxR4RA7tmueBG4oU",
+        "reference": "CmRSAAAACsH-jCDwIg-np7wYhw31HCgMHJ4_z6GoqcEcicjjZAhnEvCCoEsClSvQPmXvJQIJg2okAPVb-W7AKxihY8ABIUDVCu2Ztw7y3JkdzD0v3jeya37vnoNQu-e3KObxboBDEhBE6b6lFNpFc08JuDbMpFbIGhQccVBfN7KnjtMGePC-_NzsDnQd_g",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "41": {
+        "formatted_address": "Xitlhelali Villiage, Malamulele, Thohoyandou, 0982, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.0136997,
+                "lng": 30.7015038
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.0123507197085,
+                    "lng": 30.70285278029149
+                },
+                "southwest": {
+                    "lat": -23.0150486802915,
+                    "lng": 30.7001548197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "4a096c0c03aeab77408eb006dcc443e46968e2e0",
+        "name": "Malamulele Clinic",
+        "photos": [
+            {
+                "height": 3096,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114248139240327667654/photos\">Barend Lubbe</a>"
+                ],
+                "photo_reference": "CmRaAAAAcV82achNAZaGVBysh1kuktoMRmMWRmqy5qxj3rZdlCDaobVCBC1GKD6I7vmTdFmCsynhw-lcrA6eOdHoxjjehp1bQtzoaMfCDo_Mr7O64xfH8L6gepOY3V17x2XC6pzKEhCZkhihlSGb8T9X5oSKVWgnGhSW01oi7dHUm7Jww8_58MrSuHNQzA",
+                "width": 4128
+            }
+        ],
+        "place_id": "ChIJVVVVFSauxR4RtF1q_-HhWYg",
+        "rating": 4,
+        "reference": "CmRSAAAAjOW37r7KWY4vowpyxB6o8mpDotj8gV1t8Vz8HEyhoM3jheawYkiKT15vI0U5hQz1QYz10iEpij-tBsn2q_NRciEqkBnEE8t-i4q8m-6gh0BNxcqjutZaT1zjb25KeUHiEhDyc2Jef0QiWG7gb0SGE8VdGhS3nuZ0q-Q0tolQaBF53mV8wqGs9w",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "42": {
+        "formatted_address": "17, Mlhava, Oman",
+        "geometry": {
+            "location": {
+                "lat": -23.2111304,
+                "lng": 30.8600204
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.2097814197085,
+                    "lng": 30.8613693802915
+                },
+                "southwest": {
+                    "lat": -23.2124793802915,
+                    "lng": 30.8586714197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "2c8faaeddfbad476a3a637eec8d11820b3c6a3a1",
+        "name": "Mhlava Wellem Clinic",
+        "place_id": "ChIJSaETQFtWxB4RfyM66VulETg",
+        "rating": 5,
+        "reference": "CmRRAAAADQeQ4CDiAvOtUiX23POJNyVp-kRIcw7mn8xznM7bl_KwbyitahM--42asq6vqhEG3oHHATo4h8tJSZ0but9z7gXGeeEt3u8ak2f5pz2vA-91ZedikZHbnuo_oxQR6BAuEhCduluE-vHmLH7szFdlWFCeGhRdxkSDYgZI9Z2ZfOcr7xWzi6W4JA",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "43": {
+        "formatted_address": "Ha-Tshikota-A, Louis Trichardt, 0920, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.213499,
+                "lng": 29.9918906
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.2121500197085,
+                    "lng": 29.9932395802915
+                },
+                "southwest": {
+                    "lat": -23.2148479802915,
+                    "lng": 29.9905416197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "a5d9c4fac47de40d500ea7b8f7d10890289e09e8",
+        "name": "Vleifontein Clinic",
+        "place_id": "ChIJaY1Ftr58xh4RCDBqoizdsRA",
+        "rating": 5,
+        "reference": "CmRRAAAAlZbo03SlbPBSqSU7uIVRntn7DApVon188wyjomepOB4qJ4NDkTtImFsv25oFOKDtKUrGUy3_GBy70v1ABmnoT4HQTcwLUt4OqietgYPdul3pMo7e0ytrMC6ozn5JgtjIEhAUOy4SnI9uTDcGzl12wGKFGhQz3UAIJdU92Eon-Cyv86OKt_zmoA",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "44": {
+        "formatted_address": "Bokisi, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.1999918,
+                "lng": 30.0993653
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.1986428197085,
+                    "lng": 30.1007142802915
+                },
+                "southwest": {
+                    "lat": -23.2013407802915,
+                    "lng": 30.0980163197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "af8fc9e6e8747eba98cf329cae6f3aafeb757159",
+        "name": "Mbokota Clinic",
+        "place_id": "ChIJqVsqz-h-xh4RLcigV_ygOxU",
+        "reference": "CmRRAAAAqV1-IUYklkjAy4hQBd0PXK4y2lt1nuzP7T1loh4jKyHLXnmSVqIeUDefDqe-zc2LpIapbK231FxSOgdk59Ji5sn6ylL6-k3gOEJV-gJBtGq9Y9A7qTRyV7WkrTbdu8AgEhDYWyxKfd8CZX-Vj7pSxqkyGhQdWud4BrWeZEdyVbYyWkXTkX_l7g",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "45": {
+        "formatted_address": "Zanghoma-Uhuru Clinic, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9114379,
+                "lng": 30.3411695
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.9100889197085,
+                    "lng": 30.3425184802915
+                },
+                "southwest": {
+                    "lat": -23.9127868802915,
+                    "lng": 30.3398205197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "0d02fa72c97dfb4a7196ceb46eaa2532cac42c66",
+        "name": "Zanghoma-Uhuru Clinic",
+        "place_id": "ChIJZQ3Xex74wx4RNB7RkKbkwV0",
+        "reference": "CmRRAAAA6Mu3OUYQapcf1hi1jC1e6LESnFaMatPrGDAly1O7KGEa1DETCEIn_nrLQFp9Ys4tWuV2NnSzPVxHaegNlsYKEhqo3dG6HzHvDFRr9IWEvA5Dqhwcxl3j7VT4L7JmqRlyEhD4tGMA6Hu5qWVssBSVXl2qGhRaclBCfZsVIiKKtCfA4-CVOvpnXQ",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "46": {
+        "formatted_address": "Unnamed Road, Olifantshoek, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.3345068,
+                "lng": 30.2749065
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.3331578197085,
+                    "lng": 30.2762554802915
+                },
+                "southwest": {
+                    "lat": -23.33585578029151,
+                    "lng": 30.2735575197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "a91037d51dad09cc60616290bb6921c72f08940c",
+        "name": "OLIFANTSHOEK CLINIC",
+        "place_id": "ChIJR7imD-ouxB4Ry9itk8lA2Kw",
+        "rating": 3,
+        "reference": "CmRSAAAA8ttE8QOnlyokaA_vDqVdfZGMxHrzbb8dVdvthxafs_MRX8a9ibMM2MEUIxFASkrmmTANjfKp0SvXs3wyaZYJHZBNO6NS4b6PWPZ-5RuaExTkG77NqPr5nF33LBETdwUFEhB0RnkPCNS6Lmc92wzhVT9MGhSoAujw2_PjdWfp02Rpsj1FPDln9Q",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "47": {
+        "formatted_address": "Rihanyo Street unit # 316 & 318, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.2138688,
+                "lng": 30.5540447
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.2125198197085,
+                    "lng": 30.5553936802915
+                },
+                "southwest": {
+                    "lat": -23.2152177802915,
+                    "lng": 30.5526957197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "5f545a0b14a63fe107b66cd5bdea78c277acb7ba",
+        "name": "Nkurhi Clinic",
+        "photos": [
+            {
+                "height": 881,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110231428267203506779/photos\">miyelani baloye</a>"
+                ],
+                "photo_reference": "CmRaAAAA5eqbERMkVu-phtMuwgAw-jXYVUvtcqpwMjQ9l0fuT-esK9bHisadxUOh949cBcCYW5e-cz0MXWnhKJlPihTdRiOHe2BTNBlHv3U-bQzaIGwNUHvG-xwllagDogCdLKG5EhC-2RCCBlOxo6YOKyY6hwgcGhSAEdp-hiIhEpllAGac4eQ74GpTnQ",
+                "width": 720
+            }
+        ],
+        "place_id": "ChIJ5wpvVFxKxB4RXLqUWM9HWdk",
+        "reference": "CmRSAAAAv_BKO-UZoWQldQaQqeEIVIxi4f3dyc0wHVHJa8mPMyZbDY1j9RrmurTFDbdCFf9SZbdWbErV8xdnYjjUDgGbnM_gRPD-WxxVjVTvqjh_btXG8mKlbqxxwgnyNVPPwus-EhD_4Wflmznv00mXvN1g4UnbGhQCM0yngOks36HoMtH_iirswp-QKA",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "48": {
+        "formatted_address": "Ka-Kheyi, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.5797707,
+                "lng": 30.8736463
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.57842171970849,
+                    "lng": 30.8749952802915
+                },
+                "southwest": {
+                    "lat": -23.5811196802915,
+                    "lng": 30.8722973197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "c4954299b9a807a3e054fe73f4cd795216e49b19",
+        "name": "Kheyi Clinic",
+        "place_id": "ChIJKU0xRpNixB4RUIc_HDLAb3k",
+        "reference": "CmRRAAAAjHe_wpWp9OIxTMQM5_CLTr4achrYw3npwAG49Cp3WDkXiDgRUYs-Ju0vG97harw2jL1aNnBIrmbCi6_ezh_V2ciSUesH8I1GdP8U8eR-2mbG3FVp7eUezYudd-lYRhf5EhAVuWAQxwIp2ne4ZMg9sCY-GhRE7mmqEoVzGPFn880LcU1GbiHi8g",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "49": {
+        "formatted_address": "53 Plein Street, Polokwane, 0700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.908231,
+                "lng": 29.4645518
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.9068820197085,
+                    "lng": 29.4659007802915
+                },
+                "southwest": {
+                    "lat": -23.9095799802915,
+                    "lng": 29.4632028197085
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c1e520d3a36c43997c3698d615d5edb63568533a",
+        "name": "Mediclinic Limpopo",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100197009939102746754/photos\">Tiisetso</a>"
+                ],
+                "photo_reference": "CmRaAAAAhhF67Fj5BEoSZlEjXNJkFnmF7LffQ7bt1nx-pfNw-kGYxLyHU6zU2Q181PcTghQUhz_CHcvuQLmggn-WupX5ucZzu9dMS_ayAVFuGbbUQpdSoprO1k-d-Y1BVbklPtXEEhDbCneAnesWFbcFCYvIt9gcGhTXyOkimYKJxAy3EHSgFNe-RS8xsQ",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJeRkwTdXZxh4RBRIwxDLgY8I",
+        "rating": 3.2,
+        "reference": "CmRSAAAAfq40BjL7-fLKCHw6WINB8jAbHaJCpEmiU6OhlSnBc22uwPGfoMOaOJF0cepK8sb5SFknMEZ0-Qi2L1XvWEAUFb02uW8xK9r-Jq_AoUkUPQBGn4QxKCOIZcIGVETreyZUEhC0l23G3YXlaxvl3JgBhlo0GhSwuuVtLuk3z4IgH2GvQR9UFCgofg",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+}

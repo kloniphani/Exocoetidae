@@ -221,7 +221,7 @@ class Model(object):
 
 	def Greedy(NODES, NETWORK, UNUSSIGNED, DATA, 
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
-				Theta = 0.5, Beta = 0.5, Profit = 0, Best_SNR = 10):
+				Theta = 0.5, Beta = 0.5, Alpha = 0.5, Profit = 0, Best_SNR = 10):
 		"""
 		"""
 		print("\nGreedy Selection Model Processing")
@@ -241,7 +241,7 @@ class Model(object):
 
 		#Selecting the Base Station
 		BASESTATIONS = []
-		Count = 0; Total = 10;
+		Count = 0; Total = 5;
 
 		while Count < Total:
 			node = random.choice(UNUSSIGNED)
@@ -249,6 +249,7 @@ class Model(object):
 			if Reward >= Profit:
 				BASESTATIONS.append(node) 
 				NODES[node].ChangeToBaseStation()
+				UNUSSIGNED.remove(node)
 				Count += 1
 
 		TrackA = 0; EndA = len(UNUSSIGNED)*2 + len(BASESTATIONS);
@@ -258,37 +259,34 @@ class Model(object):
 			G.add_nodes_from([node.Id for node in TEMP])
 			for node in UNUSSIGNED:
 				for s in NODES.values(): 
-					if node != s.Id:
+					if node is not s.Id:
 						G.add_edge(s.Id, NODES[node].Id, weight = s.Distance(NODES[node].Position, Type = '2D', Results = False))	
 				TrackA += 1
 				bar.update(TrackA)
 
 			#Average Geodesic Distance
-			_GDS = 0;  _GDN = 0; 
+			_GDS = 0;  _GDN = 0; Count = 1;
 			for i in BASESTATIONS:
 				for j in BASESTATIONS:
-					if i != j:
+					if i is not j:
 						_GDS += NODES[i].Distance(NODES[j].Position, Type = '2D', Results = False)
+
 				TrackA += 1
 				bar.update(TrackA)
 	
 			for i in UNUSSIGNED:
-				for j in BASESTATIONS:
-					if i != j:
-						Path = astar_path(G, i, j)
-						for source in Path:
-							for destination in Path:
-								if source != destination:
-									_GDN += NODES[source].Distance(NODES[destination].Position, Type = '2D', Results = False)
+				for j in UNUSSIGNED:
+					if i is not j:
+						_GDN += astar_path_length(G, i, j)
 
-				TrackA += 1
+				Count += 1; TrackA += 1
 				bar.update(TrackA)
 
 		Average_GD_Basestations = (len(BASESTATIONS) - 1)/_GDS
 		Average_GD_Nodes = (len(UNUSSIGNED) - 1)/_GDN
-		Profit = Average_GD_Basestations + Average_GD_Nodes + (Maximum_ResidualEnergy - Average_ResidualEnergy)
+		Profit = (Theta*Average_GD_Basestations) + (Beta*Average_GD_Nodes) + Alpha*(Maximum_ResidualEnergy - Average_ResidualEnergy)
 
-		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
+		TrackA = 0; TrackB = 0; EndA = len(NODES) *50; EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:			
 			while(len(UNUSSIGNED) > 0 and TrackA < EndA):
 				index = 0; Head = None				
@@ -299,19 +297,17 @@ class Model(object):
 						_GDS += NODES[i].Distance(NODES[UNUSSIGNED[index]].Position, Type = '2D', Results = False)
 
 					for i in UNUSSIGNED:
-						if i != UNUSSIGNED[index] and i not in BASESTATIONS:
-							Path = astar_path(G, UNUSSIGNED[index], i)
-							for source in Path:
-								for destination in Path:
-									if source != destination:
-										_GDN += NODES[source].Distance(NODES[destination].Position, Type = '2D', Results = False)
+						if i is not str(UNUSSIGNED[index]) and i not in BASESTATIONS:
+							_GDN += astar_path_length(G, UNUSSIGNED[index], i)
 
+					TrackA += 1
+					bar.update(TrackA)
+						
 					Average_GDS = (len(BASESTATIONS) - 1)/_GDS
 					Average_GDN = (len(UNUSSIGNED) - 1)/_GDN
-					Reward = Average_GDS + Average_GDN + (NODES[UNUSSIGNED[index]].SNR - Average_ResidualEnergy);
-
-					if Reward >= Profit and UNUSSIGNED[index] not in BASESTATIONS:
-						print("Reward: {0}\tProfit: {1}\tSNR: {2}".format(Rewad, Profit, NODES[UNUSSIGNED[index]].SNR))
+					Reward = (Theta*Average_GDS) + (Beta*Average_GDN) + (Alpha*(NODES[UNUSSIGNED[index]].ResidualEnergy - Average_ResidualEnergy));
+					
+					if Reward >= (((Theta+Beta+Alpha)/3)*Profit) and UNUSSIGNED[index] not in BASESTATIONS:
 						Head = UNUSSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1
 
@@ -824,21 +820,5 @@ class Model(object):
 				if head is not None:
 				   Model.RemoveNode(NETWORK, head.Id, UNUSSIGNED, Results)
 				bar.update(i)
-
-		return NODES, NETWORK, UNUSSIGNED, DATA
-
-	def Hierarchical(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
-		"""
-		"""
-		print("\nHierarchical Model Processing")
-
-		from sklearn.cluster import KMeans
-
-		TrackA = 0; EndA = len(NODES);
-		Points = []
-
-		for key, value in NODES.items():
-			Points.append([value.Position[0], value.Position[1]])
-		Points = array(Points)
 
 		return NODES, NETWORK, UNUSSIGNED, DATA

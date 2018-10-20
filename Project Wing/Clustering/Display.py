@@ -120,7 +120,6 @@ class Display(object):
 		if Name is not None:
 			FileName += str(Name)
 		FileName += str('---' + datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
-		plt.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '.png')
 
 		with open('./GUI/Network/Network/static/data/Network.json', 'w') as fp:
 			Temp = {}; 
@@ -254,14 +253,14 @@ class Display(object):
 		
 							if draw is True:
 								if node.Type == -2:
-									figure.scatter(node.Position[0], node.Position[1], zorder = 6, c = 'black', marker = 'o', s = 80)
+									figure.scatter(node.Position[0], node.Position[1], zorder = 6, c = 'black', marker = 'o', s = 120)
 									figure.text(node.Position[0], node.Position[1], node.Id)
 								else:
 									figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'gray', marker = 'o', s = 30)
 									figure.text(node.Position[0], node.Position[1], node.Id)
 
-		figure.set_xlabel('Latitude')
-		figure.set_ylabel('Lonitude')
+		figure.set_ylabel('Latitude')
+		figure.set_xlabel('Longitude')
 		if Type is '3D': figure.set_zlabel('Altitude in (km)')
 
 		if Show is True:
@@ -269,6 +268,11 @@ class Display(object):
 
 		if Save is True:
 			Display.SaveNetwork(nodes, network, Radius, Name)
+			FileName = ''
+			if Name is not None:
+				FileName += str(Name)
+			FileName += str('---' + datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
+			plt.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '.png')
 
 		plt.close()
 

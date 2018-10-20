@@ -2427,11 +2427,17 @@
     <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---30-03-18--12-15-R100.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clustering\Backbone.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Clustering\Display.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Clustering\Distribution.py" />
     <Compile Include="Clustering\Model.py" />
+    <Compile Include="Clustering\Multisink.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Clustering\__init__.py" />
     <Compile Include="Emulation.py" />
     <Compile Include="GUI\Interface.py" />
