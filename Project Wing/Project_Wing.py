@@ -81,11 +81,14 @@ class Nodes(object):
 
 			self.__UNUSSIGNED = [node.Id for node in TEMP]
 
-			self.Best_SNR = 2e-07
 			self.Minimum_SNR = TEMP[-1].SNR
 			self.Maximum_SNR = TEMP[0].SNR
+			self.Deviation_SNR = std([node.SNR for node in TEMP])
+			self.Average_SNR = average([node.SNR for node in TEMP])
 
-			self.ResidualEnergy_Median = median([node.ResidualEnergy for node in TEMP])
+			self.Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
+			self.Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
+			self.Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
 			#self.MaximumClusterHeads = int(ceil(abs(len(self.__NODES)/sqrt(abs(self.Maximum_SNR - self.Minimum_SNR)))))
 			self.MaximumClusterHeads = int(ceil(abs(len(self.__NODES) * (self.Minimum_SNR/self.Maximum_SNR))))
 
