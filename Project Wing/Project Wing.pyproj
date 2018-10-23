@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7c1452f9-28a1-434f-95bb-a67a6a4e6990}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Emulation.py</StartupFile>
+    <StartupFile>Project_Wing.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -2455,9 +2455,6 @@
     <Compile Include="Source\API.py" />
     <Compile Include="Source\Geodata.py" />
     <Compile Include="Source\__init__.py" />
-    <Compile Include="_Emulation.py">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Clustering" />

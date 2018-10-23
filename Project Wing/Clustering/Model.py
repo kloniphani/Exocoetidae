@@ -46,24 +46,20 @@ class Model(object):
 		if Results is True: print('Nodes Deleted: {0:3}\tNodes in List B: {1:3}\tNodes Before: {2:3}\tNodes in List A: {3:3}'.format(Total - len(ListA), len(ListB), Total, len(ListA)))
 		return ListA, ListB;
 	
-	def Backhauling(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100):
+	def Backhauling(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nBackhauling Model Processing")
 		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
-			TEMP = list(NODES.values());
+			#Sorting the Nodes in Descending order based on their SNR
+			TEMP = list(self.NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
 
-			UNUSSIGNED = [node.Id for node in TEMP]
-
-			Minimum_SNR = TEMP[-1].SNR
-			Maximum_SNR = TEMP[0].SNR
-			Deviation_SNR = std([node.SNR for node in TEMP])
-			Average_SNR = average([node.SNR for node in TEMP])
+			Best_SNR = 2e-07
+			Minimum_SNR = TEMP[0].SNR
+			Maximum_SNR = TEMP[-1].SNR
 
 			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
-			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
-			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
 
 		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:
@@ -99,24 +95,22 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Myopic(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100):
+	def Myopic(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nMyopic Model Processing")
 		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
 
 			UNUSSIGNED = [node.Id for node in TEMP]
 
-			Minimum_SNR = TEMP[-1].SNR
-			Maximum_SNR = TEMP[0].SNR
-			Deviation_SNR = std([node.SNR for node in TEMP])
-			Average_SNR = average([node.SNR for node in TEMP])
+			Best_SNR = 2e-07
+			Minimum_SNR = TEMP[0].SNR
+			Maximum_SNR = TEMP[-1].SNR
 
 			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
-			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
-			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
 
 		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:
@@ -132,8 +126,7 @@ class Model(object):
 				if Head is not None:
 					#Calculating the number of Nodes per Cluster.
 					#NumberOfNodes = int(ceil(abs((len(NODES) * (NODES[Head].SNR + abs(Minimum_SNR)) * 0.05)/(Maximum_SNR + abs(Minimum_SNR)))))
-					#NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
-					NumberOfNodes = int(ceil(abs(((len(NODES)) * (NODES[Head].SNR * (Deviation_SNR/Average_SNR)/(Maximum_SNR - Minimum_SNR)))))*0.2)
+					NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
 
 					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
 					NETWORK[Head] = NODES[Head]
@@ -171,6 +164,7 @@ class Model(object):
 		"""
 		print("\nSuccessive Selection Model Processing")
 		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
 
@@ -178,8 +172,6 @@ class Model(object):
 
 			Minimum_SNR = TEMP[-1].SNR
 			Maximum_SNR = TEMP[0].SNR
-			Deviation_SNR = std([node.SNR for node in TEMP])
-			Average_SNR = average([node.SNR for node in TEMP])
 
 			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
@@ -198,8 +190,7 @@ class Model(object):
 
 				if Head is not None:
 					#Calculating the number of Nodes per Cluster.
-					#NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
-					NumberOfNodes = int(ceil(abs(((len(NODES)) * (NODES[Head].SNR * (Deviation_SNR/Average_SNR)/(Maximum_SNR - Minimum_SNR)))))*0.2)
+					NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
 
 					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
 					NETWORK[Head] = NODES[Head]
@@ -230,7 +221,7 @@ class Model(object):
 
 	def Greedy(NODES, NETWORK, UNUSSIGNED, DATA, 
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
-				Theta = 0.3, Beta = 0.3, Alpha = 0.4, Profit = 0, Best_SNR = 10):
+				Theta = 0.5, Beta = 0.5, Alpha = 0.5, Profit = 0, Best_SNR = 10):
 		"""
 		"""
 		print("\nGreedy Selection Model Processing")
@@ -243,8 +234,6 @@ class Model(object):
 
 			Minimum_SNR = TEMP[-1].SNR
 			Maximum_SNR = TEMP[0].SNR
-			Deviation_SNR = std([node.SNR for node in TEMP])
-			Average_SNR = average([node.SNR for node in TEMP])
 
 			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
@@ -252,14 +241,16 @@ class Model(object):
 
 		#Selecting the Base Station
 		BASESTATIONS = []
-		Count = 0; Total = 10;
+		Count = 0; Total = 5;
 
 		while Count < Total:
 			node = random.choice(UNUSSIGNED)
-			BASESTATIONS.append(node) 
-			NODES[node].ChangeToBaseStation()
-			UNUSSIGNED.remove(node)
-			Count += 1
+			Reward = (Theta * (NODES[node].SNR/Maximum_SNR) - Beta * ((Average_ResidualEnergy - NODES[node].ResidualEnergy)/(Maximum_ResidualEnergy - Average_ResidualEnergy)))/2;
+			if Reward >= Profit:
+				BASESTATIONS.append(node) 
+				NODES[node].ChangeToBaseStation()
+				UNUSSIGNED.remove(node)
+				Count += 1
 
 		TrackA = 0; EndA = len(UNUSSIGNED)*2 + len(BASESTATIONS);
 		with progressbar.ProgressBar(max_value = EndA) as bar:
@@ -295,8 +286,8 @@ class Model(object):
 		Average_GD_Nodes = (len(UNUSSIGNED) - 1)/_GDN
 		Profit = (Theta*Average_GD_Basestations) + (Beta*Average_GD_Nodes) + Alpha*(Maximum_ResidualEnergy - Average_ResidualEnergy)
 
-		TrackA = 0; TrackB = 0; EndA = len(UNUSSIGNED); EndB = 10; TransmissionGain = 3; Type = 0;
-		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:			
+		TrackA = 0; TrackB = 0; EndA = len(NODES) *50; EndB = 10; TransmissionGain = 3; Type = 0;
+		with progressbar.ProgressBar(max_value = EndA) as bar:			
 			while(len(UNUSSIGNED) > 0 and TrackA < EndA):
 				index = 0; Head = None				
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAPTime?
@@ -306,7 +297,7 @@ class Model(object):
 						_GDS += NODES[i].Distance(NODES[UNUSSIGNED[index]].Position, Type = '2D', Results = False)
 
 					for i in UNUSSIGNED:
-						if str(i) != str(UNUSSIGNED[index]) and i not in BASESTATIONS:
+						if i is not str(UNUSSIGNED[index]) and i not in BASESTATIONS:
 							_GDN += astar_path_length(G, UNUSSIGNED[index], i)
 
 					TrackA += 1
@@ -324,13 +315,9 @@ class Model(object):
 					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
 					NETWORK[Head] = NODES[Head]
 
-					#Calculating the number of Nodes per Cluster.
-					NumberOfNodes = int(ceil(abs(((len(NODES)-len(BASESTATIONS)) * (NODES[Head].SNR * (Deviation_SNR/Average_SNR)/(Maximum_SNR - Minimum_SNR)))))*0.2)
-
-					count = 0;					
+					count = 1;
 					for node in UNUSSIGNED:
-						if(count > NumberOfNodes): break;
-						if (NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node and NODES[Head].ComputeLinkBudget(NODES[node].Position, Results = False) >= Best_SNR and node not in BASESTATIONS):
+						if(NODES[Head].Distance(NODES[node].Position) <= ClusterRadius and Head is not node and NODES[Head].ComputeLinkBudget(NODES[node].Position, Results = False) >= Best_SNR and node not in BASESTATIONS):
 							NODES[node].ChangeToClusterMember(NODES[Head])
 							NETWORK[Head].MEMBERS.append(NODES[node])
 							count +=1
@@ -545,25 +532,11 @@ class Model(object):
 				bar.update(TrackA)
 		return NODES, NETWORK, UNUSSIGNED, DATA
 
-	def Balancing(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 50):
+	def Balancing(NODES, NETWORK, UNUSSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50):
 		"""
 		"""
 		print("\nBalancing Model Processing")
 		#Selecting the nearest Clustered Head with less Children, then add new Children to network	
-		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
-			#Sorting the Nodes in Descending order based on their SNR
-			TEMP = list(NODES.values());
-			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
-
-			Minimum_SNR = TEMP[-1].SNR
-			Maximum_SNR = TEMP[0].SNR
-			Deviation_SNR = std([node.SNR for node in TEMP])
-			Average_SNR = average([node.SNR for node in TEMP])
-
-			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
-			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
-			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
-
 		TrackA = 0; EndA = len(UNUSSIGNED);	
 
 		if NumberOfNodes is None:
