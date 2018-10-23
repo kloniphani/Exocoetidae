@@ -5,13 +5,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7c1452f9-28a1-434f-95bb-a67a6a4e6990}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Project_Wing.py</StartupFile>
+    <StartupFile>Emulation.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -2096,7 +2096,6 @@
     <Content Include="GUI\Network\Network\templates\layout.html" />
     <Content Include="GUI\Network\Network\templates\network.html" />
     <Content Include="GUI\Network\requirements.txt" />
-    <Content Include="requirements-anaconda.txt" />
     <Content Include="requirements.txt" />
     <Content Include="Source\Data\Chris Hani.txt" />
     <Content Include="Source\Data\Mopani.txt" />
@@ -2455,6 +2454,9 @@
     <Compile Include="Source\API.py" />
     <Compile Include="Source\Geodata.py" />
     <Compile Include="Source\__init__.py" />
+    <Compile Include="_Emulation.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Clustering" />
@@ -2502,6 +2504,7 @@
     <Folder Include="Source\Results\Data\" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
     <InterpreterReference Include="Global|PythonCore|3.6" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
