@@ -1,0 +1,239 @@
+  1 COSAT                                                                    -34.050899    18.662113 	50 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+  2 Ummangaliso Primary School                                               -34.047913    18.670508 	T Section Bangiso Dve Site B, Khayelitsha, Cape Town, 7784, South Africa
+  3 Luhlaza Secondary School                                                 -34.040700    18.661480 	6 Velili St, Village 1 North, Cape Town, 7784, South Africa
+  4 Usasazo High School                                                      -34.026352    18.659130 	Bangiso dr, Victoria Merge, Cape Town, 7784, South Africa
+  5 Sakumlandela Primary School                                              -34.027120    18.658900 	4 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+  6 Khayelitsha Special School.                                              -34.039362    18.659959 	Makabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+  7 Bulumko Secondary School                                                 -34.038810    18.672730 	31 Mangezi St, Khayelitsha, Cape Town, 7784, South Africa
+  8 Chris Hani Secondary School                                              -34.046870    18.705980 	57 Futha Cres, T3-V3, Cape Town, 7784, South Africa
+  9 Intlanganiso Secondary School                                            -34.012740    18.641510 	Ikwezi Park, Cape Town, 7784, South Africa
+ 10 Sosebenza Primary School                                                 -34.023905    18.669076 	29 Selesho Cres, Village 3 North, Cape Town, 7784, South Africa
+ 11 Kukhanyile Publ Primary School                                           -34.029010    18.671660 	13 Lali St, Khayelitsha, Cape Town, 7784, South Africa
+ 12 Ikhusi Primary School                                                    -34.024240    18.655610 	15 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+ 13 Esangweni Secondary School                                               -34.058830    18.685000 	Town 3, Cape Town, 7784, South Africa
+ 14 Kuyasa Primary School                                                    -34.062220    18.683230 	Town 3, Cape Town, 7784, South Africa
+ 15 Chris Hani Arts & Culture High School                                    -34.047218    18.705771 	Paul Avenue, Khayelitsha, Cape Town, 7784, South Africa
+ 16 Masiphumelele Primary School                                             -34.051330    18.695660 	55 Hlehla St, T3-V4, Cape Town, 7784, South Africa
+ 17 Chuma Publ. Primary School                                               -34.042240    18.678250 	Griffiths Mxenge, Cape Town, 7784, South Africa
+ 18 Zola Senior Secondary School                                             -34.015520    18.634520 	Bongweni, Cape Town, 7784, South Africa
+ 19 Ummangaliso Public Primary School                                        -34.023496    18.658348 	Bangiso Dr, Khayelitsha, Cape Town, 7784, South Africa
+ 20 Manyano High                                                             -34.046726    18.664051 	36 Msobomvu Dr, Village 1 South, Cape Town, 7784, South Africa
+ 21 Noxolo Xauka Primary School                                              -34.042763    18.711244 	Nyanda Ave, Khayelitsha, Cape Town, 7784, South Africa
+ 22 Isikhokelo Primary School                                                -34.013710    18.652910 	Ikwezi Park, Cape Town, 7784, South Africa
+ 23 Academia Primary School                                                  -34.031748    18.694478 	Khayelitsha, Cape Town, 7784, South Africa
+ 24 Sizimisele Tech High School                                              -34.051846    18.692207 	19 Steve Tshwete Rd, Mandela Park, Cape Town, 7784, South Africa
+ 25 Sinako High School                                                       -34.042027    18.699251 	56 Nyanda Ave, T3-V5, Cape Town, 7784, South Africa
+ 26 Masiyile Senior Secondary School                                         -34.030180    18.667800 	Village 2 North, Cape Town, 7784, South Africa
+ 27 Nkazimlo Primary School                                                  -34.049290    18.710660 	T3-V3, Cape Town, 7784, South Africa
+ 28 Silulo Ulutho Technologies - Head Office / IT Academy                    -34.036842    18.658513 	3 Makhabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+ 29 Injongo Primary School                                                   -34.033840    18.655880 	Village 1 North, Cape Town, 7784, South Africa
+ 30 Intshayelelo Primary School                                              -34.048370    18.661231 	107 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+ 31 Homba Primary School                                                     -34.031596    18.661766 	4 Pama Rd, Village 1 North, Cape Town, 7784, South Africa
+ 32 Harry Gwala Secondary School                                             -34.051410    18.695690 	7 Jula St, T3-V4, Cape Town, 7784, South Africa
+ 33 Noluthando ELSEN Centre                                                  -34.024211    18.674644 	1 Unknown Rd, Trevor Vilakazi, Cape Town, 7784, South Africa
+ 34 Soyisile Public Primary School                                           -34.022895    18.668394 	Nkululeko Dr, Village 3 North, Cape Town, 7784, South Africa
+ 35 Yomelela Primary School                                                  -34.028053    18.674636 	Bhemye Cres, Khayelitsha, Cape Town, 7784, South Africa
+ 36 Luleka Primary School                                                    -34.060260    18.671540 	Harare, Cape Town, 7784, South Africa
+ 37 Noluthando - School for Deaf                                             -34.024816    18.673645 	Jeff Masemola Road, Trevor Vilakazi, Cape Town, 7784, South Africa
+ 38 Lwandle Primary School                                                   -34.051092    18.706611 	Makhulu Cres, T3-V3, Cape Town, 7784, South Africa
+ 39 Iqhayiya secondary school                                                -34.033070    18.676471 	44 Mateta St, Village 2 North, Cape Town, 7784, South Africa
+ 40 Nomsa Mapongwana Primary .School                                         -34.045450    18.685600 	65, Mandela Park, Cape Town, 7784, South Africa
+ 41 Matthew Goniwe Memorial High School                                      -34.022010    18.667610 	19 Gqadu Cres, Village 3 North, Cape Town, 7784, South Africa
+ 42 Isiphiwo Primary School                                                  -34.057210    18.679080 	Harare, Cape Town, 7784, South Africa
+ 43 Zenzeleni Waldorf School                                                 -34.036729    18.673781 	Mongesi Rd, Village 2 North, Cape Town, 7783, South Africa
+ 44 Litha Park                                                               -34.053094    18.658410 	1 Bikhwe Cres, Village 1 South, Cape Town, 7784, South Africa
+ 45 Encotsheni Primary                                                       -34.005690    18.637490 	Ikwezi Park, Cape Town, 7784, South Africa
+ 46 Kwamfundo Secondary School                                               -34.055860    18.673260 	Harare, Cape Town, 7784, South Africa
+ 47 Chumisa Primary School                                                   -34.021851    18.662282 	39 Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+ 48 Sivuyiseni Public Primary School                                         -34.049700    18.678740 	Mandela Park, Cape Town, 7784, South Africa
+ 49 Nolungile Primary                                                        -34.013706    18.642919 	34 Njongo Ave, Ikwezi Park, Cape Town, 7784, South Africa
+ 50 Vuzamanzi Public Primary School                                          -34.013740    18.648990 	Ikwezi Park, Cape Town, 7784, South Africa
+ 51 Impendulo Public Primary School                                          -34.043340    18.703660 	T3-V5, Cape Town, 7784, South Africa
+ 52 Sosebenza Primary School                                                 -34.062869    18.679089 	Nkulu St, Harare, Cape Town, 7784, South Africa
+ 53 Ntwasahlobo Primary School                                               -34.028022    18.659523 	1 Bangiso Dr, Village 4 North, Cape Town, 7784, South Africa
+ 54 Masiyile Junior Secondary School                                         -34.030234    18.667855 	Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+ 55 Khayelitsha No 1 Senior Secondary School                                 -34.042100    18.700440 	T3-V5, Cape Town, 7784, South Africa
+ 56 Eluxolweni Primary School                                                -34.029725    18.670137 	Pama &, Mongesi Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 57 Vuselela Primary School                                                  -34.010840    18.639710 	Ikwezi Park, Cape Town, 7784, South Africa
+ 58 Ikhwezilesizwe Primary School                                            -34.037991    18.661713 	Section E580 Silumko St, Khayelitsha, Cape Town, 7784, South Africa
+ 59 Umthawelanga Primary School                                              -34.043290    18.671800 	Ekuphumleni, Cape Town, 7784, South Africa
+ 60 Thembelihle Senior Secondary School                                      -34.040800    18.677010 	2 Govan Mbeki Rd, T3-V4, Cape Town, 7784, South Africa
+ 61 False Bay College                                                        -34.049672    18.654066 	Mew Way & Qamba crescent, Khayelitsha, 7785, South Africa
+ 62 Silulo Ulutho Technologies - Head Office / IT Academy                    -34.036842    18.658513 	3 Makhabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+ 63 Qaasimul Uloom                                                           -34.029691    18.575444 	Philippi, Cape Town, 7750, South Africa
+ 64 Cambridge College                                                        -34.000920    18.580700 	Nyanga, Cape Town, 7750, South Africa
+ 65 FALSE BAY COLLEGE                                                        -34.055001    18.618398 	Merrydale Ave, Mitchells Plain, Cape Town, 7785, South Africa
+ 66 FAITH BIBLE COLLEGE                                                      -34.001462    18.725342 	Office No.13/14, Eerste River Shopping Center, Forest Dr, Eerste River, Cape Town, 7100, South Africa
+ 67 Northlink College                                                        -33.995136    18.577018 	Tygerberg, Cape Town, 7750, South Africa
+ 68 UWC                                                                      -34.049568    18.623084 	Tango Square, Mitchells Plain, Cape Town, 7785, South Africa
+ 69 The Leadership College - Hyde Park                                       -34.034788    18.584718 	Cnr Fulham &, Lords Ave, Mitchells Plain, Cape Town, 7785, South Africa
+ 70 falsebay college                                                         -34.055158    18.618350 	19 Merrydale Ave, Portland, Cape Town, 7785, South Africa
+ 71 COSAT                                                                    -34.050899    18.662113 	50 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+ 72 Helen O'Grady Drama Academy - Mitchells Plain                            -34.050906    18.615558 	Hazeldene Ave, Portland, Cape Town, 7784, South Africa
+ 73 Home of Compassion                                                       -33.980214    18.647890 	48 Eindhoven Rd, Eindhoven, Cape Town, 7100, South Africa
+ 74 Tvet College Khayalitsha                                                 -34.049709    18.653556 	Khayelitsha, Cape Town, 7784, South Africa
+ 75 Chris Hani Secondary School                                              -34.046870    18.705980 	57 Futha Cres, T3-V3, Cape Town, 7784, South Africa
+ 76 College of Cape Town                                                     -33.982018    18.567095 	Steve Biko Drive & Ngambu Street, Guguletu, 7750, South Africa
+ 77 Usasazo High School                                                      -34.026352    18.659130 	Bangiso dr, Victoria Merge, Cape Town, 7784, South Africa
+ 78 College of Cape Town - Guguletu Campus                                   -33.976124    18.562327 	Ny 4, Guguletu, Cape Town, 7750, South Africa
+ 79 Noluthando - School for Deaf                                             -34.024816    18.673645 	Jeff Masemola Road, Trevor Vilakazi, Cape Town, 7784, South Africa
+ 80 The Leadership College Cape Town (Junior , Middle & Senior)              -33.982575    18.552899 	2 Kasouga Rd, Manenberg, Cape Town, 7764, South Africa
+ 81 Western Cape College Of Nursing                                          -33.968684    18.551257 	Klipfontein Rd, Heideveld, Cape Town, 7764, South Africa
+ 82 JUNIOR COLLEGE (PRIM)                                                    -34.031933    18.526803 	16 Boundary Rd, Ottery, Cape Town, 7800, South Africa
+ 83 LEAP 2 (Philippi)                                                        -34.000638    18.594224 	1 Cwango Crescent, Philippi, Cape Town, 7750, South Africa
+ 84 Northlink College Panarama                                               -34.034682    18.528686 	13 Second Avenue Schaapkraal, South Africa
+ 85 Silulo Ulutho Technologies                                               -34.027104    18.664722 	Nonkqubela Link, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+ 86 Ingelosi Security Solution Easter River                                  -34.003393    18.702323 	116 Blue Downs Way, Hillcrest Heights, Cape Town, 7100, South Africa
+ 87 INTERNATIONAL PEACE COLLEGE SOUTH AFRICA                                 -33.975131    18.523098 	Rylands Estate, Johnston Rd, Gatesville, Cape Town, 7766, South Africa
+ 88 Academy for Quran Specialisation Africa                                  -34.038891    18.528318 	Schaap Rd, Philippi, Cape Town, 7781, South Africa
+ 89 Somerset College                                                         -34.040444    18.808412 	Bredell Rd, Somerset West, 7130, South Africa
+ 90 COLLEGE OF CAPE TOWN -CRAWFORD CAMPUS                                    -33.973324    18.512113 	174 Kromboom Rd, Crawford, Cape Town, 7770, South Africa
+ 91 Islamic Ambassadors' College                                             -33.983790    18.587650 	40, Crossroads, Cape Town, 7750, South Africa
+ 92 Cape Town Baptist College                                                -33.954741    18.534169 	Tarentaal Rd, Bridgetown, Cape Town, 7769, South Africa
+ 93 College Of Cape Town                                                     -33.959703    18.509887 	Eland St, Athlone, Cape Town, 7764, South Africa
+ 94 Islamia College                                                          -33.985986    18.498356 	409 Imam Haron Rd, Lansdowne, Cape Town, 7780, South Africa
+ 95 Aviation Pilot Training                                                  -33.977267    18.594748 	1A Beechcraft Rd, Matroosfontein, Cape Town, 7525, South Africa
+ 96 COLLEGE OF CAPE TOWN                                                     -34.003907    18.475724 	31 Broad Rd, Wynberg, Cape Town, 7800, South Africa
+ 97 Skills Academy - Distance Learning College in Cape Town                  -33.924794    18.654034 	Unit MP53B Mega Park C/O Peter Barlow and, Robert Sobukwe Rd, Bellville South, Cape Town, 7530, South Africa
+ 98 SACOB - The South African College of Business                            -33.979686    18.481981 	88 Belvedere Rd, Claremont, Cape Town, 7708, South Africa
+ 99 False Bay College Youth Advisory Centre                                  -34.045305    18.655789 	Mew Way, Khayelitsha, Cape Town, 7784, South Africa
+100 False Bay TVET College                                                   -34.078036    18.440118 	131 Main Rd, Muizenberg, Cape Town, 7950, South Africa
+101 George Whitefield College                                                -34.106380    18.471619 	34 Beach Rd, Muizenberg, Cape Town, 7950, South Africa
+102 Boston City Campus & Business College - Somerset West                    -34.081837    18.850257 	F1, Twin Oaks Centre, 142 Main Rd, Somerset West, Cape Town, 7110, South Africa
+103 College for Sustainable Agriculture                                      -34.069770    18.827970 	83 Helderberg College Rd, Die Wingerd, Somerset West, 7130, South Africa
+104 Cape Town Flying Club                                                    -33.975893    18.598287 	Cape Town International Airport Air Traffic Control Tower, Matroosfontein, Cape Town, 8001, South Africa
+105 The South African College of Applied Psychology (SACAP), Cape Town       -33.978312    18.463662 	1st Floor, Sunclare Building, 21 Dreyer Street, Claremont, Cape Town, 7708, South Africa
+106 Boland College Strand Campus                                             -34.098492    18.837178 	71 Aerodrome Way, Strand, Cape Town, 7139, South Africa
+107 Bethel Bible School                                                      -33.974342    18.508095 	134 Kromboom Rd, Zwartdam, Cape Town, 7760, South Africa
+108 Abbotts College Claremont                                                -33.984506    18.471473 	Greenwood Rd, Claremont, Cape Town, 7740, South Africa
+109 Falsebay Khayelitsha Campus                                              -34.045269    18.655772 	Mew Way, Khayelitsha, Cape Town, 7784, South Africa
+110 Northlink College                                                        -33.910859    18.641631 	Sackson St, Bellville, Cape Town, 7530, South Africa
+111 Boston City Campus & Business College - Bellville                        -33.901102    18.640334 	2 Old Paarl Road, Bellville, Avondstil, Cape Town, 7530, South Africa
+112 College Of Cape Town                                                     -33.924460    18.505941 	18 Jan Smuts Dr, Pinelands, Cape Town, 7405, South Africa
+113 Northlink College                                                        -33.902272    18.636733 	80 Voortrekker Rd, Bellville, Cape Town, 7530, South Africa
+114 iKanyisa Business College                                                -33.975639    18.549292 	52 Aries Road Surrey Estate, Athlone, Cape Town, 7764, South Africa
+115 Cape Town Biblical College                                               -33.914659    18.593155 	52 Frederick St, Parow Valley, Cape Town, 7500, South Africa
+116 The Learning Group                                                       -33.923238    18.653941 	Unit MP53B Mega Park C/O Peter Barlow and, Mill Rd, Bellville South, Cape Town, 7530, South Africa
+117 Samsons School of Welding                                                -34.003056    18.572531 	ERF472 Clive St, Browns Farms, Cape Town, 7750, South Africa
+118 CAD4ALL Career and Design College                                        -33.901960    18.642810 	Bill Bezuidenhout Ave, Bellville, Cape Town, 7530, South Africa
+119 Oakfields College Somerset West                                          -34.087508    18.859748 	40 Bizweni Ave, Cherrywood Gardens, Cape Town, 7130, South Africa
+120 Pearson Institute Of Higher Education - Cape Town                        -33.983387    18.469714 	The Brookside Building, 11 Imam Haron Rd, Southern Suburbs, Cape Town, 7708, South Africa
+121 COSAT                                                                    -34.050899    18.662113 	50 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+122 Ummangaliso Primary School                                               -34.047913    18.670508 	T Section Bangiso Dve Site B, Khayelitsha, Cape Town, 7784, South Africa
+123 Luhlaza Secondary School                                                 -34.040700    18.661480 	6 Velili St, Village 1 North, Cape Town, 7784, South Africa
+124 Bulumko Secondary School                                                 -34.038810    18.672730 	31 Mangezi St, Khayelitsha, Cape Town, 7784, South Africa
+125 Sakumlandela Primary School                                              -34.027120    18.658900 	4 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+126 Usasazo High School                                                      -34.026352    18.659130 	Bangiso dr, Victoria Merge, Cape Town, 7784, South Africa
+127 Silulo Ulutho Technologies - Head Office / IT Academy                    -34.036842    18.658513 	3 Makhabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+128 Khayelitsha Special School.                                              -34.039362    18.659959 	Makabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+129 Chris Hani Secondary School                                              -34.046870    18.705980 	57 Futha Cres, T3-V3, Cape Town, 7784, South Africa
+130 Noluthando - School for Deaf                                             -34.024816    18.673645 	Jeff Masemola Road, Trevor Vilakazi, Cape Town, 7784, South Africa
+131 Molo Mhlaba School                                                       -34.059044    18.671369 	Harare, Cape Town, 7784, South Africa
+132 Intlanganiso Secondary School                                            -34.012740    18.641510 	Ikwezi Park, Cape Town, 7784, South Africa
+133 Injongo Primary School                                                   -34.033840    18.655880 	Village 1 North, Cape Town, 7784, South Africa
+134 Sosebenza Primary School                                                 -34.023905    18.669076 	29 Selesho Cres, Village 3 North, Cape Town, 7784, South Africa
+135 Masiyile Senior Secondary School                                         -34.030180    18.667800 	Village 2 North, Cape Town, 7784, South Africa
+136 Manyano High                                                             -34.046726    18.664051 	36 Msobomvu Dr, Village 1 South, Cape Town, 7784, South Africa
+137 Velokhaya Life Cycling Academy                                           -34.034283    18.660008 	40 Makabeni Rd, Village 1 North, Cape Town, 7784, South Africa
+138 Sizimisele Tech High School                                              -34.051846    18.692207 	19 Steve Tshwete Rd, Mandela Park, Cape Town, 7784, South Africa
+139 Ikhusi Primary School                                                    -34.024240    18.655610 	15 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+140 Kukhanyile Publ Primary School                                           -34.029010    18.671660 	13 Lali St, Khayelitsha, Cape Town, 7784, South Africa
+141 Academia Primary School                                                  -34.031748    18.694478 	Khayelitsha, Cape Town, 7784, South Africa
+142 Masiphumelele Primary School                                             -34.051330    18.695660 	55 Hlehla St, T3-V4, Cape Town, 7784, South Africa
+143 Kuyasa Primary School                                                    -34.062220    18.683230 	Town 3, Cape Town, 7784, South Africa
+144 Zenzeleni Waldorf School                                                 -34.036729    18.673781 	Mongesi Rd, Village 2 North, Cape Town, 7783, South Africa
+145 Esangweni Secondary School                                               -34.058830    18.685000 	Town 3, Cape Town, 7784, South Africa
+146 Zola Senior Secondary School                                             -34.015520    18.634520 	Bongweni, Cape Town, 7784, South Africa
+147 Lwandle Primary School                                                   -34.051092    18.706611 	Makhulu Cres, T3-V3, Cape Town, 7784, South Africa
+148 Chuma Publ. Primary School                                               -34.042240    18.678250 	Griffiths Mxenge, Cape Town, 7784, South Africa
+149 Chris Hani Arts & Culture High School                                    -34.047218    18.705771 	Paul Avenue, Khayelitsha, Cape Town, 7784, South Africa
+150 Nkazimlo Primary School                                                  -34.049290    18.710660 	T3-V3, Cape Town, 7784, South Africa
+151 Yomelela Primary School                                                  -34.028053    18.674636 	Bhemye Cres, Khayelitsha, Cape Town, 7784, South Africa
+152 Homba Primary School                                                     -34.031596    18.661766 	4 Pama Rd, Village 1 North, Cape Town, 7784, South Africa
+153 Luleka Primary School                                                    -34.060260    18.671540 	Harare, Cape Town, 7784, South Africa
+154 Intshayelelo Primary School                                              -34.048370    18.661231 	107 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+155 Noxolo Xauka Primary School                                              -34.042763    18.711244 	Nyanda Ave, Khayelitsha, Cape Town, 7784, South Africa
+156 Matthew Goniwe Memorial High School                                      -34.022010    18.667610 	19 Gqadu Cres, Village 3 North, Cape Town, 7784, South Africa
+157 Ummangaliso Public Primary School                                        -34.023496    18.658348 	Bangiso Dr, Khayelitsha, Cape Town, 7784, South Africa
+158 Impendulo Public Primary School                                          -34.043340    18.703660 	T3-V5, Cape Town, 7784, South Africa
+159 Soyisile Public Primary School                                           -34.022895    18.668394 	Nkululeko Dr, Village 3 North, Cape Town, 7784, South Africa
+160 Isikhokelo Primary School                                                -34.013710    18.652910 	Ikwezi Park, Cape Town, 7784, South Africa
+161 Sinako High School                                                       -34.042027    18.699251 	56 Nyanda Ave, T3-V5, Cape Town, 7784, South Africa
+162 Ntwasahlobo Primary School                                               -34.028022    18.659523 	1 Bangiso Dr, Village 4 North, Cape Town, 7784, South Africa
+163 Nomsa Mapongwana Primary .School                                         -34.045450    18.685600 	65, Mandela Park, Cape Town, 7784, South Africa
+164 Harry Gwala Secondary School                                             -34.051410    18.695690 	7 Jula St, T3-V4, Cape Town, 7784, South Africa
+165 Isiphiwo Primary School                                                  -34.057210    18.679080 	Harare, Cape Town, 7784, South Africa
+166 Uxolo High School                                                        -34.049120    18.681200 	Mandela Park, Cape Town, 7784, South Africa
+167 Iqhayiya secondary school                                                -34.033070    18.676471 	44 Mateta St, Village 2 North, Cape Town, 7784, South Africa
+168 Ikhwezilesizwe Primary School                                            -34.037991    18.661713 	Section E580 Silumko St, Khayelitsha, Cape Town, 7784, South Africa
+169 Sosebenza Primary School                                                 -34.062869    18.679089 	Nkulu St, Harare, Cape Town, 7784, South Africa
+170 Chumisa Primary School                                                   -34.021851    18.662282 	39 Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+171 Sivuyiseni Public Primary School                                         -34.049700    18.678740 	Mandela Park, Cape Town, 7784, South Africa
+172 Kwamfundo Secondary School                                               -34.055860    18.673260 	Harare, Cape Town, 7784, South Africa
+173 Encotsheni Primary                                                       -34.005690    18.637490 	Ikwezi Park, Cape Town, 7784, South Africa
+174 Joe Slovo Secondary School.                                              -34.032430    18.657690 	454 Koeberg Rd, Village 1 North, Cape Town, 7784, South Africa
+175 Nolungile Primary                                                        -34.013706    18.642919 	34 Njongo Ave, Ikwezi Park, Cape Town, 7784, South Africa
+176 Masiyile Junior Secondary School                                         -34.030234    18.667855 	Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+177 Vuselela Primary School                                                  -34.010840    18.639710 	Ikwezi Park, Cape Town, 7784, South Africa
+178 Ludwe Ngamlana Primary School                                            -34.059883    18.691108 	Mqha St, Town 3, Cape Town, 7784, South Africa
+179 Vuzamanzi Public Primary School                                          -34.013740    18.648990 	Ikwezi Park, Cape Town, 7784, South Africa
+180 False Bay College                                                        -34.049672    18.654066 	Mew Way & Qamba crescent, Khayelitsha, 7785, South Africa
+181 FAITH BIBLE COLLEGE                                                      -34.001462    18.725342 	Office No.13/14, Eerste River Shopping Center, Forest Dr, Eerste River, Cape Town, 7100, South Africa
+182 Qaasimul Uloom                                                           -34.029691    18.575444 	Philippi, Cape Town, 7750, South Africa
+183 Cape Peninsula University of Technology                                  -33.932420    18.640645 	Symphony Way, Bellville, Cape Town, 7535, South Africa
+184 UWC                                                                      -34.049568    18.623084 	Tango Square, Mitchells Plain, Cape Town, 7785, South Africa
+185 University of the Western Cape                                           -33.933520    18.627958 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+186 FALSE BAY COLLEGE                                                        -34.055001    18.618398 	Merrydale Ave, Mitchells Plain, Cape Town, 7785, South Africa
+187 Northlink College                                                        -33.995136    18.577018 	Tygerberg, Cape Town, 7750, South Africa
+188 University of Cape Town                                                  -33.957652    18.461199 	Rondebosch, Cape Town, 7700, South Africa
+189 Mechanical Engineering Department - CPUT                                 -33.933484    18.643781 	Symphony Way, Bellville, Cape Town, 7535, South Africa
+190 Library Bellville - CPUT                                                 -33.932277    18.642131 	Bellville South Industrial, Cape Town, 7530, South Africa
+191 Administration - CPUT                                                    -33.932218    18.640046 	Pentech Service Road, Bellville South Industrial, Cape Town, 7530, South Africa
+192 Institute for Poverty, Land and Agrarian Studies                         -33.933099    18.628313 	Uwc Access Rd, Bellville, Cape Town, 7535, South Africa
+193 Faculty Of Arts - University Of The Western Cape                         -33.932253    18.628606 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+194 Molo Mhlaba School                                                       -34.059044    18.671369 	Harare, Cape Town, 7784, South Africa
+195 Belhar College Kitchen                                                   -33.938890    18.632660 	Proton Rd, Belhar 8, Cape Town, 7493, South Africa
+196 Food Technology Centre                                                   -33.931764    18.638311 	Bellville South Industrial, Cape Town, 7530, South Africa
+197 Occupational Therapy                                                     -33.931316    18.628422 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+198 IT Centre                                                                -33.931517    18.642570 	Bellville South Industrial, Cape Town, 7530, South Africa
+199 Department Of Sport, Recreation And Exercise Science                     -33.930146    18.629131 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+200 University of South Africa                                               -33.907391    18.594527 	Jean Simonis St, Parow East, Cape Town, 7500, South Africa
+201 Technology Station Clothing and Textiles                                 -33.930142    18.637372 	Bellville South Industrial, Cape Town, 7530, South Africa
+202 Geography and Environmental Studies Department                           -33.932082    18.628730 	University of The Western Cape, Cape Town, South Africa
+203 Department of Computer Science                                           -33.934400    18.629644 	Robert Sobukwe Road, Bellville, Cape Town, 7535, South Africa
+204 Students Centre                                                          -33.933662    18.628676 	East Rd, University of The Western Cape, Cape Town, 7535, South Africa
+205 Social Sciences                                                          -33.931236    18.628742 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+206 Cape Town University                                                     -33.957687    18.460651 	M3, Wynberg, Cape Town, 7800, South Africa
+207 Swimming Pool                                                            -33.930236    18.630207 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+208 Faculty of Medicine and Health Sciences, Stellenbosch University         -33.907934    18.612499 	Francie Van Zijl Dr, Tygerberg Hospital, Cape Town, 7505, South Africa
+209 MGR1                                                                     -33.933395    18.639343 	Education Way, Bellville South Industrial, Cape Town, 7530, South Africa
+210 Ditsela Workers Education Institute                                      -33.934768    18.627515 	University of The Western Cape, Cape Town, South Africa
+211 Stellenbosch University                                                  -33.909037    18.609351 	Francie Van Zijl Dr, Tygerberg, Cape Town, 7530, South Africa
+212 Children's Institute, University of Cape Town                            -33.952984    18.481635 	Sawkins Rd, Rosebank, Cape Town, 7700, South Africa
+213 Tshwane University Of Technology                                         -33.899571    18.628665 	Unit 5A, Bellpark Office Plaza, Bellville, Cape Town, 7530, South Africa
+214 Boston City Campus & Business College - Bellville                        -33.901102    18.640334 	2 Old Paarl Road, Bellville, Avondstil, Cape Town, 7530, South Africa
+215 The Leadership College Cape Town (Junior , Middle & Senior)              -33.982575    18.552899 	2 Kasouga Rd, Manenberg, Cape Town, 7764, South Africa
+216 Audiovisual Services                                                     -33.932280    18.627574 	Bellville, Cape Town, South Africa
+217 Helderberg College Disa Road                                             -34.047938    18.842912 	Helderberg Rural, Sir Lowry's Pass, Helderberg Rural, Cape Town, 7135, South Africa
+218 University of Stellenbosch - Desmond Tutu T.B Centre                     -33.907934    18.612494 	Lower Level Clinical Building, Fransie Van Zyl Street, Parow Valley, Cape Town, 7500, South Africa
+219 University of Stellenbosch - Medical Biochemistry                        -33.912811    18.615993 	445 4th Floor Fisan Bldg, Fransie Van Zyl Drive, Parow, Cape Town, 7500, South Africa
+220 University Of the Western Cape                                           -33.933460    18.628060 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+221 University of Stellenbosch Business School                               -33.884759    18.626559 	Carl Cronje Dr, Bellville, Cape Town, 7530, South Africa
+222 Department of Sports Sciences                                            -33.930122    18.629137 	University of The Western Cape, Cape Town, South Africa
+223 Dept of Physiotherapy Stellenbosch University                            -33.912716    18.615429 	Francie Van Zyl Drive, Parow Valley, Cape Town, 7500, South Africa
+224 Stellenbosch University                                                  -33.932808    18.864447 	Stellenbosch Central, Stellenbosch, 7600, South Africa
+225 Tygerberg Campus                                                         -33.907071    18.612235 	Tygerberg Hospital, Cape Town, 7505, South Africa
+226 University of Stellenbosch - Hyperbaric Medicine                         -33.919815    18.591929 	Francie Van Zijl Drive, Parow, Cape Town, 7500, South Africa
+227 PLMCC, CPUT                                                              -33.932059    18.643079 	Symphony Wy, Bellville, 7535, South Africa
+228 College of Cape Town - Thornton Campus                                   -33.925796    18.532636 	Cedar Rd, Thornton, Cape Town, 7460, South Africa
+229 Imperil Technical Training Academy                                       -33.921891    18.653793 	7530, Unclear, Cape Town, South Africa
+230 South African Tuberculosis Vaccine Initiative (SATVI)                    -33.943360    18.465825 	Wernher & Beit South Building, Room S 2.01, Health Sciences Faculty, OBSERVATORY, 7925 Cape Town, Anzio Rd, Observatory, Cape Town, 7935, South Africa
+231 Helen O'Grady Drama Academy - Mitchells Plain                            -34.050906    18.615558 	Hazeldene Ave, Portland, Cape Town, 7784, South Africa
+232 University of Cape Town                                                  -33.957670    18.461144 	Rondebosch, Cape Town, 7701, South Africa
+233 JUNIOR COLLEGE (PRIM)                                                    -34.031933    18.526803 	16 Boundary Rd, Ottery, Cape Town, 7800, South Africa
+234 Centre for Entrepreneurship and Innovation: Student Training Centre      -33.932968    18.628047 	Robert Sobukwe Rd, Bellville, 7535, South Africa
+235 The Leadership College - Hyde Park                                       -34.034788    18.584718 	Cnr Fulham &, Lords Ave, Mitchells Plain, Cape Town, 7785, South Africa
+236 University of Cape Town Medical Centre (Pty) Ltd                         -33.937559    18.472117 	D18 New Main Building , Grooteschuur, Observatory, 7925, South Africa
+237 University of Stellenbosch - Respiratory Research Unit                   -33.911816    18.608646 	Rm 3018 3rd flr Clinical Building, Francie Van Zijl Drive, 7600, South Africa
+238 Northlink College - Parow Campus                                         -33.911583    18.585278 	Connaught Rd, Parow Valley, Cape Town, 7503, South Africa
+239 Manoto Technology                                                        -34.000585    18.563750 	Cnr NY1 and NY110, Gugulethu, Cape Town, 7750, South Africa

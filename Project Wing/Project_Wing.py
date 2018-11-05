@@ -51,7 +51,7 @@ class Nodes(object):
 
 		return NODES, NETWORK, UNUSSIGNED, DATA;
 
-	def CreateNodes(self, FileName, Place = None, ServiceProvider = None, Results = False, ClusterRadius = None):
+	def CreateNodes(self, FileName, Place = None, Code = None, ServiceProvider = None, Results = False, ClusterRadius = None):
 		"""
 		"""
 
@@ -70,10 +70,16 @@ class Nodes(object):
 			#Creating Nodes from Google data
 			if Results is True:	print("{0:3} {1:70} {2:27s} {3:3s}".format(
 			'ID', 'NAME', 'RESIDUAL ENERGY', 'SNR'))
-			for key, value in JsonGeoData.items():
+			Counter = 1
+			for k, value in JsonGeoData.items():
+				key = str(Counter);
+				if Code != None and Code not in value['formatted_address']:
+					continue;
+
 				self.__NODES[key] = Node(Id = key, Name = value['name'], Position = [value['geometry']['location']['lng'], value['geometry']['location']['lat']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies))
 				if Results is True: 
 					print("{0:4} {1:70} {2:15f} {3:15f}".format(self.__NODES[key].Id, self.__NODES[key].Name, self.__NODES[key].ResidualEnergy, self.__NODES[key].SNR))
+				Counter += 1
 
 			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(self.__NODES.values());
@@ -81,11 +87,14 @@ class Nodes(object):
 
 			self.__UNUSSIGNED = [node.Id for node in TEMP]
 
-			self.Best_SNR = 2e-07
 			self.Minimum_SNR = TEMP[-1].SNR
 			self.Maximum_SNR = TEMP[0].SNR
+			self.Deviation_SNR = std([node.SNR for node in TEMP])
+			self.Average_SNR = average([node.SNR for node in TEMP])
 
-			self.ResidualEnergy_Median = median([node.ResidualEnergy for node in TEMP])
+			self.Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
+			self.Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
+			self.Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
 			#self.MaximumClusterHeads = int(ceil(abs(len(self.__NODES)/sqrt(abs(self.Maximum_SNR - self.Minimum_SNR)))))
 			self.MaximumClusterHeads = int(ceil(abs(len(self.__NODES) * (self.Minimum_SNR/self.Maximum_SNR))))
 
@@ -94,14 +103,16 @@ class Nodes(object):
 if __name__ == '__main__':
 	import time
 
-	Place = 'Dummy'
+	Place = 'Khayelitsha'
+	Code = '7784';
+
 	Heads = [] #To store computed number of Cluster Heads
 	Unussigned = [] #To store number of nodes not connected
 	
 	print("#01: Creating Nodes!\n")
 	ServiceProvider = Provider(Id = '00', Address = "" + Place + ", South Africa", Position = [-23.829150, 30.142595,10])
 	Network = Nodes()
-	Network.CreateNodes('./Source/Data/' + Place + '.json', Place, ClusterRadius = 0.5, ServiceProvider = ServiceProvider, Results = True)
+	Network.CreateNodes('./Source/Data/' + Place + '.json', Place, Code = Code, ClusterRadius = 0.5, ServiceProvider = ServiceProvider, Results = True)
 
 	#MODELS
 	print("\n#02: Running Models!\n")

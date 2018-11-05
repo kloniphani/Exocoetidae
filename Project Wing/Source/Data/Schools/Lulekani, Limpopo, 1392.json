@@ -1,0 +1,1411 @@
+{
+    "Lulekani Primary School.": {
+        "formatted_address": "Lulekani-A, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.85852,
+                "lng": 31.07692
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.85717017010728,
+                    "lng": 31.07826982989272
+                },
+                "southwest": {
+                    "lat": -23.85986982989272,
+                    "lng": 31.07557017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "00da2be051a9f3284c4b4969abf60df31c4045c2",
+        "name": "Lulekani Primary School.",
+        "photos": [
+            {
+                "height": 2448,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107539875793496169011/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAACdygc78ZBGzhvFZDI8BpwONY5KtqNCqEKdzG-reHKbB9w1C108HssCy3jh3N8_E_3SGExUO_HoJEeKu2_aAcDjN22OHehosRw1JZb1hHxO_A9tcK_GCZsmoZhrwwFuUREhBXRnD_98zrA3Q3wvJWoo-IGhS0M1kU70_F_UBHL_XHZUywSEzGkw",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJlwARBCt7wx4RtpBP4VBDN0Y",
+        "plus_code": {
+            "compound_code": "43RG+HQ Phalaborwa, South Africa",
+            "global_code": "5G8H43RG+HQ"
+        },
+        "rating": 4,
+        "reference": "ChIJlwARBCt7wx4RtpBP4VBDN0Y",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Majeje High School": {
+        "formatted_address": "815 Quatro St, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8667284,
+                "lng": 31.08661459999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86537857010728,
+                    "lng": 31.08796442989272
+                },
+                "southwest": {
+                    "lat": -23.86807822989272,
+                    "lng": 31.08526477010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "683fe247924103588bc0d834cc1161b7b4087518",
+        "name": "Majeje High School",
+        "place_id": "ChIJY6QgZy5lwx4RFKGhQAGo93o",
+        "plus_code": {
+            "compound_code": "43MP+8J Phalaborwa, South Africa",
+            "global_code": "5G8H43MP+8J"
+        },
+        "rating": 4.3,
+        "reference": "ChIJY6QgZy5lwx4RFKGhQAGo93o",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Nkateko High School.": {
+        "formatted_address": "Lulekani-A, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8664999,
+                "lng": 31.0729
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86515007010728,
+                    "lng": 31.07424982989272
+                },
+                "southwest": {
+                    "lat": -23.86784972989273,
+                    "lng": 31.07155017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "80bcd16266baf01504e5d093accd6d35d7934254",
+        "name": "Nkateko High School.",
+        "place_id": "ChIJeYBRvdZ6wx4R2CAqgK7h4i4",
+        "plus_code": {
+            "compound_code": "43MF+C5 Phalaborwa, South Africa",
+            "global_code": "5G8H43MF+C5"
+        },
+        "rating": 3,
+        "reference": "ChIJeYBRvdZ6wx4R2CAqgK7h4i4",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Nwa Risenga Primary School": {
+        "formatted_address": "124 Park St, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8620199,
+                "lng": 31.08967
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86067007010728,
+                    "lng": 31.09101982989273
+                },
+                "southwest": {
+                    "lat": -23.86336972989272,
+                    "lng": 31.08832017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "1313376ee5175386f2c2843a326f75fe2f1c378b",
+        "name": "Nwa Risenga Primary School",
+        "place_id": "ChIJD6ryjShlwx4RUUzL3CBj00E",
+        "plus_code": {
+            "compound_code": "43QQ+5V Phalaborwa, South Africa",
+            "global_code": "5G8H43QQ+5V"
+        },
+        "rating": 5,
+        "reference": "ChIJD6ryjShlwx4RUUzL3CBj00E",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Nwasorini Primary School": {
+        "formatted_address": "Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.86122,
+                "lng": 31.08185
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.85987017010728,
+                    "lng": 31.08319982989272
+                },
+                "southwest": {
+                    "lat": -23.86256982989272,
+                    "lng": 31.08050017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "8b0e062834150350bda506de70f6aac8f6064369",
+        "name": "Nwasorini Primary School",
+        "place_id": "ChIJqcJJjyplwx4RCpBjVwBCH7A",
+        "plus_code": {
+            "compound_code": "43QJ+GP Phalaborwa, South Africa",
+            "global_code": "5G8H43QJ+GP"
+        },
+        "rating": 0,
+        "reference": "ChIJqcJJjyplwx4RCpBjVwBCH7A",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Pondo Combined School": {
+        "formatted_address": "764, Lulekani-A, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8701699,
+                "lng": 31.0715
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86882007010728,
+                    "lng": 31.07284982989272
+                },
+                "southwest": {
+                    "lat": -23.87151972989273,
+                    "lng": 31.07015017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "52fd24a2a7236ac5cb9cd79dfada244dea57fb71",
+        "name": "Pondo Combined School",
+        "photos": [
+            {
+                "height": 480,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117491402220668130172/photos\">nhlawulo justice</a>"
+                ],
+                "photo_reference": "CmRaAAAA2mdB__2J-YBbPQpeBooKm37m-d3fX1hdwprpyrqvN-6-RyseSvIiQvSluDNYhuRKOxUw-_tDFXPhHSvfOwPbnwhwJzov5iTtPnn9gwkcR7BSKwxnS5MOKFYXgWUYOURvEhC7lEqlEZffCIkoEEPzhtUtGhSfA00T9Qe9VugAQT8e5UJdrig_6A",
+                "width": 640
+            }
+        ],
+        "place_id": "ChIJHV_2D9F6wx4RQ-Om9kPxOkE",
+        "plus_code": {
+            "compound_code": "43HC+WJ Phalaborwa, South Africa",
+            "global_code": "5G8H43HC+WJ"
+        },
+        "rating": 3.8,
+        "reference": "ChIJHV_2D9F6wx4RQ-Om9kPxOkE",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Majeje High.": {
+        "formatted_address": "435 Bridgeway Street, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8675,
+                "lng": 31.0818183
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86615017010728,
+                    "lng": 31.08316812989273
+                },
+                "southwest": {
+                    "lat": -23.86884982989272,
+                    "lng": 31.08046847010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "ea2b72ea7cddf38b238a7b632acdcc72d6c0a19f",
+        "name": "Majeje High.",
+        "place_id": "ChIJm9hb8Sxlwx4R6DERwvnW2pc",
+        "plus_code": {
+            "compound_code": "43JJ+XP Phalaborwa, South Africa",
+            "global_code": "5G8H43JJ+XP"
+        },
+        "rating": 0,
+        "reference": "ChIJm9hb8Sxlwx4R6DERwvnW2pc",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Rixile Education Centre": {
+        "formatted_address": "373 Bridgeway Street, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8668356,
+                "lng": 31.0836606
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86548577010727,
+                    "lng": 31.08501042989272
+                },
+                "southwest": {
+                    "lat": -23.86818542989272,
+                    "lng": 31.08231077010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "7561cef02a8a0b312895b116f1171443be24ce2f",
+        "name": "Rixile Education Centre",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJf891QCxlwx4Rh1lXpcgREPQ",
+        "plus_code": {
+            "compound_code": "43MM+7F Phalaborwa, South Africa",
+            "global_code": "5G8H43MM+7F"
+        },
+        "rating": 5,
+        "reference": "ChIJf891QCxlwx4Rh1lXpcgREPQ",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Biko Primary School": {
+        "formatted_address": "Lulekani, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8557483,
+                "lng": 31.0651847
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.85439847010728,
+                    "lng": 31.06653452989272
+                },
+                "southwest": {
+                    "lat": -23.85709812989272,
+                    "lng": 31.06383487010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "4049a7a11acd5e2dedb11f89d23d1a6962182f85",
+        "name": "Biko Primary School",
+        "place_id": "ChIJEUhcakF7wx4RJ3HUJhenlvk",
+        "plus_code": {
+            "compound_code": "43V8+P3 Phalaborwa, South Africa",
+            "global_code": "5G8H43V8+P3"
+        },
+        "rating": 0,
+        "reference": "ChIJEUhcakF7wx4RJ3HUJhenlvk",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Xitlhangu Primary School": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.86902,
+                "lng": 31.05565
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86767017010728,
+                    "lng": 31.05699982989272
+                },
+                "southwest": {
+                    "lat": -23.87036982989272,
+                    "lng": 31.05430017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "2f19f818765dfa09540f1d0bdf2acf2efbdcb98a",
+        "name": "Xitlhangu Primary School",
+        "place_id": "ChIJudAZiOB6wx4R_AGttlcxafQ",
+        "plus_code": {
+            "compound_code": "43J4+97 Phalaborwa, South Africa",
+            "global_code": "5G8H43J4+97"
+        },
+        "rating": 0,
+        "reference": "ChIJudAZiOB6wx4R_AGttlcxafQ",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Baranuka Secondary School": {
+        "formatted_address": "Matiko Xikaya-A, Phalaborwa, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8568399,
+                "lng": 31.04868
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.85549007010728,
+                    "lng": 31.05002982989272
+                },
+                "southwest": {
+                    "lat": -23.85818972989272,
+                    "lng": 31.04733017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "189e02e591f429b27cf9ef6be692d8298a3b607b",
+        "name": "Baranuka Secondary School",
+        "place_id": "ChIJQW9kmxB7wx4RwGLJHpZvJ_U",
+        "plus_code": {
+            "compound_code": "42VX+7F Phalaborwa, South Africa",
+            "global_code": "5G8H42VX+7F"
+        },
+        "rating": 4.3,
+        "reference": "ChIJQW9kmxB7wx4RwGLJHpZvJ_U",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Chuchekani Primary School": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8781699,
+                "lng": 31.06142
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.87682007010728,
+                    "lng": 31.06276982989272
+                },
+                "southwest": {
+                    "lat": -23.87951972989272,
+                    "lng": 31.06007017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "5117ab5d06e323e44df8797f3f9918a64818feb8",
+        "name": "Chuchekani Primary School",
+        "photos": [
+            {
+                "height": 1296,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114289205341469841042/photos\">Mapaketakawaltershai Mapaketakawaltershai</a>"
+                ],
+                "photo_reference": "CmRaAAAACtFfMtEAuHJoEDpvCev5uMdEbxZczV1RlRe_AxVix31G-sFnHcaRJ_1cYOKbLvStOQxRG20xH1doCeraWRitR9oG08kA4LLADszvdGYbvoVtYqkyIHzzGGR0OL_GZ9iaEhBI-R0C7hVEYMN7wtOnAHDKGhS_QEJ7Fv7gG0HX64uQmm-gvFsQxQ",
+                "width": 972
+            }
+        ],
+        "place_id": "ChIJTzx6d8N6wx4Ri6MX0QO1-Vo",
+        "plus_code": {
+            "compound_code": "43C6+PH Phalaborwa, South Africa",
+            "global_code": "5G8H43C6+PH"
+        },
+        "rating": 1,
+        "reference": "ChIJTzx6d8N6wx4Ri6MX0QO1-Vo",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Shiphamele Primary School": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8652999,
+                "lng": 31.05248
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86395007010728,
+                    "lng": 31.05382982989272
+                },
+                "southwest": {
+                    "lat": -23.86664972989272,
+                    "lng": 31.05113017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "44a64e806c7a8e2da0f1758553eb7ab0709e87e5",
+        "name": "Shiphamele Primary School",
+        "place_id": "ChIJwdX2Qx57wx4RkmfMdcg_2Q4",
+        "plus_code": {
+            "compound_code": "43M2+VX Phalaborwa, South Africa",
+            "global_code": "5G8H43M2+VX"
+        },
+        "rating": 3,
+        "reference": "ChIJwdX2Qx57wx4RkmfMdcg_2Q4",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "P Driving School (PDS)": {
+        "formatted_address": "stand NO:1863 Oliver thambo Drive, Lulekani, Phalaborwa,South Africa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.85817,
+                "lng": 31.076416
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.85682017010728,
+                    "lng": 31.07776582989272
+                },
+                "southwest": {
+                    "lat": -23.85951982989272,
+                    "lng": 31.07506617010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "d37efdc17eb2641e734063f07a9913f14b56b967",
+        "name": "P Driving School (PDS)",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114799151390091518310/photos\">Vision Baloyi</a>"
+                ],
+                "photo_reference": "CmRaAAAAc15zak5dAGrLPWGpCyEm0ziveeXI_nVO6thpDAiSPOXHLq7_jCGd1sVhGT5JXaBfZ6vXKM1iAhTZiEhoo_If759K-4ZTJNPXGPe2uh8jZu3BUdVJEnUw1Desy81lL1bnEhAWTlxv1tUT-CZDC6B9M7yNGhQX3jP02rhQ8juHmYGmuWRMnSioaQ",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJ43NDvdR6wx4RzFqaV-8OjqY",
+        "plus_code": {
+            "compound_code": "43RG+PH Phalaborwa, South Africa",
+            "global_code": "5G8H43RG+PH"
+        },
+        "rating": 5,
+        "reference": "ChIJ43NDvdR6wx4RzFqaV-8OjqY",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Mopani SE TVET College - Phalaborwa Campus": {
+        "formatted_address": "Cnr Combretum & Haarlem Street, Combretum St, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9420969,
+                "lng": 31.1414455
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94101417010728,
+                    "lng": 31.14255647989272
+                },
+                "southwest": {
+                    "lat": -23.94371382989272,
+                    "lng": 31.13985682010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "dc00df491ebff1d42b7049079a382c73ec5b6d7f",
+        "name": "Mopani SE TVET College - Phalaborwa Campus",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 453,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104556937162907305805/photos\">Braam Schoeman</a>"
+                ],
+                "photo_reference": "CmRZAAAASh0Eq_3RkD05x44goc_imPly4tCGuSh-5SInPw9iLMAeX5YUTJ-5T3qbK-7yj74BtekkbyDWnEchRZiaMtSCeElgYy1kKH4zLPIzejfjY_pQki9Uqz1a3WTCJvcHM-alEhDIIsYAAXPdCJS-tSwUaeSQGhTq0GmqdkzvdvAB5PEl5mdOZCy72w",
+                "width": 604
+            }
+        ],
+        "place_id": "ChIJCQ2w8uVuwx4R87DZSvIRto0",
+        "plus_code": {
+            "compound_code": "345R+5H Phalaborwa, South Africa",
+            "global_code": "5G8H345R+5H"
+        },
+        "rating": 4.6,
+        "reference": "ChIJCQ2w8uVuwx4R87DZSvIRto0",
+        "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Sir Val Duncan Technical College nomthandazo": {
+        "formatted_address": "Ithambo Drive, Namakgale-D, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9373676,
+                "lng": 31.0281894
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93552167010727,
+                    "lng": 31.02943807989271
+                },
+                "southwest": {
+                    "lat": -23.93822132989272,
+                    "lng": 31.02673842010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "cd6d8b348ebbf9ee32da0c5450241caa2cd6623e",
+        "name": "Sir Val Duncan Technical College nomthandazo",
+        "photos": [
+            {
+                "height": 1125,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108110901531754783949/photos\">Christen mokgope</a>"
+                ],
+                "photo_reference": "CmRaAAAAiPk7DdTa4MzqmjOk1tR8bGcs3dLzmGcOoraSo4KjgQbkVU9ItnLyhKMM4Dcrz_0HPMRuKdTgRSsyV18qv9zD4hM7RzsFBUlefMU7X2LOH9e321dOVa0UUYWgDDP_4T4_EhATGAekEQMa3YV5oGfCvTp4GhQQ6rsclb1Lv_rG6PvEKvyTxrZz0g",
+                "width": 1500
+            }
+        ],
+        "place_id": "ChIJR8IzwfRwwx4R0znET465lN4",
+        "plus_code": {
+            "compound_code": "327H+37 Phalaborwa, South Africa",
+            "global_code": "5G8H327H+37"
+        },
+        "rating": 3.4,
+        "reference": "ChIJR8IzwfRwwx4R0znET465lN4",
+        "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Mopani college hospitality center": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.94125,
+                "lng": 31.14125
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93990017010728,
+                    "lng": 31.14259982989272
+                },
+                "southwest": {
+                    "lat": -23.94259982989272,
+                    "lng": 31.13990017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "13e730040401b8855cb2c38a97d32de92aceff00",
+        "name": "Mopani college hospitality center",
+        "place_id": "ChIJp9zkSZ5vwx4RpdMPeMs9sKE",
+        "plus_code": {
+            "compound_code": "345R+GG Phalaborwa, South Africa",
+            "global_code": "5G8H345R+GG"
+        },
+        "rating": 5,
+        "reference": "ChIJp9zkSZ5vwx4RpdMPeMs9sKE",
+        "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Phalaborwa College": {
+        "formatted_address": "Cnr Harlem & Combretum Ave , Next to Delstern Butchery, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9418224,
+                "lng": 31.1361081
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94047257010728,
+                    "lng": 31.13745792989272
+                },
+                "southwest": {
+                    "lat": -23.94317222989272,
+                    "lng": 31.13475827010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "02c9c071155e5a20e9a5f1d5ade9318866efb0ab",
+        "name": "Phalaborwa College",
+        "photos": [
+            {
+                "height": 1296,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113585077819417937633/photos\">kabelo nelson</a>"
+                ],
+                "photo_reference": "CmRaAAAASRGcBvzjQrdmWLpFVOL0VZrmbgu6Lk05lPmmhnW4-TMjMlVdw8i_6nfqZ8xC0eJ45SwQ2kN-9oL9NaT7UgogC75yZ9apu3PghtnGM0On5P5CsTAItjOOwLQzHVWBEr1tEhC1w_KpHksYJ33sGx_j7pnHGhQzSBVWtLbvAsiduejlw8Uusj3slg",
+                "width": 972
+            }
+        ],
+        "place_id": "ChIJBQG31_puwx4RyS9mGOSK1mg",
+        "plus_code": {
+            "compound_code": "345P+7C Phalaborwa, South Africa",
+            "global_code": "5G8H345P+7C"
+        },
+        "rating": 5,
+        "reference": "ChIJBQG31_puwx4RyS9mGOSK1mg",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Meridian College Phalaborwa C C": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9529825,
+                "lng": 31.13884059999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.95163267010728,
+                    "lng": 31.14019042989273
+                },
+                "southwest": {
+                    "lat": -23.95433232989272,
+                    "lng": 31.13749077010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "a40c833c666fa0219b2a9516688a0e1e7dba8556",
+        "name": "Meridian College Phalaborwa C C",
+        "place_id": "ChIJlZ__I-1uwx4R71kh5Ai1Oo8",
+        "plus_code": {
+            "compound_code": "24WQ+RG Phalaborwa, South Africa",
+            "global_code": "5G8H24WQ+RG"
+        },
+        "rating": 4.2,
+        "reference": "ChIJlZ__I-1uwx4R71kh5Ai1Oo8",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Strausburg College": {
+        "formatted_address": "R40, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9450481,
+                "lng": 31.0821167
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94370002010728,
+                    "lng": 31.08351252989273
+                },
+                "southwest": {
+                    "lat": -23.94639967989272,
+                    "lng": 31.08081287010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "cae020227287209c0baddd7511f64bac41fba118",
+        "name": "Strausburg College",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110246853185009888577/photos\">Gloria Masete</a>"
+                ],
+                "photo_reference": "CmRaAAAAxkqhmFPYS6ZNJ-7y4sdVLLnBNjxNV8zDy-DMIq9c3krAavsdmBRoDrLVziI4YjK4y87Hhz7aTwJJi6q7nsqweBmDLu6y_t7kOIgmcKNeYe7Dfxnj-vU7MCaJEZuAs8wiEhCnk5ZSiYivzZdTL2aDsaTYGhTc5moY9z2hN3B95bjx-ttwE0TRKw",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJh2XZJ9Vvwx4RSGZP_VcJ6VM",
+        "plus_code": {
+            "compound_code": "333J+XR Phalaborwa, South Africa",
+            "global_code": "5G8H333J+XR"
+        },
+        "rating": 5,
+        "reference": "ChIJh2XZJ9Vvwx4RSGZP_VcJ6VM",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Selati Hospitality Training Academy": {
+        "formatted_address": "Potgieter St, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9447625,
+                "lng": 31.1295676
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94328832010728,
+                    "lng": 31.13084752989272
+                },
+                "southwest": {
+                    "lat": -23.94598797989272,
+                    "lng": 31.12814787010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "ddb5ed414e2a90c7d5e851897f945ff6d63ffd4c",
+        "name": "Selati Hospitality Training Academy",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJ8Vkc6vluwx4RCH12oYLy4Rw",
+        "plus_code": {
+            "compound_code": "344H+3R Phalaborwa, South Africa",
+            "global_code": "5G8H344H+3R"
+        },
+        "rating": 0,
+        "reference": "ChIJ8Vkc6vluwx4RCH12oYLy4Rw",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Mopani SE TVET College - Corporate Office": {
+        "formatted_address": "5 Combretum St, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9419008,
+                "lng": 31.1404314
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94075802010728,
+                    "lng": 31.14171277989272
+                },
+                "southwest": {
+                    "lat": -23.94345767989272,
+                    "lng": 31.13901312010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "0c289898bd2c5c4b9384428c469335c8cd0be856",
+        "name": "Mopani SE TVET College - Corporate Office",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJw1inveVuwx4R8Extcoijops",
+        "plus_code": {
+            "compound_code": "345R+65 Phalaborwa, South Africa",
+            "global_code": "5G8H345R+65"
+        },
+        "rating": 0,
+        "reference": "ChIJw1inveVuwx4R8Extcoijops",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Ntshuxeko High School": {
+        "formatted_address": "Ben Farm, Phalaborwa, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9049406,
+                "lng": 31.0460953
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90359077010728,
+                    "lng": 31.04744512989271
+                },
+                "southwest": {
+                    "lat": -23.90629042989272,
+                    "lng": 31.04474547010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "20156b6200a640f1a5514034a2c7133b85ec30a1",
+        "name": "Ntshuxeko High School",
+        "place_id": "ChIJK3J3-Jp6wx4RKWO8xQ7TVLc",
+        "plus_code": {
+            "compound_code": "32WW+2C Phalaborwa, South Africa",
+            "global_code": "5G8H32WW+2C"
+        },
+        "rating": 4.3,
+        "reference": "ChIJK3J3-Jp6wx4RKWO8xQ7TVLc",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "BUSHVELD BETHEL CHRISTIAN ACADEMY": {
+        "formatted_address": "64 Grosvenor St, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.937145,
+                "lng": 31.139678
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93589757010728,
+                    "lng": 31.14096942989272
+                },
+                "southwest": {
+                    "lat": -23.93859722989272,
+                    "lng": 31.13826977010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "768c7546cb17576fb2026ef3534d762b52c7c0f2",
+        "name": "BUSHVELD BETHEL CHRISTIAN ACADEMY",
+        "place_id": "ChIJw-h6nuNuwx4R44v_DFCsm_8",
+        "plus_code": {
+            "compound_code": "347Q+4V Phalaborwa, South Africa",
+            "global_code": "5G8H347Q+4V"
+        },
+        "rating": 5,
+        "reference": "ChIJw-h6nuNuwx4R44v_DFCsm_8",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Schiettocht Combined School": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9149299,
+                "lng": 31.1071
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.91358007010728,
+                    "lng": 31.10844982989272
+                },
+                "southwest": {
+                    "lat": -23.91627972989272,
+                    "lng": 31.10575017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "2b97a2d0f3735083049c87f7cc24d3a9835af6ca",
+        "name": "Schiettocht Combined School",
+        "place_id": "ChIJ60GkPZRvwx4RDjzMIA1zFKs",
+        "plus_code": {
+            "compound_code": "34P4+2R Phalaborwa, South Africa",
+            "global_code": "5G8H34P4+2R"
+        },
+        "rating": 4.7,
+        "reference": "ChIJ60GkPZRvwx4RDjzMIA1zFKs",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Leboneng Education Centre": {
+        "formatted_address": "3512 President St, Namakgale-B, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9324726,
+                "lng": 31.0336367
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93112277010728,
+                    "lng": 31.03498652989272
+                },
+                "southwest": {
+                    "lat": -23.93382242989272,
+                    "lng": 31.03228687010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "738af83602654d048a214c8dc291d7f6641a1ca6",
+        "name": "Leboneng Education Centre",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJfbgX1WFwwx4R-D7niAkCBPI",
+        "plus_code": {
+            "compound_code": "329M+2F Phalaborwa, South Africa",
+            "global_code": "5G8H329M+2F"
+        },
+        "rating": 0,
+        "reference": "ChIJfbgX1WFwwx4R-D7niAkCBPI",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Phulanibjihola Primary School": {
+        "formatted_address": "Ben-A, Phalaborwa, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9160282,
+                "lng": 31.0347122
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.91467837010728,
+                    "lng": 31.03606202989272
+                },
+                "southwest": {
+                    "lat": -23.91737802989272,
+                    "lng": 31.03336237010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "6b3b8bdde4180a0dbaf9a802c5f7cebf181277e0",
+        "name": "Phulanibjihola Primary School",
+        "place_id": "ChIJ6TPFy39wwx4RW0rZM2cBX6w",
+        "plus_code": {
+            "compound_code": "32MM+HV Phalaborwa, South Africa",
+            "global_code": "5G8H32MM+HV"
+        },
+        "rating": 0,
+        "reference": "ChIJ6TPFy39wwx4RW0rZM2cBX6w",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Namakgale Primary School": {
+        "formatted_address": "1410 Jealous St, Namakgale-A, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9384285,
+                "lng": 31.0439102
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93707867010728,
+                    "lng": 31.04526002989272
+                },
+                "southwest": {
+                    "lat": -23.93977832989272,
+                    "lng": 31.04256037010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "dbdfc35cc9eee831267d133b8d1453b7a7490ffd",
+        "name": "Namakgale Primary School",
+        "place_id": "ChIJvcTTt1xwwx4R8sZN98tRCx0",
+        "plus_code": {
+            "compound_code": "326V+JH Phalaborwa, South Africa",
+            "global_code": "5G8H326V+JH"
+        },
+        "rating": 4.1,
+        "reference": "ChIJvcTTt1xwwx4R8sZN98tRCx0",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Sebalamakgolo High School": {
+        "formatted_address": "1336 Walter Sisulu St, Namakgale-A, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9383681,
+                "lng": 31.0405787
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93701827010727,
+                    "lng": 31.04192852989272
+                },
+                "southwest": {
+                    "lat": -23.93971792989272,
+                    "lng": 31.03922887010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "5b1ff835c2c5ca08a7881c5bf60a3ad522e50c41",
+        "name": "Sebalamakgolo High School",
+        "place_id": "ChIJpXAXOVxwwx4RQMh6zB2lrnE",
+        "plus_code": {
+            "compound_code": "326R+M6 Phalaborwa, South Africa",
+            "global_code": "5G8H326R+M6"
+        },
+        "rating": 3.3,
+        "reference": "ChIJpXAXOVxwwx4RQMh6zB2lrnE",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Frans Du Toit High School.": {
+        "formatted_address": "Janssens St, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9310065,
+                "lng": 31.1402261
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.92926717010727,
+                    "lng": 31.14156162989273
+                },
+                "southwest": {
+                    "lat": -23.93196682989272,
+                    "lng": 31.13886197010729
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "a7450513727e195c1f3b1813580804dac1660218",
+        "name": "Frans Du Toit High School.",
+        "photos": [
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107403269135855317413/photos\">Lufuno Jeffrey Masindi</a>"
+                ],
+                "photo_reference": "CmRaAAAASnAVZVtEtX9_88elIaXBQ6eKH76vzKN9otXER9PJnTWXk6VtSUAnWo73y2xulUe5uS3m4-WDj0mhSefmBhwnHncxnBnTINhyPlKarFNu3Tns4nd8SM_E0O76xCTNh5FwEhA1SEihmVN5ezj45ucynBD5GhSEfQNF2dwC4Z2MiXbYEKZor2Brdg",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJc1cBvB1vwx4REusez-RzTLw",
+        "plus_code": {
+            "compound_code": "349R+H3 Phalaborwa, South Africa",
+            "global_code": "5G8H349R+H3"
+        },
+        "rating": 4.7,
+        "reference": "ChIJc1cBvB1vwx4REusez-RzTLw",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Vuxeni Senior Secondary School": {
+        "formatted_address": "1813 Love St, Namakgale-A, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9394604,
+                "lng": 31.03618549999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93811057010728,
+                    "lng": 31.03753532989272
+                },
+                "southwest": {
+                    "lat": -23.94081022989272,
+                    "lng": 31.03483567010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "f435c91ec8d3f4b0dbc0c3f75f1ba25687a6745d",
+        "name": "Vuxeni Senior Secondary School",
+        "place_id": "ChIJPfQh4V5wwx4RBTsJHy6yuDA",
+        "plus_code": {
+            "compound_code": "326P+6F Phalaborwa, South Africa",
+            "global_code": "5G8H326P+6F"
+        },
+        "rating": 4.3,
+        "reference": "ChIJPfQh4V5wwx4RBTsJHy6yuDA",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Phalaborwa Noord State Aided Primary School": {
+        "formatted_address": "25 Kierieklapper St, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9372649,
+                "lng": 31.1349855
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93591547010728,
+                    "lng": 31.13631927989272
+                },
+                "southwest": {
+                    "lat": -23.93861512989272,
+                    "lng": 31.13361962010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "4fa9057780d617d0ea457a260a7536db7080873c",
+        "name": "Phalaborwa Noord State Aided Primary School",
+        "place_id": "ChIJK6SZ6Pxuwx4RT50K2F4MsLc",
+        "plus_code": {
+            "compound_code": "347M+3X Phalaborwa, South Africa",
+            "global_code": "5G8H347M+3X"
+        },
+        "rating": 0,
+        "reference": "ChIJK6SZ6Pxuwx4RT50K2F4MsLc",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "Saps Lulekani.": {
+        "formatted_address": "655 Chris Hani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.867114,
+                "lng": 31.0803722
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86576417010728,
+                    "lng": 31.08172202989272
+                },
+                "southwest": {
+                    "lat": -23.86846382989272,
+                    "lng": 31.07902237010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "71333654c25d53241bb934b6dc54c84863ac4657",
+        "name": "Saps Lulekani.",
+        "place_id": "ChIJ__ePXCtlwx4REYDCfnU1b-U",
+        "plus_code": {
+            "compound_code": "43MJ+54 Phalaborwa, South Africa",
+            "global_code": "5G8H43MJ+54"
+        },
+        "rating": 2.3,
+        "reference": "ChIJ__ePXCtlwx4REYDCfnU1b-U",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Lebeko High School": {
+        "formatted_address": "Ga-Mashishimale, Phalaborwa, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9458749,
+                "lng": 30.9973479
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94452507010728,
+                    "lng": 30.99869772989272
+                },
+                "southwest": {
+                    "lat": -23.94722472989272,
+                    "lng": 30.99599807010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "ce819da041045bd37b286f884ca5d5e2b45f5583",
+        "name": "Lebeko High School",
+        "place_id": "ChIJWSDTOLRwwx4Rs9ubP-oLi7M",
+        "plus_code": {
+            "compound_code": "3X3W+MW Phalaborwa, South Africa",
+            "global_code": "5G8G3X3W+MW"
+        },
+        "rating": 5,
+        "reference": "ChIJWSDTOLRwwx4Rs9ubP-oLi7M",
+        "types": [
+            "point_of_interest",
+            "school",
+            "establishment"
+        ]
+    },
+    "lulekani clinic": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86308227010728,
+                    "lng": 31.07894662989272
+                },
+                "southwest": {
+                    "lat": -23.86578192989272,
+                    "lng": 31.07624697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "plus_code": {
+            "compound_code": "43PH+62 Phalaborwa, South Africa",
+            "global_code": "5G8H43PH+62"
+        },
+        "rating": 0,
+        "reference": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Lulekani Community Health Centre": {
+        "formatted_address": "1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.863053,
+                "lng": 31.082236
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86170317010727,
+                    "lng": 31.08358582989272
+                },
+                "southwest": {
+                    "lat": -23.86440282989272,
+                    "lng": 31.08088617010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "0654af0ea511a6b6ec21fae538621f7a09fb43c3",
+        "name": "Lulekani Community Health Centre",
+        "place_id": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "plus_code": {
+            "compound_code": "43PJ+QV Phalaborwa, South Africa",
+            "global_code": "5G8H43PJ+QV"
+        },
+        "rating": 1,
+        "reference": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Lulekani Magistrate's Court": {
+        "formatted_address": "Chris Hani Street, Lulekani, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8664306,
+                "lng": 31.0810445
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86508077010728,
+                    "lng": 31.08239432989272
+                },
+                "southwest": {
+                    "lat": -23.86778042989272,
+                    "lng": 31.07969467010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "14fe107f855ad95ce0adb5b2f6bffa621dc20433",
+        "name": "Lulekani Magistrate's Court",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJ4____yplwx4R06qpeFCV5k4",
+        "plus_code": {
+            "compound_code": "43MJ+CC Phalaborwa, South Africa",
+            "global_code": "5G8H43MJ+CC"
+        },
+        "rating": 3.3,
+        "reference": "ChIJ4____yplwx4R06qpeFCV5k4",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Church of the Nazarene": {
+        "formatted_address": "1164 Gracia St, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8610941,
+                "lng": 31.0919522
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.85986687010727,
+                    "lng": 31.09333622989272
+                },
+                "southwest": {
+                    "lat": -23.86256652989272,
+                    "lng": 31.09063657010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+        "id": "ce740bb0c4982218d9e6a2c82154081cebe15190",
+        "name": "Church of the Nazarene",
+        "photos": [
+            {
+                "height": 3096,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104476249129399615448/photos\">lebogile nxumalo</a>"
+                ],
+                "photo_reference": "CmRaAAAAfKpeZeVAUPx-R2r0p0BMn5i5DRYGw1t38NmeTizb8cmL0UcM1ocZkD6aEYC1k8EBUq2RzqbduPf3Pdz9Avlnd9dBByD_QNYqpqNm962bfmhRqyRe9jnNMBgZSsPuxwPwEhDsjaXK58k_aIGgESpCsuMMGhRSPUybq7LC2mVX5RkByrHp_VpL-Q",
+                "width": 4128
+            }
+        ],
+        "place_id": "ChIJfzuAMyZlwx4RQ2O8luTeGQU",
+        "plus_code": {
+            "compound_code": "43QR+HQ Phalaborwa, South Africa",
+            "global_code": "5G8H43QR+HQ"
+        },
+        "rating": 5,
+        "reference": "ChIJfzuAMyZlwx4RQ2O8luTeGQU",
+        "types": [
+            "church",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+}

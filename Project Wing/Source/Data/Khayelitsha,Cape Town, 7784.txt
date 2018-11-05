@@ -1,0 +1,983 @@
+  1 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+  2 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+  3 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+  4 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+  5 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+  6 Nolungile Community Health Centre Pharmacy                               -34.013539    18.650236 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+  7 ClinicMed                                                                -34.047859    18.672864 	Shop 13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+  8 Site B Khayelitsha Community Health Centre - A R V Clinic                -34.027647    18.665745 	98 Sulani Dr, Village 2 North, Cape Town, 7784, South Africa
+  9 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+ 10 CliniMed Medical & Aesthetics Solutions                                  -34.010882    18.632080 	Washington Square, Cape Town, 7784, South Africa
+ 11 Simelela Centre                                                          -34.024411    18.665628 	89 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+ 12 Khayelitsha Medical Centre                                               -34.047804    18.672934 	Shop No.13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 13 Eerste River Clinic                                                      -34.009162    18.724443 	2 Oxalis Cres, Devon Park Village, Cape Town, 7100, South Africa
+ 14 St Luke's Combined Hospices-Lizo Nobanda(Multi Drug Resistant TB patients)   -34.054654    18.667071 	37747 Mbotyi St, Harare, Cape Town, 7784, South Africa
+ 15 Site B Clinic                                                            -34.027603    18.665748 	Lwandle, Village 2 North, Cape Town, 7784, South Africa
+ 16 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+ 17 Browns Farm Community Health Clinic                                      -34.011142    18.578134 	Erf 2495 Msingezane Street, Browns Farms, Cape Town, 7750, South Africa
+ 18 Mandalay Public Clinic                                                   -34.015423    18.621955 	Ryan Way, Mandalay, Cape Town, 7785, South Africa
+ 19 Khayelitsha Hospital                                                     -34.050556    18.674718 	Walter Sisulu Drive & Steve Biko Drive, Mandela Park, Khayelitsha, 7784, South Africa
+ 20 Town Two Clinic                                                          -34.040065    18.683147 	Zibonele & Manyano St Town 2, Khayelitsha, Cape Town, 7784, South Africa
+ 21 Mdzananda Animal Clinic Khayelitsha                                      -34.047382    18.682374 	21297 Govan Mbeki Road, Khayelitsha, Mandela Park, 7740, South Africa
+ 22 Ikamva Labantu Nursing Surgery & Medspaza                                -34.032472    18.673193 	1 Lubelwana St, Village 2 North, Cape Town, 7784, South Africa
+ 23 Spec-Savers Khayelitsha                                                  -34.036946    18.676473 	-34.036946, 18.676473, 16 Shwabane Cres, Village 2 North, Cape Town, 7784, South Africa
+ 24 Site C Youth Centre - A R V Clinic                                       -34.013609    18.646829 	Solomon Tshuku Avenue, Khayelitsha Site C, Cape Town, 7784, South Africa
+ 25 Town I I Clinic - A R V                                                  -34.040104    18.683213 	Cnr Lansdowne & Basil Zondi Road, Khayelitsha, Cape Town, 7784, South Africa
+ 26 CLINIC                                                                   -34.025565    18.665442 	Village 3 North, Cape Town, 7783, South Africa
+ 27 Mzamomhle Tb/hiv Clinic                                                  -34.010671    18.589253 	1678 Khamango St, Browns Farms, Cape Town, 7750, South Africa
+ 28 SA.MAST Animal Clinic Khayelitsha                                        -34.033073    18.665978 	Cnr Sizane & Sitofile Streets, G Section, Khayelitsha, Cape Town, 7784, South Africa
+ 29 Russels Rest Clinic                                                      -34.003692    18.727037 	Andrew Street, Russels Rest, Cape Town, 7100, South Africa
+ 30 iven tomsen clinic                                                       -34.005402    18.680831 	16 Church St, Mfuleni, Cape Town, 7100, South Africa
+ 31 Site B Youth Clinic - Khayelitsha                                        -34.023849    18.665797 	Site B, Sulani Drive, Khayelitsha, Cape Town, 7784, South Africa
+ 32 Ivan Toms Clinic                                                         -33.991422    18.671897 	178, 134 O Nqubelani St, Unclear, Cape Town, 7100, South Africa
+ 33 Matthew Goniwe Clinic                                                    -34.044014    18.705726 	9 Khwahlaza St, T3-V5, Cape Town, 7784, South Africa
+ 34 Crossroad Community Health Centre                                        -33.997923    18.597709 	Gwayi St, Crossroad, Cape Town, 7750, South Africa
+ 35 Zakhele Clinic - A R V                                                   -34.041389    18.659403 	A544 Zakhele Street, Khayelitsha, Cape Town, 7784, South Africa
+ 36 Heldercare clinic                                                        -34.004258    18.726411 	Clairwood, Cape Town, 7100, South Africa
+ 37 Mzamomhle Clinic                                                         -34.015534    18.612025 	saawitqi, Philippi, Cape Town, 7785, South Africa
+ 38 Lathi Tha Eye Care                                                       -33.995133    18.577009 	Golden Acres, 32 Adderley St, Nyanga, Cape Town, 8001, South Africa
+ 39 Nyanga Community Health Clinic                                           -33.991822    18.585092 	Sithanduthu Street, Nyanga, Cape Town, 7750, South Africa
+ 40 U W C Dental Faculty                                                     -34.008243    18.596414 	Town Centre Medical Centre, Symphony Way, Mitchells Plain, Cape Town, 7785, South Africa
+ 41 Khayelitsha District Hospital - Trauma Unit                              -34.050668    18.674260 	Cnr Walter Sisulu & Steve Biko Road, Khayelitsha, Cape Town, 7784, South Africa
+ 42 Phumlani Clinic                                                          -34.010989    18.610178 	Ngqabe Rd, Lower Crossroad, Cape Town, 7750, South Africa
+ 43 Nolungile Community Health Centre                                        -34.043670    18.652120 	Lawrence Road, Khayelitsha, Cape Town, 7784, South Africa
+ 44 Roncil Private Physiotherapy Clinic                                      -34.046617    18.663231 	30 Msobomvu Dr, Village 1 South, Cape Town, 7784, South Africa
+ 45 Mayenzeke Health Clinic                                                  -34.052221    18.702192 	42 Fundana St, T3-V3, Cape Town, 7784, South Africa
+ 46 Rondevlei Medical Dental Physiotherapy Care                              -34.035174    18.584690 	29 Fulham Rd, Mitchells Plain, Cape Town, 7500, South Africa
+ 47 Layers Skin Clinic                                                       -34.008202    18.741906 	56 Dawn Crescent, Baden Powell Drive,, De Wijnlanden Estate, Stellenbosch, Cape Town, 7600, South Africa
+ 48 Mfuleni Day hospital                                                     -34.005388    18.681390 	10 Church St, Mfuleni, Cape Town, 7100, South Africa
+ 49 Dr Ivan Toms Clinic                                                      -33.991132    18.671271 	O Nqubelani St, Mfuleni, Cape Town, 7100, South Africa
+ 50 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+ 51 Lentegeur Psychiatric Hospital                                           -34.024625    18.615689 	Highlands Dr, Lentegeur, Cape Town, 7786, South Africa
+ 52 Nolungile Youth Centre                                                   -34.047913    18.670508 	Solomon Tsuku Rd Site C, Khayelitsha, Cape Town, 7784, South Africa
+ 53 Luvuyo Health Clinic - A R V                                             -34.050433    18.709303 	Hlela Road, Macassar, Cape Town, 7130, South Africa
+ 54 Marie Stopes Phillipi                                                    -34.002337    18.605421 	1 Stock Rd, Phillipi, Cape Town, 7750, South Africa
+ 55 Site B Youth Centre                                                      -34.034536    18.667050 	Lwandle Rd, Village 2 North, Cape Town, 7784, South Africa
+ 56 Crossroads 2 Clinic                                                      -34.003098    18.561412 	7785 Lansdowne Rd, Browns Farms, Cape Town, 7785, South Africa
+ 57 Crossroads 1 Clinic                                                      -33.992062    18.603639 	Klipfontein Rd, Cross Road, Cape Town, 7750, South Africa
+ 58 Merrydale Day Clinic                                                     -34.034300    18.609913 	Merrydale Ave, Mitchells Plain, Cape Town, 7785, South Africa
+ 59 Philani Nutrition Centres - Mobile Clinic                                -34.015120    18.652460 	Phaphani Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+ 60 Dr N Basson Dentist                                                      -34.043714    18.665378 	32 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+ 61 Khayelitsha Medical Centre                                               -34.047804    18.672934 	Shop No.13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 62 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+ 63 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 64 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+ 65 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 66 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+ 67 Harare Medical Centre                                                    -34.058219    18.672418 	6 Cephe Cres, Harare, Cape Town, 7784, South Africa
+ 68 Site C Plaza medical centre                                              -34.014609    18.650106 	Ikwezi Park, Cape Town, 7784, South Africa
+ 69 Dr FC Lotter & Partners                                                  -34.012763    18.645255 	Site C Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+ 70 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+ 71 ClinicMed                                                                -34.047859    18.672864 	Shop 13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 72 Browns Farm Community Health Clinic                                      -34.011142    18.578134 	Erf 2495 Msingezane Street, Browns Farms, Cape Town, 7750, South Africa
+ 73 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+ 74 Maloke Medical centre                                                    -34.005301    18.682950 	4 Luyolo St, Mfuleni, Cape Town, 7100, South Africa
+ 75 Eerste River Clinic                                                      -34.009162    18.724443 	2 Oxalis Cres, Devon Park Village, Cape Town, 7100, South Africa
+ 76 Site B Clinic                                                            -34.027603    18.665748 	Lwandle, Village 2 North, Cape Town, 7784, South Africa
+ 77 Simelela Centre                                                          -34.024411    18.665628 	89 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+ 78 CliniMed Medical & Aesthetics Solutions                                  -34.010882    18.632080 	Washington Square, Cape Town, 7784, South Africa
+ 79 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+ 80 Nolungile Community Health Centre                                        -34.043670    18.652120 	Lawrence Road, Khayelitsha, Cape Town, 7784, South Africa
+ 81 Crossroad Community Health Centre                                        -33.997923    18.597709 	Gwayi St, Crossroad, Cape Town, 7750, South Africa
+ 82 Dr J Marais                                                              -34.057727    18.755006 	82 Link Ave, Macassar, Somerset West, 7130, South Africa
+ 83 Nyanga Community Health Clinic                                           -33.991822    18.585092 	Sithanduthu Street, Nyanga, Cape Town, 7750, South Africa
+ 84 Mayenzeke Health Clinic                                                  -34.052221    18.702192 	42 Fundana St, T3-V3, Cape Town, 7784, South Africa
+ 85 Mitchell's Plain CHC Also Mitchell's Plain Day Hospital                  -34.046628    18.621773 	First Ave, Beacon Valley, Cape Town, 7785, South Africa
+ 86 KTC Gugulethu Community Health Centre                                    -33.989418    18.572475 	Cnr NY3 & NY77, Guguletu, Cape Town, 7750, South Africa
+ 87 Crossroads 2 Community Health Centre                                     -33.996762    18.599671 	Gwayi Street, Lower Crossroads, Cape Town, 7750, South Africa
+ 88 Delft Community Health Centre                                            -33.973972    18.641501 	Delft Main Rd, The Hague, Cape Town, 7100, South Africa
+ 89 Siyazama Health and Fitness (Pty) Ltd                                    -34.053568    18.660041 	21 Gqaza Cl, Village 1 South, Cape Town, 7784, South Africa
+ 90 Nolungile Community Health Centre - Radiography Dept                     -34.013350    18.646730 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+ 91 Rondevlei Medical Dental Physiotherapy Care                              -34.035174    18.584690 	29 Fulham Rd, Mitchells Plain, Cape Town, 7500, South Africa
+ 92 Ivan Toms Clinic                                                         -33.991422    18.671897 	178, 134 O Nqubelani St, Unclear, Cape Town, 7100, South Africa
+ 93 Matthew Goniwe Community Health Centre - T.B Unit                        -34.044097    18.703463 	29 Khwahlaza Street, Makhaza, Cape Town, 7784, South Africa
+ 94 Simunye Primary Health Care Mitchells Plain                              -34.050848    18.623759 	Eastridge Medical Centre, Eastridge, Cape Town, 7785, South Africa
+ 95 Clothing Industry Health Care Fund                                       -34.046123    18.616679 	11th Ave, Mitchells Plain, Cape Town, 7785, South Africa
+ 96 Nolungile Community Health Centre - T.B Unit                             -34.040278    18.677778 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+ 97 Khayelitsha District Hospital - Trauma Unit                              -34.050668    18.674260 	Cnr Walter Sisulu & Steve Biko Road, Khayelitsha, Cape Town, 7784, South Africa
+ 98 Site B Khayelitsha Community Health Centre - A R V Clinic                -34.027647    18.665745 	98 Sulani Dr, Village 2 North, Cape Town, 7784, South Africa
+ 99 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+100 Dr N Basson Dentist                                                      -34.043714    18.665378 	32 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+101 Missionaries of Charity (Mother Theresa's)                               -34.037589    18.663844 	33-35 Silumko St, Village 1 North, Cape Town, 7784, South Africa
+102 Dr FC Lotter & Partners                                                  -34.012763    18.645255 	Site C Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+103 Tygerberg Information Office - Khayelitsha                               -34.045220    18.671860 	Ekuphumleni, Cape Town, 7784, South Africa
+104 Harare Medical Centre                                                    -34.058219    18.672418 	6 Cephe Cres, Harare, Cape Town, 7784, South Africa
+105 Ekhayavac CIDRI                                                          -34.027636    18.665071 	98 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+106 NeproCare Fresenuis Medica Care                                          -34.011071    18.632099 	Washington Square, Cape Town, 7784, South Africa
+107 Letago's Birthday                                                        -34.049481    18.685853 	Mandela Park, Cape Town, 7784, South Africa
+108 Metro EMS Eastern Division                                               -34.051064    18.672695 	Mandela Park, Cape Town, 7784, South Africa
+109 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+110 S.A.M.S - Eerste River Sick Bay Pharmacy                                 -34.030541    18.691495 	9 Sai Sick Bay, Spine Road, Eerste River, Cape Town, 7100, South Africa
+111 Site C Plaza medical centre                                              -34.014609    18.650106 	Ikwezi Park, Cape Town, 7784, South Africa
+112 Mfuleni Day hospital                                                     -34.005388    18.681390 	10 Church St, Mfuleni, Cape Town, 7100, South Africa
+113 CLINIC                                                                   -34.025565    18.665442 	Village 3 North, Cape Town, 7783, South Africa
+114 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+115 Mzamomhle Tb/hiv Clinic                                                  -34.010671    18.589253 	1678 Khamango St, Browns Farms, Cape Town, 7750, South Africa
+116 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+117 iven tomsen clinic                                                       -34.005402    18.680831 	16 Church St, Mfuleni, Cape Town, 7100, South Africa
+118 Elonwabeni CFC Clinic                                                    -34.028108    18.592715 	4 Montana Rd, Colorado, Cape Town, 7785, South Africa
+119 Ema dthf                                                                 -33.997149    18.592795 	26-27 Sonwabile Dr, Crossroads, Cape Town, 7750, South Africa
+120 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+121 Aquarius Health Care                                                     -34.022947    18.628005 	Ward 94, Lentegeur Psychiatric Hospital, Lentegeur, Cape Town, 7786, South Africa
+122 Doctor Jamiel                                                            -34.018070    18.622390 	33 Ryan Way, Mandalay, Cape Town, 7785, South Africa
+123 Dr Ivan Toms Clinic                                                      -33.991132    18.671271 	O Nqubelani St, Mfuleni, Cape Town, 7100, South Africa
+124 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+125 Dr J Marais                                                              -34.057727    18.755006 	82 Link Ave, Macassar, Somerset West, 7130, South Africa
+126 Anneline                                                                 -34.011337    18.723743 	Devon Park Village, Cape Town, 7100, South Africa
+127 Lentegeur Psychiatric Hospital                                           -34.024625    18.615689 	Highlands Dr, Lentegeur, Cape Town, 7786, South Africa
+128 Life Esidemeni - Intermediate Care Facility                              -34.025557    18.616204 	103 Highlands Dr, Lentegeur, Cape Town, 7786, South Africa
+129 Mitchell's Plain District Hospital                                       -34.021901    18.613109 	8 A Z Berman Dr, Lentegeur, Cape Town, 7786, South Africa
+130 Macassar Day Hospital                                                    -34.061068    18.763892 	Hospitaal, Macassar, Cape Town, 7134, South Africa
+131 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+132 Melomed Mitchells Plain                                                  -34.049594    18.623262 	Town Centre, Symphony Walk, Mitchells Plain, Cape Town, 7785, South Africa
+133 Mitchells Plain Day Hospital                                             -34.046775    18.622130 	First Ave, Mitchells Plain Town Centre, Cape Town, 7789, South Africa
+134 Faure Hospital                                                           -34.034210    18.745400 	Old Faure Rd, Macassar, Cape Town, 7134, South Africa
+135 Melomed Hospital                                                         -34.053770    18.622700 	41 Teak Pl, Eastridge, Cape Town, 7785, South Africa
+136 Eastridge Clinic                                                         -34.046608    18.621596 	Eastridge Clinic, 1st Avenue, Eastridge, Cape Town, 7785, South Africa
+137 Guguletu Day Hospital - Radiography Dept                                 -33.996350    18.565289 	Community Centre, Bishops Court Street, Guguletu, Cape Town, 7750, South Africa
+138 Mitchells Plain M. O. U                                                  -34.046631    18.621714 	First Ave, Beacon Valley, Cape Town, 7785, South Africa
+139 Eerste River Hospital                                                    -33.997380    18.718950 	117 Humbolt Ave, Kleinvlei, Cape Town, 7100, South Africa
+140 Crossroads 2 Community Health Centre                                     -33.996762    18.599671 	Gwayi Street, Lower Crossroads, Cape Town, 7750, South Africa
+141 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+142 Eerste River Clinic                                                      -34.009162    18.724443 	2 Oxalis Cres, Devon Park Village, Cape Town, 7100, South Africa
+143 Nolungile Community Health Centre Pharmacy                               -34.013539    18.650236 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+144 KTC Gugulethu Community Health Centre                                    -33.989418    18.572475 	Cnr NY3 & NY77, Guguletu, Cape Town, 7750, South Africa
+145 Ddamulira W                                                              -34.040436    18.623500 	Suite 102 Mitchells Plain Medical Centre Symphony Walk, Mitchells Plain, Cape Town, 7785, South Africa
+146 Sacla Nyanga                                                             -33.992277    18.575897 	Gill Cres, Nyanga, Cape Town, 7750, South Africa
+147 UWC Dental faculty                                                       -34.047111    18.623598 	Beacon Valley, Cape Town, 7785, South Africa
+148 Simelela Centre                                                          -34.024411    18.665628 	89 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+149 Delft Day Hospital                                                       -33.971277    18.642565 	299 Delft Main Rd, Voorbrug, Cape Town, 7100, South Africa
+150 Clothing Industry Health Care Fund                                       -34.046123    18.616679 	11th Ave, Mitchells Plain, Cape Town, 7785, South Africa
+151 Lameze Abrahams Scychologists                                            -34.052981    18.628592 	3, 23 Bosbok Cres, Eastridge, Cape Town, 7785, South Africa
+152 Vuyani Clinic                                                            -33.987580    18.563856 	21 Ny 3 N St, Guguletu, Cape Town, 7750, South Africa
+153 Eastridge Medical Centre                                                 -34.050731    18.623834 	Eastridge, Cape Town, 7785, South Africa
+154 Simunye Primary Health Care Mitchells Plain                              -34.050848    18.623759 	Eastridge Medical Centre, Eastridge, Cape Town, 7785, South Africa
+155 Hospital                                                                 -33.978148    18.589004 	Cape Town International Airport,, Montreal Dr, Cape Town International Airport, Cape Town, 7490, South Africa
+156 LENTEGATE MEDICAL CENTRE                                                 -34.018813    18.608743 	Cnr of AZ Berman & R300 Watergate Mall Office Block K1 & K2, Mitchells Plain, 7785, South Africa
+157 Khayelitsha Medical Centre                                               -34.047804    18.672934 	Shop No.13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+158 Site B Khayelitsha Community Health Centre - A R V Clinic                -34.027647    18.665745 	98 Sulani Dr, Village 2 North, Cape Town, 7784, South Africa
+159 Harare Medical Centre                                                    -34.058219    18.672418 	6 Cephe Cres, Harare, Cape Town, 7784, South Africa
+160 Site C Plaza medical centre                                              -34.014609    18.650106 	Ikwezi Park, Cape Town, 7784, South Africa
+161 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+162 Dr FC Lotter & Partners                                                  -34.012763    18.645255 	Site C Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+163 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+164 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+165 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+166 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+167 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+168 Site B Clinic                                                            -34.027603    18.665748 	Lwandle, Village 2 North, Cape Town, 7784, South Africa
+169 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+170 Nolungile Community Health Centre Pharmacy                               -34.013539    18.650236 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+171 Dr J Marais                                                              -34.057727    18.755006 	82 Link Ave, Macassar, Somerset West, 7130, South Africa
+172 Khayelitsha Hospital                                                     -34.050556    18.674718 	Walter Sisulu Drive & Steve Biko Drive, Mandela Park, Khayelitsha, 7784, South Africa
+173 ClinicMed                                                                -34.047859    18.672864 	Shop 13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+174 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+175 Maloke Medical centre                                                    -34.005301    18.682950 	4 Luyolo St, Mfuleni, Cape Town, 7100, South Africa
+176 Browns Farm Community Health Clinic                                      -34.011142    18.578134 	Erf 2495 Msingezane Street, Browns Farms, Cape Town, 7750, South Africa
+177 Eerste River Clinic                                                      -34.009162    18.724443 	2 Oxalis Cres, Devon Park Village, Cape Town, 7100, South Africa
+178 Aquarius Health Care                                                     -34.022947    18.628005 	Ward 94, Lentegeur Psychiatric Hospital, Lentegeur, Cape Town, 7786, South Africa
+179 Mitchell's Plain CHC Also Mitchell's Plain Day Hospital                  -34.046628    18.621773 	First Ave, Beacon Valley, Cape Town, 7785, South Africa
+180 Mfuleni Day hospital                                                     -34.005388    18.681390 	10 Church St, Mfuleni, Cape Town, 7100, South Africa
+181 CliniMed Medical & Aesthetics Solutions                                  -34.010882    18.632080 	Washington Square, Cape Town, 7784, South Africa
+182 S.A.M.S - Eerste River Sick Bay Pharmacy                                 -34.030541    18.691495 	9 Sai Sick Bay, Spine Road, Eerste River, Cape Town, 7100, South Africa
+183 Mzamomhle Clinic                                                         -34.010700    18.588960 	1679 Sagwityi St, Browns Farms, Cape Town, 7750, South Africa
+184 Eastridge Medical Centre                                                 -34.050731    18.623834 	Eastridge, Cape Town, 7785, South Africa
+185 Lentegeur Psychiatric Hospital                                           -34.024625    18.615689 	Highlands Dr, Lentegeur, Cape Town, 7786, South Africa
+186 Simunye Primary Health Care Mitchells Plain                              -34.050848    18.623759 	Eastridge Medical Centre, Eastridge, Cape Town, 7785, South Africa
+187 Clothing Industry Health Care Fund                                       -34.046123    18.616679 	11th Ave, Mitchells Plain, Cape Town, 7785, South Africa
+188 Simelela Centre                                                          -34.024411    18.665628 	89 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+189 LENTEGATE MEDICAL CENTRE                                                 -34.018813    18.608743 	Cnr of AZ Berman & R300 Watergate Mall Office Block K1 & K2, Mitchells Plain, 7785, South Africa
+190 Ikamva Labantu Nursing Surgery & Medspaza                                -34.032472    18.673193 	1 Lubelwana St, Village 2 North, Cape Town, 7784, South Africa
+191 Crossroads 2 Community Health Centre                                     -33.996762    18.599671 	Gwayi Street, Lower Crossroads, Cape Town, 7750, South Africa
+192 Mitchells Plain Day Hospital                                             -34.046775    18.622130 	First Ave, Mitchells Plain Town Centre, Cape Town, 7789, South Africa
+193 Delft Medi Centre                                                        -33.969417    18.643667 	279 Delft Main Rd, Voorbrug, Cape Town, 7100, South Africa
+194 KTC Gugulethu Community Health Centre                                    -33.989418    18.572475 	Cnr NY3 & NY77, Guguletu, Cape Town, 7750, South Africa
+195 Melomed Mitchells Plain                                                  -34.049594    18.623262 	Town Centre, Symphony Walk, Mitchells Plain, Cape Town, 7785, South Africa
+196 Crossroad Community Health Centre                                        -33.997923    18.597709 	Gwayi St, Crossroad, Cape Town, 7750, South Africa
+197 R G Coombs                                                               -34.063561    18.775135 	45 Ray St, Macassar, Somerset West, 7130, South Africa
+198 Dr Ivan Toms Clinic                                                      -33.991132    18.671271 	O Nqubelani St, Mfuleni, Cape Town, 7100, South Africa
+199 Rondevlei Medical Dental Physiotherapy Care                              -34.035174    18.584690 	29 Fulham Rd, Mitchells Plain, Cape Town, 7500, South Africa
+200 Nyanga Community Health Clinic                                           -33.991822    18.585092 	Sithanduthu Street, Nyanga, Cape Town, 7750, South Africa
+201 Rocklands Clinic                                                         -34.064574    18.611141 	Park Ave &, Lancaster, Rocklands, Cape Town, 7798, South Africa
+202 Health Department, Area 4                                                -34.064644    18.611118 	Park Ave & Lancaster, Rocklands, Cape Town, 7798, South Africa
+203 Melomed Hospital                                                         -34.053770    18.622700 	41 Teak Pl, Eastridge, Cape Town, 7785, South Africa
+204 Sarguro M K                                                              -33.984776    18.557598 	Shop 43 Nyanga Junction Centre, Duinefontein Rd, Manenberg, Cape Town, 7764, South Africa
+205 Heldercare clinic                                                        -34.004258    18.726411 	Clairwood, Cape Town, 7100, South Africa
+206 St Luke's Combined Hospices-Lizo Nobanda(Multi Drug Resistant TB patients)   -34.054654    18.667071 	37747 Mbotyi St, Harare, Cape Town, 7784, South Africa
+207 Ddamulira W                                                              -34.040436    18.623500 	Suite 102 Mitchells Plain Medical Centre Symphony Walk, Mitchells Plain, Cape Town, 7785, South Africa
+208 Mitchell's Plain District Hospital                                       -34.021901    18.613109 	8 A Z Berman Dr, Lentegeur, Cape Town, 7786, South Africa
+209 Nolungile Community Health Centre                                        -34.043670    18.652120 	Lawrence Road, Khayelitsha, Cape Town, 7784, South Africa
+210 Spec-Savers Khayelitsha                                                  -34.036946    18.676473 	-34.036946, 18.676473, 16 Shwabane Cres, Village 2 North, Cape Town, 7784, South Africa
+211 Semex                                                                    -33.964860    18.705851 	Unit 1, Pro Dev Park, Saxenburg Park 2, 3 Vonkel, Blackheath, Cape Town, 7580, South Africa
+212 Penlyn Medi-Centre                                                       -33.983928    18.524571 	52 Bellmore Ave, Mountview, Cape Town, 7780, South Africa
+213 Guguletu Day Hospital - Radiography Dept                                 -33.996350    18.565289 	Community Centre, Bishops Court Street, Guguletu, Cape Town, 7750, South Africa
+214 Delft Day Hospital                                                       -33.971277    18.642565 	299 Delft Main Rd, Voorbrug, Cape Town, 7100, South Africa
+215 Delft Community Health Centre                                            -33.973972    18.641501 	Delft Main Rd, The Hague, Cape Town, 7100, South Africa
+216 Dr Gadeeja Omar Surgery                                                  -33.969577    18.532696 	18 Hazel Rd, Rylands, Cape Town, 7766, South Africa
+217 Loving Nurses Royale                                                     -34.040956    18.670279 	19 Mpho Rd, Ekuphumleni, Cape Town, 7784, South Africa
+218 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+219 Siyazama Health and Fitness (Pty) Ltd                                    -34.053568    18.660041 	21 Gqaza Cl, Village 1 South, Cape Town, 7784, South Africa
+220 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+221 Site C Plaza medical centre                                              -34.014609    18.650106 	Ikwezi Park, Cape Town, 7784, South Africa
+222 Dr FC Lotter & Partners                                                  -34.012763    18.645255 	Site C Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+223 Harare Medical Centre                                                    -34.058219    18.672418 	6 Cephe Cres, Harare, Cape Town, 7784, South Africa
+224 Aquarius Health Care                                                     -34.022947    18.628005 	Ward 94, Lentegeur Psychiatric Hospital, Lentegeur, Cape Town, 7786, South Africa
+225 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+226 Site B Khayelitsha Community Health Centre - A R V Clinic                -34.027647    18.665745 	98 Sulani Dr, Village 2 North, Cape Town, 7784, South Africa
+227 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+228 Khayelitsha Medical Centre                                               -34.047804    18.672934 	Shop No.13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+229 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+230 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+231 Empilweni                                                                -34.042450    18.664010 	Cnr. Spine & Ntlazane Rd, Khayelitsha, Cape Town, 7784, South Africa
+232 Team Asijiki Ikhaya Lempilo                                              -34.049254    18.669929 	158 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+233 Nolungile Community Health Centre Pharmacy                               -34.013539    18.650236 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+234 Philani                                                                  -34.015128    18.651336 	Phaphani St, Ikwezi Park, Cape Town, 7784, South Africa
+235 Nolungile Community Health Centre                                        -34.043670    18.652120 	Lawrence Road, Khayelitsha, Cape Town, 7784, South Africa
+236 CliniMed Medical & Aesthetics Solutions                                  -34.010882    18.632080 	Washington Square, Cape Town, 7784, South Africa
+237 Dr J Marais                                                              -34.057727    18.755006 	82 Link Ave, Macassar, Somerset West, 7130, South Africa
+238 Mfesane                                                                  -33.991808    18.603655 	5 Klipfontein Extension Road, Crossroads, Cape Town, 7525, South Africa
+239 Rondevlei Medical Dental Physiotherapy Care                              -34.035174    18.584690 	29 Fulham Rd, Mitchells Plain, Cape Town, 7500, South Africa
+240 ClinicMed                                                                -34.047859    18.672864 	Shop 13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+241 Clothing Industry Health Care Fund                                       -34.046123    18.616679 	11th Ave, Mitchells Plain, Cape Town, 7785, South Africa
+242 Simunye Primary Health Care Mitchells Plain                              -34.050848    18.623759 	Eastridge Medical Centre, Eastridge, Cape Town, 7785, South Africa
+243 Simelela Centre                                                          -34.024411    18.665628 	89 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+244 Matthew Goniwe Clinic                                                    -34.044014    18.705726 	9 Khwahlaza St, T3-V5, Cape Town, 7784, South Africa
+245 Isivivana Centre                                                         -34.048365    18.673092 	8 Mzala Street (Corner of Mzala & Julius Tsholo Streets, Khayelitsha, Cape Town, 7784, South Africa
+246 Spec-Savers Khayelitsha                                                  -34.036946    18.676473 	-34.036946, 18.676473, 16 Shwabane Cres, Village 2 North, Cape Town, 7784, South Africa
+247 Mayenzeke Health Clinic                                                  -34.052221    18.702192 	42 Fundana St, T3-V3, Cape Town, 7784, South Africa
+248 Sherwood Park Special Care Centre                                        -33.996344    18.555561 	50 1st Ave, Sherwood Park, Cape Town, 7764, South Africa
+249 Khayelitsha Day Hospital                                                 -34.035760    18.667370 	Lwandle Rd, Village 2 North, Cape Town, 7784, South Africa
+250 Dr S C Ngamlana                                                          -34.013763    18.637787 	12, Thembani Shopping Centre, 7791 Capital Pl, Khayelitsha, Cape Town, 7784, South Africa
+251 Iyeza Express                                                            -34.057757    18.671506 	4 Phatha Cl, Harare, Cape Town, 7784, South Africa
+252 Ziyahlanjwa Laundry service                                              -34.048988    18.665439 	33 Mkholwane Cres, Village 1 South, Cape Town, 7784, South Africa
+253 Cape Mental Health Soc                                                   -34.047913    18.670508 	1 Kwebula Street, Khayelitsha, Cape Town, 7784, South Africa
+254 Iliso Care Society                                                       -34.013611    18.639098 	7 Sunrise Cl, Ikwezi Park, Cape Town, 7784, South Africa
+255 Prime Care Surgery                                                       -34.047789    18.622060 	A Z Berman Dr, Mitchells Plain, Cape Town, 7785, South Africa
+256 Eerste River Clinic                                                      -34.009162    18.724443 	2 Oxalis Cres, Devon Park Village, Cape Town, 7100, South Africa
+257 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+258 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+259 Site B Clinic                                                            -34.027603    18.665748 	Lwandle, Village 2 North, Cape Town, 7784, South Africa
+260 Department of Health - Khayelitsha                                       -34.046214    18.668300 	Ntlakohlaza St, Village 1 South, Cape Town, 7784, South Africa
+261 Specsavers - Khayelitsha                                                 -34.036060    18.661450 	Village 1 North, Cape Town, 7784, South Africa
+262 Masibambane Hall, Harare Square                                          -34.058751    18.671305 	9 Nkinga Cl, Harare, Cape Town, 7784, South Africa
+263 Town I I Mobile                                                          -34.043670    18.652120 	Bhunga Drve, Khayelitsha, Cape Town, 7784, South Africa
+264 Mitchell's Plain CHC Also Mitchell's Plain Day Hospital                  -34.046628    18.621773 	First Ave, Beacon Valley, Cape Town, 7785, South Africa
+265 Luvuyo Health Clinic                                                     -34.051310    18.695590 	Hlela Road, T3-V4, Cape Town, 7784, South Africa
+266 Prime Cure Clinic                                                        -34.034882    18.752873 	Shop 18, Daveyton Mall Eiselen St, Johannesburg, 1540, South Africa
+267 Khayelitsha District Hospital - Trauma Unit                              -34.050668    18.674260 	Cnr Walter Sisulu & Steve Biko Road, Khayelitsha, Cape Town, 7784, South Africa
+268 Maloke Medical centre                                                    -34.005301    18.682950 	4 Luyolo St, Mfuleni, Cape Town, 7100, South Africa
+269 TB HIV Care Khayelitsha                                                  -34.057843    18.670662 	42 Ncumo Rd, Harare, Cape Town, 7784, South Africa
+270 Ikamva Labantu Nursing Surgery & Medspaza                                -34.032472    18.673193 	1 Lubelwana St, Village 2 North, Cape Town, 7784, South Africa
+271 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+272 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+273 Khayelitsha Medical Centre                                               -34.047804    18.672934 	Shop No.13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+274 Surgery (GP)                                                             -34.011094    18.617151 	Surgery (GP), Nondlwana Rd, Cape Town, 7750, South Africa
+275 Spec-Savers Khayelitsha                                                  -34.036946    18.676473 	-34.036946, 18.676473, 16 Shwabane Cres, Village 2 North, Cape Town, 7784, South Africa
+276 Dr. Haroun Ahmed                                                         -34.049691    18.623435 	Suite 706, 7th Floor, Melomed Mitchells Plain, A Z Berman Dr, Mitchells Plain Town Centre, Cape Town, 7785, South Africa
+277 Khayelitsha District Hospital - Trauma Unit                              -34.050668    18.674260 	Cnr Walter Sisulu & Steve Biko Road, Khayelitsha, Cape Town, 7784, South Africa
+278 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+279 Dr. F. Patel & Dr. A. K. Bhabha                                          -34.049255    18.622570 	25, Symphony Wlk, Mitchells Plain Town Centre, Cape Town, 7785, South Africa
+280 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+281 Sister Annette                                                           -34.049665    18.623345 	Sessional Rooms 38A, Ground Floor, Melomed Mitchells Plain, Town Centre, A Z Berman Dr, Mitchells Plain, Cape Town, 7785, South Africa
+282 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+283 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+284 Prime Care Surgery                                                       -34.047789    18.622060 	A Z Berman Dr, Mitchells Plain, Cape Town, 7785, South Africa
+285 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+286 DR D Naidoo                                                              -34.002793    18.681443 	Shoprite Centre, Kuwait Taxi Rank, Site C, Mfuleni Rd, Khayelitsha, Cape Town, 7100, South Africa
+287 Site C Plaza medical centre                                              -34.014609    18.650106 	Ikwezi Park, Cape Town, 7784, South Africa
+288 Nolungile Community Health Centre Pharmacy                               -34.013539    18.650236 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+289 Dr.S.J Jeftha                                                            -34.047781    18.597147 	86, Park Ave, Mitchells Plain, Cape Town, 7802, South Africa
+290 Dr. M. Junaid Akoojee                                                    -34.027777    18.602301 	021, 01 Johannes Meintjies Rd, Mitchells Plain, Cape Town, 7785, South Africa
+291 Dr M Bikitsha                                                            -34.049685    18.670445 	170 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+292 Dr. Jano SURGERY                                                         -34.043355    18.634369 	1, 15 Botha St, Eastridge, Cape Town, 7785, South Africa
+293 Dr Thomas Niemkiewicz                                                    -33.974213    18.587750 	11B, Michigan St, Airport Industry, Cape Town, 7525, South Africa
+294 Dr Iqbal Rawat GP                                                        -34.036956    18.599008 	6 Mitchell Ave, Woodlands, Cape Town, 7785, South Africa
+295 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+296 Makhaza                                                                  -34.041435    18.712196 	Wathi St, T3-V5, Cape Town, 7784, South Africa
+297 Duma N E                                                                 -34.040278    18.677778 	Khayelitsha Town 2, Aa 114, Khayelitsha, Cape Town, 7784, South Africa
+298 Dr Tayo Sulaiman                                                         -33.970416    18.533072 	Cape Town, 7766, South Africa
+299 Coetze J P                                                               -34.006388    18.713343 	Cnr Forest Drive & Oasis Road, Eerste River, Cape Town, 7100, South Africa
+300 CHAVDA MEDICAL ROOMS                                                     -33.970535    18.547981 	4 Pluto Road Surrey Estate, Athlone, Cape Town, 7764, South Africa
+301 Dr. Muhammed-Ismail Saith                                                -34.001267    18.724297 	Gordon St, Eersterriver, Cape Town, 7100, South Africa
+302 Saps Khayelitsha                                                         -34.024620    18.665515 	4 Bonga Dr, Khayelitsha, Cape Town, 7784, South Africa
+303 police station                                                           -33.998951    18.676832 	15 T Tokwana St, Mfuleni, Cape Town, 7100, South Africa
+304 Metro Police                                                             -34.046604    18.681395 	35 Imam Solomons Cl, Mandela Park, Cape Town, 7784, South Africa
+305 Macassar Police Station                                                  -34.061007    18.762563 	1 Hospital St, Macassar, Cape Town, 7130, South Africa
+306 Philippi East Satellite Police Station - South African Police Service    -34.010501    18.606921 	1 Ngqwangi Dr, Philippi East, Cape Town, 7750, South Africa
+307 Metro Police Philippi Station                                            -34.004236    18.599277 	Philippi, Cape Town, 7750, South Africa
+308 Mitchells Plain Police Station                                           -34.047763    18.623374 	First Ave, Mitchells Plain, Cape Town, 7785, South Africa
+309 Lentegeur SAPS                                                           -34.036465    18.610142 	64 Melkbos Rd, Lentegeur, Cape Town, 7785, South Africa
+310 Saps Mitchells Plain                                                     -34.054817    18.626551 	7785, Katdoring St, Eastridge, Cape Town, 7785, South Africa
+311 Nyanga Police Station                                                    -33.989152    18.583357 	N311 Ntlangano Cres, Nyanga, Cape Town, 7755, South Africa
+312 Mitchells Plain LCRC                                                     -34.036135    18.611236 	Melkbos Rd, Mitchells Plain, Cape Town, 7785, South Africa
+313 Delft Police Station                                                     -33.974850    18.641996 	Voorbrug Rd & Delft Main Rd, Delft, Cape Town, 7100, South Africa
+314 Lcrc Nyanga                                                              -33.989106    18.583016 	163 Great Dutch St, Nyanga, Cape Town, 7750, South Africa
+315 Saps Kleinvlei                                                           -33.988189    18.718781 	Albert Philander Rd, Kleinvlei, Cape Town, 7001, South Africa
+316 Melton Rose Police Station                                               -33.988310    18.718809 	Kleinvlei, Cape Town, 7100, South Africa
+317 Manenberg Police Station                                                 -33.971699    18.555738 	Klipfontein Rd, Manenberg, Cape Town, 7767, South Africa
+318 Saps Strandfontein                                                       -34.071958    18.576915 	Cnr Witsands &, Spine Rd, Strandfontein, 7788, South Africa
+319 Saps Lansdowne                                                           -33.990356    18.505115 	5 Flamingo Cres, Lansdowne, Cape Town, 7780, South Africa
+320 Saps Strand                                                              -34.116080    18.832679 	6 Altena Rd, Strand, Cape Town, 7139, South Africa
+321 Saps Bishop Lavis                                                        -33.946174    18.572833 	42 Tafelberg Rd, Bishop Lavis, Cape Town, 7490, South Africa
+322 South African Police Service Somerset West                               -34.076735    18.845032 	68 Main Rd, Somerset West, Cape Town, 7129, South Africa
+323 CITY OF CAPE TOWN- Law enforcement                                       -33.960732    18.700945 	Blackheath, Cape Town, 7580, South Africa
+324 Claremont Police Station - South African Police Service                  -33.984263    18.472956 	76 Imam Haron Rd, Claremont, Cape Town, 7708, South Africa
+325 Kuilsriver Police Station                                                -33.932212    18.682769 	102 Van Riebeeck Rd, Kuils River, Cape Town, 7580, South Africa
+326 Saps Grassy Park                                                         -34.048829    18.495308 	Reddy Ave, Grassy Park, Cape Town, 7941, South Africa
+327 Wynberg Police Station - South African Police Service                    -34.004107    18.464883 	Opp Maynardville, Church St, Wynberg, Cape Town, 7800, South Africa
+328 Police Station Strand                                                    -34.116080    18.832530 	Strand, Western Cape, South Africa, South Africa
+329 Athlone Police Station                                                   -33.961399    18.507265 	Klipfontein Rd, Athlone, Cape Town, 7764, South Africa
+330 Lingelethu West Police Station                                           -34.042890    18.660210 	Makabeni Rd, Lingelethu West, Cape Town, 7784, South Africa
+331 Police Station                                                           -33.944931    18.610883 	Belhar 1, Cape Town, 7493, South Africa
+332 Bonteheuwel Police Station                                               -33.946471    18.551053 	137 Jakkalsvlei Ave, Bonteheuwel, Cape Town, 7764, South Africa
+333 Bellville South Police Station                                           -33.915095    18.646405 	Kasselsvlei Rd, Bellville South, Cape Town, 7530, South Africa
+334 Bellville South Impound Lot                                              -33.922651    18.637478 	Osborne St, Bellville South Ext 14, Cape Town, 7530, South Africa
+335 Bellville Police Station - South African Police Service                  -33.901562    18.622127 	8 Voortrekker Rd, Bellville, Cape Town, 7535, South Africa
+336 Diep River Police Station                                                -34.031616    18.465378 	104 Main Rd, Diep River, Cape Town, 7800, South Africa
+337 Saps Steenberg                                                           -34.065385    18.476555 	Cradock Rd, Steenberg, Cape Town, 7947, South Africa
+338 Claremont Police Station                                                 -33.984340    18.473635 	Imam Haron Rd, Claremont, Cape Town, 7440, South Africa
+339 Khayelitsha office                                                       -34.039037    18.670369 	50 Lwandle Rd, Village 2 North, Cape Town, 7784, South Africa
+340 Police Station Parow                                                     -33.904680    18.595480 	Arnold Wilhelm St, Parow East, Cape Town, 7499, South Africa
+341 Mowbray Police Station                                                   -33.950154    18.472104 	32 Main Road, Mowbray, Cape Town, 7700, South Africa
+342 Saps Goodwood                                                            -33.908863    18.561887 	13 Wiener St, Goodwood, Cape Town, 7460, South Africa
+343 Police and Prisons Civil Rights Union                                    -33.962766    18.506235 	5 Grasmere St, Athlone, 7764, South Africa
+344 SAPS Cape Town Vehicle Identification & Safe Gaurding Section            -33.922861    18.636921 	Transnet, Cape Town, 7505, South Africa
+345 Pinelands Saps                                                           -33.925903    18.501259 	Jan Smuts Dr, Pinelands, Cape Town, 7430, South Africa
+346 Rondebosch Police Station                                                -33.962696    18.468550 	Church St, Rondebosch, Cape Town, 7700, South Africa
+347 Kirstenhof Police Station                                                -34.072077    18.455172 	13 Pollsmoor Rd, Kirstenhof, Cape Town, 7945, South Africa
+348 Saps Woodstock                                                           -33.929020    18.448216 	152 Victoria Rd, Woodstock, Cape Town, 7915, South Africa
+349 Saps Lingelethu-West                                                     -34.042769    18.660190 	Makabeni Road Lingelethu West Khayelitsha 7784, 7784, South Africa
+350 Lingelethu West Traffic Department                                       -34.041414    18.660111 	Makabeni Rd, Village 1 North, Cape Town, 7783, South Africa
+351 Khyalitsha Environmental Health Office                                   -34.058813    18.670649 	Harare, Cape Town, 7784, South Africa
+352 Saps Harare                                                              -34.051680    18.669240 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+353 SANAPS                                                                   -33.955524    18.700472 	Saxenburg, 53 Muscat Rd, Blackheath, Cape Town, 7580, South Africa
+354 Maitland Police Station                                                  -33.923578    18.483298 	236 Voortrekker Rd, Maitland, Cape Town, 7405, South Africa
+355 Department of Home Affairs Office - Khayelitsha                          -34.048730    18.673346 	Tsolo Street & Mzali Crescent, Khayelitsha, Cape Town, 7793, South Africa
+356 Stikland Impound                                                         -33.897601    18.672026 	Watt St, Stikland Industrial, Cape Town, 7530, South Africa
+357 Railway Police                                                           -33.906093    18.626803 	Tienie Meyer Bypass, Bellville, Cape Town, 7505, South Africa
+358 Muizenberg Police Station                                                -34.108722    18.466738 	07 School Rd, Muizenberg, Cape Town, 7975, South Africa
+359 Saps Mowbray                                                             -33.950188    18.472175 	32 Main Rd, Mowbray, Cape Town, 7700, South Africa
+360 Brackenfell Police Station Brackenfell                                   -33.871811    18.681591 	Brackenfell Blvd, Brackenfell, Cape Town, 7561, South Africa
+361 Saps Gordons Bay                                                         -34.159125    18.869137 	2 Van Der Byl St, Gordons Bay Central, Cape Town, 7140, South Africa
+362 Saps Khayelitsha                                                         -34.024620    18.665515 	4 Bonga Dr, Khayelitsha, Cape Town, 7784, South Africa
+363 Saps Lingelethu-West                                                     -34.042769    18.660190 	Makabeni Road Lingelethu West Khayelitsha 7784, 7784, South Africa
+364 Saps Harare                                                              -34.051680    18.669240 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+365 Khayelitsha Magistrates' Court                                           -34.047582    18.675913 	Walter Sisulu Rd & Steve Biko Rd, Khayelitsha, Cape Town, 7784, South Africa
+366 Masibambane Hall, Harare Square                                          -34.058751    18.671305 	9 Nkinga Cl, Harare, Cape Town, 7784, South Africa
+367 Phillipi Court                                                           -34.000551    18.593504 	Cwangco Cres, Philippi, Cape Town, 7750, South Africa
+368 Site-B Hall                                                              -34.025667    18.664318 	Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+369 Mitchells Plain Magistrates' Court                                       -34.048394    18.623830 	First Ave, Mitchells Plain, Cape Town, 7785, South Africa
+370 Correctional Services                                                    -34.046620    18.617636 	1 Alpha St, Mitchells Plain, Cape Town, 7785, South Africa
+371 Department of Correctional Services                                      -34.083644    18.851371 	128, 128 Main Rd, Somerset West, Cape Town, 7130, South Africa
+372 18 Gangster Museum                                                       -34.049016    18.690624 	Dullah Omar St, Mandela Park, Cape Town, 7784, South Africa
+373 Equal Education                                                          -34.048285    18.673536 	8 Mzala Street, Khayelitsha, Cape Town, 7784, South Africa
+374 Correctional Services                                                    -33.888736    18.547196 	Peninsula Dr, Milnerton, Goodwood, 7460, South Africa
+375 Cape Town Film Studios                                                   -34.029764    18.722102 	Film City Boulevard, Faure St, Cape Town, 7131, South Africa
+376 Stellenbosch Correctional Services                                       -33.928680    18.860904 	Ryneveld St, Stellenbosch, Cape Town, 7600, South Africa
+377 Kulani Library                                                           -34.042371    18.660149 	Makabeni Rd, Village 1 North, Cape Town, 7784, South Africa
+378 4Roomed eKasi Culture & Foods                                            -34.039099    18.659114 	a, 605 Makabeni Rd, Khayelitsha, Cape Town, 7784, South Africa
+379 Rands Cape Town                                                          -34.036334    18.658577 	Makabeni Rd, Village 1 North, Cape Town, 7784, South Africa
+380 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+381 Site C Youth Centre - A R V Clinic                                       -34.013609    18.646829 	Solomon Tshuku Avenue, Khayelitsha Site C, Cape Town, 7784, South Africa
+382 Town I I Clinic - A R V                                                  -34.040104    18.683213 	Cnr Lansdowne & Basil Zondi Road, Khayelitsha, Cape Town, 7784, South Africa
+383 Social Justice Coalition                                                 -34.048000    18.673963 	Isivivana Centre, 8 Mzala Street,, Khayelitsha, Cape Town, 7784, South Africa
+384 Iliso Care Society                                                       -34.013611    18.639098 	7 Sunrise Cl, Ikwezi Park, Cape Town, 7784, South Africa
+385 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+386 S.A.N.C.A. - Khayelitsha                                                 -34.037733    18.664729 	Catholoc Welfare Development Centre, E505 Scott St, Khayelitsha, Cape Town, 7784, South Africa
+387 Nonceba family Counselling Centre                                        -34.035182    18.668507 	Tanga St, Village 2 North, Cape Town, 7783, South Africa
+388 Nolungile Community Health Centre                                        -34.043670    18.652120 	Lawrence Road, Khayelitsha, Cape Town, 7784, South Africa
+389 Correctional Services                                                    -33.901617    18.641675 	3rd Flr Finntrust Bldg C/o Petrusa & Mazzur Sts, Bellville, 7530, South Africa
+390 Lingelethu West Traffic Department                                       -34.041414    18.660111 	Makabeni Rd, Village 1 North, Cape Town, 7783, South Africa
+391 Khayelitsha Magistrates' Court                                           -34.047582    18.675913 	Walter Sisulu Rd & Steve Biko Rd, Khayelitsha, Cape Town, 7784, South Africa
+392 Phillipi-East Traffic Department                                         -34.011607    18.604693 	Stock Rd & Market Street, Phillipi, Cape Town, 7781, South Africa
+393 Khyalitsha Environmental Health Office                                   -34.058813    18.670649 	Harare, Cape Town, 7784, South Africa
+394 police station                                                           -33.998951    18.676832 	15 T Tokwana St, Mfuleni, Cape Town, 7100, South Africa
+395 Khayelitsha office                                                       -34.039037    18.670369 	50 Lwandle Rd, Village 2 North, Cape Town, 7784, South Africa
+396 Site-B Hall                                                              -34.025667    18.664318 	Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+397 Post Office                                                              -34.047913    18.670508 	Shoprite Ctr , Shp 20, Khayelitsha, Cape Town, 7784, South Africa
+398 Gugulethu Traffic Department                                             -34.001992    18.565677 	17 Govan Mbeki Rd, Browns Farms, Cape Town, 7750, South Africa
+399 Department of Home Affairs Office - Khayelitsha                          -34.048730    18.673346 	Tsolo Street & Mzali Crescent, Khayelitsha, Cape Town, 7793, South Africa
+400 Khayelitsha Post Office                                                  -34.036250    18.658520 	Makhabeni Road, Village 1 North, Cape Town, 7784, South Africa
+401 Mitchell's Plain Traffic Department                                      -34.051273    18.624511 	Katdoring St, Eastridge, Cape Town, 7785, South Africa
+402 COSAT                                                                    -34.050899    18.662113 	50 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+403 Ummangaliso Primary School                                               -34.047913    18.670508 	T Section Bangiso Dve Site B, Khayelitsha, Cape Town, 7784, South Africa
+404 Luhlaza Secondary School                                                 -34.040700    18.661480 	6 Velili St, Village 1 North, Cape Town, 7784, South Africa
+405 Usasazo High School                                                      -34.026352    18.659130 	Bangiso dr, Victoria Merge, Cape Town, 7784, South Africa
+406 Sakumlandela Primary School                                              -34.027120    18.658900 	4 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+407 Khayelitsha Special School.                                              -34.039362    18.659959 	Makabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+408 Intlanganiso Secondary School                                            -34.012740    18.641510 	Ikwezi Park, Cape Town, 7784, South Africa
+409 Bulumko Secondary School                                                 -34.038810    18.672730 	31 Mangezi St, Khayelitsha, Cape Town, 7784, South Africa
+410 Chris Hani Secondary School                                              -34.046870    18.705980 	57 Futha Cres, T3-V3, Cape Town, 7784, South Africa
+411 Sosebenza Primary School                                                 -34.023905    18.669076 	29 Selesho Cres, Village 3 North, Cape Town, 7784, South Africa
+412 Kukhanyile Publ Primary School                                           -34.029010    18.671660 	13 Lali St, Khayelitsha, Cape Town, 7784, South Africa
+413 Ikhusi Primary School                                                    -34.024240    18.655610 	15 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+414 Esangweni Secondary School                                               -34.058830    18.685000 	Town 3, Cape Town, 7784, South Africa
+415 Kuyasa Primary School                                                    -34.062220    18.683230 	Town 3, Cape Town, 7784, South Africa
+416 Chris Hani Arts & Culture High School                                    -34.047218    18.705771 	Paul Avenue, Khayelitsha, Cape Town, 7784, South Africa
+417 Masiphumelele Primary School                                             -34.051330    18.695660 	55 Hlehla St, T3-V4, Cape Town, 7784, South Africa
+418 Chuma Publ. Primary School                                               -34.042240    18.678250 	Griffiths Mxenge, Cape Town, 7784, South Africa
+419 Zola Senior Secondary School                                             -34.015520    18.634520 	Bongweni, Cape Town, 7784, South Africa
+420 Isikhokelo Primary School                                                -34.013710    18.652910 	Ikwezi Park, Cape Town, 7784, South Africa
+421 Ummangaliso Public Primary School                                        -34.023496    18.658348 	Bangiso Dr, Khayelitsha, Cape Town, 7784, South Africa
+422 Manyano High                                                             -34.046726    18.664051 	36 Msobomvu Dr, Village 1 South, Cape Town, 7784, South Africa
+423 Noxolo Xauka Primary School                                              -34.042763    18.711244 	Nyanda Ave, Khayelitsha, Cape Town, 7784, South Africa
+424 Masiyile Senior Secondary School                                         -34.030180    18.667800 	Village 2 North, Cape Town, 7784, South Africa
+425 Sizimisele Tech High School                                              -34.051846    18.692207 	19 Steve Tshwete Rd, Mandela Park, Cape Town, 7784, South Africa
+426 Academia Primary School                                                  -34.031748    18.694478 	Khayelitsha, Cape Town, 7784, South Africa
+427 Sinako High School                                                       -34.042027    18.699251 	56 Nyanda Ave, T3-V5, Cape Town, 7784, South Africa
+428 Nkazimlo Primary School                                                  -34.049290    18.710660 	T3-V3, Cape Town, 7784, South Africa
+429 Injongo Primary School                                                   -34.033840    18.655880 	Village 1 North, Cape Town, 7784, South Africa
+430 Silulo Ulutho Technologies - Head Office / IT Academy                    -34.036842    18.658513 	3 Makhabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+431 Intshayelelo Primary School                                              -34.048370    18.661231 	107 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+432 Homba Primary School                                                     -34.031596    18.661766 	4 Pama Rd, Village 1 North, Cape Town, 7784, South Africa
+433 Harry Gwala Secondary School                                             -34.051410    18.695690 	7 Jula St, T3-V4, Cape Town, 7784, South Africa
+434 Noluthando ELSEN Centre                                                  -34.024211    18.674644 	1 Unknown Rd, Trevor Vilakazi, Cape Town, 7784, South Africa
+435 Soyisile Public Primary School                                           -34.022895    18.668394 	Nkululeko Dr, Village 3 North, Cape Town, 7784, South Africa
+436 Noluthando - School for Deaf                                             -34.024816    18.673645 	Jeff Masemola Road, Trevor Vilakazi, Cape Town, 7784, South Africa
+437 Yomelela Primary School                                                  -34.028053    18.674636 	Bhemye Cres, Khayelitsha, Cape Town, 7784, South Africa
+438 Luleka Primary School                                                    -34.060260    18.671540 	Harare, Cape Town, 7784, South Africa
+439 Lwandle Primary School                                                   -34.051092    18.706611 	Makhulu Cres, T3-V3, Cape Town, 7784, South Africa
+440 Iqhayiya secondary school                                                -34.033070    18.676471 	44 Mateta St, Village 2 North, Cape Town, 7784, South Africa
+441 Nomsa Mapongwana Primary .School                                         -34.045450    18.685600 	65, Mandela Park, Cape Town, 7784, South Africa
+442 Zenzeleni Waldorf School                                                 -34.036729    18.673781 	Mongesi Rd, Village 2 North, Cape Town, 7783, South Africa
+443 Isiphiwo Primary School                                                  -34.057210    18.679080 	Harare, Cape Town, 7784, South Africa
+444 Matthew Goniwe Memorial High School                                      -34.022010    18.667610 	19 Gqadu Cres, Village 3 North, Cape Town, 7784, South Africa
+445 Impendulo Public Primary School                                          -34.043340    18.703660 	T3-V5, Cape Town, 7784, South Africa
+446 Kwamfundo Secondary School                                               -34.055860    18.673260 	Harare, Cape Town, 7784, South Africa
+447 Litha Park                                                               -34.053094    18.658410 	1 Bikhwe Cres, Village 1 South, Cape Town, 7784, South Africa
+448 Encotsheni Primary                                                       -34.005690    18.637490 	Ikwezi Park, Cape Town, 7784, South Africa
+449 Sivuyiseni Public Primary School                                         -34.049700    18.678740 	Mandela Park, Cape Town, 7784, South Africa
+450 Chumisa Primary School                                                   -34.021851    18.662282 	39 Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+451 Ntwasahlobo Primary School                                               -34.028022    18.659523 	1 Bangiso Dr, Village 4 North, Cape Town, 7784, South Africa
+452 Nolungile Primary                                                        -34.013706    18.642919 	34 Njongo Ave, Ikwezi Park, Cape Town, 7784, South Africa
+453 Vuzamanzi Public Primary School                                          -34.013740    18.648990 	Ikwezi Park, Cape Town, 7784, South Africa
+454 Sosebenza Primary School                                                 -34.062869    18.679089 	Nkulu St, Harare, Cape Town, 7784, South Africa
+455 Eluxolweni Primary School                                                -34.029725    18.670137 	Pama &, Mongesi Rd, Khayelitsha, Cape Town, 7784, South Africa
+456 Masiyile Junior Secondary School                                         -34.030234    18.667855 	Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+457 Vuselela Primary School                                                  -34.010840    18.639710 	Ikwezi Park, Cape Town, 7784, South Africa
+458 Khayelitsha No 1 Senior Secondary School                                 -34.042100    18.700440 	T3-V5, Cape Town, 7784, South Africa
+459 Uxolo High School                                                        -34.049120    18.681200 	Mandela Park, Cape Town, 7784, South Africa
+460 Ikhwezilesizwe Primary School                                            -34.037991    18.661713 	Section E580 Silumko St, Khayelitsha, Cape Town, 7784, South Africa
+461 Umthawelanga Primary School                                              -34.043290    18.671800 	Ekuphumleni, Cape Town, 7784, South Africa
+462 False Bay College                                                        -34.049672    18.654066 	Mew Way & Qamba crescent, Khayelitsha, 7785, South Africa
+463 Silulo Ulutho Technologies - Head Office / IT Academy                    -34.036842    18.658513 	3 Makhabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+464 Qaasimul Uloom                                                           -34.029691    18.575444 	Philippi, Cape Town, 7750, South Africa
+465 Cambridge College                                                        -34.000920    18.580700 	Nyanga, Cape Town, 7750, South Africa
+466 FALSE BAY COLLEGE                                                        -34.055001    18.618398 	Merrydale Ave, Mitchells Plain, Cape Town, 7785, South Africa
+467 FAITH BIBLE COLLEGE                                                      -34.001462    18.725342 	Office No.13/14, Eerste River Shopping Center, Forest Dr, Eerste River, Cape Town, 7100, South Africa
+468 Northlink College                                                        -33.995136    18.577018 	Tygerberg, Cape Town, 7750, South Africa
+469 UWC                                                                      -34.049568    18.623084 	Tango Square, Mitchells Plain, Cape Town, 7785, South Africa
+470 The Leadership College - Hyde Park                                       -34.034788    18.584718 	Cnr Fulham &, Lords Ave, Mitchells Plain, Cape Town, 7785, South Africa
+471 falsebay college                                                         -34.055158    18.618350 	19 Merrydale Ave, Portland, Cape Town, 7785, South Africa
+472 Helen O'Grady Drama Academy - Mitchells Plain                            -34.050906    18.615558 	Hazeldene Ave, Portland, Cape Town, 7784, South Africa
+473 COSAT                                                                    -34.050899    18.662113 	50 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+474 Home of Compassion                                                       -33.980214    18.647890 	48 Eindhoven Rd, Eindhoven, Cape Town, 7100, South Africa
+475 Tvet College Khayalitsha                                                 -34.049709    18.653556 	Khayelitsha, Cape Town, 7784, South Africa
+476 Chris Hani Secondary School                                              -34.046870    18.705980 	57 Futha Cres, T3-V3, Cape Town, 7784, South Africa
+477 College of Cape Town                                                     -33.982018    18.567095 	Steve Biko Drive & Ngambu Street, Guguletu, 7750, South Africa
+478 College of Cape Town - Guguletu Campus                                   -33.976124    18.562327 	Ny 4, Guguletu, Cape Town, 7750, South Africa
+479 Noluthando - School for Deaf                                             -34.024816    18.673645 	Jeff Masemola Road, Trevor Vilakazi, Cape Town, 7784, South Africa
+480 The Leadership College Cape Town (Junior , Middle & Senior)              -33.982575    18.552899 	2 Kasouga Rd, Manenberg, Cape Town, 7764, South Africa
+481 Zenzeleni Waldorf School                                                 -34.036729    18.673781 	Mongesi Rd, Village 2 North, Cape Town, 7783, South Africa
+482 Western Cape College Of Nursing                                          -33.968684    18.551257 	Klipfontein Rd, Heideveld, Cape Town, 7764, South Africa
+483 JUNIOR COLLEGE (PRIM)                                                    -34.031933    18.526803 	16 Boundary Rd, Ottery, Cape Town, 7800, South Africa
+484 Northlink College Panarama                                               -34.034682    18.528686 	13 Second Avenue Schaapkraal, South Africa
+485 Silulo Ulutho Technologies                                               -34.027104    18.664722 	Nonkqubela Link, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+486 Ingelosi Security Solution Easter River                                  -34.003393    18.702323 	116 Blue Downs Way, Hillcrest Heights, Cape Town, 7100, South Africa
+487 INTERNATIONAL PEACE COLLEGE SOUTH AFRICA                                 -33.975131    18.523098 	Rylands Estate, Johnston Rd, Gatesville, Cape Town, 7766, South Africa
+488 Academy for Quran Specialisation Africa                                  -34.038891    18.528318 	Schaap Rd, Philippi, Cape Town, 7781, South Africa
+489 Somerset College                                                         -34.040444    18.808412 	Bredell Rd, Somerset West, 7130, South Africa
+490 COLLEGE OF CAPE TOWN -CRAWFORD CAMPUS                                    -33.973324    18.512113 	174 Kromboom Rd, Crawford, Cape Town, 7770, South Africa
+491 Cape Town Baptist College                                                -33.954741    18.534169 	Tarentaal Rd, Bridgetown, Cape Town, 7769, South Africa
+492 Islamic Ambassadors' College                                             -33.983790    18.587650 	40, Crossroads, Cape Town, 7750, South Africa
+493 Islamia College                                                          -33.985986    18.498356 	409 Imam Haron Rd, Lansdowne, Cape Town, 7780, South Africa
+494 College Of Cape Town                                                     -33.959703    18.509887 	Eland St, Athlone, Cape Town, 7764, South Africa
+495 Aviation Pilot Training                                                  -33.977267    18.594748 	1A Beechcraft Rd, Matroosfontein, Cape Town, 7525, South Africa
+496 SACOB - The South African College of Business                            -33.979686    18.481981 	88 Belvedere Rd, Claremont, Cape Town, 7708, South Africa
+497 COLLEGE OF CAPE TOWN                                                     -34.003907    18.475724 	31 Broad Rd, Wynberg, Cape Town, 7800, South Africa
+498 Skills Academy - Distance Learning College in Cape Town                  -33.924794    18.654034 	Unit MP53B Mega Park C/O Peter Barlow and, Robert Sobukwe Rd, Bellville South, Cape Town, 7530, South Africa
+499 George Whitefield College                                                -34.106380    18.471619 	34 Beach Rd, Muizenberg, Cape Town, 7950, South Africa
+500 False Bay TVET College                                                   -34.078036    18.440118 	131 Main Rd, Muizenberg, Cape Town, 7950, South Africa
+501 False Bay College Youth Advisory Centre                                  -34.045305    18.655789 	Mew Way, Khayelitsha, Cape Town, 7784, South Africa
+502 LEAP 2 (Philippi)                                                        -34.000638    18.594224 	1 Cwango Crescent, Philippi, Cape Town, 7750, South Africa
+503 Boston City Campus & Business College - Somerset West                    -34.081837    18.850257 	F1, Twin Oaks Centre, 142 Main Rd, Somerset West, Cape Town, 7110, South Africa
+504 College for Sustainable Agriculture                                      -34.069770    18.827970 	83 Helderberg College Rd, Die Wingerd, Somerset West, 7130, South Africa
+505 Cape Town Flying Club                                                    -33.975893    18.598287 	Cape Town International Airport Air Traffic Control Tower, Matroosfontein, Cape Town, 8001, South Africa
+506 The South African College of Applied Psychology (SACAP), Cape Town       -33.978312    18.463662 	1st Floor, Sunclare Building, 21 Dreyer Street, Claremont, Cape Town, 7708, South Africa
+507 Boland College Strand Campus                                             -34.098492    18.837178 	71 Aerodrome Way, Strand, Cape Town, 7139, South Africa
+508 Abbotts College Claremont                                                -33.984506    18.471473 	Greenwood Rd, Claremont, Cape Town, 7740, South Africa
+509 Bethel Bible School                                                      -33.974342    18.508095 	134 Kromboom Rd, Zwartdam, Cape Town, 7760, South Africa
+510 Falsebay Khayelitsha Campus                                              -34.045269    18.655772 	Mew Way, Khayelitsha, Cape Town, 7784, South Africa
+511 Northlink College                                                        -33.910859    18.641631 	Sackson St, Bellville, Cape Town, 7530, South Africa
+512 Boston City Campus & Business College - Bellville                        -33.901102    18.640334 	2 Old Paarl Road, Bellville, Avondstil, Cape Town, 7530, South Africa
+513 College Of Cape Town                                                     -33.924460    18.505941 	18 Jan Smuts Dr, Pinelands, Cape Town, 7405, South Africa
+514 Northlink College                                                        -33.902272    18.636733 	80 Voortrekker Rd, Bellville, Cape Town, 7530, South Africa
+515 iKanyisa Business College                                                -33.975639    18.549292 	52 Aries Road Surrey Estate, Athlone, Cape Town, 7764, South Africa
+516 Cape Town Biblical College                                               -33.914659    18.593155 	52 Frederick St, Parow Valley, Cape Town, 7500, South Africa
+517 The Learning Group                                                       -33.923238    18.653941 	Unit MP53B Mega Park C/O Peter Barlow and, Mill Rd, Bellville South, Cape Town, 7530, South Africa
+518 KINGSWAY COLLEGE                                                         -33.901044    18.630747 	Kort St, Bellville, Cape Town, 7530, South Africa
+519 Samsons School of Welding                                                -34.003056    18.572531 	ERF472 Clive St, Browns Farms, Cape Town, 7750, South Africa
+520 CAD4ALL Career and Design College                                        -33.901960    18.642810 	Bill Bezuidenhout Ave, Bellville, Cape Town, 7530, South Africa
+521 Oakfields College Somerset West                                          -34.087508    18.859748 	40 Bizweni Ave, Cherrywood Gardens, Cape Town, 7130, South Africa
+522 COSAT                                                                    -34.050899    18.662113 	50 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+523 Ummangaliso Primary School                                               -34.047913    18.670508 	T Section Bangiso Dve Site B, Khayelitsha, Cape Town, 7784, South Africa
+524 Luhlaza Secondary School                                                 -34.040700    18.661480 	6 Velili St, Village 1 North, Cape Town, 7784, South Africa
+525 Usasazo High School                                                      -34.026352    18.659130 	Bangiso dr, Victoria Merge, Cape Town, 7784, South Africa
+526 Sakumlandela Primary School                                              -34.027120    18.658900 	4 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+527 Silulo Ulutho Technologies - Head Office / IT Academy                    -34.036842    18.658513 	3 Makhabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+528 Khayelitsha Special School.                                              -34.039362    18.659959 	Makabeni Road, Khayelitsha, Cape Town, 7784, South Africa
+529 Bulumko Secondary School                                                 -34.038810    18.672730 	31 Mangezi St, Khayelitsha, Cape Town, 7784, South Africa
+530 Molo Mhlaba School                                                       -34.059044    18.671369 	Harare, Cape Town, 7784, South Africa
+531 Chris Hani Secondary School                                              -34.046870    18.705980 	57 Futha Cres, T3-V3, Cape Town, 7784, South Africa
+532 Impendulo Public Primary School                                          -34.043340    18.703660 	T3-V5, Cape Town, 7784, South Africa
+533 Noluthando - School for Deaf                                             -34.024816    18.673645 	Jeff Masemola Road, Trevor Vilakazi, Cape Town, 7784, South Africa
+534 Intlanganiso Secondary School                                            -34.012740    18.641510 	Ikwezi Park, Cape Town, 7784, South Africa
+535 Injongo Primary School                                                   -34.033840    18.655880 	Village 1 North, Cape Town, 7784, South Africa
+536 Velokhaya Life Cycling Academy                                           -34.034283    18.660008 	40 Makabeni Rd, Village 1 North, Cape Town, 7784, South Africa
+537 Sosebenza Primary School                                                 -34.023905    18.669076 	29 Selesho Cres, Village 3 North, Cape Town, 7784, South Africa
+538 Manyano High                                                             -34.046726    18.664051 	36 Msobomvu Dr, Village 1 South, Cape Town, 7784, South Africa
+539 Masiyile Senior Secondary School                                         -34.030180    18.667800 	Village 2 North, Cape Town, 7784, South Africa
+540 Zola Senior Secondary School                                             -34.015520    18.634520 	Bongweni, Cape Town, 7784, South Africa
+541 Sizimisele Tech High School                                              -34.051846    18.692207 	19 Steve Tshwete Rd, Mandela Park, Cape Town, 7784, South Africa
+542 Ikhusi Primary School                                                    -34.024240    18.655610 	15 Bangiso Dr, Victoria Merge, Cape Town, 7784, South Africa
+543 Kukhanyile Publ Primary School                                           -34.029010    18.671660 	13 Lali St, Khayelitsha, Cape Town, 7784, South Africa
+544 Chris Hani Arts & Culture High School                                    -34.047218    18.705771 	Paul Avenue, Khayelitsha, Cape Town, 7784, South Africa
+545 Kuyasa Primary School                                                    -34.062220    18.683230 	Town 3, Cape Town, 7784, South Africa
+546 Zenzeleni Waldorf School                                                 -34.036729    18.673781 	Mongesi Rd, Village 2 North, Cape Town, 7783, South Africa
+547 Esangweni Secondary School                                               -34.058830    18.685000 	Town 3, Cape Town, 7784, South Africa
+548 Harry Gwala Secondary School                                             -34.051410    18.695690 	7 Jula St, T3-V4, Cape Town, 7784, South Africa
+549 Nkazimlo Primary School                                                  -34.049290    18.710660 	T3-V3, Cape Town, 7784, South Africa
+550 Chuma Publ. Primary School                                               -34.042240    18.678250 	Griffiths Mxenge, Cape Town, 7784, South Africa
+551 Masiphumelele Primary School                                             -34.051330    18.695660 	55 Hlehla St, T3-V4, Cape Town, 7784, South Africa
+552 Lwandle Primary School                                                   -34.051092    18.706611 	Makhulu Cres, T3-V3, Cape Town, 7784, South Africa
+553 Academia Primary School                                                  -34.031748    18.694478 	Khayelitsha, Cape Town, 7784, South Africa
+554 Yomelela Primary School                                                  -34.028053    18.674636 	Bhemye Cres, Khayelitsha, Cape Town, 7784, South Africa
+555 Homba Primary School                                                     -34.031596    18.661766 	4 Pama Rd, Village 1 North, Cape Town, 7784, South Africa
+556 Intshayelelo Primary School                                              -34.048370    18.661231 	107 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+557 Noxolo Xauka Primary School                                              -34.042763    18.711244 	Nyanda Ave, Khayelitsha, Cape Town, 7784, South Africa
+558 Luleka Primary School                                                    -34.060260    18.671540 	Harare, Cape Town, 7784, South Africa
+559 Isikhokelo Primary School                                                -34.013710    18.652910 	Ikwezi Park, Cape Town, 7784, South Africa
+560 Sinako High School                                                       -34.042027    18.699251 	56 Nyanda Ave, T3-V5, Cape Town, 7784, South Africa
+561 Matthew Goniwe Memorial High School                                      -34.022010    18.667610 	19 Gqadu Cres, Village 3 North, Cape Town, 7784, South Africa
+562 Ummangaliso Public Primary School                                        -34.023496    18.658348 	Bangiso Dr, Khayelitsha, Cape Town, 7784, South Africa
+563 Soyisile Public Primary School                                           -34.022895    18.668394 	Nkululeko Dr, Village 3 North, Cape Town, 7784, South Africa
+564 Ntwasahlobo Primary School                                               -34.028022    18.659523 	1 Bangiso Dr, Village 4 North, Cape Town, 7784, South Africa
+565 Isiphiwo Primary School                                                  -34.057210    18.679080 	Harare, Cape Town, 7784, South Africa
+566 Uxolo High School                                                        -34.049120    18.681200 	Mandela Park, Cape Town, 7784, South Africa
+567 Iqhayiya secondary school                                                -34.033070    18.676471 	44 Mateta St, Village 2 North, Cape Town, 7784, South Africa
+568 Nomsa Mapongwana Primary .School                                         -34.045450    18.685600 	65, Mandela Park, Cape Town, 7784, South Africa
+569 Ikhwezilesizwe Primary School                                            -34.037991    18.661713 	Section E580 Silumko St, Khayelitsha, Cape Town, 7784, South Africa
+570 Sosebenza Primary School                                                 -34.062869    18.679089 	Nkulu St, Harare, Cape Town, 7784, South Africa
+571 Kwamfundo Secondary School                                               -34.055860    18.673260 	Harare, Cape Town, 7784, South Africa
+572 Joe Slovo Secondary School.                                              -34.032430    18.657690 	454 Koeberg Rd, Village 1 North, Cape Town, 7784, South Africa
+573 Sivuyiseni Public Primary School                                         -34.049700    18.678740 	Mandela Park, Cape Town, 7784, South Africa
+574 Chumisa Primary School                                                   -34.021851    18.662282 	39 Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+575 Encotsheni Primary                                                       -34.005690    18.637490 	Ikwezi Park, Cape Town, 7784, South Africa
+576 Nolungile Primary                                                        -34.013706    18.642919 	34 Njongo Ave, Ikwezi Park, Cape Town, 7784, South Africa
+577 Masiyile Junior Secondary School                                         -34.030234    18.667855 	Bonga Dr, Village 3 North, Cape Town, 7784, South Africa
+578 Vuselela Primary School                                                  -34.010840    18.639710 	Ikwezi Park, Cape Town, 7784, South Africa
+579 Umthawelanga Primary School                                              -34.043290    18.671800 	Ekuphumleni, Cape Town, 7784, South Africa
+580 Vuzamanzi Public Primary School                                          -34.013740    18.648990 	Ikwezi Park, Cape Town, 7784, South Africa
+581 False Bay College                                                        -34.049672    18.654066 	Mew Way & Qamba crescent, Khayelitsha, 7785, South Africa
+582 COSAT                                                                    -34.050899    18.662113 	50 Sinqolamthi St, Village 1 South, Cape Town, 7784, South Africa
+583 Litha Park                                                               -34.053094    18.658410 	1 Bikhwe Cres, Village 1 South, Cape Town, 7784, South Africa
+584 FAITH BIBLE COLLEGE                                                      -34.001462    18.725342 	Office No.13/14, Eerste River Shopping Center, Forest Dr, Eerste River, Cape Town, 7100, South Africa
+585 Qaasimul Uloom                                                           -34.029691    18.575444 	Philippi, Cape Town, 7750, South Africa
+586 UWC                                                                      -34.049568    18.623084 	Tango Square, Mitchells Plain, Cape Town, 7785, South Africa
+587 Cape Peninsula University of Technology                                  -33.932420    18.640645 	Symphony Way, Bellville, Cape Town, 7535, South Africa
+588 University of the Western Cape                                           -33.933520    18.627958 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+589 FALSE BAY COLLEGE                                                        -34.055001    18.618398 	Merrydale Ave, Mitchells Plain, Cape Town, 7785, South Africa
+590 Intlanganiso Secondary School                                            -34.012740    18.641510 	Ikwezi Park, Cape Town, 7784, South Africa
+591 Northlink College                                                        -33.995136    18.577018 	Tygerberg, Cape Town, 7750, South Africa
+592 University Of the Western Cape                                           -33.933460    18.628060 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+593 University of Cape Town                                                  -33.957652    18.461199 	Rondebosch, Cape Town, 7700, South Africa
+594 Library Bellville - CPUT                                                 -33.932277    18.642131 	Bellville South Industrial, Cape Town, 7530, South Africa
+595 Mechanical Engineering Department - CPUT                                 -33.933484    18.643781 	Symphony Way, Bellville, Cape Town, 7535, South Africa
+596 Administration - CPUT                                                    -33.932218    18.640046 	Pentech Service Road, Bellville South Industrial, Cape Town, 7530, South Africa
+597 Institute for Poverty, Land and Agrarian Studies                         -33.933099    18.628313 	Uwc Access Rd, Bellville, Cape Town, 7535, South Africa
+598 Faculty Of Arts - University Of The Western Cape                         -33.932253    18.628606 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+599 SHAWCO K2                                                                -34.030645    18.670482 	G323, Mongesi Rd, Village 2 North, Cape Town, 7784, South Africa
+600 University of South Africa                                               -33.907391    18.594527 	Jean Simonis St, Parow East, Cape Town, 7500, South Africa
+601 Zenzeleni Waldorf School                                                 -34.036729    18.673781 	Mongesi Rd, Village 2 North, Cape Town, 7783, South Africa
+602 Molo Mhlaba School                                                       -34.059044    18.671369 	Harare, Cape Town, 7784, South Africa
+603 Belhar College Kitchen                                                   -33.938890    18.632660 	Proton Rd, Belhar 8, Cape Town, 7493, South Africa
+604 Food Technology Centre                                                   -33.931764    18.638311 	Bellville South Industrial, Cape Town, 7530, South Africa
+605 Occupational Therapy                                                     -33.931316    18.628422 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+606 IT Centre                                                                -33.931517    18.642570 	Bellville South Industrial, Cape Town, 7530, South Africa
+607 Department Of Sport, Recreation And Exercise Science                     -33.930146    18.629131 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+608 Technology Station Clothing and Textiles                                 -33.930142    18.637372 	Bellville South Industrial, Cape Town, 7530, South Africa
+609 Geography and Environmental Studies Department                           -33.932082    18.628730 	University of The Western Cape, Cape Town, South Africa
+610 Department of Computer Science                                           -33.934400    18.629644 	Robert Sobukwe Road, Bellville, Cape Town, 7535, South Africa
+611 Students Centre                                                          -33.933662    18.628676 	East Rd, University of The Western Cape, Cape Town, 7535, South Africa
+612 Social Sciences                                                          -33.931236    18.628742 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+613 Cape Town University                                                     -33.957687    18.460651 	M3, Wynberg, Cape Town, 7800, South Africa
+614 Children's Institute, University of Cape Town                            -33.952984    18.481635 	Sawkins Rd, Rosebank, Cape Town, 7700, South Africa
+615 Swimming Pool                                                            -33.930236    18.630207 	Robert Sobukwe Rd, Bellville, Cape Town, 7535, South Africa
+616 Faculty of Medicine and Health Sciences, Stellenbosch University         -33.907934    18.612499 	Francie Van Zijl Dr, Tygerberg Hospital, Cape Town, 7505, South Africa
+617 MGR1                                                                     -33.933395    18.639343 	Education Way, Bellville South Industrial, Cape Town, 7530, South Africa
+618 Ditsela Workers Education Institute                                      -33.934768    18.627515 	University of The Western Cape, Cape Town, South Africa
+619 Stellenbosch University                                                  -33.909037    18.609351 	Francie Van Zijl Dr, Tygerberg, Cape Town, 7530, South Africa
+620 Tshwane University Of Technology                                         -33.899571    18.628665 	Unit 5A, Bellpark Office Plaza, Bellville, Cape Town, 7530, South Africa
+621 Boston City Campus & Business College - Bellville                        -33.901102    18.640334 	2 Old Paarl Road, Bellville, Avondstil, Cape Town, 7530, South Africa
+622 The Leadership College Cape Town (Junior , Middle & Senior)              -33.982575    18.552899 	2 Kasouga Rd, Manenberg, Cape Town, 7764, South Africa
+623 Audiovisual Services                                                     -33.932280    18.627574 	Bellville, Cape Town, South Africa
+624 Helderberg College Disa Road                                             -34.047938    18.842912 	Helderberg Rural, Sir Lowry's Pass, Helderberg Rural, Cape Town, 7135, South Africa
+625 University of Stellenbosch - Medical Biochemistry                        -33.912811    18.615993 	445 4th Floor Fisan Bldg, Fransie Van Zyl Drive, Parow, Cape Town, 7500, South Africa
+626 Department of Sports Sciences                                            -33.930122    18.629137 	University of The Western Cape, Cape Town, South Africa
+627 Dept of Physiotherapy Stellenbosch University                            -33.912716    18.615429 	Francie Van Zyl Drive, Parow Valley, Cape Town, 7500, South Africa
+628 Tygerberg Campus                                                         -33.907071    18.612235 	Tygerberg Hospital, Cape Town, 7505, South Africa
+629 University of Stellenbosch - Hyperbaric Medicine                         -33.919815    18.591929 	Francie Van Zijl Drive, Parow, Cape Town, 7500, South Africa
+630 University of Stellenbosch Business School                               -33.884759    18.626559 	Carl Cronje Dr, Bellville, Cape Town, 7530, South Africa
+631 PLMCC, CPUT                                                              -33.932059    18.643079 	Symphony Wy, Bellville, 7535, South Africa
+632 College of Cape Town - Thornton Campus                                   -33.925796    18.532636 	Cedar Rd, Thornton, Cape Town, 7460, South Africa
+633 Imperil Technical Training Academy                                       -33.921891    18.653793 	7530, Unclear, Cape Town, South Africa
+634 South African Tuberculosis Vaccine Initiative (SATVI)                    -33.943360    18.465825 	Wernher & Beit South Building, Room S 2.01, Health Sciences Faculty, OBSERVATORY, 7925 Cape Town, Anzio Rd, Observatory, Cape Town, 7935, South Africa
+635 University of Stellenbosch - Desmond Tutu T.B Centre                     -33.907934    18.612494 	Lower Level Clinical Building, Fransie Van Zyl Street, Parow Valley, Cape Town, 7500, South Africa
+636 Helen O'Grady Drama Academy - Mitchells Plain                            -34.050906    18.615558 	Hazeldene Ave, Portland, Cape Town, 7784, South Africa
+637 University of Cape Town                                                  -33.957670    18.461144 	Rondebosch, Cape Town, 7701, South Africa
+638 JUNIOR COLLEGE (PRIM)                                                    -34.031933    18.526803 	16 Boundary Rd, Ottery, Cape Town, 7800, South Africa
+639 Stellenbosch University                                                  -33.932808    18.864447 	Stellenbosch Central, Stellenbosch, 7600, South Africa
+640 Centre for Entrepreneurship and Innovation: Student Training Centre      -33.932968    18.628047 	Robert Sobukwe Rd, Bellville, 7535, South Africa
+641 Pick n Pay Khayelitsha                                                   -34.026479    18.664063 	Sulani Dr, Khayelitsha Centre, Khayelitsha, Cape Town, 7784, South Africa
+642 Shoprite Khayelitsha Site C                                              -34.014435    18.650166 	Cnr Solomon Tsuku and, Albertina Sisulu Cres, Cape Town, 7784, South Africa
+643 Spar - Hilltop(Harare)                                                   -34.058293    18.672491 	Bulawayo Road, Harare, Cape Town, 7784, South Africa
+644 Studio 88 Khayelitsha Mall                                               -34.048264    18.672060 	Shop 53A, Khayelitsha Mall, Mncedisi St, Khayelitsha, Cape Town, 7784, South Africa
+645 Shoprite Makhaza                                                         -34.047000    18.702600 	Cnr Landsdown And Cekeka Street, Cape Town, 7784, South Africa
+646 Ackermans Khayelitsha CBD                                                -34.047078    18.672222 	Shop 4, Khayelistha Cbd, Khayelitsha Centre C/o Steve Biko &, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+647 MTN Store - Khayelitsha                                                  -34.025832    18.664151 	Sulani Drive, Shop 20, Khayelitsha Shopping Centre, Village 3 North, Cape Town, 7784, South Africa
+648 AutoZone Khayelitsha                                                     -34.047853    18.701671 	Shop A3, Makhaza Shopping Centre, Lansdown Rd, Khayelitsha, Cape Town, 7784, South Africa
+649 OK Furniture                                                             -34.046985    18.702069 	Makhaza Shopping Centre, Lansdown Road, Khayelitsha, Cape Town, 7784, South Africa
+650 Nonqkubela Boxer Superstores                                             -34.028054    18.664317 	4 Myataza St, Village 3 North, Nonkqubela, 7784, South Africa
+651 Lewis Stores                                                             -34.026517    18.664430 	Shop 44, Khayelitsha Shopping Centre, Sulani Dr, Village 3 North, Cape Town, 7783, South Africa
+652 Shoprite LiquorShop Khayelitsha                                          -34.047629    18.671733 	Cnr Walter Sisulu & Steve Biko Rd, Khayelitsha, Cape Town, 7784, South Africa
+653 SABFICO IT & Office Solutions (Makhaza Store 002)                        -34.049731    18.703883 	36-272 Dibana Road,Makhaza, Khayelitsha, Cape Town, 7784, South Africa
+654 Dodo's                                                                   -34.026780    18.664741 	Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+655 Choice Clothing Khayelitsha Mall                                         -34.047058    18.672425 	Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+656 Edgars Khayelitsha Mall                                                  -34.046899    18.671412 	37, Khayelitsha Mall Juluis Psolo and Albertin, Khayelitsha, Cape Town, 7784, South Africa
+657 fashion world                                                            -34.046788    18.671399 	Shop No.36B, Khayelitsha Mall, Khayelitsha Station, Khayelitsha, Cape Town, 7784, South Africa
+658 Shoprite Khayelitsha CBD                                                 -34.053019    18.701092 	Corner of Walter Sisulu Road and Nomamzo, Mango St, Cape Town, 7784, South Africa
+659 JetMart KHAYELITSHA                                                      -34.046711    18.672129 	SHOP 9, KHAYELITSHA SHOPPING CENTRE, WESTERN CAPE, 7784, South Africa
+660 Dunns                                                                    -34.046900    18.671900 	SHOP 24, KHAYELITSHA SHOPPING CENTRE, KHAYELITSHA STATION, KHAYALITSHA, Khayelitsha, 7784, South Africa
+661 E/Express                                                                -34.047913    18.670508 	Cnr Julia Tsolo & Nomzono Mango, Khayelitsha, Cape Town, 7784, South Africa
+662 Ilitha park                                                              -34.055489    18.659472 	59 Mpetsheni Cres, Village 1 South, Cape Town, 7784, South Africa
+663 Franco Ceccato                                                           -34.046765    18.671790 	Shop 26, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+664 Edgars Active KHAYELITSHA                                                -34.047273    18.671796 	SHOP 37, KHAYELITSHA MALL, CNR J. PSOLO & A. SISULU STR, 7783, South Africa
+665 TRADERS WAREHOUSE Khayelitsha Mall                                       -34.047825    18.672225 	cnr Julius Tsolo & Nomzamo Rd, Khayelitsha, Cape Town, 7784, South Africa
+666 Team Asijiki Ikhaya Lempilo                                              -34.049254    18.669929 	158 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+667 ACKERMANS                                                                -34.026942    18.664219 	Nonk Qubeech Link, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+668 Shoprite Mandalay                                                        -34.010473    18.632200 	Swartklip Rd, Mandalay, Cape Town, 7785, South Africa
+669 Mr Price / MRP                                                           -34.045040    18.672950 	Shop 54 Khayelitsha Mall, 119 Julius Tsolo Monzamo Mongo, Winelands, Khayelitsha, 7784, South Africa
+670 Bradlows Khayelitsha                                                     -34.047100    18.672100 	SHOP NO 56 KHAYELITSHA SHOPPING CENTRE, KHAYELITSHA, 7784, South Africa
+671 Vodacom                                                                  -34.046997    18.672441 	Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+672 New Look Cosmetics                                                       -34.046904    18.671444 	Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+673 vodacom                                                                  -34.012255    18.643468 	B24B, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+674 MTN                                                                      -34.046976    18.671980 	Shop No. 20, Khayelitsha Shopping Centre, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+675 PEP Store                                                                -34.046766    18.702571 	PEP 8787 Shop NO 4 Shoprite CNT, Landsdowne Road, Cape Town, 7784, South Africa
+676 Shoprite LiquorShop Khayelitsha Site C                                   -34.014302    18.650622 	Cnr Solomon Tsuku and, Albertina Sisulu Cres, Khayelitsha, Cape Town, 7784, South Africa
+677 Shoprite Khayelitsha                                                     -34.026800    18.664500 	Noqubela Station Lingulethu West, Cape Town, 7784, South Africa
+678 Picardi ReBEL                                                            -34.048137    18.672249 	Shop 2, Khayelitsha Shopping Centre, 1 Julius Tsolo Street, Khayelitsha, Cape Town, 7784, South Africa
+679 Cash Crusaders Khayelitsha                                               -34.047882    18.671738 	Shop 36, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 8001, South Africa
+680 Site-B Cash & Carry                                                      -34.027460    18.674854 	Landsdown Rd, Khayelitsha, Cape Town, 7784, South Africa
+681 Khaya Meats                                                              -34.027194    18.664212 	Shop 4, Khayelitsha Shopping Centre, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+682 Shoprite                                                                 -34.027091    18.664353 	Nonqubela Centre, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+683 New Khayelitsha Hardware                                                 -34.025827    18.663883 	16, Zakehni Plaza, Sulani Dr, Siteb, Cape Town, 7784, South Africa
+684 Kekkel en Kraai                                                          -34.013389    18.637755 	11, Thembani Shopping Centre, Capital Pl, Khayelitsha, Cape Town, 7784, South Africa
+685 Goal - Makhaza                                                           -34.046183    18.697775 	5 Phala Cres, T3-V5, Cape Town, 7784, South Africa
+686 SHOPRITE                                                                 -34.046541    18.671633 	Office No.29, Khayelitsha Mall, Elitha Park, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+687 Nonkqubela Hardware                                                      -34.027023    18.664615 	Shop No.02, Site B, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+688 My Address                                                               -34.032787    18.662784 	Sihle Cres, Village 1 North, Cape Town, 7784, South Africa
+689 Tembani Distributors                                                     -34.014143    18.635841 	Shop 18b capital drive Tembani centre, Khayelitsha, Cape Town, 7784, South Africa
+690 Makhaza Hardware                                                         -34.047205    18.702552 	Makhaza Shopping Centre, Govan Mbeki Rd, Makhaza, Cape Town, 7784, South Africa
+691 PEP Store                                                                -34.026660    18.664518 	Shop 19 Nonqubela Link Mall, Sulami Drive, Khayalitsha, 7784, South Africa
+692 Beautiful Life                                                           -34.048203    18.672231 	05, Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+693 Shab's Auto & Motor Spares.                                              -34.048153    18.668577 	134 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+694 Morkels                                                                  -34.051887    18.667849 	Walter Sisulu & Steve Biko Street, Khayelitsha, Cape Town, 7784, South Africa
+695 Wellas Refrigeration & Air conditioning                                  -34.051556    18.656875 	7 Sikhwalmanzi St, Village 1 South, Cape Town, 7784, South Africa
+696 Best African Wear                                                        -34.013755    18.637768 	12A, Thembani Shopping Centre, Thembani, Cape Town, 7784, South Africa
+697 PIE CITY                                                                 -34.026990    18.664738 	Shop 5, Site B, Nonkqubela Link Mall, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+698 Shoprite Mandalay                                                        -34.011181    18.632577 	24 Astronaut Cl, Khayelitsha, Cape Town, 7784, South Africa
+699 New Look Cosmetics                                                       -34.014324    18.650588 	10, Site C Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+700 JKC Hardware                                                             -34.013621    18.637753 	10B, Thembani Shopping Centre, Capital Pl, Khayelitsha, Cape Town, 7784, South Africa
+701 Studio 88 Khayelitsha Mall                                               -34.048264    18.672060 	Shop 53A, Khayelitsha Mall, Mncedisi St, Khayelitsha, Cape Town, 7784, South Africa
+702 AutoZone Khayelitsha                                                     -34.047853    18.701671 	Shop A3, Makhaza Shopping Centre, Lansdown Rd, Khayelitsha, Cape Town, 7784, South Africa
+703 OK Furniture                                                             -34.046985    18.702069 	Makhaza Shopping Centre, Lansdown Road, Khayelitsha, Cape Town, 7784, South Africa
+704 MTN Store - Khayelitsha                                                  -34.025832    18.664151 	Sulani Drive, Shop 20, Khayelitsha Shopping Centre, Village 3 North, Cape Town, 7784, South Africa
+705 Lewis Stores                                                             -34.026517    18.664430 	Shop 44, Khayelitsha Shopping Centre, Sulani Dr, Village 3 North, Cape Town, 7783, South Africa
+706 SABFICO IT & Office Solutions (Makhaza Store 002)                        -34.049731    18.703883 	36-272 Dibana Road,Makhaza, Khayelitsha, Cape Town, 7784, South Africa
+707 Edgars Khayelitsha Mall                                                  -34.046899    18.671412 	37, Khayelitsha Mall Juluis Psolo and Albertin, Khayelitsha, Cape Town, 7784, South Africa
+708 Dodo's                                                                   -34.026780    18.664741 	Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+709 Shoprite LiquorShop Khayelitsha                                          -34.047629    18.671733 	Cnr Walter Sisulu & Steve Biko Rd, Khayelitsha, Cape Town, 7784, South Africa
+710 Choice Clothing Khayelitsha Mall                                         -34.047058    18.672425 	Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+711 Nonqkubela Boxer Superstores                                             -34.028054    18.664317 	4 Myataza St, Village 3 North, Nonkqubela, 7784, South Africa
+712 fashion world                                                            -34.046788    18.671399 	Shop No.36B, Khayelitsha Mall, Khayelitsha Station, Khayelitsha, Cape Town, 7784, South Africa
+713 E/Express                                                                -34.047913    18.670508 	Cnr Julia Tsolo & Nomzono Mango, Khayelitsha, Cape Town, 7784, South Africa
+714 vodacom                                                                  -34.012255    18.643468 	B24B, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+715 JetMart KHAYELITSHA                                                      -34.046711    18.672129 	SHOP 9, KHAYELITSHA SHOPPING CENTRE, WESTERN CAPE, 7784, South Africa
+716 Dunns                                                                    -34.046900    18.671900 	SHOP 24, KHAYELITSHA SHOPPING CENTRE, KHAYELITSHA STATION, KHAYALITSHA, Khayelitsha, 7784, South Africa
+717 Franco Ceccato                                                           -34.046765    18.671790 	Shop 26, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+718 Edgars Active KHAYELITSHA                                                -34.047273    18.671796 	SHOP 37, KHAYELITSHA MALL, CNR J. PSOLO & A. SISULU STR, 7783, South Africa
+719 New Look Cosmetics                                                       -34.046904    18.671444 	Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+720 Team Asijiki Ikhaya Lempilo                                              -34.049254    18.669929 	158 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+721 Mr Price / MRP                                                           -34.045040    18.672950 	Shop 54 Khayelitsha Mall, 119 Julius Tsolo Monzamo Mongo, Winelands, Khayelitsha, 7784, South Africa
+722 Bradlows Khayelitsha                                                     -34.047100    18.672100 	SHOP NO 56 KHAYELITSHA SHOPPING CENTRE, KHAYELITSHA, 7784, South Africa
+723 TRADERS WAREHOUSE Khayelitsha Mall                                       -34.047825    18.672225 	cnr Julius Tsolo & Nomzamo Rd, Khayelitsha, Cape Town, 7784, South Africa
+724 ACKERMANS                                                                -34.026942    18.664219 	Nonk Qubeech Link, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+725 Vodacom                                                                  -34.046997    18.672441 	Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+726 Tembani Distributors                                                     -34.014143    18.635841 	Shop 18b capital drive Tembani centre, Khayelitsha, Cape Town, 7784, South Africa
+727 Site-B Cash & Carry                                                      -34.027460    18.674854 	Landsdown Rd, Khayelitsha, Cape Town, 7784, South Africa
+728 MTN                                                                      -34.046976    18.671980 	Shop No. 20, Khayelitsha Shopping Centre, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+729 Picardi ReBEL                                                            -34.048137    18.672249 	Shop 2, Khayelitsha Shopping Centre, 1 Julius Tsolo Street, Khayelitsha, Cape Town, 7784, South Africa
+730 Khaya Meats                                                              -34.027194    18.664212 	Shop 4, Khayelitsha Shopping Centre, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+731 Pick n Pay Family Khayelitsha                                            -34.040220    18.677780 	Cnr Phumba & Buluwayo Road, Khay, Cape Town, 7784, South Africa
+732 Shoprite LiquorShop Makhaza                                              -34.047000    18.702600 	Cnr Landsdown And Cekeka Street, Khayelitsha, Cape Town, 7784, South Africa
+733 Shoprite LiquorShop Khayelitsha Site C                                   -34.014302    18.650622 	Cnr Solomon Tsuku and, Albertina Sisulu Cres, Khayelitsha, Cape Town, 7784, South Africa
+734 Cash Crusaders Khayelitsha                                               -34.047882    18.671738 	Shop 36, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 8001, South Africa
+735 PEP Store                                                                -34.046766    18.702571 	PEP 8787 Shop NO 4 Shoprite CNT, Landsdowne Road, Cape Town, 7784, South Africa
+736 Kekkel en Kraai                                                          -34.013389    18.637755 	11, Thembani Shopping Centre, Capital Pl, Khayelitsha, Cape Town, 7784, South Africa
+737 New Khayelitsha Hardware                                                 -34.025827    18.663883 	16, Zakehni Plaza, Sulani Dr, Siteb, Cape Town, 7784, South Africa
+738 SHOPRITE                                                                 -34.046541    18.671633 	Office No.29, Khayelitsha Mall, Elitha Park, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+739 Nonkqubela Hardware                                                      -34.027023    18.664615 	Shop No.02, Site B, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+740 My Address                                                               -34.032787    18.662784 	Sihle Cres, Village 1 North, Cape Town, 7784, South Africa
+741 Makhaza Hardware                                                         -34.047205    18.702552 	Makhaza Shopping Centre, Govan Mbeki Rd, Makhaza, Cape Town, 7784, South Africa
+742 Beautiful Life                                                           -34.048203    18.672231 	05, Khayelitsha Mall, Khayelitsha, Cape Town, 7784, South Africa
+743 Shab's Auto & Motor Spares.                                              -34.048153    18.668577 	134 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+744 Morkels                                                                  -34.051887    18.667849 	Walter Sisulu & Steve Biko Street, Khayelitsha, Cape Town, 7784, South Africa
+745 PIE CITY                                                                 -34.026990    18.664738 	Shop 5, Site B, Nonkqubela Link Mall, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+746 Wellas Refrigeration & Air conditioning                                  -34.051556    18.656875 	7 Sikhwalmanzi St, Village 1 South, Cape Town, 7784, South Africa
+747 Best African Wear                                                        -34.013755    18.637768 	12A, Thembani Shopping Centre, Thembani, Cape Town, 7784, South Africa
+748 Ackermans Khayelitsha CBD                                                -34.047078    18.672222 	Shop 4, Khayelistha Cbd, Khayelitsha Centre C/o Steve Biko &, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+749 Romi Cellular T/A R.K Electronics                                        -34.026168    18.664359 	Shop 9, Site B, Zakeni Plaza, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+750 New Look Cosmetics                                                       -34.014324    18.650588 	10, Site C Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+751 Nu - Simunye Cash & Carry & Wholesalers                                  -34.027332    18.664269 	Nonkqubela Link, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa
+752 Mojo Mens Clothing & Footwear Khayelitsha Mall                           -34.046559    18.672224 	Khayelitsha Mall, Ekuphumleni, Cape Town, 7784, South Africa
+753 Dunlop Containers - Zingie Tyres                                         -34.044176    18.684703 	Steve Biko Rd, Mandela Park, Cape Town, 7784, South Africa
+754 JKC Hardware                                                             -34.013621    18.637753 	10B, Thembani Shopping Centre, Capital Pl, Khayelitsha, Cape Town, 7784, South Africa
+755 Nonkqubela Informal Market                                               -34.027071    18.663416 	25, 25 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+756 Shoprite LiquorShop Nonqubela                                            -34.026800    18.664500 	Sanlam Centre Shop 8 Nonqubela Station, Khayelitsha, Cape Town, 7784, South Africa
+757 Shoprite Mandalay                                                        -34.011181    18.632577 	24 Astronaut Cl, Khayelitsha, Cape Town, 7784, South Africa
+758 KHUBONI TRAILER SERVICES                                                 -34.058567    18.661038 	Mew Way, Khayelitsha, Cape Town, 7784, South Africa
+759 My Phone                                                                 -34.046645    18.703138 	Makhaza Shopping Centre, Cnr Cekeka & Landsdowne Road, T3-V3, Cape Town, 7784, South Africa
+760 Ye Underwear                                                             -34.046807    18.672022 	Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+761 Khayelitsha Mall                                                         -34.047882    18.671738 	6 Mlanjeni St, Khayelitsha, Cape Town, 7784, South Africa
+762 FNB Bank ATM Makhaza Shopping Centre                                     -34.046700    18.702800 	Shop 11 Makaza Shopping Centre, Cnr Lansdowne Road, Khayaletsha, Cape Town, 7784, South Africa
+763 Eyethu Centre                                                            -34.034100    18.673190 	Malambo St, Village 2 North, Cape Town, 7784, South Africa
+764 Thembokwezi Square                                                       -34.010523    18.631859 	Swartklip Rd, Khayelitsha, Cape Town, 7784, South Africa
+765 Site C Plaza                                                             -34.014437    18.650474 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+766 Vicky's Bed and Breakfast                                                -34.010356    18.646919 	44 Kiyane Cres, Ikwezi Park, Cape Town, 7784, South Africa
+767 harare city hall                                                         -34.058019    18.670669 	42 Ncumo Rd, Harare, Cape Town, 7784, South Africa
+768 Halfway Pre-Owned Khayelitsha                                            -34.046831    18.672548 	Ekuphumleni, Cape Town, 7784, South Africa
+769 Shoprite                                                                 -34.010815    18.633280 	16 Astronaut Cl, Khayelitsha, Cape Town, 7784, South Africa
+770 Boss Inner Park                                                          -34.029208    18.655573 	65 Kusasa Rd, Village 4 North, Cape Town, 7784, South Africa
+771 Thembokwezi Shopping Centre                                              -34.010682    18.632084 	Washington Square, Cape Town, 7784, South Africa
+772 Bakery                                                                   -34.043646    18.685277 	72 Lesley Mesina St, Mandela Park, Cape Town, 7784, South Africa
+773 Pnp Khayelisha                                                           -34.027178    18.664501 	ghg, South Africa
+774 Makhaza Shopping Centre                                                  -34.046682    18.703253 	T3-V3, Cape Town, 7783, South Africa
+775 nonkqubela Shopping Centre                                               -34.026781    18.664695 	Village 3 North, Cape Town, 7783, South Africa
+776 St George Mall,cape Town                                                 -34.061936    18.758784 	17 Manuel Road, Macassar, Cape Town, 7134, South Africa
+777 Overland                                                                 -34.038593    18.681915 	Silver Town, Cape Town, 7783, South Africa
+778 Sccworks. Manufacturing installation repair and maintenance of elevators and boilers   -34.047661    18.710952 	15938 Loliwe St, T3-V3, Cape Town, 7784, South Africa
+779 Merrydale Centre                                                         -34.018329    18.623792 	Ryan Way, Mandalay, Cape Town, 7785, South Africa
+780 Shaiks Tackle & Bait Shop                                                -34.043430    18.634110 	2BothaStreet, Beacon Valley, Cape Town, 7785, South Africa
+781 Philippi Mall                                                            -34.003115    18.620728 	Philippi, Cape Town, 7750, South Africa
+782 Imarike Centre                                                           -34.002448    18.571883 	Browns Farms, Cape Town, 7750, South Africa
+783 Grand Central Shopping Centre                                            -34.004117    18.728665 	Plein St, Eerste River, Cape Town, 7100, South Africa
+784 Mfuleni Shopping Centre                                                  -34.002916    18.681472 	Mfuleni, Cape Town, 7100, South Africa
+785 FNB Bank ATM The Liberty Promenade Shopping Centre                       -34.039800    18.614600 	Promenade Mall, Cnr Az Berman and Morgenster Roads, Mitchells Plain, Cape Town, 7798, South Africa
+786 Philippi Cement Factory                                                  -34.002078    18.594502 	Philippi, Cape Town, 7750, South Africa
+787 Look Alive Centre                                                        -34.004253    18.717255 	Forest Dr, Heather Park, Cape Town, 7100, South Africa
+788 Goal Shopping Mall                                                       -34.004071    18.606332 	1 Stock Rd, Philippi, Cape Town, 7750, South Africa
+789 Philippi Plaza                                                           -33.998189    18.602123 	Japhta K Masemola Road, Philippi, Cape Town, 7655, South Africa
+790 Nzum Nzum Business Centre                                                -33.993200    18.582924 	Nyanga, Cape Town, 7750, South Africa
+791 Checkers Mall                                                            -34.050542    18.630446 	4 Dassie St, Eastridge, Cape Town, 7785, South Africa
+792 Mr. Price                                                                -34.004644    18.727652 	Shop 5/6/7, Plein St, Eerste Rivier, Cape Town, 7100, South Africa
+793 Sonata Lane Centre                                                       -34.050010    18.622220 	Sonata Lane, Mitchells Plain Town Centre, Cape Town, 7789, South Africa
+794 Watergate Centre                                                         -34.019790    18.608501 	Watergate Boulevard, Mitchells Plain, Cape Town, 7785, South Africa
+795 Westgate Mall                                                            -34.041206    18.586725 	Jakes Gerwel Dr & Morgenster Rd, Mitchells Plain, Cape Town, 7785, South Africa
+796 Footgear Mitchell's Plain                                                -34.041364    18.617767 	Beacon Valley, Cape Town, 7785, South Africa
+797 Delft Mall                                                               -33.976522    18.645427 	Cnr Hindle Rd and, Delft Main Rd, Delft, Cape Town, 7100, South Africa
+798 Sunrise Cash & Carry                                                     -34.041301    18.619647 	10bravo street industrial area, Beacon Valley, Cape Town, 7785, South Africa
+799 City Centre                                                              -34.000810    18.724007 	14 Forest Dr, Rosedale, Cape Town, 7100, South Africa
+800 DM DELFT MALL                                                            -33.978005    18.650144 	Hindle Rd, Voorbrug, Cape Town, 7100, South Africa
+801 Site C Plaza                                                             -34.014301    18.650147 	Khayelitsha, Cape Town, 7784, South Africa
+802 Foodworld Station Plaza                                                  -34.050400    18.620510 	Seventh Ave, Mitchells Plain Town Centre, Cape Town, 7789, South Africa
+803 Ok Bazaar - Mitchell's Plain                                             -34.050230    18.621000 	Symphony Walk, Mitchells Plain Town Centre, Cape Town, 7789, South Africa
+804 Mitchellsplain                                                           -34.024539    18.603614 	1 Erich Mayer Rd, Woodlands, Cape Town, 7785, South Africa
+805 Mutual Plain - Symphony Walk                                             -34.049460    18.621230 	Symphony Walk, Mitchells Plain Town Centre, Cape Town, 7789, South Africa
+806 Mitchells Plain Plaza                                                    -34.049603    18.620233 	Mitchells Plain Town Centre, Cape Town, 7785, South Africa
+807 Gugulethu Mall                                                           -33.985371    18.565231 	Guguletu, Cape Town, 7750, South Africa
+808 Shoprite - Blue Downs                                                    -33.985336    18.688558 	Cavalier Retail Centre, 1892 Hindle Road, Blue Downs, Cape Town, 7100, South Africa
+809 Guguletu Square                                                          -33.986247    18.566394 	NY1 & NY6, Guguletu, Cape Town, 7750, South Africa
+810 Polka Square                                                             -34.051832    18.621243 	28 Seventh Ave, Eastridge, Cape Town, 7785, South Africa
+811 The Cavalier Retail Centre                                               -33.986607    18.688971 	Hindle Rd, Sunset Glen, Cape Town, 7100, South Africa
+812 Groenheuwel                                                              -34.037140    18.605440 	3 Pansy, Lentegeur, Cape Town, 7786, South Africa
+813 Watergate                                                                -34.026825    18.605543 	9-41 Fred Page Rd, Woodlands, Cape Town, 7785, South Africa
+814 Family Cash Store                                                        -34.056692    18.624150 	3 Bloubos Cres, Eastridge, Cape Town, 7785, South Africa
+815 Blue Downs Mall                                                          -33.985550    18.688805 	Sunset Glen, Cape Town, 7100, South Africa
+816 47 Fund                                                                  -34.050617    18.618157 	47 Etosha Road Portlands, Mitchells Plain, Cape Town, 7785, South Africa
+817 Rocklands Centre                                                         -34.065630    18.611980 	Park Road, Rocklands, Cape Town, 7798, South Africa
+818 golden arrow depot                                                       -33.985773    18.687724 	Unnamed Road, Sunset Glen, Cape Town, 7100, South Africa
+819 Somerset Mall                                                            -34.082196    18.823552 	Firgrove Rural, Cape Town, 7110, South Africa
+820 NS BEAUTY STUDIO                                                         -34.062280    18.625140 	71 Sentinel St, Tafelsig, Cape Town, 7785, South Africa
+821 MACCSAND Mining & Quarrying                                              -34.060361    18.730949 	Macassar Rd, Macassar, Cape Town, 7130, South Africa
+822 SSB MACASSAR                                                             -34.054636    18.727979 	Macassar, Cape Town, 7130, South Africa
+823 SPH KUNDALILA                                                            -33.995133    18.577009 	Nyanga, Cape Town, 8001, South Africa
+824 AEL Mining Services                                                      -34.064242    18.776059 	1 Reeb Rd, Macassar, Somerset West, 7130, South Africa
+825 Lookout Hill                                                             -34.045223    18.657010 	2 Mthawelanga St, Village 1 South, Cape Town, 7784, South Africa
+826 CA Mining                                                                -33.960502    18.473794 	Ground Floor, Burg House, Belmont Park, Belmont Rd, Rondebosch, Cape Town, 7700, South Africa
+827 Philippi Mine                                                            -34.045290    18.581781 	Old Weltevrede Road, Philippi, S 34˚ 04.595, EO 18˚ 58.294, Philippi, 7750, South Africa
+828 Misting SA                                                               -34.103933    18.857141 	Nr 10 B Julian Way, Somerset West Business park, Somerset West, 7129, South Africa
+829 Trans Hex Group Ltd                                                      -33.901895    18.608226 	Sidvale Street, Parow, 7500, South Africa
+830 AVANT SA                                                                 -34.095935    18.841527 	Unit 2, Lochlo Building, 8 Van Der Berg Cres, Strand, Cape Town, 7140, South Africa
+831 Ilitha park                                                              -34.055489    18.659472 	59 Mpetsheni Cres, Village 1 South, Cape Town, 7784, South Africa
+832 Chemvulc                                                                 -33.895996    18.602550 	Shop 06, Klein Oostersee, 53 Friesland St, Parow, Cape Town, 7500, South Africa
+833 18 Gangster Museum                                                       -34.049016    18.690624 	Dullah Omar St, Mandela Park, Cape Town, 7784, South Africa
+834 MBitcoin Mining                                                          -33.900130    18.593030 	29 Plein Rd, Parow, Cape Town, 7500, South Africa
+835 Scratch Patch Mineral World                                              -34.171342    18.426110 	Dido Valley Rd, Simon's Town, Cape Town, 7975, South Africa
+836 ELB EQUIPMENT                                                            -33.929116    18.608880 	Parin Rd, Parow, Cape Town, 7493, South Africa
+837 Afrimat                                                                  -33.872072    18.638572 	cnr Willie van Schoor & Old Oak Road, Willie Van Schoor Ave, Cape Town, 7530, South Africa
+838 Reutech Mining                                                           -33.964050    18.834445 	35 Electron Avenue, Techno Park, Stellenbosch, 7600, South Africa
+839 CA Global Headhunters                                                    -33.961016    18.471204 	Ground Floor, Burg House, Belmont Road, Rondebosch, Cape Town, 7979, South Africa
+840 International Mining & Dredging Holding Ltd                              -33.916070    18.469649 	31 Carlisle St, Paarden Eiland, Cape Town, 7427, South Africa
+841 Spectrometer Technologies                                                -33.951487    18.702295 	38, Cincaut Rd, Blackheath, Cape Town, 7580, South Africa
+842 De Beers Marine                                                          -33.946906    18.490137 	Mowbray, Cape Town, 7700, South Africa
+843 Rainbo Supplies And Services SA (Pty) Ltd                                -33.878082    18.509965 	No 2 Computer Rd, Montague Gardens, Cape Town, 7441, South Africa
+844 squitter camp cape town                                                  -34.049512    18.692704 	69 Rev Calata Cres, Mandela Park, Cape Town, 7784, South Africa
+845 Naturally Organic                                                        -34.019729    18.558506 	Access Rd, Philippi, Cape Town, 7750, South Africa
+846 Oakland Daries                                                           -34.021859    18.565299 	669 Weltevreden Rd, Philippi, Cape Town, 7781, South Africa
+847 Kleine Sorghum Farm                                                      -34.032088    18.572306 	Weltevreden Rd, Philippi, Cape Town, 7750, South Africa
+848 Lorraine Farm                                                            -34.028605    18.571531 	Weltevreden Rd, Philippi, Cape Town, 7808, South Africa
+849 Mooiberge Farmstall                                                      -34.064288    18.745485 	Strand Rd, Macassar, Somerset West, 7130, South Africa
+850 Groote Post Farm                                                         -34.023716    18.556959 	Varkens Vlei Rd, Philippi, Cape Town, 7750, South Africa
+851 Joubert-Tradauw Cellar                                                   -34.031346    18.587817 	Marsh Farm, Barrydale, Western Cape, 6750, South Africa
+852 Stoltz Grass Farms                                                       -34.044229    18.740604 	Macassar, Cape Town, 7130, South Africa
+853 Little Creatures Honey Farm                                              -33.993195    18.735751 	93 Willow Way, Penhill Estate, Eerste River, 7100, South Africa
+854 Abalimi Garden Centre Khayelitsha                                        -34.037854    18.664618 	E505 Scott St, Village 1 North, Cape Town, 7783, South Africa
+855 Philippi Horticultural Area                                              -34.046405    18.551607 	Philippi, Cape Town, 7750, South Africa
+856 Croydon Olive Estate                                                     -34.041966    18.755799 	2 Athens Avenue, Croydon Olive Estate, Somerset West, 7130, South Africa
+857 Qurbaan Farm                                                             -34.032075    18.537697 	0A Kraal Rd, Phillipi, Cape Town, 7750, South Africa
+858 Usana Farming Estate                                                     -34.004116    18.760463 	Klein Welmoed Farm, Baden Powell Drive,, Lynedoch, Stellenbosch, South Africa
+859 Faure Community Garden                                                   -34.029633    18.746544 	Croydon, Cape Town, 7110, South Africa
+860 Sunrise Farm                                                             -34.033860    18.535648 	5 Middle Ave, Philippi, Cape Town, 7750, South Africa
+861 Chamomile Farming Enterprises (PTY)LTD                                   -34.033707    18.541701 	corner of Boom and Middel Ave, Schaap Rd, Cape Town, 8000, South Africa
+862 Polkadraai Strawberry Farm                                               -33.962917    18.743902 	7603 Stellenbosch Arterial Rd, Kuils River, 7603, South Africa
+863 Evidently Green Compost                                                  -34.026119    18.536152 	Philippi, Cape Town, 7750, South Africa
+864 Rix Radish Farm                                                          -34.015064    18.530459 	Ottery Rd, Philippi, Cape Town, 7750, South Africa
+865 Philippi Groente Verpakkers                                              -34.041797    18.548776 	Olieboom Rd, Philippi, Cape Town, 7750, South Africa
+866 Fountain of Hope                                                         -34.037851    18.535932 	258 Schaapkraal Rd, Philippi, Cape Town, 7750, South Africa
+867 Segway Spier                                                             -33.973035    18.784774 	Spier Wine Farm, R310 Baden Powel Drive, Lynedoch, Stellenbosch, 7603, South Africa
+868 Vergenoegd Löw Wine Estate                                               -34.034568    18.739318 	Baden Powell Dr, Faure, Stellenbosch, 7131, South Africa
+869 Saxenburg Wine Estate                                                    -33.958260    18.727310 	Polkadraai Rd, Stellenbosch Farms, Cape Town, South Africa
+870 Fijndraai Villas                                                         -33.996537    18.771038 	Annanadale Road, Lynedoch, Stellenbosch, 7603, South Africa
+871 Equitania Farm                                                           -34.045516    18.811865 	Stellenbosch, South Africa
+872 Bonny Brack Farm                                                         -34.060119    18.803316 	Main Rd, Firgrove Rural, Cape Town, 7110, South Africa
+873 Welmoed Winery                                                           -33.990570    18.766238 	Welmoed Estate, R310, Stellenbosch, 7603, South Africa
+874 Plant Culture Trees & Shrub Growers                                      -33.994373    18.764921 	Goedegeloof Farm Vlaeberg Road Lynedoch (Stellenbosch), Lynedoch, Stellenbosch, 7603, South Africa
+875 Beau Belle Farm                                                          -33.985858    18.779110 	24, Annandale Rd, Lynedoch, Stellenbosch, 7603, South Africa
+876 Lanrust                                                                  -34.033165    18.787336 	Stellenbosch, South Africa
+877 Trees SA Nursery                                                         -33.971083    18.755975 	Vlaeberg Rd, Lynedoch, Stellenbosch, 7600, South Africa
+878 Winterbach Stud                                                          -33.998467    18.776488 	33°59'54. 18°46'35., 5 4th St, Firgrove, Cape Town, 7110, South Africa
+879 Abalimi Garden Center Nyanga                                             -33.991752    18.585641 	672-, 673 Sithandatu Ave, Nyanga, Cape Town, 7750, South Africa
+880 Chart Farm                                                               -34.002756    18.449331 	Wynberg Pk, Klaassens Rd, Wynberg, Cape Town, 7800, South Africa
+881 Vergenoegd Family Market                                                 -34.033774    18.740537 	Macassar, Cape Town, 7130, South Africa
+882 Somerlust Farm                                                           -33.971452    18.749115 	Vlaeberg Rd, Stellenbosch, South Africa
+883 Skilpadvlei Wine Estate                                                  -33.959611    18.767843 	Skilpadvlei Farm, M12 Polkadraai Road, Stellenbosch, Cape Town, 7604, South Africa
+884 Lazuli Farm                                                              -33.960163    18.753171 	Stellenbosch, South Africa
+885 Summer Stream Farm                                                       -34.028204    18.808796 	Winery Rd, Somerset West, Cape Town, 7110, South Africa
+886 Langverwagt                                                              -33.934735    18.721484 	Langverwacht Rd, Kuils River, Cape Town, 7580, South Africa
+887 Canettevallei Lavender And Wine Farm                                     -33.941810    18.753771 	Stellenbosch, South Africa
+888 Rozendal                                                                 -33.952546    18.715742 	Polkadraai Rd, STELLENBOSCH, Cape Town, 7600, South Africa
+889 Reyneke Wines                                                            -33.956089    18.743592 	Old Polkadraai Rd, Stellenbosch, 7600, South Africa
+890 Spier Cellar                                                             -33.983997    18.785799 	Stellenbosch, South Africa
+891 Gletwyn Farm                                                             -33.949918    18.720717 	Stellenbosch Farms, Cape Town, South Africa
+892 County Fair                                                              -33.936120    18.544196 	Admiral Crescent & Bofors Circle, Epping 2, Cape Town, 7460, South Africa
+893 Genesis Farm                                                             -34.018642    18.804881 	Genesis Farm, Raithby Annendale Road, Raithby, 7130, South Africa
+894 Saxenburg                                                                -33.946755    18.719094 	Polkadraai Rd, Kuils River, Cape Town, 7579, South Africa
+895 Bein Private Cellar                                                      -33.960881    18.736993 	Old Polkadraai Rd, Vlottenburg, Stellenbosch, 7604, South Africa
+896 Karibib Vineyards                                                        -33.962258    18.733781 	Cape Town, South Africa
+897 Spier Biodynamic Farm                                                    -33.968514    18.772469 	Stellenbosch, South Africa
+898 Zevenwacht Wine Estate                                                   -33.929897    18.729458 	Langverwacht Road, Kuils River, Cape Town, 7579, South Africa
+899 Eikenhof                                                                 -33.963108    18.759246 	Polkadraai Rd, South Africa
+900 Hartley Glen                                                             -34.035268    18.794735 	Winery Rd, Raithby, 7130, South Africa
+901 Thandi Wines (Pty) Ltd                                                   -33.963328    18.794021 	Eerste River Cellar, R310, Vlottenburg, Stellenbosch, 7604, South Africa
+902 Dave Vd Spuy                                                             -34.035019    18.795106 	Dave Road, Raithby, 7130, South Africa
+903 Vorentoe                                                                 -33.947944    18.708980 	0A Skyuvurie Ln, Kuils River, Cape Town, 7579, South Africa
+  1 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+  2 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+  3 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+  4 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+  5 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+  6 Nolungile Community Health Centre Pharmacy                               -34.013539    18.650236 	Solomon Tshuku Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+  7 ClinicMed                                                                -34.047859    18.672864 	Shop 13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+  8 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+  9 CliniMed Medical & Aesthetics Solutions                                  -34.010882    18.632080 	Washington Square, Cape Town, 7784, South Africa
+ 10 Site B Khayelitsha Community Health Centre - A R V Clinic                -34.027647    18.665745 	98 Sulani Dr, Village 2 North, Cape Town, 7784, South Africa
+ 11 Simelela Centre                                                          -34.024411    18.665628 	89 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+ 12 Khayelitsha Medical Centre                                               -34.047804    18.672934 	Shop No.13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 13 Eerste River Clinic                                                      -34.009162    18.724443 	2 Oxalis Cres, Devon Park Village, Cape Town, 7100, South Africa
+ 14 St Luke's Combined Hospices-Lizo Nobanda(Multi Drug Resistant TB patients)   -34.054654    18.667071 	37747 Mbotyi St, Harare, Cape Town, 7784, South Africa
+ 15 Site B Clinic                                                            -34.027603    18.665748 	Lwandle, Village 2 North, Cape Town, 7784, South Africa
+ 16 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+ 17 Browns Farm Community Health Clinic                                      -34.011142    18.578134 	Erf 2495 Msingezane Street, Browns Farms, Cape Town, 7750, South Africa
+ 18 Mandalay Public Clinic                                                   -34.015423    18.621955 	Ryan Way, Mandalay, Cape Town, 7785, South Africa
+ 19 Khayelitsha Hospital                                                     -34.050556    18.674718 	Walter Sisulu Drive & Steve Biko Drive, Mandela Park, Khayelitsha, 7784, South Africa
+ 20 Town Two Clinic                                                          -34.040065    18.683147 	Zibonele & Manyano St Town 2, Khayelitsha, Cape Town, 7784, South Africa
+ 21 Mdzananda Animal Clinic Khayelitsha                                      -34.047382    18.682374 	21297 Govan Mbeki Road, Khayelitsha, Mandela Park, 7740, South Africa
+ 22 Ikamva Labantu Nursing Surgery & Medspaza                                -34.032472    18.673193 	1 Lubelwana St, Village 2 North, Cape Town, 7784, South Africa
+ 23 Spec-Savers Khayelitsha                                                  -34.036946    18.676473 	-34.036946, 18.676473, 16 Shwabane Cres, Village 2 North, Cape Town, 7784, South Africa
+ 24 Site C Youth Centre - A R V Clinic                                       -34.013609    18.646829 	Solomon Tshuku Avenue, Khayelitsha Site C, Cape Town, 7784, South Africa
+ 25 Town I I Clinic - A R V                                                  -34.040104    18.683213 	Cnr Lansdowne & Basil Zondi Road, Khayelitsha, Cape Town, 7784, South Africa
+ 26 CLINIC                                                                   -34.025565    18.665442 	Village 3 North, Cape Town, 7783, South Africa
+ 27 SA.MAST Animal Clinic Khayelitsha                                        -34.033073    18.665978 	Cnr Sizane & Sitofile Streets, G Section, Khayelitsha, Cape Town, 7784, South Africa
+ 28 Mzamomhle Tb/hiv Clinic                                                  -34.010671    18.589253 	1678 Khamango St, Browns Farms, Cape Town, 7750, South Africa
+ 29 Russels Rest Clinic                                                      -34.003692    18.727037 	Andrew Street, Russels Rest, Cape Town, 7100, South Africa
+ 30 iven tomsen clinic                                                       -34.005402    18.680831 	16 Church St, Mfuleni, Cape Town, 7100, South Africa
+ 31 Site B Youth Clinic - Khayelitsha                                        -34.023849    18.665797 	Site B, Sulani Drive, Khayelitsha, Cape Town, 7784, South Africa
+ 32 Ivan Toms Clinic                                                         -33.991422    18.671897 	178, 134 O Nqubelani St, Unclear, Cape Town, 7100, South Africa
+ 33 Matthew Goniwe Clinic                                                    -34.044014    18.705726 	9 Khwahlaza St, T3-V5, Cape Town, 7784, South Africa
+ 34 Crossroad Community Health Centre                                        -33.997923    18.597709 	Gwayi St, Crossroad, Cape Town, 7750, South Africa
+ 35 Zakhele Clinic - A R V                                                   -34.041389    18.659403 	A544 Zakhele Street, Khayelitsha, Cape Town, 7784, South Africa
+ 36 Heldercare clinic                                                        -34.004258    18.726411 	Clairwood, Cape Town, 7100, South Africa
+ 37 Mzamomhle Clinic                                                         -34.015534    18.612025 	saawitqi, Philippi, Cape Town, 7785, South Africa
+ 38 Lathi Tha Eye Care                                                       -33.995133    18.577009 	Golden Acres, 32 Adderley St, Nyanga, Cape Town, 8001, South Africa
+ 39 Nyanga Community Health Clinic                                           -33.991822    18.585092 	Sithanduthu Street, Nyanga, Cape Town, 7750, South Africa
+ 40 U W C Dental Faculty                                                     -34.008243    18.596414 	Town Centre Medical Centre, Symphony Way, Mitchells Plain, Cape Town, 7785, South Africa
+ 41 Phumlani Clinic                                                          -34.010989    18.610178 	Ngqabe Rd, Lower Crossroad, Cape Town, 7750, South Africa
+ 42 Nolungile Community Health Centre                                        -34.043670    18.652120 	Lawrence Road, Khayelitsha, Cape Town, 7784, South Africa
+ 43 Roncil Private Physiotherapy Clinic                                      -34.046617    18.663231 	30 Msobomvu Dr, Village 1 South, Cape Town, 7784, South Africa
+ 44 Mayenzeke Health Clinic                                                  -34.052221    18.702192 	42 Fundana St, T3-V3, Cape Town, 7784, South Africa
+ 45 Dr Ivan Toms Clinic                                                      -33.991132    18.671271 	O Nqubelani St, Mfuleni, Cape Town, 7100, South Africa
+ 46 Khayelitsha District Hospital - Trauma Unit                              -34.050668    18.674260 	Cnr Walter Sisulu & Steve Biko Road, Khayelitsha, Cape Town, 7784, South Africa
+ 47 Rondevlei Medical Dental Physiotherapy Care                              -34.035174    18.584690 	29 Fulham Rd, Mitchells Plain, Cape Town, 7500, South Africa
+ 48 Layers Skin Clinic                                                       -34.008202    18.741906 	56 Dawn Crescent, Baden Powell Drive,, De Wijnlanden Estate, Stellenbosch, Cape Town, 7600, South Africa
+ 49 Mfuleni Day hospital                                                     -34.005388    18.681390 	10 Church St, Mfuleni, Cape Town, 7100, South Africa
+ 50 Nolungile Youth Centre                                                   -34.047913    18.670508 	Solomon Tsuku Rd Site C, Khayelitsha, Cape Town, 7784, South Africa
+ 51 Lentegeur Psychiatric Hospital                                           -34.024625    18.615689 	Highlands Dr, Lentegeur, Cape Town, 7786, South Africa
+ 52 Crossroads 1 Clinic                                                      -33.992062    18.603639 	Klipfontein Rd, Cross Road, Cape Town, 7750, South Africa
+ 53 Luvuyo Health Clinic - A R V                                             -34.050433    18.709303 	Hlela Road, Macassar, Cape Town, 7130, South Africa
+ 54 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+ 55 Site B Youth Centre                                                      -34.034536    18.667050 	Lwandle Rd, Village 2 North, Cape Town, 7784, South Africa
+ 56 Crossroads 2 Clinic                                                      -34.003098    18.561412 	7785 Lansdowne Rd, Browns Farms, Cape Town, 7785, South Africa
+ 57 Merrydale Day Clinic                                                     -34.034300    18.609913 	Merrydale Ave, Mitchells Plain, Cape Town, 7785, South Africa
+ 58 Philani Nutrition Centres - Mobile Clinic                                -34.015120    18.652460 	Phaphani Street, Khayelitsha Site C, Cape Town, 7784, South Africa
+ 59 Dr N Basson Dentist                                                      -34.043714    18.665378 	32 Ntlazane Rd, Village 1 South, Cape Town, 7784, South Africa
+ 60 Luvuyo Health Clinic                                                     -34.051310    18.695590 	Hlela Road, T3-V4, Cape Town, 7784, South Africa
+ 61 Khayelitsha Medical Centre                                               -34.047804    18.672934 	Shop No.13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 62 Michael Mapongwana Community Health Centre                               -34.051251    18.670822 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+ 63 Khayelitsha Community Health Centre                                      -34.027792    18.664047 	Lwandle Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 64 Nolungile Youth Clinic                                                   -34.013474    18.650425 	Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+ 65 Dr Shiraz Patel                                                          -34.013258    18.637139 	6, Thembani Shopping Centre, Govan Mbeki Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 66 Kuyasa Clinic                                                            -34.056208    18.689279 	Ntlazana Street, Khayelitsha, Cape Town, 7784, South Africa
+ 67 Harare Medical Centre                                                    -34.058219    18.672418 	6 Cephe Cres, Harare, Cape Town, 7784, South Africa
+ 68 Dr FC Lotter & Partners                                                  -34.012763    18.645255 	Site C Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa
+ 69 Site C Plaza medical centre                                              -34.014609    18.650106 	Ikwezi Park, Cape Town, 7784, South Africa
+ 70 Dr. Ashiva Maharaj Surgery                                               -34.013729    18.647070 	Solomon Tshuku Ave, Ikwezi Park, Cape Town, 7784, South Africa
+ 71 ClinicMed                                                                -34.047859    18.672864 	Shop 13, Khayelitsha Mall, Walter Sisulu Rd, Khayelitsha, Cape Town, 7784, South Africa
+ 72 Browns Farm Community Health Clinic                                      -34.011142    18.578134 	Erf 2495 Msingezane Street, Browns Farms, Cape Town, 7750, South Africa
+ 73 Delft South Clinic                                                       -33.991733    18.633277 	Cnr Main & Voorbrug Roads, Delft South, Cape Town, 7100, South Africa
+ 74 Maloke Medical centre                                                    -34.005301    18.682950 	4 Luyolo St, Mfuleni, Cape Town, 7100, South Africa
+ 75 Eerste River Clinic                                                      -34.009162    18.724443 	2 Oxalis Cres, Devon Park Village, Cape Town, 7100, South Africa
+ 76 Site B Clinic                                                            -34.027603    18.665748 	Lwandle, Village 2 North, Cape Town, 7784, South Africa
+ 77 Simelela Centre                                                          -34.024411    18.665628 	89 Sulani Dr, Village 3 North, Cape Town, 7784, South Africa
+ 78 CliniMed Medical & Aesthetics Solutions                                  -34.010882    18.632080 	Washington Square, Cape Town, 7784, South Africa
+ 79 Ubuntu Clinic                                                            -34.027885    18.665082 	Site B, Lwandle Road, Khayelitsha, Cape Town, 7784, South Africa
+ 80 Nolungile Community Health Centre                                        -34.043670    18.652120 	Lawrence Road, Khayelitsha, Cape Town, 7784, South Africa

@@ -264,7 +264,7 @@ class Display(object):
 		if Type is '3D': figure.set_zlabel('Altitude in (km)')
 
 		if Show is True:
-			plt.show()
+			plt.show(block=True)
 
 		if Save is True:
 			Display.SaveNetwork(nodes, network, Radius, Name)
@@ -272,8 +272,10 @@ class Display(object):
 			if Name is not None:
 				FileName += str(Name)
 			FileName += str('---' + datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
-			plt.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '.png')
-
+			fig.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '.png')
+		
+		from time import sleep;
+		sleep(1);
 		plt.close()
 
 	def MapNetwork(Nodes = None, Network = None, Name = None, Radius = '', Show = False, Save = False):

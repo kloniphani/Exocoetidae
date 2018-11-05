@@ -1,0 +1,2198 @@
+{
+    "1": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86308227010728,
+                    "lng": 31.07894662989272
+                },
+                "southwest": {
+                    "lat": -23.86578192989272,
+                    "lng": 31.07624697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "plus_code": {
+            "compound_code": "43PH+62 Phalaborwa, South Africa",
+            "global_code": "5G8H43PH+62"
+        },
+        "rating": 0,
+        "reference": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "2": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86308227010728,
+                    "lng": 31.07894662989272
+                },
+                "southwest": {
+                    "lat": -23.86578192989272,
+                    "lng": 31.07624697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "plus_code": {
+            "compound_code": "43PH+62 Phalaborwa, South Africa",
+            "global_code": "5G8H43PH+62"
+        },
+        "rating": 0,
+        "reference": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "3": {
+        "formatted_address": "1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.863053,
+                "lng": 31.082236
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86170317010727,
+                    "lng": 31.08358582989272
+                },
+                "southwest": {
+                    "lat": -23.86440282989272,
+                    "lng": 31.08088617010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "0654af0ea511a6b6ec21fae538621f7a09fb43c3",
+        "name": "Lulekani Community Health Centre",
+        "place_id": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "plus_code": {
+            "compound_code": "43PJ+QV Phalaborwa, South Africa",
+            "global_code": "5G8H43PJ+QV"
+        },
+        "rating": 1,
+        "reference": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "4": {
+        "formatted_address": "No Street Names, Elandsdoorn-B, 0485, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -25.2847042,
+                "lng": 29.1941687
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -25.28335437010728,
+                    "lng": 29.19551852989272
+                },
+                "southwest": {
+                    "lat": -25.28605402989272,
+                    "lng": 29.19281887010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "f211bde2f4d2d904b533a23ce4aedf089da0bf22",
+        "name": "Ndlovu Medical Centre",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJ_____046wB4RgaOuqg5MLOA",
+        "rating": 4.7,
+        "reference": "ChIJ_____046wB4RgaOuqg5MLOA",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "5": {
+        "formatted_address": "Sekhiming, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.4303883,
+                "lng": 30.5609663
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.42903847010728,
+                    "lng": 30.56231612989271
+                },
+                "southwest": {
+                    "lat": -23.43173812989272,
+                    "lng": 30.55961647010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "0854b65dbe690185669040f4faf9b1d6b75ba80b",
+        "name": "Sekhiming Health Centre",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJX40taMVAxB4RaCPA5qkT8Wo",
+        "plus_code": {
+            "compound_code": "HH96+R9 Sekhiming, South Africa",
+            "global_code": "5G8GHH96+R9"
+        },
+        "rating": 0,
+        "reference": "ChIJX40taMVAxB4RaCPA5qkT8Wo",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "6": {
+        "formatted_address": "Namakgale-D, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9260467,
+                "lng": 31.0386515
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.92469687010728,
+                    "lng": 31.04000132989272
+                },
+                "southwest": {
+                    "lat": -23.92739652989272,
+                    "lng": 31.03730167010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "f33dfa150030db2e0de8c912a47b27d5910b1117",
+        "name": "Maphutha Malatji Hospital Pharmacy",
+        "photos": [
+            {
+                "height": 600,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100688135080738015078/photos\">Danny Milton</a>"
+                ],
+                "photo_reference": "CmRaAAAAM5ZPx-azS7feFqV6mLq4UXk_r9UjxYaUvT7_68KVWEAX2YPJlrMd_URtLuTHzRDx0MMN2--BJqaMfXGvhq8axLksOHsUBDfod3zBoIcNpP1OJrSut5eedRLOHfdaH0boEhCSVuyIO7CKG1JaNL9w-X4CGhQdj1Ajsc21c-IiBYUWDCb-QAQMhg",
+                "width": 800
+            }
+        ],
+        "place_id": "ChIJR8IzwfRwwx4RBDtBsJvcLmo",
+        "plus_code": {
+            "compound_code": "32FQ+HF Phalaborwa, South Africa",
+            "global_code": "5G8H32FQ+HF"
+        },
+        "rating": 2.5,
+        "reference": "ChIJR8IzwfRwwx4RBDtBsJvcLmo",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "7": {
+        "formatted_address": "Moroke Village, Burgersfort, Limpopo, South Africa, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.3875148,
+                "lng": 30.07462899999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.38616497010728,
+                    "lng": 30.07597882989271
+                },
+                "southwest": {
+                    "lat": -24.38886462989273,
+                    "lng": 30.07327917010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "4253a793b911cb3cb66dec0d22399801e6c705a6",
+        "name": "Mecklenburg Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJhcCbue1jwR4RvEA5WPsE-FI",
+        "plus_code": {
+            "compound_code": "J36F+XV Mecklenburg-B, South Africa",
+            "global_code": "5G7GJ36F+XV"
+        },
+        "rating": 1,
+        "reference": "ChIJhcCbue1jwR4RvEA5WPsE-FI",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "8": {
+        "formatted_address": "Cnr Grobler Street &, Eland Ave, Savannah, Polokwane, 0699, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9020206,
+                "lng": 29.4934309
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90067077010728,
+                    "lng": 29.49478072989271
+                },
+                "southwest": {
+                    "lat": -23.90337042989272,
+                    "lng": 29.49208107010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "5d0d7ab644e27dfdb1f8ca25e10e2cf3361eeeb9",
+        "name": "Netcare Hospital Polokwane",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2340,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107110563698939239352/photos\">Donovan Jardim</a>"
+                ],
+                "photo_reference": "CmRaAAAA1OYh4EHdCf9_YIPchRQfsrUJ0QYHE7X1AxCs9T7J_EfW-sJ9dZM0YeE9JWADk30TmcyeVBba-sahEkb9vlrRp0kFy24O2XxpgyprDFjJg85QzMGbU-FdqxWf_9nuj58KEhAxbaThUucpHu-kn59QaqnnGhRMZroxTbWEXXbUozMw3EQP8U1Kig",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJ25j2mOHZxh4RoXD75VZnkiI",
+        "plus_code": {
+            "compound_code": "3FXV+59 Polokwane, South Africa",
+            "global_code": "5G8F3FXV+59"
+        },
+        "rating": 3.4,
+        "reference": "ChIJ25j2mOHZxh4RoXD75VZnkiI",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "9": {
+        "formatted_address": "2 Geyser St, Trim Park, Mokopane, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.1969845,
+                "lng": 29.0126714
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.1945455,
+                    "lng": 29.01431197989272
+                },
+                "southwest": {
+                    "lat": -24.1977975,
+                    "lng": 29.01161232010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "e0fe93eed1012d3f000fbb8c269cb58a0bd7efdb",
+        "name": "Voortrekker Hospital",
+        "opening_hours": {},
+        "place_id": "ChIJwd7HpD21wB4RuAjpy8Yhc5c",
+        "plus_code": {
+            "compound_code": "R237+63 Mokopane, South Africa",
+            "global_code": "5G7FR237+63"
+        },
+        "rating": 2,
+        "reference": "ChIJwd7HpD21wB4RuAjpy8Yhc5c",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "10": {
+        "formatted_address": "Phundamaria Main Road, Shayandima, Thohoyandou, 0945, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.995015,
+                "lng": 30.4146151
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.99366517010728,
+                    "lng": 30.41596492989272
+                },
+                "southwest": {
+                    "lat": -22.99636482989272,
+                    "lng": 30.41326527010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "7d1a4089e20758f153818415bec1693c5d7d774c",
+        "name": "Tshilidzini Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 960,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105470998429640386593/photos\">Mavis Maphaha</a>"
+                ],
+                "photo_reference": "CmRaAAAA9d4UEv9khZm4eIw6CtbSp4aqoYuywW-SJulNBL-ag5sV9Y6eM0GMlS6HDZHp-oS5ilWbBhtAO41uIZWxo3tVKw9BPgbLgpRdtUyYh5o2NDhFIcyTbqYWzII3u7j756XKEhBAFjZo8ReC1F3eXMgdIpghGhTsNxfnxUTtFN94oYHqcnepZNtqZA",
+                "width": 1280
+            }
+        ],
+        "place_id": "ChIJ21kubcfFxR4RwGlwDui5NDM",
+        "plus_code": {
+            "compound_code": "2C37+XR Thohoyandou, South Africa",
+            "global_code": "5G9G2C37+XR"
+        },
+        "rating": 2.8,
+        "reference": "ChIJ21kubcfFxR4RwGlwDui5NDM",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "11": {
+        "formatted_address": "246 Philadelphia Main Road, Dennilton AH, 1030, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -25.2595537,
+                "lng": 29.1498711
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -25.25820387010728,
+                    "lng": 29.15122092989272
+                },
+                "southwest": {
+                    "lat": -25.26090352989272,
+                    "lng": 29.14852127010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "ba624877f6fe401e9e6e66d642858094b3a0e697",
+        "name": "Philadelphia Hospital",
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107778166966601212734/photos\">Sebastian Harrison</a>"
+                ],
+                "photo_reference": "CmRaAAAA1A64vhmcC-QvP4uygZ_wlWj8XBq9EKAigmXIoFo6brX2HdOc95_XxodCah-TiezavC_FH8NfXDfd_irpRP6w_sCSUybalH2dWpL5QORaWUvfqUTnyhEyc5TEbZ4nopNcEhB0iwtV6MRPSozoyd4ZL9-eGhQpnqvjS6NfJIt9Kzh0Ae-j62NmrQ",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJQ7Vwo085wB4RrKQZ7DZKLf8",
+        "plus_code": {
+            "compound_code": "P4RX+5W Dennilton AH, South Africa",
+            "global_code": "5G6FP4RX+5W"
+        },
+        "rating": 4.2,
+        "reference": "ChIJQ7Vwo085wB4RrKQZ7DZKLf8",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "12": {
+        "formatted_address": "269 Dudu Madisha Dr, Mahwelereng-A, Mokopane, 0626, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.1537973,
+                "lng": 28.9885963
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.15244747010727,
+                    "lng": 28.98994612989272
+                },
+                "southwest": {
+                    "lat": -24.15514712989271,
+                    "lng": 28.98724647010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "c8a678b98ef063b6dd3a6ed03bd6d6df681c5954",
+        "name": "Mokopane Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1836,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103563608921408936061/photos\">Basilhubert Khosa</a>"
+                ],
+                "photo_reference": "CmRaAAAAn4_snYf4brHYlvNIkBDCtPKhVN-K_UQhdXwuPuV09c7M5Njeh2MGPt7NM2-qnBVuntcGYuqzTX1cKF-YjJ9ba_Bam2OU5YBWx28R83EeN-U5gEdO45Qfji4JSkwgypQEEhC7i38iYsrE6fLrFVio803FGhQib7TsKXhg-NFi4URwVDIY2Nl0ng",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJ4WV6rdJKxx4Rg9fGG9N79DU",
+        "plus_code": {
+            "compound_code": "RXWQ+FC Mahwelereng-C, Mokopane, South Africa",
+            "global_code": "5G7CRXWQ+FC"
+        },
+        "rating": 3.2,
+        "reference": "ChIJ4WV6rdJKxx4Rg9fGG9N79DU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "13": {
+        "formatted_address": "Tzaneen Lydenburg Road, Letaba, Tzaneen, 0870, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8735483,
+                "lng": 30.267554
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.87219847010728,
+                    "lng": 30.26890382989272
+                },
+                "southwest": {
+                    "lat": -23.87489812989272,
+                    "lng": 30.26620417010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "344fadfb3d2ae500b25c8c254e875857dac6742b",
+        "name": "Letaba Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100731126913623266419/photos\">Ruaan Van Rooyen</a>"
+                ],
+                "photo_reference": "CmRaAAAAz8YIcRFAJXTeobohg5FIjwVKlKvxHzuU3zO8u7jaj0Znjez_5RnjM7NJvriv5h6Za1HJJOjZ0JuPQToy5mYsV47SrW6k5PvZbAKx2KlZ7y9QrnAj0fisUz6w29WYJVTiEhAGBeLa0I0MjFCtKRZxlp1WGhRjB5EWeE5XNTtwD4dqEZSEtIwseg",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJIZLVPEkHxB4RJODqxC7PZW4",
+        "plus_code": {
+            "compound_code": "47G9+H2 Nkowankowa, South Africa",
+            "global_code": "5G8G47G9+H2"
+        },
+        "rating": 3,
+        "reference": "ChIJIZLVPEkHxB4RJODqxC7PZW4",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "14": {
+        "formatted_address": "Dorp St, Hospital Park, Polokwane, 0699, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8949137,
+                "lng": 29.4600233
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.89356387010728,
+                    "lng": 29.46137312989272
+                },
+                "southwest": {
+                    "lat": -23.89626352989272,
+                    "lng": 29.45867347010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "582f33e7665dea4db9e252d2188f6282aeb8199d",
+        "name": "Pietersburg Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2336,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111335001028459874291/photos\">Moses Da Gama</a>"
+                ],
+                "photo_reference": "CmRaAAAAbbUwlbD5HdPTzkh8RdiLP0yD5LCWANO6GfwnI1Fu7uVjBIEf3mCqEz3vlwlqq5OynUk81w0rhoKio_LmXse2mv0okU9KJDghFLf07tSCU5g_-u7v6TjrXQANX9FN_d26EhAiq5dnF2noXPV_bUiCv0QHGhRAnzK8oCzqutTIXr1C065mK-VZqQ",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJYZkMDjTYxh4Rkz7q9C-kBoM",
+        "plus_code": {
+            "compound_code": "4F46+22 Polokwane, South Africa",
+            "global_code": "5G8F4F46+22"
+        },
+        "rating": 2,
+        "reference": "ChIJYZkMDjTYxh4Rkz7q9C-kBoM",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "15": {
+        "formatted_address": "Hospital Street, Louis Trichardt, 0920, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.028596,
+                "lng": 29.905744
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.02724617010728,
+                    "lng": 29.90709382989272
+                },
+                "southwest": {
+                    "lat": -23.02994582989272,
+                    "lng": 29.90439417010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "389768effb9d9188c3d79e99083bf029c06252d7",
+        "name": "Louis Trichardt Memorial Hospital.",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJUat3ZCBsxh4Rk7GSoY2-_BQ",
+        "plus_code": {
+            "compound_code": "XWC4+H7 Louis Trichardt, South Africa",
+            "global_code": "5G8FXWC4+H7"
+        },
+        "rating": 2.2,
+        "reference": "ChIJUat3ZCBsxh4Rk7GSoY2-_BQ",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "16": {
+        "formatted_address": "R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8226407,
+                "lng": 30.1527959
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82111012010728,
+                    "lng": 30.15411457989272
+                },
+                "southwest": {
+                    "lat": -23.82380977989272,
+                    "lng": 30.15141492010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "56517be4b087f355592b778f4ecc6b994d18dad3",
+        "name": "Tzaneen Medi-Clinic",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114402395951468578213/photos\">Harmony Mkhabela</a>"
+                ],
+                "photo_reference": "CmRaAAAAvzbhx-pTiddxDSfuJ5pWiPESqBy7I-qySBhf4jt-Ih8mNM2dUpgDFapob8Th0rol3eWpw8d84kiMItJevplT9eCtqjBUrS9ep9vyHl9uTiFDCsxQra6-6hjUMtteRkbFEhBfyQrlLhk78X_bt9DJ45NlGhQyE32sGZ3cOr-XPIiyBOPAsvbvuw",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJrdmu5Nupxh4RPTewCPA46aU",
+        "plus_code": {
+            "compound_code": "55G3+W4 Tzaneen, South Africa",
+            "global_code": "5G8G55G3+W4"
+        },
+        "rating": 3.8,
+        "reference": "ChIJrdmu5Nupxh4RPTewCPA46aU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "17": {
+        "formatted_address": "1 Jan Lee Street, Lephalale, 0555, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.3348695,
+                "lng": 28.0101586
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.33351967010728,
+                    "lng": 28.01150842989272
+                },
+                "southwest": {
+                    "lat": -23.33621932989272,
+                    "lng": 28.00880877010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "6dff20ea379e4b11e501085e1efc317625d2d9b2",
+        "name": "Witpoort Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1152,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109545579599954988234/photos\">enika lumona</a>"
+                ],
+                "photo_reference": "CmRaAAAACJxc0J3926pK80hCe2kvqrUEtdKLGJk7MkV3KDQUqaa16ZLmTcbAvbtlrNoO99z6UPKIZdSa7RkTWb7XEp9PBuAwNsYjMDmoLToFZNUtCqF1qW1SZGVKaiqkUkgMr3iGEhBehKJJIBfINRRFWyDjaXx8GhSIVALdX9URsLc2AulzkPzidSYP1w",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJj42HNJyouR4RH8VgDx1qtxY",
+        "plus_code": {
+            "compound_code": "M286+33 Thabo Mbeki, South Africa",
+            "global_code": "5G8CM286+33"
+        },
+        "rating": 3.3,
+        "reference": "ChIJj42HNJyouR4RH8VgDx1qtxY",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "18": {
+        "formatted_address": "3A Magazine Rd, Musina, 0900, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.3414317,
+                "lng": 30.0440195
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.34008187010728,
+                    "lng": 30.04536932989272
+                },
+                "southwest": {
+                    "lat": -22.34278152989272,
+                    "lng": 30.04266967010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "888dc985c2f28f1216643ccff0694a9513409770",
+        "name": "Messina Hospital.",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJH5tLKj-xyB4R0K_9OJlkkac",
+        "plus_code": {
+            "compound_code": "M25V+CJ Musina, South Africa",
+            "global_code": "5G9GM25V+CJ"
+        },
+        "rating": 5,
+        "reference": "ChIJH5tLKj-xyB4R0K_9OJlkkac",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "19": {
+        "formatted_address": "Third Avenue, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.83507,
+                "lng": 30.16432
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83372017010728,
+                    "lng": 30.16566982989272
+                },
+                "southwest": {
+                    "lat": -23.83641982989273,
+                    "lng": 30.16297017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "a1835c32aa8c300e585f06f7931a8f4338206d0e",
+        "name": "Van Velden Hospital.",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102311342789582523301/photos\">Thabo Casca Mafokwane</a>"
+                ],
+                "photo_reference": "CmRaAAAAqJaHhOqpQFLzk-FgopDGUQfDtgP8ud_FsMQ4elvUMBhtnfzYKrrOK6xXnDrVpSihknv-oqx9r1y3xXUi-By0-g5cy6N_X8y4bR0XmlCA28vZzFMmNIYwYXYxoGdlgYlJEhAq1QFCErnmAfKEHwDlC6y4GhQOWmHMHKz7EVw4TLo1xy63riTx4Q",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJE4p7yQgCxB4RJD1kjz9rKvE",
+        "plus_code": {
+            "compound_code": "5577+XP Tzaneen, South Africa",
+            "global_code": "5G8G5577+XP"
+        },
+        "rating": 3.5,
+        "reference": "ChIJE4p7yQgCxB4RJD1kjz9rKvE",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "20": {
+        "formatted_address": "Maake, 0871, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.0265804,
+                "lng": 30.280849
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.02523057010728,
+                    "lng": 30.28219882989272
+                },
+                "southwest": {
+                    "lat": -24.02793022989273,
+                    "lng": 30.27949917010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "1d376044a466862256ecbb414763c9d898da9e8a",
+        "name": "DR C N Phatudi Hospital",
+        "place_id": "ChIJfXllXIz7wx4R6m_BF-zMcEw",
+        "plus_code": {
+            "compound_code": "X7FJ+98 Mohlahlareng, South Africa",
+            "global_code": "5G7GX7FJ+98"
+        },
+        "rating": 4,
+        "reference": "ChIJfXllXIz7wx4R6m_BF-zMcEw",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "21": {
+        "formatted_address": "48 Bo-Okelo St, Seshego-A, Polokwane, 0742, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8573426,
+                "lng": 29.3954391
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.85609037010728,
+                    "lng": 29.39731592989272
+                },
+                "southwest": {
+                    "lat": -23.85879002989272,
+                    "lng": 29.39461627010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "56d057544650a78424c70cd8faf4edecbc2de014",
+        "name": "Seshego Hospital",
+        "photos": [
+            {
+                "height": 640,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118038354982463089957/photos\">Mahlatse Makgato</a>"
+                ],
+                "photo_reference": "CmRaAAAA3Uf9NxZBJu79HnviwRh9SRrVJ_QmsWRiSk7SKsGv8uaR1Z_r5kOxyNp4ELETlfvAvAH14tKzTJf0HA4jx9jcd97YdyHbt6384KQlVJZ_1rT1fDhpPkIeLCGOvalo7pEZEhAnZ-IAY6ic3d7T2jiRg5abGhSGFo2Zh_oZNZVjJR1xCYkqkzHDBQ",
+                "width": 480
+            }
+        ],
+        "place_id": "ChIJe-fzfkAnxx4R4-92z_EcxK0",
+        "plus_code": {
+            "compound_code": "49VW+35 Polokwane, South Africa",
+            "global_code": "5G8F49VW+35"
+        },
+        "rating": 3.3,
+        "reference": "ChIJe-fzfkAnxx4R4-92z_EcxK0",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "22": {
+        "formatted_address": "57 Plein St, Polokwane Central, Polokwane, 0700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9083827,
+                "lng": 29.4648006
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90701222010728,
+                    "lng": 29.46625557989272
+                },
+                "southwest": {
+                    "lat": -23.90971187989273,
+                    "lng": 29.46355592010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "008ae0d747ae6744c500e6bbaf87627530bf815d",
+        "name": "Mediclinic Limpopo",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1932,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114288040269898407134/photos\">perfect seanego</a>"
+                ],
+                "photo_reference": "CmRaAAAAZjbURfrRGg7d7u2nk5XSgOtOEdB64yzAFGmJ8aN0do_xTcvFa8lGbbrXjeP3BGcsf5xkA9HpVOH0tdB9YRA1-ukLx0Jjz1-_BFYDW3AMfKGeWR3cHilMLUje04PP7hnbEhAnz-SoOpcLyMElPapiQqOMGhTA00n0UJ4-1y20FtRaulLfUDlTjg",
+                "width": 2576
+            }
+        ],
+        "place_id": "ChIJvXCA5HjXxh4R8oSlNlVqUfU",
+        "plus_code": {
+            "compound_code": "3FR7+JW Polokwane, South Africa",
+            "global_code": "5G8F3FR7+JW"
+        },
+        "rating": 3.8,
+        "reference": "ChIJvXCA5HjXxh4R8oSlNlVqUfU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "23": {
+        "formatted_address": "Glen Cowie, 1061, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.8442859,
+                "lng": 29.8092325
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.84293607010728,
+                    "lng": 29.81058232989272
+                },
+                "southwest": {
+                    "lat": -24.84563572989273,
+                    "lng": 29.80788267010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "99c1fd6d9bf3b002e77105b684d20c00460f380d",
+        "name": "Saint Ritas Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 960,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118077706298542305338/photos\">Heinrich Drewes</a>"
+                ],
+                "photo_reference": "CmRaAAAAUZfNrQY5Vfdg27255Y3Sch3sRzsBtrt5gXUPrahPgfHvU2d0H_rfsJG1P385oPOTOrlIvLQu9G9gAwWpJ11NMcB7DU4VkIiPy6DgK_09TM_nVI1ZwVt1HJReqRcgVfPoEhDjA9cO-m1Hoa6ShREz-MYCGhRBbrWb702svUVJh4i0ryQq_0YuNg",
+                "width": 1280
+            }
+        ],
+        "place_id": "ChIJI7Du9HKYwR4Rv098k1JyUHc",
+        "plus_code": {
+            "compound_code": "5R45+7M Glen Cowie, South Africa",
+            "global_code": "5G7F5R45+7M"
+        },
+        "rating": 3.9,
+        "reference": "ChIJI7Du9HKYwR4Rv098k1JyUHc",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "24": {
+        "formatted_address": "146 Berg St, Modimolle, 0510, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.7014658,
+                "lng": 28.4220459
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.70001677010728,
+                    "lng": 28.42352232989272
+                },
+                "southwest": {
+                    "lat": -24.70271642989272,
+                    "lng": 28.42082267010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "30d7302058c52f632a52826d8c22c84263b575fb",
+        "name": "F H Odendaal Hospital.",
+        "opening_hours": {},
+        "place_id": "ChIJGRV6twxpvx4RWYDTZKVp7lA",
+        "plus_code": {
+            "compound_code": "7CXC+CR Modimolle, South Africa",
+            "global_code": "5G7C7CXC+CR"
+        },
+        "rating": 2.2,
+        "reference": "ChIJGRV6twxpvx4RWYDTZKVp7lA",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "25": {
+        "formatted_address": "Malamulela Street, Malamulele-A, Malamuela, 0982, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.9963668,
+                "lng": 30.697213
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.99501697010728,
+                    "lng": 30.69856282989272
+                },
+                "southwest": {
+                    "lat": -22.99771662989272,
+                    "lng": 30.69586317010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "79dc19fb352179741252c3d722f2ab76a95559c4",
+        "name": "Malamulele Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJLTTMAzGwxR4R8pQETODSPfM",
+        "plus_code": {
+            "compound_code": "2M3W+FV Malamulele, South Africa",
+            "global_code": "5G9G2M3W+FV"
+        },
+        "rating": 4,
+        "reference": "ChIJLTTMAzGwxR4R8pQETODSPfM",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "26": {
+        "formatted_address": "Alwyn Street & Chris Hani Ave, Lephalale, 0555, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6780972,
+                "lng": 27.7011137
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.67674737010728,
+                    "lng": 27.70246352989273
+                },
+                "southwest": {
+                    "lat": -23.67944702989272,
+                    "lng": 27.69976387010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "65edb1f08a3ab6ed191b446d72370758275f9d46",
+        "name": "Ellisras Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJbXZj9GemuR4REDuakTm67cM",
+        "plus_code": {
+            "compound_code": "8PC2+QC Lephalale, South Africa",
+            "global_code": "5G898PC2+QC"
+        },
+        "rating": 2,
+        "reference": "ChIJbXZj9GemuR4REDuakTm67cM",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "27": {
+        "formatted_address": "Ga-Mmabasotho, 0710, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.60709,
+                "lng": 29.15268
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.60574017010728,
+                    "lng": 29.15402982989272
+                },
+                "southwest": {
+                    "lat": -23.60843982989272,
+                    "lng": 29.15133017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "c92a61325d253ea7585414a6fdac6b331cad7fec",
+        "name": "W F Knobel Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105482911487499155610/photos\">Molese Kekana</a>"
+                ],
+                "photo_reference": "CmRaAAAArsCxa4-Yc6asAJo8vAwYgNQuRL6yjWjogfbhT0LC7kHOJNNx4eur_6nKHWOpXkgCtmXdBjvjtg8K4rTOznxGAvgbO8SnhETU7b4JSFrysBNOE5W5UX-BZdUxANyuqnEpEhD_3yxraFk3wF1AgqQ3AAv7GhSkNnli0Lc_675pXMqkjimNJe22eg",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJA9bjzBIOxx4RLhma4pY5NnA",
+        "plus_code": {
+            "compound_code": "95V3+53 Ga-Mmabasotho, South Africa",
+            "global_code": "5G8F95V3+53"
+        },
+        "rating": 1.7,
+        "reference": "ChIJA9bjzBIOxx4RLhma4pY5NnA",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "28": {
+        "formatted_address": "Bochum, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.2833046,
+                "lng": 29.1133236
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.28195477010728,
+                    "lng": 29.11467342989272
+                },
+                "southwest": {
+                    "lat": -23.28465442989272,
+                    "lng": 29.11197377010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "a47a8292a7377fe8da335560b76526e766225cfa",
+        "name": "Helen Franz Hospital",
+        "opening_hours": {},
+        "place_id": "ChIJnXsRpMm8xx4RhAWBA9n52jE",
+        "plus_code": {
+            "compound_code": "P487+M8 Bochum, South Africa",
+            "global_code": "5G8FP487+M8"
+        },
+        "rating": 0,
+        "reference": "ChIJnXsRpMm8xx4RhAWBA9n52jE",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "29": {
+        "formatted_address": "Modjadji College Road, Ga-Kgapane, Modjadjiskloof, 0830, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6493398,
+                "lng": 30.21710169999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.64798997010728,
+                    "lng": 30.21845152989272
+                },
+                "southwest": {
+                    "lat": -23.65068962989272,
+                    "lng": 30.21575187010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "239056a1593021f7e9181a356cdf5689a2b3503a",
+        "name": "Kgapane Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2736,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102209586241532618827/photos\">amzo sithole</a>"
+                ],
+                "photo_reference": "CmRaAAAAfeEBByiUEzrVr3iHac_4zwxCX1rOslqBL4bsf24Qn3-CEa4M-fitC0zB0b75dalnNpkLKZ6w35bsz233zrd7PEis29DWELYm4XMdPslT7Sw6ZRhWvHlgeURnUSi5Uq6BEhCeFc11BrBW_Os4yPLolQhCGhT-igNBbLpwWMzSJ-xQ0LzlwjFscw",
+                "width": 4864
+            }
+        ],
+        "place_id": "ChIJcQ9Xi5EexB4Raw4EmTgBGp4",
+        "plus_code": {
+            "compound_code": "9628+7R Modjadjiskloof, South Africa",
+            "global_code": "5G8G9628+7R"
+        },
+        "rating": 3.7,
+        "reference": "ChIJcQ9Xi5EexB4Raw4EmTgBGp4",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "30": {
+        "formatted_address": "57 Chris Hani Way, Bela-Bela, 0480, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.8863583,
+                "lng": 28.2871141
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.88500847010728,
+                    "lng": 28.28846392989272
+                },
+                "southwest": {
+                    "lat": -24.88770812989272,
+                    "lng": 28.28576427010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "876e9284c9d67b413913324eea59e9eae6f6cfbd",
+        "name": "Bela Bela Hispital",
+        "place_id": "ChIJaSwYJSYNvx4Rix47szM2pRU",
+        "plus_code": {
+            "compound_code": "477P+FR Bela-Bela, South Africa",
+            "global_code": "5G7C477P+FR"
+        },
+        "rating": 0,
+        "reference": "ChIJaSwYJSYNvx4Rix47szM2pRU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "31": {
+        "formatted_address": "12, 10 Magazyn St, Polokwane Ext 6, Polokwane, 0700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9156758,
+                "lng": 29.4683478
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.91431152010728,
+                    "lng": 29.46977072989272
+                },
+                "southwest": {
+                    "lat": -23.91701117989272,
+                    "lng": 29.46707107010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "507240f45f388efade5f34433929f13ffd4a029b",
+        "name": "Mankweng Hospital",
+        "opening_hours": {},
+        "place_id": "ChIJ7SkIFnnXxh4RHDDXXj9e_2k",
+        "plus_code": {
+            "compound_code": "3FM9+P8 Polokwane, South Africa",
+            "global_code": "5G8F3FM9+P8"
+        },
+        "rating": 3.3,
+        "reference": "ChIJ7SkIFnnXxh4RHDDXXj9e_2k",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "32": {
+        "formatted_address": "Main Street, Giyani-D, Giyani, 0826, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.3177468,
+                "lng": 30.7107859
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.31639697010728,
+                    "lng": 30.71213572989272
+                },
+                "southwest": {
+                    "lat": -23.31909662989272,
+                    "lng": 30.70943607010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "9ae5e32d2d1f4cf5d46a0f246762666c4f0d9f89",
+        "name": "Nkhensani Hospital",
+        "place_id": "ChIJe9KpO1FFxB4R_DXNslizb68",
+        "plus_code": {
+            "compound_code": "MPJ6+W8 Giyani, South Africa",
+            "global_code": "5G8GMPJ6+W8"
+        },
+        "rating": 2.8,
+        "reference": "ChIJe9KpO1FFxB4R_DXNslizb68",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "33": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86308227010728,
+                    "lng": 31.07894662989272
+                },
+                "southwest": {
+                    "lat": -23.86578192989272,
+                    "lng": 31.07624697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "plus_code": {
+            "compound_code": "43PH+62 Phalaborwa, South Africa",
+            "global_code": "5G8H43PH+62"
+        },
+        "rating": 0,
+        "reference": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "34": {
+        "formatted_address": "Sekhiming, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.4303883,
+                "lng": 30.5609663
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.42903847010728,
+                    "lng": 30.56231612989271
+                },
+                "southwest": {
+                    "lat": -23.43173812989272,
+                    "lng": 30.55961647010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "0854b65dbe690185669040f4faf9b1d6b75ba80b",
+        "name": "Sekhiming Health Centre",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJX40taMVAxB4RaCPA5qkT8Wo",
+        "plus_code": {
+            "compound_code": "HH96+R9 Sekhiming, South Africa",
+            "global_code": "5G8GHH96+R9"
+        },
+        "rating": 0,
+        "reference": "ChIJX40taMVAxB4RaCPA5qkT8Wo",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "35": {
+        "formatted_address": "Road, R523, Thohoyandou, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.9412479,
+                "lng": 30.4855534
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.94001892010728,
+                    "lng": 30.48699582989272
+                },
+                "southwest": {
+                    "lat": -22.94271857989272,
+                    "lng": 30.48429617010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "2b5aab824cbca94841f3376ac5070dfd5ff965a7",
+        "name": "Hayani Psychiatric Hospital",
+        "opening_hours": {},
+        "place_id": "ChIJI8ULxSHHxR4RlDBz-y0LCPw",
+        "plus_code": {
+            "compound_code": "3F5P+G6 Thohoyandou, South Africa",
+            "global_code": "5G9G3F5P+G6"
+        },
+        "rating": 1,
+        "reference": "ChIJI8ULxSHHxR4RlDBz-y0LCPw",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "36": {
+        "formatted_address": "Van Der Bijl St, 173, Thabazimbi, 0387, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.5875804,
+                "lng": 27.412354
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.58626067010728,
+                    "lng": 27.41371392989272
+                },
+                "southwest": {
+                    "lat": -24.58896032989272,
+                    "lng": 27.41101427010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "00e1355b8a27ff0a9b9c9715a2fb9aebd875d75c",
+        "name": "Mediclinic Thabazimbi",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 500,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105659853433277489753/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAA1TvyelgpjgzDBmEypzjloYKUdyjW3rpFdEXb8Y1R-i7MQHHhj40PCAvnRscbQnWJtLcYZE0OlbbSGRw9jhowZXeVrzre955gV71kPL4frXYdv1S7iKQpCs9WopDcKANpEhAnFrYchu2SueadJW81cujDGhQwwAHYo8s_UZmrkaXYemK6Pl-E7g",
+                "width": 500
+            }
+        ],
+        "place_id": "ChIJA4vQOX6xvh4RTHU94wmemvg",
+        "plus_code": {
+            "compound_code": "CC66+XW Thabazimbi, South Africa",
+            "global_code": "5G79CC66+XW"
+        },
+        "rating": 5,
+        "reference": "ChIJA4vQOX6xvh4RTHU94wmemvg",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "37": {
+        "formatted_address": "Thabazimbi, 0387, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.5897735,
+                "lng": 27.3917038
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.58842367010728,
+                    "lng": 27.39305362989272
+                },
+                "southwest": {
+                    "lat": -24.59112332989272,
+                    "lng": 27.39035397010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "6c40b8199f4599c013820958c9e4a44043ce90df",
+        "name": "Thabazimbi Hospital",
+        "opening_hours": {},
+        "place_id": "ChIJC3HjTyeyvh4RIU0EUIG6u1o",
+        "plus_code": {
+            "compound_code": "C96R+3M Thabazimbi, South Africa",
+            "global_code": "5G79C96R+3M"
+        },
+        "rating": 5,
+        "reference": "ChIJC3HjTyeyvh4RIU0EUIG6u1o",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "38": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86308227010728,
+                    "lng": 31.07894662989272
+                },
+                "southwest": {
+                    "lat": -23.86578192989272,
+                    "lng": 31.07624697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "plus_code": {
+            "compound_code": "43PH+62 Phalaborwa, South Africa",
+            "global_code": "5G8H43PH+62"
+        },
+        "rating": 0,
+        "reference": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "39": {
+        "formatted_address": "No Street Names, Elandsdoorn-B, 0485, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -25.2847042,
+                "lng": 29.1941687
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -25.28335437010728,
+                    "lng": 29.19551852989272
+                },
+                "southwest": {
+                    "lat": -25.28605402989272,
+                    "lng": 29.19281887010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "f211bde2f4d2d904b533a23ce4aedf089da0bf22",
+        "name": "Ndlovu Medical Centre",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJ_____046wB4RgaOuqg5MLOA",
+        "rating": 4.7,
+        "reference": "ChIJ_____046wB4RgaOuqg5MLOA",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "40": {
+        "formatted_address": "R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8226407,
+                "lng": 30.1527959
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82111012010728,
+                    "lng": 30.15411457989272
+                },
+                "southwest": {
+                    "lat": -23.82380977989272,
+                    "lng": 30.15141492010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "56517be4b087f355592b778f4ecc6b994d18dad3",
+        "name": "Tzaneen Medi-Clinic",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114402395951468578213/photos\">Harmony Mkhabela</a>"
+                ],
+                "photo_reference": "CmRaAAAARwv1va9TRkqgDhg0u0B-qLh4hEu_aqT9_BLRs8rIEtGbHTObqEv4B-w7P1lz4B-ZBroWaUqoKMiEZv3Z4m-NnhXI2fMc2zUIjMlO29KZi_HFcxHh4rPzFWDvfNPfaESHEhDpqCBpGksCnh5L0HEEQlcBGhRbC01fMk9Gh8b1a0Q2cSaaIXSSKw",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJrdmu5Nupxh4RPTewCPA46aU",
+        "plus_code": {
+            "compound_code": "55G3+W4 Tzaneen, South Africa",
+            "global_code": "5G8G55G3+W4"
+        },
+        "rating": 3.8,
+        "reference": "ChIJrdmu5Nupxh4RPTewCPA46aU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "41": {
+        "formatted_address": "53 Plein St, Polokwane Central, Polokwane, 0700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.90816,
+                "lng": 29.46446
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90676247010727,
+                    "lng": 29.46605277989272
+                },
+                "southwest": {
+                    "lat": -23.90946212989272,
+                    "lng": 29.46335312010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "2c4354c2a35575f618a18a3faf4aef33bf177864",
+        "name": "Mediclinic Limpopo Day Clinic",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2576,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114288040269898407134/photos\">perfect seanego</a>"
+                ],
+                "photo_reference": "CmRaAAAAmdh5-c3HU4foVWYh4yXkVyArGX9BLLdMT0jG2H82K5U0j-dbcSfkIZW_DXJUFQ_j5nNbsV2VtwCe_4vp0lH_kb3FSmzDrhfobJcT48JmFlIS2G_7qrIsIXbBl2nvBzPpEhDa2klM4bYZM1d9hNuzTYloGhQ9AqsRuDmwPWPx2IE1Y07sO8DojA",
+                "width": 1932
+            }
+        ],
+        "place_id": "ChIJx4XJs9TZxh4RABMHHnALhnc",
+        "plus_code": {
+            "compound_code": "3FR7+PQ Polokwane, South Africa",
+            "global_code": "5G8F3FR7+PQ"
+        },
+        "rating": 2.9,
+        "reference": "ChIJx4XJs9TZxh4RABMHHnALhnc",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "42": {
+        "formatted_address": "Namakgale-D, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9260467,
+                "lng": 31.0386515
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.92469687010728,
+                    "lng": 31.04000132989272
+                },
+                "southwest": {
+                    "lat": -23.92739652989272,
+                    "lng": 31.03730167010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "f33dfa150030db2e0de8c912a47b27d5910b1117",
+        "name": "Maphutha Malatji Hospital Pharmacy",
+        "photos": [
+            {
+                "height": 600,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100688135080738015078/photos\">Danny Milton</a>"
+                ],
+                "photo_reference": "CmRaAAAAalLB9fqjPPtgz3hLFZy3wJn4vWms0GQL2kn44B575Gm0HMBkZAmi6bfBsx0rChk1mbb4P5Tcbnj4Ta9gH5VEx2inHRlw_PiZM3nj6PjW49m9PvH0Q2k6dfHiPTeVKrTnEhAZOeUQnxcL-LL7OZQvQ0DiGhS5A6on_7apkyJPaMfk8qX2g9VkSw",
+                "width": 800
+            }
+        ],
+        "place_id": "ChIJR8IzwfRwwx4RBDtBsJvcLmo",
+        "plus_code": {
+            "compound_code": "32FQ+HF Phalaborwa, South Africa",
+            "global_code": "5G8H32FQ+HF"
+        },
+        "rating": 2.5,
+        "reference": "ChIJR8IzwfRwwx4RBDtBsJvcLmo",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "43": {
+        "formatted_address": "Glen Cowie, 1061, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.8442859,
+                "lng": 29.8092325
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.84293607010728,
+                    "lng": 29.81058232989272
+                },
+                "southwest": {
+                    "lat": -24.84563572989273,
+                    "lng": 29.80788267010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "99c1fd6d9bf3b002e77105b684d20c00460f380d",
+        "name": "Saint Ritas Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 960,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118077706298542305338/photos\">Heinrich Drewes</a>"
+                ],
+                "photo_reference": "CmRaAAAAt8TXsWiFFjuRN7xUea9avnFRsSrhUEiq58svoQDn-KnRPN2m5N9EajhgHQTzENnk2Ik-0swFu1JQLTOE6d3Y1BpR9WieGqCH8L_QRgT_5JM3Zxmg_-giFCXg1lpru-fVEhCGEFElc2o-0159VsZEb-6eGhRl8YKxyDL8LOEMTxk_s5jWRZqEQw",
+                "width": 1280
+            }
+        ],
+        "place_id": "ChIJI7Du9HKYwR4Rv098k1JyUHc",
+        "plus_code": {
+            "compound_code": "5R45+7M Glen Cowie, South Africa",
+            "global_code": "5G7F5R45+7M"
+        },
+        "rating": 3.9,
+        "reference": "ChIJI7Du9HKYwR4Rv098k1JyUHc",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "44": {
+        "formatted_address": "3A Magazine Rd, Musina, 0900, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -22.3414317,
+                "lng": 30.0440195
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -22.34008187010728,
+                    "lng": 30.04536932989272
+                },
+                "southwest": {
+                    "lat": -22.34278152989272,
+                    "lng": 30.04266967010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "888dc985c2f28f1216643ccff0694a9513409770",
+        "name": "Messina Hospital.",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJH5tLKj-xyB4R0K_9OJlkkac",
+        "plus_code": {
+            "compound_code": "M25V+CJ Musina, South Africa",
+            "global_code": "5G9GM25V+CJ"
+        },
+        "rating": 5,
+        "reference": "ChIJH5tLKj-xyB4R0K_9OJlkkac",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "45": {
+        "formatted_address": "Hospital Street, Louis Trichardt, 0920, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.028596,
+                "lng": 29.905744
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.02724617010728,
+                    "lng": 29.90709382989272
+                },
+                "southwest": {
+                    "lat": -23.02994582989272,
+                    "lng": 29.90439417010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "389768effb9d9188c3d79e99083bf029c06252d7",
+        "name": "Louis Trichardt Memorial Hospital.",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJUat3ZCBsxh4Rk7GSoY2-_BQ",
+        "plus_code": {
+            "compound_code": "XWC4+H7 Louis Trichardt, South Africa",
+            "global_code": "5G8FXWC4+H7"
+        },
+        "rating": 2.2,
+        "reference": "ChIJUat3ZCBsxh4Rk7GSoY2-_BQ",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "46": {
+        "formatted_address": "48a Jorissen St, Polokwane Central, Polokwane, 0700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9043782,
+                "lng": 29.4645938
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90308182010727,
+                    "lng": 29.46595627989273
+                },
+                "southwest": {
+                    "lat": -23.90578147989272,
+                    "lng": 29.46325662010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "b7cae3daaa561c1bd2a306fc3ccbabe1529daa22",
+        "name": "Mediclinic",
+        "photos": [
+            {
+                "height": 2576,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114288040269898407134/photos\">perfect seanego</a>"
+                ],
+                "photo_reference": "CmRaAAAAqBN0KNndarZN4fVqfDvPuhN7URik6xrh7TXrGKGHlI4cVWsdgUPsA3RwFjcFsI5fi0i0KDxhVfhQSaPM-0Yg-w01dWIs4k-T5SvWuBGzApTzAXAQVqaRZBgNb4aHxPcLEhCF4T3vAfYgjh0dFM4e_jSmGhRoVVytI38sqepc-chOR5JP4V9Kmg",
+                "width": 1932
+            }
+        ],
+        "place_id": "ChIJYWNDqtTZxh4RSMce0Lrmp10",
+        "plus_code": {
+            "compound_code": "3FW7+6R Polokwane, South Africa",
+            "global_code": "5G8F3FW7+6R"
+        },
+        "rating": 4.5,
+        "reference": "ChIJYWNDqtTZxh4RSMce0Lrmp10",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "47": {
+        "formatted_address": "Nwamitwa, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.7325334,
+                "lng": 30.4087944
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.73118357010728,
+                    "lng": 30.41014422989272
+                },
+                "southwest": {
+                    "lat": -23.73388322989272,
+                    "lng": 30.40744457010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "4077c92413c21366a03932df7ce0efaddded5e6e",
+        "name": "Nwamitwa Clinic",
+        "opening_hours": {},
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117679136917543404951/photos\">hazel mongwe</a>"
+                ],
+                "photo_reference": "CmRaAAAAJ384pTl-PLN2ugPi3-SaN3TOCJYL-AmDtbDMLd1jKp-xsv_nPkmnvv1PEVJlwHegmry8x3nAJvv4rCDvAglYvhE3Hq5wNxatWOs15fbt0JRvwBu5J_WNNORi7acvXLJkEhBGCE7oLKnfTkoNGQZ_mCqoGhQx4lgjJgpZLXYNwEwomYifYU32vQ",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJTb4i5EAOxB4Ro85HWd1QsfU",
+        "plus_code": {
+            "compound_code": "7C85+XG Mamitwa, South Africa",
+            "global_code": "5G8G7C85+XG"
+        },
+        "rating": 3.6,
+        "reference": "ChIJTb4i5EAOxB4Ro85HWd1QsfU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "48": {
+        "formatted_address": "Cnr Douwater & Joe Slovo Str Onverwacht, Lephalale, 0557, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.6865851,
+                "lng": 27.6984928
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.68523527010728,
+                    "lng": 27.69984262989272
+                },
+                "southwest": {
+                    "lat": -23.68793492989272,
+                    "lng": 27.69714297010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "4281d411b9555b541fd9bd86bc53108bd15bb366",
+        "name": "Mediclinic Lephalale",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2988,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115088816941137414029/photos\">Grov\u00e9 Erasmus</a>"
+                ],
+                "photo_reference": "CmRaAAAA86avyyu2JPjlMYrc88V0G5j2Mbxk-BZxtMyYefBK5jHVl-R4MzO4lJKlUsa9ZECKEaYaV78gTjAfoR4VYufkJ7mnR0QEMADiIkn5NjGVhN6nXgodt34JgQgmnDk_uYLjEhCbOIP_H6O_-iGL8fNQYy-CGhSP_JzJS71T4tX7lagzYHjUgqc7gg",
+                "width": 5312
+            }
+        ],
+        "place_id": "ChIJTSaxa_OmuR4Rrcm4wmYzzxU",
+        "plus_code": {
+            "compound_code": "8M7X+99 Lephalale, South Africa",
+            "global_code": "5G898M7X+99"
+        },
+        "rating": 3.6,
+        "reference": "ChIJTSaxa_OmuR4Rrcm4wmYzzxU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "49": {
+        "formatted_address": "Cnr Grobler Street &, Eland Ave, Savannah, Polokwane, 0699, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9020206,
+                "lng": 29.4934309
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90067077010728,
+                    "lng": 29.49478072989271
+                },
+                "southwest": {
+                    "lat": -23.90337042989272,
+                    "lng": 29.49208107010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "5d0d7ab644e27dfdb1f8ca25e10e2cf3361eeeb9",
+        "name": "Netcare Hospital Polokwane",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2340,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107110563698939239352/photos\">Donovan Jardim</a>"
+                ],
+                "photo_reference": "CmRaAAAAnTcDHyt953bcp1kqUUkVGvw20E84KvJ6rse4TRyMazUHQsB5xkGwmYZGkBe0slNe42JiVliW-VUjb5at0L9NipkhKbJFhPWEMFteeJ_45uOXjOEr_6PdeV46qD7AMdjEEhBmBKkx1NNAGN-eI376PKfaGhSYBsoheNaHYIm6-7SG8DjWuXsETw",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJ25j2mOHZxh4RoXD75VZnkiI",
+        "plus_code": {
+            "compound_code": "3FXV+59 Polokwane, South Africa",
+            "global_code": "5G8F3FXV+59"
+        },
+        "rating": 3.4,
+        "reference": "ChIJ25j2mOHZxh4RoXD75VZnkiI",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "50": {
+        "formatted_address": "1 Jan Lee Street, Lephalale, 0555, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.3348695,
+                "lng": 28.0101586
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.33351967010728,
+                    "lng": 28.01150842989272
+                },
+                "southwest": {
+                    "lat": -23.33621932989272,
+                    "lng": 28.00880877010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "6dff20ea379e4b11e501085e1efc317625d2d9b2",
+        "name": "Witpoort Hospital",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1152,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109545579599954988234/photos\">enika lumona</a>"
+                ],
+                "photo_reference": "CmRaAAAAXreN1QXMRADvDT3bbHaWc_W3klVnOikS7PuKDDBVuTFp4EKv_Vo2kTuJfvAUMP9VbPFkwd8VsjM3QSRIXNhC8q74yiJvN0QPU0wv-dgKGQeGTq9Y4Hw4Tj4AFuvOV8LwEhCynjAJss7520JWtTPZFMNzGhShArzhPNXye4kH2IfZ4XSSVLsbDQ",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJj42HNJyouR4RH8VgDx1qtxY",
+        "plus_code": {
+            "compound_code": "M286+33 Thabo Mbeki, South Africa",
+            "global_code": "5G8CM286+33"
+        },
+        "rating": 3.3,
+        "reference": "ChIJj42HNJyouR4RH8VgDx1qtxY",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "51": {
+        "formatted_address": "1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.863053,
+                "lng": 31.082236
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86170317010727,
+                    "lng": 31.08358582989272
+                },
+                "southwest": {
+                    "lat": -23.86440282989272,
+                    "lng": 31.08088617010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "0654af0ea511a6b6ec21fae538621f7a09fb43c3",
+        "name": "Lulekani Community Health Centre",
+        "place_id": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "plus_code": {
+            "compound_code": "43PJ+QV Phalaborwa, South Africa",
+            "global_code": "5G8H43PJ+QV"
+        },
+        "rating": 1,
+        "reference": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "52": {
+        "formatted_address": "Bochum Road, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.2833665,
+                "lng": 29.1123205
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.28201667010728,
+                    "lng": 29.11367032989271
+                },
+                "southwest": {
+                    "lat": -23.28471632989272,
+                    "lng": 29.11097067010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "5c7917e9683ba40da28fcc9f9fac4cd9323df869",
+        "name": "Helena Franz Hospital",
+        "photos": [
+            {
+                "height": 551,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100326900904546230378/photos\">Mahlodi Lekgadima</a>"
+                ],
+                "photo_reference": "CmRaAAAAI0E1mnYHDByfdS32Y746SnCsZl1tYuW9tZJ2_KyxKdizSoE2f8B13svIOFbhFBHZvhAeD_PgCW-6z2zMQVIoIMfEkZy81gxy9C6vixh5wkhTZWaSASECPky9kDQdauAVEhC8-leaOojFrvMhXe_imSCtGhQcyvTReTdIhh-q7gvujz6_VqH18A",
+                "width": 980
+            }
+        ],
+        "place_id": "ChIJ9WzGg7C8xx4RZ2L4z4y9I1s",
+        "plus_code": {
+            "compound_code": "P486+MW Bochum, South Africa",
+            "global_code": "5G8FP486+MW"
+        },
+        "rating": 3,
+        "reference": "ChIJ9WzGg7C8xx4RZ2L4z4y9I1s",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "53": {
+        "formatted_address": "Van Der Bijl St, 173, Thabazimbi, 0387, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -24.5875804,
+                "lng": 27.412354
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -24.58626067010728,
+                    "lng": 27.41371392989272
+                },
+                "southwest": {
+                    "lat": -24.58896032989272,
+                    "lng": 27.41101427010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "00e1355b8a27ff0a9b9c9715a2fb9aebd875d75c",
+        "name": "Mediclinic Thabazimbi",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 500,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105659853433277489753/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAA3GeZcpbHsRrkJNBFlZ-Mjo6rcUq_3_IaEEyqI01Ou7nmOHo-VLDb_p3TMIWn_rOgIZw58temRqrG5acHJEL-r1JrDAnQJz-QOaJ7BfWID2vBOE0yh_5XJpqZMmZE-KUyEhBmVONK3eNUEXQIGpRk1t_9GhQqcYeUvfOOpVgPY0W3zyo7bt_3XA",
+                "width": 500
+            }
+        ],
+        "place_id": "ChIJA4vQOX6xvh4RTHU94wmemvg",
+        "plus_code": {
+            "compound_code": "CC66+XW Thabazimbi, South Africa",
+            "global_code": "5G79CC66+XW"
+        },
+        "rating": 5,
+        "reference": "ChIJA4vQOX6xvh4RTHU94wmemvg",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "54": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86308227010728,
+                    "lng": 31.07894662989272
+                },
+                "southwest": {
+                    "lat": -23.86578192989272,
+                    "lng": 31.07624697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "plus_code": {
+            "compound_code": "43PH+62 Phalaborwa, South Africa",
+            "global_code": "5G8H43PH+62"
+        },
+        "rating": 0,
+        "reference": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+}

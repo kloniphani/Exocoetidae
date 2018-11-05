@@ -1,0 +1,666 @@
+{
+    "lulekani clinic": {
+        "formatted_address": "1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8644321,
+                "lng": 31.0775968
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86308227010728,
+                    "lng": 31.07894662989272
+                },
+                "southwest": {
+                    "lat": -23.86578192989272,
+                    "lng": 31.07624697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9fe322efdf0d9edb6294b3872a048d446dae4d8b",
+        "name": "lulekani clinic",
+        "opening_hours": {},
+        "place_id": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "plus_code": {
+            "compound_code": "43PH+62 Phalaborwa, South Africa",
+            "global_code": "5G8H43PH+62"
+        },
+        "rating": 0,
+        "reference": "ChIJBZ-r5tR6wx4Rdmfuq_GSuoM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Benfarm Clinic": {
+        "formatted_address": "Ben-A, Phalaborwa, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9160157,
+                "lng": 31.0370016
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.91466587010727,
+                    "lng": 31.03835142989272
+                },
+                "southwest": {
+                    "lat": -23.91736552989272,
+                    "lng": 31.03565177010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "a80171032b7c291607c5107c30132369e7a7e73c",
+        "name": "Benfarm Clinic",
+        "opening_hours": {},
+        "place_id": "ChIJ7fzn_H5wwx4RyV8KR3TTWNQ",
+        "plus_code": {
+            "compound_code": "32MP+HR Phalaborwa, South Africa",
+            "global_code": "5G8H32MP+HR"
+        },
+        "rating": 5,
+        "reference": "ChIJ7fzn_H5wwx4RyV8KR3TTWNQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Namakgale B Clinic": {
+        "formatted_address": "Namakgale-C, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9280342,
+                "lng": 31.0165668
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.92668437010728,
+                    "lng": 31.01791662989272
+                },
+                "southwest": {
+                    "lat": -23.92938402989272,
+                    "lng": 31.01521697010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "7086fb00f8dc76d80d67e9daeaee43d8758eaeeb",
+        "name": "Namakgale B Clinic",
+        "opening_hours": {},
+        "place_id": "ChIJHyxgAZpwwx4R4oM9n22IZZ8",
+        "plus_code": {
+            "compound_code": "32C8+QJ Phalaborwa, South Africa",
+            "global_code": "5G8H32C8+QJ"
+        },
+        "rating": 0,
+        "reference": "ChIJHyxgAZpwwx4R4oM9n22IZZ8",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Spec-Savers Phalaborwa": {
+        "formatted_address": "Cnr Palm And Mandela Street, Shop 19 Pick & Pay Centre, Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.950333,
+                "lng": 31.135333
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94898317010728,
+                    "lng": 31.13668282989272
+                },
+                "southwest": {
+                    "lat": -23.95168282989273,
+                    "lng": 31.13398317010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "d09a7932fcab646028a7ec680e1491be32487381",
+        "name": "Spec-Savers Phalaborwa",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJsfluiPFuwx4RV2qCZUfXV4s",
+        "plus_code": {
+            "compound_code": "24XP+V4 Phalaborwa, South Africa",
+            "global_code": "5G8H24XP+V4"
+        },
+        "rating": 1,
+        "reference": "ChIJsfluiPFuwx4RV2qCZUfXV4s",
+        "types": [
+            "doctor",
+            "store",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Lulekani Community Health Centre": {
+        "formatted_address": "1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.863053,
+                "lng": 31.082236
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86170317010727,
+                    "lng": 31.08358582989272
+                },
+                "southwest": {
+                    "lat": -23.86440282989272,
+                    "lng": 31.08088617010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "0654af0ea511a6b6ec21fae538621f7a09fb43c3",
+        "name": "Lulekani Community Health Centre",
+        "place_id": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "plus_code": {
+            "compound_code": "43PJ+QV Phalaborwa, South Africa",
+            "global_code": "5G8H43PJ+QV"
+        },
+        "rating": 1,
+        "reference": "ChIJ4____yplwx4Rud1kKoScHoI",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "MarulaMed Health Centre": {
+        "formatted_address": "33 Park St, Phalaborwa, Ba, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.955701,
+                "lng": 31.14114
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.95420502010728,
+                    "lng": 31.14252027989273
+                },
+                "southwest": {
+                    "lat": -23.95690467989272,
+                    "lng": 31.13982062010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "8821230e8162593cf8b92dac7c906f3ccec0ddef",
+        "name": "MarulaMed Health Centre",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1960,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116640620326592645650/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAX-33jay22rfLgf3zkjQnO_6Dy8iwqeeY7tMIfB3ytlAmQe0vbSDJQlCIrLrHnY5N-EpBy8MVmSkwZDNAz7a_sGeHEub8FLHlnFNPg13Z_s5SIWBt2P5N3ZWYcyo4bxhxEhAfMem5oSiYX1ccnEanQPoRGhQeRVj8H3sNDOgcU4fiSY-vFGY34A",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJCZ-3JMNvwx4RLRmYPgoWxio",
+        "plus_code": {
+            "compound_code": "24VR+PF Phalaborwa, South Africa",
+            "global_code": "5G8H24VR+PF"
+        },
+        "rating": 0,
+        "reference": "ChIJCZ-3JMNvwx4RLRmYPgoWxio",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Namakgale medical Centre": {
+        "formatted_address": "stand 3494 zone b, Calvin Ngobeni, street, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9383719,
+                "lng": 31.0312885
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93721637010728,
+                    "lng": 31.03249157989272
+                },
+                "southwest": {
+                    "lat": -23.93991602989272,
+                    "lng": 31.02979192010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "5ade833cbcba4fe1a8b98952c9cb55c8c944fe62",
+        "name": "Namakgale medical Centre",
+        "place_id": "ChIJ90XwZ4lxwx4RB4txoUHyVz0",
+        "plus_code": {
+            "compound_code": "326J+MG Phalaborwa, South Africa",
+            "global_code": "5G8H326J+MG"
+        },
+        "rating": 0,
+        "reference": "ChIJ90XwZ4lxwx4RB4txoUHyVz0",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "JD Bronkhorst": {
+        "formatted_address": "70 Grosvenor St, Phalaborwa, 1389, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.936323,
+                "lng": 31.138697
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93507722010728,
+                    "lng": 31.13986777989272
+                },
+                "southwest": {
+                    "lat": -23.93777687989272,
+                    "lng": 31.13716812010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "1a13e5326d3edd95c38c79060144d3b95aa97544",
+        "name": "JD Bronkhorst",
+        "opening_hours": {},
+        "photos": [
+            {
+                "height": 1080,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116308163230171184491/photos\">Joshua Dinkelmann</a>"
+                ],
+                "photo_reference": "CmRaAAAARAYFBclouwdjHemoSHFGqRJr8EGz6MCQgNOpJ5PwY226_8iuS-5jpH6hAntp5tHRaU7uD03aIaG-XIm70UGbZLRaqLpyixnU1LdS-X77dyMsrQaGEvYP6pr9homH8AwiEhA6mr3Awbnwww59IeEdmVkgGhRJvoms-bx8KzoHtSct4LNl9oWjuQ",
+                "width": 1920
+            }
+        ],
+        "place_id": "ChIJ7R-TGuNuwx4RSimFG9Evhpc",
+        "plus_code": {
+            "compound_code": "347Q+FF Phalaborwa, South Africa",
+            "global_code": "5G8H347Q+FF"
+        },
+        "rating": 5,
+        "reference": "ChIJ7R-TGuNuwx4RSimFG9Evhpc",
+        "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Mens Clinic International - Phalaborwa": {
+        "formatted_address": "71 Sealene Rd, Phalaborwa, 1389, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.951154,
+                "lng": 31.133712
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.94965397010728,
+                    "lng": 31.13513802989273
+                },
+                "southwest": {
+                    "lat": -23.95235362989272,
+                    "lng": 31.13243837010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "54c27cb5d954743564cba8bd899826d868fa02ff",
+        "name": "Mens Clinic International - Phalaborwa",
+        "opening_hours": {},
+        "place_id": "ChIJPSetqPNuwx4RX-jF1gSgop8",
+        "plus_code": {
+            "compound_code": "24XM+GF Phalaborwa, South Africa",
+            "global_code": "5G8H24XM+GF"
+        },
+        "rating": 5,
+        "reference": "ChIJPSetqPNuwx4RX-jF1gSgop8",
+        "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Maphutha Malatji Hospital Pharmacy": {
+        "formatted_address": "Namakgale-D, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9260467,
+                "lng": 31.0386515
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.92469687010728,
+                    "lng": 31.04000132989272
+                },
+                "southwest": {
+                    "lat": -23.92739652989272,
+                    "lng": 31.03730167010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "f33dfa150030db2e0de8c912a47b27d5910b1117",
+        "name": "Maphutha Malatji Hospital Pharmacy",
+        "opening_hours": {},
+        "photos": [
+            {
+                "height": 600,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100688135080738015078/photos\">Danny Milton</a>"
+                ],
+                "photo_reference": "CmRaAAAAH-OTPCp9cf6L62F_kOQqvV0wNqNKOcBzuIBnoNbBPEEn2KSXilY9GhxJtQUeS-ZNWRbG43bDLAbnHOfc5oomh0w-4y0-q7YJ6YRipL-3okypPFcLoWyedGqaphuv3rKsEhDT3WE-hO4hXtJuqqgQ67mXGhQJu_GvvIXgNqFt-lSM3MJs37lIHQ",
+                "width": 800
+            }
+        ],
+        "place_id": "ChIJR8IzwfRwwx4RBDtBsJvcLmo",
+        "plus_code": {
+            "compound_code": "32FQ+HF Phalaborwa, South Africa",
+            "global_code": "5G8H32FQ+HF"
+        },
+        "rating": 2.5,
+        "reference": "ChIJR8IzwfRwwx4RBDtBsJvcLmo",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Dr TD Pilusa": {
+        "formatted_address": "3510 Nation St, Namakgale-B, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9344403,
+                "lng": 31.0305083
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93309047010728,
+                    "lng": 31.03185812989272
+                },
+                "southwest": {
+                    "lat": -23.93579012989272,
+                    "lng": 31.02915847010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "eafad6aed3b9c1fb929af52b055c836c804926ed",
+        "name": "Dr TD Pilusa",
+        "opening_hours": {},
+        "place_id": "ChIJj4mtH4twwx4R0Eq2ITgzpV8",
+        "plus_code": {
+            "compound_code": "328J+66 Phalaborwa, South Africa",
+            "global_code": "5G8H328J+66"
+        },
+        "rating": 0,
+        "reference": "ChIJj4mtH4twwx4R0Eq2ITgzpV8",
+        "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Dr SM Aphane": {
+        "formatted_address": "1058 Impala Ave, Namakgale-A, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9375488,
+                "lng": 31.038162
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.93619897010727,
+                    "lng": 31.03951182989273
+                },
+                "southwest": {
+                    "lat": -23.93889862989272,
+                    "lng": 31.03681217010729
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "7c72e0e1cddbb45f43c50cc3cda8846e549eb4a5",
+        "name": "Dr SM Aphane",
+        "place_id": "ChIJlZP_jV5wwx4RYXpr-FbURQE",
+        "plus_code": {
+            "compound_code": "326Q+X7 Phalaborwa, South Africa",
+            "global_code": "5G8H326Q+X7"
+        },
+        "rating": 0,
+        "reference": "ChIJlZP_jV5wwx4RYXpr-FbURQE",
+        "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Maphutha L Malatjie Hospital - Dietetics Dept": {
+        "formatted_address": "Namakgale-E, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9249388,
+                "lng": 31.036962
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.92358897010728,
+                    "lng": 31.03831182989272
+                },
+                "southwest": {
+                    "lat": -23.92628862989272,
+                    "lng": 31.03561217010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "9e1995a045aa2fc577d6feb2072845bc0cc4cd57",
+        "name": "Maphutha L Malatjie Hospital - Dietetics Dept",
+        "opening_hours": {},
+        "photos": [
+            {
+                "height": 825,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108110901531754783949/photos\">Christen mokgope</a>"
+                ],
+                "photo_reference": "CmRaAAAAhbdJi_ZTal-TBgvDvGkQZWXCBw3AknRporagAvoUrnCFAzN20GVdnk8uDo0PVR6MSf_UQxjkzbsNDc324PdXt_d_9ZN_dX5jdF2_I9UUP9ngTFCNIIz_n4yl1m5BsxIfEhBpZSVa6eL-FqhEHTWnbeUWGhQk7mD2JedEIngUEsLboCaxDSfcyw",
+                "width": 1500
+            }
+        ],
+        "place_id": "ChIJBXms2Ytwwx4RERhlBhc4HGM",
+        "plus_code": {
+            "compound_code": "32GP+2Q Phalaborwa, South Africa",
+            "global_code": "5G8H32GP+2Q"
+        },
+        "rating": 3.5,
+        "reference": "ChIJBXms2Ytwwx4RERhlBhc4HGM",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Rewild": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8907227,
+                "lng": 31.1048732
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.88937287010728,
+                    "lng": 31.10622302989272
+                },
+                "southwest": {
+                    "lat": -23.89207252989272,
+                    "lng": 31.10352337010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "4fb57344b1a2b46dccac62d71d2e1c070e739e15",
+        "name": "Rewild",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJ_7S-HGdlwx4RKAlk9Mq7aco",
+        "plus_code": {
+            "compound_code": "4453+PW Phalaborwa, South Africa",
+            "global_code": "5G8H4453+PW"
+        },
+        "rating": 0,
+        "reference": "ChIJ_7S-HGdlwx4RKAlk9Mq7aco",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Humulani Clinic": {
+        "formatted_address": "Phalaborwa, 1390, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8752057,
+                "lng": 31.0602241
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.87385587010728,
+                    "lng": 31.06157392989272
+                },
+                "southwest": {
+                    "lat": -23.87655552989272,
+                    "lng": 31.05887427010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "f3a16a935ad5230a8865b4945becebfc8c8e71ee",
+        "name": "Humulani Clinic",
+        "opening_hours": {},
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100524635670951102148/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAApFOOLFuMSfubzNlbRH9jkttCZfL9GxuMboQLnSNJ7X7mTONteYuawNGpCpZbkM2vC4yB7VIaj2H5mD8dnh5IDXtK-Jfcp_MZx_1-VLTLmApDItLToYjoh06sa8ediBmREhCh--sgt_imp7Fgpgw58gaqGhQ5kDsEG2uBFuXxPXGaOXet0WMAMw",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJlf1zFd17wx4R_eNxurgcU9A",
+        "plus_code": {
+            "compound_code": "43F6+W3 Phalaborwa, South Africa",
+            "global_code": "5G8H43F6+W3"
+        },
+        "rating": 0,
+        "reference": "ChIJlf1zFd17wx4R_eNxurgcU9A",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Maphutha L Malatji Hopsital": {
+        "formatted_address": "Namakgale-B, Phalaborwa, 1391, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9245405,
+                "lng": 31.0371229
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.92319067010728,
+                    "lng": 31.03847272989272
+                },
+                "southwest": {
+                    "lat": -23.92589032989272,
+                    "lng": 31.03577307010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "90dc7e00e5b3e4bd4e8fa4befa1171e9fd15dcd8",
+        "name": "Maphutha L Malatji Hopsital",
+        "place_id": "ChIJgYkWF41xwx4RAVAVI5e7So4",
+        "plus_code": {
+            "compound_code": "32GP+5R Phalaborwa, South Africa",
+            "global_code": "5G8H32GP+5R"
+        },
+        "rating": 0,
+        "reference": "ChIJgYkWF41xwx4RAVAVI5e7So4",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "SEDIBANE LESLEY": {
+        "formatted_address": "BENFARM VILLAGE stand number 188 & 189 R71, 0895, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9202667,
+                "lng": 31.0468748
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.91891687010727,
+                    "lng": 31.04822462989272
+                },
+                "southwest": {
+                    "lat": -23.92161652989272,
+                    "lng": 31.04552497010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9c42b78cc0b817f1c8ef121cccb9af44c1ccabeb",
+        "name": "SEDIBANE LESLEY",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117921861468234716115/photos\">Lesley Ramosedi</a>"
+                ],
+                "photo_reference": "CmRaAAAA8xgr-yDPeAOrD37uU-NqGgvMr6CCtDYMZmMTD2k9P_bjcqnsd9X1J634MXqbMNoS5XsulXrgFgcDqcUNVHnbxCmyvMgaZT3RmOa7mUWKCV6wcgnKvXXaX157EthN3uVLEhCwLBxGs8DEJiC4lNz3y_bkGhT-PTVBopmfuejScac9Sypq3qFwCA",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJHZZhR3Bwwx4RH5cev_WTCs0",
+        "plus_code": {
+            "compound_code": "32HW+VP Phalaborwa, South Africa",
+            "global_code": "5G8H32HW+VP"
+        },
+        "rating": 0,
+        "reference": "ChIJHZZhR3Bwwx4RH5cev_WTCs0",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+}

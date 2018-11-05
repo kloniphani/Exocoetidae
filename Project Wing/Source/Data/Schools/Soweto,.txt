@@ -1,0 +1,181 @@
+  1 Moletsane Secondary School                                               -26.254550    27.851190 	1644, Moletsane, Soweto, 1868, South Africa
+  2 BHUKULANI HIGH SCHOOL                                                    -26.233524    27.867531 	Zondi 2, 666 Masingafi St, EET Soweto, Johannesburg, 1868, South Africa
+  3 St Matthews School                                                       -26.259996    27.881219 	818 Ndebele St, Moroka, Soweto, 1818, South Africa
+  4 Adelaide Thambo School                                                   -26.248844    27.876419 	3132B Diokane St, Soweto, Johannesburg, 1864, South Africa
+  5 Naledi High School                                                       -26.250609    27.831194 	Nyakale St, Soweto, Johannesburg, 1868, South Africa
+  6 Mapetla High School                                                      -26.273640    27.846190 	2189 Monotshe St, Mapetla, Soweto, 1818, South Africa
+  7 Meadowlands High School                                                  -26.215708    27.895514 	Van Onselen St, Soweto, Johannesburg, 1852, South Africa
+  8 Phafogang Secondary School                                               -26.267320    27.867198 	2226 Gumede St, Moroka, Soweto, 1818, South Africa
+  9 Ditau Primary School                                                     -26.248790    27.921740 	6604, Klipspruit 318-Iq, Soweto, 1809, South Africa
+ 10 Immaculata Secondary School                                              -26.252773    27.942053 	2063A Muhuyu St, Diepkloof Zone 2, Johannesburg, 1864, South Africa
+ 11 Aurora Girls High School                                                 -26.240175    27.847047 	1764 Zici St, Zola North, Soweto, 1868, South Africa
+ 12 Megatong Primary School                                                  -26.275730    27.851400 	2984, Mapetla, Soweto, 1818, South Africa
+ 13 Forte Secondary School                                                   -26.214449    27.867243 	110 Christian Dube St, Mmesi Park, Soweto, 1863, South Africa
+ 14 Daliwonga Secondary School                                               -26.232041    27.889102 	Koma St, Dube, Soweto, 1800, South Africa
+ 15 Curtis Nkondo School Of Specialization                                   -26.239163    27.822150 	2362 Biyela St, Emdeni South, Soweto, 1861, South Africa
+ 16 Morris Isaacson High School                                              -26.246080    27.872452 	Mphuthi St, Central Jabavu, Johannesburg, 1809, South Africa
+ 17 Saint Martin De Porres High School                                       -26.228050    27.912650 	9306 Ngobese St, Orlando West, Soweto, 1804, South Africa
+ 18 Anchor High School                                                       -26.219638    27.914014 	Rev Frederick S Modise Drive, Soweto, Johannesburg, 1803, South Africa
+ 19 Rebone Primary School                                                    -26.256110    27.816660 	50, Naledi, Soweto, 1861, South Africa
+ 20 Altmont Technical High School                                            -26.281236    27.842472 	Cnr Alekhine & Stanton Rd, Protea South, Soweto, 1818, South Africa
+ 21 Glenridge Primary School                                                 -26.273742    27.789353 	Glen Ridge, Soweto, 1818, South Africa
+ 22 Nomzamo Madikizela Mandela Primary School                                -26.186226    27.831177 	Bram Fischerville, Soweto, 1875, South Africa
+ 23 St Peter Claver Catholic School                                          -26.272096    27.900649 	452 Modjaji St, Pimville, Johannesburg, 1809, South Africa
+ 24 Noordgesig Secondary School                                              -26.228250    27.935430 	240 Major St, Noordgesig, Soweto, 1804, South Africa
+ 25 Saint Ives Primary School                                                -26.295100    27.873190 	Klipspruit West, Soweto, 1811, South Africa
+ 26 Lufhereng High School                                                    -26.231973    27.798516 	Zuurbult 240-Iq, Soweto, South Africa
+ 27 Silver Oaks Secondary School                                             -26.290240    27.917330 	Eldorado Park, Soweto, 1811, South Africa
+ 28 Mayibuye Primary School                                                  -26.220682    27.818594 	Doornkop, Soweto, 1874, South Africa
+ 29 Basa Primary School                                                      -26.274595    27.804556 	Ext 11, Protea Blvd, Protea Glen, Johannesburg, 1818, South Africa
+ 30 Kliptown Primary School                                                  -26.295400    27.888560 	Boundary Rd, Eldorado Park, Soweto, 1811, South Africa
+ 31 Emndeni Primary School                                                   -26.242917    27.821562 	Zwane St, Soweto, Johannesburg, 1861, South Africa
+ 32 Thulani Secondary School                                                 -26.216808    27.827738 	Thulani, Soweto, 1863, South Africa
+ 33 Winnie Madikizela-Mandela School                                         -26.272912    27.868963 	Limpopo St, Senaoane, Soweto, 1818, South Africa
+ 34 Kwadedangendlale High School                                             -26.234704    27.844361 	Bhedla St, Zola, Johannesburg, 1868, South Africa
+ 35 Eldorado Park Primary School                                             -26.295086    27.897676 	30 Fontein St, Eldorado Park, Soweto, 1811, South Africa
+ 36 Siyabonga Secondary School                                               -26.190839    27.862424 	10216, Bram Fischerville, Soweto, 1724, South Africa
+ 37 Forte High School                                                        -26.214617    27.866853 	Jonas Moari St, Dobsonville, Soweto, 1863, South Africa
+ 38 Delrado Primary School                                                   -26.303445    27.894800 	16 Leiklip Ave, Eldorado Park, Soweto, 1811, South Africa
+ 39 Sivuleleni Primary School                                                -26.235140    27.843170 	1240, Zola, Soweto, 1878, South Africa
+ 40 Mxolisi Primary School                                                   -26.239680    27.861860 	475 Dlamini St, Jabulani, Soweto, 1868, South Africa
+ 41 Emisebeni Junior Primary School                                          -26.237420    27.881470 	148, Mofolo Central, Soweto, 1801, South Africa
+ 42 Klip Valley Primary School                                               -26.242442    27.808396 	1634 Mabona St, Doornkop, Soweto, 1874, South Africa
+ 43 Adelaide Tambo School for the Physically Challenged                      -26.249604    27.876056 	Diokane St, Jabavu, Soweto, 1809, South Africa
+ 44 Thakhisa Primary School                                                  -26.211145    27.881048 	1377 Meadowlands St, Meadowlands West Zone 9, Meadowlands West, 1852, South Africa
+ 45 Mafori - Mphahlele High School                                           -26.255799    27.863304 	Masiane St, Molapo, Johannesburg, 1868, South Africa
+ 46 George Khosa Secondary School                                            -26.221590    27.860870 	3712, Dobsonville, Soweto, 1863, South Africa
+ 47 Hector Peterson School/Ukhozi Primary School                             -26.226403    27.849300 	Gauteng, 8853 Mbali St, Dobsonville, Soweto, 1863, South Africa
+ 48 Kholwani Primary School                                                  -26.242830    27.852000 	1431, Jabulani, Soweto, 1868, South Africa
+ 49 Indyebo Primary School                                                   -26.238270    27.844280 	Zola, Soweto, 1878, South Africa
+ 50 Bafikile Primary School                                                  -26.271060    27.868430 	863 Shezi St, Senoane, Soweto, 1818, South Africa
+ 51 Ikusasalethu Secondary School                                            -26.191850    27.831348 	15937 Apex St, Bram Fischerville, Soweto, 1875, South Africa
+ 52 Eldridge Primary School                                                  -26.297390    27.920460 	Eldorado Park, Soweto, 1811, South Africa
+ 53 Dr Vilakazi High School                                                  -26.238362    27.830724 	Njongo St, Soweto, Johannesburg, 1868, South Africa
+ 54 Gazankulu Primary School                                                 -26.286080    27.864210 	2710, Chiawelo, Soweto, 1818, South Africa
+ 55 Lancea Vale Secondary School                                             -26.287187    27.913057 	18 Brandvlei Cres, Eldorado Park, Soweto, 1811, South Africa
+ 56 Eldocrest Primary School                                                 -26.286959    27.897550 	Dartmoor Ave, Eldorado Park, Soweto, 1811, South Africa
+ 57 Mncube Secondary School                                                  -26.227610    27.881150 	1670, Mofolo North, Soweto, 1801, South Africa
+ 58 Ibhongo Secondary School                                                 -26.272504    27.874548 	Chris Hani Rd, Soweto, Johannesburg, 1818, South Africa
+ 59 Vukazenzele Primary School                                               -26.234960    27.878120 	999, Mofolo North, Soweto, 1801, South Africa
+ 60 Thathani Primary School                                                  -26.238322    27.844404 	1586 A Mdlalose St, Zola, Soweto, 1868, South Africa
+ 61 Boston City Campus & Business College - Maponya Mall                     -26.258154    27.901601 	406, Maponya Mall, 2127 Chris Hani Rd, Klipspruit, Soweto, 2127, South Africa
+ 62 South West Gauteng TVET College - Roodeport                              -26.213557    27.874307 	Corner Koma Road And Molele Street, 822 A Van Onselen Rd, Dobsonville, Johannesburg, 1863, South Africa
+ 63 South West College Corporate Office                                      -26.264943    27.860570 	1822 A Molele St & C/O Koma Road And Molele Street, Molapo, Johannesburg, 1860, South Africa
+ 64 Soweto College of Education                                              -26.259640    27.911285 	Modjadji Street & Old Potch Road, Pimville Zone 1, Pimville, 1809, South Africa
+ 65 South West College                                                       -26.247705    27.892668 	Mncube Dr, Dube, Soweto, 1801, South Africa
+ 66 Pace Community College                                                   -26.240036    27.854647 	1340, Bendile St, Soweto, Johannesburg, 1868, South Africa
+ 67 Protea Glen College                                                      -26.276664    27.821564 	Crn 104 Red Current & Protea Boulevard Str, Shop 49 Sizwe Shopping Centre, Protea Glen, Soweto, 1819, South Africa
+ 68 South West College                                                       -26.213664    27.873929 	Soweto, Johannesburg, 1865, South Africa
+ 69 WO BIBLE COLLEGE                                                         -26.266060    27.873660 	02065 Mampona St, Moroka, Soweto, 1818, South Africa
+ 70 Johannesburg Bible College, Soweto Campus                                -26.256939    27.915898 	1032 Mbambisa St, Klipspruit, Soweto, 1809, South Africa
+ 71 Izipho Zomphakathi Multiskills                                           -26.276867    27.864800 	1378 Ingwayuma St, Senaoane, Soweto, 1818, South Africa
+ 72 Funda Community College                                                  -26.257753    27.934676 	8642, 8642 Immink Dr, Diepkloof Zone 6, Diepkloof, 1864, South Africa
+ 73 PC Training & Business College                                           -26.258319    27.942437 	Black Chain, Chris Hani Rd, Diepkloof, Johannesburg, 2001, South Africa
+ 74 Teacher Development Centre (Central District D14)                        -26.266023    27.874296 	Vundla St, Moroka, Soweto, 1818, South Africa
+ 75 Life College Of Learning Westrand                                        -26.191956    27.924168 	Rudeport, Robertville, Randburg, South Africa
+ 76 JORDAN THEOLOGGICAL INSTITUTE                                            -26.202619    27.876563 	2796 Zone 10, Meadowlands, Johannesburg, 1852, South Africa
+ 77 Lebo Sibi                                                                -26.275714    27.811733 	251 12,, Absalome Protea Glen Extension 16, Soweto, South Africa
+ 78 BAM PUBLISHERS (PTY) LTD                                                 -26.203120    27.877507 	2796 Zone 10, Meadowlands, Johannesburg, 1852, South Africa
+ 79 Prestige College                                                         -26.271977    27.770656 	29 Key St, Protea Glen, Soweto, 1834, South Africa
+ 80 South West Gauteng College - Roodepoort Campus                           -26.140483    27.867795 	3 Webber Ave, Horizon View, Roodepoort, 1724, South Africa
+ 81 Rhodes FET Technical College                                             -26.320384    27.825767 	Campus A, Murzooq Centre, Eland St, Lenasia Ext 2, Johannesburg, 1827, South Africa
+ 82 Johannesburg Bible College                                               -26.189372    27.993114 	Corner Golf street, 30 Hampton Ave, Auckland Park, Johannesburg, 2092, South Africa
+ 83 St Barnbas College                                                       -26.189838    27.951713 	34 Langeberg Ave, Bosmont, Randburg, 2093, South Africa
+ 84 Makentse                                                                 -26.237406    27.807851 	2410 Lesedi St, Soweto, 1723 Lesedi St, Doornkop, Soweto, 1723, South Africa
+ 85 Amadoda Ayasebenza (PTY) LTD                                             -26.254833    27.910123 	475 Makhubu St, Klipspruit, Soweto, 1809, South Africa
+ 86 Boston City Campus & Business College Roodeport                          -26.139980    27.868970 	Horizon Office Park, 157 Ontdekkers Rd, Horizon View, Johanneburg, 1714, South Africa
+ 87 ROYAL COLLEGE                                                            -26.171561    27.909915 	ST House, 23 Goldman St, Florida, Johannesburg, 1709, South Africa
+ 88 Greenwich College                                                        -26.164530    27.916370 	212 Voortrekker Rd, Monument Ext 1, Krugersdorp, 1739, South Africa
+ 89 UKWAZI SCHOOL OF NURSING                                                 -26.139497    27.867667 	145 Ontdekkers Rd, Horison Park, Roodepoort, 1724, South Africa
+ 90 Altmont Technical High School                                            -26.281236    27.842472 	Cnr Alekhine & Stanton Rd, Protea South, Soweto, 1818, South Africa
+ 91 South West Gaugteng College Of Engineer                                  -26.153414    27.859505 	42 Stokoe St, Roodepoort West, Roodepoort, 1724, South Africa
+ 92 Modise Computer College                                                  -26.166101    27.868320 	No. 43, 2nd Floor, Corner Of Hoofd & Kroon Street, Roodepoort 237-Iq, Roodepoort, 1724, South Africa
+ 93 Western College TVET                                                     -26.170178    27.709481 	42 Johnstone St, Randfontein, 1760, South Africa
+ 94 I C E Computer College                                                   -26.159970    27.867680 	1st Floor, Morson House, 3 Edward St, Roodepoort, 1724, South Africa
+ 95 The Plumbing Academy                                                     -26.271141    27.876735 	00617 Ndlovu St, Dlamini, Soweto, 1818, South Africa
+ 96 Jabulani Technical School                                                -26.245112    27.856508 	Koma St, Jabulani, Johannesburg, 1868, South Africa
+ 97 INSTITUTE FOR QUALITY                                                    -26.172264    27.913371 	43 Goldman St, Florida, Roodepoort, 2000, South Africa
+ 98 Saint Barnabas College                                                   -26.189840    27.951080 	Bosmont, Randburg, 2093, South Africa
+ 99 CTU Training Solutions Roodepoort                                        -26.142978    27.870003 	59, The Village @ Horizon, Sonop St, Horizon, Roodepoort, 1730, South Africa
+100 Oasis Manor                                                              -26.191632    27.699556 	25 Malachite St, Kloofendal, Roodepoort, 1709, South Africa
+101 LechekoPowerYourMind                                                     -26.251995    27.849839 	Moliwa street, Soweto, Johannesburg, 1868, South Africa
+102 LSI College                                                              -26.150864    27.926158 	Shop 6, Constantia Park, 14th Ave, Constantia, Johannesburg, 1709, South Africa
+103 Boston City Campus & Business College                                    -26.206660    28.046520 	130 Main St, Marshalltown, Johannesburg, 0083, South Africa
+104 Neksatec                                                                 -26.157330    27.908770 	6 Hinsbeeck Ave, Florida Park, Roodepoort, 1709, South Africa
+105 Central Johannesburg College Langlaagte                                  -26.207054    27.988296 	5 De Vos St, Paarlshoop, Johannesburg, 2092, South Africa
+106 Western College TVET                                                     -26.188540    27.677190 	2 Kiewiet St, Helikon Park, Randfontein, 1760, South Africa
+107 Ann Latsky Nursing College                                               -26.186906    27.989900 	37 Plunkett Ave, Hurst Hill, Johannesburg, 2006, South Africa
+108 Ukwazi Skills Campus Pty Ltd                                             -26.139460    27.867673 	145 Ontdekkers Rd, Horison Park, Roodepoort, 1724, South Africa
+109 INTEC COLLEGE                                                            -26.195434    28.036357 	2nd Floor, Success House, 2 De Korte St, Johannesburg, 2001, South Africa
+110 CAREER COMPUTER TRAINING & CALL CENTER TRAINING COLLEGE                  -26.202000    28.039957 	1st Floor, Suite 108, NEW TOWN MALL, 77a corner Harrison Street & Bree Street, Johannesburg, 2001, South Africa
+111 Edutel                                                                   -26.140389    27.870338 	Ontdekkers Rd & Crane Ave, Horizon View, Roodepoort, 1734, South Africa
+112 Calvary Christian College                                                -26.285704    27.992036 	Olifantsvlei 327-Iq, Johannesburg South, 2091, South Africa
+113 IET Fire Rescue and EMS Academy                                          -26.165750    27.862615 	Durban Deep, Roodepoort 237-Iq, Roodepoort, 1724, South Africa
+114 Sparrow FET College                                                      -26.172191    27.984811 	Cnr and, Gerty St &, Hermans St, Sophiatown, South Africa
+115 Peter Lengene Community Learning Centre                                  -26.258248    27.916168 	Housed at Thaba Jabula secondary school, 1097 Chris Hani Rd, Soweto, 1809, South Africa
+116 Motekematics Institute for Mathematics                                   -26.175480    27.793140 	16674 Drakensberg St, Kagiso Ext. 12, Mogale City, 1754, South Africa
+117 Adelaide Thambo School                                                   -26.248844    27.876419 	3132B Diokane St, Soweto, Johannesburg, 1864, South Africa
+118 Pq vundla                                                                -26.263621    27.862282 	1822, Molapo St, Soweto, 1818, South Africa
+119 Southwest Media College                                                  -26.192122    28.035905 	38 Melle St, Johannesburg, 2001, South Africa
+120 Netcare Training Academy (N.T.A)                                         -26.188450    28.012710 	2 Bunting Rd, Auckland Park, Johannesburg, 2092, South Africa
+121 Moletsane Secondary School                                               -26.254550    27.851190 	1644, Moletsane, Soweto, 1868, South Africa
+122 The Plumbing Academy                                                     -26.271141    27.876735 	00617 Ndlovu St, Dlamini, Soweto, 1818, South Africa
+123 Ditau Primary School                                                     -26.248790    27.921740 	6604, Klipspruit 318-Iq, Soweto, 1809, South Africa
+124 Curtis Nkondo School Of Specialization                                   -26.239163    27.822150 	2362 Biyela St, Emdeni South, Soweto, 1861, South Africa
+125 Daliwonga Secondary School                                               -26.232041    27.889102 	Koma St, Dube, Soweto, 1800, South Africa
+126 BHUKULANI HIGH SCHOOL                                                    -26.233524    27.867531 	Zondi 2, 666 Masingafi St, EET Soweto, Johannesburg, 1868, South Africa
+127 Naledi High School                                                       -26.250609    27.831194 	Nyakale St, Soweto, Johannesburg, 1868, South Africa
+128 Morris Isaacson High School                                              -26.246080    27.872452 	Mphuthi St, Central Jabavu, Johannesburg, 1809, South Africa
+129 St Matthews School                                                       -26.259996    27.881219 	818 Ndebele St, Moroka, Soweto, 1818, South Africa
+130 Winnie Madikizela-Mandela School                                         -26.272912    27.868963 	Limpopo St, Senaoane, Soweto, 1818, South Africa
+131 Eldorado Park Primary School                                             -26.295086    27.897676 	30 Fontein St, Eldorado Park, Soweto, 1811, South Africa
+132 Meadowlands High School                                                  -26.215708    27.895514 	Van Onselen St, Soweto, Johannesburg, 1852, South Africa
+133 Sizwile School For Deaf Children                                         -26.215461    27.861097 	Jonas Moari St, Dobsonville, Johannesburg, 1863, South Africa
+134 Megatong Primary School                                                  -26.275730    27.851400 	2984, Mapetla, Soweto, 1818, South Africa
+135 Penguin Aquatic Swim School                                              -26.273884    27.899241 	Pimville Zone 6, Soweto, 1809, South Africa
+136 Anchor High School                                                       -26.219638    27.914014 	Rev Frederick S Modise Drive, Soweto, Johannesburg, 1803, South Africa
+137 Saint Martin De Porres High School                                       -26.228050    27.912650 	9306 Ngobese St, Orlando West, Soweto, 1804, South Africa
+138 Nomzamo Madikizela Mandela Primary School                                -26.186226    27.831177 	Bram Fischerville, Soweto, 1875, South Africa
+139 Ibhongo Secondary School                                                 -26.272504    27.874548 	Chris Hani Rd, Soweto, Johannesburg, 1818, South Africa
+140 Siyabonga Secondary School                                               -26.190839    27.862424 	10216, Bram Fischerville, Soweto, 1724, South Africa
+141 Funda UJabule Primary School                                             -26.262558    27.915090 	10942 Modjaji St, Pimville Zone 1, Pimville, 1809, South Africa
+142 Little Angels Pre School                                                 -26.279249    27.806228 	9634 Tshipo St, Protea Glen, Soweto, 1819, South Africa
+143 Adelaide Thambo School                                                   -26.248844    27.876419 	3132B Diokane St, Soweto, Johannesburg, 1864, South Africa
+144 Altmont Technical High School                                            -26.281236    27.842472 	Cnr Alekhine & Stanton Rd, Protea South, Soweto, 1818, South Africa
+145 Zerowa Christian Academy                                                 -26.287116    27.896054 	43 Dartmoor Ave, Eldorado Park, Soweto, 1811, South Africa
+146 Glenridge Primary School                                                 -26.273742    27.789353 	Glen Ridge, Soweto, 1818, South Africa
+147 Mapetla High School                                                      -26.273640    27.846190 	2189 Monotshe St, Mapetla, Soweto, 1818, South Africa
+148 Saint Ives Primary School                                                -26.295100    27.873190 	Klipspruit West, Soweto, 1811, South Africa
+149 Forte High School                                                        -26.214617    27.866853 	Jonas Moari St, Dobsonville, Soweto, 1863, South Africa
+150 Rebone Primary School                                                    -26.256110    27.816660 	50, Naledi, Soweto, 1861, South Africa
+151 BTC-Soweto                                                               -26.259133    27.885598 	752 Elias Motsoaledi Rd, Mofolo South, Soweto, 1801, South Africa
+152 Lufhereng High School                                                    -26.231973    27.798516 	Zuurbult 240-Iq, Soweto, South Africa
+153 Immaculata Secondary School                                              -26.252773    27.942053 	2063A Muhuyu St, Diepkloof Zone 2, Johannesburg, 1864, South Africa
+154 reabetswe abby plumbing academy                                          -26.264088    27.863404 	1572 Makapan St, Moroka, Soweto, 1868, South Africa
+155 Kliptown Primary School                                                  -26.295400    27.888560 	Boundary Rd, Eldorado Park, Soweto, 1811, South Africa
+156 Mayibuye Primary School                                                  -26.220682    27.818594 	Doornkop, Soweto, 1874, South Africa
+157 Sivuleleni Primary School                                                -26.235140    27.843170 	1240, Zola, Soweto, 1878, South Africa
+158 Emndeni Primary School                                                   -26.242917    27.821562 	Zwane St, Soweto, Johannesburg, 1861, South Africa
+159 Silver Oaks Secondary School                                             -26.290240    27.917330 	Eldorado Park, Soweto, 1811, South Africa
+160 Kwadedangendlale High School                                             -26.234704    27.844361 	Bhedla St, Zola, Johannesburg, 1868, South Africa
+161 A.B. Xuma Primary School                                                 -26.234678    27.920431 	Scott Street, Orlando East, Johannesburg, 1804, South Africa
+162 Emadwaleni Secondary School                                              -26.228175    27.917491 	10898 Armitage St, Orlando, Soweto, 1803, South Africa
+163 Orlando High School                                                      -26.230698    27.926259 	6502 Mooki St, Orlando East, Johannesburg, 1804, South Africa
+164 St Peter Claver Catholic School                                          -26.272096    27.900649 	452 Modjaji St, Pimville, Johannesburg, 1809, South Africa
+165 Mxolisi Primary School                                                   -26.239680    27.861860 	475 Dlamini St, Jabulani, Soweto, 1868, South Africa
+166 Emisebeni Junior Primary School                                          -26.237420    27.881470 	148, Mofolo Central, Soweto, 1801, South Africa
+167 Klip Valley Primary School                                               -26.242442    27.808396 	1634 Mabona St, Doornkop, Soweto, 1874, South Africa
+168 Thulani Secondary School                                                 -26.216808    27.827738 	Thulani, Soweto, 1863, South Africa
+169 Diepdale Secondary School                                                -26.247941    27.937536 	Dippenaar St, Diepkloof Zone 2, Johannesburg, 1864, South Africa
+170 Hector Peterson School/Ukhozi Primary School                             -26.226403    27.849300 	Gauteng, 8853 Mbali St, Dobsonville, Soweto, 1863, South Africa
+171 Aurora Girls High School                                                 -26.240175    27.847047 	1764 Zici St, Zola North, Soweto, 1868, South Africa
+172 Khotso Primary School                                                    -26.271291    27.851454 	Lelani St, Phiri, Johannesburg, 1818, South Africa
+173 Indyebo Primary School                                                   -26.238270    27.844280 	Zola, Soweto, 1878, South Africa
+174 Kholwani Primary School                                                  -26.242830    27.852000 	1431, Jabulani, Soweto, 1868, South Africa
+175 Bafikile Primary School                                                  -26.271060    27.868430 	863 Shezi St, Senoane, Soweto, 1818, South Africa
+176 Phafogang Secondary School                                               -26.267320    27.867198 	2226 Gumede St, Moroka, Soweto, 1818, South Africa
+177 Lethabo Primary School                                                   -26.249720    27.823244 	Kgaribe St, Soweto, Johannesburg, 1868, South Africa
+178 Gazankulu Primary School                                                 -26.286080    27.864210 	2710, Chiawelo, Soweto, 1818, South Africa
+179 Freedom Primary School                                                   -26.295905    27.929492 	261 Jan de Necker Dr, Devland, Soweto, 1811, South Africa
+180 Dr Vilakazi High School                                                  -26.238362    27.830724 	Njongo St, Soweto, Johannesburg, 1868, South Africa
+181 University of Johannesburg: Soweto Campus                                -26.261427    27.922561 	Chris Hani, Soweto, Johannesburg, 1809, South Africa

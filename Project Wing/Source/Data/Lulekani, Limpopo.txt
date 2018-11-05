@@ -1,0 +1,54 @@
+  1 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+  2 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+  3 Lulekani Community Health Centre                                         -23.863053    31.082236 	1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa
+  4 Ndlovu Medical Centre                                                    -25.284704    29.194169 	No Street Names, Elandsdoorn-B, 0485, South Africa
+  5 Sekhiming Health Centre                                                  -23.430388    30.560966 	Sekhiming, South Africa
+  6 Maphutha Malatji Hospital Pharmacy                                       -23.926047    31.038652 	Namakgale-D, Phalaborwa, 1391, South Africa
+  7 Mecklenburg Hospital                                                     -24.387515    30.074629 	Moroke Village, Burgersfort, Limpopo, South Africa, South Africa
+  8 Netcare Hospital Polokwane                                               -23.902021    29.493431 	Cnr Grobler Street &, Eland Ave, Savannah, Polokwane, 0699, South Africa
+  9 Voortrekker Hospital                                                     -24.196984    29.012671 	2 Geyser St, Trim Park, Mokopane, South Africa
+ 10 Tshilidzini Hospital                                                     -22.995015    30.414615 	Phundamaria Main Road, Shayandima, Thohoyandou, 0945, South Africa
+ 11 Philadelphia Hospital                                                    -25.259554    29.149871 	246 Philadelphia Main Road, Dennilton AH, 1030, South Africa
+ 12 Mokopane Hospital                                                        -24.153797    28.988596 	269 Dudu Madisha Dr, Mahwelereng-A, Mokopane, 0626, South Africa
+ 13 Letaba Hospital                                                          -23.873548    30.267554 	Tzaneen Lydenburg Road, Letaba, Tzaneen, 0870, South Africa
+ 14 Pietersburg Hospital                                                     -23.894914    29.460023 	Dorp St, Hospital Park, Polokwane, 0699, South Africa
+ 15 Louis Trichardt Memorial Hospital.                                       -23.028596    29.905744 	Hospital Street, Louis Trichardt, 0920, South Africa
+ 16 Tzaneen Medi-Clinic                                                      -23.822641    30.152796 	R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa
+ 17 Witpoort Hospital                                                        -23.334869    28.010159 	1 Jan Lee Street, Lephalale, 0555, South Africa
+ 18 Messina Hospital.                                                        -22.341432    30.044020 	3A Magazine Rd, Musina, 0900, South Africa
+ 19 Van Velden Hospital.                                                     -23.835070    30.164320 	Third Avenue, Arbor Park, Tzaneen, 0850, South Africa
+ 20 DR C N Phatudi Hospital                                                  -24.026580    30.280849 	Maake, 0871, South Africa
+ 21 Seshego Hospital                                                         -23.857343    29.395439 	48 Bo-Okelo St, Seshego-A, Polokwane, 0742, South Africa
+ 22 Mediclinic Limpopo                                                       -23.908383    29.464801 	57 Plein St, Polokwane Central, Polokwane, 0700, South Africa
+ 23 Saint Ritas Hospital                                                     -24.844286    29.809233 	Glen Cowie, 1061, South Africa
+ 24 F H Odendaal Hospital.                                                   -24.701466    28.422046 	146 Berg St, Modimolle, 0510, South Africa
+ 25 Malamulele Hospital                                                      -22.996367    30.697213 	Malamulela Street, Malamulele-A, Malamuela, 0982, South Africa
+ 26 Ellisras Hospital                                                        -23.678097    27.701114 	Alwyn Street & Chris Hani Ave, Lephalale, 0555, South Africa
+ 27 W F Knobel Hospital                                                      -23.607090    29.152680 	Ga-Mmabasotho, 0710, South Africa
+ 28 Helen Franz Hospital                                                     -23.283305    29.113324 	Bochum, South Africa
+ 29 Kgapane Hospital                                                         -23.649340    30.217102 	Modjadji College Road, Ga-Kgapane, Modjadjiskloof, 0830, South Africa
+ 30 Bela Bela Hispital                                                       -24.886358    28.287114 	57 Chris Hani Way, Bela-Bela, 0480, South Africa
+ 31 Mankweng Hospital                                                        -23.915676    29.468348 	12, 10 Magazyn St, Polokwane Ext 6, Polokwane, 0700, South Africa
+ 32 Nkhensani Hospital                                                       -23.317747    30.710786 	Main Street, Giyani-D, Giyani, 0826, South Africa
+ 33 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 34 Sekhiming Health Centre                                                  -23.430388    30.560966 	Sekhiming, South Africa
+ 35 Hayani Psychiatric Hospital                                              -22.941248    30.485553 	Road, R523, Thohoyandou, South Africa
+ 36 Mediclinic Thabazimbi                                                    -24.587580    27.412354 	Van Der Bijl St, 173, Thabazimbi, 0387, South Africa
+ 37 Thabazimbi Hospital                                                      -24.589773    27.391704 	Thabazimbi, 0387, South Africa
+ 38 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 39 Ndlovu Medical Centre                                                    -25.284704    29.194169 	No Street Names, Elandsdoorn-B, 0485, South Africa
+ 40 Tzaneen Medi-Clinic                                                      -23.822641    30.152796 	R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa
+ 41 Mediclinic Limpopo Day Clinic                                            -23.908160    29.464460 	53 Plein St, Polokwane Central, Polokwane, 0700, South Africa
+ 42 Maphutha Malatji Hospital Pharmacy                                       -23.926047    31.038652 	Namakgale-D, Phalaborwa, 1391, South Africa
+ 43 Saint Ritas Hospital                                                     -24.844286    29.809233 	Glen Cowie, 1061, South Africa
+ 44 Messina Hospital.                                                        -22.341432    30.044020 	3A Magazine Rd, Musina, 0900, South Africa
+ 45 Louis Trichardt Memorial Hospital.                                       -23.028596    29.905744 	Hospital Street, Louis Trichardt, 0920, South Africa
+ 46 Mediclinic                                                               -23.904378    29.464594 	48a Jorissen St, Polokwane Central, Polokwane, 0700, South Africa
+ 47 Nwamitwa Clinic                                                          -23.732533    30.408794 	Nwamitwa, 0850, South Africa
+ 48 Mediclinic Lephalale                                                     -23.686585    27.698493 	Cnr Douwater & Joe Slovo Str Onverwacht, Lephalale, 0557, South Africa
+ 49 Netcare Hospital Polokwane                                               -23.902021    29.493431 	Cnr Grobler Street &, Eland Ave, Savannah, Polokwane, 0699, South Africa
+ 50 Witpoort Hospital                                                        -23.334869    28.010159 	1 Jan Lee Street, Lephalale, 0555, South Africa
+ 51 Lulekani Community Health Centre                                         -23.863053    31.082236 	1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa
+ 52 Helena Franz Hospital                                                    -23.283366    29.112320 	Bochum Road, South Africa
+ 53 Mediclinic Thabazimbi                                                    -24.587580    27.412354 	Van Der Bijl St, 173, Thabazimbi, 0387, South Africa
+ 54 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa

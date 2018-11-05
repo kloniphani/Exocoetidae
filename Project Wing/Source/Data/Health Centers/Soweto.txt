@@ -1,0 +1,310 @@
+  1 Marie Stopes Soweto                                                      -26.258032    27.943074 	Black Chain, Chris Hani Rd, Diepkloof, Soweto, Johannesburg, 2001, South Africa
+  2 St John's Eye Hospital                                                   -26.259729    27.933204 	M68, Diepkloof 319-Iq, Soweto, 1862, South Africa
+  3 Freedom Park Clinic                                                      -26.298088    27.934032 	Jan De Necker Dr, Devland, Soweto, 1811, South Africa
+  4 Tshepisong Clinic                                                        -26.190119    27.805446 	1754 Unnamed Rd Soweto, Tshepisong, Soweto, 1754, South Africa
+  5 Zola Gateway Clinic                                                      -26.248080    27.857676 	Jabulani, Soweto, 1868, South Africa
+  6 Zola Clinic                                                              -26.243560    27.831160 	75/1 765 Buthelezi St, Zola, Soweto, 1878, South Africa
+  7 Chiawelo Community Practice                                              -26.280623    27.863402 	5203 Maluleke St, Chiawelo, Soweto, 1818, South Africa
+  8 Top Care Women's Clinic -Dube, Soweto                                    -26.238713    27.894722 	2223 Mncube Street, Office Number 18, Ekhaya Centre, Dube Village, Soweto, 1800, South Africa
+  9 Slovoville Clinic                                                        -26.216554    27.779341 	Dobsonville, Johannesburg, 1754, South Africa
+ 10 Chiawelo Community Healthcare Centre                                     -26.279238    27.865327 	Crn Chris Hani Road & Rihlampfu Street, Tshiawelo, Soweto, 1818, South Africa
+ 11 Jabavu Clinic - T.B Unit                                                 -26.253501    27.872023 	Jabavu Township, 3123 Tumahole Street, Jabavu, Soweto, 1809, South Africa
+ 12 Green Village Clinic                                                     -26.236478    27.804834 	Doornkop, Soweto, 1874, South Africa
+ 13 Zondi Clinic                                                             -26.232936    27.866257 	669 Shomayeli St, Zondi, Johannesburg, 1868, South Africa
+ 14 Moroka Clinic                                                            -26.261679    27.866185 	Soweto, Johannesburg, 1860, South Africa
+ 15 Elias Motsoaledi Clinic                                                  -26.223236    27.917401 	Carr St, Soweto, Johannesburg, 1803, South Africa
+ 16 Protea Glen Clinic                                                       -26.273033    27.805357 	8996/53 Wild Chestnut Street, Protea Glen, Soweto, 1818, South Africa
+ 17 Zola Clinic                                                              -26.243759    27.831506 	Obed St, Soweto, Johannesburg, 1868, South Africa
+ 18 Zone 1 Diepkloof Clinic                                                  -26.240728    27.947439 	Immink St, Diepkloof Zone 1, Soweto, 1802, South Africa
+ 19 Tladi Clinic                                                             -26.254116    27.842138 	Legwale St, Tladi, Johannesburg, 1868, South Africa
+ 20 Orlando Clinic                                                           -26.236773    27.919026 	Rathebe St, Orlando East, Johannesburg, 1804, South Africa
+ 21 Green Village Clinic                                                     -26.236555    27.804809 	2711, Nice Street, Greenvillage, Johannesburg, 1863, South Africa
+ 22 Lenasia Travel Clinic                                                    -26.321610    27.860120 	229 protea avenue, Extension 7, Lenasia, Johannesburg, 1820, South Africa
+ 23 Itireleng Community Health Centre                                        -26.217532    27.870834 	Elias Motsoaledi Rd, Soweto, Johannesburg, 1863, South Africa
+ 24 Protea South Clinic                                                      -26.285613    27.840476 	1818, Protea South, Soweto, South Africa
+ 25 Mandela Sisulu Clinic                                                    -26.235480    27.906721 	Orlando West, Soweto, 1804, South Africa
+ 26 Prime Cure Dube                                                          -26.237016    27.893973 	2413 Mncube Dr, Dube, Johannesburg, 1801, South Africa
+ 27 Zola Clinic                                                              -26.239643    27.822757 	Phidwa St, Soweto, Johannesburg, 1868, South Africa
+ 28 Senaoane Clinic                                                          -26.273760    27.864571 	Khamta Road, Senaoane, Johannesburg, 1818, South Africa
+ 29 Klipspruit West Clinic - T.B Unit                                        -26.289718    27.881365 	Cnr Daisy & Calendula Street, Klipspruit West Ext 1, Soweto, 1811, South Africa
+ 30 Eldorado Park Ext 8 Clinic                                               -26.290150    27.895220 	21 Ascot Road, Eldoradopark Ext 8, Soweto, 1811, South Africa
+ 31 Noordgesig Municipal Clinic                                              -26.225179    27.936044 	1 Collin Drive, Noordgesig, Soweto, 1804, South Africa
+ 32 Eldorado Park Ext 9 T.B Clinic                                           -26.280653    27.891854 	Boundary Rd, Eldorado Park, Soweto, 1811, South Africa
+ 33 Region D clinics                                                         -26.242719    27.830658 	75/1 765 Buthelezi St, Zola, Soweto, 1878, South Africa
+ 34 Pimville Clinic                                                          -26.262257    27.907599 	Dlebelendlovo, Pimville Zone 1, Soweto, 1809, South Africa
+ 35 Dr. C.K. Amos                                                            -26.245043    27.878403 	3142 Mputhi St, W.C.J., Johannesburg, 1800, South Africa
+ 36 Protea Glen Clinic                                                       -26.273118    27.805390 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+ 37 Siphumlile Coj Clinic                                                    -26.222220    27.832961 	2825 Mohajane, Thulani, Soweto, 1863, South Africa
+ 38 Dr AD Makhubelas                                                         -26.255364    27.839545 	Tamane St, Soweto, Johannesburg, 1868, South Africa
+ 39 Surgery & Optometrist                                                    -26.282151    27.853620 	Siaga St, Soweto, Johannesburg, 1818, South Africa
+ 40 Dr B A Hussain                                                           -26.279095    27.890369 	Future Rd, Kliptown, Soweto, 1804, South Africa
+  1 Marie Stopes Soweto                                                      -26.258032    27.943074 	Black Chain, Chris Hani Rd, Diepkloof, Soweto, Johannesburg, 2001, South Africa
+  2 St John's Eye Hospital                                                   -26.259729    27.933204 	M68, Diepkloof 319-Iq, Soweto, 1862, South Africa
+  3 Freedom Park Clinic                                                      -26.298088    27.934032 	Jan De Necker Dr, Devland, Soweto, 1811, South Africa
+  4 Tshepisong Clinic                                                        -26.190119    27.805446 	1754 Unnamed Rd Soweto, Tshepisong, Soweto, 1754, South Africa
+  5 Slovoville Clinic                                                        -26.216554    27.779341 	Dobsonville, Johannesburg, 1754, South Africa
+  6 Zola Gateway Clinic                                                      -26.248080    27.857676 	Jabulani, Soweto, 1868, South Africa
+  7 Zola Clinic                                                              -26.243560    27.831160 	75/1 765 Buthelezi St, Zola, Soweto, 1878, South Africa
+  8 Top Care Women's Clinic -Dube, Soweto                                    -26.238713    27.894722 	2223 Mncube Street, Office Number 18, Ekhaya Centre, Dube Village, Soweto, 1800, South Africa
+  9 Chiawelo Community Healthcare Centre                                     -26.279238    27.865327 	Crn Chris Hani Road & Rihlampfu Street, Tshiawelo, Soweto, 1818, South Africa
+ 10 Green Village Clinic                                                     -26.236555    27.804809 	2711, Nice Street, Greenvillage, Johannesburg, 1863, South Africa
+ 11 Jabavu Clinic - T.B Unit                                                 -26.253501    27.872023 	Jabavu Township, 3123 Tumahole Street, Jabavu, Soweto, 1809, South Africa
+ 12 Tladi Clinic                                                             -26.254116    27.842138 	Legwale St, Tladi, Johannesburg, 1868, South Africa
+ 13 Zondi Clinic                                                             -26.232936    27.866257 	669 Shomayeli St, Zondi, Johannesburg, 1868, South Africa
+ 14 Chiawelo Community Practice                                              -26.280623    27.863402 	5203 Maluleke St, Chiawelo, Soweto, 1818, South Africa
+ 15 Moroka Clinic                                                            -26.261679    27.866185 	Soweto, Johannesburg, 1860, South Africa
+ 16 Orlando Clinic                                                           -26.236773    27.919026 	Rathebe St, Orlando East, Johannesburg, 1804, South Africa
+ 17 Elias Motsoaledi Clinic                                                  -26.223236    27.917401 	Carr St, Soweto, Johannesburg, 1803, South Africa
+ 18 Protea Glen Clinic                                                       -26.273033    27.805357 	8996/53 Wild Chestnut Street, Protea Glen, Soweto, 1818, South Africa
+ 19 Zola Clinic                                                              -26.243759    27.831506 	Obed St, Soweto, Johannesburg, 1868, South Africa
+ 20 Zone 1 Diepkloof Clinic                                                  -26.240728    27.947439 	Immink St, Diepkloof Zone 1, Soweto, 1802, South Africa
+ 21 Itireleng Community Health Centre                                        -26.217532    27.870834 	Elias Motsoaledi Rd, Soweto, Johannesburg, 1863, South Africa
+ 22 Mandela Sisulu Clinic                                                    -26.235480    27.906721 	Orlando West, Soweto, 1804, South Africa
+ 23 Protea South Clinic                                                      -26.285613    27.840476 	1818, Protea South, Soweto, South Africa
+ 24 Prime Cure Dube                                                          -26.237016    27.893973 	2413 Mncube Dr, Dube, Johannesburg, 1801, South Africa
+ 25 Zola Clinic                                                              -26.239643    27.822757 	Phidwa St, Soweto, Johannesburg, 1868, South Africa
+ 26 Senaoane Clinic                                                          -26.273760    27.864571 	Khamta Road, Senaoane, Johannesburg, 1818, South Africa
+ 27 Klipspruit West Clinic - T.B Unit                                        -26.289718    27.881365 	Cnr Daisy & Calendula Street, Klipspruit West Ext 1, Soweto, 1811, South Africa
+ 28 Lenasia Travel Clinic                                                    -26.321610    27.860120 	229 protea avenue, Extension 7, Lenasia, Johannesburg, 1820, South Africa
+ 29 Noordgesig Municipal Clinic                                              -26.225179    27.936044 	1 Collin Drive, Noordgesig, Soweto, 1804, South Africa
+ 30 Eldorado Park Ext 8 Clinic                                               -26.290150    27.895220 	21 Ascot Road, Eldoradopark Ext 8, Soweto, 1811, South Africa
+ 31 Eldorado Park Ext 9 T.B Clinic                                           -26.280653    27.891854 	Boundary Rd, Eldorado Park, Soweto, 1811, South Africa
+ 32 Pimville Clinic                                                          -26.262257    27.907599 	Dlebelendlovo, Pimville Zone 1, Soweto, 1809, South Africa
+ 33 Dr. C.K. Amos                                                            -26.245043    27.878403 	3142 Mputhi St, W.C.J., Johannesburg, 1800, South Africa
+ 34 Region D clinics                                                         -26.242719    27.830658 	75/1 765 Buthelezi St, Zola, Soweto, 1878, South Africa
+ 35 Protea Glen Clinic                                                       -26.273118    27.805390 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+ 36 Siphumlile Coj Clinic                                                    -26.222220    27.832961 	2825 Mohajane, Thulani, Soweto, 1863, South Africa
+ 37 Dr AD Makhubelas                                                         -26.255364    27.839545 	Tamane St, Soweto, Johannesburg, 1868, South Africa
+ 38 Surgery & Optometrist                                                    -26.282151    27.853620 	Siaga St, Soweto, Johannesburg, 1818, South Africa
+ 39 Dr B A Hussain                                                           -26.279095    27.890369 	Future Rd, Kliptown, Soweto, 1804, South Africa
+ 40 Skin & Body International                                                -26.321451    27.863734 	Khayam Pl, Lenasia, 1827, South Africa
+ 41 S.A.M.S - Lenz Sick Bay                                                  -26.236322    27.806230 	Area Military House Unit, 10 Trichardt Avenue, Doornkop, Soweto, 1874, South Africa
+ 42 Meadowlands Zone 11 Portacabin Clinic                                    -26.223747    27.886993 	Vincent St, Meadowlands West Zone 6, Meadowlands West, 1852, South Africa
+ 43 Eldorado Park Ext 2 Clinic                                               -26.289933    27.895764 	Arlberg, Eldorado Park, Johannesburg, 1811, South Africa
+ 44 Dr. R. V. Taunyane                                                       -26.278376    27.848597 	Tshithuthune St, Soweto, Johannesburg, 1818, South Africa
+ 45 Eldorado Park Clinic Ext 8                                               -26.299614    27.909289 	1 Heinkel Rd, Eldorado Park, Johannesburg, 1811, South Africa
+ 46 Meadowlands Clinic                                                       -26.219679    27.898588 	Hekroodt Cir, Meadowlands, Johannesburg, 1852, South Africa
+ 47 Phenyo's SPATHERAPY &WELLNESSCAFE'                                       -26.210815    27.884612 	2023a, Soweto, Forbes Rd, Meadowlands West Zone 9, Meadowlands West, 1852, South Africa
+ 48 Dr Latib's Acupuncture and Chinese Medicine Clinic                       -26.318400    27.844086 	11 Mandrill St, Lenasia, 1827, South Africa
+ 49 Lenasia Community Health Centre (Hospital)                               -26.313860    27.850800 	Cosmos Street, Lenasia, 1821, South Africa
+ 50 Dr. M.T.D Qobose                                                         -26.245051    27.874495 	3939 Mailula St, Jabavu Ext 1, Johannesburg, 1710, South Africa
+ 51 Ringane & Associates Inc                                                 -26.238439    27.894372 	Stand 24/3 Cnr Mahalefele Road &, Mncube Dr, Dube, Soweto, 1801, South Africa
+ 52 Opti Eyewear Optometrist                                                 -26.258849    27.938886 	Baragwanath Medical Center, 8103 A Zone 6, Diepkloof, 1862, South Africa
+ 53 Protea Medical Centre                                                    -26.321648    27.860251 	229 Protea Avenue, Extension 7, Lenasia, Johannesburg, 1820, South Africa
+ 54 Medical Centre                                                           -26.245019    27.879129 	Mphuthi St, Soweto, Johannnesburg, 1864, South Africa
+ 55 ZAN Gardens                                                              -26.264554    27.877658 	01696 Njengele St, Moroka, Soweto, 1818, South Africa
+ 56 Diepkloof Clinic                                                         -26.238733    27.954018 	7648 Red Show Drive, Diepkloof Zone 3, Diepkloof, 1862, South Africa
+ 57 Dr. B K C Sithole                                                        -26.268131    27.904478 	26B Modjaji St, Pimville, Johannesburg, 1809, South Africa
+ 58 Kliptown Medical & Dental Centre                                         -26.279095    27.890369 	9 Union Ave, Kliptown, Soweto, 1812, South Africa
+ 59 Slovoville clinic                                                        -26.215757    27.779592 	Slovoville, Soweto, 1754, South Africa
+ 60 Dr. Haroon Essa                                                          -26.258795    27.942200 	Black Chain Centre, Opposite To Baragwanath Hospital, Chris Hani Rd, Diepkloof Zone 6, Johannesburg, 2001, South Africa
+ 61 Chiawelo Community Practice                                              -26.280623    27.863402 	5203 Maluleke St, Chiawelo, Soweto, 1818, South Africa
+ 62 Chiawelo Community Healthcare Centre                                     -26.279238    27.865327 	Crn Chris Hani Road & Rihlampfu Street, Tshiawelo, Soweto, 1818, South Africa
+ 63 Itireleng Community Health Centre                                        -26.217532    27.870834 	Elias Motsoaledi Rd, Soweto, Johannesburg, 1863, South Africa
+ 64 Lillian Ngoyi Community Health Centre                                    -26.259999    27.933137 	Chris Hani Rd, Diepkloof, Johannesburg, 1862, South Africa
+ 65 Marie Stopes Soweto                                                      -26.258032    27.943074 	Black Chain, Chris Hani Rd, Diepkloof, Soweto, Johannesburg, 2001, South Africa
+ 66 Kliptown Medical & Dental Centre                                         -26.279095    27.890369 	9 Union Ave, Kliptown, Soweto, 1812, South Africa
+ 67 Soweto Community Health Centre                                           -26.279318    27.865108 	1753 Rihlamvu Street, Chiawelo, Soweto, 1818, South Africa
+ 68 Zola Clinic                                                              -26.243560    27.831160 	75/1 765 Buthelezi St, Zola, Soweto, 1878, South Africa
+ 69 Prime Cure Dube                                                          -26.237016    27.893973 	2413 Mncube Dr, Dube, Johannesburg, 1801, South Africa
+ 70 The Roots Health Centre                                                  -26.259674    27.945869 	09, Ivan Khoza, Chris Hani Rd, Diepkloof, Johannesburg, 1864, South Africa
+ 71 Quali Health Braamfischer                                                -26.197830    27.855760 	Ubunye Dr, Bram Fischerville, Soweto, 1875, South Africa
+ 72 U-Care Medical Centre                                                    -26.209340    27.880341 	1959, Pimville Zone 9, Meadowlands, Soweto, 1852, South Africa
+ 73 Baragwanath Medical Centre                                               -26.258714    27.938152 	8103, Bara Mall, Bara Road, Diepkloof, Johannesburg, 1860, South Africa
+ 74 Mofolo Community Health Centre                                           -26.247498    27.884004 	Mofolo Central, Soweto, 1801, South Africa
+ 75 Ekhaya Lethu Medical Centre                                              -26.230408    27.874990 	Mmila Rd, Mofolo, Johannesburg, 1852, South Africa
+ 76 Protea Medical Centre                                                    -26.321648    27.860251 	229 Protea Avenue, Extension 7, Lenasia, Johannesburg, 1820, South Africa
+ 77 Eldorado Park Medical Centre                                             -26.295582    27.914084 	88 Kremetart Ave, Eldorado Park, Soweto, 1811, South Africa
+ 78 Lenasia Community Health Centre (Hospital)                               -26.313860    27.850800 	Cosmos Street, Lenasia, 1821, South Africa
+ 79 CWJ Medical Center                                                       -26.245209    27.868918 	Mputhi St, Mofolo Central, Johannesburg, 1864, South Africa
+ 80 Medical Centre                                                           -26.245019    27.879129 	Mphuthi St, Soweto, Johannnesburg, 1864, South Africa
+ 81 Yebohealth Medical Centre                                                -26.215278    27.890209 	25510 Vincent St, Meadowlands West Zone 6, Meadowlands West, 1852, South Africa
+ 82 Jabavu Clinic - T.B Unit                                                 -26.253501    27.872023 	Jabavu Township, 3123 Tumahole Street, Jabavu, Soweto, 1809, South Africa
+ 83 Lenasia Travel Clinic                                                    -26.321610    27.860120 	229 protea avenue, Extension 7, Lenasia, Johannesburg, 1820, South Africa
+ 84 Protea Glen Clinic                                                       -26.273118    27.805390 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+ 85 Zola Gateway Clinic                                                      -26.248080    27.857676 	Jabulani, Soweto, 1868, South Africa
+ 86 HEALTH CENTRE                                                            -26.301343    27.896907 	9 Lood St, Eldorado Park, Soweto, 1811, South Africa
+ 87 Medical & Dental Centre                                                  -26.291640    27.907236 	Sirkel Rd, Eldorado Park, Johannesburg, 1811, South Africa
+ 88 Zone 1 Diepkloof Clinic                                                  -26.240728    27.947439 	Immink St, Diepkloof Zone 1, Soweto, 1802, South Africa
+ 89 My Clinic                                                                -26.283216    27.854739 	Chris Hani Rd, Chiawelo, Soweto, 1818, South Africa
+ 90 Dobsonville Medical & Dental Surgery's                                   -26.211883    27.869265 	Shop No. 65F, Dobsonville Shopping Centre, Dobsonville Road, Dobsonville, Johannesburg, 1865, South Africa
+ 91 FLEURHOF GOOD HEALTH CENTRE POINT                                        -26.200114    27.913020 	WINZE DRIVE, FLEURHOF, Johannesburg, 1709, South Africa
+ 92 Iso Lempilo Health Organization                                          -26.237780    27.854930 	1062 Dlangamandla St, Jabulani, Soweto, 1868, South Africa
+ 93 Dr B A Hussain                                                           -26.279095    27.890369 	Future Rd, Kliptown, Soweto, 1804, South Africa
+ 94 Vilakazi Healthcare                                                      -26.238166    27.902045 	7006 Vilakazi St, Orlando West, Soweto, 1804, South Africa
+ 95 Protea Glen Clinic                                                       -26.273033    27.805357 	8996/53 Wild Chestnut Street, Protea Glen, Soweto, 1818, South Africa
+ 96 Ubuntu Health Care Clinic                                                -26.261156    27.906423 	Pimville Zone 1, Pimville, 1809, South Africa
+ 97 Tladi Community Health Centre                                            -26.254828    27.849394 	Legwale St, Moletsane, Soweto, 1868, South Africa
+ 98 Mandela Sisulu Clinic                                                    -26.235480    27.906721 	Orlando West, Soweto, 1804, South Africa
+ 99 First Care Medical Centre                                                -26.263788    27.914987 	Modjaji St, Pimville, Johannesburg, 1809, South Africa
+100 Glencare Specialist Medical Centre                                       -26.273511    27.804885 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+101 Soweto Community Health Centre Pharmacy                                  -26.244600    27.829240 	780 Obed St, Emdeni South, Soweto, 1861, South Africa
+102 Lilian Ngoyi Community Clinic - Medical                                  -26.259892    27.943285 	Lilian Ngoyi Community Clinic, Old Potchefstroom Road, Diepkloof Zone 6, Diepkloof, 1862, South Africa
+103 Chris Hani Baragwanath Academic Hospital                                 -26.261231    27.942639 	26 Chris Hani Rd, Diepkloof 319-Iq, Johannesburg, 1864, South Africa
+104 Bheki Mlangeni District Hospital                                         -26.247679    27.856765 	2190, Bolani Rd, Jabulani, Johannesburg, 1868, South Africa
+105 Tshepo Themba Private Hospital                                           -26.205477    27.874517 	Dobsonville, Soweto, 1863, South Africa
+106 St John's Eye Hospital                                                   -26.259729    27.933204 	M68, Diepkloof 319-Iq, Soweto, 1862, South Africa
+107 Dr SK Matseke Memorial Hospital                                          -26.258438    27.935631 	Cnr Immink Drive and, Chris Hani Rd, Diepkloof Zone 6, Diepkloof, 1862, South Africa
+108 Chris Hani Baragwanath Hospital - Oncology                               -26.266316    27.947900 	Chris Hani Baragwanath Hospital, Chris Hani Road, Diepkloof, 1862, South Africa
+109 Ekhaya Lethu Medical Centre                                              -26.230408    27.874990 	Mmila Rd, Mofolo, Johannesburg, 1852, South Africa
+110 Lillian Ngoyi Community Health Centre                                    -26.259999    27.933137 	Chris Hani Rd, Diepkloof, Johannesburg, 1862, South Africa
+111 My Clinic                                                                -26.283216    27.854739 	Chris Hani Rd, Chiawelo, Soweto, 1818, South Africa
+112 Chiawelo Community Practice                                              -26.280623    27.863402 	5203 Maluleke St, Chiawelo, Soweto, 1818, South Africa
+113 U-Care Medical Centre                                                    -26.209340    27.880341 	1959, Pimville Zone 9, Meadowlands, Soweto, 1852, South Africa
+114 Marie Stopes Soweto                                                      -26.258032    27.943074 	Black Chain, Chris Hani Rd, Diepkloof, Soweto, Johannesburg, 2001, South Africa
+115 Total Care Medical Center                                                -26.252470    27.885234 	350 Elias Motsoaledi Rd, Mofolo South, Johannesburg, 1860, South Africa
+116 Baragwanath Medical Centre                                               -26.258714    27.938152 	8103, Bara Mall, Bara Road, Diepkloof, Johannesburg, 1860, South Africa
+117 Ekhaya Lethu Medical Centre                                              -26.230415    27.874988 	Koma St, Mofolo, Johannesburg, 1801, South Africa
+118 CWJ Medical Center                                                       -26.245209    27.868918 	Mputhi St, Mofolo Central, Johannesburg, 1864, South Africa
+119 Dr Shingange Medical Centre                                              -26.267722    27.828608 	1538 Letsatsi St, Protea North, Johannesburg, 1818, South Africa
+120 Itireleng Community Health Centre                                        -26.217532    27.870834 	Elias Motsoaledi Rd, Soweto, Johannesburg, 1863, South Africa
+121 Kliptown Medical & Dental Centre                                         -26.279095    27.890369 	9 Union Ave, Kliptown, Soweto, 1812, South Africa
+122 Advanced Soweto Day Hospital                                             -26.282958    27.814253 	14475 Isixyxabesha Street Extension 6, Protea Glen, Soweto, 1819, South Africa
+123 Medical & Dental Centre                                                  -26.291640    27.907236 	Sirkel Rd, Eldorado Park, Johannesburg, 1811, South Africa
+124 Chiawelo Community Healthcare Centre                                     -26.279238    27.865327 	Crn Chris Hani Road & Rihlampfu Street, Tshiawelo, Soweto, 1818, South Africa
+125 Dr TC NGWENYA MEDICAL AND DENTAL CENTRE                                  -26.239384    27.912602 	kumalo and, Armitage St, Orlando West, 1804, South Africa
+126 St John's Eye Hospital                                                   -26.259729    27.933204 	M68, Diepkloof 319-Iq, Soweto, 1862, South Africa
+127 Hlophe T                                                                 -26.261830    27.868015 	Kayvee Shopping Centre, 3487 Vundla St, Rockville, Soweto, 1818, South Africa
+128 Iso Lempilo Health Organization                                          -26.237780    27.854930 	1062 Dlangamandla St, Jabulani, Soweto, 1868, South Africa
+129 Vilakazi Healthcare                                                      -26.238166    27.902045 	7006 Vilakazi St, Orlando West, Soweto, 1804, South Africa
+130 Dr Michisi S Mbatsana                                                    -26.242940    27.948480 	15997 Eben Cuyler Dr, Diepkloof Zone 3, Diepkloof, 1862, South Africa
+131 Prime Cure Dube                                                          -26.237016    27.893973 	2413 Mncube Dr, Dube, Johannesburg, 1801, South Africa
+132 Zola Clinic                                                              -26.243560    27.831160 	75/1 765 Buthelezi St, Zola, Soweto, 1878, South Africa
+133 FLEURHOF GOOD HEALTH CENTRE POINT                                        -26.200114    27.913020 	WINZE DRIVE, FLEURHOF, Johannesburg, 1709, South Africa
+134 Qengeba Medical Center                                                   -26.262934    27.911064 	11772 Mtangai St, Pimville Zone 1, Johannesburg, 1809, South Africa
+135 Medical Surgery                                                          -26.280015    27.822752 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+136 Eldorado Park Medical Centre                                             -26.295582    27.914084 	88 Kremetart Ave, Eldorado Park, Soweto, 1811, South Africa
+137 Lenasia Travel Clinic                                                    -26.321610    27.860120 	229 protea avenue, Extension 7, Lenasia, Johannesburg, 1820, South Africa
+138 Zola Gateway Clinic                                                      -26.248080    27.857676 	Jabulani, Soweto, 1868, South Africa
+139 The Roots Health Centre                                                  -26.259674    27.945869 	09, Ivan Khoza, Chris Hani Rd, Diepkloof, Johannesburg, 1864, South Africa
+140 Drs. Moosajee & Partner                                                  -26.322151    27.835635 	Ext.2, 135 Rose Ave, Lenasia, Johannesburg, 1820, South Africa
+141 Dr D Ngwenya Medical Practice                                            -26.207366    27.887845 	479 Maseru Rd, Meadowlands West Zone 7, Soweto, 1852, South Africa
+142 Mandela Sisulu Clinic                                                    -26.235480    27.906721 	Orlando West, Soweto, 1804, South Africa
+143 Protea Medical Centre                                                    -26.321648    27.860251 	229 Protea Avenue, Extension 7, Lenasia, Johannesburg, 1820, South Africa
+144 Dr B A Hussain                                                           -26.279095    27.890369 	Future Rd, Kliptown, Soweto, 1804, South Africa
+145 Jabavu Clinic - T.B Unit                                                 -26.253501    27.872023 	Jabavu Township, 3123 Tumahole Street, Jabavu, Soweto, 1809, South Africa
+146 Zone 1 Diepkloof Clinic                                                  -26.240728    27.947439 	Immink St, Diepkloof Zone 1, Soweto, 1802, South Africa
+147 Aeroton Medical Centre                                                   -26.250680    27.971930 	Shop no 7 at Shell Garage Aeroton, 64 Aerodrome Road, Aeroton, Johannesburg, 2091, South Africa
+148 Freedom Park Clinic                                                      -26.298088    27.934032 	Jan De Necker Dr, Devland, Soweto, 1811, South Africa
+149 Yebohealth Medical Centre                                                -26.215278    27.890209 	25510 Vincent St, Meadowlands West Zone 6, Meadowlands West, 1852, South Africa
+150 Quali Health Braamfischer                                                -26.197830    27.855760 	Ubunye Dr, Bram Fischerville, Soweto, 1875, South Africa
+151 Chris Hani Baragwanath Academic Hospital                                 -26.261231    27.942639 	26 Chris Hani Rd, Diepkloof 319-Iq, Johannesburg, 1864, South Africa
+152 Protea Glen Clinic                                                       -26.273033    27.805357 	8996/53 Wild Chestnut Street, Protea Glen, Soweto, 1818, South Africa
+153 Medical Centre                                                           -26.245019    27.879129 	Mphuthi St, Soweto, Johannnesburg, 1864, South Africa
+154 Orlando Clinic                                                           -26.236773    27.919026 	Rathebe St, Orlando East, Johannesburg, 1804, South Africa
+155 Elias Motsoaledi Clinic                                                  -26.223236    27.917401 	Carr St, Soweto, Johannesburg, 1803, South Africa
+156 Tshepo Themba Private Hospital                                           -26.205477    27.874517 	Dobsonville, Soweto, 1863, South Africa
+157 Protea Glen Clinic                                                       -26.273118    27.805390 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+158 Dobsonville Medical & Dental Surgery's                                   -26.211883    27.869265 	Shop No. 65F, Dobsonville Shopping Centre, Dobsonville Road, Dobsonville, Johannesburg, 1865, South Africa
+159 Klipspruit West Clinic - T.B Unit                                        -26.289718    27.881365 	Cnr Daisy & Calendula Street, Klipspruit West Ext 1, Soweto, 1811, South Africa
+160 Dr M.A. Muhammad Medical Practice                                        -26.290804    27.879917 	9 Fuschia Rd, Klipspruit West, Johannesburg, 1811, South Africa
+161 Eldorado Park Ext 8 Clinic                                               -26.290150    27.895220 	21 Ascot Road, Eldoradopark Ext 8, Soweto, 1811, South Africa
+162 Bheki Mlangeni District Hospital                                         -26.247679    27.856765 	2190, Bolani Rd, Jabulani, Johannesburg, 1868, South Africa
+163 Goldman Medical Centre                                                   -26.175980    27.924570 	109 Goldman St, Florida, Roodepoort, 1709, South Africa
+164 Sonar X-Ray                                                              -26.270009    27.813999 	1884 Wild Chestnut St, Protea Glen, Johannesburg, 1819, South Africa
+165 Surgery                                                                  -26.248746    27.853082 	Bolani Rd, Doletsanero, Johannesburg, 1868, South Africa
+166 Life Esidimeni                                                           -26.200645    27.934992 	91 Leader Ave, Robertsville, Johannesburg, 1709, South Africa
+167 Glencare Specialist Medical Centre                                       -26.273511    27.804885 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+168 First Care Medical Centre                                                -26.263788    27.914987 	Modjaji St, Pimville, Johannesburg, 1809, South Africa
+169 Chiawelo Community Healthcare Centre                                     -26.279238    27.865327 	Crn Chris Hani Road & Rihlampfu Street, Tshiawelo, Soweto, 1818, South Africa
+170 Life Esidimeni                                                           -26.200645    27.934992 	91 Leader Ave, Robertsville, Johannesburg, 1709, South Africa
+171 Catnap Day Care Centre                                                   -26.244139    27.858001 	44 1, Extension, Meadowlands West Zone 10, Soweto, 1868, South Africa
+172 Meadowlands Welfare Centre                                               -26.206778    27.879924 	Maseru Rd, Meadowlands, Soweto, 1855, South Africa
+173 Quali Health Braamfischer                                                -26.197830    27.855760 	Ubunye Dr, Bram Fischerville, Soweto, 1875, South Africa
+174 U-care Walk In Clinic                                                    -26.225791    27.930294 	1959 Soweto Hwy, Orlando East, Meadowlands East, 1804, South Africa
+175 Ubuntu Health Care Clinic                                                -26.261156    27.906423 	Pimville Zone 1, Pimville, 1809, South Africa
+176 U-Care Medical Centre                                                    -26.209340    27.880341 	1959, Pimville Zone 9, Meadowlands, Soweto, 1852, South Africa
+177 LechekoMindPower                                                         -26.251711    27.849934 	315 Moliwa St, Moletsane, Soweto, 1868, South Africa
+178 Lillian Ngoyi Community Health Centre                                    -26.259999    27.933137 	Chris Hani Rd, Diepkloof, Johannesburg, 1862, South Africa
+179 CWJ Medical Center                                                       -26.245209    27.868918 	Mputhi St, Mofolo Central, Johannesburg, 1864, South Africa
+180 T & D Medical Health Services                                            -26.216667    27.866667 	3222 Nonhlanhla, Dobsonville, Soweto, 1863, South Africa
+181 Chiawelo Community Practice                                              -26.280623    27.863402 	5203 Maluleke St, Chiawelo, Soweto, 1818, South Africa
+182 Total Care Medical Center                                                -26.252470    27.885234 	350 Elias Motsoaledi Rd, Mofolo South, Johannesburg, 1860, South Africa
+183 UPD                                                                      -26.190302    27.911574 	14 Tamar Ave, Lea Glen, Johannesburg, 1709, South Africa
+184 Ebom Consultancy                                                         -26.242834    27.881990 	01254 Matete St, Mofolo Central, Johannesburg, 1801, South Africa
+185 Medical & Dental Centre                                                  -26.291640    27.907236 	Sirkel Rd, Eldorado Park, Johannesburg, 1811, South Africa
+186 Roman H A and Partners T/a Fresenius Medical Care - Soweto Kidney and Dialysis Centre   -26.258220    27.936010 	Clinix Lesedi Private Hospital, 23967 Chris Hani Road, Diepkloof Zone 6, Diepkloof, 1862, South Africa
+187 Roodepoort Healthcare Risk Waste Facility                                -26.186897    27.892559 	Rand Leases, Randburg, South Africa
+188 Verimark                                                                 -26.279171    27.862835 	1868 Chris Hani Rd, Senaoane, Soweto, 1868, South Africa
+189 Clinix Health Group                                                      -26.258374    27.935863 	Nembula House, 23967 Chris Hani Rd, Diepkloof Zone 6, Johannesburg, 1862, South Africa
+190 My Clinic                                                                -26.283216    27.854739 	Chris Hani Rd, Chiawelo, Soweto, 1818, South Africa
+191 Iso Lempilo Health Organization                                          -26.237780    27.854930 	1062 Dlangamandla St, Jabulani, Soweto, 1868, South Africa
+192 Marie Stopes Soweto                                                      -26.258032    27.943074 	Black Chain, Chris Hani Rd, Diepkloof, Soweto, Johannesburg, 2001, South Africa
+193 Clinix Health Group                                                      -26.205560    27.874453 	Rorl, Meadowlands, Johannesburg, 1852, South Africa
+194 Dr Shingange Medical Centre                                              -26.267722    27.828608 	1538 Letsatsi St, Protea North, Johannesburg, 1818, South Africa
+195 Top Care Women's Clinic -Dube, Soweto                                    -26.238713    27.894722 	2223 Mncube Street, Office Number 18, Ekhaya Centre, Dube Village, Soweto, 1800, South Africa
+196 The Roots Health Centre                                                  -26.259674    27.945869 	09, Ivan Khoza, Chris Hani Rd, Diepkloof, Johannesburg, 1864, South Africa
+197 Hlophe T                                                                 -26.261830    27.868015 	Kayvee Shopping Centre, 3487 Vundla St, Rockville, Soweto, 1818, South Africa
+198 Kliptown Medical & Dental Centre                                         -26.279095    27.890369 	9 Union Ave, Kliptown, Soweto, 1812, South Africa
+199 Kinky world of hair                                                      -26.258244    27.902267 	Maponya Mall, 118 Chris Hani Rd, Soweto, Johannesburg, 1809, South Africa
+200 Zola Gateway Clinic                                                      -26.248080    27.857676 	Jabulani, Soweto, 1868, South Africa
+201 Dr AD Makhubelas                                                         -26.255364    27.839545 	Tamane St, Soweto, Johannesburg, 1868, South Africa
+202 Soweto Independent Living Center                                         -26.244260    27.886410 	Mzilikatse St, Mofolo South, Johannesburg, 1801, South Africa
+203 Itireleng Community Health Centre                                        -26.217532    27.870834 	Elias Motsoaledi Rd, Soweto, Johannesburg, 1863, South Africa
+204 The South African Healthcare Foundation                                  -26.247164    28.008324 	Robertsham Medical & Dental House, 82 Anson St, Robertsham, Johannesburg, 2175, South Africa
+205 OMOLEMO HEALTH CARE PRIVATE CLINIC                                       -26.172620    27.911560 	28GOLDMAN STREET FLORIDA FLORIDA, Florida, 1709, South Africa
+206 Zola Clinic                                                              -26.243560    27.831160 	75/1 765 Buthelezi St, Zola, Soweto, 1878, South Africa
+207 Prime Cure Dube                                                          -26.237016    27.893973 	2413 Mncube Dr, Dube, Johannesburg, 1801, South Africa
+208 Phenyo's SPATHERAPY &WELLNESSCAFE'                                       -26.210815    27.884612 	2023a, Soweto, Forbes Rd, Meadowlands West Zone 9, Meadowlands West, 1852, South Africa
+209 St John's Eye Hospital                                                   -26.259729    27.933204 	M68, Diepkloof 319-Iq, Soweto, 1862, South Africa
+210 Unique Health                                                            -26.150584    27.919778 	3rd Floor Mayo Clinic, 7 William Nicol Drive, Constantia Kloof, 1710, South Africa
+211 Dr AD Makhubelas                                                         -26.255364    27.839545 	Tamane St, Soweto, Johannesburg, 1868, South Africa
+212 Dr. F. E. Geldenhuys Surgery                                             -26.277733    27.838494 	35 Ndaba St, Protea Glen, Soweto, 1818, South Africa
+213 Surgery & Optometrist                                                    -26.282151    27.853620 	Siaga St, Soweto, Johannesburg, 1818, South Africa
+214 Naledi Surgery                                                           -26.253597    27.831502 	676 Bona St, Naledi, Soweto, 1861, South Africa
+215 Dr TT Muthambi - General Surgeon                                         -26.282888    27.814090 	Unnamed Road, Protea Glen, Soweto, 1819, South Africa
+216 Dr A I Jada                                                              -26.276929    27.890716 	13, Klipspruit Valley Rd, Klipspruit, Soweto, 1809, South Africa
+217 Dr. SF Mthembu                                                           -26.258615    27.936672 	18, Lesedi Private Hospital, Chris Hani Rd, Soweto, Johannesburg, 1864, South Africa
+218 Dr PR Makaulule - Ear,Nose & Throat                                      -26.283919    27.818245 	14475 Isixaxabesha St, Protea Glen, Soweto, 1818, South Africa
+219 Dr. L. Mokatedi                                                          -26.274638    27.833427 	2945 Botile St, Protea North, Johannesburg, 1818, South Africa
+220 Dr. EA Mjuza                                                             -26.258628    27.936825 	Chris Hani Rd, Diepkloof, Johannesburg, 1864, South Africa
+221 Dr. R. V. Taunyane                                                       -26.278376    27.848597 	Tshithuthune St, Soweto, Johannesburg, 1818, South Africa
+222 Dr Wisani Chauke                                                         -26.285734    27.849991 	Alekhine St, Chiawelo, Johannesburg, 1818, South Africa
+223 Surgery                                                                  -26.236998    27.929039 	Sofasonke St, Orlando East, Johannesburg, 1804, South Africa
+224 Moloi Surgery                                                            -26.251171    27.884132 	Cross Roads Shopping Center, Phera St, Jabavu, Johannesburg, 1809, South Africa
+225 Surgery - Dr. A.N Mmusi                                                  -26.242429    27.944606 	Luaname St, Diepkloof Zone 1, Johannesburg, 1862, South Africa
+226 Surgery                                                                  -26.230447    27.837617 	Mohajane, Dobsonville, Johannesburg, 1868, South Africa
+227 S And S Orthopedic Services                                              -26.258641    27.936757 	Room 31, Zone 6, Nembula House, Diepkloof, 1864, South Africa
+228 Protea Glen Ext 31 Surgery and Accomodation                              -26.276501    27.784337 	17 Umzimkhulu St, Protea Glen, Soweto, 1819, South Africa
+229 Surgery                                                                  -26.248746    27.853082 	Bolani Rd, Doletsanero, Johannesburg, 1868, South Africa
+230 Dr NS Mogodi                                                             -26.255443    27.822384 	1460 Tshetlo St, Naledi, Johannesburg, 1818, South Africa
+231 Surgery                                                                  -26.206474    27.881899 	Maseru Rd, Meadowlands Zone 9, Johannesburg, 1852, South Africa
+232 Dr. M.S. Molefe                                                          -26.272493    27.861125 	Mabalane St, Soweto, Johannesburg, 1818, South Africa
+233 Surgery Medicare Centre                                                  -26.254170    27.854315 	Mokwena St, Moletsane, Johannesburg, 1868, South Africa
+234 Surgery                                                                  -26.286372    27.887523 	Eldorado Park, Johannesburg, 1811, South Africa
+235 Dr. B.L. Khulu                                                           -26.258615    27.936672 	Suite 18, Nembula House, Diepkloof Zone 6, Diepkloof, 1862, South Africa
+236 TM Mkhize Dental Surgery                                                 -26.222916    27.870482 	No. 3 Jabulani St, Dobsonville, Soweto, 1863, South Africa
+237 Dr. Mosidi G. Sehume                                                     -26.258641    27.936757 	Lesedi Private Hospital, 30 Nembula House, Diepkloof, Johannesburg, 1862, South Africa
+238 Dube Dental Surgery                                                      -26.237656    27.895021 	Mahalefele Rd, Dube, Johannesburg, 1801, South Africa
+239 Dr. Charles N. Mujakachi                                                 -26.258308    27.936961 	Diepkloof Zone 6, Johannesburg, 1864, South Africa
+240 Surgery Dr Thlabi                                                        -26.241135    27.955326 	18594 Rustenburg St, Diepkloof Zone 4, Diepkloof, 1862, South Africa
+241 Dr. T. E. Ndzeru                                                         -26.258637    27.936741 	33, Nembula House, Chris Hani Rd, Diepkloof, Johannesburg, 1862, South Africa
+242 Medical Surgery                                                          -26.280015    27.822752 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+243 Dr .M. Isabelle                                                          -26.230193    27.837764 	Shop 20, Dobsonville Point, Mohajane, Dobsonville, Johannesburg, 1415, South Africa
+244 Dr Avhashoni T Mavhungu                                                  -26.282942    27.854064 	4367, Tshiawelo Ext 2, Johannesburg, 1818, South Africa
+245 Mkhawana C T                                                             -26.285850    27.840810 	Protea South, Soweto, 1818, South Africa
+246 Dr P.S Mabela                                                            -26.202215    27.867528 	Amandla Drive, Bram Fischerville, Johannesburg, 1724, South Africa
+247 Rammutla                                                                 -26.274432    27.768579 	Protea Glen Extension 28, Soweto, 1834, South Africa
+248 Dr. T Phefo                                                              -26.271549    27.856044 	875 Mabalane St, Phiri, Johannesburg, 1818, South Africa
+249 Advanced Soweto Day Hospital                                             -26.282958    27.814253 	14475 Isixyxabesha Street Extension 6, Protea Glen, Soweto, 1819, South Africa
+250 Dr B A Hussain                                                           -26.279095    27.890369 	Future Rd, Kliptown, Soweto, 1804, South Africa
+251 Kliptown Medical & Dental Centre                                         -26.279095    27.890369 	9 Union Ave, Kliptown, Soweto, 1812, South Africa
+252 Dr D Ngwenya Medical Practice                                            -26.207366    27.887845 	479 Maseru Rd, Meadowlands West Zone 7, Soweto, 1852, South Africa
+253 Marie Stopes Soweto                                                      -26.258032    27.943074 	Black Chain, Chris Hani Rd, Diepkloof, Soweto, Johannesburg, 2001, South Africa
+254 Dr S Ismail                                                              -26.241044    27.861749 	540 Dlamini St, Jabulani, Soweto, 1868, South Africa
+255 Surgery                                                                  -26.289682    27.850327 	Midway St, Midway, Soweto, 1864, South Africa
+256 Dr.V.S. Nhlapo Inc.                                                      -26.269750    27.814535 	Glen Health Corner, Opp. BP Garage, Protea Glen, Johannesburg, 8434, South Africa
+257 Nkuna L E                                                                -26.229906    27.900254 	Zone 5, 20008 Ndlovu Road, Meadowlands, Roodepoort, 1852, South Africa
+258 Dr. Ismail Mia                                                           -26.283441    27.904663 	Crystal Place, 6517 George Elliot Ave, Eldorado Park Ext 6, Johannesburg, 1813, South Africa
+259 Dr. T.M. Tshabalala                                                      -26.280015    27.822752 	Wild Chestnut St, Protea Glen, Johannesburg, 1818, South Africa
+260 DR MS MUSHADU                                                            -26.222509    27.900186 	Ndofaya Mall Medical Centre, Opposite Meadowlands Police Station), Hekroodt St, Meadowlands, Johannesburg, South Africa
+261 Dr E Nanabhai                                                            -26.283449    27.870816 	1339 Tshiovhe St, Chiawelo, Soweto, 1817, South Africa
+262 Dr. K. Mosalakae                                                         -26.236980    27.929016 	1501 B Sofasonke St & Opp. Baza- Baza Roadhouse, Orlando East, Johannesburg, 1804, South Africa
+263 Dr K.M Bopalamo                                                          -26.272278    27.832703 	Protea North Family Practise, 2560 Ndaba St, Soweto, Johannnesburg, 1818, South Africa
+264 Dr TC Moloto                                                             -26.211051    27.868967 	75, Dobsonville Shopping Centre, Elias Motsoaledi Rd, Soweto, 1863, South Africa
+265 Dr M Machaka                                                             -26.282919    27.814211 	14475 Isixaxabesha St, Protea Glen, Soweto, 1818, South Africa
+266 Dr. David E. Mashigo                                                     -26.231034    27.839396 	10739 Monametsi St, Dobsonville, Soweto, 1863, South Africa
+267 Green Village Clinic                                                     -26.236478    27.804834 	Doornkop, Soweto, 1874, South Africa
+268 Dr. BM Hlatshwayo                                                        -26.257023    27.943011 	Toby's Centre, 8122 Patrick Street, Opp. Blackchain Bara, Zone 6, Soweto, Johannesburg, 1864, South Africa
+269 Zondi Clinic                                                             -26.232936    27.866257 	669 Shomayeli St, Zondi, Johannesburg, 1868, South Africa
+270 Orthopaedic Suppliers                                                    -26.167511    27.931127 	7 Penelope Ave, Florida North, Johannesburg, 1709, South Africa

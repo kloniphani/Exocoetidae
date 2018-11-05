@@ -51,6 +51,9 @@ class Node(object):
 		self.VRMS = 10
 		self.Bandwidth = 10 #Mb/s
 
+		#CONNECTED NODES
+		self.LINKS = [];
+
 		#TELEMETRY 		
 		self.ResidualEnergy = random.choice(random.normal(12400, 0.1, 100000))
 		if RE is not None:
@@ -211,6 +214,15 @@ class Node(object):
 
 		if Type is '2D': return Adjecent
 		else: return Hypotenuse
+
+	def addLink(self, Node, Link, Results = False):
+		"""
+		"""
+		self.LINKS.append({str(Node.Id):Node, 'link':Link})
+
+		#PRINTING THE RESULTS
+		if Results is True:
+			print("Node: {0:8f}\tLink: {1:8f}".format(Node.Id, Link))
 
 	def ReferenceDistance(self, Point):
 		"""

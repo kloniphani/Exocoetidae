@@ -1,0 +1,247 @@
+  1 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+  2 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+  3 Lulekani Community Health Centre                                         -23.863053    31.082236 	1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa
+  4 Namakgale medical Centre                                                 -23.938372    31.031288 	stand 3494 zone b, Calvin Ngobeni, street, 1391, South Africa
+  5 MarulaMed Health Centre                                                  -23.955701    31.141140 	33 Park St, Phalaborwa, Ba, 1390, South Africa
+  6 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+  7 Humulani Clinic                                                          -23.875206    31.060224 	Phalaborwa, 1390, South Africa
+  8 Rewild                                                                   -23.890723    31.104873 	Phalaborwa, 1390, South Africa
+  9 Maphutha Malatji Hospital Pharmacy                                       -23.926047    31.038652 	Namakgale-D, Phalaborwa, 1391, South Africa
+ 10 Maphutha L Malatjie Hospital - Dietetics Dept                            -23.924939    31.036962 	Namakgale-E, Phalaborwa, 1391, South Africa
+ 11 Maphutha L Malatji Hopsital                                              -23.924540    31.037123 	Namakgale-B, Phalaborwa, 1391, South Africa
+ 12 Namakgale medical Centre                                                 -23.938372    31.031288 	stand 3494 zone b, Calvin Ngobeni, street, 1391, South Africa
+ 13 MarulaMed Health Centre                                                  -23.955701    31.141140 	33 Park St, Phalaborwa, Ba, 1390, South Africa
+ 14 Lulekani Community Health Centre                                         -23.863053    31.082236 	1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa
+ 15 Selwana Clinic                                                           -23.695397    30.927334 	Ga-Selwana, South Africa
+ 16 Benfarm Clinic                                                           -23.916016    31.037002 	Ben-A, Phalaborwa, South Africa
+ 17 Kheyi Clinic                                                             -23.579771    30.873646 	Ka-Kheyi, South Africa
+ 18 Consolidated Murchison Mine Hospital                                     -23.950670    30.611550 	77 Antimoon Rd, Gravelotte, 0895, South Africa
+ 19 Zava Clinic                                                              -23.629328    30.737869 	Makhwivirini, South Africa
+ 20 Loloka Clinic                                                            -23.550548    30.794884 	Loloka Village, Loloka Main Rd, Loloka, 0826, South Africa
+ 21 Lulekani Primary School.                                                 -23.858520    31.076920 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 22 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 23 Lulekani Community Health Centre                                         -23.863053    31.082236 	1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa
+ 24 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 25 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 26 Police Station Phalaborwa                                                -23.952613    31.136536 	Sealene Rd, Phalaborwa, 1389, South Africa
+ 27 S A POLICE SERVICE                                                       -23.866585    31.080911 	1655 Chris Hani Dr, Lulekani-B, Lulekani, 1392, South Africa
+ 28 Saps Lulekani.                                                           -23.867114    31.080372 	655 Chris Hani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 29 lulekani community hall                                                  -23.864829    31.078759 	1494 Clinic St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 30 lulekani stadium                                                         -23.867545    31.094575 	Lulekani-B, Phalaborwa, 1392, South Africa
+ 31 Saps Lulekani.                                                           -23.867114    31.080372 	655 Chris Hani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 32 Lulekani Magistrate's Court                                              -23.866431    31.081045 	Chris Hani Street, Lulekani, Phalaborwa, 1392, South Africa
+ 33 Magisterial Court - Phalaborwa                                           -23.949930    31.138070 	Phalaborwa, 1390, South Africa
+ 34 Department of Home Affairs Office - Phalaborwa                           -23.954772    31.129106 	23 Potgieter St, Phalaborwa, 1389, South Africa
+ 35 Lulekani Primary School.                                                 -23.858520    31.076920 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 36 Majeje High School                                                       -23.866728    31.086615 	815 Quatro St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 37 Nkateko High School.                                                     -23.866500    31.072900 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 38 Nwa Risenga Primary School                                               -23.862020    31.089670 	124 Park St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 39 Nwasorini Primary School                                                 -23.861220    31.081850 	Lulekani-B, Phalaborwa, 1392, South Africa
+ 40 Pondo Combined School                                                    -23.870170    31.071500 	764, Lulekani-A, Phalaborwa, 1392, South Africa
+ 41 Majeje High.                                                             -23.867500    31.081818 	435 Bridgeway Street, Lulekani-B, Phalaborwa, 1392, South Africa
+ 42 Rixile Education Centre                                                  -23.866836    31.083661 	373 Bridgeway Street, Lulekani-B, Phalaborwa, 1392, South Africa
+ 43 Biko Primary School                                                      -23.855748    31.065185 	Lulekani, 1392, South Africa
+ 44 Xitlhangu Primary School                                                 -23.869020    31.055650 	Phalaborwa, 1390, South Africa
+ 45 Baranuka Secondary School                                                -23.856840    31.048680 	Matiko Xikaya-A, Phalaborwa, South Africa
+ 46 Chuchekani Primary School                                                -23.878170    31.061420 	Phalaborwa, 1390, South Africa
+ 47 Shiphamele Primary School                                                -23.865300    31.052480 	Phalaborwa, 1390, South Africa
+ 48 P Driving School (PDS)                                                   -23.858170    31.076416 	stand NO:1863 Oliver thambo Drive, Lulekani, Phalaborwa,South Africa, 1392, South Africa
+ 49 Lulekani Primary School.                                                 -23.858520    31.076920 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 50 Rixile Education Centre                                                  -23.866836    31.083661 	373 Bridgeway Street, Lulekani-B, Phalaborwa, 1392, South Africa
+ 51 Majeje High School                                                       -23.866728    31.086615 	815 Quatro St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 52 Nwa Risenga Primary School                                               -23.862020    31.089670 	124 Park St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 53 Nkateko High School.                                                     -23.866500    31.072900 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 54 Nwasorini Primary School                                                 -23.861220    31.081850 	Lulekani-B, Phalaborwa, 1392, South Africa
+ 55 Mopani SE TVET College - Phalaborwa Campus                               -23.942097    31.141445 	Cnr Combretum & Haarlem Street, Combretum St, Phalaborwa, 1390, South Africa
+ 56 Sir Val Duncan Technical College nomthandazo                             -23.937368    31.028189 	Ithambo Drive, Namakgale-D, Phalaborwa, 1391, South Africa
+ 57 Chuchekani Primary School                                                -23.878170    31.061420 	Phalaborwa, 1390, South Africa
+ 58 Mopani college hospitality center                                        -23.941250    31.141250 	Phalaborwa, 1390, South Africa
+ 59 Baranuka Secondary School                                                -23.856840    31.048680 	Matiko Xikaya-A, Phalaborwa, South Africa
+ 60 Phalaborwa College                                                       -23.941822    31.136108 	Cnr Harlem & Combretum Ave , Next to Delstern Butchery, Phalaborwa, 1390, South Africa
+ 61 Meridian College Phalaborwa C C                                          -23.952983    31.138841 	Phalaborwa, 1390, South Africa
+ 62 Strausburg College                                                       -23.945048    31.082117 	R40, Phalaborwa, 1390, South Africa
+ 63 Mopani SE TVET College - Corporate Office                                -23.941901    31.140431 	5 Combretum St, Phalaborwa, 1390, South Africa
+ 64 Selati Hospitality Training Academy                                      -23.944762    31.129568 	Potgieter St, Phalaborwa, 1390, South Africa
+ 65 Ntshuxeko High School                                                    -23.904941    31.046095 	Ben Farm, Phalaborwa, South Africa
+ 66 BUSHVELD BETHEL CHRISTIAN ACADEMY                                        -23.937145    31.139678 	64 Grosvenor St, Phalaborwa, 1390, South Africa
+ 67 Schiettocht Combined School                                              -23.914930    31.107100 	Phalaborwa, 1390, South Africa
+ 68 Leboneng Education Centre                                                -23.932473    31.033637 	3512 President St, Namakgale-B, Phalaborwa, 1391, South Africa
+ 69 Phulanibjihola Primary School                                            -23.916028    31.034712 	Ben-A, Phalaborwa, South Africa
+ 70 Namakgale Primary School                                                 -23.938429    31.043910 	1410 Jealous St, Namakgale-A, Phalaborwa, 1391, South Africa
+ 71 Sebalamakgolo High School                                                -23.938368    31.040579 	1336 Walter Sisulu St, Namakgale-A, Phalaborwa, 1391, South Africa
+ 72 Frans Du Toit High School.                                               -23.931006    31.140226 	Janssens St, Phalaborwa, 1390, South Africa
+ 73 Vuxeni Senior Secondary School                                           -23.939460    31.036185 	1813 Love St, Namakgale-A, Phalaborwa, 1391, South Africa
+ 74 Phalaborwa Noord State Aided Primary School                              -23.937265    31.134985 	25 Kierieklapper St, Phalaborwa, 1390, South Africa
+ 75 Saps Lulekani.                                                           -23.867114    31.080372 	655 Chris Hani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 76 Lebeko High School                                                       -23.945875    30.997348 	Ga-Mashishimale, Phalaborwa, South Africa
+ 77 Lulekani Primary School.                                                 -23.858520    31.076920 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 78 Majeje High School                                                       -23.866728    31.086615 	815 Quatro St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 79 Nkateko High School.                                                     -23.866500    31.072900 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 80 Nwa Risenga Primary School                                               -23.862020    31.089670 	124 Park St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 81 Nwasorini Primary School                                                 -23.861220    31.081850 	Lulekani-B, Phalaborwa, 1392, South Africa
+ 82 Pondo Combined School                                                    -23.870170    31.071500 	764, Lulekani-A, Phalaborwa, 1392, South Africa
+ 83 P Driving School (PDS)                                                   -23.858170    31.076416 	stand NO:1863 Oliver thambo Drive, Lulekani, Phalaborwa,South Africa, 1392, South Africa
+ 84 Majeje High.                                                             -23.867500    31.081818 	435 Bridgeway Street, Lulekani-B, Phalaborwa, 1392, South Africa
+ 85 Lulekani Primary School.                                                 -23.858520    31.076920 	Lulekani-A, Phalaborwa, 1392, South Africa
+ 86 Majeje High School                                                       -23.866728    31.086615 	815 Quatro St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 87 Nwasorini Primary School                                                 -23.861220    31.081850 	Lulekani-B, Phalaborwa, 1392, South Africa
+ 88 Sir Val Duncan Technical College nomthandazo                             -23.937368    31.028189 	Ithambo Drive, Namakgale-D, Phalaborwa, 1391, South Africa
+ 89 Mopani SE TVET College - Phalaborwa Campus                               -23.942097    31.141445 	Cnr Combretum & Haarlem Street, Combretum St, Phalaborwa, 1390, South Africa
+ 90 Baranuka Secondary School                                                -23.856840    31.048680 	Matiko Xikaya-A, Phalaborwa, South Africa
+ 91 Mopani college hospitality center                                        -23.941250    31.141250 	Phalaborwa, 1390, South Africa
+ 92 Ntshuxeko High School                                                    -23.904941    31.046095 	Ben Farm, Phalaborwa, South Africa
+ 93 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 94 Lulekani Community Health Centre                                         -23.863053    31.082236 	1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa
+ 95 Lulekani Magistrate's Court                                              -23.866431    31.081045 	Chris Hani Street, Lulekani, Phalaborwa, 1392, South Africa
+ 96 Church of the Nazarene                                                   -23.861094    31.091952 	1164 Gracia St, Lulekani-B, Phalaborwa, 1392, South Africa
+ 97 Shoprite Mini Lulekani                                                   -23.872967    31.085100 	Chris Hani Street Lulekani, 1392, South Africa
+ 98 Shando Printing Enterprise                                               -23.874055    31.081175 	Lulekani-B, Phalaborwa, 1392, South Africa
+ 99 Miyex Enterprises (Pty) Ltd                                              -23.863053    31.082236 	Oliver Tambo Street Zone A Lulekani, Phalaborwa, 1392, South Africa
+100 ABEYANI LIQUOR STORE                                                     -23.914989    31.036759 	Ben-A, Phalaborwa, South Africa
+101 Russells Namakgale Crossing                                              -23.942737    31.039226 	Shop No 4 Namakgale Crossing, Calvin Ngobeni Street, Phalaborwa, Limpopo, 1391, South Africa
+102 FOREVER RECORDS                                                          -23.860114    31.045092 	229 MATIKO XIKAYA LULEKANI, Phalaborwa, South Africa
+103 Brugo trading (Pty) Ltd                                                  -23.940446    31.037823 	885 Manni Dipico St, Namakgale-A, Phalaborwa, 1391, South Africa
+104 386 Namakgale A MOKGALAKA GIFT                                           -23.942444    31.045897 	386 Impala Ave, Namakgale-A, Phalaborwa, 1391, South Africa
+105 Cocos View                                                               -23.937820    31.039925 	1269 Anty Mary Ave, Namakgale-A, Phalaborwa, 1391, South Africa
+106 Shoprite Phalaborwa                                                      -23.950133    31.133580 	Shoprite Centre C/O Seline And, Palm St, Phalaborwa, 1390, South Africa
+107 namakgale                                                                -23.934016    31.041823 	1729 Aba Ave, Namakgale-A, Phalaborwa, 1391, South Africa
+108 Shoprite Namakgale                                                       -23.927859    31.026533 	Calvin Ngobeni, Street, Phalaborwa, 1391, South Africa
+109 Build It Namakgale rufing                                                -23.919228    31.025940 	Phalaborwa-Giyani, Phalaborwa, 1390, South Africa
+110 AutoZone Phalaborwa                                                      -23.947764    31.136143 	24 Palm St, Phalaborwa, 1390, South Africa
+111 Shell                                                                    -23.868153    31.078270 	Nghunghunyani Dr Lulekani, 1392, South Africa
+112 Shoprite LiquorShop Namakgale                                            -23.925479    31.022923 	Calvin Ngobeni, Street, Phalaborwa, 1391, South Africa
+113 Shoprite Mini Lulekani                                                   -23.872967    31.085100 	Chris Hani Street Lulekani, 1392, South Africa
+114 Shando Printing Enterprise                                               -23.874055    31.081175 	Lulekani-B, Phalaborwa, 1392, South Africa
+115 Miyex Enterprises (Pty) Ltd                                              -23.863053    31.082236 	Oliver Tambo Street Zone A Lulekani, Phalaborwa, 1392, South Africa
+116 spar                                                                     -23.866428    31.079665 	1529 Chris Hani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+117 PEP Store                                                                -23.928342    31.025864 	17, Namakgale Crossing, Calvin Ngobeni & Asibasabi St, Namakgale-B, Phalaborwa, 1391, South Africa
+118 Build It Namakgale rufing                                                -23.919228    31.025940 	Phalaborwa-Giyani, Phalaborwa, 1390, South Africa
+119 Cashbuild Phalaborwa                                                     -23.927316    31.026297 	3341 Asibasabi St, Namakgale-B, Phalaborwa, 1391, South Africa
+120 ABEYANI LIQUOR STORE                                                     -23.914989    31.036759 	Ben-A, Phalaborwa, South Africa
+121 Cosmonet - Phalaborwa                                                    -23.949552    31.135113 	Phalaborwa Building, cnr President Nelson Mandela & Palm Avenue, Phalaborwa, Phalaborwa, 1392, South Africa
+122 P M E Supplies CC                                                        -23.950612    31.132432 	Nyala Ave, Phalaborwa, 1389, South Africa
+123 PEP Store                                                                -23.949995    31.133641 	Checkers Sentrum Palmlaan, Phalaborwa, 1390, South Africa
+124 Zorba Complex                                                            -23.934655    31.134570 	6 Grey St, Phalaborwa, 1390, South Africa
+125 JET CAROLINA                                                             -23.928166    31.026426 	SHOP NO 1,2 &3 HOOF STREET, SPAR CAROLINA SHOPPING CENTRE, Carolina, 1185, South Africa
+126 Mr Price / MRP                                                           -23.950200    31.135800 	Shop no 37/38 Eden Aquare Mall cealane, Palm St, Limpopo North, Phalaborwa, 1390, South Africa
+127 Russells Namakgale Crossing                                              -23.942737    31.039226 	Shop No 4 Namakgale Crossing, Calvin Ngobeni Street, Phalaborwa, Limpopo, 1391, South Africa
+128 Game Stores                                                              -23.949033    31.131774 	Sealene Rd, Phalaborwa Checkers Centre Phalaborwa Checkers Centre, 1389, South Africa
+129 Tekkie Town                                                              -23.927993    31.025269 	Shop 6 & 7, 339 Calvin Ngobeni, Namakgale-C, Phalaborwa, 1391, South Africa
+130 Lifestyle Centre                                                         -23.946889    31.128427 	46 Potgieter St, Phalaborwa, 1390, South Africa
+131 The Crazy Store Inside Phalaborwa Mall                                   -23.950207    31.135226 	Nelson Mandela Drive, Shop 26, Phalaborwa Mall, Phalaborwa, Phalaborwa, 1390, South Africa
+132 AutoZone Phalaborwa                                                      -23.947764    31.136143 	24 Palm St, Phalaborwa, 1390, South Africa
+133 Ackermans Phalaborwa                                                     -23.949500    31.133600 	Shop 11, OK Centre Lantana Street, Phalaborwa, 1390, South Africa
+134 Jack's Paint & Hardware                                                  -23.953426    31.130108 	15 Von Wieligh Str, Phalaborwa, 1390, South Africa
+135 IT Crazy Computers                                                       -23.929372    31.133614 	15 Sperwer St, Phalaborwa, 1390, South Africa
+136 CNA PHALABORWA                                                           -23.949983    31.135776 	SHOP 36 PHALABORWA MALL, CNR PALM & HF VERWOED AVE, PHALABORWA, PHALABORWA, SOUTH AFRICA, 1389, South Africa
+137 Heqlen Mica                                                              -23.946700    31.130363 	89 Sealene Rd, Phalaborwa, 1390, South Africa
+138 Mr Price Home Phalaborwa                                                 -23.950066    31.133000 	Palm Av, Phalaborwa Mall, Phalaborwa, 1390, South Africa
+139 Shoprite LiquorShop Namakgale                                            -23.925479    31.022923 	Calvin Ngobeni, Street, Phalaborwa, 1391, South Africa
+140 AutoZone Namakgale                                                       -23.927872    31.024274 	Namakgale Shopping Centre, Calvin Ngobeni, Street, 1391, South Africa
+141 Supa Quick Tyre Experts Phalaborwa                                       -23.946739    31.136661 	1 Kiaat St, Phalaborwa, 1389, South Africa
+142 Liquor City Phalaborwa                                                   -23.947845    31.137015 	27 Palm St, Phalaborwa, 1390, South Africa
+143 J & N Bike Shop                                                          -23.945824    31.134952 	5 Kiaat St, Phalaborwa, 1390, South Africa
+144 Cyberfun Party shop                                                      -23.929372    31.133614 	15 Sperwer St, Phalaborwa, 1390, South Africa
+145 Bradlows Phalaborwa                                                      -23.949213    31.134389 	MANDELA STR, PHALABORWA, Phalaborwa, 1389, South Africa
+146 Pick 'N Pay Family Store - Phalaborwa                                    -23.949552    31.135113 	Cnr &, President Nelson Mandela Rd & Palm St, Phalaborwa, 1390, South Africa
+147 Mr Price                                                                 -23.947764    31.136143 	24 Palm St, Phalaborwa, 1389, South Africa
+148 JET NAMAKGALE                                                            -23.928163    31.026308 	CNR C NGOBENI & ASIBASABI STR, NAMAKGALE ZONE, BA PHALABORWA, 1390, South Africa
+149 Woolworths                                                               -23.949717    31.135824 	Phalaborwa Mall, Cnr of Nelson Mandela Drive and Palm Avenue, Phalaborwa, 1390, South Africa
+150 Truworths                                                                -23.947764    31.136143 	24 Palm St, Phalaborwa, 1389, South Africa
+151 Dunns                                                                    -23.949500    31.133600 	SHOP 11, CHECKERS CENTRE, LANTANA STREET, BA-PHALABORWA, Phalaborwa, 1390, South Africa
+152 Totalsports - Phalaborwa                                                 -23.950207    31.135226 	Nelson Mandela Drive, Phalaborwa Mall, Shop Nr 7 & 8, Phalaborwa, Limpopo, 1390, South Africa
+153 Russells                                                                 -23.950000    31.116667 	Cnr H.F. Verwoerd & Nelson Mandela Str, Phalaborwa, 1390, South Africa
+154 SLEEPMASTERS PHALABORWA                                                  -23.948839    31.134079 	Nelson Mandela Street, Phalaborwa, 1390, South Africa
+155 JET PHALABORWA PALM STREET                                               -23.949937    31.134746 	SHOP 17, Phalaborwa, 1390, South Africa
+156 Edgars PHALABORWA SHOPRITE CENTRE                                        -23.949470    31.133286 	SHOP 9 PHALABORWA SHOPRITE CTR, CNR LANTANA & SELENE STREET, Phalaborwa, 1390, South Africa
+157 Miladys                                                                  -23.948760    31.133468 	Shop 8, Checkers Phalaborwa Lantana Street, 1390, South Africa
+158 Checkers LiquorShop Phalaborwa                                           -23.949291    31.132791 	Mandela Road, Phalaborwa, 1390, South Africa
+159 POWER Fashion Factory                                                    -23.928227    31.025574 	Namakgale Crossing Shopping Center, South Africa
+160 Exact Stores                                                             -23.947764    31.136143 	24 Palm St, Phalaborwa, 1389, South Africa
+161 OOM SCHALK SE SLAGHUIS PHALABORWA                                        -23.934621    31.134415 	6 Grey St, Zorba Complex, Phalaborwa, 1390, South Africa
+162 Cash Converters Phalaborwa                                               -23.947024    31.128639 	46 Potgieter St, Lifestyle Centre, Phalaborwa, 1390, South Africa
+163 Chatz Connect- Phalaborwa Lelama Dreams 29Cc                             -23.948900    31.134200 	Shop 10, Checkers Centre Checkers Centre, Phalaborwa, Polokwane, 1390, South Africa
+164 Miladys                                                                  -23.947764    31.136143 	24 Palm St, Phalaborwa, 1389, South Africa
+165 Tekkie Town                                                              -23.949717    31.135824 	Phalaborwa Mall - Shop 35 A, C/O Mandela Palm Avenue, Phalaborwa, 1390, South Africa
+166 Dunns                                                                    -23.928300    31.026200 	SHOP NO 19A, NAMAKGALE CROSSING, CNR CALVIN NGOBENI DRIVE & ASIBASI STREET, BA-PHALABORWA, Phalaborwa, 1391, South Africa
+167 Express Stores                                                           -23.951080    31.134200 	Shop 9B Shoprite Ctr, Sealene Rd, Phalaborwa, 1389, South Africa
+168 Joshua Doore                                                             -23.948970    31.133360 	Lantana Street, Phalaborwa, 1390, South Africa
+169 TorchSA                                                                  -23.950292    31.135661 	President Nelson Mandela Rd, Phalaborwa, 1390, South Africa
+170 Weir Phalaborwa                                                          -23.961499    31.094602 	2031 6th Ave, Phalaborwa, 1390, South Africa
+171 Foschini - Phalaborwa                                                    -23.949069    31.135435 	16 Palm St, Phalaborwa, 1390, South Africa
+172 Pick n Pay Family Phalaborwa                                             -23.950690    31.135480 	Cnr Palm Ave&H F Verwoerd Drive, Phalaborwa, 1390, South Africa
+173 spar                                                                     -23.866428    31.079665 	1529 Chris Hani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+174 Lifestyle Centre                                                         -23.946889    31.128427 	46 Potgieter St, Phalaborwa, 1390, South Africa
+175 Eden Square Mall                                                         -23.951010    31.135530 	67 Sealene Rd, Phalaborwa, 1390, South Africa
+176 Namakgale Crossing complex                                               -23.927745    31.025773 	337-339 Calvin Ngobeni, Namakgale-B, Phalaborwa, 1391, South Africa
+177 Sanlam Centre - Phalaborwa                                               -23.947650    31.137660 	Wildevy St, Phalaborwa, 1390, South Africa
+178 Exotic Africa Phalaborwa                                                 -23.936423    31.153838 	Phalaborwa, 1390, South Africa
+179 Eden Square Mall                                                         -23.949647    31.135136 	Cnr Nelson Mandela and, Palm St, Phalaborwa, 1390, South Africa
+180 SLEEBOK TOMBSTONES                                                       -23.948827    31.137160 	63 Tambotie St, Phalaborwa, 1390, South Africa
+181 Tygervalley Shopping Centre.                                             -23.613148    31.090834 	Giyani, South Africa
+182 Nedbank ATM Akanani Shopping Centre                                      -23.867426    31.077930 	Nghunghunyani Dr, Lulekani, Phalaborwa, 1392, South Africa
+183 The Hoedspruit Mall                                                      -24.351358    30.957198 	Kudu Street, Hoedspruit, 1380, South Africa
+184 Spar Centre - Hoedspruit                                                 -24.353181    30.949728 	53B Koedoe St, Hoedspruit, 1380, South Africa
+185 Rockfig Lifestyle Centre                                                 -24.350160    30.957282 	Hoedspruit, 1380, South Africa
+186 Orange Tree Furniture                                                    -24.355532    30.947371 	kamogelo tourism centre Shop 5, Ferret R527, Hoedspruit, 1380, South Africa
+187 Hoedspruit Crossings                                                     -24.354525    30.959591 	Klaserie Rd, Hoedspruit, 1380, South Africa
+188 Authentically Yours Studio, Kamogelo Tourist Centre                      -24.355835    30.946971 	Ferret St, Hoedspruit, 1380, South Africa
+189 Hogs Offroad 4X4 Fitment Centre                                          -24.353327    30.960789 	Huilboerboom Straat, Hoedspruit, 1380, South Africa
+190 Zandspruit sales office                                                  -24.361137    30.936595 	2 R527, Hoedspruit, 1380, South Africa
+191 Church of the Nazarene                                                   -23.861094    31.091952 	1164 Gracia St, Lulekani-B, Phalaborwa, 1392, South Africa
+192 shalom house of prayer and Miracle Church                                -23.861960    31.057561 	Phalaborwa, 1390, South Africa
+193 Matiko Xikaya Afm Church                                                 -23.869021    31.055121 	Unnamed Road, Phalaborwa, 1390, South Africa
+194 Love Of God Ministries                                                   -23.886796    31.058807 	Phalaborwa, 1390, South Africa
+195 Salvation in Christ Ministries                                           -23.857135    31.058575 	Limpopo, Phalaborwa, Lulekani, matiko-xikaya, South Africa
+196 Christ Rescues Ministries International Worship Centre                   -23.901070    31.049277 	B, Ben Farm, Phalaborwa, South Africa
+197 Namakgale Full Gospel                                                    -23.924014    31.020351 	203 Healih Ave, Namakgale-C, Phalaborwa, 1391, South Africa
+198 Phalaborwa Catholic Church                                               -23.938406    31.143784 	21 Haarlem St, Phalaborwa, 1390, South Africa
+199 Trinity Fire Temple                                                      -23.910509    31.037982 	Ben-B, Phalaborwa, South Africa
+200 GP Church                                                                -23.914240    31.032866 	Zenzo Mkansie Road,, Phalaborwa, South Africa
+201 Apostolic Faith Church Of Portland Oregon. Phalaborwa                    -23.942221    31.025027 	1011 Sebele Phaana St, Namakgale-D, Phalaborwa, 1391, South Africa
+202 ECG Phalaborwa Branch                                                    -23.927106    31.054036 	Ben Farm, Phalaborwa, South Africa
+203 Nederduitse Gereformeerde Kerk - Phalaborwa                              -23.933170    31.138380 	88 Grosvenor St, Phalaborwa, 1390, South Africa
+204 Nederduitsch Hervormde Kerk Van Afrika - Phalaborwa                      -23.931025    31.137963 	3 Jansens Crescent, Phalaborwa, 1390, South Africa
+205 NEW LIFE BAPTIST CHURCH                                                  -23.937120    31.139555 	64 Grosvenor St, Phalaborwa, 1390, South Africa
+206 Resurrected Jesus Christ Church (RJCC - Namakgale)                       -23.919003    31.022150 	R71, Phalaborwa, 1390, South Africa
+207 Evangelies Gereformeerde Kerk Van Suide Afrika                           -23.935461    31.133894 	19 Raintree St, Phalaborwa, 1390, South Africa
+208 Gereformeerde Kerk - Phalaborwa                                          -23.934420    31.142950 	67 Jansensingel, Phalaborwa, 1390, South Africa
+209 Nuwe Apostoliese Kerk Phalaborwa Gemeente                                -23.927749    31.129233 	45 Troupand St, Phalaborwa, 1390, South Africa
+210 AP Kerk Phalaborwa                                                       -23.936839    31.129071 	1, 17 Red Ivory St, Phalaborwa, 1390, South Africa
+211 Universal Church                                                         -23.951339    31.129839 	Mellor str, Phalaborwa, 1390, South Africa
+212 Damascus Road Ministries TPH Campus                                      -23.931099    31.133309 	18 Starling St, Phalaborwa, 1389, South Africa
+213 PPK Church Phalaborwa                                                    -23.942371    31.149339 	26 President Kruger St, Phalaborwa, 1390, South Africa
+214 ELCSA Namakgale congregation                                             -23.938693    31.042618 	No 1381 Zone A, Namakgale-E, Phalaborwa, 1391, South Africa
+215 Members in Christ Church                                                 -23.927443    31.150514 	28, 6 Blue Crane St, Phalaborwa, 1390, South Africa
+216 Kingdom Word City Int'l Church                                           -23.947829    31.137076 	27 Palm St, Phalaborwa, 1390, South Africa
+217 One Way Christian Ministries                                             -23.941120    31.143648 	1 Haarlem St, Phalaborwa, 1390, South Africa
+218 Topville PPC                                                             -23.941121    31.019175 	Namakgale-E, Phalaborwa, 1391, South Africa
+219 Burning Fire Ministry                                                    -23.941121    31.019175 	Namakgale-E, Phalaborwa, 1391, South Africa
+220 Mashishimale Assemblies of God                                           -23.941728    30.987717 	Ga-Mashishimale, Phalaborwa, South Africa
+221 Emmanuel Pinkster Kerk Phalaborwa                                        -23.951428    31.145338 	17 Tambotie St, Phalaborwa, 1390, South Africa
+222 Volle Evangelie Kerk                                                     -23.953829    31.139069 	52 Aalwyn St, Phalaborwa, 1390, South Africa
+223 Phalaborwa Methodist Church                                              -23.936366    31.144909 	16 Gelderland St, Phalaborwa, 1390, South Africa
+224 Emmanuel Assembly                                                        -23.949717    30.995046 	Ga-Mashishimale, Phalaborwa, South Africa
+225 Mashishimale Assrmblies Of God                                           -23.993880    30.991934 	21st Ave, Mashishimale, Phalaborwa, 1395, South Africa
+226 Phalaborwa Selwane Friend of God                                         -23.693621    30.956287 	Ga-Selwana, South Africa
+227 Kingdom Hall Of Jehovah's Witnesses                                      -23.925769    31.128577 	179 Bataleur St, Phalaborwa, 1390, South Africa
+228 Trinity Worship Ministries                                               -23.853174    31.047245 	Matiko Xikaya-A, Phalaborwa, 1390, South Africa
+229 Gateway Christian Centre                                                 -23.947819    31.136985 	27 Palm St, Phalaborwa, 1390, South Africa
+230 Khaxane Assemblies of God Church                                         -23.670428    30.805010 	Ka-Khaxani, South Africa
+231 Selwana Lutheran Church                                                  -23.696493    30.918551 	Ga-Selwana, South Africa
+232 Hoedspruit Community Church                                              -24.353019    30.947874 	Springbok Street, Hoedspruit, 1380, South Africa
+233 Hlomela Morning Star Church                                              -23.451639    31.003982 	Macene, 0830, South Africa
+234 Hlomela Z.C.C                                                            -23.449244    31.014130 	Macene, 0830, South Africa
+235 Hlomela Presbyterian Church                                              -23.447185    31.005992 	Hlomela St, Benoni, 1507, South Africa
+236 AGS Church Hoedspruit                                                    -24.356966    30.946047 	Ferret St, Hoedspruit, 1380, South Africa
+237 Gereformeerde Kerk - Hoedspruit                                          -24.360764    30.942090 	Hoedspruit, 1380, South Africa
+238 Hoedspruit Gemeente                                                      -24.356564    30.946188 	Giraffe Street, Hoedspruit, 1380, South Africa
+239 NG Kerk Hoedspruit                                                       -24.359814    30.939944 	Berlin Rd, Hoedspruit, South Africa
+240 Nederduitse Gereformeerde Kerk - Kampersrus                              -24.358708    30.942199 	1380, Berlin Rd, Hoedspruit, South Africa
+241 Palabora Foundation                                                      -23.935701    31.028437 	cnr Calvin Ngobeni & Tambo Streets, Namakale, 1391, South Africa
+242 lulekani stadium                                                         -23.867545    31.094575 	Lulekani-B, Phalaborwa, 1392, South Africa
+243 Palabora Mining Company                                                  -23.968747    31.151980 	1 Copper Road, Phalaborwa, 1389, South Africa
+244 Valic Mining Supplies                                                    -23.952053    31.130317 	15 Mansvelt St, Phalaborwa, 1389, South Africa
+245 Mining Co                                                                -23.988806    31.093763 	Phalaborwa, South Africa
+246 Palabora Mining Company Open Pit                                         -23.993168    31.129770 	Phalaborwa, 1390, South Africa
+247 GMP Group of Companies                                                   -23.942443    31.140922 	6th Avenue, Phalaborwa, 1391, South Africa
