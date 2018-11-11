@@ -88,7 +88,7 @@ if __name__ is '__main__':
 	RESULTS = []	
 	End = 20
 
-	Network = None; NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+	Network = None; NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 	with progressbar.ProgressBar(max_value = End) as bar:
 		for i in range(1, End + 1):
@@ -103,48 +103,48 @@ if __name__ is '__main__':
 
 			#MODELS
 			print('\n#{0:5}: Running Models!'.format(i))
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Odd(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Odd(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.OddRange(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Model.OddRange(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Converse(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Converse(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 	
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.KMeans(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Model.KMeans(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			bar.update(i)
 			RESULTS.append([i, Network.Minimum_SNR, Network.Maximum_SNR, Network.Median_ResidualEnergy] + Heads + Interclusters + Unassigned)

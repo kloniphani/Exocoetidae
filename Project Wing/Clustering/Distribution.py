@@ -26,7 +26,7 @@ class Distribution(object):
 		return random.lognormal(ResidualEnergyMean, ResidualEnergySigma, ResidualEnergySize), random.lognormal(SNRMean, SNRSigma, SNRSize)
 	
 	def Normal(ResidualEnergyMean = 1340,
-			ResidualEnergySigma = 948.547,
+			ResidualEnergySigma = 428.547,
 			ResidualEnergySize = 100000000,
 			SNRMean =  80,
 			SNRSigma = 21.594,

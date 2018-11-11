@@ -21,7 +21,7 @@ class Node(object):
 	"""     
 	"""
 	
-	__nodeHeight = float(8); __headHeight = float(10); __hoopHeight = float(9); __memberHeight = float(7); __graphHeight = int(-1)
+	__nodeHeight = float(8); __headHeight = float(10); __hoopHeight = float(9); __memberHeight = float(7); __graphHeight = int(0)
 
 	#INITIALISERS
 	def __init__(self, Id, Address = None, Name = None, Provider = None, Position = None, SNR = None, RE = None, Results = False, Geocode = False):
@@ -81,6 +81,7 @@ class Node(object):
 			self.Position = Position
 		self.Point = (self.Position[0], self.Position[1])
 		self.GraphHeight = self.__graphHeight;
+		self.GraphColor = 'red';
 
 		#COMPUTING SNR-To-LAP
 		if SNR is not None:
@@ -161,6 +162,9 @@ class Node(object):
 
 	def SetGraphHeight(self, Height):
 		self.GraphHeight = Height;
+
+	def SetGraphColor(self, Color):
+		self.GraphColor = Color;
 
 	def ChangeToChainNode(self, Results = False):
 		self.Type = 2

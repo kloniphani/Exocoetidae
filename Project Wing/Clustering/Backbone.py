@@ -1,38 +1,41 @@
 """         
-Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:       October 19, 2018
+Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
+Date:        October 19, 2018
 Copyrights:  2017 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+             University of the Western Cape, Bellville, ZA
 """
 
-from . import *
+from Clustering.Algorithms import *
 
 from numpy import *
 from networkx import *
-from geopy import distance
-import json, io, progressbar
+
+import progressbar
 
 class Backbone(object):
 	"""Class Description"""
 
-	def InitialiseNodes(self, NODES, Height = 0, BestSNR = 30, Results = False):
+	def InitialiseNodes(NODES, BestSNR = 10, Height = 0, Results = False):
 		"""
 		@Height = 0, White
 				  1, Gray
 				  2, Black
 		"""
-
-		for node in NODES:
-			node.SetGraphHeight(Height)
-			for other in NODES:	
-				if node.Id != other.Id and node != other and node.ComputeSNR(other.Position, Results = Results) >= BestSNR:
-					node.LINKS.append(other)
+		TrackA = 0;
+		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
+			for node in NODES.values():
+				node.SetGraphColor('white')
+				for other in NODES.values():	
+					if node.Id != other.Id and node != other and node.ComputeSNR(other.Position, Results = Results) >= BestSNR:
+						NODES[node.Id].LINKS.append(other)
+					TrackA += 1
+					bar.update(TrackA)
 
 		return NODES
 
-	def HasWhiteNode(self, NODES, Height = 0, Results = False):
-		for node in NODES:
-			if node.GrapHeight == Height: return True;
+	def HasWhiteNode(NODES, Height = 0, Results = False):
+		for node in NODES.values():
+			if node.GraphHeight == Height: return True;
 		return False
 
 	def HasWhiteNodeNeighbour(self, Node, Height = 0, Results = False):
@@ -40,10 +43,10 @@ class Backbone(object):
 			if link.GraphHeight == Height: return True;
 		return False
 
-	def GraphColouringWithHeightControl(self, NODES, NETWORK, UNUSSIGNED, DATA, 
+	def GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, 
 									 Mode = 'LAP',
 									 Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
-									 Theta = 0.5, Beta = 0.5, Profit = 0, Best_SNR = 10):
+									 Theta = 0.5, Beta = 0.5, Alpha = 0.5, Profit = 0, Best_SNR = 10):
 		
 		"""
 		"""
@@ -53,7 +56,7 @@ class Backbone(object):
 			TEMP = list(NODES.values());
 			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
 
-			UNUSSIGNED = [node.Id for node in TEMP]
+			UNASSIGNED = [node.Id for node in TEMP]
 
 			Minimum_SNR = TEMP[-1].SNR
 			Maximum_SNR = TEMP[0].SNR
@@ -63,26 +66,54 @@ class Backbone(object):
 			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
 			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
 			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
+		
+		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;
+		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
+			NODES = Backbone.InitialiseNodes(NODES, BestSNR = 10)
+			#Selecting the Base Station and Creating the Network Graph
+			Total = 2; 
 
-		#Selecting the Base Station and Creating the Network Graph
-		Total = 2
-		NODES, NETWORK, UNUSSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNUSSIGNED, Total)
-		G = Algorithms.CreateGraph(NODES, NETWORK, UNUSSIGNED)
-
-		#Finding the Profit
-		if Mode == 'LAP':
-			Profit = Algorithms.FindLAPProfit(NODES, NETWORK, UNUSSIGNED, BASESTATIONS, G)
-
-		TrackA = 0; EndA = len(UNUSSIGNED); White = 0; Gray = 1; Black = 2;
-		with progressbar.ProgressBar(max_value = EndA) as bar:
-			NetworkTree = Graph()
-
-			for key, value in NODES:
-				if key not in BASESTATIONS and value.GraphHeight == White and (Profit <= Algorithms.LAPReward(value, NODES, NETWORK, UNUSSIGNED, BASESTATIONS, G)):
-					value.SetGraphHeight(Gray)
-					for link in value.LINKS:
-
-
-			TrackA += 1
 			bar.update(TrackA)
+
+			NODES, NETWORK, UNASSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total)
+			G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED)
+
+
+			#Finding the Profit
+			if Mode == 'LAP':
+				Profit, Average_GD_Basestations, Average_GD_Nodes = Algorithms.FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_ResidualEnergy, Theta, Beta, Alpha)
+
+			REWARDS = Algorithms.AllRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, 
+			   Average_GD_Basestations, Average_GD_Nodes)
+
+			NetworkTree = Graph();
+			NetworkTree.add_nodes_from([node.Id for node in NODES.values()])
+
+			for key, value in NODES.items():
+				if Mode == 'LAP':
+					if key not in BASESTATIONS and key in UNASSIGNED and value.GraphColor == 'white' and (Profit <= REWARDS[key]):
+						NODES[value.Id].SetGraphColor('gray')
+						UNASSIGNED.remove(key)
+
+			while(Backbone.HasWhiteNode(NODES) == True):
+				#Picking the best Gray node
+				key = 1; BestGrayNode = NODES[UNASSIGNED[0]]
+				while(key < len(UNASSIGNED)):
+					if(REWARDS[BestGrayNode.Id] < REWARDS[UNASSIGNED[key]]):
+						BestGrayNode = NODES[UNASSIGNED[key]]
+						del UNASSIGNED[key]
+					else:
+						key += 1
+
+					NODES[BestGrayNode.Id].SetGraphColor('black')
+					NODES[BestGrayNode.Id].ChangeToClusterHead()
+					for link in NODES[BestGrayNode.Id].LINKS:
+						NODES[link.Id].SetGraphColor('gray')
+						NODES[link.Id].SetgraphHeight(BestGrayNode.GrapgHeight + 1)
+						NetworkTree.add_edge(NODES[BestGrayNode.Id].Id, link.Id, weight = link.Distance(NODES[BestGrayNode.Id].Position, Type = '2D', Results = False))	
+						NODES[link.Id].ChangeToClusterMember(BestGrayNode)
+						
+				TrackA += 1
+				bar.update(TrackA)
+		return NODES, NETWORK, UNASSIGNED, DATA, G, NetworkTree;
 			

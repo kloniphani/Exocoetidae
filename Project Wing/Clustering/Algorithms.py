@@ -12,26 +12,28 @@ from networkx import *
 class Algorithms(object):
 	"""description of class"""
 
-	def SelectBaseStations(self, NODES, NETWORK, UNUSSIGNED, Total, Results = False):
+	def SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total, Results = False):
 		BASESTATIONS = []; Count = 0;
 		while Count < Total:
-			node = random.choice(UNUSSIGNED)
+			node = random.choice(UNASSIGNED)
 			BASESTATIONS.append(node) 
 			NODES[node].ChangeToBaseStation()
-			UNUSSIGNED.remove(node)
+			UNASSIGNED.remove(node)
 			Count += 1
-		return NODES, NETWORK, UNUSSIGNED, BASESTATIONS;
+		return NODES, NETWORK, UNASSIGNED, BASESTATIONS;
 
-	def CreateGraph(self, NODES, NETWORK, UNUSSIGNED, Results = False):
+	def CreateGraph(NODES, NETWORK, UNASSIGNED, Results = False):
 		G = Graph()
-		G.add_nodes_from([node.Id for node in TEMP])
-		for node in UNUSSIGNED:
+		G.add_nodes_from([node.Id for node in NODES.values()])
+		for node in UNASSIGNED:
 			for s in NODES.values(): 
 				if node is not s.Id:
 					G.add_edge(s.Id, NODES[node].Id, weight = s.Distance(NODES[node].Position, Type = '2D', Results = False))	
 		return G
 
-	def FindLAPProfit(self, NODES, NETWORK, UNUSSIGNED, BASESTATIONS, G, Results = False):
+	def FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G,
+				   Average_ResidualEnergy,
+				   Theta, Beta, Alpha, Results = False):
 		#Average Geodesic Distance
 		_GDS = 0;  _GDN = 0; Count = 1;
 		for i in BASESTATIONS:
@@ -39,28 +41,35 @@ class Algorithms(object):
 				if i != j:
 					_GDS += NODES[i].Distance(NODES[j].Position, Type = '2D', Results = False)
 	
-		for i in UNUSSIGNED:
-			for j in UNUSSIGNED:
+		for i in UNASSIGNED:
+			for j in UNASSIGNED:
 				if i is not j:
 					_GDN += astar_path_length(G, i, j)
 
 		Average_GD_Basestations = _GDS/len(BASESTATIONS)
-		Average_GD_Nodes = _GDN/len(UNUSSIGNED)
+		Average_GD_Nodes = _GDN/len(UNASSIGNED)
 
-		Profit = sqrt(len(BASESTATIONS)/(((Theta*Average_GD_Basestations) - Average_GD_Basestations) **2)) + sqrt(len(UNUSSIGNED)/(((Beta*Average_GD_Nodes) - Average_GD_Nodes) **2)) + (Alpha * Average_ResidualEnergy)
-		return Profit
+		Profit = sqrt(len(BASESTATIONS)/(((Theta*Average_GD_Basestations) - Average_GD_Basestations) **2)) + sqrt(len(UNASSIGNED)/(((Beta*Average_GD_Nodes) - Average_GD_Nodes) **2)) + (Alpha * Average_ResidualEnergy)
+		return Profit, Average_GD_Basestations, Average_GD_Nodes;
 
-	def LAPReward(self, node, NODES, NETWORK, UNUSSIGNED, BASESTATIONS, G, Results = False):
+	def LAPReward(node, NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, 
+			   Average_GD_Basestations, Average_GD_Nodes, Results = False):
 		_GDS = 0; _GDN = 0;
 		for i in BASESTATIONS:
 			_GDS += NODES[i].Distance(node.Position, Type = '2D', Results = False)
 
 		for i in NODES.values():
 			if (str(i.Id) is not str(node.Id)) and (i.Id not in BASESTATIONS):
-				_GDN += astar_path_length(G, UNUSSIGNED[index], i.Id)
+				_GDN += astar_path_length(G, node.Id, i.Id)
 					
 		#Checking the standard deviation.
 		Average_GDS = sqrt((len(BASESTATIONS) - 1)/((_GDS - Average_GD_Basestations) **2))
 		Average_GDN = sqrt((len(NODES) - len(BASESTATIONS) - 1)/((_GDN - Average_GD_Nodes) **2))
 					
 		return Average_GDS + Average_GDN + node.ResidualEnergy;
+
+	def AllRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_GD_Basestations, Average_GD_Nodes):
+		REWARDS = {}
+		for key, value in NODES.items():
+			REWARDS[key] = Algorithms.LAPReward(value, NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_GD_Basestations, Average_GD_Nodes)
+		return REWARDS;

@@ -293,7 +293,7 @@ class Display(object):
 
 		
 
-	def ConnectNodes(NODES, NETWORK, UNUSSIGNED):
+	def ConnectNodes(NODES, NETWORK, UNASSIGNED):
 		"""
 		"""
 		N = len(NETWORK)
@@ -310,6 +310,6 @@ class Display(object):
 			if (head.Type == 3 or head.Type == 2):
 				ICH += 1
 
-		print("Connected Nodes: {0:3}\tCH: {1:3}\tICH: {2:3}\tTotal Network: {3:3}\tTotal Nodes: {4:3}\tUnussigned Nodes: {5:3}\n\n".format(N, CH, ICH, len(NETWORK), len(NODES), len(UNUSSIGNED)))
+		print("Connected Nodes: {0:3}\tCH: {1:3}\tICH: {2:3}\tTotal Network: {3:3}\tTotal Nodes: {4:3}\tUnussigned Nodes: {5:3}\n\n".format(N, CH, ICH, len(NETWORK), len(NODES), len(UNASSIGNED)))
 
 		return CH, ICH

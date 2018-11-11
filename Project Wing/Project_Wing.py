@@ -9,6 +9,7 @@ Copyrights:  2017 ISAT, Department of Computer Science
 from Clustering.Distribution import *
 from Clustering.Model import *
 from Clustering.Display import *
+from Clustering.Backbone import *
 from Object.Node import *
 from Object.Provider import *
 from Source.API import *
@@ -32,7 +33,7 @@ class Nodes(object):
 		return super().__init__(**kwargs)
 
 	def Network(self):
-		NODES = {}; NETWORK = {}; UNUSSIGNED = []; DATA = {};
+		NODES = {}; NETWORK = {}; UNASSIGNED = []; DATA = {};
 		if len(self.__NODES) > 0:
 			for key, value in self.__NODES.items():
 				NODES[key] = value
@@ -43,13 +44,13 @@ class Nodes(object):
 
 		if len(self.__UNUSSIGNED) > 0:
 			for key in self.__UNUSSIGNED:
-				UNUSSIGNED.append(key)
+				UNASSIGNED.append(key)
 
 		if len(self.__NETWORK) > 0:
 			for key, value in self.__DATA.items():
 				DATA[key] = value
 
-		return NODES, NETWORK, UNUSSIGNED, DATA;
+		return NODES, NETWORK, UNASSIGNED, DATA;
 
 	def CreateNodes(self, FileName, Place = None, Code = None, ServiceProvider = None, Results = False, ClusterRadius = None):
 		"""
@@ -61,7 +62,7 @@ class Nodes(object):
 
 			if ClusterRadius is not None: self.ClusterRadius = ClusterRadius;
 
-			ResidualEnergies, SNRs = Distribution.LogNormal() #Loading Normal Distributed Random Values
+			ResidualEnergies, SNRs = Distribution.Distribution.Normal() #Loading Normal Distributed Random Values
 
 			#Initialising the Provider
 			if ServiceProvider is None:
@@ -103,8 +104,8 @@ class Nodes(object):
 if __name__ == '__main__':
 	import time
 
-	Place = 'Khayelitsha'
-	Code = '7784';
+	Place = 'Dummy'
+	Code = '';
 
 	Heads = [] #To store computed number of Cluster Heads
 	Unassigned = [] #To store number of nodes not connected
@@ -116,14 +117,15 @@ if __name__ == '__main__':
 
 	#MODELS
 	print("\n#02: Running Models!\n")
-	Technique = 'Greedy';	Distribution = 'Uniform'
-	NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
-	NODES, NETWORK, UNUSSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNUSSIGNED, DATA)
-	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
+	Technique = 'Greedy';	Distribution = 'Normal'
+	NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+	#NODES, NETWORK, UNASSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNASSIGNED, DATA)
+	NODES, NETWORK, UNASSIGNED, DATA, G, NetworkTree = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
+	Display.Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.MapNetwork(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-	Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);
-	NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
+	CHs = Display.Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+	#Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);
+	#NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 
 
 	print('\n\n-----DONE-----')

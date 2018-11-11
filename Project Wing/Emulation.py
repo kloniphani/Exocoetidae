@@ -80,7 +80,7 @@ if __name__ is '__main__':
 	RESULTS = []	
 	End = 50
 
-	Network = None; NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+	Network = None; NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 	with progressbar.ProgressBar(max_value = End) as bar:
 		for i in range(1, End + 1):
@@ -95,42 +95,42 @@ if __name__ is '__main__':
 
 			#MODELS
 			print('\n#{0:5}: Running Models!'.format(i))
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			Technique = 'Backhauling';
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNUSSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			Technique = 'Myopic';
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNUSSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNUSSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			Technique = 'GSMB - UAV';
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNUSSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
-			NODES, NETWORK, UNUSSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			Technique = 'GSMB - LAP';
-			NODES, NETWORK, UNUSSIGNED, DATA = Model.Successive(NODES, NETWORK, UNUSSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Successive(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNUSSIGNED = UNUSSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNUSSIGNED)); Interclusters.append(ICHs);
-			NODES.clear(); NETWORK.clear(); UNUSSIGNED.clear();
-			NODES = None; NETWORK = None; UNUSSIGNED = None; DATA = None;
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			bar.update(i)
 			RESULTS.append([i, Network.Minimum_SNR, Network.Maximum_SNR, Network.Median_ResidualEnergy] + Heads + Interclusters + Unassigned)

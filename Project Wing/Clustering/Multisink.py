@@ -12,12 +12,12 @@ import json, io, progressbar
 
 class Multisink(object):
 	"""description of class"""
-	def Greedy(NODES, NETWORK, UNUSSIGNED, DATA, 
+	def Greedy(NODES, NETWORK, UNASSIGNED, DATA, 
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
 				Theta = 0.5, Beta = 0.5, Profit = 0, Best_SNR = 10):
 		pass
 
-	def Successive(NODES, NETWORK, UNUSSIGNED, DATA, 
+	def Successive(NODES, NETWORK, UNASSIGNED, DATA, 
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
 				Theta = 0.5, Beta = 0.5, Profit = 0, Best_SNR = 10):
 		pass
