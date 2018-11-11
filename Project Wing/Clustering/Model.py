@@ -1,13 +1,14 @@
 """         
-Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:       December 10, 2017
-Copyright:  2017 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
+Date:        December 10, 2017
+Copyrights:  2017 ISAT, Department of Computer Science
+             University of the Western Cape, Bellville, ZA
 """
 
 from numpy import *
 from networkx import *
 from geopy import distance
+
 import json, io, progressbar
 
 class Model(object):
@@ -294,7 +295,7 @@ class Model(object):
 		Average_GD_Basestations = _GDS/len(BASESTATIONS)
 		Average_GD_Nodes = _GDN/len(UNUSSIGNED)
 
-		Profit = sqrt((((Theta*Average_GD_Basestations) - Average_GD_Basestations) **2)/len(BASESTATIONS)) + sqrt((((Beta*Average_GD_Nodes) - Average_GD_Nodes) **2)/len(UNUSSIGNED)) + (Alpha * Average_ResidualEnergy)
+		Profit = sqrt(len(BASESTATIONS)/(((Theta*Average_GD_Basestations) - Average_GD_Basestations) **2)) + sqrt(len(UNUSSIGNED)/(((Beta*Average_GD_Nodes) - Average_GD_Nodes) **2)) + (Alpha * Average_ResidualEnergy)
 
 		TrackA = 0; TrackB = 0; EndA = len(UNUSSIGNED) *2; EndB = 10; TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:			
@@ -314,8 +315,8 @@ class Model(object):
 					bar.update(TrackA)
 					
 					#Checking the standard deviation.
-					Average_GDS = sqrt(((_GDS - Average_GD_Basestations) **2)/(len(BASESTATIONS) - 1))
-					Average_GDN = sqrt(((_GDN - Average_GD_Nodes) **2)/(len(NODES) - len(BASESTATIONS) - 1))
+					Average_GDS = sqrt((len(BASESTATIONS) - 1)/((_GDS - Average_GD_Basestations) **2))
+					Average_GDN = sqrt((len(NODES) - len(BASESTATIONS) - 1)/((_GDN - Average_GD_Nodes) **2))
 					
 					Reward = Average_GDS + Average_GDN + NODES[UNUSSIGNED[index]].ResidualEnergy;
 					
@@ -781,17 +782,17 @@ class Model(object):
 				TrackA += 1
 				bar.update(TrackA)
 
-		Unussigned = [key for key in NETWORK.keys()]
+		Unassigned = [key for key in NETWORK.keys()]
 		
 		TrackA = 0; TrackB = 0; EndA = len(NETWORK); EndB = len(UNUSSIGNED); TransmissionGain = 3; Type = 0;
 		with progressbar.ProgressBar(max_value = EndA) as bar:
 			Destination = '00' #The LAP		
 			for Source in NETWORK.keys():	
-				NODES, NETWORK, Temp = Model.RemovePathKeys(NODES, NETWORK, Unussigned, G, Source, Destination)
+				NODES, NETWORK, Temp = Model.RemovePathKeys(NODES, NETWORK, Unassigned, G, Source, Destination)
 				if Temp is not None:
-					Unussigned = Temp
-				elif Source in Unussigned:
-					Unussigned.remove(Source)
+					Unassigned = Temp
+				elif Source in Unassigned:
+					Unassigned.remove(Source)
 
 				TrackA += 1
 				bar.update(TrackA)

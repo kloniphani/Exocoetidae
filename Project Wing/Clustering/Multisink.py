@@ -1,7 +1,7 @@
 """         
 Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
 Date:       October 19, 2018
-Copyright:  2017 ISAT, Department of Computer Science
+Copyrights:  2017 ISAT, Department of Computer Science
             University of the Western Cape, Bellville, ZA
 """
 

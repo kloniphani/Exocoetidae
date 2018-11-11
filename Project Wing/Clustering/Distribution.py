@@ -1,8 +1,8 @@
 """         
-Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:       December 10, 2017
-Copyright:  2017 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
+Date:        December 10, 2017
+Copyrights:  2017 ISAT, Department of Computer Science
+             University of the Western Cape, Bellville, ZA
 """
 
 from numpy import * 
@@ -25,7 +25,7 @@ class Distribution(object):
 
 		return random.lognormal(ResidualEnergyMean, ResidualEnergySigma, ResidualEnergySize), random.lognormal(SNRMean, SNRSigma, SNRSize)
 	
-	def Normal(ResidualEnergyMean = 13400,
+	def Normal(ResidualEnergyMean = 1340,
 			ResidualEnergySigma = 948.547,
 			ResidualEnergySize = 100000000,
 			SNRMean =  80,
@@ -41,7 +41,7 @@ class Distribution(object):
 		return random.normal(ResidualEnergyMean, ResidualEnergySigma, ResidualEnergySize), random.normal(SNRMean, SNRSigma, SNRSize)
 
 	def Uniform(ResidualEnergyLow = 0,
-			ResidualEnergyHigh = 19400,
+			ResidualEnergyHigh = 2400,
 			ResidualEnergySize = 100000000,
 			SNRLow =  0,
 			SNRHigh = 160,
@@ -55,7 +55,7 @@ class Distribution(object):
 
 		return random.uniform(ResidualEnergyLow, ResidualEnergyHigh, ResidualEnergySize), random.uniform(SNRLow, SNRHigh, SNRSize)
 
-	def ChiSquare(ResidualEnergyDF = 13400,
+	def ChiSquare(ResidualEnergyDF = 1340,
 			ResidualEnergySize = 100000000,
 			SNRDF=  40,
 			SNRSize = 100000000,

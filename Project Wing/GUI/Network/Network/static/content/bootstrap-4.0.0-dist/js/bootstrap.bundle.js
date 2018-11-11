@@ -1,6 +1,6 @@
 /*!
   * Bootstrap v4.0.0 (https://getbootstrap.com)
-  * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Copyrights 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
@@ -1398,7 +1398,7 @@ var Collapse = function ($$$1) {
  * @fileOverview Kickass library to create and place poppers near their reference elements.
  * @version 1.12.9
  * @license
- * Copyright (c) 2016 Federico Zivolo and contributors
+ * Copyrights (c) 2016 Federico Zivolo and contributors
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

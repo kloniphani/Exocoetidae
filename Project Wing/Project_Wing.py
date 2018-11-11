@@ -1,8 +1,8 @@
 """         
-Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:       December 06, 2017
-Copyright:  2017 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
+Date:        December 06, 2017
+Copyrights:  2017 ISAT, Department of Computer Science
+             University of the Western Cape, Bellville, ZA
 """
 #PACKAGES
 #Object Oriented Classes
@@ -28,7 +28,7 @@ class Nodes(object):
 		self.ClusterRadius = None; self.MaximumClusterHeads = None; 
 		self.DroneCoverageRadius = [0.09043710000157064, 0.08983170000155323];
 		self.Minimum_SNR = 0; self.Maximum_SNR = 0;
-		self.ResidualEnergy_Median = 0;
+		self.Median_ResidualEnergy = 0;
 		return super().__init__(**kwargs)
 
 	def Network(self):
@@ -61,7 +61,7 @@ class Nodes(object):
 
 			if ClusterRadius is not None: self.ClusterRadius = ClusterRadius;
 
-			ResidualEnergies, SNRs = Distribution.Normal() #Loading Normal Distributed Random Values
+			ResidualEnergies, SNRs = Distribution.LogNormal() #Loading Normal Distributed Random Values
 
 			#Initialising the Provider
 			if ServiceProvider is None:
@@ -107,7 +107,7 @@ if __name__ == '__main__':
 	Code = '7784';
 
 	Heads = [] #To store computed number of Cluster Heads
-	Unussigned = [] #To store number of nodes not connected
+	Unassigned = [] #To store number of nodes not connected
 	
 	print("#01: Creating Nodes!\n")
 	ServiceProvider = Provider(Id = '00', Address = "" + Place + ", South Africa", Position = [-23.829150, 30.142595,10])

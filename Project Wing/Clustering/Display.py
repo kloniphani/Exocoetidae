@@ -1,7 +1,7 @@
 """         
 Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
 Date:       October 16, 2018
-Copyright:  2017 ISAT, Department of Computer Science
+Copyrights:  2017 ISAT, Department of Computer Science
             University of the Western Cape, Bellville, ZA
 """
 
@@ -147,33 +147,33 @@ class Display(object):
 			json.dump(Temp, fp, indent = 4)
 		fp.close()
 
-	def SaveToExcel(Heads, Unussigned, ResidualEnergy_Median, Minimum_SNR, Maximum_SNR, FileName = None, SheetName = None, Counter = 0, Results = False):
+	def SaveToExcel(Heads, Unassigned, Median_ResidualEnergy, Minimum_SNR, Maximum_SNR, FileName = None, SheetName = None, Counter = 0, Results = False):
 		if FileName is None:
 			FileName = './Model/Computed Data/Results.xlsx'
 
 		if SheetName is None:
 			SheetName = 'Results'
 
-		Columns = ['', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'Myopic CH', 'K-Means CH', 'Backhauling Unussigned', 'Myopic Unussigned', 'K-Means Unussigned']
+		Columns = ['', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'Myopic CH', 'K-Means CH', 'Backhauling Unassigned', 'Myopic Unassigned', 'K-Means Unassigned']
 		
 		DATA = {}
 		DATA[''] = Counter
 		DATA['Minimum SNR'] = [Minimum_SNR]
 		DATA['Maximum SNR'] = [Maximum_SNR]
-		DATA['Median RE'] = [ResidualEnergy_Median]
+		DATA['Median RE'] = [Median_ResidualEnergy]
 		DATA['Backhauling CH'] = [Heads[0]]
 		DATA['Myopic CH'] = [Heads[1]]
 		DATA['K-Means CH'] = [Heads[2]]
-		DATA['Backhauling Unussigned'] = [Unussigned[0]]
-		DATA['Myopic Unussigned'] = [Unussigned[1]]
-		DATA['K-Means Unussigned'] = [Unussigned[2]]
+		DATA['Backhauling Unassigned'] = [Unassigned[0]]
+		DATA['Myopic Unassigned'] = [Unassigned[1]]
+		DATA['K-Means Unassigned'] = [Unassigned[2]]
 		
 		DataFrames = pd.DataFrame(data = DATA, columns = Columns)  #Create a Pandas dataframe from some data.
 		Writer = pd.ExcelWriter(FileName, engine='xlsxwriter') #Create a Pandas Excel writer using XlsxWriter as the engine.
 		DataFrames.to_excel(Writer, startrow = len(DataFrames)+1, header = False, index=False, sheet_name=SheetName)
 		Writer.save()
 
-		if Results is True: print('RE: {0}\tMIN: {1}\tMAX: {2}\tHEADS: {3}\tUNUSSIGNED: {4}'.format(ResidualEnergy_Median, Minimum_SNR, Maximum_SNR, Heads, Unussigned))
+		if Results is True: print('RE: {0}\tMIN: {1}\tMAX: {2}\tHEADS: {3}\tUNUSSIGNED: {4}'.format(Median_ResidualEnergy, Minimum_SNR, Maximum_SNR, Heads, Unassigned))
 
 	def DrawPoints(nodes = None, network = None, Name = None, Radius = '', Show = False, Save = False, Type = '2D'):
 		"""Helper function that returns a figure with point attributes in an array for every cluster network"""

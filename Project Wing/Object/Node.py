@@ -1,9 +1,9 @@
 """         
-Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-            Emmanuel Tuyishimire (PHD), tuyinuel@gmail.com
-Date:       August 31, 2017
-Copyright:  2017 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
+             Emmanuel Tuyishimire (PHD), tuyinuel@gmail.com
+Date:        August 31, 2017
+Copyrights:  2017 ISAT, Department of Computer Science
+             University of the Western Cape, Bellville, ZA
 """
 
 #OOP CLASSES
@@ -21,7 +21,7 @@ class Node(object):
 	"""     
 	"""
 	
-	__nodeHeight = float(8); __headHeight = float(10); __hoopHeight = float(9); __memberHeight = float(7)
+	__nodeHeight = float(8); __headHeight = float(10); __hoopHeight = float(9); __memberHeight = float(7); __graphHeight = int(-1)
 
 	#INITIALISERS
 	def __init__(self, Id, Address = None, Name = None, Provider = None, Position = None, SNR = None, RE = None, Results = False, Geocode = False):
@@ -80,6 +80,7 @@ class Node(object):
 				Position.append(self.Height)
 			self.Position = Position
 		self.Point = (self.Position[0], self.Position[1])
+		self.GraphHeight = self.__graphHeight;
 
 		#COMPUTING SNR-To-LAP
 		if SNR is not None:
@@ -157,6 +158,9 @@ class Node(object):
 	def ChangeToClusterMember(self, Head):
 		self.Head = Head; self.Type = 0;
 		self.Height = self.__memberHeight; self.Position[2] = self.Height
+
+	def SetGraphHeight(self, Height):
+		self.GraphHeight = Height;
 
 	def ChangeToChainNode(self, Results = False):
 		self.Type = 2

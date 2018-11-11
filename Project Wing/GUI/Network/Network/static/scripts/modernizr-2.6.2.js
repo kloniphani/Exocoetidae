@@ -11,13 +11,13 @@
  * under the terms set out in this paragraph. All notices and licenses
  * below are for informational purposes only.
  *
- * Copyright (c) Faruk Ates, Paul Irish, Alex Sexton; http://www.modernizr.com/license/
+ * Copyrights (c) Faruk Ates, Paul Irish, Alex Sexton; http://www.modernizr.com/license/
  *
- * Includes matchMedia polyfill; Copyright (c) 2010 Filament Group, Inc; http://opensource.org/licenses/MIT
+ * Includes matchMedia polyfill; Copyrights (c) 2010 Filament Group, Inc; http://opensource.org/licenses/MIT
  *
- * Includes material adapted from ES5-shim https://github.com/kriskowal/es5-shim/blob/master/es5-shim.js; Copyright 2009-2012 by contributors; http://opensource.org/licenses/MIT
+ * Includes material adapted from ES5-shim https://github.com/kriskowal/es5-shim/blob/master/es5-shim.js; Copyrights 2009-2012 by contributors; http://opensource.org/licenses/MIT
  *
- * Includes material from css-support; Copyright (c) 2005-2012 Diego Perini; https://github.com/dperini/css-support/blob/master/LICENSE
+ * Includes material from css-support; Copyrights (c) 2005-2012 Diego Perini; https://github.com/dperini/css-support/blob/master/LICENSE
  *
  * NUGET: END LICENSE TEXT */
 
@@ -25,7 +25,7 @@
  * Modernizr v2.6.2
  * www.modernizr.com
  *
- * Copyright (c) Faruk Ates, Paul Irish, Alex Sexton
+ * Copyrights (c) Faruk Ates, Paul Irish, Alex Sexton
  * Available under the BSD and MIT licenses: www.modernizr.com/license/
  */
 
