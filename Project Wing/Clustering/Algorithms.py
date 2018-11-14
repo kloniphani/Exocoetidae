@@ -63,8 +63,14 @@ class Algorithms(object):
 				_GDN += astar_path_length(G, node.Id, i.Id)
 					
 		#Checking the standard deviation.
-		Average_GDS = sqrt((len(BASESTATIONS) - 1)/((_GDS - Average_GD_Basestations) **2))
-		Average_GDN = sqrt((len(NODES) - len(BASESTATIONS) - 1)/((_GDN - Average_GD_Nodes) **2))
+		try:
+			Average_GDS = sqrt((len(BASESTATIONS) - 1)/((_GDS - Average_GD_Basestations) **2))
+		except ZeroDivisionError: 
+			Average_GDS = 0;
+		try:
+			Average_GDN = sqrt((len(NODES) - len(BASESTATIONS) - 1)/((_GDN - Average_GD_Nodes) **2))
+		except ZeroDivisionError:
+			Average_GDN = 0;
 					
 		return Average_GDS + Average_GDN + node.ResidualEnergy;
 

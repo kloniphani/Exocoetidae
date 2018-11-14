@@ -15,7 +15,7 @@ import progressbar
 class Backbone(object):
 	"""Class Description"""
 
-	def InitialiseNodes(NODES, BestSNR = 10, Height = 0, Results = False):
+	def InitialiseNodes(NODES, BestSNR = 2, Height = 0, Results = False):
 		"""
 		@Height = 0, White
 				  1, Gray
@@ -26,8 +26,12 @@ class Backbone(object):
 			for node in NODES.values():
 				node.SetGraphColor('white')
 				for other in NODES.values():	
-					if node.Id != other.Id and node != other and node.ComputeSNR(other.Position, Results = Results) >= BestSNR:
+					PredictedSNR = ceil(log(node.ComputeSNR(other.Position, Results = Results))/log(20))
+					if Results == False: print('{0} {1} {2}'.format(type(float64(PredictedSNR).item()), float64(BestSNR), greater_equal([PredictedSNR], [float64(BestSNR)]))) 
+					if (node.Id != other.Id) and (PredictedSNR >= float64(BestSNR)):
+						print('{0}'.format(PredictedSNR)) 
 						NODES[node.Id].LINKS.append(other)
+						print('Hello')
 					TrackA += 1
 					bar.update(TrackA)
 
@@ -45,7 +49,7 @@ class Backbone(object):
 
 	def GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, 
 									 Mode = 'LAP',
-									 Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
+									 Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 5,
 									 Theta = 0.5, Beta = 0.5, Alpha = 0.5, Profit = 0, Best_SNR = 10):
 		
 		"""
@@ -69,7 +73,7 @@ class Backbone(object):
 		
 		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;
 		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
-			NODES = Backbone.InitialiseNodes(NODES, BestSNR = 10)
+			NODES = Backbone.InitialiseNodes(NODES, BestSNR = 4)
 			#Selecting the Base Station and Creating the Network Graph
 			Total = 2; 
 
@@ -93,10 +97,11 @@ class Backbone(object):
 				if Mode == 'LAP':
 					if key not in BASESTATIONS and key in UNASSIGNED and value.GraphColor == 'white' and (Profit <= REWARDS[key]):
 						NODES[value.Id].SetGraphColor('gray')
-						UNASSIGNED.remove(key)
+						#UNASSIGNED.remove(key)
 
 			while(Backbone.HasWhiteNode(NODES) == True):
 				#Picking the best Gray node
+				if len(UNASSIGNED) < 1: break;
 				key = 1; BestGrayNode = NODES[UNASSIGNED[0]]
 				while(key < len(UNASSIGNED)):
 					if(REWARDS[BestGrayNode.Id] < REWARDS[UNASSIGNED[key]]):
@@ -105,13 +110,18 @@ class Backbone(object):
 					else:
 						key += 1
 
-					NODES[BestGrayNode.Id].SetGraphColor('black')
-					NODES[BestGrayNode.Id].ChangeToClusterHead()
-					for link in NODES[BestGrayNode.Id].LINKS:
-						NODES[link.Id].SetGraphColor('gray')
-						NODES[link.Id].SetgraphHeight(BestGrayNode.GrapgHeight + 1)
-						NetworkTree.add_edge(NODES[BestGrayNode.Id].Id, link.Id, weight = link.Distance(NODES[BestGrayNode.Id].Position, Type = '2D', Results = False))	
-						NODES[link.Id].ChangeToClusterMember(BestGrayNode)
+				del UNASSIGNED[0]
+
+				NODES[BestGrayNode.Id].SetGraphColor('black')
+				NODES[BestGrayNode.Id].ChangeToClusterHead()
+				NETWORK[BestGrayNode.Id] = NODES[BestGrayNode.Id]
+
+				for link in NODES[BestGrayNode.Id].LINKS:
+					NODES[link.Id].SetGraphColor('gray')
+					NODES[link.Id].SetgraphHeight(BestGrayNode.GrapgHeight + 1)
+					NetworkTree.add_edge(NODES[BestGrayNode.Id].Id, link.Id, weight = link.Distance(NODES[BestGrayNode.Id].Position, Type = '2D', Results = False))	
+					NODES[link.Id].ChangeToClusterMember(BestGrayNode)
+					NETWORK[BestGrayNode.Id].MEMBERS.append(NODES[link.Id])
 						
 				TrackA += 1
 				bar.update(TrackA)
