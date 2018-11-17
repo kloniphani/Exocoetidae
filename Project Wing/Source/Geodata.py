@@ -107,4 +107,4 @@ if __name__ == '__main__':
 	#				Query = SearchQuery,
 	#				Type = Type[4].lower())
 	#G.SearchPlacesResults(Query = SearchQuery, Type = Type.lower())
-	G.SearchPlacesResults(Types = Type, Places = ["Khayelitsha,Cape Town, 7784"], OutputFile = True)
+	G.SearchPlacesResults(Types = ['SAPS'], Places = ["Port Of Entry SAPS, Cape Town, Western Cape"], OutputFile = True)

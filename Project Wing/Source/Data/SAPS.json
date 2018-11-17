@@ -1,0 +1,4277 @@
+{
+    "Bellville": {
+        "formatted_address": "8 Voortrekker Rd, Bellville, Cape Town, 7535, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.90156169999999,
+                "lng": 18.6221273
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90012082010727,
+                    "lng": 18.62346947989272
+                },
+                "southwest": {
+                    "lat": -33.90282047989272,
+                    "lng": 18.62076982010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "05cffc32faf85c9d76197ae408260b963ccb9aa8",
+        "name": "Bellville Police Station - South African Police Service",
+        "place_id": "ChIJc90HlIZQzB0R4zEtdqMDdf8",
+        "plus_code": {
+            "compound_code": "3JXC+9V Bellville, Cape Town, South Africa",
+            "global_code": "4FRW3JXC+9V"
+        },
+        "rating": 2.1,
+        "reference": "ChIJc90HlIZQzB0R4zEtdqMDdf8",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 0,
+            "Nyanga": 52,
+            "Int. Airport Cape Town": 58,
+            "Bellville South": 53,
+            "Philippi": 56,
+            "Maitland": 54,
+            "Parow": 59,
+            "Lansdowne": 57,
+            "Rondebosch": 56,
+            "Kuilsriver": 57,
+            "Wynberg": 53,
+            "Sea Point": 52,
+            "Bishop Lavis": 63,
+            "Cape Town Central": 55,
+            "Table Bay Harbour": 54,
+            "Delft": 58,
+            "Mowbray": 56,
+            "Ravensmead": 61,
+            "Goodwood": 62,
+            "Elsies River": 64,
+            "Port Of Entry": 55,
+            "Kensington": 60,
+            "Athlone": 58,
+            "Woodstock": 56,
+            "Pinelands": 58,
+            "Belhar": 63,
+            "Manenberg": 58,
+            "Claremont": 55,
+            "Guguletu": 60,
+            "Durbanville": 14,
+            "Brackenfell": 32,
+            "Langa": 60,
+            "Mitchells Plain": 40,
+            "Khayelitsha": 43,
+            "Mfuleni": 48,
+            "Lingelethu West": 47,
+            "Diepriver": 53,
+            "Kleinvlei": 43,
+            "Harare": 40,
+            "Grassy Park": 48,
+            "Steenberg": 46,
+            "Kirstenhof": 45,
+            "Milnerton": 50,
+            "Parklands": 8,
+            "Kraaifontein": 34,
+            "Philippi East Satellite": 54,
+            "Strandfontein": 43,
+            "Lentegeur": 47
+        }
+    },
+    "Nyanga": {
+        "formatted_address": "N311 Ntlangano Cres, Nyanga, Cape Town, 7755, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.989152,
+                "lng": 18.583357
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.98784772010728,
+                    "lng": 18.58482172989272
+                },
+                "southwest": {
+                    "lat": -33.99054737989272,
+                    "lng": 18.58212207010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "a7f439d037016777dda2cab4a160d7ff3f4deff5",
+        "name": "Nyanga Police Station",
+        "place_id": "ChIJfbTslQ9FzB0Rlypg4V6eIuA",
+        "plus_code": {
+            "compound_code": "2H6M+88 Nyanga, Cape Town, South Africa",
+            "global_code": "4FRW2H6M+88"
+        },
+        "rating": 2.4,
+        "reference": "ChIJfbTslQ9FzB0Rlypg4V6eIuA",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 52,
+            "Nyanga": 0,
+            "Int. Airport Cape Town": 60,
+            "Bellville South": 52,
+            "Philippi": 60,
+            "Maitland": 56,
+            "Parow": 53,
+            "Lansdowne": 63,
+            "Rondebosch": 59,
+            "Kuilsriver": 41,
+            "Wynberg": 52,
+            "Sea Point": 22,
+            "Bishop Lavis": 66,
+            "Cape Town Central": 16,
+            "Table Bay Harbour": 46,
+            "Delft": 61,
+            "Mowbray": 59,
+            "Ravensmead": 55,
+            "Goodwood": 59,
+            "Elsies River": 61,
+            "Port Of Entry": 47,
+            "Kensington": 59,
+            "Athlone": 62,
+            "Woodstock": 44,
+            "Pinelands": 60,
+            "Belhar": 55,
+            "Manenberg": 65,
+            "Claremont": 60,
+            "Guguletu": 68,
+            "Durbanville": 14,
+            "Brackenfell": 31,
+            "Langa": 63,
+            "Mitchells Plain": 57,
+            "Khayelitsha": 51,
+            "Mfuleni": 49,
+            "Lingelethu West": 54,
+            "Diepriver": 58,
+            "Kleinvlei": 35,
+            "Harare": 45,
+            "Grassy Park": 55,
+            "Steenberg": 50,
+            "Kirstenhof": 51,
+            "Milnerton": 49,
+            "Parklands": 36,
+            "Kraaifontein": 39,
+            "Philippi East Satellite": 69,
+            "Strandfontein": 53,
+            "Lentegeur": 63
+        }
+    },
+    "Int. Airport Cape Town": {
+        "formatted_address": "Cape Town International Airport, Cape Town, 7490, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9702398,
+                "lng": 18.59653
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.96899052010728,
+                    "lng": 18.59759607989272
+                },
+                "southwest": {
+                    "lat": -33.97169017989273,
+                    "lng": 18.59489642010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "8f489d6101d5f05bbdd4bc3925e7627dffa5e838",
+        "name": "Saps Int Airport C Town",
+        "photos": [
+            {
+                "height": 1688,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107515584349499833414/photos\">\u5409\u6613</a>"
+                ],
+                "photo_reference": "CmRaAAAAK9DNIv1AmZQB9_yckYC32IuwUrFNV6Zs9rWvNAuaG66BHfhGG4hOcMCy44E12KX14y3KKqBgCxHy84i0hrOYW2V8xtyLhfeSajIgCC9l3wWNdUQtl1whvjBh6AOcvnjnEhD9dh5ptEmQADDdA-ERncmqGhRsz-1qZDLECI6X_8qTRF8LKAyxNQ",
+                "width": 3000
+            }
+        ],
+        "place_id": "ChIJ6-i0LEFFzB0R2T2ouCXe_5c",
+        "plus_code": {
+            "compound_code": "2HHW+WJ Matroosfontein, Cape Town, South Africa",
+            "global_code": "4FRW2HHW+WJ"
+        },
+        "rating": 5,
+        "reference": "ChIJ6-i0LEFFzB0R2T2ouCXe_5c",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 58,
+            "Nyanga": 60,
+            "Int. Airport Cape Town": 0,
+            "Bellville South": 54,
+            "Philippi": 62,
+            "Maitland": 75,
+            "Parow": 59,
+            "Lansdowne": 65,
+            "Rondebosch": 70,
+            "Kuilsriver": 30,
+            "Wynberg": 52,
+            "Sea Point": 32,
+            "Bishop Lavis": 62,
+            "Cape Town Central": 35,
+            "Table Bay Harbour": 61,
+            "Delft": 40,
+            "Mowbray": 74,
+            "Ravensmead": 59,
+            "Goodwood": 62,
+            "Elsies River": 63,
+            "Port Of Entry": 62,
+            "Kensington": 67,
+            "Athlone": 72,
+            "Woodstock": 60,
+            "Pinelands": 68,
+            "Belhar": 44,
+            "Manenberg": 63,
+            "Claremont": 66,
+            "Guguletu": 62,
+            "Durbanville": 2,
+            "Brackenfell": 23,
+            "Langa": 47,
+            "Mitchells Plain": 39,
+            "Khayelitsha": 29,
+            "Mfuleni": 30,
+            "Lingelethu West": 34,
+            "Diepriver": 31,
+            "Kleinvlei": 22,
+            "Harare": 29,
+            "Grassy Park": 36,
+            "Steenberg": 29,
+            "Kirstenhof": 24,
+            "Milnerton": 60,
+            "Parklands": 47,
+            "Kraaifontein": 28,
+            "Philippi East Satellite": 52,
+            "Strandfontein": 40,
+            "Lentegeur": 46
+        }
+    },
+    "Bellville South": {
+        "formatted_address": "Kasselsvlei Rd, Bellville South, Cape Town, 7530, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9150947,
+                "lng": 18.6464049
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.91361192010728,
+                    "lng": 18.64776312989272
+                },
+                "southwest": {
+                    "lat": -33.91631157989272,
+                    "lng": 18.64506347010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "5cd8611bf818cd29ab595a232310848b10c2a2c3",
+        "name": "Bellville South Police Station",
+        "place_id": "ChIJb4fHZUNQzB0RysnhowfVkAI",
+        "plus_code": {
+            "compound_code": "3JMW+XH Bellville, Cape Town, South Africa",
+            "global_code": "4FRW3JMW+XH"
+        },
+        "rating": 2,
+        "reference": "ChIJb4fHZUNQzB0RysnhowfVkAI",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 53,
+            "Nyanga": 52,
+            "Int. Airport Cape Town": 54,
+            "Bellville South": 0,
+            "Philippi": 45,
+            "Maitland": 54,
+            "Parow": 66,
+            "Lansdowne": 54,
+            "Rondebosch": 55,
+            "Kuilsriver": 66,
+            "Wynberg": 53,
+            "Sea Point": 49,
+            "Bishop Lavis": 62,
+            "Cape Town Central": 53,
+            "Table Bay Harbour": 52,
+            "Delft": 62,
+            "Mowbray": 55,
+            "Ravensmead": 65,
+            "Goodwood": 62,
+            "Elsies River": 62,
+            "Port Of Entry": 53,
+            "Kensington": 58,
+            "Athlone": 54,
+            "Woodstock": 54,
+            "Pinelands": 56,
+            "Belhar": 66,
+            "Manenberg": 50,
+            "Claremont": 55,
+            "Guguletu": 47,
+            "Durbanville": 29,
+            "Brackenfell": 51,
+            "Langa": 55,
+            "Mitchells Plain": 47,
+            "Khayelitsha": 50,
+            "Mfuleni": 57,
+            "Lingelethu West": 53,
+            "Diepriver": 48,
+            "Kleinvlei": 48,
+            "Harare": 49,
+            "Grassy Park": 42,
+            "Steenberg": 41,
+            "Kirstenhof": 40,
+            "Milnerton": 47,
+            "Parklands": 1,
+            "Kraaifontein": 55,
+            "Philippi East Satellite": 54,
+            "Strandfontein": 42,
+            "Lentegeur": 49
+        }
+    },
+    "Philippi": {
+        "formatted_address": "C/O Lower Ottery Road &, Old Lansdowne Rd, Philippi, 7750, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.001395,
+                "lng": 18.5400959
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.00028732010728,
+                    "lng": 18.54149137989272
+                },
+                "southwest": {
+                    "lat": -34.00298697989272,
+                    "lng": 18.53879172010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "58fab491dd746a65f04a101af4ac9e8e315058ae",
+        "name": "Saps Philippi",
+        "photos": [
+            {
+                "height": 2976,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110008135635507683901/photos\">ziaad adam</a>"
+                ],
+                "photo_reference": "CmRaAAAAo5xQN3Phdu0hxmXULrCjCxgDFSZUkLAUfWNYdI1B7reJVYjWi-ik_CyFDqzVz_N-vYMjmDwHRRRIKcl5wI6dDHxpSZDMuGCiWNI5R1ak5-3d_OK6OtsrGyZd1haX9glLEhBuOMZzqFfbngsBR-Xb86hSGhSrzY1amIX-J96bN-81-5iqSrLGFQ",
+                "width": 3968
+            }
+        ],
+        "place_id": "ChIJI8ks24tEzB0RBvmJ7GJzbu8",
+        "plus_code": {
+            "compound_code": "XGXR+C2 Philippi, Cape Town, South Africa",
+            "global_code": "4FQWXGXR+C2"
+        },
+        "rating": 2.9,
+        "reference": "ChIJI8ks24tEzB0RBvmJ7GJzbu8",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 56,
+            "Nyanga": 60,
+            "Int. Airport Cape Town": 62,
+            "Bellville South": 45,
+            "Philippi": 0,
+            "Maitland": 56,
+            "Parow": 58,
+            "Lansdowne": 62,
+            "Rondebosch": 62,
+            "Kuilsriver": 33,
+            "Wynberg": 56,
+            "Sea Point": 1,
+            "Bishop Lavis": 63,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 28,
+            "Delft": 48,
+            "Mowbray": 61,
+            "Ravensmead": 56,
+            "Goodwood": 59,
+            "Elsies River": 61,
+            "Port Of Entry": 28,
+            "Kensington": 55,
+            "Athlone": 65,
+            "Woodstock": 30,
+            "Pinelands": 60,
+            "Belhar": 46,
+            "Manenberg": 68,
+            "Claremont": 64,
+            "Guguletu": 48,
+            "Durbanville": 7,
+            "Brackenfell": 30,
+            "Langa": 63,
+            "Mitchells Plain": 50,
+            "Khayelitsha": 43,
+            "Mfuleni": 39,
+            "Lingelethu West": 45,
+            "Diepriver": 58,
+            "Kleinvlei": 29,
+            "Harare": 40,
+            "Grassy Park": 63,
+            "Steenberg": 60,
+            "Kirstenhof": 52,
+            "Milnerton": 46,
+            "Parklands": 35,
+            "Kraaifontein": 31,
+            "Philippi East Satellite": 62,
+            "Strandfontein": 53,
+            "Lentegeur": 58
+        }
+    },
+    "Maitland": {
+        "formatted_address": "236 Voortrekker Rd, Maitland, Cape Town, 7405, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9235782,
+                "lng": 18.4832978
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92218187010727,
+                    "lng": 18.48463657989272
+                },
+                "southwest": {
+                    "lat": -33.92488152989272,
+                    "lng": 18.48193692010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "53dafa4e8c29b384cacc76ccfaea488ed55f2822",
+        "name": "Maitland Police Station",
+        "place_id": "ChIJkzYL4VlczB0RMoCaD-5Lw2w",
+        "plus_code": {
+            "compound_code": "3FGM+H8 Cape Town, South Africa",
+            "global_code": "4FRW3FGM+H8"
+        },
+        "rating": 3.1,
+        "reference": "ChIJkzYL4VlczB0RMoCaD-5Lw2w",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 54,
+            "Nyanga": 56,
+            "Int. Airport Cape Town": 75,
+            "Bellville South": 54,
+            "Philippi": 56,
+            "Maitland": 0,
+            "Parow": 58,
+            "Lansdowne": 59,
+            "Rondebosch": 66,
+            "Kuilsriver": 28,
+            "Wynberg": 49,
+            "Sea Point": 45,
+            "Bishop Lavis": 61,
+            "Cape Town Central": 65,
+            "Table Bay Harbour": 64,
+            "Delft": 39,
+            "Mowbray": 72,
+            "Ravensmead": 58,
+            "Goodwood": 62,
+            "Elsies River": 62,
+            "Port Of Entry": 60,
+            "Kensington": 67,
+            "Athlone": 66,
+            "Woodstock": 60,
+            "Pinelands": 73,
+            "Belhar": 44,
+            "Manenberg": 58,
+            "Claremont": 64,
+            "Guguletu": 59,
+            "Durbanville": 2,
+            "Brackenfell": 22,
+            "Langa": 67,
+            "Mitchells Plain": 35,
+            "Khayelitsha": 25,
+            "Mfuleni": 26,
+            "Lingelethu West": 29,
+            "Diepriver": 27,
+            "Kleinvlei": 21,
+            "Harare": 25,
+            "Grassy Park": 33,
+            "Steenberg": 27,
+            "Kirstenhof": 22,
+            "Milnerton": 62,
+            "Parklands": 54,
+            "Kraaifontein": 21,
+            "Philippi East Satellite": 50,
+            "Strandfontein": 36,
+            "Lentegeur": 42
+        }
+    },
+    "Parow": {
+        "formatted_address": "Arnold Wilhelm St, Parow East, Cape Town, 7499, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9046805,
+                "lng": 18.5954802
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90323207010728,
+                    "lng": 18.59680507989272
+                },
+                "southwest": {
+                    "lat": -33.90593172989272,
+                    "lng": 18.59410542010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "bdd4730ad0b21bccbfb6bee8864a4b48b8f503f6",
+        "name": "Police Station Parow",
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105893761464458313870/photos\">Ryan-Lee Abrahams</a>"
+                ],
+                "photo_reference": "CmRaAAAAAURfUbLZVmAZLRbJ-L8lkW48HfP0Ngn1D2J4-pHZvOldfl137iBxU3ou2EpnGbnAy2SRVXzcKpRy9VI1xA-hODkfA1nGzs1pw1nkOuAQASOzHui46RLMuyXOC-IUtiXSEhCvvXyV7xTxJFzudGszDEbzGhS-IaIgGypmXsY0DmJVrfHF9PDtHQ",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJ8xSNK2dazB0RIroGptTRMOA",
+        "plus_code": {
+            "compound_code": "3HWW+45 Parow, Cape Town, South Africa",
+            "global_code": "4FRW3HWW+45"
+        },
+        "rating": 3,
+        "reference": "ChIJ8xSNK2dazB0RIroGptTRMOA",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 59,
+            "Nyanga": 53,
+            "Int. Airport Cape Town": 59,
+            "Bellville South": 66,
+            "Philippi": 58,
+            "Maitland": 58,
+            "Parow": 0,
+            "Lansdowne": 58,
+            "Rondebosch": 57,
+            "Kuilsriver": 42,
+            "Wynberg": 53,
+            "Sea Point": 52,
+            "Bishop Lavis": 66,
+            "Cape Town Central": 56,
+            "Table Bay Harbour": 54,
+            "Delft": 48,
+            "Mowbray": 58,
+            "Ravensmead": 61,
+            "Goodwood": 56,
+            "Elsies River": 64,
+            "Port Of Entry": 55,
+            "Kensington": 62,
+            "Athlone": 59,
+            "Woodstock": 57,
+            "Pinelands": 58,
+            "Belhar": 59,
+            "Manenberg": 59,
+            "Claremont": 57,
+            "Guguletu": 59,
+            "Durbanville": 6,
+            "Brackenfell": 21,
+            "Langa": 62,
+            "Mitchells Plain": 33,
+            "Khayelitsha": 33,
+            "Mfuleni": 37,
+            "Lingelethu West": 35,
+            "Diepriver": 52,
+            "Kleinvlei": 30,
+            "Harare": 31,
+            "Grassy Park": 47,
+            "Steenberg": 42,
+            "Kirstenhof": 37,
+            "Milnerton": 57,
+            "Parklands": 35,
+            "Kraaifontein": 26,
+            "Philippi East Satellite": 46,
+            "Strandfontein": 39,
+            "Lentegeur": 39
+        }
+    },
+    "Lansdowne": {
+        "formatted_address": "5 Flamingo Cres, Lansdowne, Cape Town, 7780, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9903562,
+                "lng": 18.5051153
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.98913427010728,
+                    "lng": 18.50659572989272
+                },
+                "southwest": {
+                    "lat": -33.99183392989272,
+                    "lng": 18.50389607010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f757bc22abe342855cc30d38e32450b6672461eb",
+        "name": "Saps Lansdowne",
+        "place_id": "ChIJswQhOmhDzB0R0FOKXeQBYtQ",
+        "plus_code": {
+            "compound_code": "2G54+V2 Nerissa Estate, Cape Town, South Africa",
+            "global_code": "4FRW2G54+V2"
+        },
+        "rating": 3.7,
+        "reference": "ChIJswQhOmhDzB0R0FOKXeQBYtQ",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 57,
+            "Nyanga": 63,
+            "Int. Airport Cape Town": 65,
+            "Bellville South": 54,
+            "Philippi": 62,
+            "Maitland": 59,
+            "Parow": 58,
+            "Lansdowne": 0,
+            "Rondebosch": 66,
+            "Kuilsriver": 33,
+            "Wynberg": 64,
+            "Sea Point": 1,
+            "Bishop Lavis": 61,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 12,
+            "Delft": 48,
+            "Mowbray": 65,
+            "Ravensmead": 58,
+            "Goodwood": 60,
+            "Elsies River": 61,
+            "Port Of Entry": 16,
+            "Kensington": 60,
+            "Athlone": 55,
+            "Woodstock": 18,
+            "Pinelands": 63,
+            "Belhar": 46,
+            "Manenberg": 66,
+            "Claremont": 68,
+            "Guguletu": 65,
+            "Durbanville": 8,
+            "Brackenfell": 30,
+            "Langa": 64,
+            "Mitchells Plain": 46,
+            "Khayelitsha": 41,
+            "Mfuleni": 35,
+            "Lingelethu West": 42,
+            "Diepriver": 63,
+            "Kleinvlei": 28,
+            "Harare": 40,
+            "Grassy Park": 60,
+            "Steenberg": 58,
+            "Kirstenhof": 50,
+            "Milnerton": 53,
+            "Parklands": 40,
+            "Kraaifontein": 38,
+            "Philippi East Satellite": 58,
+            "Strandfontein": 50,
+            "Lentegeur": 54
+        }
+    },
+    "Rondebosch": {
+        "formatted_address": "Church St, Rondebosch, Cape Town, 7700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9626911,
+                "lng": 18.4685497
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.96138442010727,
+                    "lng": 18.47001932989272
+                },
+                "southwest": {
+                    "lat": -33.96408407989272,
+                    "lng": 18.46731967010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "d79396ad5055246608dc841fc14866d31979f59d",
+        "name": "Saps Rondebosch",
+        "place_id": "ChIJnxrSUC9dzB0RlOb5I1TkgPM",
+        "plus_code": {
+            "compound_code": "2FP9+WC Rondebosch, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FRW2FP9+WC"
+        },
+        "rating": 4.7,
+        "reference": "ChIJnxrSUC9dzB0RlOb5I1TkgPM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 56,
+            "Nyanga": 59,
+            "Int. Airport Cape Town": 70,
+            "Bellville South": 55,
+            "Philippi": 62,
+            "Maitland": 66,
+            "Parow": 57,
+            "Lansdowne": 66,
+            "Rondebosch": 0,
+            "Kuilsriver": 32,
+            "Wynberg": 50,
+            "Sea Point": 1,
+            "Bishop Lavis": 55,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 46,
+            "Mowbray": 62,
+            "Ravensmead": 58,
+            "Goodwood": 59,
+            "Elsies River": 59,
+            "Port Of Entry": 1,
+            "Kensington": 63,
+            "Athlone": 64,
+            "Woodstock": 5,
+            "Pinelands": 60,
+            "Belhar": 49,
+            "Manenberg": 61,
+            "Claremont": 67,
+            "Guguletu": 61,
+            "Durbanville": 3,
+            "Brackenfell": 25,
+            "Langa": 64,
+            "Mitchells Plain": 44,
+            "Khayelitsha": 35,
+            "Mfuleni": 35,
+            "Lingelethu West": 41,
+            "Diepriver": 31,
+            "Kleinvlei": 29,
+            "Harare": 34,
+            "Grassy Park": 44,
+            "Steenberg": 30,
+            "Kirstenhof": 22,
+            "Milnerton": 60,
+            "Parklands": 53,
+            "Kraaifontein": 31,
+            "Philippi East Satellite": 55,
+            "Strandfontein": 50,
+            "Lentegeur": 52
+        }
+    },
+    "Kuilsriver": {
+        "formatted_address": "102 Van Riebeeck Rd, Kuils River, Cape Town, 7580, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.932212,
+                "lng": 18.6827687
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.93081127010728,
+                    "lng": 18.68424522989272
+                },
+                "southwest": {
+                    "lat": -33.93351092989272,
+                    "lng": 18.68154557010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "7b73550dfab3d0688408b8966f015f60763df2fc",
+        "name": "Kuilsriver Police Station",
+        "photos": [
+            {
+                "height": 4608,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105304587220487793842/photos\">Mvuzo Ndukwana</a>"
+                ],
+                "photo_reference": "CmRaAAAAueAiQmUfVFL9_HNl7TdjAuqIxwhfBvGOEJVNue7LB1DejOiB7eCchWMCOGDZ6mCz-obUZCoquVtbnu5e_3Qr1I24C_yXhfuIzJbEz6JuyFzz9iNHHAb3npZReP0xxCnmEhCTTDCic3TQ7ymQQDhhk2ryGhTQLvJ7nle_37BhlpQ6CCewlCx50A",
+                "width": 3456
+            }
+        ],
+        "place_id": "ChIJ-7iecdxRzB0Rh68vRFjRpms",
+        "plus_code": {
+            "compound_code": "3M9M+44 Industrial, Cape Town, South Africa",
+            "global_code": "4FRW3M9M+44"
+        },
+        "rating": 2.6,
+        "reference": "ChIJ-7iecdxRzB0Rh68vRFjRpms",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 57,
+            "Nyanga": 41,
+            "Int. Airport Cape Town": 30,
+            "Bellville South": 66,
+            "Philippi": 33,
+            "Maitland": 28,
+            "Parow": 42,
+            "Lansdowne": 33,
+            "Rondebosch": 32,
+            "Kuilsriver": 0,
+            "Wynberg": 39,
+            "Sea Point": 23,
+            "Bishop Lavis": 35,
+            "Cape Town Central": 31,
+            "Table Bay Harbour": 24,
+            "Delft": 64,
+            "Mowbray": 34,
+            "Ravensmead": 41,
+            "Goodwood": 35,
+            "Elsies River": 32,
+            "Port Of Entry": 24,
+            "Kensington": 30,
+            "Athlone": 28,
+            "Woodstock": 28,
+            "Pinelands": 28,
+            "Belhar": 62,
+            "Manenberg": 30,
+            "Claremont": 32,
+            "Guguletu": 30,
+            "Durbanville": 46,
+            "Brackenfell": 62,
+            "Langa": 27,
+            "Mitchells Plain": 46,
+            "Khayelitsha": 55,
+            "Mfuleni": 46,
+            "Lingelethu West": 54,
+            "Diepriver": 33,
+            "Kleinvlei": 44,
+            "Harare": 48,
+            "Grassy Park": 30,
+            "Steenberg": 29,
+            "Kirstenhof": 27,
+            "Milnerton": 26,
+            "Parklands": 1,
+            "Kraaifontein": 23,
+            "Philippi East Satellite": 50,
+            "Strandfontein": 38,
+            "Lentegeur": 48
+        }
+    },
+    "Wynberg": {
+        "formatted_address": "Opp Maynardville, Church St, Wynberg, Cape Town, 7800, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0041069,
+                "lng": 18.4648833
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.00288447010728,
+                    "lng": 18.46623892989273
+                },
+                "southwest": {
+                    "lat": -34.00558412989272,
+                    "lng": 18.46353927010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "eb735d398c948beaa89a1d876526aed795f5053c",
+        "name": "Wynberg Police Station - South African Police Service",
+        "photos": [
+            {
+                "height": 3036,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106177095131324757921/photos\">Richard Levey</a>"
+                ],
+                "photo_reference": "CmRaAAAAomthQF2eb54R54mz_0OuGB9ufspzWz5sAUX-9raCdrkyn25wPRN8W7Jx_uNDm_DZI5PogqopR0_r-_-USYLEYTVWPaKoQZx-NJiMcwDT_OHmF7qV8phkYOAbv8UOzoHKEhBW-XLJ-o85f-1fERMl_GcZGhT4fCPhgyssw6izxkzFSoeF7DJosQ",
+                "width": 4048
+            }
+        ],
+        "place_id": "ChIJA02uEeVCzB0R2obWUT9-GfQ",
+        "plus_code": {
+            "compound_code": "XFW7+9X Wynberg, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FQWXFW7+9X"
+        },
+        "rating": 3.6,
+        "reference": "ChIJA02uEeVCzB0R2obWUT9-GfQ",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 53,
+            "Nyanga": 52,
+            "Int. Airport Cape Town": 52,
+            "Bellville South": 53,
+            "Philippi": 56,
+            "Maitland": 49,
+            "Parow": 53,
+            "Lansdowne": 64,
+            "Rondebosch": 50,
+            "Kuilsriver": 39,
+            "Wynberg": 0,
+            "Sea Point": 1,
+            "Bishop Lavis": 55,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 52,
+            "Mowbray": 50,
+            "Ravensmead": 54,
+            "Goodwood": 54,
+            "Elsies River": 54,
+            "Port Of Entry": 1,
+            "Kensington": 50,
+            "Athlone": 58,
+            "Woodstock": 1,
+            "Pinelands": 51,
+            "Belhar": 53,
+            "Manenberg": 58,
+            "Claremont": 52,
+            "Guguletu": 58,
+            "Durbanville": 2,
+            "Brackenfell": 29,
+            "Langa": 56,
+            "Mitchells Plain": 50,
+            "Khayelitsha": 45,
+            "Mfuleni": 44,
+            "Lingelethu West": 48,
+            "Diepriver": 66,
+            "Kleinvlei": 33,
+            "Harare": 43,
+            "Grassy Park": 54,
+            "Steenberg": 46,
+            "Kirstenhof": 58,
+            "Milnerton": 46,
+            "Parklands": 42,
+            "Kraaifontein": 41,
+            "Philippi East Satellite": 57,
+            "Strandfontein": 54,
+            "Lentegeur": 56
+        }
+    },
+    "Sea Point": {
+        "formatted_address": "Bay Rd & Bill Peters Drive, Sea Point, Cape Town, 8060, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.905714,
+                "lng": 18.3992987
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90436417010727,
+                    "lng": 18.40064852989272
+                },
+                "southwest": {
+                    "lat": -33.90706382989272,
+                    "lng": 18.39794887010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f7f495c01148dfe6ee59c13abdce02b3062749c9",
+        "name": "Saps Sea Point",
+        "photos": [
+            {
+                "height": 4160,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114880470666430679800/photos\">hayley cloete</a>"
+                ],
+                "photo_reference": "CmRaAAAASPGXTuc4yXnX8w9AzlQjeZpIvoKB1cXFVs0dAqBSsfVSsrdItvuiIvkhT7Cci_t0w7sqXmlB9aHliHDdy9J-GNVbKdrYUCZqiSQ4dY8ARV-BiZQmUi3-L_fiZvXZZTxVEhB3FwwqUjnOJ9MOnA-ourh1GhTHsOz1phOMJCJRz-RbPzyufkAxzg",
+                "width": 2336
+            }
+        ],
+        "place_id": "ChIJ89vRdSFnzB0RenJ5LEp2nS4",
+        "plus_code": {
+            "compound_code": "39VX+PP Cape Town, South Africa",
+            "global_code": "4FRW39VX+PP"
+        },
+        "rating": 3.4,
+        "reference": "ChIJ89vRdSFnzB0RenJ5LEp2nS4",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 52,
+            "Nyanga": 22,
+            "Int. Airport Cape Town": 32,
+            "Bellville South": 49,
+            "Philippi": 1,
+            "Maitland": 45,
+            "Parow": 52,
+            "Lansdowne": 1,
+            "Rondebosch": 1,
+            "Kuilsriver": 23,
+            "Wynberg": 1,
+            "Sea Point": 0,
+            "Bishop Lavis": 45,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 72,
+            "Delft": 27,
+            "Mowbray": 5,
+            "Ravensmead": 49,
+            "Goodwood": 52,
+            "Elsies River": 52,
+            "Port Of Entry": 41,
+            "Kensington": 57,
+            "Athlone": 8,
+            "Woodstock": 26,
+            "Pinelands": 53,
+            "Belhar": 41,
+            "Manenberg": 28,
+            "Claremont": 1,
+            "Guguletu": 28,
+            "Durbanville": 1,
+            "Brackenfell": 1,
+            "Langa": 37,
+            "Mitchells Plain": 1,
+            "Khayelitsha": 1,
+            "Mfuleni": 13,
+            "Lingelethu West": 1,
+            "Diepriver": 1,
+            "Kleinvlei": 14,
+            "Harare": 1,
+            "Grassy Park": 1,
+            "Steenberg": 1,
+            "Kirstenhof": 1,
+            "Milnerton": 60,
+            "Parklands": 56,
+            "Kraaifontein": 1,
+            "Philippi East Satellite": 10,
+            "Strandfontein": 1,
+            "Lentegeur": 1
+        }
+    },
+    "Bishop Lavis": {
+        "formatted_address": "42 Tafelberg Rd, Bishop Lavis, Cape Town, 7490, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9461744,
+                "lng": 18.5728333
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94482532010727,
+                    "lng": 18.57426217989272
+                },
+                "southwest": {
+                    "lat": -33.94752497989271,
+                    "lng": 18.57156252010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "1d1564c094c33c00b917438c0b85089cb0142f53",
+        "name": "Saps Bishop Lavis",
+        "place_id": "ChIJb0lH1dlazB0RjOx9GLn8VA4",
+        "plus_code": {
+            "compound_code": "3H3F+G4 Matroosfontein, Cape Town, South Africa",
+            "global_code": "4FRW3H3F+G4"
+        },
+        "rating": 3.3,
+        "reference": "ChIJb0lH1dlazB0RjOx9GLn8VA4",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 63,
+            "Nyanga": 66,
+            "Int. Airport Cape Town": 62,
+            "Bellville South": 62,
+            "Philippi": 63,
+            "Maitland": 61,
+            "Parow": 66,
+            "Lansdowne": 61,
+            "Rondebosch": 55,
+            "Kuilsriver": 35,
+            "Wynberg": 55,
+            "Sea Point": 45,
+            "Bishop Lavis": 0,
+            "Cape Town Central": 53,
+            "Table Bay Harbour": 50,
+            "Delft": 46,
+            "Mowbray": 60,
+            "Ravensmead": 68,
+            "Goodwood": 62,
+            "Elsies River": 72,
+            "Port Of Entry": 52,
+            "Kensington": 63,
+            "Athlone": 64,
+            "Woodstock": 58,
+            "Pinelands": 63,
+            "Belhar": 53,
+            "Manenberg": 46,
+            "Claremont": 59,
+            "Guguletu": 43,
+            "Durbanville": 10,
+            "Brackenfell": 31,
+            "Langa": 61,
+            "Mitchells Plain": 43,
+            "Khayelitsha": 33,
+            "Mfuleni": 37,
+            "Lingelethu West": 34,
+            "Diepriver": 53,
+            "Kleinvlei": 27,
+            "Harare": 30,
+            "Grassy Park": 48,
+            "Steenberg": 46,
+            "Kirstenhof": 42,
+            "Milnerton": 57,
+            "Parklands": 44,
+            "Kraaifontein": 38,
+            "Philippi East Satellite": 57,
+            "Strandfontein": 45,
+            "Lentegeur": 47
+        }
+    },
+    "Cape Town Central": {
+        "formatted_address": "28 Buitenkant St, Cape Town City Centre, Cape Town, 8000, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9277623,
+                "lng": 18.4233035
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92644187010728,
+                    "lng": 18.42469357989272
+                },
+                "southwest": {
+                    "lat": -33.92914152989272,
+                    "lng": 18.42199392010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "a8f9de81a09b52d4d140d641426258c7471470a7",
+        "name": "Saps Cape Town Central",
+        "photos": [
+            {
+                "height": 1944,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101765646537122369031/photos\">Albert Jen</a>"
+                ],
+                "photo_reference": "CmRaAAAAJTEhZVFKRR1_h87W6nX7sb3kSQewy8iv3JhOizqv3qPuf7f9KPMBI91aTOxpToFotE2a5e2S2twsD9R3oY-tlEVb70k_anM9NidB0F7RpFKFkS9tjB4S5Cgri2XDq368EhBCgcTgYB-BcU4beIZPQtNIGhRlO2QsAoSkZfFGZmGrcP1YhH4Ypw",
+                "width": 2592
+            }
+        ],
+        "place_id": "ChIJt-3Z6XxnzB0RUZ-K8Fk54Ak",
+        "plus_code": {
+            "compound_code": "3CCF+V8 Cape Town, South Africa",
+            "global_code": "4FRW3CCF+V8"
+        },
+        "rating": 2.1,
+        "reference": "ChIJt-3Z6XxnzB0RUZ-K8Fk54Ak",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 55,
+            "Nyanga": 16,
+            "Int. Airport Cape Town": 35,
+            "Bellville South": 53,
+            "Philippi": 1,
+            "Maitland": 65,
+            "Parow": 56,
+            "Lansdowne": 1,
+            "Rondebosch": 1,
+            "Kuilsriver": 31,
+            "Wynberg": 1,
+            "Sea Point": 1,
+            "Bishop Lavis": 53,
+            "Cape Town Central": 0,
+            "Table Bay Harbour": 71,
+            "Delft": 32,
+            "Mowbray": 7,
+            "Ravensmead": 56,
+            "Goodwood": 58,
+            "Elsies River": 57,
+            "Port Of Entry": 70,
+            "Kensington": 59,
+            "Athlone": 13,
+            "Woodstock": 71,
+            "Pinelands": 60,
+            "Belhar": 46,
+            "Manenberg": 22,
+            "Claremont": 1,
+            "Guguletu": 22,
+            "Durbanville": 1,
+            "Brackenfell": 19,
+            "Langa": 47,
+            "Mitchells Plain": 1,
+            "Khayelitsha": 1,
+            "Mfuleni": 14,
+            "Lingelethu West": 1,
+            "Diepriver": 1,
+            "Kleinvlei": 21,
+            "Harare": 1,
+            "Grassy Park": 1,
+            "Steenberg": 1,
+            "Kirstenhof": 1,
+            "Milnerton": 59,
+            "Parklands": 57,
+            "Kraaifontein": 14,
+            "Philippi East Satellite": 8,
+            "Strandfontein": 1,
+            "Lentegeur": 1
+        }
+    },
+    "Table Bay Harbour": {
+        "formatted_address": "Duncan Rd, Table Bay Harbour, Cape Town, 8001, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9098723,
+                "lng": 18.4245085
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90862302010728,
+                    "lng": 18.42568397989272
+                },
+                "southwest": {
+                    "lat": -33.91132267989272,
+                    "lng": 18.42298432010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "b59bf5a2e8547aecad1563d8c48bed6570d34ef4",
+        "name": "Table Bay Harbour Police Station",
+        "photos": [
+            {
+                "height": 1944,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116896371486816962751/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAARCkz0yDhZwporLFn2aJvpmy5aY0ZpyrwmA7HnrM_hkmC-98BBXz_CT86N4l9r1EQDDEq7nAtDRot4dtcuG6QdrNScqwYT1gq-K3-67_c1iTT_mdBg3TOtGNCmwhxsJF9EhBUATcuFH6QCpyB7ruBobOtGhSM3dlfUhVw0yNH9zxmvTON6KOkng",
+                "width": 2592
+            }
+        ],
+        "place_id": "ChIJ4UNNMl9nzB0Rl_yjnY_KObE",
+        "plus_code": {
+            "compound_code": "3CRF+3R Cape Town, South Africa",
+            "global_code": "4FRW3CRF+3R"
+        },
+        "rating": 5,
+        "reference": "ChIJ4UNNMl9nzB0Rl_yjnY_KObE",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 54,
+            "Nyanga": 46,
+            "Int. Airport Cape Town": 61,
+            "Bellville South": 52,
+            "Philippi": 28,
+            "Maitland": 64,
+            "Parow": 54,
+            "Lansdowne": 12,
+            "Rondebosch": 1,
+            "Kuilsriver": 24,
+            "Wynberg": 1,
+            "Sea Point": 72,
+            "Bishop Lavis": 50,
+            "Cape Town Central": 71,
+            "Table Bay Harbour": 0,
+            "Delft": 36,
+            "Mowbray": 29,
+            "Ravensmead": 51,
+            "Goodwood": 55,
+            "Elsies River": 55,
+            "Port Of Entry": 74,
+            "Kensington": 62,
+            "Athlone": 44,
+            "Woodstock": 66,
+            "Pinelands": 63,
+            "Belhar": 42,
+            "Manenberg": 46,
+            "Claremont": 1,
+            "Guguletu": 46,
+            "Durbanville": 1,
+            "Brackenfell": 7,
+            "Langa": 54,
+            "Mitchells Plain": 25,
+            "Khayelitsha": 21,
+            "Mfuleni": 22,
+            "Lingelethu West": 26,
+            "Diepriver": 1,
+            "Kleinvlei": 18,
+            "Harare": 22,
+            "Grassy Park": 1,
+            "Steenberg": 1,
+            "Kirstenhof": 1,
+            "Milnerton": 61,
+            "Parklands": 58,
+            "Kraaifontein": 1,
+            "Philippi East Satellite": 42,
+            "Strandfontein": 1,
+            "Lentegeur": 27
+        }
+    },
+    "Delft": {
+        "formatted_address": "Voorbrug Rd & Delft Main Rd, Delft, Cape Town, 7100, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9748501,
+                "lng": 18.6419957
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.97350027010729,
+                    "lng": 18.64334552989272
+                },
+                "southwest": {
+                    "lat": -33.97619992989273,
+                    "lng": 18.64064587010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "4013b88b17a1660916d75f57c05fd44cb7ff6e28",
+        "name": "Delft Police Station",
+        "place_id": "ChIJgQRxkb1PzB0RGLnhRQugywo",
+        "plus_code": {
+            "compound_code": "2JGR+3Q Delft, Cape Town, South Africa",
+            "global_code": "4FRW2JGR+3Q"
+        },
+        "rating": 2.8,
+        "reference": "ChIJgQRxkb1PzB0RGLnhRQugywo",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 58,
+            "Nyanga": 61,
+            "Int. Airport Cape Town": 40,
+            "Bellville South": 62,
+            "Philippi": 48,
+            "Maitland": 39,
+            "Parow": 48,
+            "Lansdowne": 48,
+            "Rondebosch": 46,
+            "Kuilsriver": 64,
+            "Wynberg": 52,
+            "Sea Point": 27,
+            "Bishop Lavis": 46,
+            "Cape Town Central": 32,
+            "Table Bay Harbour": 36,
+            "Delft": 0,
+            "Mowbray": 42,
+            "Ravensmead": 45,
+            "Goodwood": 41,
+            "Elsies River": 43,
+            "Port Of Entry": 34,
+            "Kensington": 36,
+            "Athlone": 40,
+            "Woodstock": 37,
+            "Pinelands": 39,
+            "Belhar": 56,
+            "Manenberg": 43,
+            "Claremont": 48,
+            "Guguletu": 46,
+            "Durbanville": 26,
+            "Brackenfell": 55,
+            "Langa": 38,
+            "Mitchells Plain": 59,
+            "Khayelitsha": 64,
+            "Mfuleni": 66,
+            "Lingelethu West": 62,
+            "Diepriver": 46,
+            "Kleinvlei": 45,
+            "Harare": 60,
+            "Grassy Park": 43,
+            "Steenberg": 42,
+            "Kirstenhof": 40,
+            "Milnerton": 31,
+            "Parklands": 24,
+            "Kraaifontein": 27,
+            "Philippi East Satellite": 66,
+            "Strandfontein": 49,
+            "Lentegeur": 59
+        }
+    },
+    "Mowbray": {
+        "formatted_address": "32 Main Road, Mowbray, Cape Town, 7700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9501545,
+                "lng": 18.472104
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94880467010726,
+                    "lng": 18.47345382989272
+                },
+                "southwest": {
+                    "lat": -33.95150432989271,
+                    "lng": 18.47075417010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f80aa472aa3ca0b95f39563f116f5244432bf441",
+        "name": "Mowbray Police Station",
+        "photos": [
+            {
+                "height": 3840,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100207005571255434206/photos\">Bolelang Rakeepile</a>"
+                ],
+                "photo_reference": "CmRaAAAAaM-tQOhGOuHHBt3j_tdZAOP-ZuYY6zFETWjP0lfFqG83CbDQpXkR3Id6-4_ynPivxF0Kxp1bT_kFVC-DrGFGfvOtz-hM8FS6sswwi-HHFjChtETCic_-XZMIGD9s3UmFEhA0So_8LEfdGPL3-VnruB0WGhQZ_RXKT4ylZ7JZAYb11ldzPQfbJQ",
+                "width": 2160
+            }
+        ],
+        "place_id": "ChIJT6uCkB9dzB0Rka-zIrOlSdM",
+        "plus_code": {
+            "compound_code": "2FXC+WR Mowbray, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FRW2FXC+WR"
+        },
+        "rating": 3.8,
+        "reference": "ChIJT6uCkB9dzB0Rka-zIrOlSdM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 56,
+            "Nyanga": 59,
+            "Int. Airport Cape Town": 74,
+            "Bellville South": 55,
+            "Philippi": 61,
+            "Maitland": 72,
+            "Parow": 58,
+            "Lansdowne": 65,
+            "Rondebosch": 62,
+            "Kuilsriver": 34,
+            "Wynberg": 50,
+            "Sea Point": 5,
+            "Bishop Lavis": 60,
+            "Cape Town Central": 7,
+            "Table Bay Harbour": 29,
+            "Delft": 42,
+            "Mowbray": 0,
+            "Ravensmead": 58,
+            "Goodwood": 59,
+            "Elsies River": 60,
+            "Port Of Entry": 32,
+            "Kensington": 61,
+            "Athlone": 66,
+            "Woodstock": 32,
+            "Pinelands": 65,
+            "Belhar": 49,
+            "Manenberg": 62,
+            "Claremont": 52,
+            "Guguletu": 61,
+            "Durbanville": 3,
+            "Brackenfell": 24,
+            "Langa": 55,
+            "Mitchells Plain": 44,
+            "Khayelitsha": 34,
+            "Mfuleni": 34,
+            "Lingelethu West": 42,
+            "Diepriver": 31,
+            "Kleinvlei": 26,
+            "Harare": 32,
+            "Grassy Park": 43,
+            "Steenberg": 32,
+            "Kirstenhof": 24,
+            "Milnerton": 61,
+            "Parklands": 55,
+            "Kraaifontein": 29,
+            "Philippi East Satellite": 54,
+            "Strandfontein": 47,
+            "Lentegeur": 51
+        }
+    },
+    "Ravensmead": {
+        "formatted_address": "153 Christians St, Ravensmead, Cape Town, 7493, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9223532,
+                "lng": 18.5975052
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92099702010727,
+                    "lng": 18.59890687989272
+                },
+                "southwest": {
+                    "lat": -33.92369667989271,
+                    "lng": 18.59620722010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "fbc528eb76d076020204c2338457bafe260acb5c",
+        "name": "Saps Ravensmead",
+        "place_id": "ChIJ12h3apJazB0RZTh-dXTt0vk",
+        "plus_code": {
+            "compound_code": "3HHX+32 Parow, Cape Town, South Africa",
+            "global_code": "4FRW3HHX+32"
+        },
+        "rating": 2.8,
+        "reference": "ChIJ12h3apJazB0RZTh-dXTt0vk",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 61,
+            "Nyanga": 55,
+            "Int. Airport Cape Town": 59,
+            "Bellville South": 65,
+            "Philippi": 56,
+            "Maitland": 58,
+            "Parow": 61,
+            "Lansdowne": 58,
+            "Rondebosch": 58,
+            "Kuilsriver": 41,
+            "Wynberg": 54,
+            "Sea Point": 49,
+            "Bishop Lavis": 68,
+            "Cape Town Central": 56,
+            "Table Bay Harbour": 51,
+            "Delft": 45,
+            "Mowbray": 58,
+            "Ravensmead": 0,
+            "Goodwood": 68,
+            "Elsies River": 67,
+            "Port Of Entry": 52,
+            "Kensington": 60,
+            "Athlone": 60,
+            "Woodstock": 56,
+            "Pinelands": 61,
+            "Belhar": 56,
+            "Manenberg": 60,
+            "Claremont": 57,
+            "Guguletu": 55,
+            "Durbanville": 8,
+            "Brackenfell": 28,
+            "Langa": 63,
+            "Mitchells Plain": 31,
+            "Khayelitsha": 31,
+            "Mfuleni": 34,
+            "Lingelethu West": 34,
+            "Diepriver": 50,
+            "Kleinvlei": 30,
+            "Harare": 29,
+            "Grassy Park": 44,
+            "Steenberg": 40,
+            "Kirstenhof": 38,
+            "Milnerton": 56,
+            "Parklands": 35,
+            "Kraaifontein": 32,
+            "Philippi East Satellite": 44,
+            "Strandfontein": 37,
+            "Lentegeur": 37
+        }
+    },
+    "Goodwood": {
+        "formatted_address": "13 Wiener St, Goodwood, Cape Town, 7460, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9088634,
+                "lng": 18.561887
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90749882010727,
+                    "lng": 18.56332152989272
+                },
+                "southwest": {
+                    "lat": -33.91019847989271,
+                    "lng": 18.56062187010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "207b83d1b54a40e1bf6328cd5e77ba93650b8c21",
+        "name": "Saps Goodwood",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJoXGFwK5bzB0RKtOLZTYKnlI",
+        "plus_code": {
+            "compound_code": "3HR6+FQ Goodwood, Cape Town, South Africa",
+            "global_code": "4FRW3HR6+FQ"
+        },
+        "rating": 3.4,
+        "reference": "ChIJoXGFwK5bzB0RKtOLZTYKnlI",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 62,
+            "Nyanga": 59,
+            "Int. Airport Cape Town": 62,
+            "Bellville South": 62,
+            "Philippi": 59,
+            "Maitland": 62,
+            "Parow": 56,
+            "Lansdowne": 60,
+            "Rondebosch": 59,
+            "Kuilsriver": 35,
+            "Wynberg": 54,
+            "Sea Point": 52,
+            "Bishop Lavis": 62,
+            "Cape Town Central": 58,
+            "Table Bay Harbour": 55,
+            "Delft": 41,
+            "Mowbray": 59,
+            "Ravensmead": 68,
+            "Goodwood": 0,
+            "Elsies River": 74,
+            "Port Of Entry": 56,
+            "Kensington": 64,
+            "Athlone": 62,
+            "Woodstock": 59,
+            "Pinelands": 64,
+            "Belhar": 50,
+            "Manenberg": 63,
+            "Claremont": 59,
+            "Guguletu": 60,
+            "Durbanville": 1,
+            "Brackenfell": 24,
+            "Langa": 66,
+            "Mitchells Plain": 33,
+            "Khayelitsha": 28,
+            "Mfuleni": 28,
+            "Lingelethu West": 26,
+            "Diepriver": 50,
+            "Kleinvlei": 24,
+            "Harare": 25,
+            "Grassy Park": 43,
+            "Steenberg": 38,
+            "Kirstenhof": 34,
+            "Milnerton": 63,
+            "Parklands": 55,
+            "Kraaifontein": 24,
+            "Philippi East Satellite": 43,
+            "Strandfontein": 39,
+            "Lentegeur": 39
+        }
+    },
+    "Elsies River": {
+        "formatted_address": "Viking Way, Elsies Rivier, Cape Town, 7480, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9246926,
+                "lng": 18.5644663
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92345117010728,
+                    "lng": 18.56593867989272
+                },
+                "southwest": {
+                    "lat": -33.92615082989272,
+                    "lng": 18.56323902010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "3c1986b3c29492b6ef045fc41df4a2239d56cd52",
+        "name": "Saps Elsies River",
+        "place_id": "ChIJVzC6aQNbzB0RL31V-D9C4F0",
+        "plus_code": {
+            "compound_code": "3HG7+4Q Elsies Rivier, Cape Town, South Africa",
+            "global_code": "4FRW3HG7+4Q"
+        },
+        "rating": 3.3,
+        "reference": "ChIJVzC6aQNbzB0RL31V-D9C4F0",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 64,
+            "Nyanga": 61,
+            "Int. Airport Cape Town": 63,
+            "Bellville South": 62,
+            "Philippi": 61,
+            "Maitland": 62,
+            "Parow": 64,
+            "Lansdowne": 61,
+            "Rondebosch": 59,
+            "Kuilsriver": 32,
+            "Wynberg": 54,
+            "Sea Point": 52,
+            "Bishop Lavis": 72,
+            "Cape Town Central": 57,
+            "Table Bay Harbour": 55,
+            "Delft": 43,
+            "Mowbray": 60,
+            "Ravensmead": 67,
+            "Goodwood": 74,
+            "Elsies River": 0,
+            "Port Of Entry": 50,
+            "Kensington": 65,
+            "Athlone": 63,
+            "Woodstock": 58,
+            "Pinelands": 64,
+            "Belhar": 49,
+            "Manenberg": 65,
+            "Claremont": 59,
+            "Guguletu": 65,
+            "Durbanville": 5,
+            "Brackenfell": 25,
+            "Langa": 67,
+            "Mitchells Plain": 36,
+            "Khayelitsha": 28,
+            "Mfuleni": 30,
+            "Lingelethu West": 29,
+            "Diepriver": 49,
+            "Kleinvlei": 25,
+            "Harare": 25,
+            "Grassy Park": 44,
+            "Steenberg": 39,
+            "Kirstenhof": 34,
+            "Milnerton": 61,
+            "Parklands": 47,
+            "Kraaifontein": 29,
+            "Philippi East Satellite": 44,
+            "Strandfontein": 40,
+            "Lentegeur": 40
+        }
+    },
+    "Port Of Entry": {
+        "formatted_address": "Duncan Rd, Cape Town, 8001, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9208648,
+                "lng": 18.4405295
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.91954482010728,
+                    "lng": 18.44187612989272
+                },
+                "southwest": {
+                    "lat": -33.92224447989272,
+                    "lng": 18.43917647010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+        "id": "8c29c8e050a3cb11d77153c6603b7a30d7667fb2",
+        "name": "Port Of Entry SAPS",
+        "photos": [
+            {
+                "height": 1920,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112516676136906883467/photos\">Thato Principal</a>"
+                ],
+                "photo_reference": "CmRaAAAA84SoW2jNndyZ7yxrjwclE_BhPT2ktiYpVB0VqQqi2PajFb6ZhPxzSDYik3Itn9nUEvEvFtLEKdodIhXZzdp1ZPHaa4rQWbXaMr8LIatgpYI19IWPHDlmvbu97hnrDK3TEhBpMf53tRf73JYlPHxhgM-zGhRkEQK--UunCY9IyJYefNHyAC72pg",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJrV-wzJFdzB0RlRCPRwR-c6s",
+        "plus_code": {
+            "compound_code": "3CHR+M6 Cape Town, South Africa",
+            "global_code": "4FRW3CHR+M6"
+        },
+        "rating": 0,
+        "reference": "ChIJrV-wzJFdzB0RlRCPRwR-c6s",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 55,
+            "Nyanga": 47,
+            "Int. Airport Cape Town": 62,
+            "Bellville South": 53,
+            "Philippi": 28,
+            "Maitland": 60,
+            "Parow": 55,
+            "Lansdowne": 16,
+            "Rondebosch": 1,
+            "Kuilsriver": 24,
+            "Wynberg": 1,
+            "Sea Point": 41,
+            "Bishop Lavis": 52,
+            "Cape Town Central": 70,
+            "Table Bay Harbour": 74,
+            "Delft": 34,
+            "Mowbray": 32,
+            "Ravensmead": 52,
+            "Goodwood": 56,
+            "Elsies River": 50,
+            "Port Of Entry": 0,
+            "Kensington": 63,
+            "Athlone": 43,
+            "Woodstock": 78,
+            "Pinelands": 64,
+            "Belhar": 42,
+            "Manenberg": 46,
+            "Claremont": 1,
+            "Guguletu": 46,
+            "Durbanville": 1,
+            "Brackenfell": 14,
+            "Langa": 54,
+            "Mitchells Plain": 23,
+            "Khayelitsha": 21,
+            "Mfuleni": 23,
+            "Lingelethu West": 26,
+            "Diepriver": 1,
+            "Kleinvlei": 17,
+            "Harare": 22,
+            "Grassy Park": 1,
+            "Steenberg": 1,
+            "Kirstenhof": 1,
+            "Milnerton": 62,
+            "Parklands": 56,
+            "Kraaifontein": 9,
+            "Philippi East Satellite": 39,
+            "Strandfontein": 7,
+            "Lentegeur": 26
+        }
+    },
+    "Kensington": {
+        "formatted_address": "26 Factreton Ave, Kensington, Cape Town, 7405, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.909426,
+                "lng": 18.5107271
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90800242010727,
+                    "lng": 18.51211142989273
+                },
+                "southwest": {
+                    "lat": -33.91070207989272,
+                    "lng": 18.50941177010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "134f64ece6b4430fc5fa480374e1358f2caded09",
+        "name": "Saps Kensington",
+        "photos": [
+            {
+                "height": 720,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101080309436403944946/photos\">Sharief Meyers</a>"
+                ],
+                "photo_reference": "CmRaAAAARMXwWq0P9an8WWrAy0y6PcaE3O0jLiA_aXO975CDyaUFHDbRU4R7VOB6BvHfqA1oVAilQiD1nz10Shde4IoYVyoWPVX8lBfd3KXaeFOe3b2sRZPeDp4QL-3PWvTUrnnGEhCHHtnEqheT5aFNakviDZJrGhSS2-5heon2EeiVrWtaNXhXDFze_Q",
+                "width": 1280
+            }
+        ],
+        "place_id": "ChIJ-fPSz3FczB0R_4zEHKWXpMM",
+        "plus_code": {
+            "compound_code": "3GR6+67 Cape Town, South Africa",
+            "global_code": "4FRW3GR6+67"
+        },
+        "rating": 2.7,
+        "reference": "ChIJ-fPSz3FczB0R_4zEHKWXpMM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 60,
+            "Nyanga": 59,
+            "Int. Airport Cape Town": 67,
+            "Bellville South": 58,
+            "Philippi": 55,
+            "Maitland": 67,
+            "Parow": 62,
+            "Lansdowne": 60,
+            "Rondebosch": 63,
+            "Kuilsriver": 30,
+            "Wynberg": 50,
+            "Sea Point": 57,
+            "Bishop Lavis": 63,
+            "Cape Town Central": 59,
+            "Table Bay Harbour": 62,
+            "Delft": 36,
+            "Mowbray": 61,
+            "Ravensmead": 60,
+            "Goodwood": 64,
+            "Elsies River": 65,
+            "Port Of Entry": 63,
+            "Kensington": 0,
+            "Athlone": 64,
+            "Woodstock": 60,
+            "Pinelands": 73,
+            "Belhar": 45,
+            "Manenberg": 62,
+            "Claremont": 60,
+            "Guguletu": 61,
+            "Durbanville": 3,
+            "Brackenfell": 17,
+            "Langa": 66,
+            "Mitchells Plain": 36,
+            "Khayelitsha": 25,
+            "Mfuleni": 26,
+            "Lingelethu West": 27,
+            "Diepriver": 32,
+            "Kleinvlei": 22,
+            "Harare": 23,
+            "Grassy Park": 35,
+            "Steenberg": 32,
+            "Kirstenhof": 27,
+            "Milnerton": 66,
+            "Parklands": 55,
+            "Kraaifontein": 12,
+            "Philippi East Satellite": 45,
+            "Strandfontein": 39,
+            "Lentegeur": 42
+        }
+    },
+    "Athlone": {
+        "formatted_address": "Klipfontein Rd, Athlone, Cape Town, 7764, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9613991,
+                "lng": 18.5072653
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.95995067010728,
+                    "lng": 18.50856132989272
+                },
+                "southwest": {
+                    "lat": -33.96265032989272,
+                    "lng": 18.50586167010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "a16b1a8b3af06210aa9bccda9fda4477a98628b5",
+        "name": "Athlone Police Station",
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104390074854977141068/photos\">Baddeneen Larney</a>"
+                ],
+                "photo_reference": "CmRaAAAATd5mfGYQz2jJLI0QYzoQ7Tvu_YezKscmHhvbfcsESopj07zRaW4ZnXsWLqjnDy-W2-7-aY3i3OsNEaZ8s0KSBIuFbmf6H8G04XuH9-Ry6Ihxh2OJhTn9Z2mqM12Uc9hhEhBZmWYoiu5Pg5AFMlbknFYrGhRqcEm5NH2xkiGeF2LTyaEncpYi0Q",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJZYeOfbFczB0R4Kb5sK5W_3s",
+        "plus_code": {
+            "compound_code": "2GQ4+CW Athlone, Cape Town, South Africa",
+            "global_code": "4FRW2GQ4+CW"
+        },
+        "rating": 2.5,
+        "reference": "ChIJZYeOfbFczB0R4Kb5sK5W_3s",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 58,
+            "Nyanga": 62,
+            "Int. Airport Cape Town": 72,
+            "Bellville South": 54,
+            "Philippi": 65,
+            "Maitland": 66,
+            "Parow": 59,
+            "Lansdowne": 55,
+            "Rondebosch": 64,
+            "Kuilsriver": 28,
+            "Wynberg": 58,
+            "Sea Point": 8,
+            "Bishop Lavis": 64,
+            "Cape Town Central": 13,
+            "Table Bay Harbour": 44,
+            "Delft": 40,
+            "Mowbray": 66,
+            "Ravensmead": 60,
+            "Goodwood": 62,
+            "Elsies River": 63,
+            "Port Of Entry": 43,
+            "Kensington": 64,
+            "Athlone": 0,
+            "Woodstock": 42,
+            "Pinelands": 47,
+            "Belhar": 43,
+            "Manenberg": 67,
+            "Claremont": 67,
+            "Guguletu": 65,
+            "Durbanville": 1,
+            "Brackenfell": 27,
+            "Langa": 71,
+            "Mitchells Plain": 41,
+            "Khayelitsha": 28,
+            "Mfuleni": 30,
+            "Lingelethu West": 35,
+            "Diepriver": 45,
+            "Kleinvlei": 23,
+            "Harare": 30,
+            "Grassy Park": 40,
+            "Steenberg": 36,
+            "Kirstenhof": 32,
+            "Milnerton": 56,
+            "Parklands": 36,
+            "Kraaifontein": 30,
+            "Philippi East Satellite": 53,
+            "Strandfontein": 42,
+            "Lentegeur": 47
+        }
+    },
+    "Woodstock": {
+        "formatted_address": "152 Victoria Rd, Woodstock, Cape Town, 7915, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9290204,
+                "lng": 18.4482159
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92775397010728,
+                    "lng": 18.44954017989272
+                },
+                "southwest": {
+                    "lat": -33.93045362989272,
+                    "lng": 18.44684052010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "df6f02eaa5c18c5764ee5940c5438f27769e0a4c",
+        "name": "Saps Woodstock",
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111776528025086337096/photos\">Jonathan Jayes</a>"
+                ],
+                "photo_reference": "CmRaAAAAx0B0fPSrnsPgTAcs3K77CBPt7TjXW08RhFXPBBwTdM36MP_PRvhcPt8_UCBN1zKkYCAGR2lnCk1tvxNFkjabry-wgttAUbZWLe2g3WACyYrABdg0r4mgUleu1ZhwYgVCEhA4oWcMtAuNGnUiWYmGxMn_GhRNDh_WrxUyxRU3EErImGszYqHIFg",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJjfJwJJ9dzB0RW0zGTtPF5Jg",
+        "plus_code": {
+            "compound_code": "3CCX+97 Cape Town, South Africa",
+            "global_code": "4FRW3CCX+97"
+        },
+        "rating": 3.4,
+        "reference": "ChIJjfJwJJ9dzB0RW0zGTtPF5Jg",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 56,
+            "Nyanga": 44,
+            "Int. Airport Cape Town": 60,
+            "Bellville South": 54,
+            "Philippi": 30,
+            "Maitland": 60,
+            "Parow": 57,
+            "Lansdowne": 18,
+            "Rondebosch": 5,
+            "Kuilsriver": 28,
+            "Wynberg": 1,
+            "Sea Point": 26,
+            "Bishop Lavis": 58,
+            "Cape Town Central": 71,
+            "Table Bay Harbour": 66,
+            "Delft": 37,
+            "Mowbray": 32,
+            "Ravensmead": 56,
+            "Goodwood": 59,
+            "Elsies River": 58,
+            "Port Of Entry": 78,
+            "Kensington": 60,
+            "Athlone": 42,
+            "Woodstock": 0,
+            "Pinelands": 63,
+            "Belhar": 44,
+            "Manenberg": 47,
+            "Claremont": 1,
+            "Guguletu": 47,
+            "Durbanville": 1,
+            "Brackenfell": 20,
+            "Langa": 59,
+            "Mitchells Plain": 22,
+            "Khayelitsha": 23,
+            "Mfuleni": 26,
+            "Lingelethu West": 28,
+            "Diepriver": 1,
+            "Kleinvlei": 20,
+            "Harare": 24,
+            "Grassy Park": 1,
+            "Steenberg": 1,
+            "Kirstenhof": 1,
+            "Milnerton": 61,
+            "Parklands": 56,
+            "Kraaifontein": 18,
+            "Philippi East Satellite": 40,
+            "Strandfontein": 6,
+            "Lentegeur": 27
+        }
+    },
+    "Pinelands": {
+        "formatted_address": "Jan Smuts Dr, Pinelands, Cape Town, 7430, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9259034,
+                "lng": 18.5012595
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92442362010728,
+                    "lng": 18.50258377989272
+                },
+                "southwest": {
+                    "lat": -33.92712327989273,
+                    "lng": 18.49988412010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "7b9630e023ce075824c9a71239e575866ab14712",
+        "name": "Pinelands Saps",
+        "place_id": "ChIJF9m-MZNczB0R9tbc7nlbv7U",
+        "plus_code": {
+            "compound_code": "3GF2+JG Cape Town, South Africa",
+            "global_code": "4FRW3GF2+JG"
+        },
+        "rating": 4.3,
+        "reference": "ChIJF9m-MZNczB0R9tbc7nlbv7U",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 58,
+            "Nyanga": 60,
+            "Int. Airport Cape Town": 68,
+            "Bellville South": 56,
+            "Philippi": 60,
+            "Maitland": 73,
+            "Parow": 58,
+            "Lansdowne": 63,
+            "Rondebosch": 60,
+            "Kuilsriver": 28,
+            "Wynberg": 51,
+            "Sea Point": 53,
+            "Bishop Lavis": 63,
+            "Cape Town Central": 60,
+            "Table Bay Harbour": 63,
+            "Delft": 39,
+            "Mowbray": 65,
+            "Ravensmead": 61,
+            "Goodwood": 64,
+            "Elsies River": 64,
+            "Port Of Entry": 64,
+            "Kensington": 73,
+            "Athlone": 47,
+            "Woodstock": 63,
+            "Pinelands": 0,
+            "Belhar": 45,
+            "Manenberg": 63,
+            "Claremont": 62,
+            "Guguletu": 62,
+            "Durbanville": 2,
+            "Brackenfell": 22,
+            "Langa": 66,
+            "Mitchells Plain": 38,
+            "Khayelitsha": 26,
+            "Mfuleni": 27,
+            "Lingelethu West": 28,
+            "Diepriver": 31,
+            "Kleinvlei": 22,
+            "Harare": 25,
+            "Grassy Park": 38,
+            "Steenberg": 30,
+            "Kirstenhof": 26,
+            "Milnerton": 63,
+            "Parklands": 50,
+            "Kraaifontein": 23,
+            "Philippi East Satellite": 49,
+            "Strandfontein": 39,
+            "Lentegeur": 45
+        }
+    },
+    "Belhar": {
+        "formatted_address": "53 Platteklip Cres, Belhar 20, Cape Town, 7493, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9471145,
+                "lng": 18.6486727
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94576112010727,
+                    "lng": 18.64997012989272
+                },
+                "southwest": {
+                    "lat": -33.94846077989272,
+                    "lng": 18.64727047010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "e5876fc4a75fb6f728c53b82f1c09caf860b36bd",
+        "name": "Saps Belhar",
+        "place_id": "ChIJ0_nX6dhPzB0RPoIw1l2c1ew",
+        "plus_code": {
+            "compound_code": "3J3X+5F Belhar, Cape Town, South Africa",
+            "global_code": "4FRW3J3X+5F"
+        },
+        "rating": 0,
+        "reference": "ChIJ0_nX6dhPzB0RPoIw1l2c1ew",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 63,
+            "Nyanga": 55,
+            "Int. Airport Cape Town": 44,
+            "Bellville South": 66,
+            "Philippi": 46,
+            "Maitland": 44,
+            "Parow": 59,
+            "Lansdowne": 46,
+            "Rondebosch": 49,
+            "Kuilsriver": 62,
+            "Wynberg": 53,
+            "Sea Point": 41,
+            "Bishop Lavis": 53,
+            "Cape Town Central": 46,
+            "Table Bay Harbour": 42,
+            "Delft": 56,
+            "Mowbray": 49,
+            "Ravensmead": 56,
+            "Goodwood": 50,
+            "Elsies River": 49,
+            "Port Of Entry": 42,
+            "Kensington": 45,
+            "Athlone": 43,
+            "Woodstock": 44,
+            "Pinelands": 45,
+            "Belhar": 0,
+            "Manenberg": 42,
+            "Claremont": 47,
+            "Guguletu": 47,
+            "Durbanville": 28,
+            "Brackenfell": 60,
+            "Langa": 42,
+            "Mitchells Plain": 56,
+            "Khayelitsha": 59,
+            "Mfuleni": 63,
+            "Lingelethu West": 59,
+            "Diepriver": 45,
+            "Kleinvlei": 49,
+            "Harare": 55,
+            "Grassy Park": 39,
+            "Steenberg": 39,
+            "Kirstenhof": 37,
+            "Milnerton": 39,
+            "Parklands": 23,
+            "Kraaifontein": 34,
+            "Philippi East Satellite": 57,
+            "Strandfontein": 46,
+            "Lentegeur": 54
+        }
+    },
+    "Manenberg": {
+        "formatted_address": "Klipfontein Rd, Manenberg, Cape Town, 7767, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.971699,
+                "lng": 18.5557379
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.97019007010728,
+                    "lng": 18.55716232989272
+                },
+                "southwest": {
+                    "lat": -33.97288972989273,
+                    "lng": 18.55446267010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "cb90c4ca446b8763e8e94f5b2644cf55beaacb27",
+        "name": "Manenberg Police Station",
+        "photos": [
+            {
+                "height": 1944,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116782389765649377802/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAAZB2KcVpmItC1Bm4Gxqvp8-i2yIjG97kvyEWI08HRkttTG1XJAlAwzCmQbOLI40rmiRNQ8oivxz5C98cg0bohlf4hnTRQrnYBDK8aHfyannqMf7sG38oMJlYZYNpXMYnEhCJBZ_xMw7sa_O6CG5mk_Y9GhQrOya_97vs74_RwM3llRu_ehLHfg",
+                "width": 2592
+            }
+        ],
+        "place_id": "ChIJ5cvIbMVEzB0RRKRJPD-Hhz0",
+        "plus_code": {
+            "compound_code": "2HH4+87 Manenberg, Cape Town, South Africa",
+            "global_code": "4FRW2HH4+87"
+        },
+        "rating": 2.9,
+        "reference": "ChIJ5cvIbMVEzB0RRKRJPD-Hhz0",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 58,
+            "Nyanga": 65,
+            "Int. Airport Cape Town": 63,
+            "Bellville South": 50,
+            "Philippi": 68,
+            "Maitland": 58,
+            "Parow": 59,
+            "Lansdowne": 66,
+            "Rondebosch": 61,
+            "Kuilsriver": 30,
+            "Wynberg": 58,
+            "Sea Point": 28,
+            "Bishop Lavis": 46,
+            "Cape Town Central": 22,
+            "Table Bay Harbour": 46,
+            "Delft": 43,
+            "Mowbray": 62,
+            "Ravensmead": 60,
+            "Goodwood": 63,
+            "Elsies River": 65,
+            "Port Of Entry": 46,
+            "Kensington": 62,
+            "Athlone": 67,
+            "Woodstock": 47,
+            "Pinelands": 63,
+            "Belhar": 42,
+            "Manenberg": 0,
+            "Claremont": 62,
+            "Guguletu": 80,
+            "Durbanville": 8,
+            "Brackenfell": 27,
+            "Langa": 67,
+            "Mitchells Plain": 44,
+            "Khayelitsha": 32,
+            "Mfuleni": 33,
+            "Lingelethu West": 35,
+            "Diepriver": 54,
+            "Kleinvlei": 25,
+            "Harare": 31,
+            "Grassy Park": 49,
+            "Steenberg": 43,
+            "Kirstenhof": 38,
+            "Milnerton": 47,
+            "Parklands": 35,
+            "Kraaifontein": 30,
+            "Philippi East Satellite": 58,
+            "Strandfontein": 46,
+            "Lentegeur": 51
+        }
+    },
+    "Claremont": {
+        "formatted_address": "Imam Haron Rd, Claremont, Cape Town, 7440, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9843399,
+                "lng": 18.4736349
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.98282227010728,
+                    "lng": 18.47497272989272
+                },
+                "southwest": {
+                    "lat": -33.98552192989272,
+                    "lng": 18.47227307010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "ea00b30686b185492c28a4800a0ae63339f22129",
+        "name": "Claremont Police Station",
+        "place_id": "ChIJo4FdFdhCzB0RdnGyWxzDkCg",
+        "plus_code": {
+            "compound_code": "2F8F+7F Claremont, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FRW2F8F+7F"
+        },
+        "rating": 5,
+        "reference": "ChIJo4FdFdhCzB0RdnGyWxzDkCg",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 55,
+            "Nyanga": 60,
+            "Int. Airport Cape Town": 66,
+            "Bellville South": 55,
+            "Philippi": 64,
+            "Maitland": 64,
+            "Parow": 57,
+            "Lansdowne": 68,
+            "Rondebosch": 67,
+            "Kuilsriver": 32,
+            "Wynberg": 52,
+            "Sea Point": 1,
+            "Bishop Lavis": 59,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 48,
+            "Mowbray": 52,
+            "Ravensmead": 57,
+            "Goodwood": 59,
+            "Elsies River": 59,
+            "Port Of Entry": 1,
+            "Kensington": 60,
+            "Athlone": 67,
+            "Woodstock": 1,
+            "Pinelands": 62,
+            "Belhar": 47,
+            "Manenberg": 62,
+            "Claremont": 0,
+            "Guguletu": 61,
+            "Durbanville": 1,
+            "Brackenfell": 27,
+            "Langa": 63,
+            "Mitchells Plain": 46,
+            "Khayelitsha": 40,
+            "Mfuleni": 34,
+            "Lingelethu West": 43,
+            "Diepriver": 34,
+            "Kleinvlei": 29,
+            "Harare": 39,
+            "Grassy Park": 50,
+            "Steenberg": 36,
+            "Kirstenhof": 30,
+            "Milnerton": 55,
+            "Parklands": 49,
+            "Kraaifontein": 34,
+            "Philippi East Satellite": 57,
+            "Strandfontein": 53,
+            "Lentegeur": 52
+        }
+    },
+    "Guguletu": {
+        "formatted_address": "NY1, Guguletu, Cape Town, 7750, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9753272,
+                "lng": 18.5634506
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.97397737010728,
+                    "lng": 18.56480042989272
+                },
+                "southwest": {
+                    "lat": -33.97667702989273,
+                    "lng": 18.56210077010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "eceb03b37c86339a32113bacaa7e489b7f9a69b0",
+        "name": "Saps Guguletu",
+        "photos": [
+            {
+                "height": 360,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107657581748902594031/photos\">Bukelwa Gibe</a>"
+                ],
+                "photo_reference": "CmRaAAAAEtpUKkIS4kp5KmlsXVcr5Po6bVZ7wW3hLex-4lHcbYI_e0wl5tdxyoTbtmrjc5PZjvYGz6dMycfYx7rgNhg06vbHuoBeLoh7apk5BDo8NzLGRK91-t8s1mmzuLmncxHCEhBsaTtHHCvlOU-KNu1ymQQpGhRB3EH3njI3H1t66CODq_2YsZrcpw",
+                "width": 360
+            }
+        ],
+        "place_id": "ChIJIRTBAdxEzB0R_pYoRJh0uMo",
+        "plus_code": {
+            "compound_code": "2HF7+V9 Guguletu, Cape Town, South Africa",
+            "global_code": "4FRW2HF7+V9"
+        },
+        "rating": 5,
+        "reference": "ChIJIRTBAdxEzB0R_pYoRJh0uMo",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 60,
+            "Nyanga": 68,
+            "Int. Airport Cape Town": 62,
+            "Bellville South": 47,
+            "Philippi": 48,
+            "Maitland": 59,
+            "Parow": 59,
+            "Lansdowne": 65,
+            "Rondebosch": 61,
+            "Kuilsriver": 30,
+            "Wynberg": 58,
+            "Sea Point": 28,
+            "Bishop Lavis": 43,
+            "Cape Town Central": 22,
+            "Table Bay Harbour": 46,
+            "Delft": 46,
+            "Mowbray": 61,
+            "Ravensmead": 55,
+            "Goodwood": 60,
+            "Elsies River": 65,
+            "Port Of Entry": 46,
+            "Kensington": 61,
+            "Athlone": 65,
+            "Woodstock": 47,
+            "Pinelands": 62,
+            "Belhar": 47,
+            "Manenberg": 80,
+            "Claremont": 61,
+            "Guguletu": 0,
+            "Durbanville": 8,
+            "Brackenfell": 28,
+            "Langa": 66,
+            "Mitchells Plain": 46,
+            "Khayelitsha": 33,
+            "Mfuleni": 35,
+            "Lingelethu West": 38,
+            "Diepriver": 55,
+            "Kleinvlei": 26,
+            "Harare": 33,
+            "Grassy Park": 51,
+            "Steenberg": 47,
+            "Kirstenhof": 43,
+            "Milnerton": 46,
+            "Parklands": 35,
+            "Kraaifontein": 33,
+            "Philippi East Satellite": 60,
+            "Strandfontein": 47,
+            "Lentegeur": 54
+        }
+    },
+    "Durbanville": {
+        "formatted_address": "2 Church St, Durbanville, Cape Town, 7550, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8336749,
+                "lng": 18.6490962
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.83223982010727,
+                    "lng": 18.65032032989272
+                },
+                "southwest": {
+                    "lat": -33.83493947989272,
+                    "lng": 18.64762067010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "44f7be5ae238d1460362bdb3cf11362befea8072",
+        "name": "Durbanville Police Station",
+        "place_id": "ChIJoRZ75RZXzB0RsP1S3y4Vub4",
+        "plus_code": {
+            "compound_code": "5J8X+GJ Durbanville, Cape Town, South Africa",
+            "global_code": "4FRW5J8X+GJ"
+        },
+        "rating": 4.1,
+        "reference": "ChIJoRZ75RZXzB0RsP1S3y4Vub4",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 14,
+            "Nyanga": 14,
+            "Int. Airport Cape Town": 2,
+            "Bellville South": 29,
+            "Philippi": 7,
+            "Maitland": 2,
+            "Parow": 6,
+            "Lansdowne": 8,
+            "Rondebosch": 3,
+            "Kuilsriver": 46,
+            "Wynberg": 2,
+            "Sea Point": 1,
+            "Bishop Lavis": 10,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 26,
+            "Mowbray": 3,
+            "Ravensmead": 8,
+            "Goodwood": 1,
+            "Elsies River": 5,
+            "Port Of Entry": 1,
+            "Kensington": 3,
+            "Athlone": 1,
+            "Woodstock": 1,
+            "Pinelands": 2,
+            "Belhar": 28,
+            "Manenberg": 8,
+            "Claremont": 1,
+            "Guguletu": 8,
+            "Durbanville": 0,
+            "Brackenfell": 63,
+            "Langa": 1,
+            "Mitchells Plain": 21,
+            "Khayelitsha": 34,
+            "Mfuleni": 40,
+            "Lingelethu West": 32,
+            "Diepriver": 6,
+            "Kleinvlei": 41,
+            "Harare": 34,
+            "Grassy Park": 5,
+            "Steenberg": 4,
+            "Kirstenhof": 3,
+            "Milnerton": 1,
+            "Parklands": 1,
+            "Kraaifontein": 62,
+            "Philippi East Satellite": 18,
+            "Strandfontein": 12,
+            "Lentegeur": 18
+        }
+    },
+    "Brackenfell": {
+        "formatted_address": "Brackenfell Blvd, Brackenfell, Cape Town, 7561, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.871811,
+                "lng": 18.6815909
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.87047852010728,
+                    "lng": 18.68355452989272
+                },
+                "southwest": {
+                    "lat": -33.87317817989273,
+                    "lng": 18.68085487010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "6a1759850b9c204f213b731165bea74c4472888b",
+        "name": "Brackenfell Police Station Brackenfell",
+        "photos": [
+            {
+                "height": 1836,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103528712223919201327/photos\">Phelan Jade Naidoo</a>"
+                ],
+                "photo_reference": "CmRaAAAA7l0kIrgR2-0Z187m5XljN137R7QXJzLEVV7Yhwaspdvcf7Lq6MOI1gyJlJRLFOQ_8GVGZscfRWtc5ZfWKPUl1EYc_xhjuW1XBSQRXA725mpbumIz-Ub9zvuv2AKhmOqSEhCdvy3IZIPx7SpEGWv4wUjEGhRY-1KfqoN845m0ibBhL_O_fjeyXQ",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJx5aInT5RzB0RKKf9II-wnmM",
+        "plus_code": {
+            "compound_code": "4MHJ+7J Brackenfell, Cape Town, South Africa",
+            "global_code": "4FRW4MHJ+7J"
+        },
+        "rating": 3.6,
+        "reference": "ChIJx5aInT5RzB0RKKf9II-wnmM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 32,
+            "Nyanga": 31,
+            "Int. Airport Cape Town": 23,
+            "Bellville South": 51,
+            "Philippi": 30,
+            "Maitland": 22,
+            "Parow": 21,
+            "Lansdowne": 30,
+            "Rondebosch": 25,
+            "Kuilsriver": 62,
+            "Wynberg": 29,
+            "Sea Point": 1,
+            "Bishop Lavis": 31,
+            "Cape Town Central": 19,
+            "Table Bay Harbour": 7,
+            "Delft": 55,
+            "Mowbray": 24,
+            "Ravensmead": 28,
+            "Goodwood": 24,
+            "Elsies River": 25,
+            "Port Of Entry": 14,
+            "Kensington": 17,
+            "Athlone": 27,
+            "Woodstock": 20,
+            "Pinelands": 22,
+            "Belhar": 60,
+            "Manenberg": 27,
+            "Claremont": 27,
+            "Guguletu": 28,
+            "Durbanville": 63,
+            "Brackenfell": 0,
+            "Langa": 26,
+            "Mitchells Plain": 44,
+            "Khayelitsha": 51,
+            "Mfuleni": 45,
+            "Lingelethu West": 52,
+            "Diepriver": 29,
+            "Kleinvlei": 32,
+            "Harare": 47,
+            "Grassy Park": 29,
+            "Steenberg": 28,
+            "Kirstenhof": 26,
+            "Milnerton": 1,
+            "Parklands": 1,
+            "Kraaifontein": 64,
+            "Philippi East Satellite": 42,
+            "Strandfontein": 35,
+            "Lentegeur": 41
+        }
+    },
+    "Langa": {
+        "formatted_address": "Washington St, Langa, Cape Town, 7456, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.94419680000001,
+                "lng": 18.5264797
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94272252010728,
+                    "lng": 18.52782667989272
+                },
+                "southwest": {
+                    "lat": -33.94542217989272,
+                    "lng": 18.52512702010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "4a92ef1f13e64fa2f37ebc53e4654055bc26d862",
+        "name": "Saps Langa",
+        "photos": [
+            {
+                "height": 5312,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106772232750017683989/photos\">Kees de Hoop</a>"
+                ],
+                "photo_reference": "CmRaAAAAeOkaA5kFt4wHMFZesQb4Ouiycs0NQCLopkhJn05sSrS9LgdMxax5iUzBweXpMjqO9PVb22na0MuvtmEI9xZZh2unDzwPWwPdry8KdldAVP4DbpwS1fBJjQZO8YMc-HDEEhDJWgGXujo2hzV2LiF2BJZWGhQAExwCCMcSTBsx5RcGXD-VKvVyoQ",
+                "width": 2988
+            }
+        ],
+        "place_id": "ChIJ7-tVal5bzB0RlAwGTL5MqRc",
+        "plus_code": {
+            "compound_code": "3G4G+8H Langa, Cape Town, South Africa",
+            "global_code": "4FRW3G4G+8H"
+        },
+        "rating": 2.8,
+        "reference": "ChIJ7-tVal5bzB0RlAwGTL5MqRc",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 60,
+            "Nyanga": 63,
+            "Int. Airport Cape Town": 47,
+            "Bellville South": 55,
+            "Philippi": 63,
+            "Maitland": 67,
+            "Parow": 62,
+            "Lansdowne": 64,
+            "Rondebosch": 64,
+            "Kuilsriver": 27,
+            "Wynberg": 56,
+            "Sea Point": 37,
+            "Bishop Lavis": 61,
+            "Cape Town Central": 47,
+            "Table Bay Harbour": 54,
+            "Delft": 38,
+            "Mowbray": 55,
+            "Ravensmead": 63,
+            "Goodwood": 66,
+            "Elsies River": 67,
+            "Port Of Entry": 54,
+            "Kensington": 66,
+            "Athlone": 71,
+            "Woodstock": 59,
+            "Pinelands": 66,
+            "Belhar": 42,
+            "Manenberg": 67,
+            "Claremont": 63,
+            "Guguletu": 66,
+            "Durbanville": 1,
+            "Brackenfell": 26,
+            "Langa": 0,
+            "Mitchells Plain": 39,
+            "Khayelitsha": 28,
+            "Mfuleni": 28,
+            "Lingelethu West": 28,
+            "Diepriver": 46,
+            "Kleinvlei": 22,
+            "Harare": 25,
+            "Grassy Park": 41,
+            "Steenberg": 34,
+            "Kirstenhof": 31,
+            "Milnerton": 55,
+            "Parklands": 41,
+            "Kraaifontein": 27,
+            "Philippi East Satellite": 49,
+            "Strandfontein": 41,
+            "Lentegeur": 46
+        }
+    },
+    "Mitchells Plain": {
+        "formatted_address": "First Ave, Mitchells Plain, Cape Town, 7785, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0477629,
+                "lng": 18.6233739
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04650597010728,
+                    "lng": 18.62460977989272
+                },
+                "southwest": {
+                    "lat": -34.04920562989273,
+                    "lng": 18.62191012010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "4cd513d19c37924ecc016d0ef9c4fa093fb98aa3",
+        "name": "Mitchells Plain Police Station",
+        "place_id": "ChIJ02cb26VIzB0RPWlCuxss3pM",
+        "plus_code": {
+            "compound_code": "XJ2F+V8 Mitchells Plain, Cape Town, South Africa",
+            "global_code": "4FQWXJ2F+V8"
+        },
+        "rating": 4.1,
+        "reference": "ChIJ02cb26VIzB0RPWlCuxss3pM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 40,
+            "Nyanga": 57,
+            "Int. Airport Cape Town": 39,
+            "Bellville South": 47,
+            "Philippi": 50,
+            "Maitland": 35,
+            "Parow": 33,
+            "Lansdowne": 46,
+            "Rondebosch": 44,
+            "Kuilsriver": 46,
+            "Wynberg": 50,
+            "Sea Point": 1,
+            "Bishop Lavis": 43,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 25,
+            "Delft": 59,
+            "Mowbray": 44,
+            "Ravensmead": 31,
+            "Goodwood": 33,
+            "Elsies River": 36,
+            "Port Of Entry": 23,
+            "Kensington": 36,
+            "Athlone": 41,
+            "Woodstock": 22,
+            "Pinelands": 38,
+            "Belhar": 56,
+            "Manenberg": 44,
+            "Claremont": 46,
+            "Guguletu": 46,
+            "Durbanville": 21,
+            "Brackenfell": 44,
+            "Langa": 39,
+            "Mitchells Plain": 0,
+            "Khayelitsha": 62,
+            "Mfuleni": 54,
+            "Lingelethu West": 67,
+            "Diepriver": 45,
+            "Kleinvlei": 45,
+            "Harare": 65,
+            "Grassy Park": 44,
+            "Steenberg": 45,
+            "Kirstenhof": 43,
+            "Milnerton": 27,
+            "Parklands": 22,
+            "Kraaifontein": 20,
+            "Philippi East Satellite": 66,
+            "Strandfontein": 62,
+            "Lentegeur": 65
+        }
+    },
+    "Khayelitsha": {
+        "formatted_address": "4 Bonga Dr, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0246198,
+                "lng": 18.6655146
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.02334582010728,
+                    "lng": 18.66676697989272
+                },
+                "southwest": {
+                    "lat": -34.02604547989272,
+                    "lng": 18.66406732010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "325891cbef41942bdbb97e85612724c228d1ab9e",
+        "name": "Saps Khayelitsha",
+        "place_id": "ChIJa6ZW7NVOzB0RSUU4P77WYdI",
+        "plus_code": {
+            "compound_code": "XMG8+56 Khayelitsha, Cape Town, South Africa",
+            "global_code": "4FQWXMG8+56"
+        },
+        "rating": 4,
+        "reference": "ChIJa6ZW7NVOzB0RSUU4P77WYdI",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 43,
+            "Nyanga": 51,
+            "Int. Airport Cape Town": 29,
+            "Bellville South": 50,
+            "Philippi": 43,
+            "Maitland": 25,
+            "Parow": 33,
+            "Lansdowne": 41,
+            "Rondebosch": 35,
+            "Kuilsriver": 55,
+            "Wynberg": 45,
+            "Sea Point": 1,
+            "Bishop Lavis": 33,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 21,
+            "Delft": 64,
+            "Mowbray": 34,
+            "Ravensmead": 31,
+            "Goodwood": 28,
+            "Elsies River": 28,
+            "Port Of Entry": 21,
+            "Kensington": 25,
+            "Athlone": 28,
+            "Woodstock": 23,
+            "Pinelands": 26,
+            "Belhar": 59,
+            "Manenberg": 32,
+            "Claremont": 40,
+            "Guguletu": 33,
+            "Durbanville": 34,
+            "Brackenfell": 51,
+            "Langa": 28,
+            "Mitchells Plain": 62,
+            "Khayelitsha": 0,
+            "Mfuleni": 64,
+            "Lingelethu West": 67,
+            "Diepriver": 38,
+            "Kleinvlei": 49,
+            "Harare": 61,
+            "Grassy Park": 36,
+            "Steenberg": 33,
+            "Kirstenhof": 31,
+            "Milnerton": 22,
+            "Parklands": 18,
+            "Kraaifontein": 20,
+            "Philippi East Satellite": 65,
+            "Strandfontein": 48,
+            "Lentegeur": 62
+        }
+    },
+    "Mfuleni": {
+        "formatted_address": "1 Eersteriver Road Bluedowns, 7100, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.981,
+                "lng": 18.6874632
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.97965017010728,
+                    "lng": 18.68881302989272
+                },
+                "southwest": {
+                    "lat": -33.98234982989272,
+                    "lng": 18.68611337010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "8aa87a9414e2ad6f12c60e84f3a0b1af500e9c82",
+        "name": "Saps Mfuleni",
+        "photos": [
+            {
+                "height": 1944,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108233069441088808731/photos\">Mthunzi Mbopa</a>"
+                ],
+                "photo_reference": "CmRaAAAACtl0SPasp4Gse6UJLcqrOYM293h-ynCdC6BPaGLWqPIJBLGXhcri_W2cDoajzvZCjLcvD_ky-biRSlrIFdT8_8VhUlTl4zFKr7sVLO8yMFzHnoKTeKjJbEzDmCBUHPBvEhCL8wAmSbSFaFy9bShb4kkTGhR7AMaNO67z4BuJtGzTOBdB3SRrYQ",
+                "width": 2592
+            }
+        ],
+        "place_id": "ChIJJVJk619OzB0Rte3meF5aJnQ",
+        "plus_code": {
+            "compound_code": "2M9P+HX Blue Downs, Cape Town, South Africa",
+            "global_code": "4FRW2M9P+HX"
+        },
+        "rating": 4,
+        "reference": "ChIJJVJk619OzB0Rte3meF5aJnQ",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 48,
+            "Nyanga": 49,
+            "Int. Airport Cape Town": 30,
+            "Bellville South": 57,
+            "Philippi": 39,
+            "Maitland": 26,
+            "Parow": 37,
+            "Lansdowne": 35,
+            "Rondebosch": 35,
+            "Kuilsriver": 46,
+            "Wynberg": 44,
+            "Sea Point": 13,
+            "Bishop Lavis": 37,
+            "Cape Town Central": 14,
+            "Table Bay Harbour": 22,
+            "Delft": 66,
+            "Mowbray": 34,
+            "Ravensmead": 34,
+            "Goodwood": 28,
+            "Elsies River": 30,
+            "Port Of Entry": 23,
+            "Kensington": 26,
+            "Athlone": 30,
+            "Woodstock": 26,
+            "Pinelands": 27,
+            "Belhar": 63,
+            "Manenberg": 33,
+            "Claremont": 34,
+            "Guguletu": 35,
+            "Durbanville": 40,
+            "Brackenfell": 45,
+            "Langa": 28,
+            "Mitchells Plain": 54,
+            "Khayelitsha": 64,
+            "Mfuleni": 0,
+            "Lingelethu West": 57,
+            "Diepriver": 38,
+            "Kleinvlei": 51,
+            "Harare": 65,
+            "Grassy Park": 36,
+            "Steenberg": 35,
+            "Kirstenhof": 34,
+            "Milnerton": 22,
+            "Parklands": 18,
+            "Kraaifontein": 17,
+            "Philippi East Satellite": 63,
+            "Strandfontein": 44,
+            "Lentegeur": 60
+        }
+    },
+    "Lingelethu West": {
+        "formatted_address": "Makabeni Road Lingelethu West Khayelitsha 7784, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0427689,
+                "lng": 18.6601895
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04141907010727,
+                    "lng": 18.66153932989272
+                },
+                "southwest": {
+                    "lat": -34.04411872989272,
+                    "lng": 18.65883967010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "d7263f580a72499069f9382cf5f988f145e3d1f9",
+        "name": "Saps Lingelethu-West",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117179285462397812845/photos\">Loyiso Limekaya</a>"
+                ],
+                "photo_reference": "CmRaAAAAw0ranRmWzTtg60s0pLZA6YR02ulaWGm_IS3Br2ZYD7usrwXo8WTIq_MilCOn3k6WodBGmgRFpSY2-_8yu-CQM54CwKNL7EHS_Hl3l0eDSjAIa5xfvL3Vja_mcgNeSoO5EhCG1WjWs0FxoeYEpDhRNfdvGhQtWwz6lPGG9KCaNh-EDbMnEgE6sQ",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJRR8Bd9lIzB0RtRf8OUO-M2Y",
+        "plus_code": {
+            "compound_code": "XM46+V3 Khayelitsha, Cape Town, South Africa",
+            "global_code": "4FQWXM46+V3"
+        },
+        "rating": 4,
+        "reference": "ChIJRR8Bd9lIzB0RtRf8OUO-M2Y",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 47,
+            "Nyanga": 54,
+            "Int. Airport Cape Town": 34,
+            "Bellville South": 53,
+            "Philippi": 45,
+            "Maitland": 29,
+            "Parow": 35,
+            "Lansdowne": 42,
+            "Rondebosch": 41,
+            "Kuilsriver": 54,
+            "Wynberg": 48,
+            "Sea Point": 1,
+            "Bishop Lavis": 34,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 26,
+            "Delft": 62,
+            "Mowbray": 42,
+            "Ravensmead": 34,
+            "Goodwood": 26,
+            "Elsies River": 29,
+            "Port Of Entry": 26,
+            "Kensington": 27,
+            "Athlone": 35,
+            "Woodstock": 28,
+            "Pinelands": 28,
+            "Belhar": 59,
+            "Manenberg": 35,
+            "Claremont": 43,
+            "Guguletu": 38,
+            "Durbanville": 32,
+            "Brackenfell": 52,
+            "Langa": 28,
+            "Mitchells Plain": 67,
+            "Khayelitsha": 67,
+            "Mfuleni": 57,
+            "Lingelethu West": 0,
+            "Diepriver": 43,
+            "Kleinvlei": 51,
+            "Harare": 77,
+            "Grassy Park": 39,
+            "Steenberg": 39,
+            "Kirstenhof": 37,
+            "Milnerton": 22,
+            "Parklands": 18,
+            "Kraaifontein": 23,
+            "Philippi East Satellite": 62,
+            "Strandfontein": 58,
+            "Lentegeur": 65
+        }
+    },
+    "Diepriver": {
+        "formatted_address": "104 Main Rd, Diep River, Cape Town, 7800, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0316158,
+                "lng": 18.4653779
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.03027207010728,
+                    "lng": 18.46678772989272
+                },
+                "southwest": {
+                    "lat": -34.03297172989272,
+                    "lng": 18.46408807010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "56f0350822b11159086ce58f6c8bc8414a14dbf3",
+        "name": "Diep River Police Station",
+        "photos": [
+            {
+                "height": 2976,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107056139248866349883/photos\">ashley kruger</a>"
+                ],
+                "photo_reference": "CmRaAAAA8vSgYnvvtfZTxhBck69B16rX-LP901-F96VUZTep9_B0RDS_lxdsq8A9rYEFrAPFBJ_tj5fzPJNBdtZsT6CxI7x4w7C8KdJ5GF9yqQDaQJ5PQj-47wYSdkZQNCUAd9JZEhAKLh1OW73F7Qjss8B9YQWvGhQEi07H6nL11bQ0C0Z-09oZQuxB4A",
+                "width": 3968
+            }
+        ],
+        "place_id": "ChIJy82jFU9CzB0Rw-BzFXcW1TE",
+        "plus_code": {
+            "compound_code": "XF98+95 Diep River, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FQWXF98+95"
+        },
+        "rating": 3.6,
+        "reference": "ChIJy82jFU9CzB0Rw-BzFXcW1TE",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 53,
+            "Nyanga": 58,
+            "Int. Airport Cape Town": 31,
+            "Bellville South": 48,
+            "Philippi": 58,
+            "Maitland": 27,
+            "Parow": 52,
+            "Lansdowne": 63,
+            "Rondebosch": 31,
+            "Kuilsriver": 33,
+            "Wynberg": 66,
+            "Sea Point": 1,
+            "Bishop Lavis": 53,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 46,
+            "Mowbray": 31,
+            "Ravensmead": 50,
+            "Goodwood": 50,
+            "Elsies River": 49,
+            "Port Of Entry": 1,
+            "Kensington": 32,
+            "Athlone": 45,
+            "Woodstock": 1,
+            "Pinelands": 31,
+            "Belhar": 45,
+            "Manenberg": 54,
+            "Claremont": 34,
+            "Guguletu": 55,
+            "Durbanville": 6,
+            "Brackenfell": 29,
+            "Langa": 46,
+            "Mitchells Plain": 45,
+            "Khayelitsha": 38,
+            "Mfuleni": 38,
+            "Lingelethu West": 43,
+            "Diepriver": 0,
+            "Kleinvlei": 29,
+            "Harare": 38,
+            "Grassy Park": 56,
+            "Steenberg": 60,
+            "Kirstenhof": 65,
+            "Milnerton": 25,
+            "Parklands": 21,
+            "Kraaifontein": 36,
+            "Philippi East Satellite": 55,
+            "Strandfontein": 53,
+            "Lentegeur": 51
+        }
+    },
+    "Kleinvlei": {
+        "formatted_address": "Albert Philander Rd, Kleinvlei, Cape Town, 7001, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9881895,
+                "lng": 18.718781
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.98687192010727,
+                    "lng": 18.71996312989272
+                },
+                "southwest": {
+                    "lat": -33.98957157989271,
+                    "lng": 18.71726347010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "e2de8e6db24a0d2d535cbe0d0ee400e670e47f98",
+        "name": "Saps Kleinvlei",
+        "place_id": "ChIJaSr2-yVMzB0RBQ3505RVo1k",
+        "plus_code": {
+            "compound_code": "2P69+PG Blue Downs, Cape Town, South Africa",
+            "global_code": "4FRW2P69+PG"
+        },
+        "rating": 2.4,
+        "reference": "ChIJaSr2-yVMzB0RBQ3505RVo1k",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 43,
+            "Nyanga": 35,
+            "Int. Airport Cape Town": 22,
+            "Bellville South": 48,
+            "Philippi": 29,
+            "Maitland": 21,
+            "Parow": 30,
+            "Lansdowne": 28,
+            "Rondebosch": 29,
+            "Kuilsriver": 44,
+            "Wynberg": 33,
+            "Sea Point": 14,
+            "Bishop Lavis": 27,
+            "Cape Town Central": 21,
+            "Table Bay Harbour": 18,
+            "Delft": 45,
+            "Mowbray": 26,
+            "Ravensmead": 30,
+            "Goodwood": 24,
+            "Elsies River": 25,
+            "Port Of Entry": 17,
+            "Kensington": 22,
+            "Athlone": 23,
+            "Woodstock": 20,
+            "Pinelands": 22,
+            "Belhar": 49,
+            "Manenberg": 25,
+            "Claremont": 29,
+            "Guguletu": 26,
+            "Durbanville": 41,
+            "Brackenfell": 32,
+            "Langa": 22,
+            "Mitchells Plain": 45,
+            "Khayelitsha": 49,
+            "Mfuleni": 51,
+            "Lingelethu West": 51,
+            "Diepriver": 29,
+            "Kleinvlei": 0,
+            "Harare": 53,
+            "Grassy Park": 29,
+            "Steenberg": 28,
+            "Kirstenhof": 27,
+            "Milnerton": 18,
+            "Parklands": 12,
+            "Kraaifontein": 10,
+            "Philippi East Satellite": 42,
+            "Strandfontein": 38,
+            "Lentegeur": 43
+        }
+    },
+    "Harare": {
+        "formatted_address": "Steve Biko Rd, Harare, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.05168,
+                "lng": 18.6692399
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.05021457010728,
+                    "lng": 18.67053177989272
+                },
+                "southwest": {
+                    "lat": -34.05291422989272,
+                    "lng": 18.66783212010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f291e4a3d51c6b10c53d723f56c9084b3f0d7287",
+        "name": "Saps Harare",
+        "place_id": "ChIJN5BAGR9JzB0RGB1kv4alqKY",
+        "plus_code": {
+            "compound_code": "WMX9+8M Khayelitsha, Cape Town, South Africa",
+            "global_code": "4FQWWMX9+8M"
+        },
+        "rating": 3,
+        "reference": "ChIJN5BAGR9JzB0RGB1kv4alqKY",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 40,
+            "Nyanga": 45,
+            "Int. Airport Cape Town": 29,
+            "Bellville South": 49,
+            "Philippi": 40,
+            "Maitland": 25,
+            "Parow": 31,
+            "Lansdowne": 40,
+            "Rondebosch": 34,
+            "Kuilsriver": 48,
+            "Wynberg": 43,
+            "Sea Point": 1,
+            "Bishop Lavis": 30,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 22,
+            "Delft": 60,
+            "Mowbray": 32,
+            "Ravensmead": 29,
+            "Goodwood": 25,
+            "Elsies River": 25,
+            "Port Of Entry": 22,
+            "Kensington": 23,
+            "Athlone": 30,
+            "Woodstock": 24,
+            "Pinelands": 25,
+            "Belhar": 55,
+            "Manenberg": 31,
+            "Claremont": 39,
+            "Guguletu": 33,
+            "Durbanville": 34,
+            "Brackenfell": 47,
+            "Langa": 25,
+            "Mitchells Plain": 65,
+            "Khayelitsha": 61,
+            "Mfuleni": 65,
+            "Lingelethu West": 77,
+            "Diepriver": 38,
+            "Kleinvlei": 53,
+            "Harare": 0,
+            "Grassy Park": 34,
+            "Steenberg": 37,
+            "Kirstenhof": 34,
+            "Milnerton": 18,
+            "Parklands": 16,
+            "Kraaifontein": 21,
+            "Philippi East Satellite": 53,
+            "Strandfontein": 45,
+            "Lentegeur": 60
+        }
+    },
+    "Grassy Park": {
+        "formatted_address": "Reddy Ave, Grassy Park, Cape Town, 7941, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0488287,
+                "lng": 18.4953077
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04750452010728,
+                    "lng": 18.49668137989272
+                },
+                "southwest": {
+                    "lat": -34.05020417989272,
+                    "lng": 18.49398172010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "96325739ee0535875caec2d0dd52d9f6cb29d7cc",
+        "name": "Saps Grassy Park",
+        "photos": [
+            {
+                "height": 4160,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112324664421278416499/photos\">Zubair Van Dyk</a>"
+                ],
+                "photo_reference": "CmRaAAAA1tiIez9Ik-CZyEAhmKQTcAPUIDJl73ycbYwH48BisW2VS60ifnCCmPphPzkqfXAWObKRLupJNJIX0OUImO-swwr3sNg01ZxbWhxat75vvXQkzu8kfs-mcq_Tx-5lKJZQEhBtJQWCvrkcDwsj3cDSZ6y7GhQ7sY2XZOhpT6XR6SapYLayhFZdzQ",
+                "width": 3120
+            }
+        ],
+        "place_id": "ChIJbYJ7y91DzB0RQz6OJMOVOZE",
+        "plus_code": {
+            "compound_code": "XF2W+F4 Grassy Park, Cape Town, South Africa",
+            "global_code": "4FQWXF2W+F4"
+        },
+        "rating": 1.7,
+        "reference": "ChIJbYJ7y91DzB0RQz6OJMOVOZE",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 48,
+            "Nyanga": 55,
+            "Int. Airport Cape Town": 36,
+            "Bellville South": 42,
+            "Philippi": 63,
+            "Maitland": 33,
+            "Parow": 47,
+            "Lansdowne": 60,
+            "Rondebosch": 44,
+            "Kuilsriver": 30,
+            "Wynberg": 54,
+            "Sea Point": 1,
+            "Bishop Lavis": 48,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 43,
+            "Mowbray": 43,
+            "Ravensmead": 44,
+            "Goodwood": 43,
+            "Elsies River": 44,
+            "Port Of Entry": 1,
+            "Kensington": 35,
+            "Athlone": 40,
+            "Woodstock": 1,
+            "Pinelands": 38,
+            "Belhar": 39,
+            "Manenberg": 49,
+            "Claremont": 50,
+            "Guguletu": 51,
+            "Durbanville": 5,
+            "Brackenfell": 29,
+            "Langa": 41,
+            "Mitchells Plain": 44,
+            "Khayelitsha": 36,
+            "Mfuleni": 36,
+            "Lingelethu West": 39,
+            "Diepriver": 56,
+            "Kleinvlei": 29,
+            "Harare": 34,
+            "Grassy Park": 0,
+            "Steenberg": 66,
+            "Kirstenhof": 66,
+            "Milnerton": 28,
+            "Parklands": 24,
+            "Kraaifontein": 33,
+            "Philippi East Satellite": 50,
+            "Strandfontein": 55,
+            "Lentegeur": 51
+        }
+    },
+    "Steenberg": {
+        "formatted_address": "Cradock Rd, Steenberg, Cape Town, 7947, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0653851,
+                "lng": 18.476555
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.06403207010727,
+                    "lng": 18.47798667989272
+                },
+                "southwest": {
+                    "lat": -34.06673172989272,
+                    "lng": 18.47528702010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "007c0532811c64238f0a570ad605af76d1cac253",
+        "name": "Saps Steenberg",
+        "place_id": "ChIJm8BS7nhBzB0RrRF48OmOtuA",
+        "plus_code": {
+            "compound_code": "WFMG+RJ Retreat, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FQWWFMG+RJ"
+        },
+        "rating": 3.1,
+        "reference": "ChIJm8BS7nhBzB0RrRF48OmOtuA",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 46,
+            "Nyanga": 50,
+            "Int. Airport Cape Town": 29,
+            "Bellville South": 41,
+            "Philippi": 60,
+            "Maitland": 27,
+            "Parow": 42,
+            "Lansdowne": 58,
+            "Rondebosch": 30,
+            "Kuilsriver": 29,
+            "Wynberg": 46,
+            "Sea Point": 1,
+            "Bishop Lavis": 46,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 42,
+            "Mowbray": 32,
+            "Ravensmead": 40,
+            "Goodwood": 38,
+            "Elsies River": 39,
+            "Port Of Entry": 1,
+            "Kensington": 32,
+            "Athlone": 36,
+            "Woodstock": 1,
+            "Pinelands": 30,
+            "Belhar": 39,
+            "Manenberg": 43,
+            "Claremont": 36,
+            "Guguletu": 47,
+            "Durbanville": 4,
+            "Brackenfell": 28,
+            "Langa": 34,
+            "Mitchells Plain": 45,
+            "Khayelitsha": 33,
+            "Mfuleni": 35,
+            "Lingelethu West": 39,
+            "Diepriver": 60,
+            "Kleinvlei": 28,
+            "Harare": 37,
+            "Grassy Park": 66,
+            "Steenberg": 0,
+            "Kirstenhof": 72,
+            "Milnerton": 23,
+            "Parklands": 22,
+            "Kraaifontein": 32,
+            "Philippi East Satellite": 48,
+            "Strandfontein": 56,
+            "Lentegeur": 46
+        }
+    },
+    "Kirstenhof": {
+        "formatted_address": "13 Pollsmoor Rd, Kirstenhof, Cape Town, 7945, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.072077,
+                "lng": 18.4551723
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.07060547010728,
+                    "lng": 18.45650142989272
+                },
+                "southwest": {
+                    "lat": -34.07330512989272,
+                    "lng": 18.45380177010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "4c881c524e9ea7da74e39beacc0f289298b429c8",
+        "name": "Kirstenhof Police Station",
+        "photos": [
+            {
+                "height": 1836,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105772452111536359860/photos\">Rainer Doller</a>"
+                ],
+                "photo_reference": "CmRaAAAAV4d2OdKQa2hWdsm0_I-1QRn_Q-1UI-E_aWxES5Sq4vdO6DN-nem05FMtTTWqTwA4FVtxVoHALJ0ggxPCzMG3gOy7Tjmg6C3dtqt_qsewNz3HPG1gsg2baTvfKJ07EBFyEhAyZJcJpZ0wimsgdw-JigbnGhRYSODjkEPQEOPerZdISSws7LgZVA",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJE2bkCpJBzB0RLGvBJza7Vtw",
+        "plus_code": {
+            "compound_code": "WFH4+53 Kirstenhof, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FQWWFH4+53"
+        },
+        "rating": 3.6,
+        "reference": "ChIJE2bkCpJBzB0RLGvBJza7Vtw",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 45,
+            "Nyanga": 51,
+            "Int. Airport Cape Town": 24,
+            "Bellville South": 40,
+            "Philippi": 52,
+            "Maitland": 22,
+            "Parow": 37,
+            "Lansdowne": 50,
+            "Rondebosch": 22,
+            "Kuilsriver": 27,
+            "Wynberg": 58,
+            "Sea Point": 1,
+            "Bishop Lavis": 42,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 40,
+            "Mowbray": 24,
+            "Ravensmead": 38,
+            "Goodwood": 34,
+            "Elsies River": 34,
+            "Port Of Entry": 1,
+            "Kensington": 27,
+            "Athlone": 32,
+            "Woodstock": 1,
+            "Pinelands": 26,
+            "Belhar": 37,
+            "Manenberg": 38,
+            "Claremont": 30,
+            "Guguletu": 43,
+            "Durbanville": 3,
+            "Brackenfell": 26,
+            "Langa": 31,
+            "Mitchells Plain": 43,
+            "Khayelitsha": 31,
+            "Mfuleni": 34,
+            "Lingelethu West": 37,
+            "Diepriver": 65,
+            "Kleinvlei": 27,
+            "Harare": 34,
+            "Grassy Park": 66,
+            "Steenberg": 72,
+            "Kirstenhof": 0,
+            "Milnerton": 19,
+            "Parklands": 18,
+            "Kraaifontein": 30,
+            "Philippi East Satellite": 47,
+            "Strandfontein": 56,
+            "Lentegeur": 45
+        }
+    },
+    "Milnerton": {
+        "formatted_address": "118 Koeberg Rd, Milnerton, Cape Town, 7441, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8755195,
+                "lng": 18.5019014
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.87417952010728,
+                    "lng": 18.50314617989272
+                },
+                "southwest": {
+                    "lat": -33.87687917989272,
+                    "lng": 18.50044652010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "673d98d82cd7c8852dd10c3c1ba71c9d498e5b4f",
+        "name": "Milnerton Police Station",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117039101544032047797/photos\">Deborah Mulholland</a>"
+                ],
+                "photo_reference": "CmRaAAAAkiZ8sFIzIJu35SWIXkGf-KNf0el-p6f6-YtrVHDFfgtu8Yr34NqkbfpAna1FQr0pk1iAke0n51UZHuz5ZZfh8dQs2X9Jn_VNX-AVg51wv8dsMooRal-AOxq9wcbm3DBnEhBd94ZkbPFC9nRgawESUfiTGhSEytk0WzgykEQRLdSC5nBWFuRszg",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJBagQ0KNezB0RKmd0aczXPFg",
+        "plus_code": {
+            "compound_code": "4GF2+QQ Milnerton, Cape Town, South Africa",
+            "global_code": "4FRW4GF2+QQ"
+        },
+        "rating": 3.1,
+        "reference": "ChIJBagQ0KNezB0RKmd0aczXPFg",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 50,
+            "Nyanga": 49,
+            "Int. Airport Cape Town": 60,
+            "Bellville South": 47,
+            "Philippi": 46,
+            "Maitland": 62,
+            "Parow": 57,
+            "Lansdowne": 53,
+            "Rondebosch": 60,
+            "Kuilsriver": 26,
+            "Wynberg": 46,
+            "Sea Point": 60,
+            "Bishop Lavis": 57,
+            "Cape Town Central": 59,
+            "Table Bay Harbour": 61,
+            "Delft": 31,
+            "Mowbray": 61,
+            "Ravensmead": 56,
+            "Goodwood": 63,
+            "Elsies River": 61,
+            "Port Of Entry": 62,
+            "Kensington": 66,
+            "Athlone": 56,
+            "Woodstock": 61,
+            "Pinelands": 63,
+            "Belhar": 39,
+            "Manenberg": 47,
+            "Claremont": 55,
+            "Guguletu": 46,
+            "Durbanville": 1,
+            "Brackenfell": 1,
+            "Langa": 55,
+            "Mitchells Plain": 27,
+            "Khayelitsha": 22,
+            "Mfuleni": 22,
+            "Lingelethu West": 22,
+            "Diepriver": 25,
+            "Kleinvlei": 18,
+            "Harare": 18,
+            "Grassy Park": 28,
+            "Steenberg": 23,
+            "Kirstenhof": 19,
+            "Milnerton": 0,
+            "Parklands": 60,
+            "Kraaifontein": 1,
+            "Philippi East Satellite": 36,
+            "Strandfontein": 32,
+            "Lentegeur": 32
+        }
+    },
+    "Parklands": {
+        "formatted_address": "Viveka House, 2002 Parklands Main Rd, Parkland, Cape Town, 7441, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8152792,
+                "lng": 18.5033892
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.81380417010728,
+                    "lng": 18.50466337989272
+                },
+                "southwest": {
+                    "lat": -33.81650382989272,
+                    "lng": 18.50196372010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "23d8e760a204b767b977d5053c1af7f6a8b5800f",
+        "name": "Parklands Police Station",
+        "permanently_closed": true,
+        "place_id": "ChIJGziUwUBfzB0R1dIvAG994d8",
+        "plus_code": {
+            "compound_code": "5GM3+V9 Bloubergstrand, Cape Town, South Africa",
+            "global_code": "4FRW5GM3+V9"
+        },
+        "rating": 3.6,
+        "reference": "ChIJGziUwUBfzB0R1dIvAG994d8",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 8,
+            "Nyanga": 36,
+            "Int. Airport Cape Town": 47,
+            "Bellville South": 1,
+            "Philippi": 35,
+            "Maitland": 54,
+            "Parow": 35,
+            "Lansdowne": 40,
+            "Rondebosch": 53,
+            "Kuilsriver": 1,
+            "Wynberg": 42,
+            "Sea Point": 56,
+            "Bishop Lavis": 44,
+            "Cape Town Central": 57,
+            "Table Bay Harbour": 58,
+            "Delft": 24,
+            "Mowbray": 55,
+            "Ravensmead": 35,
+            "Goodwood": 55,
+            "Elsies River": 47,
+            "Port Of Entry": 56,
+            "Kensington": 55,
+            "Athlone": 36,
+            "Woodstock": 56,
+            "Pinelands": 50,
+            "Belhar": 23,
+            "Manenberg": 35,
+            "Claremont": 49,
+            "Guguletu": 35,
+            "Durbanville": 1,
+            "Brackenfell": 1,
+            "Langa": 41,
+            "Mitchells Plain": 22,
+            "Khayelitsha": 18,
+            "Mfuleni": 18,
+            "Lingelethu West": 18,
+            "Diepriver": 21,
+            "Kleinvlei": 12,
+            "Harare": 16,
+            "Grassy Park": 24,
+            "Steenberg": 22,
+            "Kirstenhof": 18,
+            "Milnerton": 60,
+            "Parklands": 0,
+            "Kraaifontein": 1,
+            "Philippi East Satellite": 28,
+            "Strandfontein": 26,
+            "Lentegeur": 25
+        }
+    },
+    "Kraaifontein": {
+        "formatted_address": "20 Botfontein Rd, Kraaifontein, Cape Town, 7569, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8567655,
+                "lng": 18.7270844
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.85550472010728,
+                    "lng": 18.72800552989272
+                },
+                "southwest": {
+                    "lat": -33.85820437989273,
+                    "lng": 18.72530587010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "767df945bb07d1db3764c2ed8d5562021fc037c9",
+        "name": "Kraaifontein Police Station - South African Police Service",
+        "place_id": "ChIJ620FM_BTzB0R6V2H0Z5LSZM",
+        "plus_code": {
+            "compound_code": "4PVG+7R Kraaifontein, Cape Town, South Africa",
+            "global_code": "4FRW4PVG+7R"
+        },
+        "rating": 2.7,
+        "reference": "ChIJ620FM_BTzB0R6V2H0Z5LSZM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 34,
+            "Nyanga": 39,
+            "Int. Airport Cape Town": 28,
+            "Bellville South": 55,
+            "Philippi": 31,
+            "Maitland": 21,
+            "Parow": 26,
+            "Lansdowne": 38,
+            "Rondebosch": 31,
+            "Kuilsriver": 23,
+            "Wynberg": 41,
+            "Sea Point": 1,
+            "Bishop Lavis": 38,
+            "Cape Town Central": 14,
+            "Table Bay Harbour": 1,
+            "Delft": 27,
+            "Mowbray": 29,
+            "Ravensmead": 32,
+            "Goodwood": 24,
+            "Elsies River": 29,
+            "Port Of Entry": 9,
+            "Kensington": 12,
+            "Athlone": 30,
+            "Woodstock": 18,
+            "Pinelands": 23,
+            "Belhar": 34,
+            "Manenberg": 30,
+            "Claremont": 34,
+            "Guguletu": 33,
+            "Durbanville": 62,
+            "Brackenfell": 64,
+            "Langa": 27,
+            "Mitchells Plain": 20,
+            "Khayelitsha": 20,
+            "Mfuleni": 17,
+            "Lingelethu West": 23,
+            "Diepriver": 36,
+            "Kleinvlei": 10,
+            "Harare": 21,
+            "Grassy Park": 33,
+            "Steenberg": 32,
+            "Kirstenhof": 30,
+            "Milnerton": 1,
+            "Parklands": 1,
+            "Kraaifontein": 0,
+            "Philippi East Satellite": 29,
+            "Strandfontein": 19,
+            "Lentegeur": 22
+        }
+    },
+    "Philippi East Satellite": {
+        "formatted_address": "1 Ngqwangi Dr, Philippi East, Cape Town, 7750, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.010501,
+                "lng": 18.6069211
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.00923872010728,
+                    "lng": 18.60828227989272
+                },
+                "southwest": {
+                    "lat": -34.01193837989272,
+                    "lng": 18.60558262010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "75a95d48070da174e584b21e54810528e73d6626",
+        "name": "Philippi East Satellite Police Station - South African Police Service",
+        "photos": [
+            {
+                "height": 3456,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114038765530586193499/photos\">Jenni Evans</a>"
+                ],
+                "photo_reference": "CmRaAAAAtq1VvHb3zn1fl9uvWy50WyvjsieXGZRTTdUFSXEWTSh1Y785m-id5pszx34QboOK22AAKGcGII6oLkrHl5BzMAL4uGiV5H_2dSTXnDpHENb4PDmsgIWh3sXCQNXoMqokEhB2zR9P4gVIRxwYQWj8jsksGhQmCkUvwDLtdJbv-OV4ZnoUiM-pUg",
+                "width": 4608
+            }
+        ],
+        "place_id": "ChIJGVbpDY5FzB0R1OMier2KLdE",
+        "plus_code": {
+            "compound_code": "XJQ4+QQ Philippi, Cape Town, South Africa",
+            "global_code": "4FQWXJQ4+QQ"
+        },
+        "rating": 3.8,
+        "reference": "ChIJGVbpDY5FzB0R1OMier2KLdE",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 54,
+            "Nyanga": 69,
+            "Int. Airport Cape Town": 52,
+            "Bellville South": 54,
+            "Philippi": 62,
+            "Maitland": 50,
+            "Parow": 46,
+            "Lansdowne": 58,
+            "Rondebosch": 55,
+            "Kuilsriver": 50,
+            "Wynberg": 57,
+            "Sea Point": 10,
+            "Bishop Lavis": 57,
+            "Cape Town Central": 8,
+            "Table Bay Harbour": 42,
+            "Delft": 66,
+            "Mowbray": 54,
+            "Ravensmead": 44,
+            "Goodwood": 43,
+            "Elsies River": 44,
+            "Port Of Entry": 39,
+            "Kensington": 45,
+            "Athlone": 53,
+            "Woodstock": 40,
+            "Pinelands": 49,
+            "Belhar": 57,
+            "Manenberg": 58,
+            "Claremont": 57,
+            "Guguletu": 60,
+            "Durbanville": 18,
+            "Brackenfell": 42,
+            "Langa": 49,
+            "Mitchells Plain": 66,
+            "Khayelitsha": 65,
+            "Mfuleni": 63,
+            "Lingelethu West": 62,
+            "Diepriver": 55,
+            "Kleinvlei": 42,
+            "Harare": 53,
+            "Grassy Park": 50,
+            "Steenberg": 48,
+            "Kirstenhof": 47,
+            "Milnerton": 36,
+            "Parklands": 28,
+            "Kraaifontein": 29,
+            "Philippi East Satellite": 0,
+            "Strandfontein": 58,
+            "Lentegeur": 65
+        }
+    },
+    "Strandfontein": {
+        "formatted_address": "Cnr Witsands &, Spine Rd, Strandfontein, 7788, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0719583,
+                "lng": 18.5769153
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.07041452010727,
+                    "lng": 18.57816317989272
+                },
+                "southwest": {
+                    "lat": -34.07311417989272,
+                    "lng": 18.57546352010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "ee7b08735d98412717742f845bd15623ad4d6afe",
+        "name": "Saps Strandfontein",
+        "place_id": "ChIJJdJatVtGzB0RfkLSxSN4mog",
+        "plus_code": {
+            "compound_code": "WHHG+6Q Mitchells Plain, Cape Town, South Africa",
+            "global_code": "4FQWWHHG+6Q"
+        },
+        "rating": 2.3,
+        "reference": "ChIJJdJatVtGzB0RfkLSxSN4mog",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 43,
+            "Nyanga": 53,
+            "Int. Airport Cape Town": 40,
+            "Bellville South": 42,
+            "Philippi": 53,
+            "Maitland": 36,
+            "Parow": 39,
+            "Lansdowne": 50,
+            "Rondebosch": 50,
+            "Kuilsriver": 38,
+            "Wynberg": 54,
+            "Sea Point": 1,
+            "Bishop Lavis": 45,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 1,
+            "Delft": 49,
+            "Mowbray": 47,
+            "Ravensmead": 37,
+            "Goodwood": 39,
+            "Elsies River": 40,
+            "Port Of Entry": 7,
+            "Kensington": 39,
+            "Athlone": 42,
+            "Woodstock": 6,
+            "Pinelands": 39,
+            "Belhar": 46,
+            "Manenberg": 46,
+            "Claremont": 53,
+            "Guguletu": 47,
+            "Durbanville": 12,
+            "Brackenfell": 35,
+            "Langa": 41,
+            "Mitchells Plain": 62,
+            "Khayelitsha": 48,
+            "Mfuleni": 44,
+            "Lingelethu West": 58,
+            "Diepriver": 53,
+            "Kleinvlei": 38,
+            "Harare": 45,
+            "Grassy Park": 55,
+            "Steenberg": 56,
+            "Kirstenhof": 56,
+            "Milnerton": 32,
+            "Parklands": 26,
+            "Kraaifontein": 19,
+            "Philippi East Satellite": 58,
+            "Strandfontein": 0,
+            "Lentegeur": 59
+        }
+    },
+    "Lentegeur": {
+        "formatted_address": "64 Melkbos Rd, Lentegeur, Cape Town, 7785, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.036465,
+                "lng": 18.610142
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.03485517010727,
+                    "lng": 18.61145402989273
+                },
+                "southwest": {
+                    "lat": -34.03755482989272,
+                    "lng": 18.60875437010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "9eeba517b6ae4bdf32ed4b5f3ee570c37222bcbc",
+        "name": "Lentegeur SAPS",
+        "place_id": "ChIJawzx7P1FzB0RwXV0CgTV3Nk",
+        "plus_code": {
+            "compound_code": "XJ76+C3 Mitchells Plain, Cape Town, South Africa",
+            "global_code": "4FQWXJ76+C3"
+        },
+        "rating": 3.1,
+        "reference": "ChIJawzx7P1FzB0RwXV0CgTV3Nk",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ],
+        "links": {
+            "Bellville": 47,
+            "Nyanga": 63,
+            "Int. Airport Cape Town": 46,
+            "Bellville South": 49,
+            "Philippi": 58,
+            "Maitland": 42,
+            "Parow": 39,
+            "Lansdowne": 54,
+            "Rondebosch": 52,
+            "Kuilsriver": 48,
+            "Wynberg": 56,
+            "Sea Point": 1,
+            "Bishop Lavis": 47,
+            "Cape Town Central": 1,
+            "Table Bay Harbour": 27,
+            "Delft": 59,
+            "Mowbray": 51,
+            "Ravensmead": 37,
+            "Goodwood": 39,
+            "Elsies River": 40,
+            "Port Of Entry": 26,
+            "Kensington": 42,
+            "Athlone": 47,
+            "Woodstock": 27,
+            "Pinelands": 45,
+            "Belhar": 54,
+            "Manenberg": 51,
+            "Claremont": 52,
+            "Guguletu": 54,
+            "Durbanville": 18,
+            "Brackenfell": 41,
+            "Langa": 46,
+            "Mitchells Plain": 65,
+            "Khayelitsha": 62,
+            "Mfuleni": 60,
+            "Lingelethu West": 65,
+            "Diepriver": 51,
+            "Kleinvlei": 43,
+            "Harare": 60,
+            "Grassy Park": 51,
+            "Steenberg": 46,
+            "Kirstenhof": 45,
+            "Milnerton": 32,
+            "Parklands": 25,
+            "Kraaifontein": 22,
+            "Philippi East Satellite": 65,
+            "Strandfontein": 59,
+            "Lentegeur": 0
+        }
+    }
+}

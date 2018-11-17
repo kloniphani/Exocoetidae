@@ -1,0 +1,31 @@
+  1 Table View Police Station                                                -33.826406    18.489067 	Table View, Cape Town, 7439, South Africa
+  2 Saps Bothasig                                                            -33.855110    18.543473 	44 Steenoven St, Bothasig, Cape Town, 7441, South Africa
+  3 Milnerton Police Station                                                 -33.875520    18.501901 	118 Koeberg Rd, Milnerton, Cape Town, 7441, South Africa
+  4 Bothasig Detectives                                                      -33.866675    18.534680 	Botma St, Bothasig, Cape Town, 7441, South Africa
+  5 Melkbosstrand Police Station                                             -33.727472    18.448588 	14 Heron Ave, Melkbosstrand, Cape Town, 7437, South Africa
+  6 Saps Goodwood                                                            -33.908863    18.561887 	13 Wiener St, Goodwood, Cape Town, 7460, South Africa
+  7 Saps Woodstock                                                           -33.929020    18.448216 	152 Victoria Rd, Woodstock, Cape Town, 7915, South Africa
+  8 Police Station Parow                                                     -33.904680    18.595480 	Arnold Wilhelm St, Parow East, Cape Town, 7499, South Africa
+  9 Maitland Police Station                                                  -33.923578    18.483298 	236 Voortrekker Rd, Maitland, Cape Town, 7405, South Africa
+ 10 Table Bay Harbour Police Station                                         -33.909872    18.424509 	Duncan Rd, Table Bay Harbour, Cape Town, 8001, South Africa
+ 11 Pinelands Saps                                                           -33.925903    18.501259 	Jan Smuts Dr, Pinelands, Cape Town, 7430, South Africa
+ 12 Mowbray Police Station                                                   -33.950154    18.472104 	32 Main Road, Mowbray, Cape Town, 7700, South Africa
+ 13 Saps Sea Point                                                           -33.905714    18.399299 	Bay Rd & Bill Peters Drive, Sea Point, Cape Town, 8060, South Africa
+ 14 SAPS Provincial Detective Service                                        -33.926781    18.421937 	Old Labour Building, 29 Corporation Street, Cape Town, 8000, South Africa
+ 15 Saps Cape Town Central                                                   -33.927762    18.423303 	28 Buitenkant St, Cape Town City Centre, Cape Town, 8000, South Africa
+ 16 Saps Bishop Lavis                                                        -33.946174    18.572833 	42 Tafelberg Rd, Bishop Lavis, Cape Town, 7490, South Africa
+ 17 Cowry House                                                              -33.904123    18.430290 	1929 S Arm Rd, V & A Waterfront, Cape Town, 8001, South Africa
+ 18 Saps Camps Bay                                                           -33.955831    18.376778 	Camps Bay Dr, Bakoven, Cape Town, 8005, South Africa
+ 19 SLEUTH INVESTIGATIVE SERVICES                                            -33.893582    18.505890 	Century Way The Colosseum First Floor, Century City, Cape Town, 7446, South Africa
+ 20 Athlone Police Station                                                   -33.961399    18.507265 	Klipfontein Rd, Athlone, Cape Town, 7764, South Africa
+ 21 Post Office - Tableview                                                  -33.815347    18.499075 	Village on Main, Parklands Main Rd, Parklands, Cape Town, 7441, South Africa
+ 22 Rondebosch Police Station                                                -33.962696    18.468550 	Church St, Rondebosch, Cape Town, 7700, South Africa
+ 23 Saps Mowbray                                                             -33.950188    18.472175 	32 Main Rd, Mowbray, Cape Town, 7700, South Africa
+ 24 Law Enforcement                                                          -33.908260    18.583794 	Parow, Cape Town, 7500, South Africa
+ 25 Bonteheuwel Police Station                                               -33.946471    18.551053 	137 Jakkalsvlei Ave, Bonteheuwel, Cape Town, 7764, South Africa
+ 26 Police and Prisons Civil Rights Union                                    -33.962766    18.506235 	5 Grasmere St, Athlone, 7764, South Africa
+ 27 Police Station                                                           -33.944931    18.610883 	Belhar 1, Cape Town, 7493, South Africa
+ 28 Bellville Police Station - South African Police Service                  -33.901562    18.622127 	8 Voortrekker Rd, Bellville, Cape Town, 7535, South Africa
+ 29 WESTERN CAPE REPO CENTRE                                                 -33.894060    18.566170 	196 Botha St, Richmond Estate, Cape Town, 7460, South Africa
+ 30 Goodwood Sheriff                                                         -33.912016    18.573341 	Unit 21A, Coleman Business Park, Coleman St, Elsies River Industrial, Cape Town, 7480, South Africa
+ 31 Parklands Police Station                                                 -33.815279    18.503389 	Viveka House, 2002 Parklands Main Rd, Parkland, Cape Town, 7441, South Africa

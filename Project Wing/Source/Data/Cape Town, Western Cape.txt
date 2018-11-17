@@ -1,0 +1,120 @@
+  1 Saps Woodstock                                                           -33.929020    18.448216 	152 Victoria Rd, Woodstock, Cape Town, 7915, South Africa
+  2 Saps Strand                                                              -34.116080    18.832679 	6 Altena Rd, Strand, Cape Town, 7139, South Africa
+  3 Saps Camps Bay                                                           -33.955831    18.376778 	Camps Bay Dr, Bakoven, Cape Town, 8005, South Africa
+  4 South African Police Service Somerset West                               -34.076735    18.845032 	68 Main Rd, Somerset West, Cape Town, 7129, South Africa
+  5 Pinelands Saps                                                           -33.925903    18.501259 	Jan Smuts Dr, Pinelands, Cape Town, 7430, South Africa
+  6 Saps Goodwood                                                            -33.908863    18.561887 	13 Wiener St, Goodwood, Cape Town, 7460, South Africa
+  7 Saps Grassy Park                                                         -34.048829    18.495308 	Reddy Ave, Grassy Park, Cape Town, 7941, South Africa
+  8 Kirstenhof Police Station                                                -34.072077    18.455172 	13 Pollsmoor Rd, Kirstenhof, Cape Town, 7945, South Africa
+  9 Saps Khayelitsha                                                         -34.024620    18.665515 	4 Bonga Dr, Khayelitsha, Cape Town, 7784, South Africa
+ 10 Saps Bothasig                                                            -33.855110    18.543473 	44 Steenoven St, Bothasig, Cape Town, 7441, South Africa
+ 11 Saps Lansdowne                                                           -33.990356    18.505115 	5 Flamingo Cres, Lansdowne, Cape Town, 7780, South Africa
+ 12 Saps Bishop Lavis                                                        -33.946174    18.572833 	42 Tafelberg Rd, Bishop Lavis, Cape Town, 7490, South Africa
+ 13 Saps Steenberg                                                           -34.065385    18.476555 	Cradock Rd, Steenberg, Cape Town, 7947, South Africa
+ 14 Saps Gordons Bay                                                         -34.159125    18.869137 	2 Van Der Byl St, Gordons Bay Central, Cape Town, 7140, South Africa
+ 15 Saps Strandfontein                                                       -34.071958    18.576915 	Cnr Witsands &, Spine Rd, Strandfontein, 7788, South Africa
+ 16 Saps Simon's Town                                                        -34.193382    18.436621 	St George Street, Simon's Town, Cape Town, 7995, South Africa
+ 17 SAPS Provincial Detective Service                                        -33.926781    18.421937 	Old Labour Building, 29 Corporation Street, Cape Town, 8000, South Africa
+ 18 Saps Kleinvlei                                                           -33.988189    18.718781 	Albert Philander Rd, Kleinvlei, Cape Town, 7001, South Africa
+ 19 Claremont Police Station - South African Police Service                  -33.984263    18.472956 	76 Imam Haron Rd, Claremont, Cape Town, 7708, South Africa
+ 20 Wynberg Police Station - South African Police Service                    -34.004107    18.464883 	Opp Maynardville, Church St, Wynberg, Cape Town, 7800, South Africa
+ 21 Mowbray Police Station                                                   -33.950154    18.472104 	32 Main Road, Mowbray, Cape Town, 7700, South Africa
+ 22 Bellville Police Station - South African Police Service                  -33.901562    18.622127 	8 Voortrekker Rd, Bellville, Cape Town, 7535, South Africa
+ 23 Melkbosstrand Police Station                                             -33.727472    18.448588 	14 Heron Ave, Melkbosstrand, Cape Town, 7437, South Africa
+ 24 Saps Sea Point                                                           -33.905714    18.399299 	Bay Rd & Bill Peters Drive, Sea Point, Cape Town, 8060, South Africa
+ 25 Saps Cape Town Central                                                   -33.927762    18.423303 	28 Buitenkant St, Cape Town City Centre, Cape Town, 8000, South Africa
+ 26 Lentegeur SAPS                                                           -34.036465    18.610142 	64 Melkbos Rd, Lentegeur, Cape Town, 7785, South Africa
+ 27 Saps Mitchells Plain                                                     -34.047538    18.622654 	First Ave, Mitchells Plain, Cape Town, 7789, South Africa
+ 28 Saps Fish Hoek                                                           -34.133237    18.435216 	Main Rd, Fish Hoek, Cape Town, 7974, South Africa
+ 29 Philippi East Satellite Police Station - South African Police Service    -34.010501    18.606921 	1 Ngqwangi Dr, Philippi East, Cape Town, 7750, South Africa
+ 30 Diep River Police Station                                                -34.031616    18.465378 	104 Main Rd, Diep River, Cape Town, 7800, South Africa
+ 31 Durbanville Police Station                                               -33.833675    18.649096 	2 Church St, Durbanville, Cape Town, 7550, South Africa
+ 32 Saps Philippi                                                            -34.001395    18.540096 	C/O Lower Ottery Road &, Old Lansdowne Rd, Philippi, 7750, South Africa
+ 33 Bellville South Police Station                                           -33.915095    18.646405 	Kasselsvlei Rd, Bellville South, Cape Town, 7530, South Africa
+ 34 Saps Lingelethu-West                                                     -34.042769    18.660190 	Makabeni Road Lingelethu West Khayelitsha 7784, 7784, South Africa
+ 35 Saps Kensington                                                          -33.909426    18.510727 	26 Factreton Ave, Kensington, Cape Town, 7405, South Africa
+ 36 Saps Harare                                                              -34.051680    18.669240 	Steve Biko Rd, Harare, Cape Town, 7784, South Africa
+ 37 Saps Elsies River                                                        -33.924693    18.564466 	Viking Way, Elsies Rivier, Cape Town, 7480, South Africa
+ 38 Police Station Parow                                                     -33.904680    18.595480 	Arnold Wilhelm St, Parow East, Cape Town, 7499, South Africa
+ 39 Saps Ravensmead                                                          -33.922353    18.597505 	153 Christians St, Ravensmead, Cape Town, 7493, South Africa
+ 40 Milnerton Police Station                                                 -33.875520    18.501901 	118 Koeberg Rd, Milnerton, Cape Town, 7441, South Africa
+ 41 SAPS Academy Philippi                                                    -34.016898    18.591920 	New Eisleben Rd, Philippi, Cape Town, 7785, South Africa
+ 42 SAPS Sports & Recreation Club Pinelands                                  -33.925247    18.506104 	18 Jan Smuts Dr, Pinelands, Western Cape, 7405, South Africa
+ 43 Saps Langa                                                               -33.944197    18.526480 	Washington St, Langa, Cape Town, 7456, South Africa
+ 44 Saps Int Airport C Town                                                  -33.970240    18.596530 	Cape Town International Airport, Cape Town, 7490, South Africa
+ 45 Saps Guguletu                                                            -33.975327    18.563451 	NY1, Guguletu, Cape Town, 7750, South Africa
+ 46 Table Bay Harbour Police Station                                         -33.909872    18.424509 	Duncan Rd, Table Bay Harbour, Cape Town, 8001, South Africa
+ 47 Hout Bay Police Station                                                  -34.030320    18.356932 	C/O Main And, N R Mandela Rd, Hout Bay, Cape Town, 7872, South Africa
+ 48 Police Station Atlantis                                                  -33.564897    18.493384 	Next to Magistrate Court, Wesfleur Cir, Atlantis, Cape Town, 7349, South Africa
+ 49 Muizenberg Police Station                                                -34.108722    18.466738 	07 School Rd, Muizenberg, Cape Town, 7975, South Africa
+ 50 Kuilsriver Police Station                                                -33.932212    18.682769 	102 Van Riebeeck Rd, Kuils River, Cape Town, 7580, South Africa
+ 51 Delft Police Station                                                     -33.974850    18.641996 	Voorbrug Rd & Delft Main Rd, Delft, Cape Town, 7100, South Africa
+ 52 Saps Belhar                                                              -33.947114    18.648673 	53 Platteklip Cres, Belhar 20, Cape Town, 7493, South Africa
+ 53 Saps Parow                                                               -33.904619    18.595412 	Arnold Wilhelm Street, Parow, Cape Town, 7500, South Africa
+ 54 Police Station Philadelphia                                              -33.665652    18.582170 	Main Road, Philadelphia, 7304, South Africa
+ 55 Kraaifontein Police Station - South African Police Service               -33.856766    18.727084 	20 Botfontein Rd, Kraaifontein, Cape Town, 7569, South Africa
+ 56 Saps Mowbray                                                             -33.950188    18.472175 	32 Main Rd, Mowbray, Cape Town, 7700, South Africa
+ 57 Ocean View Police Station                                                -34.144305    18.346419 	79 Slangkop Rd, Ocean View, Cape Town, 7975, South Africa
+ 58 Saps Rondebosch                                                          -33.962691    18.468550 	Church St, Rondebosch, Cape Town, 7700, South Africa
+ 59 Saps Atlantis                                                            -33.564880    18.493500 	Wesfleur Cir, Avondale, Cape Town, 7349, South Africa
+ 60 Saps Mfuleni                                                             -33.981000    18.687463 	1 Eersteriver Road Bluedowns, 7100, South Africa
+  1 Saps Cape Town Central                                                   -33.927762    18.423303 	28 Buitenkant St, Cape Town City Centre, Cape Town, 8000, South Africa
+  2 Bellville Police Station - South African Police Service                  -33.901562    18.622127 	8 Voortrekker Rd, Bellville, Cape Town, 7535, South Africa
+  3 Saps Woodstock                                                           -33.929020    18.448216 	152 Victoria Rd, Woodstock, Cape Town, 7915, South Africa
+  4 Saps Camps Bay                                                           -33.955831    18.376778 	Camps Bay Dr, Bakoven, Cape Town, 8005, South Africa
+  5 Muizenberg Police Station                                                -34.108722    18.466738 	07 School Rd, Muizenberg, Cape Town, 7975, South Africa
+  6 Police Station Parow                                                     -33.904680    18.595480 	Arnold Wilhelm St, Parow East, Cape Town, 7499, South Africa
+  7 Hout Bay Police Station                                                  -34.030320    18.356932 	C/O Main And, N R Mandela Rd, Hout Bay, Cape Town, 7872, South Africa
+  8 Diep River Police Station                                                -34.031616    18.465378 	104 Main Rd, Diep River, Cape Town, 7800, South Africa
+  9 Saps Strand                                                              -34.116080    18.832679 	6 Altena Rd, Strand, Cape Town, 7139, South Africa
+ 10 Wynberg Police Station - South African Police Service                    -34.004107    18.464883 	Opp Maynardville, Church St, Wynberg, Cape Town, 7800, South Africa
+ 11 South African Police Service Somerset West                               -34.076735    18.845032 	68 Main Rd, Somerset West, Cape Town, 7129, South Africa
+ 12 Mowbray Police Station                                                   -33.950154    18.472104 	32 Main Road, Mowbray, Cape Town, 7700, South Africa
+ 13 Claremont Police Station - South African Police Service                  -33.984263    18.472956 	76 Imam Haron Rd, Claremont, Cape Town, 7708, South Africa
+ 14 Police Station Strand                                                    -34.116080    18.832530 	Strand, Western Cape, South Africa, South Africa
+ 15 Milnerton Police Station                                                 -33.875520    18.501901 	118 Koeberg Rd, Milnerton, Cape Town, 7441, South Africa
+ 16 Bellville South Police Station                                           -33.915095    18.646405 	Kasselsvlei Rd, Bellville South, Cape Town, 7530, South Africa
+ 17 Kirstenhof Police Station                                                -34.072077    18.455172 	13 Pollsmoor Rd, Kirstenhof, Cape Town, 7945, South Africa
+ 18 Saps Goodwood                                                            -33.908863    18.561887 	13 Wiener St, Goodwood, Cape Town, 7460, South Africa
+ 19 Saps Lansdowne                                                           -33.990356    18.505115 	5 Flamingo Cres, Lansdowne, Cape Town, 7780, South Africa
+ 20 Saps Kleinvlei                                                           -33.988189    18.718781 	Albert Philander Rd, Kleinvlei, Cape Town, 7001, South Africa
+ 21 Kuilsriver Police Station                                                -33.932212    18.682769 	102 Van Riebeeck Rd, Kuils River, Cape Town, 7580, South Africa
+ 22 Kraaifontein Police Station - South African Police Service               -33.856766    18.727084 	20 Botfontein Rd, Kraaifontein, Cape Town, 7569, South Africa
+ 23 Maitland Police Station                                                  -33.923578    18.483298 	236 Voortrekker Rd, Maitland, Cape Town, 7405, South Africa
+ 24 Saps Bishop Lavis                                                        -33.946174    18.572833 	42 Tafelberg Rd, Bishop Lavis, Cape Town, 7490, South Africa
+ 25 Police Station Philadelphia                                              -33.665652    18.582170 	Main Road, Philadelphia, 7304, South Africa
+ 26 Police Station Atlantis                                                  -33.564897    18.493384 	Next to Magistrate Court, Wesfleur Cir, Atlantis, Cape Town, 7349, South Africa
+ 27 Saps Grassy Park                                                         -34.048829    18.495308 	Reddy Ave, Grassy Park, Cape Town, 7941, South Africa
+ 28 Table Bay Harbour Police Station                                         -33.909872    18.424509 	Duncan Rd, Table Bay Harbour, Cape Town, 8001, South Africa
+ 29 Delft Police Station                                                     -33.974850    18.641996 	Voorbrug Rd & Delft Main Rd, Delft, Cape Town, 7100, South Africa
+ 30 Durbanville Police Station                                               -33.833675    18.649096 	2 Church St, Durbanville, Cape Town, 7550, South Africa
+ 31 Saps Strandfontein                                                       -34.071958    18.576915 	Cnr Witsands &, Spine Rd, Strandfontein, 7788, South Africa
+ 32 Rondebosch Police Station                                                -33.962696    18.468550 	Church St, Rondebosch, Cape Town, 7700, South Africa
+ 33 Saps Khayelitsha                                                         -34.024620    18.665515 	4 Bonga Dr, Khayelitsha, Cape Town, 7784, South Africa
+ 34 Fish Hoek Police Station                                                 -34.132877    18.434868 	Banks Rd, Fish Hoek, Cape Town, 7975, South Africa
+ 35 Saps Bothasig                                                            -33.855110    18.543473 	44 Steenoven St, Bothasig, Cape Town, 7441, South Africa
+ 36 Pinelands Saps                                                           -33.925903    18.501259 	Jan Smuts Dr, Pinelands, Cape Town, 7430, South Africa
+ 37 Macassar Police Station                                                  -34.061007    18.762563 	1 Hospital St, Macassar, Cape Town, 7130, South Africa
+ 38 Saps Steenberg                                                           -34.065385    18.476555 	Cradock Rd, Steenberg, Cape Town, 7947, South Africa
+ 39 Philippi East Satellite Police Station - South African Police Service    -34.010501    18.606921 	1 Ngqwangi Dr, Philippi East, Cape Town, 7750, South Africa
+ 40 Saps Simon's Town                                                        -34.193382    18.436621 	St George Street, Simon's Town, Cape Town, 7995, South Africa
+ 41 Ocean View Police Station                                                -34.144305    18.346419 	79 Slangkop Rd, Ocean View, Cape Town, 7975, South Africa
+ 42 Saps Gordons Bay                                                         -34.159125    18.869137 	2 Van Der Byl St, Gordons Bay Central, Cape Town, 7140, South Africa
+ 43 Melkbosstrand Police Station                                             -33.727472    18.448588 	14 Heron Ave, Melkbosstrand, Cape Town, 7437, South Africa
+ 44 SAPS Provincial Detective Service                                        -33.926781    18.421937 	Old Labour Building, 29 Corporation Street, Cape Town, 8000, South Africa
+ 45 Nyanga Police Station                                                    -33.989152    18.583357 	N311 Ntlangano Cres, Nyanga, Cape Town, 7755, South Africa
+ 46 Saps Sea Point                                                           -33.905714    18.399299 	Bay Rd & Bill Peters Drive, Sea Point, Cape Town, 8060, South Africa
+ 47 Mitchells Plain Police Station                                           -34.047763    18.623374 	First Ave, Mitchells Plain, Cape Town, 7785, South Africa
+ 48 Table View Police Station                                                -33.826406    18.489067 	Table View, Cape Town, 7439, South Africa
+ 49 Athlone Police Station                                                   -33.961399    18.507265 	Klipfontein Rd, Athlone, Cape Town, 7764, South Africa
+ 50 Brackenfell Police Station Brackenfell                                   -33.871811    18.681591 	Brackenfell Blvd, Brackenfell, Cape Town, 7561, South Africa
+ 51 Manenberg Police Station                                                 -33.971699    18.555738 	Klipfontein Rd, Manenberg, Cape Town, 7767, South Africa
+ 52 Saps Fish Hoek                                                           -34.133237    18.435216 	Main Rd, Fish Hoek, Cape Town, 7974, South Africa
+ 53 Saps Mitchells Plain                                                     -34.047538    18.622654 	First Ave, Mitchells Plain, Cape Town, 7789, South Africa
+ 54 Bellville South Impound Lot                                              -33.922651    18.637478 	Osborne St, Bellville South Ext 14, Cape Town, 7530, South Africa
+ 55 Lentegeur SAPS                                                           -34.036465    18.610142 	64 Melkbos Rd, Lentegeur, Cape Town, 7785, South Africa
+ 56 Claremont Police Station                                                 -33.984340    18.473635 	Imam Haron Rd, Claremont, Cape Town, 7440, South Africa
+ 57 Metro Police Philippi Station                                            -34.004236    18.599277 	Philippi, Cape Town, 7750, South Africa
+ 58 Table View Community Police Forum                                        -33.826427    18.489387 	Pentz Dr, Table View, Cape Town, 7441, South Africa
+ 59 Melton Rose Police Station                                               -33.988310    18.718809 	Kleinvlei, Cape Town, 7100, South Africa
+ 60 Saps Mowbray                                                             -33.950188    18.472175 	32 Main Rd, Mowbray, Cape Town, 7700, South Africa

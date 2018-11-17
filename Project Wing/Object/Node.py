@@ -24,7 +24,7 @@ class Node(object):
 	__nodeHeight = float(8); __headHeight = float(10); __hoopHeight = float(9); __memberHeight = float(7); __graphHeight = int(0)
 
 	#INITIALISERS
-	def __init__(self, Id, Address = None, Name = None, Provider = None, Position = None, SNR = None, RE = None, Results = False, Geocode = False):
+	def __init__(self, Id, Address = None, Name = None, Provider = None, Position = None, SNR = None, RE = None, MeshNetwork = None, Results = False, Geocode = False):
 		"""
 		"""	
 
@@ -82,6 +82,10 @@ class Node(object):
 		self.Point = (self.Position[0], self.Position[1])
 		self.GraphHeight = self.__graphHeight;
 		self.GraphColor = 'red';
+
+		#WIRELESS MESH NETWORK
+		if MeshNetwork is not False:
+			self.MESH = MeshNetwork;
 
 		#COMPUTING SNR-To-LAP
 		if SNR is not None:
@@ -204,10 +208,14 @@ class Node(object):
 	def Position(self, Point):
 		"""
 		"""
-		if len(self.Position) is not len(Ponit): return False
+		if len(self.Position) is not len(Point): return False
 		for i in range(len(Point)):
 			if self.Position[i] != Point[i]: return False
 		return True
+
+	def setPosition(self, Position, Results = False):
+		self.Position = Position;
+		self.Point = (Position[0], Position[1])
 
 	def Distance(self, Point, Type = '2D', Results = False):
 		"""

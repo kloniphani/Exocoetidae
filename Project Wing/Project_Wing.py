@@ -76,8 +76,10 @@ class Nodes(object):
 				key = str(Counter);
 				if Code != None and Code not in value['formatted_address']:
 					continue;
-
-				self.__NODES[key] = Node(Id = key, Name = value['name'], Position = [value['geometry']['location']['lng'], value['geometry']['location']['lat']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies))
+				if 'links' in value.keys():
+					self.__NODES[key] = Node(Id = key, Name = k, Position = [value['geometry']['location']['lng'], value['geometry']['location']['lat']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies), MeshNetwork = value['links'])
+				else:
+					self.__NODES[key] = Node(Id = key, Name = value['name'], Position = [value['geometry']['location']['lng'], value['geometry']['location']['lat']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies))
 				if Results is True: 
 					print("{0:4} {1:70} {2:15f} {3:15f}".format(self.__NODES[key].Id, self.__NODES[key].Name, self.__NODES[key].ResidualEnergy, self.__NODES[key].SNR))
 				Counter += 1
@@ -104,7 +106,7 @@ class Nodes(object):
 if __name__ == '__main__':
 	import time
 
-	Place = 'Dummy'
+	Place = 'SAPS'
 	Code = '';
 
 	Heads = [] #To store computed number of Cluster Heads
@@ -120,10 +122,11 @@ if __name__ == '__main__':
 	Technique = 'Greedy';	Distribution = 'Normal'
 	NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 	#NODES, NETWORK, UNASSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNASSIGNED, DATA)
-	NODES, NETWORK, UNASSIGNED, DATA, G, NetworkTree = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
+	NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
 	Display.Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.MapNetwork(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	CHs = Display.Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+	Display.Display.DrawTreeGraph(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);
 	#NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 

@@ -1,8 +1,8 @@
 """         
-Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:       October 16, 2018
+Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
+Date:        October 16, 2018
 Copyrights:  2017 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+             University of the Western Cape, Bellville, ZA
 """
 
 from numpy import * 
@@ -313,3 +313,67 @@ class Display(object):
 		print("Connected Nodes: {0:3}\tCH: {1:3}\tICH: {2:3}\tTotal Network: {3:3}\tTotal Nodes: {4:3}\tUnussigned Nodes: {5:3}\n\n".format(N, CH, ICH, len(NETWORK), len(NODES), len(UNASSIGNED)))
 
 		return CH, ICH
+
+	def DrawTreeGraph(nodes = None, network = None, Name = None, Radius = '', Show = False, Save = False):
+		"""
+		"""
+		from collections import Counter
+
+		Height = 768; Width = 1024;
+		OCCURENCES = Counter([node.GraphHeight for node in nodes.values()])
+		
+		Level = len(OCCURENCES)
+
+		TEMP = {}; row = 0; column = 0;
+		for k, value in OCCURENCES.items():			
+			column = (Width/OCCURENCES[k])/2
+			for id, node in nodes.items():
+				if k == node.GraphHeight:
+					TEMP[id] = node;
+					TEMP[id].setPosition([column, k, 10]);
+					column += Width/OCCURENCES[k]
+			row -= Height/Level;
+
+		fig = plt.figure()
+		if Name is not None: fig.canvas.set_window_title(Name)
+		figure = fig.add_subplot(111)
+
+		from itertools import cycle
+		points = []; colors = cycle('rgbmcy')
+
+
+	
+		if network is not None and nodes is not None:
+			with progressbar.ProgressBar(max_value = len(network)) as bar:
+				count = 0									
+				for id, head in list(network.items()):	
+					for leaf in head.MEMBERS:
+						#Drawing a line in 3d
+						spacing = 100
+						xs = linspace(TEMP[id].Position[0], TEMP[leaf.Id].Position[0], spacing)
+						ys = linspace(TEMP[id].Position[1], TEMP[leaf.Id].Position[1], spacing)
+
+						figure.plot(xs, ys, zorder = 1, c = 'lightgray')
+					count += 1
+					bar.update(count)
+
+					for node in TEMP.values():
+						figure.scatter(node.Position[0], node.Position[1], zorder = 1, c = 'k', marker = 'o', s = 160)
+						figure.scatter(node.Position[0], node.Position[1], zorder = 2, c = node.GraphColor, marker = 'o', s = 120)
+						figure.text(node.Position[0], node.Position[1], node.Id, color = 'teal')
+								
+
+		if Show is True:
+			plt.show(block=True)
+
+		if Save is True:
+			Display.SaveNetwork(nodes, network, Radius, Name)
+			FileName = ''
+			if Name is not None:
+				FileName += str(Name)
+			FileName += str('---' + datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
+			fig.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '.png')
+		
+		from time import sleep;
+		sleep(1);
+		plt.close()

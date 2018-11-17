@@ -1,0 +1,1251 @@
+{
+    "Table View Police Station": {
+        "formatted_address": "Table View, Cape Town, 7439, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8264058,
+                "lng": 18.489067
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.82505597010729,
+                    "lng": 18.49041682989272
+                },
+                "southwest": {
+                    "lat": -33.82775562989273,
+                    "lng": 18.48771717010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "bd69e377d2e3763aa13f85aa25d7978887ec8c3a",
+        "name": "Table View Police Station",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJny7puhFfzB0Rq81AkTW0z-A",
+        "plus_code": {
+            "compound_code": "5FFQ+CJ Bloubergstrand, Cape Town, South Africa",
+            "global_code": "4FRW5FFQ+CJ"
+        },
+        "rating": 1,
+        "reference": "ChIJny7puhFfzB0Rq81AkTW0z-A",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Bothasig": {
+        "formatted_address": "44 Steenoven St, Bothasig, Cape Town, 7441, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8551096,
+                "lng": 18.543473
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.85359317010728,
+                    "lng": 18.54492342989272
+                },
+                "southwest": {
+                    "lat": -33.85629282989272,
+                    "lng": 18.54222377010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "46c6f84166843dff481177f7059a7a35f6afb06c",
+        "name": "Saps Bothasig",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101471415175846735410/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAmdoYGis5HIHU7UnUVVmcKf4c_125WUeVmvB6XcMdgyyyXpuQO0jv8x4RLyHogG_ki5Xp74RopqsFfVRy5imI4zbI_NmrWrz6fy94pNBNODGoFvL8zE4LZEV8jNdzaLzXEhDnWbCWLVerXRDHviHMP_SQGhTXlmLn0AeaGKaPfT7y7D2zWAmcpw",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJ28A9aEBZzB0Repn0FrFact0",
+        "plus_code": {
+            "compound_code": "4GVV+X9 Milnerton, Cape Town, South Africa",
+            "global_code": "4FRW4GVV+X9"
+        },
+        "rating": 4.3,
+        "reference": "ChIJ28A9aEBZzB0Repn0FrFact0",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Milnerton Police Station": {
+        "formatted_address": "118 Koeberg Rd, Milnerton, Cape Town, 7441, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8755195,
+                "lng": 18.5019014
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.87417952010728,
+                    "lng": 18.50314617989272
+                },
+                "southwest": {
+                    "lat": -33.87687917989272,
+                    "lng": 18.50044652010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "673d98d82cd7c8852dd10c3c1ba71c9d498e5b4f",
+        "name": "Milnerton Police Station",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117039101544032047797/photos\">Deborah Mulholland</a>"
+                ],
+                "photo_reference": "CmRaAAAAELNRlXVBxq9yMi0iGLh2qLwxsFBg6xwQ1mLft-IzYtxRIRdJU-zrItFvHJlEtoeqDamxf2zZAUw4UPvkmb0nzD7La7T989Qym2k3N1hASmzBQkhnzElI7Ll_BbBeZtodEhBIQEjGZrPEIUoklCXrgCJkGhR3O9uK0YSwbYmyT4-C0HCMbHZkJA",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJBagQ0KNezB0RKmd0aczXPFg",
+        "plus_code": {
+            "compound_code": "4GF2+QQ Milnerton, Cape Town, South Africa",
+            "global_code": "4FRW4GF2+QQ"
+        },
+        "rating": 3.1,
+        "reference": "ChIJBagQ0KNezB0RKmd0aczXPFg",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Bothasig Detectives": {
+        "formatted_address": "Botma St, Bothasig, Cape Town, 7441, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.866675,
+                "lng": 18.5346799
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.86556257010728,
+                    "lng": 18.53599397989272
+                },
+                "southwest": {
+                    "lat": -33.86826222989272,
+                    "lng": 18.53329432010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "c1d8e390179053591deadaeb58369cd9b9fbedfe",
+        "name": "Bothasig Detectives",
+        "place_id": "ChIJmcY5plpZzB0RYtDypceMqss",
+        "plus_code": {
+            "compound_code": "4GMM+8V Milnerton, Cape Town, South Africa",
+            "global_code": "4FRW4GMM+8V"
+        },
+        "rating": 0,
+        "reference": "ChIJmcY5plpZzB0RYtDypceMqss",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Melkbosstrand Police Station": {
+        "formatted_address": "14 Heron Ave, Melkbosstrand, Cape Town, 7437, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.7274717,
+                "lng": 18.448588
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.72612187010728,
+                    "lng": 18.44993782989273
+                },
+                "southwest": {
+                    "lat": -33.72882152989272,
+                    "lng": 18.44723817010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "ca5359f3fe07b4398bb23bc557ad192c8cb9909a",
+        "name": "Melkbosstrand Police Station",
+        "place_id": "ChIJH0DJJqP0zB0Red1uLovLaKc",
+        "plus_code": {
+            "compound_code": "7CFX+2C Melkbosstrand, Cape Town, South Africa",
+            "global_code": "4FRW7CFX+2C"
+        },
+        "rating": 4.7,
+        "reference": "ChIJH0DJJqP0zB0Red1uLovLaKc",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Goodwood": {
+        "formatted_address": "13 Wiener St, Goodwood, Cape Town, 7460, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9088634,
+                "lng": 18.561887
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90749882010727,
+                    "lng": 18.56332152989272
+                },
+                "southwest": {
+                    "lat": -33.91019847989271,
+                    "lng": 18.56062187010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "207b83d1b54a40e1bf6328cd5e77ba93650b8c21",
+        "name": "Saps Goodwood",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJoXGFwK5bzB0RKtOLZTYKnlI",
+        "plus_code": {
+            "compound_code": "3HR6+FQ Goodwood, Cape Town, South Africa",
+            "global_code": "4FRW3HR6+FQ"
+        },
+        "rating": 3.4,
+        "reference": "ChIJoXGFwK5bzB0RKtOLZTYKnlI",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Woodstock": {
+        "formatted_address": "152 Victoria Rd, Woodstock, Cape Town, 7915, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9290204,
+                "lng": 18.4482159
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92775397010728,
+                    "lng": 18.44954017989272
+                },
+                "southwest": {
+                    "lat": -33.93045362989272,
+                    "lng": 18.44684052010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "df6f02eaa5c18c5764ee5940c5438f27769e0a4c",
+        "name": "Saps Woodstock",
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111776528025086337096/photos\">Jonathan Jayes</a>"
+                ],
+                "photo_reference": "CmRaAAAAvM0dVcbA6IZAd_guKGht_JdEENftzj4Q6ORu74zyBDug0hMd-u-zk-8JtGSLIG8fjm6uuCbthpTVqkyW2Um6WDiGqu3Vqn8QQIY9mIYawFakCtm9Fk-IdHhP_V4zZZ2ZEhBPXSPG6DOgZXb70vJLXwtfGhSiKshtOgoVt67FNaaQ-Y_YtOT21A",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJjfJwJJ9dzB0RW0zGTtPF5Jg",
+        "plus_code": {
+            "compound_code": "3CCX+97 Cape Town, South Africa",
+            "global_code": "4FRW3CCX+97"
+        },
+        "rating": 3.4,
+        "reference": "ChIJjfJwJJ9dzB0RW0zGTtPF5Jg",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Police Station Parow": {
+        "formatted_address": "Arnold Wilhelm St, Parow East, Cape Town, 7499, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9046805,
+                "lng": 18.5954802
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90323207010728,
+                    "lng": 18.59680507989272
+                },
+                "southwest": {
+                    "lat": -33.90593172989272,
+                    "lng": 18.59410542010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "bdd4730ad0b21bccbfb6bee8864a4b48b8f503f6",
+        "name": "Police Station Parow",
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105893761464458313870/photos\">Ryan-Lee Abrahams</a>"
+                ],
+                "photo_reference": "CmRaAAAAz5jnSfBMJ3JWRktvHM9u0YxyLurH7KFYnkuMM2LqJnPJb9LOxlQRgV_JeWRiRXDMnJQ3b3HzJzROOvTNd6g5A4Z5lf29z9L2is-nELplqXzyRYhS0ajAph1H7yRFCq_qEhBRHZyK4-5VSAdOKm6tlA-dGhTKJKNFTa3oo-J5_lR3vzis1rotpg",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJ8xSNK2dazB0RIroGptTRMOA",
+        "plus_code": {
+            "compound_code": "3HWW+45 Parow, Cape Town, South Africa",
+            "global_code": "4FRW3HWW+45"
+        },
+        "rating": 3,
+        "reference": "ChIJ8xSNK2dazB0RIroGptTRMOA",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Maitland Police Station": {
+        "formatted_address": "236 Voortrekker Rd, Maitland, Cape Town, 7405, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9235782,
+                "lng": 18.4832978
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92218187010727,
+                    "lng": 18.48463657989272
+                },
+                "southwest": {
+                    "lat": -33.92488152989272,
+                    "lng": 18.48193692010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "53dafa4e8c29b384cacc76ccfaea488ed55f2822",
+        "name": "Maitland Police Station",
+        "place_id": "ChIJkzYL4VlczB0RMoCaD-5Lw2w",
+        "plus_code": {
+            "compound_code": "3FGM+H8 Cape Town, South Africa",
+            "global_code": "4FRW3FGM+H8"
+        },
+        "rating": 3.1,
+        "reference": "ChIJkzYL4VlczB0RMoCaD-5Lw2w",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Table Bay Harbour Police Station": {
+        "formatted_address": "Duncan Rd, Table Bay Harbour, Cape Town, 8001, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9098723,
+                "lng": 18.4245085
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90862302010728,
+                    "lng": 18.42568397989272
+                },
+                "southwest": {
+                    "lat": -33.91132267989272,
+                    "lng": 18.42298432010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "b59bf5a2e8547aecad1563d8c48bed6570d34ef4",
+        "name": "Table Bay Harbour Police Station",
+        "photos": [
+            {
+                "height": 1944,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116896371486816962751/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAnw1tVK5pc4glwChnf1MNLynG9Dl5jMkqWf4Ec0vtaN5_NJCncsR8TfBzSRHsMv-4hXK2bLfV-GQVhMdPGg53Wa_JTdEHj2Nf-G2eBk_catRnhrL3RgQaD_45d-hViUyWEhAiw-7ej6NiNtWq-GnqCO9VGhQtNytUiIhOusBM3E0ZiI3Ha7IdiQ",
+                "width": 2592
+            }
+        ],
+        "place_id": "ChIJ4UNNMl9nzB0Rl_yjnY_KObE",
+        "plus_code": {
+            "compound_code": "3CRF+3R Cape Town, South Africa",
+            "global_code": "4FRW3CRF+3R"
+        },
+        "rating": 5,
+        "reference": "ChIJ4UNNMl9nzB0Rl_yjnY_KObE",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Pinelands Saps": {
+        "formatted_address": "Jan Smuts Dr, Pinelands, Cape Town, 7430, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9259034,
+                "lng": 18.5012595
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92442362010728,
+                    "lng": 18.50258377989272
+                },
+                "southwest": {
+                    "lat": -33.92712327989273,
+                    "lng": 18.49988412010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "7b9630e023ce075824c9a71239e575866ab14712",
+        "name": "Pinelands Saps",
+        "place_id": "ChIJF9m-MZNczB0R9tbc7nlbv7U",
+        "plus_code": {
+            "compound_code": "3GF2+JG Cape Town, South Africa",
+            "global_code": "4FRW3GF2+JG"
+        },
+        "rating": 4.3,
+        "reference": "ChIJF9m-MZNczB0R9tbc7nlbv7U",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Mowbray Police Station": {
+        "formatted_address": "32 Main Road, Mowbray, Cape Town, 7700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9501545,
+                "lng": 18.472104
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94880467010726,
+                    "lng": 18.47345382989272
+                },
+                "southwest": {
+                    "lat": -33.95150432989271,
+                    "lng": 18.47075417010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f80aa472aa3ca0b95f39563f116f5244432bf441",
+        "name": "Mowbray Police Station",
+        "photos": [
+            {
+                "height": 3840,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100207005571255434206/photos\">Bolelang Rakeepile</a>"
+                ],
+                "photo_reference": "CmRaAAAAF14mBjRqkXLW1Ox7jwfJF-pd5Pazzf0fH3wrwyHQ6H1J6yLXtFKWS3PAts95I2uduFE5KfxXXhkKMacmtHsLvJJf5lhQmR3OVSM0bL2zdhYjlMbUnEBkoFxZ-7ejmb6OEhCzpT7doiRgIHbyYrriK-VSGhSxmTbOqefGyHUVUBv9ZHHlnrvZIQ",
+                "width": 2160
+            }
+        ],
+        "place_id": "ChIJT6uCkB9dzB0Rka-zIrOlSdM",
+        "plus_code": {
+            "compound_code": "2FXC+WR Mowbray, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FRW2FXC+WR"
+        },
+        "rating": 3.8,
+        "reference": "ChIJT6uCkB9dzB0Rka-zIrOlSdM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Sea Point": {
+        "formatted_address": "Bay Rd & Bill Peters Drive, Sea Point, Cape Town, 8060, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.905714,
+                "lng": 18.3992987
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90436417010727,
+                    "lng": 18.40064852989272
+                },
+                "southwest": {
+                    "lat": -33.90706382989272,
+                    "lng": 18.39794887010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f7f495c01148dfe6ee59c13abdce02b3062749c9",
+        "name": "Saps Sea Point",
+        "photos": [
+            {
+                "height": 4160,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114880470666430679800/photos\">hayley cloete</a>"
+                ],
+                "photo_reference": "CmRaAAAAf-T6Is5CXwmOda7-jsBdPndasqWXCTCT-j1mcf6_XrWheOxiqdaCKZo8YP8ge03Bni47hzCjdE4Ay8R3r07kcXhXYftP9HxDi_joYBJX8xXCTjakkOxKThuXB6dBWAKMEhDS9_tWK0-QA-PwpSKn_omkGhSB7lGk2TuHEVE7AHw-xzH6aHU7Cw",
+                "width": 2336
+            }
+        ],
+        "place_id": "ChIJ89vRdSFnzB0RenJ5LEp2nS4",
+        "plus_code": {
+            "compound_code": "39VX+PP Cape Town, South Africa",
+            "global_code": "4FRW39VX+PP"
+        },
+        "rating": 3.4,
+        "reference": "ChIJ89vRdSFnzB0RenJ5LEp2nS4",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "SAPS Provincial Detective Service": {
+        "formatted_address": "Old Labour Building, 29 Corporation Street, Cape Town, 8000, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.92678100000001,
+                "lng": 18.4219374
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92543117010727,
+                    "lng": 18.42328722989272
+                },
+                "southwest": {
+                    "lat": -33.92813082989272,
+                    "lng": 18.42058757010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "e50848d9e14446c02ff5aa6c6bdcef3962519d14",
+        "name": "SAPS Provincial Detective Service",
+        "photos": [
+            {
+                "height": 1293,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111705260041251536793/photos\">Jolandi Coetzee</a>"
+                ],
+                "photo_reference": "CmRZAAAAz8JhdeYHSlsxcdKyW5Qn5ka3KTWuiZ5MxIipiOEyQ95QnPodyST89Whzef6GG_5oinCJlNFk5ugUq9gq-VD2vSpdLgbD8TS_Xl5c4-vomWd2BXgy2spUv8jFcMm14hIOEhDXazSJxFUERIp5snB2YPztGhQjTPs-TacKAgIezMsbi2Un5TvIOA",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJA7G1SGNnzB0RqlisgQY_uo0",
+        "plus_code": {
+            "compound_code": "3CFC+7Q Cape Town, South Africa",
+            "global_code": "4FRW3CFC+7Q"
+        },
+        "rating": 3.3,
+        "reference": "ChIJA7G1SGNnzB0RqlisgQY_uo0",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Cape Town Central": {
+        "formatted_address": "28 Buitenkant St, Cape Town City Centre, Cape Town, 8000, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9277623,
+                "lng": 18.4233035
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.92644187010728,
+                    "lng": 18.42469357989272
+                },
+                "southwest": {
+                    "lat": -33.92914152989272,
+                    "lng": 18.42199392010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "a8f9de81a09b52d4d140d641426258c7471470a7",
+        "name": "Saps Cape Town Central",
+        "photos": [
+            {
+                "height": 1944,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101765646537122369031/photos\">Albert Jen</a>"
+                ],
+                "photo_reference": "CmRaAAAAkcscYNn5_INKENoEJpFeFcXAJWIddTUhM8_yS15QGk_cMy3DKM8baQ5qi5tM-Vx5D8wi1Y1M6GC3cuPcjfZoR8svZAPSRhJ4Ncj9Se6OW0GEaHLReQK-gpJ3_2vjXTaZEhD2IXv6dH1SXaAuwL7KnN3qGhRntvufE3xk0cVoZDKFOHaufg83NQ",
+                "width": 2592
+            }
+        ],
+        "place_id": "ChIJt-3Z6XxnzB0RUZ-K8Fk54Ak",
+        "plus_code": {
+            "compound_code": "3CCF+V8 Cape Town, South Africa",
+            "global_code": "4FRW3CCF+V8"
+        },
+        "rating": 2.1,
+        "reference": "ChIJt-3Z6XxnzB0RUZ-K8Fk54Ak",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Bishop Lavis": {
+        "formatted_address": "42 Tafelberg Rd, Bishop Lavis, Cape Town, 7490, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9461744,
+                "lng": 18.5728333
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94482532010727,
+                    "lng": 18.57426217989272
+                },
+                "southwest": {
+                    "lat": -33.94752497989271,
+                    "lng": 18.57156252010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "1d1564c094c33c00b917438c0b85089cb0142f53",
+        "name": "Saps Bishop Lavis",
+        "place_id": "ChIJb0lH1dlazB0RjOx9GLn8VA4",
+        "plus_code": {
+            "compound_code": "3H3F+G4 Matroosfontein, Cape Town, South Africa",
+            "global_code": "4FRW3H3F+G4"
+        },
+        "rating": 3.3,
+        "reference": "ChIJb0lH1dlazB0RjOx9GLn8VA4",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Cowry House": {
+        "formatted_address": "1929 S Arm Rd, V & A Waterfront, Cape Town, 8001, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9041229,
+                "lng": 18.43029
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90296492010727,
+                    "lng": 18.43134327989272
+                },
+                "southwest": {
+                    "lat": -33.90566457989272,
+                    "lng": 18.42864362010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "a2d0d66f7474fe52aff5cfc61065aa5f70173bbd",
+        "name": "Cowry House",
+        "place_id": "ChIJ93afg_ddzB0RxKdWNJoGfAI",
+        "plus_code": {
+            "compound_code": "3CWJ+94 Cape Town, South Africa",
+            "global_code": "4FRW3CWJ+94"
+        },
+        "rating": 0,
+        "reference": "ChIJ93afg_ddzB0RxKdWNJoGfAI",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Camps Bay": {
+        "formatted_address": "Camps Bay Dr, Bakoven, Cape Town, 8005, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9558309,
+                "lng": 18.3767782
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.95448107010727,
+                    "lng": 18.37812802989272
+                },
+                "southwest": {
+                    "lat": -33.95718072989271,
+                    "lng": 18.37542837010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "47d44040a657346ce8ace3707feff796c8ea569b",
+        "name": "Saps Camps Bay",
+        "photos": [
+            {
+                "height": 1362,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116124106043749090192/photos\">Anthony Bernstein</a>"
+                ],
+                "photo_reference": "CmRaAAAAXJChu9plihVc03u8o7kUj25CRWvY7zDkUjQ85EAgvfy5LYhqznTb4oDhEMN4n8GiEbV3Mq6PqwTG7qVkwxOZw6PUcMYkEXIxromntvr3bcYaLWBUdc94ElF3s6rTqbNAEhA7JPs6J_WwYPLtm_pTX5gbGhTi3qAytRjQ2bmmFJXh_zC0JHI5nA",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJpXUed01mzB0R5fKDkmAKpNQ",
+        "plus_code": {
+            "compound_code": "29VG+MP Cape Town, South Africa",
+            "global_code": "4FRW29VG+MP"
+        },
+        "rating": 2.4,
+        "reference": "ChIJpXUed01mzB0R5fKDkmAKpNQ",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "SLEUTH INVESTIGATIVE SERVICES": {
+        "formatted_address": "Century Way The Colosseum First Floor, Century City, Cape Town, 7446, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.89358199999999,
+                "lng": 18.50589
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.89223217010728,
+                    "lng": 18.50723982989273
+                },
+                "southwest": {
+                    "lat": -33.89493182989272,
+                    "lng": 18.50454017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "73c6871198092e1442811d962a5b596bfad3c417",
+        "name": "SLEUTH INVESTIGATIVE SERVICES",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 472,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111390716817342781181/photos\">SLEUTH INVESTIGATIVE SERVICES</a>"
+                ],
+                "photo_reference": "CmRaAAAADDHrx215Uloc9J5pmjiXiX4J0UYMmXy4pYbk45V4sDCvs1ATuIFi3nBbpHZPX2xGiaH8tdizwPCn9-7LJUkoSBGnJI-I86BzMUlwhQb-2AwBJ7Y8faFnHqMukFPtDvMJEhAsksP8mUu2nHttAA5JUhRNGhT-2Ms0XxfSTNUDVBbta2Y8PzPqIA",
+                "width": 431
+            }
+        ],
+        "place_id": "ChIJ94dNwRBczB0R7UcjaXQfOZE",
+        "plus_code": {
+            "compound_code": "4G44+H9 Milnerton, Cape Town, South Africa",
+            "global_code": "4FRW4G44+H9"
+        },
+        "rating": 5,
+        "reference": "ChIJ94dNwRBczB0R7UcjaXQfOZE",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Athlone Police Station": {
+        "formatted_address": "Klipfontein Rd, Athlone, Cape Town, 7764, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9613991,
+                "lng": 18.5072653
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.95995067010728,
+                    "lng": 18.50856132989272
+                },
+                "southwest": {
+                    "lat": -33.96265032989272,
+                    "lng": 18.50586167010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "a16b1a8b3af06210aa9bccda9fda4477a98628b5",
+        "name": "Athlone Police Station",
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104390074854977141068/photos\">Baddeneen Larney</a>"
+                ],
+                "photo_reference": "CmRaAAAAojyBicRy4NBg_YxZj-JnyzS-o3N_2U-xgys6pKVjIDeCLeVc3l5oGiQB5FZWM5GbPXt0KPfb-miYmGuTnKFBjZCU0vpZKk2HaGrHQYQ399p67GyyCyP41uKOgFeSS8VaEhDMKho2gCKbkPfYGyeoYg8NGhR-AZKkE4CnBz4Z3S-QNBwfc5sdVg",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJZYeOfbFczB0R4Kb5sK5W_3s",
+        "plus_code": {
+            "compound_code": "2GQ4+CW Athlone, Cape Town, South Africa",
+            "global_code": "4FRW2GQ4+CW"
+        },
+        "rating": 2.5,
+        "reference": "ChIJZYeOfbFczB0R4Kb5sK5W_3s",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Post Office - Tableview": {
+        "formatted_address": "Village on Main, Parklands Main Rd, Parklands, Cape Town, 7441, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8153471,
+                "lng": 18.4990752
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.81399727010728,
+                    "lng": 18.50042502989272
+                },
+                "southwest": {
+                    "lat": -33.81669692989273,
+                    "lng": 18.49772537010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png",
+        "id": "642243ab72aca6045f4a0318a556742af7852c70",
+        "name": "Post Office - Tableview",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110798540950990507953/photos\">Georgina Armstrong</a>"
+                ],
+                "photo_reference": "CmRaAAAAnWfg2LIfwevxPvsl37S-NLyxDXLci7D3smAiHrkFCnqk9-qf9DlIsgKRDRkBO5Wn7YHjr3inzhEsmRJBV01aMmoRHUoQXm5u5ibCYogY3fC54U9ZX0LJtc7ShpO1eIuOEhD7zACwHVpCbGphyJ6qRccKGhSviPEKS83pqfLHzuY4ds6ubA3lMg",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJ85q9ailfzB0RfK54PUqDQdM",
+        "plus_code": {
+            "compound_code": "5FMX+VJ Bloubergstrand, Cape Town, South Africa",
+            "global_code": "4FRW5FMX+VJ"
+        },
+        "rating": 3.8,
+        "reference": "ChIJ85q9ailfzB0RfK54PUqDQdM",
+        "types": [
+            "post_office",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Rondebosch Police Station": {
+        "formatted_address": "Church St, Rondebosch, Cape Town, 7700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9626962,
+                "lng": 18.4685504
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.96138902010728,
+                    "lng": 18.47001857989272
+                },
+                "southwest": {
+                    "lat": -33.96408867989272,
+                    "lng": 18.46731892010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "0e211a39bfa6d08c2bd80074b6901af60fcb034a",
+        "name": "Rondebosch Police Station",
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107507080134925637942/photos\">Gordon Amoako</a>"
+                ],
+                "photo_reference": "CmRaAAAA2wdQyQ4tmtHUoIkG5quOezouXC-aSQjZs1WLYDPperVGWWi-EcdXFIswg2y7SIZZiiiX7XmcY5loPz0ZLMzjg3orlS5pjTd4v3rFKrhZtAUJ3sHy6ub7EfN3NgngRtuXEhA8z3XO1K-v1cppT2K-OjYgGhQYz6RRP8UFhB3-TRD8RjYLkNjI3g",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJQ6uCkB9dzB0R39Df28As_10",
+        "plus_code": {
+            "compound_code": "2FP9+WC Rondebosch, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FRW2FP9+WC"
+        },
+        "rating": 4,
+        "reference": "ChIJQ6uCkB9dzB0R39Df28As_10",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Saps Mowbray": {
+        "formatted_address": "32 Main Rd, Mowbray, Cape Town, 7700, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.950188,
+                "lng": 18.472175
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94884252010728,
+                    "lng": 18.47342437989272
+                },
+                "southwest": {
+                    "lat": -33.95154217989273,
+                    "lng": 18.47072472010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "5984a7670e2ec28724c623d6b189ebfb81a4dbcc",
+        "name": "Saps Mowbray",
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107507080134925637942/photos\">Gordon Amoako</a>"
+                ],
+                "photo_reference": "CmRaAAAAE00pp7Ln4SaidwNow7yzmDcDrduFYK6dSXpxxpYf7PI1DmQq50cnW3lp1x13GkC4UgxaDjc2ScYQaqRDulXdY_Bi_-8Wsd6oT-D8Oy-Y7wSl8OkQkwqHrN7Dihh12ml-EhDIA2pcdDlfvZAFIzr6PYRsGhTZk4pMjnolOC-ygOp9il0wRV-qKw",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJj9V2nR9dzB0RzyyB--IVWg4",
+        "plus_code": {
+            "compound_code": "2FXC+WV Mowbray, Southern Suburbs, Cape Town, South Africa",
+            "global_code": "4FRW2FXC+WV"
+        },
+        "rating": 3.5,
+        "reference": "ChIJj9V2nR9dzB0RzyyB--IVWg4",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Law Enforcement": {
+        "formatted_address": "Parow, Cape Town, 7500, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.90826,
+                "lng": 18.5837939
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90691017010728,
+                    "lng": 18.58514372989272
+                },
+                "southwest": {
+                    "lat": -33.90960982989273,
+                    "lng": 18.58244407010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "2267853176a2acd9b4f0d53e679dd518c4035d93",
+        "name": "Law Enforcement",
+        "photos": [
+            {
+                "height": 3096,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102774114810791872521/photos\">craig ferguson</a>"
+                ],
+                "photo_reference": "CmRaAAAA9l5szDsPJ6X7LaYCaFwHLVRlTMYVbYXy2pqqy8SYdsCbwClNu8ZtPqe4ZQUq2gMVGuJH8kbhOnEwxC3jVx_tIZQVM4A91OWDbCJvnXNPoHbKVnrUUOMjFaBfV7-T3Gy8EhCW-oglCOzikXBfWRPDx5VtGhQ6hUeyjQVMfsklN4eUiH_TGK6oBw",
+                "width": 4128
+            }
+        ],
+        "place_id": "ChIJgQDWvVlazB0ReEfW_aeg_xk",
+        "plus_code": {
+            "compound_code": "3HRM+MG Parow, Cape Town, South Africa",
+            "global_code": "4FRW3HRM+MG"
+        },
+        "rating": 2.6,
+        "reference": "ChIJgQDWvVlazB0ReEfW_aeg_xk",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Bonteheuwel Police Station": {
+        "formatted_address": "137 Jakkalsvlei Ave, Bonteheuwel, Cape Town, 7764, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9464709,
+                "lng": 18.5510534
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94510227010727,
+                    "lng": 18.55250682989272
+                },
+                "southwest": {
+                    "lat": -33.94780192989272,
+                    "lng": 18.54980717010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "ac2a47f48bb0510d387a4ac85d769116fe8b07cb",
+        "name": "Bonteheuwel Police Station",
+        "place_id": "ChIJ_4_7dzlbzB0RCN-hNfgEiHc",
+        "plus_code": {
+            "compound_code": "3H32+CC Bonteheuwel, Cape Town, South Africa",
+            "global_code": "4FRW3H32+CC"
+        },
+        "rating": 3,
+        "reference": "ChIJ_4_7dzlbzB0RCN-hNfgEiHc",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Police and Prisons Civil Rights Union": {
+        "formatted_address": "5 Grasmere St, Athlone, 7764, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9627663,
+                "lng": 18.5062347
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.96141682010728,
+                    "lng": 18.50760402989273
+                },
+                "southwest": {
+                    "lat": -33.96411647989272,
+                    "lng": 18.50490437010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "ad101d8c6caa96b63f73f7de997d247d022e7530",
+        "name": "Police and Prisons Civil Rights Union",
+        "place_id": "ChIJb83Z6bNczB0RXhS9cxcuYiM",
+        "plus_code": {
+            "compound_code": "2GP4+VF Athlone, Cape Town, South Africa",
+            "global_code": "4FRW2GP4+VF"
+        },
+        "rating": 0,
+        "reference": "ChIJb83Z6bNczB0RXhS9cxcuYiM",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Police Station": {
+        "formatted_address": "Belhar 1, Cape Town, 7493, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9449308,
+                "lng": 18.6108827
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.94358097010728,
+                    "lng": 18.61223252989272
+                },
+                "southwest": {
+                    "lat": -33.94628062989272,
+                    "lng": 18.60953287010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "b8d1b07625a350304e4852e11c5ff1c50007681b",
+        "name": "Police Station",
+        "place_id": "ChIJq6qquq5azB0R10i1UBFkvys",
+        "plus_code": {
+            "compound_code": "3J46+29 Belhar, Cape Town, South Africa",
+            "global_code": "4FRW3J46+29"
+        },
+        "rating": 0,
+        "reference": "ChIJq6qquq5azB0R10i1UBFkvys",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Bellville Police Station - South African Police Service": {
+        "formatted_address": "8 Voortrekker Rd, Bellville, Cape Town, 7535, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.90156169999999,
+                "lng": 18.6221273
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.90012082010727,
+                    "lng": 18.62346947989272
+                },
+                "southwest": {
+                    "lat": -33.90282047989272,
+                    "lng": 18.62076982010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "05cffc32faf85c9d76197ae408260b963ccb9aa8",
+        "name": "Bellville Police Station - South African Police Service",
+        "place_id": "ChIJc90HlIZQzB0R4zEtdqMDdf8",
+        "plus_code": {
+            "compound_code": "3JXC+9V Bellville, Cape Town, South Africa",
+            "global_code": "4FRW3JXC+9V"
+        },
+        "rating": 2.1,
+        "reference": "ChIJc90HlIZQzB0R4zEtdqMDdf8",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "WESTERN CAPE REPO CENTRE": {
+        "formatted_address": "196 Botha St, Richmond Estate, Cape Town, 7460, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.89406,
+                "lng": 18.56617
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.89273107010727,
+                    "lng": 18.56740382989272
+                },
+                "southwest": {
+                    "lat": -33.89543072989272,
+                    "lng": 18.56470417010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f657c24f6add92e496477d412790da47a00fa8f4",
+        "name": "WESTERN CAPE REPO CENTRE",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2048,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100264856812932081552/photos\">WESTERN CAPE REPO CENTRE</a>"
+                ],
+                "photo_reference": "CmRaAAAA58d6qhLhyBRhTZMFKCjhRkqiUohR-MAdg9AJRbb7IOV9qHb3eMOKtwNj20foA0Rw-uvgjz88nSSqaEZB6umix4cjsggqHtnnrAYrgGmOfcBibR3bIDLuPs80XsJ5yYrxEhBxwlszYJQSbhVUEzO4MkuFGhQxs6FLcsFaECFLyVb--UCDaYnTiA",
+                "width": 1151
+            }
+        ],
+        "place_id": "ChIJE9cskLVbzB0RSmLX13nLUuU",
+        "rating": 0,
+        "reference": "ChIJE9cskLVbzB0RSmLX13nLUuU",
+        "types": [
+            "local_government_office",
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Goodwood Sheriff": {
+        "formatted_address": "Unit 21A, Coleman Business Park, Coleman St, Elsies River Industrial, Cape Town, 7480, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9120157,
+                "lng": 18.5733412
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.91107557010727,
+                    "lng": 18.57467682989272
+                },
+                "southwest": {
+                    "lat": -33.91377522989272,
+                    "lng": 18.57197717010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "0a73b801bb57574533712252d1fe78d51b81e027",
+        "name": "Goodwood Sheriff",
+        "photos": [
+            {
+                "height": 2992,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107809908095185349819/photos\">johan esterhuizen</a>"
+                ],
+                "photo_reference": "CmRaAAAAPhC6ErYW7n_TdTwuogoCjdX2l8MNbwkUR9u4iNcL4ERBj44VcbQtLO6BOEuwDRH3inI8-qdJZxgjfJSrasWE5aUSeQSNeCG-dyr4e48y2EuI5NoWccAKK52U4G6s9MaNEhDBoh-_Z9opKF8RyCs6-6LiGhSVM87bQy_WR8yCe35QPugDY3-ZxQ",
+                "width": 5312
+            }
+        ],
+        "place_id": "ChIJFZa9plVazB0Ry0-dux0nF9M",
+        "plus_code": {
+            "compound_code": "3HQF+58 Elsies Rivier, Cape Town, South Africa",
+            "global_code": "4FRW3HQF+58"
+        },
+        "rating": 4.7,
+        "reference": "ChIJFZa9plVazB0Ry0-dux0nF9M",
+        "types": [
+            "local_government_office",
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "Parklands Police Station": {
+        "formatted_address": "Viveka House, 2002 Parklands Main Rd, Parkland, Cape Town, 7441, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.8152792,
+                "lng": 18.5033892
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.81380417010728,
+                    "lng": 18.50466337989272
+                },
+                "southwest": {
+                    "lat": -33.81650382989272,
+                    "lng": 18.50196372010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "23d8e760a204b767b977d5053c1af7f6a8b5800f",
+        "name": "Parklands Police Station",
+        "permanently_closed": true,
+        "place_id": "ChIJGziUwUBfzB0R1dIvAG994d8",
+        "plus_code": {
+            "compound_code": "5GM3+V9 Bloubergstrand, Cape Town, South Africa",
+            "global_code": "4FRW5GM3+V9"
+        },
+        "rating": 3.6,
+        "reference": "ChIJGziUwUBfzB0R1dIvAG994d8",
+        "types": [
+            "police",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+}

@@ -22,13 +22,19 @@ class Algorithms(object):
 			Count += 1
 		return NODES, NETWORK, UNASSIGNED, BASESTATIONS;
 
-	def CreateGraph(NODES, NETWORK, UNASSIGNED, Results = False):
+	def CreateGraph(NODES, NETWORK, UNASSIGNED, Links = False, Results = False):
 		G = Graph()
 		G.add_nodes_from([node.Id for node in NODES.values()])
-		for node in UNASSIGNED:
-			for s in NODES.values(): 
-				if node is not s.Id:
-					G.add_edge(s.Id, NODES[node].Id, weight = s.Distance(NODES[node].Position, Type = '2D', Results = False))	
+		if Links == True:
+			for node in NODES.values(): 
+				for link in node.LINKS:
+					if node is not link.Id:
+						G.add_edge(node.Id, link.Id, weight = node.Distance(link.Position, Type = '2D', Results = Results))
+		elif Links == False:
+			for node in NODES.values():
+				for s in NODES.values(): 
+					if node is not s.Id:
+						G.add_edge(s.Id, NODES[node].Id, weight = s.Distance(NODES[node].Position, Type = '2D', Results = Results))	
 		return G
 
 	def FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G,
@@ -40,11 +46,12 @@ class Algorithms(object):
 			for j in BASESTATIONS:
 				if i != j:
 					_GDS += NODES[i].Distance(NODES[j].Position, Type = '2D', Results = False)
-	
+		
 		for i in UNASSIGNED:
 			for j in UNASSIGNED:
 				if i is not j:
 					_GDN += astar_path_length(G, i, j)
+					#_GDN += shortest_path_length(G, i, j)
 
 		Average_GD_Basestations = _GDS/len(BASESTATIONS)
 		Average_GD_Nodes = _GDN/len(UNASSIGNED)
@@ -59,9 +66,9 @@ class Algorithms(object):
 			_GDS += NODES[i].Distance(node.Position, Type = '2D', Results = False)
 
 		for i in NODES.values():
-			if (str(i.Id) is not str(node.Id)) and (i.Id not in BASESTATIONS):
+			if (str(i.Id) is not str(node.Id)):
 				_GDN += astar_path_length(G, node.Id, i.Id)
-					
+				#_GDN += shortest_path_length(G, node.Id, i.Id)
 		#Checking the standard deviation.
 		try:
 			Average_GDS = sqrt((len(BASESTATIONS) - 1)/((_GDS - Average_GD_Basestations) **2))

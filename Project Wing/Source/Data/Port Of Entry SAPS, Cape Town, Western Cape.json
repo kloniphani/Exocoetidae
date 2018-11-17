@@ -1,0 +1,45 @@
+{
+    "Port Of Entry SAPS": {
+        "formatted_address": "Duncan Rd, Cape Town, 8001, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -33.9208648,
+                "lng": 18.4405295
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -33.91954482010728,
+                    "lng": 18.44187612989272
+                },
+                "southwest": {
+                    "lat": -33.92224447989272,
+                    "lng": 18.43917647010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+        "id": "8c29c8e050a3cb11d77153c6603b7a30d7667fb2",
+        "name": "Port Of Entry SAPS",
+        "photos": [
+            {
+                "height": 1920,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112516676136906883467/photos\">Thato Principal</a>"
+                ],
+                "photo_reference": "CmRaAAAAy-LaKnxGFKjnYdkFL3qm4qufTL9aJcuzV1ENhBuy7HFgl_O4VhDO6HRfREQn2I8RiixBgsCsbGqGyzK4GfInVhaeDbYmTD2kJNt1ReR6HHVvtWJk0S-hOYceZ13aQOOoEhCbsgvUvmo365HOz_nq6iDXGhRS3ECQ2c9KGA4al0KCLg3gK_Dllw",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJrV-wzJFdzB0RlRCPRwR-c6s",
+        "plus_code": {
+            "compound_code": "3CHR+M6 Cape Town, South Africa",
+            "global_code": "4FRW3CHR+M6"
+        },
+        "rating": 0,
+        "reference": "ChIJrV-wzJFdzB0RlRCPRwR-c6s",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+}
