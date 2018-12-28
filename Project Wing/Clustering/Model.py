@@ -11,6 +11,8 @@ from geopy import distance
 
 import json, io, progressbar
 
+from Clustering.Algorithms import *
+
 class Model(object):
 	"""description of class"""
 
@@ -167,7 +169,7 @@ class Model(object):
 
 	def Successive(NODES, NETWORK, UNASSIGNED, DATA, 
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
-				Theta = 0.5, Beta = 0.5, Profit = 0, Best_SNR = 10):
+				Theta = 0.5, Beta = 0.5, Profit = 0.1, Best_SNR = 10):
 		"""
 		"""
 		print("\nSuccessive Selection Model Processing")
@@ -187,12 +189,18 @@ class Model(object):
 			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
 
 		TrackA = 0; TrackB = 0; EndA = len(NODES); EndB = 10; TransmissionGain = 3; Type = 0;
-		with progressbar.ProgressBar(max_value = EndA) as bar:			
+		with progressbar.ProgressBar(max_value = EndA) as bar:	
+			"""if Profit == None:
+				Profit = Algorithms.FindUAVProfit(NODES, NETWORK, UNASSIGNED, Average_SNR, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy)"""
 			while(len(UNASSIGNED) > 0 and TrackA < EndA):
 				index = 0; Head = None				
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAPTime?
 				for node in UNASSIGNED:
 					Reward = (Theta * (NODES[node].SNR/Maximum_SNR) - Beta * ((Average_ResidualEnergy - NODES[node].ResidualEnergy)/(Maximum_ResidualEnergy - Average_ResidualEnergy)))/2;
+					
+					#Reward = Algorithms.UAVReward(NODES[node], NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha = 1, Beta = 1)
+					#print("{0} --- {1}".format(Profit, Reward))
+
 					if Reward >= Profit:
 						Head = UNASSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1

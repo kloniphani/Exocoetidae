@@ -10,6 +10,7 @@ from Clustering.Distribution import *
 from Clustering.Model import *
 from Clustering.Display import *
 from Clustering.Backbone import *
+from Clustering.Multisink import *
 from Object.Node import *
 from Object.Provider import *
 from Source.API import *
@@ -121,12 +122,13 @@ if __name__ == '__main__':
 	print("\n#02: Running Models!\n")
 	Technique = 'Greedy';	Distribution = 'Normal'
 	NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-	#NODES, NETWORK, UNASSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNASSIGNED, DATA)
-	NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
-	Display.Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
+	#NODES, NETWORK, UNASSIGNED, DATA = Model.Successive(NODES, NETWORK, UNASSIGNED, DATA)
+	#NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'UAV')
+	NODES, NETWORK, UNASSIGNED, DATA = Multisink.GreedySinkNodeSelectionWithSinksTreeBalancing(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
+	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.MapNetwork(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	CHs = Display.Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-	Display.Display.DrawTreeGraph(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
+	CHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+	#Display.DrawTreeGraph(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);
 	#NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 

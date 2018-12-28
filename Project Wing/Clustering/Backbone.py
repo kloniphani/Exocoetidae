@@ -83,20 +83,26 @@ class Backbone(object):
 			bar.update(TrackA)
 
 			NODES, NETWORK, UNASSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total)
+			for id in BASESTATIONS:
+				NODES[id].SetGraphHeight(-1)
+				NODES[id].SetGraphColor('olive')
+
 			G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED, Links = True)
 
 			#Finding the Profit
 			if Mode == 'LAP':
 				Profit, Average_GD_Basestations, Average_GD_Nodes = Algorithms.FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_ResidualEnergy, Theta, Beta, Alpha)
-
-			REWARDS = Algorithms.AllRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, 
+				REWARDS = Algorithms.AllLAPRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, 
 			   Average_GD_Basestations, Average_GD_Nodes)
+			elif Mode == 'UAV':
+				Profit = Algorithms.FindUAVProfit(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_SNR, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
+				REWARDS = Algorithms.AllUAVRewards(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
+
 
 			for key, value in NODES.items():
-				if Mode == 'LAP':
-					if key not in BASESTATIONS and key in UNASSIGNED and value.GraphColor == 'white' and (Profit <= REWARDS[key]):
-						NODES[value.Id].SetGraphColor('gray')
-						#UNASSIGNED.remove(key)
+				if key not in BASESTATIONS and key in UNASSIGNED and value.GraphColor == 'white' and (Profit <= REWARDS[key]):
+					NODES[key].SetGraphColor('gray')
+					#UNASSIGNED.remove(key)
 
 			while(Backbone.HasWhiteNode(NODES) == True):
 				#Picking the best Gray node

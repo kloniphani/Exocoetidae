@@ -24,7 +24,7 @@ class Emulation(object):
 			FileName = './Model/Computed Data/{0}-[{1}]-{2}.xlsx'.format(FileName, Stamp, Distribution)
 
 
-		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'Myopic CH', 'GSMB - UAV CH', 'GSMB - LAP CH', 'Backhauling I-CH', 'Myopic I-CH', 'GSMB - UAV I-CH', 'GSMB - LAP I-CH', 'Backhauling Unassigned', 'Myopic Unassigned', 'GSMB - UAV Unassigned', 'GSMB - LAP Unassigned']
+		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'Myopic CH', 'GSMB - UAV CH', 'GSMB - LAP CH', 'GCHC - UAV CH', 'GCHC - LAP CH', 'Backhauling I-CH', 'Myopic I-CH', 'GSMB - UAV I-CH', 'GSMB - LAP I-CH', 'GCHC - UAV I-CH', 'GCHC - LAP I-CH', 'Backhauling Unassigned', 'Myopic Unassigned', 'GSMB - UAV Unassigned', 'GSMB - LAP Unassigned', 'GCHC - UAV Unassigned', 'GCHC - LAP Unassigned']
 		
 		DATA = {}
 		DATA['Emulation'] = []
@@ -35,14 +35,20 @@ class Emulation(object):
 		DATA['Myopic CH'] = []
 		DATA['GSMB - UAV CH'] = []
 		DATA['GSMB - LAP CH'] = []
+		DATA['GCHC - UAV CH'] = []
+		DATA['GCHC - LAP CH'] = []
 		DATA['Backhauling I-CH'] = []
 		DATA['Myopic I-CH'] = []
 		DATA['GSMB - UAV I-CH'] = []
 		DATA['GSMB - LAP I-CH'] = []
+		DATA['GCHC - UAV I-CH'] = []
+		DATA['GCHC - LAP I-CH'] = []
 		DATA['Backhauling Unassigned'] = []
 		DATA['Myopic Unassigned'] = []
 		DATA['GSMB - UAV Unassigned'] = []
 		DATA['GSMB - LAP Unassigned'] = []
+		DATA['GCHC - UAV Unassigned'] = []
+		DATA['GCHC - LAP Unassigned'] = []
 
 		for data in INPUTDATA:
 			DATA['Emulation'].append(data[0])
@@ -53,14 +59,20 @@ class Emulation(object):
 			DATA['Myopic CH'].append(data[5])
 			DATA['GSMB - UAV CH'].append(data[6])
 			DATA['GSMB - LAP CH'].append(data[7])
-			DATA['Backhauling I-CH'].append(data[8])
-			DATA['Myopic I-CH'].append(data[9])
-			DATA['GSMB - UAV I-CH'].append(data[10])
-			DATA['GSMB - LAP I-CH'].append(data[11])
-			DATA['Backhauling Unassigned'].append(data[12])
-			DATA['Myopic Unassigned'].append(data[13])
-			DATA['GSMB - UAV Unassigned'].append(data[14])
-			DATA['GSMB - LAP Unassigned'].append(data[15])
+			DATA['GCHC - UAV CH'].append(data[8])
+			DATA['GCHC - LAP CH'].append(data[9])
+			DATA['Backhauling I-CH'].append(data[10])
+			DATA['Myopic I-CH'].append(data[11])
+			DATA['GSMB - UAV I-CH'].append(data[12])
+			DATA['GSMB - LAP I-CH'].append(data[13])
+			DATA['GCHC - UAV I-CH'].append(data[14])
+			DATA['GCHC - LAP I-CH'].append(data[15])
+			DATA['Backhauling Unassigned'].append(data[16])
+			DATA['Myopic Unassigned'].append(data[17])
+			DATA['GSMB - UAV Unassigned'].append(data[18])
+			DATA['GSMB - LAP Unassigned'].append(data[19])
+			DATA['GCHC - UAV Unassigned'].append(data[20])
+			DATA['GCHC - LAP Unassigned'].append(data[21])
 		
 		DataFrames = pd.DataFrame(data = DATA, columns = Columns)  #Create a Pandas dataframe from some data.
 		Writer = pd.ExcelWriter(FileName, engine='xlsxwriter') #Create a Pandas Excel writer using XlsxWriter as the engine.
@@ -126,6 +138,24 @@ if __name__ is '__main__':
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			Technique = 'GSMB - LAP';
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Successive(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
+			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
+
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			Technique = 'GCHC - UAV';
+			NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'UAV', ClusterRadius = Network.ClusterRadius)
+			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
+			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
+
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			Technique = 'GCHC - LAP';
+			NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP', ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
 			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);

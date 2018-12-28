@@ -28,7 +28,7 @@ class Algorithms(object):
 		if Links == True:
 			for node in NODES.values(): 
 				for link in node.LINKS:
-					if node is not link.Id:
+					if str(node.Id) is not str(link.Id):
 						G.add_edge(node.Id, link.Id, weight = node.Distance(link.Position, Type = '2D', Results = Results))
 		elif Links == False:
 			for node in NODES.values():
@@ -39,19 +39,27 @@ class Algorithms(object):
 
 	def FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G,
 				   Average_ResidualEnergy,
-				   Theta, Beta, Alpha, Results = False):
+				   Theta = 0.5, Beta = 0.5, Alpha = 0.5, Results = False):
 		#Average Geodesic Distance
 		_GDS = 0;  _GDN = 0; Count = 1;
 		for i in BASESTATIONS:
-			for j in BASESTATIONS:
-				if i != j:
-					_GDS += NODES[i].Distance(NODES[j].Position, Type = '2D', Results = False)
+			for j in BASESTATIONS: 				
+				try:
+					if i != j:
+						_GDS += NODES[i].Distance(NODES[j].Position, Type = '2D', Results = Results)
+				except:
+					continue
 		
 		for i in UNASSIGNED:
-			for j in UNASSIGNED:
-				if i is not j:
-					_GDN += astar_path_length(G, i, j)
-					#_GDN += shortest_path_length(G, i, j)
+			for j in UNASSIGNED:   				
+				try:  					
+					if str(i) is not str(j):
+						Temp = astar_path_length(G, i, j)
+						#Temp += shortest_path_length(G, i, j)
+						_GDN += Temp
+						if Results == True: print("- Path from Node #{0} to #{1} is {2} in length".format(i, j, Temp))
+				except:
+					continue
 
 		Average_GD_Basestations = _GDS/len(BASESTATIONS)
 		Average_GD_Nodes = _GDN/len(UNASSIGNED)
@@ -66,9 +74,13 @@ class Algorithms(object):
 			_GDS += NODES[i].Distance(node.Position, Type = '2D', Results = False)
 
 		for i in NODES.values():
-			if (str(i.Id) is not str(node.Id)):
-				_GDN += astar_path_length(G, node.Id, i.Id)
-				#_GDN += shortest_path_length(G, node.Id, i.Id)
+			try:
+				if (str(i.Id) is not str(node.Id)):
+					_GDN += astar_path_length(G, node.Id, i.Id)
+					#_GDN += shortest_path_length(G, node.Id, i.Id)
+			except:
+				continue
+
 		#Checking the standard deviation.
 		try:
 			Average_GDS = sqrt((len(BASESTATIONS) - 1)/((_GDS - Average_GD_Basestations) **2))
@@ -81,8 +93,28 @@ class Algorithms(object):
 					
 		return Average_GDS + Average_GDN + node.ResidualEnergy;
 
-	def AllRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_GD_Basestations, Average_GD_Nodes):
+	def AllLAPRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_GD_Basestations, Average_GD_Nodes):
 		REWARDS = {}
 		for key, value in NODES.items():
 			REWARDS[key] = Algorithms.LAPReward(value, NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_GD_Basestations, Average_GD_Nodes)
+		return REWARDS;
+
+	def FindUAVProfit(NODES, NETWORK, UNASSIGNED,
+			   Average_SNR, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy,
+			   Alpha = 0.5, Beta = 0.5, Results = False):
+		Profit = (Alpha * Average_SNR) + (Beta * (Maximum_ResidualEnergy - Average_ResidualEnergy))
+		return Profit;
+
+	def UAVReward(node, NODES, NETWORK, UNASSIGNED,
+			   Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy,
+			   Alpha = 0.5, Beta = 0.5, Results = False):
+		Reward = (Alpha * (node.SNR)) + (Beta * (node.ResidualEnergy - Average_ResidualEnergy));
+		return Reward;
+
+	def AllUAVRewards(NODES, NETWORK, UNASSIGNED,
+			   Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, 
+			   Alpha = 0.5, Beta = 0.5, Results = False):
+		REWARDS = {}
+		for key, value in NODES.items():
+			REWARDS[key] = Algorithms.UAVReward(value, NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha = Alpha, Beta = Beta)
 		return REWARDS;

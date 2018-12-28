@@ -32,7 +32,7 @@ class Node(object):
 			return None
 
 		#NODE IDENTITY
-		self.Id = Id; self.Name = Name; self.Type = -1; NumberOfMembers = 0
+		self.Id = Id; self.Name = Name; self.Type = None; NumberOfMembers = 0
 
 		#NETWORK INFORMATION
 		if SNR is not None:

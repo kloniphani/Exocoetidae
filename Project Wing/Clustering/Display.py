@@ -330,7 +330,7 @@ class Display(object):
 			for id, node in nodes.items():
 				if k == node.GraphHeight:
 					TEMP[id] = node;
-					TEMP[id].setPosition([column, k, 10]);
+					TEMP[id].setPosition([column, -k, 10]);
 					column += Width/OCCURENCES[k]
 			row -= Height/Level;
 
@@ -341,18 +341,21 @@ class Display(object):
 		from itertools import cycle
 		points = []; colors = cycle('rgbmcy')
 
-
-	
 		if network is not None and nodes is not None:
 			with progressbar.ProgressBar(max_value = len(network)) as bar:
-				count = 0									
-				for id, head in list(network.items()):	
+				count = 0; spacing = 100									
+				for id, head in list(network.items()):
+					if -1 in OCCURENCES.keys():
+						for node in nodes.values():
+							if node.GraphHeight == -1:
+								xs = linspace(TEMP[id].Position[0], TEMP[node.Id].Position[0], spacing)
+								ys = linspace(TEMP[id].Position[1], TEMP[node.Id].Position[1], spacing)
+								figure.plot(xs, ys, zorder = 1, c = 'lightgray')
+
 					for leaf in head.MEMBERS:
-						#Drawing a line in 3d
-						spacing = 100
+						#Drawing a line in 2d						
 						xs = linspace(TEMP[id].Position[0], TEMP[leaf.Id].Position[0], spacing)
 						ys = linspace(TEMP[id].Position[1], TEMP[leaf.Id].Position[1], spacing)
-
 						figure.plot(xs, ys, zorder = 1, c = 'lightgray')
 					count += 1
 					bar.update(count)
@@ -360,9 +363,8 @@ class Display(object):
 					for node in TEMP.values():
 						figure.scatter(node.Position[0], node.Position[1], zorder = 1, c = 'k', marker = 'o', s = 160)
 						figure.scatter(node.Position[0], node.Position[1], zorder = 2, c = node.GraphColor, marker = 'o', s = 120)
-						figure.text(node.Position[0], node.Position[1], node.Id, color = 'teal')
+						figure.text(node.Position[0], node.Position[1], node.Id, color = 'r')
 								
-
 		if Show is True:
 			plt.show(block=True)
 
@@ -372,7 +374,7 @@ class Display(object):
 			if Name is not None:
 				FileName += str(Name)
 			FileName += str('---' + datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
-			fig.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '.png')
+			fig.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '-Tree.png')
 		
 		from time import sleep;
 		sleep(1);

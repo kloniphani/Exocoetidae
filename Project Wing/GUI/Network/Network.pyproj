@@ -2137,9 +2137,6 @@
     <Folder Include="Network\static\scripts" />
     <Folder Include="Network\templates" />
   </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.6" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <ProjectExtensions>
     <VisualStudio>
