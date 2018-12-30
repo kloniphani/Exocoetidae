@@ -93,12 +93,43 @@ class Multisink(object):
 
 			while(Multisink.HasNonVisitedNode(NODES) == True):
 				#Selecting the best Sink candidate node
-				for id in UNASSIGNED:
-					if NODES[id].Type == None and ():
-						NODES[id].ChangeToClusterHead()
-						Root = NODES[id];
-						break;
+				if len(UNASSIGNED) == 0:
+					break;
 
-					UNASSIGNED.remove(id)
+				for id in UNASSIGNED:
+					Root = None;	   					
+					if NODES[id].Type == None and (Profit <= REWARDS[id]):
+						NODES[id].ChangeToClusterHead()
+						NETWORK[id] = NODES[id]
+						Root = NODES[id];
+
+					if Root is not None:
+						for child in UNASSIGNED:
+							if str(child) is not str(Root.Id):
+								PATH =  list(astar_path(G, Root.Id, child, weight='length'))
+								NODES[Root.Id].AddMember(NODES[PATH[0]])
+								for i in range(1, len(PATH)):
+									NODES[PATH[i]].SetHoopHead(NODES[PATH[i-1]])
+									if str(Root.Id) is not str(PATH[i]):	  
+										NODES[PATH[i-1]].ChangeToChainNode()
+										NETWORK[PATH[i-1]] = NODES[PATH[i-1]]
+									NODES[PATH[i-1]].AddMember(NODES[PATH[i]])	 							
+									NETWORK[PATH[i-1]].AddMember(NODES[PATH[i]])
+									
+								for i in PATH:
+									if i in UNASSIGNED:
+										UNASSIGNED.remove(i)
+						if len(NODES[Root.Id].MEMBERS) == -9:
+							NODES[Root.Id].ChangeToNode();
+							UNASSIGNED.append(Root.Id)
+							del NETWORK[Root.Id]
+				
 				TrackA += 1
 				bar.update(TrackA)
+
+		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;
+		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
+			TrackA += 1
+			bar.update(TrackA)
+
+		return NODES, NETWORK, UNASSIGNED, DATA;

@@ -180,11 +180,14 @@ class Node(object):
 			print("Node: {} Changed to be Chaining Node".format(self.Id))
 
 	def AddMember(self, Node):
-		self.MEMBERS.append(Node);
+		if self.Type == None: self.Type = 1;
+		if Node not in self.MEMBERS:
+			self.MEMBERS.append(Node);
 
 	def SetHoopHead(self, Head):
-		self.Head = Head;
-		self.Type = 3;
+		self.Head = Head;  
+		if self.Type == None or self.Type == 0:
+			self.Type = 3;
 	
 	def Hoops(self):
 		self.Hoops = 0

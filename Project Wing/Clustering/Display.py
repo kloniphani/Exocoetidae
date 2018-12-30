@@ -258,7 +258,52 @@ class Display(object):
 								else:
 									figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'gray', marker = 'o', s = 30)
 									figure.text(node.Position[0], node.Position[1], node.Id)
+				
+				
+				count = 0
+				if Type is 'TREE':	
+					with progressbar.ProgressBar(max_value = len(nodes.values())) as bar:
+						spacing = 100
+						for node in list(nodes.values()):
+							if node.Type == -2:
+								figure.scatter(node.Position[0], node.Position[1], zorder = 6, c = 'black', marker = 'o', s = 120)
+								figure.text(node.Position[0], node.Position[1], node.Id)
+								continue
+							
+							if node.Type == 3:
+								xs = linspace(node.Head.Position[0], node.Position[0], spacing)
+								ys = linspace(node.Head.Position[1], node.Position[1], spacing)
+								figure.plot(xs, ys, zorder = 1, c = 'gray')	 	
 
+								figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'gray', marker = 'o', s = 30)
+								figure.text(node.Position[0], node.Position[1], node.Id)
+								continue
+							
+							if node.Type == 0:
+								figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'blue', marker = 'o', s = 30)
+								figure.text(node.Position[0], node.Position[1], node.Id)
+							elif node.Type == 1:
+								figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'green', marker = 'o', s = 30)
+								figure.text(node.Position[0], node.Position[1], node.Id)
+							elif node.Type == 2:
+								figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'yellow', marker = 'o', s = 30)
+								figure.text(node.Position[0], node.Position[1], node.Id)
+							else:
+								figure.scatter(node.Position[0], node.Position[1], zorder = 5, c = 'red', marker = 'o', s = 30)
+								figure.text(node.Position[0], node.Position[1], node.Id)
+
+							count += 1
+							bar.update(count)
+
+						for head in list(network.values()):
+							figure.scatter(head.Position[0], head.Position[1], zorder = 3, c = 'k', marker = 'o', s = 80)					
+							for leaf in head.MEMBERS:
+								xs = linspace(head.Position[0], leaf.Position[0], spacing)
+								ys = linspace(head.Position[1], leaf.Position[1], spacing)
+								figure.plot(xs, ys, zorder = 1, c = 'gray')
+
+							
+					
 		figure.set_ylabel('Latitude')
 		figure.set_xlabel('Longitude')
 		if Type is '3D': figure.set_zlabel('Altitude in (km)')
