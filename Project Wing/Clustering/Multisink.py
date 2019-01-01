@@ -82,7 +82,6 @@ class Multisink(object):
 				NODES[id].SetGraphColor('olive')
 
 			G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED, Links = True)
-
 			#Finding the Profit
 			if Mode == 'LAP':
 				Profit, Average_GD_Basestations, Average_GD_Nodes = Algorithms.FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_ResidualEnergy, Theta, Beta, Alpha)
@@ -92,44 +91,42 @@ class Multisink(object):
 				REWARDS = Algorithms.AllUAVRewards(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
 
 			while(Multisink.HasNonVisitedNode(NODES) == True):
-				#Selecting the best Sink candidate node
-				if len(UNASSIGNED) == 0:
-					break;
-
 				for id in UNASSIGNED:
 					Root = None;	   					
 					if NODES[id].Type == None and (Profit <= REWARDS[id]):
-						NODES[id].ChangeToClusterHead()
+						NODES[id].ChangeToRoot()
 						NETWORK[id] = NODES[id]
 						Root = NODES[id];
 
 					if Root is not None:
 						for child in UNASSIGNED:
 							if str(child) is not str(Root.Id):
-								PATH =  list(astar_path(G, Root.Id, child, weight='length'))
-								NODES[Root.Id].AddMember(NODES[PATH[0]])
-								for i in range(1, len(PATH)):
-									NODES[PATH[i]].SetHoopHead(NODES[PATH[i-1]])
-									if str(Root.Id) is not str(PATH[i]):	  
-										NODES[PATH[i-1]].ChangeToChainNode()
-										NETWORK[PATH[i-1]] = NODES[PATH[i-1]]
-									NODES[PATH[i-1]].AddMember(NODES[PATH[i]])	 							
-									NETWORK[PATH[i-1]].AddMember(NODES[PATH[i]])
+								PATH =  list(astar_path(G, Root.Id, child, weight='length'))   
+								NODES[Root.Id].AddPath(PATH)
+								NETWORK[Root.Id].AddPath(PATH)
 									
 								for i in PATH:
 									if i in UNASSIGNED:
-										UNASSIGNED.remove(i)
-						if len(NODES[Root.Id].MEMBERS) == -9:
+										NODES[i].ChangeToClusterMember(NODES[Root.Id])
+										UNASSIGNED.remove(i)  								
+						
+						if len(NETWORK[Root.Id].SINKPATHS) == -5:
+							print(Root.Id)
 							NODES[Root.Id].ChangeToNode();
+							NODES[Root.Id].Type = None;
 							UNASSIGNED.append(Root.Id)
 							del NETWORK[Root.Id]
-				
-				TrackA += 1
-				bar.update(TrackA)
+
+						if Root.Id in UNASSIGNED:
+							UNASSIGNED.remove(Root.Id)
+
+					TrackA += 1
+					bar.update(TrackA)
 
 		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;
 		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
 			TrackA += 1
 			bar.update(TrackA)
 
+		print("Basestation: {0}\nUnassigned: {1}".format(BASESTATIONS, UNASSIGNED))
 		return NODES, NETWORK, UNASSIGNED, DATA;

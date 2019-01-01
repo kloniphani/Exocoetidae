@@ -34,6 +34,9 @@ class Node(object):
 		#NODE IDENTITY
 		self.Id = Id; self.Name = Name; self.Type = None; NumberOfMembers = 0
 
+		#CHAINING MEMBERS
+		self.MEMBERS = []
+
 		#NETWORK INFORMATION
 		if SNR is not None:
 			if SNR < 0:
@@ -138,9 +141,6 @@ class Node(object):
 		self.Height = self.__headHeight
 		self.Position[2] = self.Height
 
-		#CLUSTER MEMBERS
-		self.MEMBERS = []
-
 		if Results is True:
 			print("Node: {} Changed to be Cluster head".format(self.Id))
 
@@ -155,10 +155,14 @@ class Node(object):
 		if 'MEMBERS' in locals() or 'MEMBERS' in globals():
 			for node in MEMBERS:
 				node.ChangeToNode(Results = Results)
-			del self.MEMBERS #Removing Cluster Members
+			self.MEMBERS.clear() #Removing Cluster Members
 
 		if Results is True:
 			print("Node: {} Changed to be Normal Node".format(self.Id))
+
+	def ChangeToRoot(self, Results = False):
+		self.Type = -1;
+		self.SINKPATHS = []
 
 	def ChangeToClusterMember(self, Head):
 		self.Head = Head; self.Type = 0;
@@ -172,10 +176,6 @@ class Node(object):
 
 	def ChangeToChainNode(self, Results = False):
 		self.Type = 2
-
-		#CHAINING MEMBERS
-		self.MEMBERS = []
-
 		if Results is True:
 			print("Node: {} Changed to be Chaining Node".format(self.Id))
 
@@ -183,6 +183,10 @@ class Node(object):
 		if self.Type == None: self.Type = 1;
 		if Node not in self.MEMBERS:
 			self.MEMBERS.append(Node);
+	
+	def AddPath(self, Path):
+		self.SINKPATHS.append(Path);
+		
 
 	def SetHoopHead(self, Head):
 		self.Head = Head;  
