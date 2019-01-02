@@ -2,7 +2,7 @@
 Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
 Date:        October 19, 2018
 Copyrights:  2017 ISAT, Department of Computer Science
-             University of the Western Cape, Bellville, ZA
+			 University of the Western Cape, Bellville, ZA
 """
 
 from Clustering.Algorithms import *

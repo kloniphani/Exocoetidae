@@ -1,3 +1,0 @@
-package skyeagle;
-
-@license(LGPL);

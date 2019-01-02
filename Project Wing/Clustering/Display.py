@@ -311,7 +311,7 @@ class Display(object):
 			FileName = ''
 			if Name is not None:
 				FileName += str(Name)
-			FileName += str('---' + datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
+			FileName += str('---' + datetime.datetime.now().strftime("%d-%m-%y--%H-%M-%S"))
 			fig.savefig('./Source/Results/' + FileName + "-R" + str(Radius) + '.png')
 		
 		from time import sleep;

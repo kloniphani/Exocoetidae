@@ -2,7 +2,7 @@
 Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
 Date:       October 19, 2018
 Copyrights:  2017 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+			University of the Western Cape, Bellville, ZA
 """
 
 from numpy import *
@@ -50,7 +50,7 @@ class Multisink(object):
 			if link.Type == Type: return True;
 		return False
 
-	def GreedySinkNodeSelectionWithSinksTreeBalancing(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP',
+	def GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP',
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
 				Theta = 0.5, Beta = 0.5, Alpha= 0.5, Profit = 0, Best_SNR = 10,
 				HopLimit = -1):	 
@@ -101,17 +101,21 @@ class Multisink(object):
 					if Root is not None:
 						for child in UNASSIGNED:
 							if str(child) is not str(Root.Id):
-								PATH =  list(astar_path(G, Root.Id, child, weight='length'))   
+								PATH =  list(astar_path(G, Root.Id, child, weight='length')) 
 								NODES[Root.Id].AddPath(PATH)
 								NETWORK[Root.Id].AddPath(PATH)
+
+								for sink in PATH[1:]:
+									NODES[Root.Id].AddMember(NODES[sink])
+									NETWORK[Root.Id].AddMember(NODES[sink])  	 							
 									
 								for i in PATH:
 									if i in UNASSIGNED:
 										NODES[i].ChangeToClusterMember(NODES[Root.Id])
-										UNASSIGNED.remove(i)  								
+										NODES[i].ChangeToChainNode()
+										UNASSIGNED.remove(i)  	
 						
-						if len(NETWORK[Root.Id].SINKPATHS) == -5:
-							print(Root.Id)
+						if len(NETWORK[Root.Id].SINKPATHS) == -5:	 
 							NODES[Root.Id].ChangeToNode();
 							NODES[Root.Id].Type = None;
 							UNASSIGNED.append(Root.Id)
@@ -120,13 +124,60 @@ class Multisink(object):
 						if Root.Id in UNASSIGNED:
 							UNASSIGNED.remove(Root.Id)
 
-					TrackA += 1
-					bar.update(TrackA)
+					TrackA += 1; bar.update(TrackA);	 			
+		return NODES, NETWORK, UNASSIGNED, DATA;
 
+	def BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, 
+				 MaximumClusterHeads = None, NumberOfNodes = None, ClusterRadius = 100,
+				 HopDistance = 50, HopLimit = 5, Crowdness = 10,
+				 Mode = 'All'):
+		#BALANCING THE TREE
 		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;
 		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
-			TrackA += 1
-			bar.update(TrackA)
+			G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED, Links = True)
+			TrackA += 1; bar.update(TrackA);
 
-		print("Basestation: {0}\nUnassigned: {1}".format(BASESTATIONS, UNASSIGNED))
+			if Mode == 'ALL' or Mode == 'Distance':
+				#Redistribution of nodes to trees based on distance in number of hops
+				for node in list(NODES.values()):
+					if node.Type == -1:
+						distance = 0; row = 0;
+						for path in node.SINKPATHS:
+							for sink in path[1:]:
+								distance += node.Distance(NODES[sink].Position)
+
+							if distance > HopDistance:
+								for n in list(NODES.values()):
+									d = 0;
+									if (str(n.Id) is not str(node.Id)) and (n.Type == -1):
+										PATH =  list(astar_path(G, n.Id, NODES[path[-1]].Id, weight='length')) 
+										child = path[-1]
+										for p in PATH[1:]:
+											d +=  n.Distance(NODES[p].Position)	 											
+											if d < HopDistance:
+												NODES[n.Id].AddPath(PATH)
+												NETWORK[n.Id].AddPath(PATH)	
+												for s in PATH[1:]:
+													NODES[n.Id].AddMember(NODES[s])
+													NETWORK[n.Id].AddMember(NODES[s]) 
+
+												del NODES[node.Id].SINKPATHS[row]
+												del NETWORK[node.Id].SINKPATHS[row]
+												
+												if child in NODES[node.Id].MEMBERS:
+													NODES[node.Id].MEMBERS.remove(child)
+												if child in NETWORK[node.Id].MEMBERS:
+													NETWORK[node.Id].MEMBERS.remove(child)	
+							else:
+								row += 1 
+					TrackA += 1; bar.update(TrackA);
+			elif Mode == 'All' or Mode == 'Crowdness':
+				#Redistribution of nodes to trees based on crowdness (nodes count expressing the maximum number of nodes that a tree is will to carry)
+				TrackA += 1; bar.update(TrackA);
+			elif Mode == 'All' or Mode == 'Hop':
+				#Redistribution of nodes to trees based on Hop limit
+				TrackA += 1; bar.update(TrackA);
+			else:
+				print("! Wrong balancing Mode");
+				TrackA += 1; bar.update(TrackA);
 		return NODES, NETWORK, UNASSIGNED, DATA;

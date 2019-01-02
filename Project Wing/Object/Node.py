@@ -165,7 +165,9 @@ class Node(object):
 		self.SINKPATHS = []
 
 	def ChangeToClusterMember(self, Head):
-		self.Head = Head; self.Type = 0;
+		self.Head = Head; 
+		if self.Type != -1 and self.Type != -2 and self.Type != 2:
+			self.Type = 0;
 		self.Height = self.__memberHeight; self.Position[2] = self.Height
 
 	def SetGraphHeight(self, Height):
@@ -175,7 +177,9 @@ class Node(object):
 		self.GraphColor = Color;
 
 	def ChangeToChainNode(self, Results = False):
-		self.Type = 2
+		if self.Type != -1 and self.Type != -2:
+			self.Type = 2
+
 		if Results is True:
 			print("Node: {} Changed to be Chaining Node".format(self.Id))
 
