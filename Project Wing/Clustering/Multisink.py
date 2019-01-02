@@ -90,7 +90,7 @@ class Multisink(object):
 				Profit = Algorithms.FindUAVProfit(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_SNR, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
 				REWARDS = Algorithms.AllUAVRewards(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
 
-			while(Multisink.HasNonVisitedNode(NODES) == True):
+			while((Multisink.HasNonVisitedNode(NODES) == True) and (TrackA <= (len(NODES.values())))):
 				for id in UNASSIGNED:
 					Root = None;	   					
 					if NODES[id].Type == None and (Profit <= REWARDS[id]):
@@ -103,11 +103,11 @@ class Multisink(object):
 							if str(child) is not str(Root.Id):
 								PATH =  list(astar_path(G, Root.Id, child, weight='length')) 
 								NODES[Root.Id].AddPath(PATH)
-								NETWORK[Root.Id].AddPath(PATH)
+								#NETWORK[Root.Id].AddPath(PATH)
 
 								for sink in PATH[1:]:
 									NODES[Root.Id].AddMember(NODES[sink])
-									NETWORK[Root.Id].AddMember(NODES[sink])  	 							
+									#NETWORK[Root.Id].AddMember(NODES[sink])  	 							
 									
 								for i in PATH:
 									if i in UNASSIGNED:
@@ -124,7 +124,7 @@ class Multisink(object):
 						if Root.Id in UNASSIGNED:
 							UNASSIGNED.remove(Root.Id)
 
-					TrackA += 1; bar.update(TrackA);	 			
+					TrackA += 1; bar.update(TrackA);
 		return NODES, NETWORK, UNASSIGNED, DATA;
 
 	def BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, 
@@ -145,29 +145,34 @@ class Multisink(object):
 						for path in node.SINKPATHS:
 							for sink in path[1:]:
 								distance += node.Distance(NODES[sink].Position)
-
+							child = path[-1]
 							if distance > HopDistance:
 								for n in list(NODES.values()):
 									d = 0;
 									if (str(n.Id) is not str(node.Id)) and (n.Type == -1):
-										PATH =  list(astar_path(G, n.Id, NODES[path[-1]].Id, weight='length')) 
-										child = path[-1]
+										PATH =  list(astar_path(G, n.Id, NODES[child].Id, weight='length')) 
+										
 										for p in PATH[1:]:
-											d +=  n.Distance(NODES[p].Position)	 											
-											if d < HopDistance:
-												NODES[n.Id].AddPath(PATH)
-												NETWORK[n.Id].AddPath(PATH)	
-												for s in PATH[1:]:
-													NODES[n.Id].AddMember(NODES[s])
-													NETWORK[n.Id].AddMember(NODES[s]) 
-
-												del NODES[node.Id].SINKPATHS[row]
-												del NETWORK[node.Id].SINKPATHS[row]
+											d +=  n.Distance(NODES[p].Position)	 
+											
+										if d < HopDistance:
+											NODES[n.Id].AddPath(PATH)
+											#NETWORK[n.Id].AddPath(PATH)	
+											for s in PATH[1:]:
+												NODES[n.Id].AddMember(NODES[s])
+												NODES[node.Id].RemoveMember(NODES[s])
+												#NETWORK[n.Id].AddMember(NODES[s])
 												
-												if child in NODES[node.Id].MEMBERS:
-													NODES[node.Id].MEMBERS.remove(child)
-												if child in NETWORK[node.Id].MEMBERS:
-													NETWORK[node.Id].MEMBERS.remove(child)	
+											#if child in NODES[node.Id].MEMBERS:
+											#	NODES[node.Id].MEMBERS.remove(child)
+											if path in 	NODES[node.Id].SINKPATHS:
+												NODES[node.Id].SINKPATHS.remove(path)
+											#del NODES[node.Id].SINKPATHS[row]
+												
+											#if child in NETWORK[node.Id].MEMBERS:
+											#	NETWORK[node.Id].MEMBERS.remove(child)
+											#	del NETWORK[node.Id].SINKPATHS[row]
+											break;
 							else:
 								row += 1 
 					TrackA += 1; bar.update(TrackA);

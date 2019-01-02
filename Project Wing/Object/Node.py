@@ -189,7 +189,8 @@ class Node(object):
 			self.MEMBERS.append(Node);
 	
 	def AddPath(self, Path):
-		self.SINKPATHS.append(Path);
+		if Path not in self.SINKPATHS:
+			self.SINKPATHS.append(Path);
 		
 
 	def SetHoopHead(self, Head):
@@ -211,10 +212,11 @@ class Node(object):
 				
 	def RemoveMember(self, Node, Results = False):
 		try:
-			self.MEMBERS.remove(Node)
+			if Node in self.MEMBERS:
+				self.MEMBERS.remove(Node)
 			if Results is True: print('Node: #{} was SUCESSFULLY Deleted from the List'.format(Node.Id))
 		except:
-			print('Failed to delete Node: {}'.format(Node))
+			print('Failed to delete Node: {}'.format(Node.Id))
 	
 	def Position(self, Point):
 		"""
