@@ -2442,6 +2442,9 @@
     <Compile Include="Clustering\Multisink.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Clustering\Shortpaths.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Clustering\__init__.py" />
     <Compile Include="Emulation.py" />
     <Compile Include="GUI\Interface.py" />

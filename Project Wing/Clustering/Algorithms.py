@@ -28,7 +28,7 @@ class Algorithms(object):
 		if Links == True:
 			for node in NODES.values(): 
 				for link in node.LINKS:
-					if str(node.Id) is not str(link.Id):
+					if str(node.Id) is not str(link.Id) and (node.Type != -2 and link.Type != -2):
 						G.add_edge(node.Id, link.Id, weight = node.Distance(link.Position, Type = '2D', Results = Results))
 		elif Links == False:
 			for node in NODES.values():

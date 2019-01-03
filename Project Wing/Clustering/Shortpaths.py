@@ -1,6 +1,6 @@
 """         
 Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:       October 19, 2018
+Date:       January 3, 2019
 Copyrights:  2017 ISAT, Department of Computer Science
 			University of the Western Cape, Bellville, ZA
 """
@@ -12,7 +12,7 @@ import json, io, progressbar
 
 from Clustering.Algorithms import *
 
-class Multisink(object):
+class Shortpaths(object):
 	"""description of class"""
 
 	def InitialiseNodes(NODES, BestSNR = 0, Height = 0, Results = False):
@@ -50,11 +50,11 @@ class Multisink(object):
 			if link.Type == Type: return True;
 		return False
 
-	def GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP',
+	def GreedySinkNodeSelection(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP',
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
 				Theta = 0.5, Beta = 0.5, Alpha= 0.5, Profit = 0, Best_SNR = 10,
 				HopLimit = -1):	 
-		print("\nGreedy Sink Node Selection With Sinks Tree Balancing Model at [{0}] Processing".format(Mode))
+		print("\nGreedy Sink Node Selection With Sinks Network Shortest Path Balancing Model at [{0}] Processing".format(Mode))
 		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
 			#Sorting the Nodes in Descending order based on their SNR
 			TEMP = list(NODES.values());
@@ -98,44 +98,36 @@ class Multisink(object):
 						NETWORK[id] = NODES[id]
 						Root = NODES[id];
 
-					if Root is not None: 						
-						MST = list(minimum_spanning_edges(G, algorithm = 'kruskal', data = False, weight = 'length'))
-						PATHS = []
+					if Root is not None:
+						for child in UNASSIGNED:
+							if str(child) is not str(Root.Id):
+								PATH =  list(astar_path(G, Root.Id, child, weight='length')) 
+								NODES[Root.Id].AddPath(PATH)
+								#NETWORK[Root.Id].AddPath(PATH)
+
+								for sink in PATH[1:]:
+									NODES[Root.Id].AddMember(NODES[sink])
+									#NETWORK[Root.Id].AddMember(NODES[sink])  	 							
+									
+								for i in PATH:
+									if i in UNASSIGNED:
+										NODES[i].ChangeToClusterMember(NODES[Root.Id])
+										NODES[i].ChangeToChainNode()
+										UNASSIGNED.remove(i)  	
 						
-						for path in MST:					
-							PATHS.append(list(path))
-							TrackA += 1; bar.update(TrackA);
-						
-						for path in PATHS:
-							for p in PATHS:
-								if p is not path and path[-1] == p[0]:
-									path.append(p[-1])
-									PATHS.remove(p)
-
-							TrackA += 1; bar.update(TrackA);
-
-						for path in PATHS:
-							for i in path:
-								if i not in NODES[Root.Id].MEMBERS and str(i) is not str(Root.Id):
-									NODES[Root.Id].AddMember(NODES[i])
-								if i in UNASSIGNED:
-									NODES[i].ChangeToClusterMember(NODES[Root.Id])
-									NODES[i].ChangeToChainNode()
-									UNASSIGNED.remove(i)  
-
-							TrackA += 1; bar.update(TrackA);
+						if len(NETWORK[Root.Id].SINKPATHS) == -5:	 
+							NODES[Root.Id].ChangeToNode();
+							NODES[Root.Id].Type = None;
+							UNASSIGNED.append(Root.Id)
+							del NETWORK[Root.Id]
 
 						if Root.Id in UNASSIGNED:
 							UNASSIGNED.remove(Root.Id)
-					
-						for path in PATHS:
-							print(path)
-							NODES[Root.Id].AddPath(path)
 
 					TrackA += 1; bar.update(TrackA);
 		return NODES, NETWORK, UNASSIGNED, DATA;
 
-	def BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, 
+	def BalanceNetwork(NODES, NETWORK, UNASSIGNED, DATA, 
 				 MaximumClusterHeads = None, NumberOfNodes = None, ClusterRadius = 100,
 				 HopDistance = 50, HopLimit = 2, Crowdness = 8,
 				 Mode = 'All'):
@@ -233,3 +225,5 @@ class Multisink(object):
 				print("! Wrong balancing Mode");
 				TrackA += 1; bar.update(TrackA);
 		return NODES, NETWORK, UNASSIGNED, DATA;
+
+
