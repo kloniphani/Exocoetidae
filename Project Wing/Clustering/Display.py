@@ -270,6 +270,10 @@ class Display(object):
 		
 						figure.scatter(head.Position[0], head.Position[1], zorder = 4, c = color, marker = 'o', s = 10)
 						figure.text(head.Position[0], head.Position[1], head.Id)
+
+						for node in head.MEMBERS:
+							figure.text(nodes[node.Id].Position[0], nodes[node.Id].Position[1], nodes[node.Id].Id)
+							figure.scatter(nodes[node.Id].Position[0], nodes[node.Id].Position[1], zorder = 2, c = color, marker = 'o', s = 30)
 				
 						for path in head.SINKPATHS:
 							for i in range(len(path)-1) :
@@ -277,9 +281,6 @@ class Display(object):
 								ys = linspace(nodes[path[i]].Position[1], nodes[path[i + 1]].Position[1], spacing)
 
 								figure.plot(xs, ys, zorder = 1, c = color)
-								figure.scatter(nodes[path[i + 1]].Position[0], nodes[path[i + 1]].Position[1], zorder = 2, c = color, marker = 'o', s = 30)
-								figure.text(nodes[path[i + 1]].Position[0], nodes[path[i + 1]].Position[1], nodes[path[i + 1]].Id)
-
 						count += 1
 						bar.update(count)
 

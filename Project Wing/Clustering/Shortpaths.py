@@ -143,8 +143,8 @@ class Shortpaths(object):
 					if node.Type == -1:
 						distance = 0; row = 0;
 						for path in node.SINKPATHS:
-							for sink in path[1:]:
-								distance += node.Distance(NODES[sink].Position)
+							for i in range(len(path)-1):
+								distance += NODES[path[i]].Distance(NODES[path[i + 1]].Position)
 							child = path[-1]
 							if distance > HopDistance:
 								for n in list(NODES.values()):
@@ -152,10 +152,10 @@ class Shortpaths(object):
 									if (str(n.Id) is not str(node.Id)) and (n.Type == -1):
 										PATH =  list(astar_path(G, n.Id, NODES[child].Id, weight='length')) 
 										
-										for p in PATH[1:]:
-											d +=  n.Distance(NODES[p].Position)	 
+										for i in range(len(PATH)-1):
+											d += NODES[PATH[i]].Distance(NODES[PATH[i + 1]].Position)
 											
-										if d < HopDistance:
+										if d + NODES[node.Id].Distance(NODES[n.Id].Position) < HopDistance:
 											NODES[n.Id].AddPath(PATH)
 											#NETWORK[n.Id].AddPath(PATH)	
 											for s in PATH[1:]:
@@ -181,24 +181,29 @@ class Shortpaths(object):
 				#Redistribution of nodes to trees based on crowdness (nodes count expressing the maximum number of nodes that a tree is will to carry)
 				TEMP = list(NETWORK.values());
 				TEMP.sort(key = lambda node: len(node.MEMBERS), reverse = False) 
-
+				Track = 0;
+				
 				for node in list(NETWORK.values()):
 					if node.Type == -1 and len(node.MEMBERS) > Crowdness:
-						for sink in node.MEMBERS:
-							for n in TEMP:
-								if (str(n.Id) is not str(node.Id)) and ( len(n.MEMBERS) < Crowdness) and n.Type == -1:
-									PATH =  list(astar_path(G, n.Id, sink.Id, weight='length')) 
-									NODES[n.Id].AddPath(PATH)
+						count = 0;
+						while(count < (len(node.MEMBERS) - Crowdness) and Track < 100):
+							for sink in node.MEMBERS:
+								for n in TEMP:
+									if (str(n.Id) is not str(node.Id)) and ( len(n.MEMBERS) < Crowdness) and n.Type == -1:
+										PATH =  list(astar_path(G, n.Id, sink.Id, weight='length')) 
+										NODES[n.Id].AddPath(PATH)
 
-									for s in PATH[1:]:
-										NODES[n.Id].AddMember(NODES[s])
-										NODES[node.Id].RemoveMember(NODES[s])
+										for s in PATH[1:]:
+											NODES[n.Id].AddMember(NODES[s])
+											NODES[node.Id].RemoveMember(NODES[s])
 
-									NODES[node.Id].RemoveMember(NODES[sink.Id])
-									for path in NODES[node.Id].SINKPATHS:
-										if str(path[-1]) is str(sink.Id):
-											NODES[node.Id].SINKPATHS.remove(path);
-											break;
+										NODES[node.Id].RemoveMember(NODES[sink.Id])
+										for path in NODES[node.Id].SINKPATHS:
+											if str(path[-1]) is str(sink.Id):
+												NODES[node.Id].SINKPATHS.remove(path);
+												count += 1;
+												break;
+							Track += 1;
 					TrackA += 1; bar.update(TrackA);
 
 			if Mode == 'All' or Mode == 'Hop':

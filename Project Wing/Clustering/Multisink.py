@@ -102,19 +102,11 @@ class Multisink(object):
 						MST = list(minimum_spanning_edges(G, algorithm = 'kruskal', data = False, weight = 'length'))
 						PATHS = []
 						
-						for path in MST:					
+						for path in MST:
 							PATHS.append(list(path))
 							TrackA += 1; bar.update(TrackA);
-						
-						for path in PATHS:
-							for p in PATHS:
-								if p is not path and path[-1] == p[0]:
-									path.append(p[-1])
-									PATHS.remove(p)
 
-							TrackA += 1; bar.update(TrackA);
-
-						for path in PATHS:
+						for path in PATHS: 							
 							for i in path:
 								if i not in NODES[Root.Id].MEMBERS and str(i) is not str(Root.Id):
 									NODES[Root.Id].AddMember(NODES[i])
@@ -122,14 +114,21 @@ class Multisink(object):
 									NODES[i].ChangeToClusterMember(NODES[Root.Id])
 									NODES[i].ChangeToChainNode()
 									UNASSIGNED.remove(i)  
-
+							
+							NODES[path[1]].SetHoopHead(NODES[path[0]])
+							NODES[path[0]].AddMember(NODES[path[1]])
 							TrackA += 1; bar.update(TrackA);
 
 						if Root.Id in UNASSIGNED:
 							UNASSIGNED.remove(Root.Id)
+
+						#for path in PATHS:
+						#	for p in PATHS:
+						#		if p is not path and path[-1] == p[0]:
+						#			path.append(p[-1])
+						#			PATHS.remove(p)
 					
 						for path in PATHS:
-							print(path)
 							NODES[Root.Id].AddPath(path)
 
 					TrackA += 1; bar.update(TrackA);
@@ -137,97 +136,61 @@ class Multisink(object):
 
 	def BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, 
 				 MaximumClusterHeads = None, NumberOfNodes = None, ClusterRadius = 100,
-				 HopDistance = 50, HopLimit = 2, Crowdness = 8,
+				 HopDistance = 40, HopLimit = 2, Crowdness = 8,
 				 Mode = 'All'):
 		#BALANCING THE TREE
 		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;
 		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
-			G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED, Links = True)
 			TrackA += 1; bar.update(TrackA);
 
 			if Mode == 'All' or  Mode == 'Distance':
-				#Redistribution of nodes to trees based on distance in number of hops
-				for node in list(NETWORK.values()):
-					if node.Type == -1:
-						distance = 0; row = 0;
-						for path in node.SINKPATHS:
-							for sink in path[1:]:
-								distance += node.Distance(NODES[sink].Position)
-							child = path[-1]
-							if distance > HopDistance:
-								for n in list(NODES.values()):
-									d = 0;
-									if (str(n.Id) is not str(node.Id)) and (n.Type == -1):
-										PATH =  list(astar_path(G, n.Id, NODES[child].Id, weight='length')) 
+				#Redistribution of nodes to trees based on distance in number of hops 				
+				for root in list(NETWORK.values()):
+					G = Graph();
+					G.add_nodes_from([n.Id for n in list(NODES.values())])
+					G.add_edges_from(root.SINKPATHS)
+
+					for node in root.MEMBERS:
+						Distance = 0;
+						path = dijkstra_path(G,node.Id,root.Id)
+						for i in range(len(path)-1):
+							Distance += NODES[path[i]].Distance(NODES[path[i + 1]].Position)
+
+						if Distance > HopDistance:
+							for n in root.MEMBERS:
+								if str(node.Id) is not str(n.Id):
+									p = dijkstra_path(G,n.Id,root.Id)
+									distance = 0;
+									for i in range(len(p)-1):
+										distance += NODES[p[i]].Distance(NODES[p[i + 1]].Position)
+									
+									if distance + node.Distance(n.Position) <= HopDistance:
+										for sinkpath in root.SINKPATHS:
+											if (node.Head.Id in sinkpath and node.Id in sinkpath):
+												NODES[root.Id].SINKPATHS.remove(sinkpath)
+												break;
 										
-										for p in PATH[1:]:
-											d +=  n.Distance(NODES[p].Position)	 
-											
-										if d < HopDistance:
-											NODES[n.Id].AddPath(PATH)
-											#NETWORK[n.Id].AddPath(PATH)	
-											for s in PATH[1:]:
-												NODES[n.Id].AddMember(NODES[s])
-												NODES[node.Id].RemoveMember(NODES[s])
-												#NETWORK[n.Id].AddMember(NODES[s])
-												
-											#if child in NODES[node.Id].MEMBERS:
-											#	NODES[node.Id].MEMBERS.remove(child)
-											if path in 	NODES[node.Id].SINKPATHS:
-												NODES[node.Id].SINKPATHS.remove(path)
-											#del NODES[node.Id].SINKPATHS[row]
-												
-											#if child in NETWORK[node.Id].MEMBERS:
-											#	NETWORK[node.Id].MEMBERS.remove(child)
-											#	del NETWORK[node.Id].SINKPATHS[row]
-											break;
-							else:
-								row += 1 
-					TrackA += 1; bar.update(TrackA);
+										NODES[node.Head.Id].RemoveMember(NODES[node.Id])
+
+										NODES[root.Id].SINKPATHS.append([node.Id, n.Id])
+										NODES[node.Id].SetHoopHead(NODES[n.Id])
+										NODES[n.Id].AddMember(NODES[node.Id])
+
+						TrackA += 1; bar.update(TrackA);
 
 			if Mode == 'All' or Mode == 'Crowdness':
 				#Redistribution of nodes to trees based on crowdness (nodes count expressing the maximum number of nodes that a tree is will to carry)
-				TEMP = list(NETWORK.values());
+				TEMP = list(NODES.values());
 				TEMP.sort(key = lambda node: len(node.MEMBERS), reverse = False) 
 
-				for node in list(NETWORK.values()):
-					if node.Type == -1 and len(node.MEMBERS) > Crowdness:
-						for sink in node.MEMBERS:
-							for n in TEMP:
-								if (str(n.Id) is not str(node.Id)) and ( len(n.MEMBERS) < Crowdness) and n.Type == -1:
-									PATH =  list(astar_path(G, n.Id, sink.Id, weight='length')) 
-									NODES[n.Id].AddPath(PATH)
-
-									for s in PATH[1:]:
-										NODES[n.Id].AddMember(NODES[s])
-										NODES[node.Id].RemoveMember(NODES[s])
-
-									NODES[node.Id].RemoveMember(NODES[sink.Id])
-									for path in NODES[node.Id].SINKPATHS:
-										if str(path[-1]) is str(sink.Id):
-											NODES[node.Id].SINKPATHS.remove(path);
-											break;
-					TrackA += 1; bar.update(TrackA);
+			
+				TrackA += 1; bar.update(TrackA);
 
 			if Mode == 'All' or Mode == 'Hop':
 				#Redistribution of nodes to trees based on Hop limit
-				for node in list(NETWORK.values()):
-					if node.Type == -1:
-						for path in node.SINKPATHS:
-							if (len(path) - 1) > HopLimit:
-								child = path[-1]
-								for root in list(NETWORK.values()):
-									PATH =  list(astar_path(G, root.Id, child, weight='length'))
-									if ((len(PATH) -  1) <= HopLimit):
-										NODES[root.Id].AddPath(PATH)
-										if path in NODES[node.Id].SINKPATHS:
-											NODES[node.Id].SINKPATHS.remove(path)
-										for s in PATH[1:]:											
-											NODES[root.Id].AddMember(NODES[s])
-											NODES[node.Id].RemoveMember(NODES[s])
-										break;
+				
 
-					TrackA += 1; bar.update(TrackA);
+				TrackA += 1; bar.update(TrackA);
 			
 			if Mode != 'All' and Mode != 'Hop' and Mode != 'Crowdness' and  Mode != 'Distance':
 				print("! Wrong balancing Mode");
