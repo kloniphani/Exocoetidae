@@ -170,7 +170,8 @@ class Multisink(object):
 												NODES[root.Id].SINKPATHS.remove(sinkpath)
 												break;
 										
-										NODES[node.Head.Id].RemoveMember(NODES[node.Id])
+										if str(node.Head.Id) is not str(root.Id):
+											NODES[node.Head.Id].RemoveMember(NODES[node.Id])
 
 										NODES[root.Id].SINKPATHS.append([node.Id, n.Id])
 										NODES[node.Id].SetHoopHead(NODES[n.Id])
@@ -180,17 +181,67 @@ class Multisink(object):
 
 			if Mode == 'All' or Mode == 'Crowdness':
 				#Redistribution of nodes to trees based on crowdness (nodes count expressing the maximum number of nodes that a tree is will to carry)
-				TEMP = list(NODES.values());
-				TEMP.sort(key = lambda node: len(node.MEMBERS), reverse = False) 
+				for root in list(NETWORK.values()):	
+					G = Graph();
+					G.add_nodes_from([n.Id for n in list(NODES.values())])
+					G.add_edges_from(root.SINKPATHS)
 
-			
-				TrackA += 1; bar.update(TrackA);
+					for node in root.MEMBERS:
+						Track = 0; count = 0;
+						if len(node.MEMBERS) > Crowdness:
+							while(count < (len(node.MEMBERS) - Crowdness) and Track < 100):
+								for sink in root.MEMBERS:
+									if str(node.Id) is not str(sink.Id) and len(sink.MEMBERS) < Crowdness:
+										if len(node.MEMBERS) > 0:
+											child = random.choice(node.MEMBERS)
+											try:
+												if sink.Id in [c.Id for c in child.LINKS] and len(dijkstra_path(G, sink.Id, root.Id)) > 0:
+													for sinkpath in root.SINKPATHS:
+														if (child.Head.Id in sinkpath and child.Id in sinkpath):
+															NODES[root.Id].SINKPATHS.remove(sinkpath)
+															break;
+										
+													if str(child.Head.Id) is not str(root.Id):
+														NODES[child.Head.Id].RemoveMember(NODES[child.Id]) 
+														G.remove_edge(child.Head.Id, child.Id)
+
+													NODES[root.Id].SINKPATHS.append([child.Id, sink.Id])
+													G.add_edge([child.Id, sink.Id])
+													NODES[child.Id].SetHoopHead(NODES[sink.Id])
+													NODES[sink.Id].AddMember(NODES[child.Id])
+													count += 1;
+											except:
+												pass
+										else:
+											break;
+								Track += 1;
+						TrackA += 1; bar.update(TrackA);
 
 			if Mode == 'All' or Mode == 'Hop':
 				#Redistribution of nodes to trees based on Hop limit
-				
+				for root in list(NETWORK.values()):
+					G = Graph();
+					G.add_nodes_from([n.Id for n in list(NODES.values())])
+					G.add_edges_from(root.SINKPATHS)
 
-				TrackA += 1; bar.update(TrackA);
+					for node in root.MEMBERS:
+						PATH = dijkstra_path(G, node.Id, root.Id)
+						if (len(PATH) - 1 > HopLimit):
+							for sink in root.MEMBERS:
+								path = dijkstra_path(G, sink.Id, root.Id)
+								if len(path) - 1 < HopLimit:
+									for sinkpath in root.SINKPATHS:
+										if (node.Head.Id in sinkpath and node.Id in sinkpath):
+											NODES[root.Id].SINKPATHS.remove(sinkpath)
+											break;
+										
+									if str(node.Head.Id) is not str(root.Id):
+										NODES[node.Head.Id].RemoveMember(NODES[node.Id])
+
+									NODES[root.Id].SINKPATHS.append([node.Id, sink.Id])
+									NODES[node.Id].SetHoopHead(NODES[sink.Id])
+									NODES[sink.Id].AddMember(NODES[node.Id])
+					TrackA += 1; bar.update(TrackA);
 			
 			if Mode != 'All' and Mode != 'Hop' and Mode != 'Crowdness' and  Mode != 'Distance':
 				print("! Wrong balancing Mode");

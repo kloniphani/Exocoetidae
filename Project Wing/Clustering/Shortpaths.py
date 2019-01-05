@@ -215,7 +215,7 @@ class Shortpaths(object):
 								child = path[-1]
 								for root in list(NETWORK.values()):
 									PATH =  list(astar_path(G, root.Id, child, weight='length'))
-									if ((len(PATH) -  1) <= HopLimit):
+									if ((len(PATH) -  1) < HopLimit):
 										NODES[root.Id].AddPath(PATH)
 										if path in NODES[node.Id].SINKPATHS:
 											NODES[node.Id].SINKPATHS.remove(path)
