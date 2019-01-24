@@ -11,6 +11,7 @@ from Clustering.Model import *
 from Clustering.Display import *
 from Clustering.Backbone import *
 from Clustering.Multisink import *
+from Clustering.Shortpaths import *
 from Object.Node import *
 from Object.Provider import *
 from Source.API import *
@@ -124,11 +125,13 @@ if __name__ == '__main__':
 	NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 	#NODES, NETWORK, UNASSIGNED, DATA = Model.Successive(NODES, NETWORK, UNASSIGNED, DATA)
 	#NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'UAV')
-	NODES, NETWORK, UNASSIGNED, DATA = Multisink.GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
+	#NODES, NETWORK, UNASSIGNED, DATA = Multisink.GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
+	NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.GreedySinkNodeSelection(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = 'TREE')
 
-	NODES, NETWORK, UNASSIGNED, DATA = Multisink.BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
+	#NODES, NETWORK, UNASSIGNED, DATA = Multisink.BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
+	NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.BalanceNetwork(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = 'TREE')
 	

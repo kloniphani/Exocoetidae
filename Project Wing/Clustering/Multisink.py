@@ -228,19 +228,19 @@ class Multisink(object):
 						PATH = dijkstra_path(G, node.Id, root.Id)
 						if (len(PATH) - 1 > HopLimit):
 							for sink in root.MEMBERS:
-								path = dijkstra_path(G, sink.Id, root.Id)
-								if len(path) - 1 < HopLimit:
-									for sinkpath in root.SINKPATHS:
-										if (node.Head.Id in sinkpath and node.Id in sinkpath):
-											NODES[root.Id].SINKPATHS.remove(sinkpath)
-											break;
+								if str(node.Id) is not str(sink.Id):
+									path = dijkstra_path(G, sink.Id, root.Id)
+									if len(path) - 1 < HopLimit:
+										for sinkpath in root.SINKPATHS:
+											if (node.Head.Id in sinkpath and node.Id in sinkpath):
+												NODES[root.Id].SINKPATHS.remove(sinkpath)
 										
-									if str(node.Head.Id) is not str(root.Id):
-										NODES[node.Head.Id].RemoveMember(NODES[node.Id])
+										if str(node.Head.Id) is not str(root.Id):
+											NODES[node.Head.Id].RemoveMember(NODES[node.Id])
 
-									NODES[root.Id].SINKPATHS.append([node.Id, sink.Id])
-									NODES[node.Id].SetHoopHead(NODES[sink.Id])
-									NODES[sink.Id].AddMember(NODES[node.Id])
+										NODES[root.Id].SINKPATHS.append([node.Id, sink.Id])
+										NODES[node.Id].SetHoopHead(NODES[sink.Id])
+										NODES[sink.Id].AddMember(NODES[node.Id])
 					TrackA += 1; bar.update(TrackA);
 			
 			if Mode != 'All' and Mode != 'Hop' and Mode != 'Crowdness' and  Mode != 'Distance':

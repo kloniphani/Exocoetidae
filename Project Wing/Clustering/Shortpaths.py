@@ -75,7 +75,7 @@ class Shortpaths(object):
 		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
 			#Selecting the Base Station and Creating the Network Graph
 			Total = 2; 
-			NODES = Multisink.InitialiseNodes(NODES, BestSNR = 50)
+			NODES = Shortpaths.InitialiseNodes(NODES, BestSNR = 50)
 			NODES, NETWORK, UNASSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total)
 			for id in BASESTATIONS:
 				NODES[id].SetGraphHeight(-1)
@@ -90,7 +90,7 @@ class Shortpaths(object):
 				Profit = Algorithms.FindUAVProfit(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_SNR, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
 				REWARDS = Algorithms.AllUAVRewards(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
 
-			while((Multisink.HasNonVisitedNode(NODES) == True) and (TrackA <= (len(NODES.values())))):
+			while((Shortpaths.HasNonVisitedNode(NODES) == True) and (TrackA <= (len(NODES.values())))):
 				for id in UNASSIGNED:
 					Root = None;	   					
 					if NODES[id].Type == None and (Profit <= REWARDS[id]):
