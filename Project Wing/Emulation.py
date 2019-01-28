@@ -99,6 +99,7 @@ if __name__ is '__main__':
 			Heads = [] #To store computed number of Cluster Heads
 			Unassigned = [] #To store number of nodes not connected
 			Interclusters = []
+			Empty = []
 
 			print('\n#{0:5}: Creating Nodes!'.format(i))
 			ServiceProvider = Provider(Id = '00', Address = "" + Place + ", South Africa", Position = [-23.829150, 30.142595,10])
@@ -111,8 +112,8 @@ if __name__ is '__main__':
 			Technique = 'Backhauling';
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -121,8 +122,8 @@ if __name__ is '__main__':
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -130,8 +131,8 @@ if __name__ is '__main__':
 			Technique = 'GSMB - UAV';
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -139,8 +140,8 @@ if __name__ is '__main__':
 			Technique = 'GSMB - LAP';
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Successive(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -148,8 +149,8 @@ if __name__ is '__main__':
 			Technique = 'GCHC - UAV';
 			NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'UAV', ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -157,13 +158,13 @@ if __name__ is '__main__':
 			Technique = 'GCHC - LAP';
 			NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP', ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			bar.update(i)
-			RESULTS.append([i, Network.Minimum_SNR, Network.Maximum_SNR, Network.Median_ResidualEnergy] + Heads + Interclusters + Unassigned)
+			RESULTS.append([i, Network.Minimum_SNR, Network.Maximum_SNR, Network.Median_ResidualEnergy] + Heads + Interclusters + Unassigned + Empty)
 			del Network;
 
 	Emulation.SaveToExcel(RESULTS, FileName = Place, SheetName = Distribution, Distribution=Distribution)

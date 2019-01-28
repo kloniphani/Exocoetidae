@@ -13,17 +13,17 @@ import progressbar
 class Emulation(object):
 	def SaveToExcel(INPUTDATA, FileName = None, SheetName = None, Results = False):
 		import pandas as pd
-		import time
+		import datetime
 
 		if FileName is not None:
-			FileName = './Model/Computed Data/{0}-{1}.xlsx'.format(FileName, time.ctime())
+			FileName = './Model/Computed Data/{0}-{1}.xlsx'.format(FileName,  datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
 		else:
 			FileName = './Model/Computed Data/Results.xlsx'
 
 		if SheetName is None:
 			SheetName = 'Results'
 
-		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'Myopic CH', 'Odd CH', 'OddRange CH', 'K-Means CH', 'Backhauling I-CH', 'Myopic I-CH', 'Odd I-CH', 'OddRange I-CH', 'K-Means I-CH', 'Backhauling Unassigned', 'Myopic Unassigned', 'Odd Unassigned', 'OddRange Unassigned', 'K-Means Unassigned']
+		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'Myopic CH', 'Odd CH', 'OddRange CH', 'K-Means CH', 'Backhauling I-CH', 'Myopic I-CH', 'Odd I-CH', 'OddRange I-CH', 'K-Means I-CH', 'Backhauling Unassigned', 'Myopic Unassigned', 'Odd Unassigned', 'OddRange Unassigned', 'K-Means Unassigned', 'Backhauling Empty', 'Myopic Empty', 'Odd Empty', 'OddRange Empty', 'K-Means Empty']
 		
 		DATA = {}
 		DATA['Emulation'] = []
@@ -48,6 +48,12 @@ class Emulation(object):
 		DATA['OddRange Unassigned'] = []
 		DATA['Converse Unassigned'] = []
 		DATA['K-Means Unassigned'] = []
+		DATA['Backhauling Empty'] = []
+		DATA['Myopic Empty'] = []
+		DATA['Odd Empty'] = []
+		DATA['OddRange Empty'] = []
+		DATA['Converse Empty'] = []
+		DATA['K-Means Empty'] = []
 
 		for data in INPUTDATA:
 			DATA['Emulation'].append(data[0])
@@ -72,6 +78,12 @@ class Emulation(object):
 			DATA['OddRange Unassigned'].append(data[19])
 			DATA['Converse Unassigned'].append(data[20])
 			DATA['K-Means Unassigned'].append(data[21])
+			DATA['Backhauling Empty'].append(data[22])
+			DATA['Myopic Empty'].append(data[23])
+			DATA['Odd Empty'].append(data[24])
+			DATA['OddRange Empty'].append(data[25])
+			DATA['Converse Empty'].append(data[26])
+			DATA['K-Means Empty'].append(data[27])
 		
 		DataFrames = pd.DataFrame(data = DATA, columns = Columns)  #Create a Pandas dataframe from some data.
 		Writer = pd.ExcelWriter(FileName, engine='xlsxwriter') #Create a Pandas Excel writer using XlsxWriter as the engine.
@@ -85,8 +97,11 @@ if __name__ is '__main__':
 	import time
 
 	Place = 'Mopani'
+	Code = '0930';
+	Distribution = 'Normal'
 	RESULTS = []	
-	End = 20
+	End = 1
+	FileName = "{0}-{1}".format(Place, Distribution)
 
 	Network = None; NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -95,6 +110,7 @@ if __name__ is '__main__':
 			Heads = [] #To store computed number of Cluster Heads
 			Unassigned = [] #To store number of nodes not connected
 			Interclusters = []
+			Empty = []
 
 			print('\n#{0:5}: Creating Nodes!'.format(i))
 			ServiceProvider = Provider(Id = '00', Address = "" + Place + ", South Africa", Position = [-23.829150, 30.142595,10])
@@ -105,52 +121,52 @@ if __name__ is '__main__':
 			print('\n#{0:5}: Running Models!'.format(i))
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Odd(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			NODES, NETWORK, UNASSIGNED, DATA = Model.OddRange(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Converse(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 	
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			NODES, NETWORK, UNASSIGNED, DATA = Model.KMeans(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			CHs, ICHs = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs);
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			bar.update(i)
-			RESULTS.append([i, Network.Minimum_SNR, Network.Maximum_SNR, Network.Median_ResidualEnergy] + Heads + Interclusters + Unassigned)
+			RESULTS.append([i, Network.Minimum_SNR, Network.Maximum_SNR, Network.Median_ResidualEnergy] + Heads + Interclusters + Unassigned + Empty)
 			del Network;
 			time.sleep(5)
 
-	Emulation.SaveToExcel(RESULTS)
+	Emulation.SaveToExcel(RESULTS, FileName = FileName)
 
 	print('\n\n-----DONE-----')

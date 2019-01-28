@@ -81,7 +81,7 @@ class Model(object):
 
 				if Head is not None:
 					#Calculating the number of Nodes per Cluster
-					NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
+					NumberOfNodes = int(ceil(abs(( NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
 
 					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
 					NETWORK[Head] = NODES[Head]
@@ -135,8 +135,8 @@ class Model(object):
 				if Head is not None:
 					#Calculating the number of Nodes per Cluster.
 					#NumberOfNodes = int(ceil(abs((len(NODES) * (NODES[Head].SNR + abs(Minimum_SNR)) * 0.05)/(Maximum_SNR + abs(Minimum_SNR)))))
-					#NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
-					NumberOfNodes = int(ceil(abs(((len(NODES)) * (NODES[Head].SNR * (Deviation_SNR/Average_SNR)/(Maximum_SNR - Minimum_SNR)))))*0.2)
+					NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
+					#NumberOfNodes = int(ceil(abs(((len(NODES)) * (NODES[Head].SNR * (Deviation_SNR/Average_SNR)/(Maximum_SNR - Minimum_SNR)))))*0.2)
 
 					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
 					NETWORK[Head] = NODES[Head]
@@ -207,8 +207,8 @@ class Model(object):
 
 				if Head is not None:
 					#Calculating the number of Nodes per Cluster.
-					#NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
-					NumberOfNodes = int(ceil(abs(((len(NODES)) * (NODES[Head].SNR * (Deviation_SNR/Average_SNR)/(Maximum_SNR - Minimum_SNR)))))*0.2)
+					NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
+					#NumberOfNodes = int(ceil(abs(((len(NODES)) * (NODES[Head].SNR * (Deviation_SNR/Average_SNR)/(Maximum_SNR - Minimum_SNR)))))*0.2)
 
 					#Assigning the Cluster Member to the Cluster Head based on the calculate number of Nodes above.
 					NETWORK[Head] = NODES[Head]
@@ -399,7 +399,7 @@ class Model(object):
 					NETWORK[Head] = NODES[Head]
 
 					count = 1;
-					while(count <= NumberOfNodes):
+					while(count <= NumberOfNodes and TrackB < len(NODES)*5):
 						if(count > NumberOfNodes or len(UNASSIGNED) == 0): break;
 						start = 0
 						end = len(UNASSIGNED)
@@ -413,6 +413,7 @@ class Model(object):
 							NETWORK[Head].MEMBERS.append(NODES[node])
 							Model.RemoveNode(NETWORK, Head, UNASSIGNED)
 							count +=1
+						TrackB += 1
 
 					#Checking if The Head Cluster has Leaf Nodes, If Not, delete the Head from Cluster and append to the Unussiged list.
 					if len(NETWORK[Head].MEMBERS) == 0:
@@ -465,7 +466,7 @@ class Model(object):
 					NETWORK[Head] = NODES[Head]
 
 					count = 1;
-					while(count < NumberOfNodes):
+					while(count < NumberOfNodes and TrackB < len(NODES)*5):
 						if(count > NumberOfNodes or len(UNASSIGNED) == 0): break;
 						start = int(floor(sqrt(len(UNASSIGNED))))
 						end = len(UNASSIGNED)
@@ -487,6 +488,7 @@ class Model(object):
 								NETWORK[Head].MEMBERS.append(NODES[node])
 								Model.RemoveNode(NETWORK, Head, UNASSIGNED)
 								count +=1
+						TrackB += 1
 
 					#Checking if The Head Cluster has Leaf Nodes, If Not, delete the Head from Cluster and append to the Unussiged list.
 					if len(NETWORK[Head].MEMBERS) == 0:
@@ -518,7 +520,7 @@ class Model(object):
 				index = 0; Head = None
 				#Selecting the Node from the proccessing set that has the highest recieved SNR at the LAP
 				#Check if the Residual Energy Ei of the selected node is greater than or equal to the median Residual Energy of the set node within the processing set 
-				while(index < len(UNASSIGNED)):	
+				while(index < len(UNASSIGNED)):
 					if NODES[UNASSIGNED[index]].ResidualEnergy >= Median_ResidualEnergy:
 						Head = UNASSIGNED[index]; NODES[Head].ChangeToClusterHead(); break; 
 					index += 1
@@ -820,24 +822,14 @@ class Model(object):
 			Points.append([value.Position[0], value.Position[1]])
 		Points = array(Points)
 
-		kmeans = KMeans(n_clusters = int(len(NODES)), n_init = 10, max_iter = 1000000, init = 'random', n_jobs = -1)
+		kmeans = KMeans(n_clusters = int((len(NODES)/2)), n_init = 10, max_iter = 1000000000, init = 'k-means++', n_jobs = -1)
 		kmeans.fit_predict(Points)
 
-		with progressbar.ProgressBar(max_value = kmeans.n_clusters) as bar:
-			"""for i in range(len(kmeans)):
-			index = str(i + 1) 
-			head = str(int(kmeans[i]) + 1)
-			if head not in [NODES.keys()]:
-				NODES[head].ChangeToClusterHead()
-				NETWORK[head] = NODES[head]
-			if head is not index and head != index:
-				NETWORK[head].MEMBERS.append(NODES[index])
-				NODES[index].ChangeToClusterMember(NODES[head])"""
-				
+		with progressbar.ProgressBar(max_value = kmeans.n_clusters) as bar:				
 			labels = kmeans.labels_
 			centroids = kmeans.cluster_centers_
 
-			for i in range(int(sqrt(len(NODES)))):
+			for i in range( kmeans.n_clusters):
 				ds = Points[where(labels == i)]
 					
 				head = None

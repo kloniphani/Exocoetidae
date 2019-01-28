@@ -351,9 +351,14 @@ class Display(object):
 			if (head.Type == 3 or head.Type == 2):
 				ICH += 1
 
-		print("Connected Nodes: {0:3}\tCH: {1:3}\tICH: {2:3}\tTotal Network: {3:3}\tTotal Nodes: {4:3}\tUnussigned Nodes: {5:3}\n\n".format(N, CH, ICH, len(NETWORK), len(NODES), len(UNASSIGNED)))
+		ECH = 0;
+		for head in NETWORK.values():
+			if(len(head.MEMBERS)) == 0:
+				ECH += 1
 
-		return CH, ICH
+		print("Connected Nodes: {0:3}\tCH: {1:3}\tICH: {2:3}\tEmpty CH: {3:3}\tTotal Network: {4:3}\tTotal Nodes: {5:3}\tUnussigned Nodes: {6:3}\n\n".format(N, CH, ICH, ECH, len(NETWORK), len(NODES), len(UNASSIGNED)))
+
+		return CH, ICH, ECH
 
 	def DrawTreeGraph(nodes = None, network = None, Name = None, Radius = '', Show = False, Save = False):
 		"""
