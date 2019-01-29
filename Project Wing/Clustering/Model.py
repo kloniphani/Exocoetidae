@@ -617,7 +617,7 @@ class Model(object):
 
 			if TrackA >= EndA or len(UNASSIGNED) > 0:
 				TrackB = 0; EndB = len(UNASSIGNED);
-				with progressbar.ProgressBar(max_value = EndB) as bar:
+				with progressbar.ProgressBar(max_value =  progressbar.UnknownLength) as bar:
 					while(len(UNASSIGNED) > 0):
 						Head = None;
 						for h in NETWORK.values():
@@ -631,6 +631,7 @@ class Model(object):
 									break;
 							if Head is not None:
 								break;
+
 						if Head is not None:
 							NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * NODES[Head].SNR)/(Maximum_SNR - Minimum_SNR))))
 

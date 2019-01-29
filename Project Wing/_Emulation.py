@@ -98,9 +98,9 @@ if __name__ is '__main__':
 
 	Place = 'Mopani'
 	Code = '0930';
-	Distribution = 'Normal'
+	Distribution = 'ChiSquare'
 	RESULTS = []	
-	End = 1
+	End = 50
 	FileName = "{0}-{1}".format(Place, Distribution)
 
 	Network = None; NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
