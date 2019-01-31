@@ -666,6 +666,128 @@ class Model(object):
 			
 		return NODES, NETWORK, UNASSIGNED, DATA
 
+	def DistanceBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 50):
+		"""
+		"""
+		print("\nDistance Balancing Model Processing")
+		#Selecting the nearest Clustered Head with less Children, then add new Children to network	
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+			#Sorting the Nodes in Descending order based on their SNR
+			TEMP = list(NODES.values());
+			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
+
+			Minimum_SNR = TEMP[-1].SNR
+			Maximum_SNR = TEMP[0].SNR
+			Deviation_SNR = std([node.SNR for node in TEMP])
+			Average_SNR = average([node.SNR for node in TEMP])
+
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
+			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
+			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
+
+		TrackA = 0; EndA = len(UNASSIGNED);	
+
+		if EndA > 0:
+			with progressbar.ProgressBar(max_value = EndA) as bar:
+				for id in UNASSIGNED:
+					head = None;
+					for x in NETWORK.values():
+						if NumberOfNodes is None:
+							NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * x.SNR)/(Maximum_SNR - Minimum_SNR))))
+							
+						if NODES[id].Distance(x.Position) <= ClusterRadius and len(x.MEMBERS) < NumberOfNodes:
+							head = x
+							for y in NETWORK.values():
+								if (y.Id is not x.Id and y is not x):
+									if NumberOfNodes is None:
+										NumberOfNodes  = int(ceil(abs((sqrt(len(NODES)) * y.SNR)/(Maximum_SNR - Minimum_SNR))))
+
+									if 	NODES[id].Distance(y.Position) <= ClusterRadius and len(y.MEMBERS) < NumberOfNodes:
+										if 	NODES[id].Distance(y.Position) <= NODES[id].Distance(x.Position):
+											head = y
+
+					if head is not None:
+						NODES[id].ChangeToClusterMember(NODES[head.Id])
+						NETWORK[head.Id].MEMBERS.append(NODES[id])	
+
+						TrackA += 1
+						bar.update(TrackA);
+
+						#Removing Selected Nodes for a cluster Network.	
+						Model.RemoveNode(NETWORK, head.Id, UNASSIGNED)
+						EndB = len(UNASSIGNED)
+						if len(UNASSIGNED) is 0:
+							break;
+		else:
+			print('All NODES are CONNECTED')
+			
+		return NODES, NETWORK, UNASSIGNED, DATA
+
+	def DensityBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 50):
+		"""
+		"""
+		print("\nDensity Balancing Model Processing")
+		#Selecting the nearest Clustered Head with less Children, then add new Children to network	
+		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
+			#Sorting the Nodes in Descending order based on their SNR
+			TEMP = list(NODES.values());
+			TEMP.sort(key = lambda node: node.SNR, reverse = True) 
+
+			Minimum_SNR = TEMP[-1].SNR
+			Maximum_SNR = TEMP[0].SNR
+			Deviation_SNR = std([node.SNR for node in TEMP])
+			Average_SNR = average([node.SNR for node in TEMP])
+
+			Median_ResidualEnergy = median([node.ResidualEnergy for node in TEMP])
+			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
+			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
+
+		TrackA = 0; EndA = len(UNASSIGNED);	
+
+		if EndA > 0:
+			with progressbar.ProgressBar(max_value = EndA) as bar:
+				for id in UNASSIGNED:
+					head = None;
+					for x in NETWORK.values():
+						if NumberOfNodes is None:
+							NumberOfNodes = int(ceil(abs((sqrt(len(NODES)) * x.SNR)/(Maximum_SNR - Minimum_SNR))))
+							
+						if NODES[id].Distance(x.Position) <= ClusterRadius and len(x.MEMBERS) < NumberOfNodes:
+							head = x
+							for y in NETWORK.values():
+								if (y.Id is not x.Id and y is not x):
+									if NumberOfNodes is None:
+										NumberOfNodes  = int(ceil(abs((sqrt(len(NODES)) * y.SNR)/(Maximum_SNR - Minimum_SNR))))
+
+									if 	NODES[id].Distance(y.Position) <= ClusterRadius and len(y.MEMBERS) < NumberOfNodes:
+										if 	len(x.MEMBERS) < len(y.MEMBERS) - 2:
+											head = y
+
+					if head is not None:
+						NODES[id].ChangeToClusterMember(NODES[head.Id])
+						NETWORK[head.Id].MEMBERS.append(NODES[id])	
+
+						TrackA += 1
+						bar.update(TrackA);
+
+						#Removing Selected Nodes for a cluster Network.	
+						Model.RemoveNode(NETWORK, head.Id, UNASSIGNED)
+						EndB = len(UNASSIGNED)
+						if len(UNASSIGNED) is 0:
+							break;
+		else:
+			print('All NODES are CONNECTED')
+			
+		return NODES, NETWORK, UNASSIGNED, DATA
+
+	def CompositeBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 50):
+		"""
+		"""
+		print("\nComposite Balancing Model Processing")
+		Model.DistanceBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
+		Model.DensityBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
+		return NODES, NETWORK, UNASSIGNED, DATA
+
 	def Redistribute(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):
 		"""
 		"""

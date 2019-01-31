@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7c1452f9-28a1-434f-95bb-a67a6a4e6990}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>_Emulation.py</StartupFile>
+    <StartupFile>Project_Wing.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
