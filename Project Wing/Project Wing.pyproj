@@ -2100,6 +2100,7 @@
     <Content Include="GUI\Network\Network\templates\layout.html" />
     <Content Include="GUI\Network\Network\templates\network.html" />
     <Content Include="GUI\Network\requirements.txt" />
+    <Content Include="requirements.txt" />
     <Content Include="Source\Data\Chris Hani.txt" />
     <Content Include="Source\Data\Mopani.txt" />
     <Content Include="Source\Data\Vhembe.txt" />
