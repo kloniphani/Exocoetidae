@@ -6,6 +6,23 @@ from datetime import datetime
 import progressbar
 import matplotlib.pyplot as plt
 
+linestyle = [(0, (1, 10)),
+     (0, (1, 1)),
+     (0, (1, 1)),
+
+     (0, (5, 10)),
+     (0, (5, 5)),
+     (0, (5, 1)),
+
+     (0, (3, 10, 1, 10)),
+     (0, (3, 5, 1, 5)),
+     (0, (3, 1, 1, 1)),
+
+     (0, (3, 5, 1, 5, 1, 5)),
+     (0, (3, 10, 1, 10, 1, 10)),
+     (0, (3, 1, 1, 1, 1, 1))]
+
+
 Scenarios = ['Mopani - UAV',	'Vhembe - UAV',	'Waterberg - UAV',	'Chris-Hani - UAV',	'Frances Baard - UAV',	'Soweto - UAV',	'Khayelitsha - UAV',	'Lulekani - UAV',	'Zeerust - UAV',	'Duduza - UAV',	'Hlankomo - UAV',	'Mandileni - UAV',	'Gon’on’o - UAV']
 Scenarios = ['Mopani', 'Vhembe', 'Waterberg', 'Chris-Hani',	'Frances Baard', 'Soweto', 'Khayelitsha', 'Lulekani', 'Zeerust', 'Duduza', 'Hlankomo', 'Mandileni', 'Gon’on’o']
 
@@ -36,17 +53,19 @@ with progressbar.ProgressBar(max_value = len(Scenarios)) as bar:
 			Terms.append(npv(Rate, CashFlow) - CAPEX[Count])
 
 			Temp = []; Temp.append((CAPEX[Count]*-1)); 
-			IRRTerms.append(round(irr(Temp + CashFlow), 4) * 100)
+			IRRTerms.append(round(log(irr(Temp + CashFlow)), 4) * 100)
 			#print("{0:10} - Fee: {1:4} CASHFLOW: {2} NPV: {3:.2f} CAPEX: {4:.2f}".format(Scenario, fee, CashFlow[0], (npv(Rate, CashFlow) - CAPEX[Count]), CAPEX[Count]))
 	
-		line = ax.plot(DATA['Counter'], IRRTerms , label='{0}'.format(Scenario))
-		
+		line, = ax.plot(DATA['Counter'], IRRTerms , label='{0}'.format(Scenario))
+		line.set_dashes([2, Count, 10, Count])
+				
 		Count += 1 
 		DATA[Scenario] = Terms
 		IRR[Scenario] = IRRTerms
 		bar.update(Count)
 		
 	ax.legend()
+	plt.tight_layout()
 	plt.show()
 
 ScenariosB = ['Mopani - LC',	'Vhembe - LC',	'Waterberg - LC',	'Chris-Hani - LC',	'Frances Baard - LC',	'Soweto - LC',	'Khayelitsha - LC',	'Lulekani - LC',	'Zeerust - LC',	'Duduza - LC',	'Hlankomo - LC',	'Mandileni - LC',	'Gon’on’o - LC']
