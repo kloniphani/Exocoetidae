@@ -2515,8 +2515,5 @@
     <Folder Include="Source\Results\01" />
     <Folder Include="Source\Results\Data\" />
   </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|VisualStudio|env (Python 3.7 (64-bit))" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
