@@ -24,7 +24,10 @@ class Emulation(object):
 			FileName = './Model/Computed Data/{0}-[{1}]-{2}.xlsx'.format(FileName, Stamp, Distribution)
 
 
-		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'Myopic CH', 'GSMB - UAV CH', 'GSMB - LAP CH', 'GCHC - UAV CH', 'GCHC - LAP CH', 'Backhauling I-CH', 'Myopic I-CH', 'GSMB - UAV I-CH', 'GSMB - LAP I-CH', 'GCHC - UAV I-CH', 'GCHC - LAP I-CH', 'Backhauling Unassigned', 'Myopic Unassigned', 'GSMB - UAV Unassigned', 'GSMB - LAP Unassigned', 'GCHC - UAV Unassigned', 'GCHC - LAP Unassigned']
+		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 
+			 'Backhauling CH', 'Myopic CH', 'GSMB - UAV CH', 'GSMB - LAP CH', 'GCHC - UAV CH', 'GCHC - LAP CH', 'K-Means CH',
+			 'Backhauling I-CH', 'Myopic I-CH', 'GSMB - UAV I-CH', 'GSMB - LAP I-CH', 'GCHC - UAV I-CH', 'GCHC - LAP I-CH',  'K-Means I-CH',
+			 'Backhauling Unassigned', 'Myopic Unassigned', 'GSMB - UAV Unassigned', 'GSMB - LAP Unassigned', 'GCHC - UAV Unassigned', 'GCHC - LAP Unassigned', 'K-Means Unassigned',]
 		
 		DATA = {}
 		DATA['Emulation'] = []
@@ -37,18 +40,21 @@ class Emulation(object):
 		DATA['GSMB - LAP CH'] = []
 		DATA['GCHC - UAV CH'] = []
 		DATA['GCHC - LAP CH'] = []
+		DATA['K-Means CH'] = []
 		DATA['Backhauling I-CH'] = []
 		DATA['Myopic I-CH'] = []
 		DATA['GSMB - UAV I-CH'] = []
 		DATA['GSMB - LAP I-CH'] = []
 		DATA['GCHC - UAV I-CH'] = []
 		DATA['GCHC - LAP I-CH'] = []
+		DATA['K-Means I-CH'] = []
 		DATA['Backhauling Unassigned'] = []
 		DATA['Myopic Unassigned'] = []
 		DATA['GSMB - UAV Unassigned'] = []
 		DATA['GSMB - LAP Unassigned'] = []
 		DATA['GCHC - UAV Unassigned'] = []
 		DATA['GCHC - LAP Unassigned'] = []
+		DATA['K-Means Unassigned'] = []
 
 		for data in INPUTDATA:
 			DATA['Emulation'].append(data[0])
@@ -61,18 +67,23 @@ class Emulation(object):
 			DATA['GSMB - LAP CH'].append(data[7])
 			DATA['GCHC - UAV CH'].append(data[8])
 			DATA['GCHC - LAP CH'].append(data[9])
+			DATA['GCHC - LAP CH'].append(data[9])
+			DATA['K-Means CH'].append(data[9])
 			DATA['Backhauling I-CH'].append(data[10])
 			DATA['Myopic I-CH'].append(data[11])
 			DATA['GSMB - UAV I-CH'].append(data[12])
 			DATA['GSMB - LAP I-CH'].append(data[13])
 			DATA['GCHC - UAV I-CH'].append(data[14])
 			DATA['GCHC - LAP I-CH'].append(data[15])
+			DATA['GCHC - LAP I-CH'].append(data[15])
+			DATA['K-Means I-CH'].append(data[15])
 			DATA['Backhauling Unassigned'].append(data[16])
 			DATA['Myopic Unassigned'].append(data[17])
 			DATA['GSMB - UAV Unassigned'].append(data[18])
 			DATA['GSMB - LAP Unassigned'].append(data[19])
 			DATA['GCHC - UAV Unassigned'].append(data[20])
 			DATA['GCHC - LAP Unassigned'].append(data[21])
+			DATA['K-Means Unassigned'].append(data[21])
 		
 		DataFrames = pd.DataFrame(data = DATA, columns = Columns)  #Create a Pandas dataframe from some data.
 		Writer = pd.ExcelWriter(FileName, engine='xlsxwriter') #Create a Pandas Excel writer using XlsxWriter as the engine.
@@ -158,6 +169,13 @@ if __name__ is '__main__':
 			Technique = 'GCHC - LAP';
 			NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP', ClusterRadius = Network.ClusterRadius)
 			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius)
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
+
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			NODES, NETWORK, UNASSIGNED, DATA = Model.KMeans(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
 			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
