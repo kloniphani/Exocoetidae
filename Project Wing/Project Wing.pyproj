@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7c1452f9-28a1-434f-95bb-a67a6a4e6990}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Model\Economic.py</StartupFile>
+    <StartupFile>Backhauling_Emulations.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -2429,6 +2429,12 @@
     <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---30-03-18--12-15-R100.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backhauling_Emulations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Myopic_Emulations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Clustering\Algorithms.py">
       <SubType>Code</SubType>
     </Compile>

@@ -945,7 +945,7 @@ class Model(object):
 			Points.append([value.Position[0], value.Position[1]])
 		Points = array(Points)
 
-		kmeans = KMeans(n_clusters = int((len(NODES)/2)), n_init = 10, max_iter = 1000000000, init = 'k-means++', n_jobs = -1)
+		kmeans = KMeans(n_clusters = int((len(NODES)-(len(NODES)*0.2))), n_init = 1000, max_iter = 100000000, init = 'k-means++', n_jobs = -1)
 		kmeans.fit_predict(Points)
 
 		with progressbar.ProgressBar(max_value = kmeans.n_clusters) as bar:				

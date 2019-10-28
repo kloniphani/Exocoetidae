@@ -64,7 +64,7 @@ class Nodes(object):
 
 			if ClusterRadius is not None: self.ClusterRadius = ClusterRadius;
 
-			ResidualEnergies, SNRs = Distribution.Distribution.ChiSquare() # Random Values
+			ResidualEnergies, SNRs = Distribution.Distribution.Normal() # Random Values
 
 			#Initialising the Provider
 			if ServiceProvider is None:

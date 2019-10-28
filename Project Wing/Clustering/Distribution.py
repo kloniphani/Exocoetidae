@@ -14,7 +14,7 @@ class Distribution(object):
 			ResidualEnergySigma = 0.5,
 			ResidualEnergySize = 100000000,
 			SNRMean =  2.5,
-			SNRSigma = 0.8,
+			SNRSigma = 0.6,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
 			Size = None):
@@ -28,8 +28,8 @@ class Distribution(object):
 	def Normal(ResidualEnergyMean = 1340,
 			ResidualEnergySigma = 428.547,
 			ResidualEnergySize = 100000000,
-			SNRMean =  80,
-			SNRSigma = 21.594,
+			SNRMean =  32,
+			SNRSigma = 17.59,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
 			Size = None):
@@ -43,8 +43,8 @@ class Distribution(object):
 	def Uniform(ResidualEnergyLow = 0,
 			ResidualEnergyHigh = 2400,
 			ResidualEnergySize = 100000000,
-			SNRLow =  0,
-			SNRHigh = 160,
+			SNRLow =  -30,
+			SNRHigh = 100,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
 			Size = None):
@@ -57,7 +57,7 @@ class Distribution(object):
 
 	def ChiSquare(ResidualEnergyDF = 1340,
 			ResidualEnergySize = 100000000,
-			SNRDF=  40,
+			SNRDF=  20,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
 			Size = None):
