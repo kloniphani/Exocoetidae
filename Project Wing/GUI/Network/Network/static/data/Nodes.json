@@ -1,7094 +1,818 @@
 {
     "1": {
         "Id": "1",
-        "Name": "Mafarana Clinic",
-        "SNR": 61.86305497129004,
-        "Energy": 576.778973530302,
+        "Name": "COSAT",
+        "SNR": -93.25685591008694,
+        "Energy": 1355.1369862461534,
         "Position": [
-            30.36935919999999,
-            -23.960285,
+            18.662113,
+            -34.0508992,
             7.0
         ],
         "Type": 0
     },
     "2": {
         "Id": "2",
-        "Name": "Benfarm Clinic",
-        "SNR": 57.111848301201995,
-        "Energy": 800.5735668961971,
+        "Name": "Ummangaliso Primary School",
+        "SNR": -98.68668571305224,
+        "Energy": 1285.3934309074068,
         "Position": [
-            31.0370016,
-            -23.9160157,
+            18.6705083,
+            -34.0479125,
             7.0
         ],
         "Type": 0
     },
     "3": {
         "Id": "3",
-        "Name": "Evelyn Lekganyane Clinic",
-        "SNR": 33.92116549462274,
-        "Energy": 1828.716649873156,
+        "Name": "Luhlaza Secondary School",
+        "SNR": -117.36662007358578,
+        "Energy": 954.1849216057033,
         "Position": [
-            29.7983906,
-            -23.9456275,
+            18.6614799,
+            -34.0407,
             7.0
         ],
         "Type": 0
     },
     "4": {
         "Id": "4",
-        "Name": "Evuxakeni Hospital",
-        "SNR": 60.44805370683816,
-        "Energy": 1295.50695481041,
+        "Name": "Usasazo High School",
+        "SNR": -126.46216281905029,
+        "Energy": 1313.8128124605805,
         "Position": [
-            30.7288359,
-            -23.3187641,
+            18.6591297,
+            -34.0263522,
             7.0
         ],
         "Type": 0
     },
     "5": {
         "Id": "5",
-        "Name": "Lebaka Clinic",
-        "SNR": 57.35731661056632,
-        "Energy": 1490.713725524319,
+        "Name": "Sakumlandela Primary School",
+        "SNR": -75.8000629718639,
+        "Energy": 825.7153741495248,
         "Position": [
-            30.36743209999999,
-            -23.4620914,
+            18.6589,
+            -34.0271199,
             7.0
         ],
         "Type": 0
     },
     "6": {
         "Id": "6",
-        "Name": "Belleview Clinic",
-        "SNR": 36.51661647422418,
-        "Energy": 1604.4550132352506,
+        "Name": "Khayelitsha Special School.",
+        "SNR": -76.84595865661782,
+        "Energy": 266.93114899769944,
         "Position": [
-            30.420875,
-            -23.4119083,
-            10.0
-        ],
-        "Type": -1
-    },
-    "7": {
-        "Id": "7",
-        "Name": "Masakona Clinic",
-        "SNR": 34.69373691331646,
-        "Energy": 794.1167482692283,
-        "Position": [
-            30.2442637,
-            -23.2737484,
+            18.6599595,
+            -34.0393617,
             7.0
         ],
         "Type": 0
     },
+    "7": {
+        "Id": "7",
+        "Name": "Bulumko Secondary School",
+        "SNR": -100.45590788750152,
+        "Energy": 1498.9477921615005,
+        "Position": [
+            18.6727299,
+            -34.03881,
+            7.0
+        ],
+        "Type": -1
+    },
     "8": {
         "Id": "8",
-        "Name": "Loloka Clinic",
-        "SNR": 50.434026501176994,
-        "Energy": 1100.6670946299664,
+        "Name": "Chris Hani Secondary School",
+        "SNR": -100.55807015154913,
+        "Energy": 1211.8045274612343,
         "Position": [
-            30.7948843,
-            -23.550548,
+            18.7059795,
+            -34.0468705,
             7.0
         ],
         "Type": 0
     },
     "9": {
         "Id": "9",
-        "Name": "Maphalle Clinic",
-        "SNR": 66.65850123587934,
-        "Energy": 1129.1122636134965,
+        "Name": "Intlanganiso Secondary School",
+        "SNR": -82.91409676514792,
+        "Energy": 1528.4049028554778,
         "Position": [
-            30.3117192,
-            -23.4682557,
-            7.0
+            18.64151,
+            -34.01274,
+            10.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "10": {
         "Id": "10",
-        "Name": "Makuleke Clinic",
-        "SNR": 24.97367140173357,
-        "Energy": 1633.8165423238277,
+        "Name": "Sosebenza Primary School",
+        "SNR": -126.97291879224743,
+        "Energy": 1471.84628302263,
         "Position": [
-            30.91454,
-            -22.86522,
+            18.6790889,
+            -34.062869,
             7.0
         ],
         "Type": 0
     },
     "11": {
         "Id": "11",
-        "Name": "Shivulani Clinic",
-        "SNR": 42.69749066474376,
-        "Energy": 1263.1304663474566,
+        "Name": "Kukhanyile Publ Primary School",
+        "SNR": -59.50068988391067,
+        "Energy": 589.994171608189,
         "Position": [
-            30.701991,
-            -23.1417273,
+            18.67166,
+            -34.02901,
             7.0
         ],
         "Type": 0
     },
     "12": {
         "Id": "12",
-        "Name": "Sehlale Clinic",
-        "SNR": 85.16251205796114,
-        "Energy": 1620.468454290086,
+        "Name": "Ikhusi Primary School",
+        "SNR": -95.53706180584604,
+        "Energy": 1194.395156941764,
         "Position": [
-            29.8062633,
-            -23.9983316,
+            18.65561,
+            -34.02424,
             7.0
         ],
         "Type": 0
     },
     "13": {
         "Id": "13",
-        "Name": "Kgapane Clinic",
-        "SNR": 30.294268970888044,
-        "Energy": 1401.7257025240895,
+        "Name": "Esangweni Secondary School",
+        "SNR": -127.25322595299724,
+        "Energy": 1730.9864237747827,
         "Position": [
-            30.2181252,
-            -23.6404178,
+            18.685,
+            -34.05883,
             7.0
         ],
-        "Type": 0
+        "Type": -2
     },
     "14": {
         "Id": "14",
-        "Name": "lulekani clinic",
-        "SNR": 62.0528268807557,
-        "Energy": 1935.1985781923797,
+        "Name": "Kuyasa Primary School",
+        "SNR": -99.5117645699222,
+        "Energy": 1013.4420033747609,
         "Position": [
-            31.0775968,
-            -23.8644321,
+            18.6832299,
+            -34.0622199,
             7.0
         ],
         "Type": 0
     },
     "15": {
         "Id": "15",
-        "Name": "xitlakati clinic",
-        "SNR": 78.63694454474428,
-        "Energy": 1446.7002235692048,
+        "Name": "Chris Hani Arts & Culture High School",
+        "SNR": -97.81184662415866,
+        "Energy": 974.6976768069328,
         "Position": [
-            30.8811845,
-            -23.6607816,
+            18.705771,
+            -34.047218,
             7.0
         ],
         "Type": 0
     },
     "16": {
         "Id": "16",
-        "Name": "Dan Clinic",
-        "SNR": 64.87949907112137,
-        "Energy": 993.2580927665443,
+        "Name": "Masiphumelele Primary School",
+        "SNR": -111.81579186690945,
+        "Energy": 1582.9322761106234,
         "Position": [
-            30.2717248,
-            -23.9044161,
+            18.69566,
+            -34.05133,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "17": {
         "Id": "17",
-        "Name": "murhotso clinic",
-        "SNR": 52.14414200427958,
-        "Energy": 1807.3095357592715,
+        "Name": "Chuma Publ. Primary School",
+        "SNR": -89.72716814268091,
+        "Energy": 1373.335813756975,
         "Position": [
-            31.1439449,
-            -24.5664297,
+            18.6782499,
+            -34.04224000000001,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "18": {
         "Id": "18",
-        "Name": "Shikhumba Clinic",
-        "SNR": 84.44738486793737,
-        "Energy": 1905.9510399326382,
+        "Name": "Zola Senior Secondary School",
+        "SNR": -107.48423638927869,
+        "Energy": 1605.610578464168,
         "Position": [
-            30.88105,
-            -23.500227,
+            18.6345199,
+            -34.0155199,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "19": {
         "Id": "19",
-        "Name": "Tzaneen Travel Clinic.",
-        "SNR": 68.36150452803533,
-        "Energy": 1415.090134608982,
+        "Name": "Ummangaliso Public Primary School",
+        "SNR": -108.50168106110357,
+        "Energy": 1663.8123997861674,
         "Position": [
-            30.158793,
-            -23.825513,
+            18.658348,
+            -34.023496,
             7.0
         ],
         "Type": 0
     },
     "20": {
         "Id": "20",
-        "Name": "Mogoboya Clinic",
-        "SNR": 79.5772806432759,
-        "Energy": 1904.5834292713153,
+        "Name": "Manyano High",
+        "SNR": -107.31612992391136,
+        "Energy": 1472.8039687247206,
         "Position": [
-            30.1992568,
-            -24.0133893,
+            18.6640507,
+            -34.0467255,
+            7.0
+        ],
+        "Type": -1
+    },
+    "21": {
+        "Id": "21",
+        "Name": "Noxolo Xauka Primary School",
+        "SNR": -85.19325682154283,
+        "Energy": 1312.9368074520803,
+        "Position": [
+            18.7112444,
+            -34.0427626,
             7.0
         ],
         "Type": 0
     },
-    "21": {
-        "Id": "21",
-        "Name": "Makahlule Clinic",
-        "SNR": 55.909609846594634,
-        "Energy": 1729.6092687454257,
+    "22": {
+        "Id": "22",
+        "Name": "Isikhokelo Primary School",
+        "SNR": -114.45465242955211,
+        "Energy": 700.1087559245366,
         "Position": [
-            30.9114657,
-            -22.8922237,
+            18.65291,
+            -34.01370989999999,
+            7.0
+        ],
+        "Type": -1
+    },
+    "23": {
+        "Id": "23",
+        "Name": "Academia Primary School",
+        "SNR": -106.9313011466806,
+        "Energy": 854.28983191373,
+        "Position": [
+            18.6944777,
+            -34.0317481,
             10.0
         ],
         "Type": -1
     },
-    "22": {
-        "Id": "22",
-        "Name": "Thomo Clinic",
-        "SNR": 27.047224359254237,
-        "Energy": 1039.7598384429436,
-        "Position": [
-            30.78841,
-            -23.2484469,
-            7.0
-        ],
-        "Type": 0
-    },
-    "23": {
-        "Id": "23",
-        "Name": "Giyani Health Center",
-        "SNR": 36.522922400196336,
-        "Energy": 1176.6180077930562,
-        "Position": [
-            30.7232505,
-            -23.312801,
-            7.0
-        ],
-        "Type": 0
-    },
     "24": {
         "Id": "24",
-        "Name": "Choice Clinic",
-        "SNR": 42.821524264218596,
-        "Energy": 999.0335156232773,
+        "Name": "Sizimisele Tech High School",
+        "SNR": -71.61021471030816,
+        "Energy": 1896.0120522950047,
         "Position": [
-            30.163576,
-            -23.839309,
+            18.692207,
+            -34.051846,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "25": {
         "Id": "25",
-        "Name": "Mariveni Clinic",
-        "SNR": 54.14874479614697,
-        "Energy": 1887.8782284228173,
+        "Name": "Sinako High School",
+        "SNR": -111.14063558773573,
+        "Energy": 1094.4835901056085,
         "Position": [
-            30.3485402,
-            -23.8874615,
+            18.6992515,
+            -34.0420268,
             7.0
         ],
         "Type": 0
     },
     "26": {
         "Id": "26",
-        "Name": "Basani Clinic",
-        "SNR": 24.462383701197645,
-        "Energy": 749.5383155184038,
+        "Name": "Masiyile Senior Secondary School",
+        "SNR": -111.30534239586225,
+        "Energy": 1613.2418286751756,
         "Position": [
-            30.5190201,
-            -23.3690552,
+            18.6678,
+            -34.03018,
             7.0
         ],
         "Type": 0
     },
     "27": {
         "Id": "27",
-        "Name": "Kremetart Clinic",
-        "SNR": 87.3162693513686,
-        "Energy": 592.4967246531858,
+        "Name": "Nkazimlo Primary School",
+        "SNR": -82.42538618846436,
+        "Energy": 1134.4415413040954,
         "Position": [
-            30.6922971,
-            -23.3120544,
-            7.0
+            18.71066,
+            -34.04929,
+            10.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "28": {
         "Id": "28",
-        "Name": "medingen clinic",
-        "SNR": 68.36565152490061,
-        "Energy": 1582.2419410316954,
+        "Name": "Silulo Ulutho Technologies - Head Office / IT Academy",
+        "SNR": -104.0246246708227,
+        "Energy": 1111.7559306929934,
         "Position": [
-            30.2425883,
-            -23.6413454,
+            18.6585129,
+            -34.0368417,
             7.0
         ],
         "Type": 0
     },
     "29": {
         "Id": "29",
-        "Name": "Dr Hugo Clinic",
-        "SNR": 91.21974649727582,
-        "Energy": 1615.1880508358042,
+        "Name": "Injongo Primary School",
+        "SNR": -88.36565012069555,
+        "Energy": 1397.8584194990735,
         "Position": [
-            30.4213592,
-            -23.6766473,
+            18.65588,
+            -34.03384,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "30": {
         "Id": "30",
-        "Name": "Letsitele Clinic",
-        "SNR": 85.08654459794589,
-        "Energy": 1543.0107045158954,
+        "Name": "Intshayelelo Primary School",
+        "SNR": -97.82079587590746,
+        "Energy": 1717.520401624279,
         "Position": [
-            30.38366019999999,
-            -23.8886492,
+            18.661231,
+            -34.04837,
             7.0
         ],
         "Type": 0
     },
     "31": {
         "Id": "31",
-        "Name": "Relela Clinic",
-        "SNR": 95.876302033424,
-        "Energy": 1143.5669269206212,
+        "Name": "Homba Primary School",
+        "SNR": -88.951738846333,
+        "Energy": 1333.454411061267,
         "Position": [
-            30.332161,
-            -23.67495199999999,
+            18.6617656,
+            -34.0315961,
             7.0
         ],
         "Type": 0
     },
     "32": {
         "Id": "32",
-        "Name": "Ratanang Clinic",
-        "SNR": 60.815511124350486,
-        "Energy": 1570.9432023490258,
+        "Name": "Harry Gwala Secondary School",
+        "SNR": -77.03257252545833,
+        "Energy": 1006.2735201471268,
         "Position": [
-            30.63496759999999,
-            -23.436165,
+            18.69569,
+            -34.05141,
             7.0
         ],
         "Type": 0
     },
     "33": {
         "Id": "33",
-        "Name": "Mahale Clinic",
-        "SNR": 59.32808098905155,
-        "Energy": 1643.113127506981,
+        "Name": "Noluthando ELSEN Centre",
+        "SNR": -106.94381338786815,
+        "Energy": 1200.3011142715857,
         "Position": [
-            30.9694544,
-            -23.6947832,
+            18.674644,
+            -34.024211,
             7.0
         ],
         "Type": 0
     },
     "34": {
         "Id": "34",
-        "Name": "Spec-Savers Phalaborwa",
-        "SNR": 68.34170624546964,
-        "Energy": 1986.5867771595024,
+        "Name": "Soyisile Public Primary School",
+        "SNR": -97.25412547741107,
+        "Energy": 970.4360667672958,
         "Position": [
-            31.135333,
-            -23.950333,
+            18.6683935,
+            -34.0228949,
             10.0
         ],
         "Type": -1
     },
     "35": {
         "Id": "35",
-        "Name": "Tzaneen Medi-Clinic",
-        "SNR": 62.13868446136489,
-        "Energy": 1283.780948331682,
+        "Name": "Yomelela Primary School",
+        "SNR": -106.24025569832537,
+        "Energy": 619.5714223830122,
         "Position": [
-            30.1527959,
-            -23.8226407,
+            18.6746361,
+            -34.0280533,
             7.0
         ],
         "Type": 0
     },
     "36": {
         "Id": "36",
-        "Name": "Van Heerden Pharmacy Tzaneen",
-        "SNR": 51.20563916101089,
-        "Energy": 2070.599955167384,
+        "Name": "Luleka Primary School",
+        "SNR": -79.55827912712887,
+        "Energy": 1538.562125881389,
         "Position": [
-            30.1571616,
-            -23.8220548,
+            18.67154,
+            -34.06026,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "37": {
         "Id": "37",
-        "Name": "Mphambo Clinic",
-        "SNR": 73.9208175970477,
-        "Energy": 1236.3108116989704,
+        "Name": "Noluthando - School for Deaf",
+        "SNR": -95.83946613943525,
+        "Energy": 1764.837694427434,
         "Position": [
-            30.6710786,
-            -23.08481159999999,
+            18.6736451,
+            -34.0248156,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "38": {
         "Id": "38",
-        "Name": "Duvhuledza clinic",
-        "SNR": 67.33646313469548,
-        "Energy": 1429.9520170223313,
+        "Name": "Lwandle Primary School",
+        "SNR": -107.10132155524987,
+        "Energy": 1554.581000533561,
         "Position": [
-            30.78781129999999,
-            -22.7565712,
+            18.706611,
+            -34.051092,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "39": {
         "Id": "39",
-        "Name": "Mulala Clinic Sanari",
-        "SNR": 101.59684132198922,
-        "Energy": 1103.1642711108489,
+        "Name": "Iqhayiya secondary school",
+        "SNR": -100.24240136332944,
+        "Energy": 1282.528843257994,
         "Position": [
-            30.8771758,
-            -22.4761119,
+            18.676471,
+            -34.03307,
             7.0
         ],
         "Type": 0
     },
     "40": {
         "Id": "40",
-        "Name": "Manenzhe Clinic",
-        "SNR": 82.89778542575323,
-        "Energy": 1077.9781804497463,
+        "Name": "Nomsa Mapongwana Primary .School",
+        "SNR": -82.61417544203283,
+        "Energy": 1631.5384900529493,
         "Position": [
-            30.6812884,
-            -22.46954969999999,
+            18.6856,
+            -34.0454499,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "41": {
         "Id": "41",
-        "Name": "Malamulele Clinic",
-        "SNR": 59.081796705322255,
-        "Energy": 2401.5822494373424,
+        "Name": "Matthew Goniwe Memorial High School",
+        "SNR": -88.82588909329225,
+        "Energy": 1621.355212461947,
         "Position": [
-            30.7015038,
-            -23.0136997,
+            18.66761,
+            -34.02201,
             7.0
         ],
         "Type": 0
     },
     "42": {
         "Id": "42",
-        "Name": "Mhlava Wellem Clinic",
-        "SNR": 39.04554445051905,
-        "Energy": 1641.9051218362872,
+        "Name": "Isiphiwo Primary School",
+        "SNR": -91.98673343654808,
+        "Energy": 871.8304993329108,
         "Position": [
-            30.8600204,
-            -23.2111304,
+            18.67908,
+            -34.05721,
             7.0
         ],
         "Type": 0
     },
     "43": {
         "Id": "43",
-        "Name": "Vleifontein Clinic",
-        "SNR": 91.38646059029219,
-        "Energy": 682.6055708052804,
+        "Name": "Litha Park",
+        "SNR": -106.99668504525158,
+        "Energy": 1614.5758111280086,
         "Position": [
-            29.9918906,
-            -23.213499,
+            18.6584102,
+            -34.0530944,
             7.0
         ],
         "Type": 0
     },
     "44": {
         "Id": "44",
-        "Name": "Mbokota Clinic",
-        "SNR": 45.16102715556742,
-        "Energy": 1491.8540996817999,
+        "Name": "Encotsheni Primary",
+        "SNR": -117.19912890509006,
+        "Energy": 1944.7281096173697,
         "Position": [
-            30.0993653,
-            -23.1999918,
-            7.0
+            18.63749,
+            -34.00569,
+            10.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "45": {
         "Id": "45",
-        "Name": "Zanghoma-Uhuru Clinic",
-        "SNR": 76.17468159092483,
-        "Energy": 1417.4873260032005,
+        "Name": "Kwamfundo Secondary School",
+        "SNR": -93.86131703027672,
+        "Energy": 791.4501237230495,
         "Position": [
-            30.3411695,
-            -23.9114379,
+            18.67326,
+            -34.0558599,
             7.0
         ],
         "Type": 0
     },
     "46": {
         "Id": "46",
-        "Name": "OLIFANTSHOEK CLINIC",
-        "SNR": 47.123169717505945,
-        "Energy": 1091.3940096932256,
+        "Name": "Chumisa Primary School",
+        "SNR": -92.31863112284705,
+        "Energy": 1819.8969991777353,
         "Position": [
-            30.2749065,
-            -23.3345068,
+            18.662282,
+            -34.0218507,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "47": {
         "Id": "47",
-        "Name": "Nkurhi Clinic",
-        "SNR": 33.59572680295524,
-        "Energy": 1138.7186871471324,
+        "Name": "Sivuyiseni Public Primary School",
+        "SNR": -71.25011366377204,
+        "Energy": 2063.604100951945,
         "Position": [
-            30.5540447,
-            -23.2138688,
-            7.0
+            18.6787399,
+            -34.0497,
+            10.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "48": {
         "Id": "48",
-        "Name": "Kheyi Clinic",
-        "SNR": 73.24014605252499,
-        "Energy": 784.1235155663923,
+        "Name": "Nolungile Primary",
+        "SNR": -83.3048234220131,
+        "Energy": 1690.2547937699342,
         "Position": [
-            30.8736463,
-            -23.5797707,
+            18.642919,
+            -34.013706,
             7.0
         ],
         "Type": 0
     },
     "49": {
         "Id": "49",
-        "Name": "Mediclinic Limpopo",
-        "SNR": 81.18649994975432,
-        "Energy": 1404.3855492311081,
+        "Name": "Vuzamanzi Public Primary School",
+        "SNR": -51.177979196544136,
+        "Energy": 833.5817508722369,
         "Position": [
-            29.4645518,
-            -23.908231,
+            18.6489899,
+            -34.01374,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "50": {
         "Id": "50",
-        "Name": "Hoedspruit Training Trust",
-        "SNR": 79.91764426828897,
-        "Energy": 1878.8303642455403,
+        "Name": "Impendulo Public Primary School",
+        "SNR": -114.26471914289901,
+        "Energy": 1232.753327518929,
         "Position": [
-            30.7894536,
-            -24.4037254,
+            18.70366,
+            -34.04334,
             7.0
         ],
         "Type": 0
     },
     "51": {
         "Id": "51",
-        "Name": "Lambani Clinic",
-        "SNR": 77.3820486298879,
-        "Energy": 410.9670618846171,
+        "Name": "Ntwasahlobo Primary School",
+        "SNR": -72.87769710784636,
+        "Energy": 1078.0936412425915,
         "Position": [
-            30.8315792,
-            -22.7213869,
+            18.659523,
+            -34.028022,
             7.0
         ],
         "Type": 0
     },
     "52": {
         "Id": "52",
-        "Name": "Msengi Clinic",
-        "SNR": 55.27000106640263,
-        "Energy": 2249.4180154650458,
+        "Name": "Masiyile Junior Secondary School",
+        "SNR": -73.45677396065143,
+        "Energy": 760.9732504567044,
         "Position": [
-            30.3700773,
-            -23.3455961,
+            18.6678546,
+            -34.030234,
             7.0
         ],
         "Type": 0
     },
     "53": {
         "Id": "53",
-        "Name": "Tshino Clinic",
-        "SNR": 41.8057215515681,
-        "Energy": 739.1254211973467,
+        "Name": "Khayelitsha No 1 Senior Secondary School",
+        "SNR": -83.32330960567532,
+        "Energy": 1403.4737930155732,
         "Position": [
-            30.39847990000001,
-            -23.1151765,
+            18.70044,
+            -34.0421,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "54": {
         "Id": "54",
-        "Name": "Mukhomi Clinic",
-        "SNR": 47.09452450106198,
-        "Energy": 1339.6929182789922,
+        "Name": "Eluxolweni Primary School",
+        "SNR": -89.91164939724057,
+        "Energy": 808.354662008692,
         "Position": [
-            30.5614827,
-            -23.0719647,
+            18.6701374,
+            -34.0297247,
             7.0
         ],
         "Type": 0
     },
     "55": {
         "Id": "55",
-        "Name": "Zava Clinic",
-        "SNR": 93.46336065318351,
-        "Energy": 1722.9534196658594,
+        "Name": "Vuselela Primary School",
+        "SNR": -87.08655246803875,
+        "Energy": 1325.7779325665304,
         "Position": [
-            30.7378688,
-            -23.6293278,
-            10.0
-        ],
-        "Type": -1
-    },
-    "56": {
-        "Id": "56",
-        "Name": "Tshifudi Clinic",
-        "SNR": 47.14800961176519,
-        "Energy": 1035.5573443815695,
-        "Position": [
-            30.69845280000001,
-            -22.8143967,
+            18.63971,
+            -34.01084,
             7.0
         ],
         "Type": 0
     },
+    "56": {
+        "Id": "56",
+        "Name": "Ikhwezilesizwe Primary School",
+        "SNR": -94.07093138568735,
+        "Energy": 1520.68692947257,
+        "Position": [
+            18.661713,
+            -34.037991,
+            7.0
+        ],
+        "Type": -1
+    },
     "57": {
         "Id": "57",
-        "Name": "Mpheni Clinic",
-        "SNR": 73.87057511164528,
-        "Energy": 1251.204593940547,
+        "Name": "Umthawelanga Primary School",
+        "SNR": -110.44878275959864,
+        "Energy": 1194.4019750455016,
         "Position": [
-            30.0710851,
-            -23.13953769999999,
+            18.6717999,
+            -34.04329,
             7.0
         ],
         "Type": 0
     },
     "58": {
         "Id": "58",
-        "Name": "Laastehoop Clinic",
-        "SNR": 80.90262196430588,
-        "Energy": 565.7629440296143,
+        "Name": "Thembelihle Senior Secondary School",
+        "SNR": -106.0256295787597,
+        "Energy": 1171.495709433731,
         "Position": [
-            29.64556709999999,
-            -23.9845677,
+            18.67701,
+            -34.0408,
             7.0
         ],
         "Type": 0
     },
     "59": {
         "Id": "59",
-        "Name": "Marie Stopes South Africa",
-        "SNR": 68.7418905901884,
-        "Energy": 1407.7819002646286,
+        "Name": "Helen O'Grady Drama Academy - Mitchells Plain",
+        "SNR": -101.11386240690508,
+        "Energy": 1582.1038733805372,
         "Position": [
-            29.4513845,
-            -23.902337,
-            7.0
+            18.6155578,
+            -34.0509058,
+            10.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "60": {
         "Id": "60",
-        "Name": "Mens Clinic International - Giyani",
-        "SNR": 50.1476447623753,
-        "Energy": 2222.3577423026736,
+        "Name": "Tvet College Khayalitsha",
+        "SNR": -85.92071851043946,
+        "Energy": 1464.8997155354086,
         "Position": [
-            30.686628,
-            -23.309005,
-            10.0
+            18.6535564,
+            -34.0497093,
+            7.0
         ],
         "Type": -1
     },
     "61": {
         "Id": "61",
-        "Name": "Dzumeri Health Centre",
-        "SNR": 39.79272078247261,
-        "Energy": 614.8794232169274,
+        "Name": "Silulo Ulutho Technologies",
+        "SNR": -94.65957904689013,
+        "Energy": 1014.0041091857822,
         "Position": [
-            30.7089161,
-            -23.5765642,
+            18.6647219,
+            -34.027104,
             7.0
         ],
         "Type": 0
     },
     "62": {
         "Id": "62",
-        "Name": "Sekhiming Health Centre",
-        "SNR": 76.35613436072072,
-        "Energy": 1559.579357434418,
+        "Name": "False Bay College Youth Advisory Centre",
+        "SNR": -97.48276414136407,
+        "Energy": 1683.130763291308,
         "Position": [
-            30.56096629999999,
-            -23.4303883,
+            18.655789,
+            -34.045305,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "63": {
         "Id": "63",
-        "Name": "Health Centre Clinic",
-        "SNR": 29.614471944283196,
-        "Energy": 1406.3234015291027,
+        "Name": "Falsebay Khayelitsha Campus",
+        "SNR": -130.48996440954474,
+        "Energy": 1570.2553909809378,
         "Position": [
-            30.293284,
-            -23.8867813,
+            18.655772,
+            -34.045269,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "64": {
         "Id": "64",
-        "Name": "Hanyani Medical Centre Nkwinika TI",
-        "SNR": 83.7024115930256,
-        "Energy": 1977.6714865479892,
+        "Name": "Molo Mhlaba School",
+        "SNR": -108.36036457983693,
+        "Energy": 1437.6873086255541,
         "Position": [
-            30.291036,
-            -23.886778,
+            18.6713686,
+            -34.059044,
             7.0
         ],
-        "Type": 0
+        "Type": -1
     },
     "65": {
         "Id": "65",
-        "Name": "Grace Mogodeni Health Centre",
-        "SNR": 54.90050251409688,
-        "Energy": 1431.37427764904,
+        "Name": "Velokhaya Life Cycling Academy",
+        "SNR": -84.73489021887637,
+        "Energy": 1835.619980138426,
         "Position": [
-            30.4362924,
-            -23.7165316,
+            18.6600083,
+            -34.03428299999999,
             7.0
         ],
         "Type": 0
     },
     "66": {
         "Id": "66",
-        "Name": "Nkonkowa Health Centre",
-        "SNR": 57.48038771427035,
-        "Energy": 2785.9388807052137,
+        "Name": "Uxolo High School",
+        "SNR": -100.69942508253288,
+        "Energy": 1550.872908583055,
         "Position": [
-            30.2930827,
-            -23.8861565,
+            18.6812,
+            -34.0491199,
             7.0
         ],
-        "Type": 0
+        "Type": -2
     },
     "67": {
         "Id": "67",
-        "Name": "Tzaneen Medi-Clinic",
-        "SNR": 20.32030856485145,
-        "Energy": 2002.8325497170495,
+        "Name": "Joe Slovo Secondary School.",
+        "SNR": -84.90631499469507,
+        "Energy": 1262.9531136562373,
         "Position": [
-            30.1527959,
-            -23.8226407,
-            8.0
+            18.65769,
+            -34.03243,
+            7.0
         ],
-        "Type": null
+        "Type": 0
     },
     "68": {
         "Id": "68",
-        "Name": "Wayeni Health Centre",
-        "SNR": 22.48108398247207,
-        "Energy": 1270.7251920459692,
+        "Name": "Ludwe Ngamlana Primary School",
+        "SNR": -121.74049225996933,
+        "Energy": 1810.021776692055,
         "Position": [
-            30.2189329,
-            -23.2413116,
-            7.0
-        ],
-        "Type": 0
-    },
-    "69": {
-        "Id": "69",
-        "Name": "Mopani Medical Centre",
-        "SNR": 58.00119243404833,
-        "Energy": 1539.5677911135158,
-        "Position": [
-            30.1615068,
-            -23.8298451,
-            7.0
-        ],
-        "Type": 0
-    },
-    "70": {
-        "Id": "70",
-        "Name": "Giyani Health Center",
-        "SNR": 63.20199309907388,
-        "Energy": 1144.5325452113268,
-        "Position": [
-            30.7232505,
-            -23.312801,
-            7.0
-        ],
-        "Type": 0
-    },
-    "71": {
-        "Id": "71",
-        "Name": "Mokwakwaila Medical Centre",
-        "SNR": 79.2526776933545,
-        "Energy": 1649.5523159659344,
-        "Position": [
-            30.4249667,
-            -23.5270932,
-            7.0
-        ],
-        "Type": 0
-    },
-    "72": {
-        "Id": "72",
-        "Name": "Evuxakeni Hospital",
-        "SNR": 86.66782736912567,
-        "Energy": 1230.8867531819296,
-        "Position": [
-            30.7288359,
-            -23.3187641,
-            7.0
-        ],
-        "Type": 0
-    },
-    "73": {
-        "Id": "73",
-        "Name": "S a Federation for Mental Health",
-        "SNR": 64.27849106629994,
-        "Energy": 1381.129628784301,
-        "Position": [
-            30.15794,
-            -23.83188,
-            7.0
-        ],
-        "Type": 0
-    },
-    "74": {
-        "Id": "74",
-        "Name": "Belleview Clinic",
-        "SNR": 52.1225962784421,
-        "Energy": 743.002976752353,
-        "Position": [
-            30.420875,
-            -23.4119083,
-            7.0
-        ],
-        "Type": 0
-    },
-    "75": {
-        "Id": "75",
-        "Name": "GREENWORLD TZANEEN,LIMPOPO",
-        "SNR": 55.1707148311911,
-        "Energy": 1229.361959648009,
-        "Position": [
-            30.1593714,
-            -23.8270078,
-            7.0
-        ],
-        "Type": 0
-    },
-    "76": {
-        "Id": "76",
-        "Name": "Mafarana Clinic",
-        "SNR": 61.94664791142213,
-        "Energy": 758.0540218822429,
-        "Position": [
-            30.36935919999999,
-            -23.960285,
-            7.0
-        ],
-        "Type": 0
-    },
-    "77": {
-        "Id": "77",
-        "Name": "Themeli Medical Centre",
-        "SNR": 25.684619820790637,
-        "Energy": 1266.7213379584632,
-        "Position": [
-            30.3967995,
-            -23.4289927,
-            7.0
-        ],
-        "Type": 0
-    },
-    "78": {
-        "Id": "78",
-        "Name": "Lulekani Community Health Centre",
-        "SNR": 81.3131692975108,
-        "Energy": 1252.0948024281267,
-        "Position": [
-            31.08223599999999,
-            -23.863053,
-            7.0
-        ],
-        "Type": 0
-    },
-    "79": {
-        "Id": "79",
-        "Name": "Dr MBOMBI",
-        "SNR": 28.837277888155263,
-        "Energy": 1720.5287617522554,
-        "Position": [
-            30.68768579999999,
-            -23.3088256,
-            7.0
-        ],
-        "Type": 0
-    },
-    "80": {
-        "Id": "80",
-        "Name": "Giyani Community Healthcare Centre",
-        "SNR": 42.83825213603762,
-        "Energy": 1633.800698935555,
-        "Position": [
-            30.6914181,
-            -23.3095572,
-            7.0
-        ],
-        "Type": 0
-    },
-    "81": {
-        "Id": "81",
-        "Name": "Van Heerden Pharmacy Tzaneen",
-        "SNR": 32.010478388789565,
-        "Energy": 1238.1384484624427,
-        "Position": [
-            30.1571616,
-            -23.8220548,
-            7.0
-        ],
-        "Type": 0
-    },
-    "82": {
-        "Id": "82",
-        "Name": "Letaba Hospital",
-        "SNR": 34.2873541015105,
-        "Energy": 1421.8227523486503,
-        "Position": [
-            30.267554,
-            -23.8735483,
-            7.0
-        ],
-        "Type": 0
-    },
-    "83": {
-        "Id": "83",
-        "Name": "Van Velden Hospital.",
-        "SNR": 86.26117292979727,
-        "Energy": 651.8165042445598,
-        "Position": [
-            30.16432,
-            -23.83507,
-            7.0
-        ],
-        "Type": 0
-    },
-    "84": {
-        "Id": "84",
-        "Name": "Kgapane Hospital",
-        "SNR": 65.32114661965706,
-        "Energy": 1681.8340744349941,
-        "Position": [
-            30.21710169999999,
-            -23.6493398,
+            18.6911075,
+            -34.0598826,
             10.0
         ],
         "Type": -1
-    },
-    "85": {
-        "Id": "85",
-        "Name": "Evuxakeni Hospital",
-        "SNR": 70.2839706280017,
-        "Energy": 907.9950461964561,
-        "Position": [
-            30.7288359,
-            -23.3187641,
-            7.0
-        ],
-        "Type": 0
-    },
-    "86": {
-        "Id": "86",
-        "Name": "Elim Hospital In South Africa",
-        "SNR": 27.60636025805912,
-        "Energy": 501.6209905022765,
-        "Position": [
-            30.692842,
-            -23.3116249,
-            7.0
-        ],
-        "Type": 0
-    },
-    "87": {
-        "Id": "87",
-        "Name": "Nkhensani Hospital",
-        "SNR": 55.15249580132182,
-        "Energy": 1159.0604514538443,
-        "Position": [
-            30.7108651,
-            -23.3181637,
-            7.0
-        ],
-        "Type": 0
-    },
-    "88": {
-        "Id": "88",
-        "Name": "Tzaneen Medi-Clinic",
-        "SNR": 44.0215401593389,
-        "Energy": 1201.4619315661535,
-        "Position": [
-            30.1527959,
-            -23.8226407,
-            7.0
-        ],
-        "Type": 0
-    },
-    "89": {
-        "Id": "89",
-        "Name": "Maphutha L Malatjie Hospital - Dietetics Dept",
-        "SNR": 71.50047638567833,
-        "Energy": 840.5141676667163,
-        "Position": [
-            31.036962,
-            -23.9249388,
-            7.0
-        ],
-        "Type": 0
-    },
-    "90": {
-        "Id": "90",
-        "Name": "Sekororo Hospital.",
-        "SNR": 61.87394833260349,
-        "Energy": 1387.3120449342787,
-        "Position": [
-            30.4477608,
-            -24.2531664,
-            10.0
-        ],
-        "Type": -1
-    },
-    "91": {
-        "Id": "91",
-        "Name": "Maphutha Malatji Hospital Pharmacy",
-        "SNR": 81.12548917665455,
-        "Energy": 1696.541556706376,
-        "Position": [
-            31.0386515,
-            -23.9260467,
-            7.0
-        ],
-        "Type": 0
-    },
-    "92": {
-        "Id": "92",
-        "Name": "Mhlava Wellem Clinic",
-        "SNR": 82.18109313148679,
-        "Energy": 1381.4801235484215,
-        "Position": [
-            30.8600204,
-            -23.2111304,
-            7.0
-        ],
-        "Type": 0
-    },
-    "93": {
-        "Id": "93",
-        "Name": "DR C N Phatudi Hospital",
-        "SNR": 60.92684129733446,
-        "Energy": 1858.8001848407216,
-        "Position": [
-            30.280849,
-            -24.0265804,
-            7.0
-        ],
-        "Type": 0
-    },
-    "94": {
-        "Id": "94",
-        "Name": "Shiluvana Hospital",
-        "SNR": 82.90560135216754,
-        "Energy": 974.7677000417052,
-        "Position": [
-            30.2744425,
-            -24.0426894,
-            7.0
-        ],
-        "Type": 0
-    },
-    "95": {
-        "Id": "95",
-        "Name": "Mopani Medical Centre",
-        "SNR": 41.97638368635428,
-        "Energy": 1383.072181354047,
-        "Position": [
-            30.1615068,
-            -23.8298451,
-            10.0
-        ],
-        "Type": -1
-    },
-    "96": {
-        "Id": "96",
-        "Name": "Consolidated Murchison Mine Hospital",
-        "SNR": 6.536825030839658,
-        "Energy": 1847.7852640069623,
-        "Position": [
-            30.61155,
-            -23.95067,
-            7.0
-        ],
-        "Type": 0
-    },
-    "97": {
-        "Id": "97",
-        "Name": "Sekhiming Health Centre",
-        "SNR": 71.46987292800803,
-        "Energy": 1020.6666885309786,
-        "Position": [
-            30.56096629999999,
-            -23.4303883,
-            7.0
-        ],
-        "Type": 0
-    },
-    "98": {
-        "Id": "98",
-        "Name": "Jj BRITZ ORT/PROT",
-        "SNR": 53.13560802015837,
-        "Energy": 639.3433271717992,
-        "Position": [
-            30.15648770000001,
-            -23.82054089999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "99": {
-        "Id": "99",
-        "Name": "Tintswalo Hospital",
-        "SNR": 36.58421297672282,
-        "Energy": 1639.9723003840038,
-        "Position": [
-            31.0603835,
-            -24.5919362,
-            7.0
-        ],
-        "Type": 0
-    },
-    "100": {
-        "Id": "100",
-        "Name": "Matibidi Hospital",
-        "SNR": 53.32201509847534,
-        "Energy": 832.3337529116677,
-        "Position": [
-            30.7696022,
-            -24.588847,
-            7.0
-        ],
-        "Type": 0
-    },
-    "101": {
-        "Id": "101",
-        "Name": "Mankweng hospital",
-        "SNR": 51.513288450818855,
-        "Energy": 928.1403723055562,
-        "Position": [
-            29.7258744,
-            -23.8809483,
-            7.0
-        ],
-        "Type": 0
-    },
-    "102": {
-        "Id": "102",
-        "Name": "Mankweng Hospital",
-        "SNR": 54.63111986513029,
-        "Energy": 1108.8853069519312,
-        "Position": [
-            29.7259103,
-            -23.8806797,
-            7.0
-        ],
-        "Type": 0
-    },
-    "103": {
-        "Id": "103",
-        "Name": "Malamulele Hospital",
-        "SNR": 16.95493439894031,
-        "Energy": 1473.71776158431,
-        "Position": [
-            30.697213,
-            -22.9963668,
-            7.0
-        ],
-        "Type": 0
-    },
-    "104": {
-        "Id": "104",
-        "Name": "Elim District Hospital",
-        "SNR": 88.65178522397461,
-        "Energy": 1327.64966917192,
-        "Position": [
-            30.056596,
-            -23.1533756,
-            7.0
-        ],
-        "Type": 0
-    },
-    "105": {
-        "Id": "105",
-        "Name": "Bungeni Health Centre",
-        "SNR": 47.08837408744679,
-        "Energy": 1602.8600322686023,
-        "Position": [
-            30.1979117,
-            -23.2023873,
-            10.0
-        ],
-        "Type": -1
-    },
-    "106": {
-        "Id": "106",
-        "Name": "Mecklenburg Hospital",
-        "SNR": 33.14066979549604,
-        "Energy": 2120.672793482612,
-        "Position": [
-            30.0800928,
-            -24.3986038,
-            8.0
-        ],
-        "Type": 1
-    },
-    "107": {
-        "Id": "107",
-        "Name": "Netcare Hospital Polokwane",
-        "SNR": 105.37994283399762,
-        "Energy": 1005.3110273152668,
-        "Position": [
-            29.49343089999999,
-            -23.9020206,
-            7.0
-        ],
-        "Type": 0
-    },
-    "108": {
-        "Id": "108",
-        "Name": "Tshilidzini Hospital",
-        "SNR": 67.6940142758493,
-        "Energy": 1127.0541933118002,
-        "Position": [
-            30.4146151,
-            -22.995015,
-            7.0
-        ],
-        "Type": 0
-    },
-    "109": {
-        "Id": "109",
-        "Name": "Mediclinic",
-        "SNR": 78.36518427782262,
-        "Energy": 1209.3861215169009,
-        "Position": [
-            30.4804048,
-            -22.9954147,
-            7.0
-        ],
-        "Type": 0
-    },
-    "110": {
-        "Id": "110",
-        "Name": "Dilokong Hospital",
-        "SNR": 71.81495579861556,
-        "Energy": 755.1460444492465,
-        "Position": [
-            30.1717668,
-            -24.6162262,
-            7.0
-        ],
-        "Type": 0
-    },
-    "111": {
-        "Id": "111",
-        "Name": "Mapulaneng Hospital",
-        "SNR": 11.629720516659283,
-        "Energy": 1570.425292037215,
-        "Position": [
-            31.055559,
-            -24.844134,
-            8.0
-        ],
-        "Type": null
-    },
-    "112": {
-        "Id": "112",
-        "Name": "Siloam Hospital",
-        "SNR": 14.121418494076757,
-        "Energy": 1963.3393006508454,
-        "Position": [
-            30.1932447,
-            -22.9015998,
-            7.0
-        ],
-        "Type": 0
-    },
-    "113": {
-        "Id": "113",
-        "Name": "Mediclinic",
-        "SNR": 16.708221039807462,
-        "Energy": 711.4925627624428,
-        "Position": [
-            29.4645938,
-            -23.9043782,
-            7.0
-        ],
-        "Type": 0
-    },
-    "114": {
-        "Id": "114",
-        "Name": "Mutale Health Center",
-        "SNR": 44.11368484030697,
-        "Energy": 1522.823318639403,
-        "Position": [
-            30.5213928,
-            -22.73625059999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "115": {
-        "Id": "115",
-        "Name": "Botlokwa Hospital",
-        "SNR": 85.34576312133288,
-        "Energy": 690.1071227220725,
-        "Position": [
-            29.7427905,
-            -23.4924887,
-            7.0
-        ],
-        "Type": 0
-    },
-    "116": {
-        "Id": "116",
-        "Name": "Tzaneen Medi-Clinic",
-        "SNR": 47.83558858057303,
-        "Energy": 1559.6681165395657,
-        "Position": [
-            30.1527959,
-            -23.8226407,
-            10.0
-        ],
-        "Type": -1
-    },
-    "117": {
-        "Id": "117",
-        "Name": "Mopani Medical Centre",
-        "SNR": 55.31322480479308,
-        "Energy": 1466.8709444247786,
-        "Position": [
-            30.1615068,
-            -23.8298451,
-            7.0
-        ],
-        "Type": 0
-    },
-    "118": {
-        "Id": "118",
-        "Name": "Hanyani Medical Centre Nkwinika TI",
-        "SNR": 63.00937908506436,
-        "Energy": 1531.4150725654865,
-        "Position": [
-            30.291036,
-            -23.886778,
-            7.0
-        ],
-        "Type": 0
-    },
-    "119": {
-        "Id": "119",
-        "Name": "Mokwakwaila Medical Centre",
-        "SNR": 58.77480312385459,
-        "Energy": 918.3174355920139,
-        "Position": [
-            30.4249667,
-            -23.5270932,
-            7.0
-        ],
-        "Type": 0
-    },
-    "120": {
-        "Id": "120",
-        "Name": "Letaba Hospital",
-        "SNR": 66.40146011324155,
-        "Energy": 1295.1239647135947,
-        "Position": [
-            30.267554,
-            -23.8735483,
-            7.0
-        ],
-        "Type": 0
-    },
-    "121": {
-        "Id": "121",
-        "Name": "Evuxakeni Hospital",
-        "SNR": 73.85655336855629,
-        "Energy": 1738.8387503096656,
-        "Position": [
-            30.7288359,
-            -23.3187641,
-            7.0
-        ],
-        "Type": 0
-    },
-    "122": {
-        "Id": "122",
-        "Name": "Jj BRITZ ORT/PROT",
-        "SNR": 63.73597928290339,
-        "Energy": 657.2804777867057,
-        "Position": [
-            30.15648770000001,
-            -23.82054089999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "123": {
-        "Id": "123",
-        "Name": "Cheapside medical centre",
-        "SNR": 40.37904568058901,
-        "Energy": 1642.421323715587,
-        "Position": [
-            30.6910409,
-            -23.000528,
-            7.0
-        ],
-        "Type": 0
-    },
-    "124": {
-        "Id": "124",
-        "Name": "Safari-Med Medical Practice",
-        "SNR": 44.675725729060275,
-        "Energy": 1792.0452566450506,
-        "Position": [
-            30.9578102,
-            -24.3503661,
-            7.0
-        ],
-        "Type": 0
-    },
-    "125": {
-        "Id": "125",
-        "Name": "Themeli Medical Centre",
-        "SNR": 38.73963506111693,
-        "Energy": 564.3944247792027,
-        "Position": [
-            30.3967995,
-            -23.4289927,
-            7.0
-        ],
-        "Type": 0
-    },
-    "126": {
-        "Id": "126",
-        "Name": "Peacemed Medical Centre",
-        "SNR": 41.03599863471275,
-        "Energy": 1813.9344468253487,
-        "Position": [
-            30.1591,
-            -23.83055,
-            7.0
-        ],
-        "Type": 0
-    },
-    "127": {
-        "Id": "127",
-        "Name": "Nkhensani Hospital",
-        "SNR": 27.272447126651116,
-        "Energy": 1345.8581921516861,
-        "Position": [
-            30.7108651,
-            -23.3181637,
-            7.0
-        ],
-        "Type": 0
-    },
-    "128": {
-        "Id": "128",
-        "Name": "DR C N Phatudi Hospital",
-        "SNR": 110.17970060429961,
-        "Energy": 1990.5741390761636,
-        "Position": [
-            30.280849,
-            -24.0265804,
-            10.0
-        ],
-        "Type": -1
-    },
-    "129": {
-        "Id": "129",
-        "Name": "Dr MBOMBI",
-        "SNR": 65.04604090197967,
-        "Energy": 1369.3012591258193,
-        "Position": [
-            30.68768579999999,
-            -23.3088256,
-            7.0
-        ],
-        "Type": 0
-    },
-    "130": {
-        "Id": "130",
-        "Name": "Kgapane Hospital",
-        "SNR": 71.78983041644527,
-        "Energy": 1275.3274139094083,
-        "Position": [
-            30.21710169999999,
-            -23.6493398,
-            7.0
-        ],
-        "Type": 0
-    },
-    "131": {
-        "Id": "131",
-        "Name": "Maphutha Malatji Hospital Pharmacy",
-        "SNR": 84.06831839579853,
-        "Energy": 1439.0631491069003,
-        "Position": [
-            31.0386515,
-            -23.9260467,
-            7.0
-        ],
-        "Type": 0
-    },
-    "132": {
-        "Id": "132",
-        "Name": "Spec-Savers Phalaborwa",
-        "SNR": 60.82917131677905,
-        "Energy": 2471.4310888493683,
-        "Position": [
-            31.135333,
-            -23.950333,
-            7.0
-        ],
-        "Type": 0
-    },
-    "133": {
-        "Id": "133",
-        "Name": "Giyani Community Healthcare Centre",
-        "SNR": 55.60812263323255,
-        "Energy": 1418.844056001,
-        "Position": [
-            30.6914181,
-            -23.3095572,
-            7.0
-        ],
-        "Type": 0
-    },
-    "134": {
-        "Id": "134",
-        "Name": "Tzaneen Police Station",
-        "SNR": 52.91246878314951,
-        "Energy": 1747.812258300013,
-        "Position": [
-            30.1621082,
-            -23.828211,
-            7.0
-        ],
-        "Type": 0
-    },
-    "135": {
-        "Id": "135",
-        "Name": "SAPS",
-        "SNR": 70.79033903241243,
-        "Energy": 917.9430787636802,
-        "Position": [
-            30.1504366,
-            -23.4123785,
-            7.0
-        ],
-        "Type": 0
-    },
-    "136": {
-        "Id": "136",
-        "Name": "Maake Police Station (SAPS Lenyenye)",
-        "SNR": 56.481516213523264,
-        "Energy": 1085.9376621987133,
-        "Position": [
-            30.27056349999999,
-            -23.9733324,
-            7.0
-        ],
-        "Type": 0
-    },
-    "137": {
-        "Id": "137",
-        "Name": "South African Police Service",
-        "SNR": 85.49414500828289,
-        "Energy": 1017.9727750584217,
-        "Position": [
-            30.22177,
-            -23.64368,
-            7.0
-        ],
-        "Type": 0
-    },
-    "138": {
-        "Id": "138",
-        "Name": "South African Police Service",
-        "SNR": 66.25948160871144,
-        "Energy": 1114.0211561449717,
-        "Position": [
-            31.0485007,
-            -24.5970739,
-            7.0
-        ],
-        "Type": 0
-    },
-    "139": {
-        "Id": "139",
-        "Name": "South African Police Service",
-        "SNR": 53.26043663329,
-        "Energy": 1831.9538628420682,
-        "Position": [
-            30.61423659999999,
-            -22.7274129,
-            7.0
-        ],
-        "Type": 0
-    },
-    "140": {
-        "Id": "140",
-        "Name": "Hoedspruit Police Station",
-        "SNR": 61.010659706307536,
-        "Energy": 845.5006180818423,
-        "Position": [
-            30.9512792,
-            -24.3535422,
-            7.0
-        ],
-        "Type": 0
-    },
-    "141": {
-        "Id": "141",
-        "Name": "SAPS - Mutale",
-        "SNR": 29.82979478265084,
-        "Energy": 883.0260489429712,
-        "Position": [
-            30.5231366,
-            -22.7352494,
-            7.0
-        ],
-        "Type": 0
-    },
-    "142": {
-        "Id": "142",
-        "Name": "Malamulele SAPS",
-        "SNR": 86.26596293231495,
-        "Energy": 634.984571741074,
-        "Position": [
-            30.68651499999999,
-            -23.0044975,
-            7.0
-        ],
-        "Type": 0
-    },
-    "143": {
-        "Id": "143",
-        "Name": "Mankweng Police Station",
-        "SNR": 96.92036151537494,
-        "Energy": 1269.7415285031614,
-        "Position": [
-            29.7268045,
-            -23.88492429999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "144": {
-        "Id": "144",
-        "Name": "Vuwani Police Station",
-        "SNR": 53.363053880690785,
-        "Energy": 1279.530706660277,
-        "Position": [
-            30.4209783,
-            -23.129688,
-            7.0
-        ],
-        "Type": 0
-    },
-    "145": {
-        "Id": "145",
-        "Name": "South African Police Services",
-        "SNR": 46.97011625402213,
-        "Energy": 1290.4822506870348,
-        "Position": [
-            30.3300796,
-            -24.6791144,
-            7.0
-        ],
-        "Type": 0
-    },
-    "146": {
-        "Id": "146",
-        "Name": "Tshaulu Police Station",
-        "SNR": 65.74030345022707,
-        "Energy": 998.9697305541197,
-        "Position": [
-            30.7477713,
-            -22.8033429,
-            7.0
-        ],
-        "Type": 0
-    },
-    "147": {
-        "Id": "147",
-        "Name": "SAPS Supply Chain Management",
-        "SNR": 62.30281897763757,
-        "Energy": 1483.0703997681762,
-        "Position": [
-            29.451789,
-            -23.9004029,
-            7.0
-        ],
-        "Type": 0
-    },
-    "148": {
-        "Id": "148",
-        "Name": "South African Police Service",
-        "SNR": 52.77646233041288,
-        "Energy": 1616.224452734789,
-        "Position": [
-            29.4547628,
-            -23.9130703,
-            7.0
-        ],
-        "Type": 0
-    },
-    "149": {
-        "Id": "149",
-        "Name": "SAPS",
-        "SNR": 22.305856573619664,
-        "Energy": 1376.0521188762486,
-        "Position": [
-            29.7416585,
-            -23.0970676,
-            8.0
-        ],
-        "Type": null
-    },
-    "150": {
-        "Id": "150",
-        "Name": "SAPS Seshego",
-        "SNR": 50.73398566011537,
-        "Energy": 1339.3047764415433,
-        "Position": [
-            29.3828394,
-            -23.85393149999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "151": {
-        "Id": "151",
-        "Name": "Greater Tzaneen Municipality",
-        "SNR": 40.42884683780045,
-        "Energy": 1454.0538548751429,
-        "Position": [
-            30.1584977,
-            -23.8294599,
-            7.0
-        ],
-        "Type": 0
-    },
-    "152": {
-        "Id": "152",
-        "Name": "SAPS",
-        "SNR": 17.14965374348416,
-        "Energy": 1152.158176533153,
-        "Position": [
-            30.2226082,
-            -23.6442096,
-            8.0
-        ],
-        "Type": null
-    },
-    "153": {
-        "Id": "153",
-        "Name": "Maake Police Station (SAPS Lenyenye)",
-        "SNR": 65.77047663808507,
-        "Energy": 1781.6025436806865,
-        "Position": [
-            30.27056349999999,
-            -23.9733324,
-            7.0
-        ],
-        "Type": 0
-    },
-    "154": {
-        "Id": "154",
-        "Name": "Tzaneen Police Station",
-        "SNR": 89.68825098860852,
-        "Energy": 917.4639663048117,
-        "Position": [
-            30.1621082,
-            -23.828211,
-            7.0
-        ],
-        "Type": 0
-    },
-    "155": {
-        "Id": "155",
-        "Name": "SAPS",
-        "SNR": 74.48066002045164,
-        "Energy": 1302.811527410359,
-        "Position": [
-            30.1504366,
-            -23.4123785,
-            7.0
-        ],
-        "Type": 0
-    },
-    "156": {
-        "Id": "156",
-        "Name": "Giyani SAPS",
-        "SNR": 63.32408091334512,
-        "Energy": 2185.4164017585954,
-        "Position": [
-            30.71595889999999,
-            -23.3132697,
-            7.0
-        ],
-        "Type": 0
-    },
-    "157": {
-        "Id": "157",
-        "Name": "South African Police Service",
-        "SNR": 69.62990022084234,
-        "Energy": 785.3083714795553,
-        "Position": [
-            31.0485007,
-            -24.5970739,
-            7.0
-        ],
-        "Type": 0
-    },
-    "158": {
-        "Id": "158",
-        "Name": "Malamulele SAPS",
-        "SNR": 70.07713112042441,
-        "Energy": 1806.4805810295406,
-        "Position": [
-            30.68651499999999,
-            -23.0044975,
-            7.0
-        ],
-        "Type": 0
-    },
-    "159": {
-        "Id": "159",
-        "Name": "Saps - Haenertsburg",
-        "SNR": 53.00212499040139,
-        "Energy": 1279.9375209895322,
-        "Position": [
-            29.939676,
-            -23.9404964,
-            7.0
-        ],
-        "Type": 0
-    },
-    "160": {
-        "Id": "160",
-        "Name": "Saps - Namakgale",
-        "SNR": 43.760706292268864,
-        "Energy": 1654.0259551849838,
-        "Position": [
-            31.0279023,
-            -23.9327276,
-            7.0
-        ],
-        "Type": 0
-    },
-    "161": {
-        "Id": "161",
-        "Name": "SAPS - Mutale",
-        "SNR": 44.64421189682719,
-        "Energy": 1584.2200533236205,
-        "Position": [
-            30.5231366,
-            -22.7352494,
-            10.0
-        ],
-        "Type": -1
-    },
-    "162": {
-        "Id": "162",
-        "Name": "saps levubu",
-        "SNR": 62.06226308629011,
-        "Energy": 1137.4439674997273,
-        "Position": [
-            30.2552575,
-            -23.0800993,
-            7.0
-        ],
-        "Type": 0
-    },
-    "163": {
-        "Id": "163",
-        "Name": "Saps - Phalaborwa",
-        "SNR": 30.64131004709691,
-        "Energy": 1346.6312807132317,
-        "Position": [
-            31.136705,
-            -23.95227719999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "164": {
-        "Id": "164",
-        "Name": "Magisterial Court - Greater Tzaneen Rural",
-        "SNR": 61.72210715297608,
-        "Energy": 1252.5589477171993,
-        "Position": [
-            30.29606,
-            -23.8531999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "165": {
-        "Id": "165",
-        "Name": "Magisterial Court - Greater Giyani Rural",
-        "SNR": 65.2854174665185,
-        "Energy": 692.3978657041467,
-        "Position": [
-            30.67948,
-            -23.41904,
-            7.0
-        ],
-        "Type": 0
-    },
-    "166": {
-        "Id": "166",
-        "Name": "Lenyenye Magistrate Court (Previously Naphuno)",
-        "SNR": 71.11128826194454,
-        "Energy": 953.5189920475216,
-        "Position": [
-            30.2702552,
-            -23.9733451,
-            7.0
-        ],
-        "Type": 0
-    },
-    "167": {
-        "Id": "167",
-        "Name": "Magistrate Court - Giyani",
-        "SNR": 45.517651398873156,
-        "Energy": 1058.1712069625712,
-        "Position": [
-            30.694588,
-            -23.31219859999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "168": {
-        "Id": "168",
-        "Name": "Magistrate Court Tzaneen",
-        "SNR": 61.51320936837184,
-        "Energy": 939.982909011016,
-        "Position": [
-            30.1610758,
-            -23.8272556,
-            7.0
-        ],
-        "Type": 0
-    },
-    "169": {
-        "Id": "169",
-        "Name": "Magisterial Court - Tzaneen",
-        "SNR": 75.42758233249067,
-        "Energy": 1711.9248123668524,
-        "Position": [
-            30.15722,
-            -23.86025,
-            7.0
-        ],
-        "Type": 0
-    },
-    "170": {
-        "Id": "170",
-        "Name": "Magisterial Court - Phalaborwa",
-        "SNR": 55.087878966813584,
-        "Energy": 1154.3345095717068,
-        "Position": [
-            31.13807,
-            -23.9499299,
-            7.0
-        ],
-        "Type": 0
-    },
-    "171": {
-        "Id": "171",
-        "Name": "Magisterial Court - Duiwelskloof",
-        "SNR": 64.84463168245084,
-        "Energy": 1002.9057335389664,
-        "Position": [
-            30.19142,
-            -23.6585,
-            7.0
-        ],
-        "Type": 0
-    },
-    "172": {
-        "Id": "172",
-        "Name": "Nkowankowa Court",
-        "SNR": 48.25854337454245,
-        "Energy": 1110.7429618314804,
-        "Position": [
-            30.2836683,
-            -23.8876216,
-            7.0
-        ],
-        "Type": 0
-    },
-    "173": {
-        "Id": "173",
-        "Name": "Magisterial Court - NP343 Rural",
-        "SNR": 101.31274295082733,
-        "Energy": 1455.4313685099985,
-        "Position": [
-            30.7861,
-            -22.9726599,
-            10.0
-        ],
-        "Type": -1
-    },
-    "174": {
-        "Id": "174",
-        "Name": "Limpopo Division of the High Court",
-        "SNR": 104.70341378406503,
-        "Energy": 1691.1042605714358,
-        "Position": [
-            29.4576395,
-            -23.9131463,
-            10.0
-        ],
-        "Type": -1
-    },
-    "175": {
-        "Id": "175",
-        "Name": "Mankweng Magistrate Office",
-        "SNR": 48.2531798179242,
-        "Energy": 2455.8041314133643,
-        "Position": [
-            29.7018948,
-            -23.8818186,
-            7.0
-        ],
-        "Type": 0
-    },
-    "176": {
-        "Id": "176",
-        "Name": "Magisterial Court - Bushbuckridge Rural",
-        "SNR": 47.97688280991266,
-        "Energy": 641.3684923642369,
-        "Position": [
-            31.19992,
-            -24.74596,
-            7.0
-        ],
-        "Type": 0
-    },
-    "177": {
-        "Id": "177",
-        "Name": "Magisterial Court - Mutale Rural",
-        "SNR": 56.66800647866589,
-        "Energy": 1322.9613081145446,
-        "Position": [
-            30.6414099,
-            -22.5963,
-            7.0
-        ],
-        "Type": 0
-    },
-    "178": {
-        "Id": "178",
-        "Name": "Moshate Mothapo",
-        "SNR": 31.7721885275154,
-        "Energy": 794.0407922171482,
-        "Position": [
-            29.7024393,
-            -23.9581758,
-            7.0
-        ],
-        "Type": 0
-    },
-    "179": {
-        "Id": "179",
-        "Name": "Correctional Services",
-        "SNR": 77.65796424084249,
-        "Energy": 1561.1838003440464,
-        "Position": [
-            30.1426069,
-            -23.826459,
-            7.0
-        ],
-        "Type": 0
-    },
-    "180": {
-        "Id": "180",
-        "Name": "Correctional Services",
-        "SNR": 54.826883547589865,
-        "Energy": 945.3540912121315,
-        "Position": [
-            29.90520380000001,
-            -23.0365832,
-            7.0
-        ],
-        "Type": 0
-    },
-    "181": {
-        "Id": "181",
-        "Name": "Polokwane Correctional Services Clinic",
-        "SNR": 90.43100985615916,
-        "Energy": 1382.278352049964,
-        "Position": [
-            29.454944,
-            -23.92143799999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "182": {
-        "Id": "182",
-        "Name": "Correctional Services",
-        "SNR": 91.47736938282115,
-        "Energy": 1089.716569163636,
-        "Position": [
-            29.452595,
-            -23.909181,
-            7.0
-        ],
-        "Type": 0
-    },
-    "183": {
-        "Id": "183",
-        "Name": "Matatshe Prison",
-        "SNR": 84.87340932578692,
-        "Energy": 1214.1408854687877,
-        "Position": [
-            30.5312024,
-            -22.8944172,
-            7.0
-        ],
-        "Type": 0
-    },
-    "184": {
-        "Id": "184",
-        "Name": "Correctional Services",
-        "SNR": 91.29526884089915,
-        "Energy": 861.8308148719112,
-        "Position": [
-            30.4428064,
-            -22.9717943,
-            7.0
-        ],
-        "Type": 0
-    },
-    "185": {
-        "Id": "185",
-        "Name": "Tzaneen Traffic Department",
-        "SNR": 66.99623671161947,
-        "Energy": 867.6724236701846,
-        "Position": [
-            30.165699,
-            -23.8581682,
-            7.0
-        ],
-        "Type": 0
-    },
-    "186": {
-        "Id": "186",
-        "Name": "Giyani Traffic Testing Station",
-        "SNR": 77.25227544674462,
-        "Energy": 1051.3380868634886,
-        "Position": [
-            30.7151053,
-            -23.3166603,
-            7.0
-        ],
-        "Type": 0
-    },
-    "187": {
-        "Id": "187",
-        "Name": "Greater Tzaneen Municipality",
-        "SNR": 58.897276999325186,
-        "Energy": 1428.655783903167,
-        "Position": [
-            30.1584977,
-            -23.8294599,
-            7.0
-        ],
-        "Type": 0
-    },
-    "188": {
-        "Id": "188",
-        "Name": "Hoedspruit Police Station",
-        "SNR": 55.591930764781495,
-        "Energy": 863.8041658715414,
-        "Position": [
-            30.9512792,
-            -24.3535422,
-            7.0
-        ],
-        "Type": 0
-    },
-    "189": {
-        "Id": "189",
-        "Name": "Department of Home Affairs Office - Phalaborwa",
-        "SNR": 48.92863174968748,
-        "Energy": 1670.163133045267,
-        "Position": [
-            31.1291056,
-            -23.9547722,
-            10.0
-        ],
-        "Type": -1
-    },
-    "190": {
-        "Id": "190",
-        "Name": "Mopani District Office",
-        "SNR": 35.56618172710229,
-        "Energy": 1818.9515765606668,
-        "Position": [
-            30.7102542,
-            -23.31309329999999,
-            10.0
-        ],
-        "Type": -1
-    },
-    "191": {
-        "Id": "191",
-        "Name": "Malamulele Traffic Department",
-        "SNR": 87.8288705162106,
-        "Energy": 863.7442479177005,
-        "Position": [
-            30.6870447,
-            -23.003459,
-            7.0
-        ],
-        "Type": 0
-    },
-    "192": {
-        "Id": "192",
-        "Name": "Vuwani Department of Traffic Testing Station",
-        "SNR": 50.47893578007883,
-        "Energy": 1250.8304354441866,
-        "Position": [
-            30.4183084,
-            -23.1302527,
-            7.0
-        ],
-        "Type": 0
-    },
-    "193": {
-        "Id": "193",
-        "Name": "Thohoyandou Traffic Department",
-        "SNR": 60.813365497824506,
-        "Energy": 1402.644564794332,
-        "Position": [
-            30.4952564,
-            -22.9711022,
-            7.0
-        ],
-        "Type": 0
-    },
-    "194": {
-        "Id": "194",
-        "Name": "Sibasa Traffic Department",
-        "SNR": 44.119103268594465,
-        "Energy": 920.1133894541831,
-        "Position": [
-            30.4724097,
-            -22.9440304,
-            7.0
-        ],
-        "Type": 0
-    },
-    "195": {
-        "Id": "195",
-        "Name": "Department of Home Affairs Office - Tzaneen",
-        "SNR": 84.91284142855184,
-        "Energy": 204.88530140071134,
-        "Position": [
-            30.1617866,
-            -23.8257768,
-            7.0
-        ],
-        "Type": 0
-    },
-    "196": {
-        "Id": "196",
-        "Name": "Mankoeng High School",
-        "SNR": 39.53916226618381,
-        "Energy": 1589.9123656906988,
-        "Position": [
-            29.82058,
-            -23.87782,
-            7.0
-        ],
-        "Type": 0
-    },
-    "197": {
-        "Id": "197",
-        "Name": "Marobathotha High School",
-        "SNR": 76.99147662451486,
-        "Energy": 1607.4344414773866,
-        "Position": [
-            29.7953976,
-            -23.9333346,
-            7.0
-        ],
-        "Type": 0
-    },
-    "198": {
-        "Id": "198",
-        "Name": "Makgoka High School",
-        "SNR": 68.61856359161362,
-        "Energy": 1134.4932775169968,
-        "Position": [
-            29.7908,
-            -23.94715,
-            7.0
-        ],
-        "Type": 0
-    },
-    "199": {
-        "Id": "199",
-        "Name": "Doasho High School",
-        "SNR": 70.89895010284582,
-        "Energy": 805.1832519304292,
-        "Position": [
-            29.80405,
-            -23.95402,
-            7.0
-        ],
-        "Type": 0
-    },
-    "200": {
-        "Id": "200",
-        "Name": "Mokwatedi Secondary School",
-        "SNR": 56.188122053057526,
-        "Energy": 1770.703301258824,
-        "Position": [
-            29.79585,
-            -23.97447,
-            7.0
-        ],
-        "Type": 0
-    },
-    "201": {
-        "Id": "201",
-        "Name": "Makgopele High School",
-        "SNR": 54.85090213073202,
-        "Energy": 1911.72306670005,
-        "Position": [
-            30.5604126,
-            -23.4290564,
-            7.0
-        ],
-        "Type": 0
-    },
-    "202": {
-        "Id": "202",
-        "Name": "Phangasasa Senior Secondary School",
-        "SNR": 75.33166504055029,
-        "Energy": 1847.5474652585158,
-        "Position": [
-            30.33357,
-            -23.9869999,
-            10.0
-        ],
-        "Type": -1
-    },
-    "203": {
-        "Id": "203",
-        "Name": "Risinga High School",
-        "SNR": 26.90786730266825,
-        "Energy": 1640.568052194175,
-        "Position": [
-            30.71922169999999,
-            -23.3056275,
-            7.0
-        ],
-        "Type": 0
-    },
-    "204": {
-        "Id": "204",
-        "Name": "Daktari Bush School & Wildlife Orphanage",
-        "SNR": 53.75441013108834,
-        "Energy": 1355.555492899962,
-        "Position": [
-            30.670716,
-            -24.218279,
-            7.0
-        ],
-        "Type": 0
-    },
-    "205": {
-        "Id": "205",
-        "Name": "Southern Cross Schools.",
-        "SNR": 23.57059002356747,
-        "Energy": 1014.9682493929682,
-        "Position": [
-            30.94752609999999,
-            -24.3602282,
-            7.0
-        ],
-        "Type": 0
-    },
-    "206": {
-        "Id": "206",
-        "Name": "Craighead Primary School",
-        "SNR": 62.134293687776314,
-        "Energy": 850.2212934091475,
-        "Position": [
-            30.16462,
-            -23.97422,
-            7.0
-        ],
-        "Type": 0
-    },
-    "207": {
-        "Id": "207",
-        "Name": "Ramotshinyadi Secondary School",
-        "SNR": 18.113646672442293,
-        "Energy": 842.6317904308512,
-        "Position": [
-            30.5949809,
-            -23.621708,
-            7.0
-        ],
-        "Type": 0
-    },
-    "208": {
-        "Id": "208",
-        "Name": "Educare Primary School",
-        "SNR": 65.1236500099574,
-        "Energy": 1733.8745744110377,
-        "Position": [
-            29.995,
-            -23.87283,
-            7.0
-        ],
-        "Type": 0
-    },
-    "209": {
-        "Id": "209",
-        "Name": "Mohlaba Primary School",
-        "SNR": 60.86421013365202,
-        "Energy": 1423.2130086413033,
-        "Position": [
-            30.2831316,
-            -23.9337257,
-            7.0
-        ],
-        "Type": 0
-    },
-    "210": {
-        "Id": "210",
-        "Name": "Nwamavimbi Secondary School",
-        "SNR": 56.433080942616755,
-        "Energy": 1052.647984786576,
-        "Position": [
-            30.3567738,
-            -23.379809,
-            7.0
-        ],
-        "Type": 0
-    },
-    "211": {
-        "Id": "211",
-        "Name": "Nwajaheni Primary School",
-        "SNR": 33.64571825995135,
-        "Energy": 1053.6578819971614,
-        "Position": [
-            30.41232,
-            -23.74937,
-            7.0
-        ],
-        "Type": 0
-    },
-    "212": {
-        "Id": "212",
-        "Name": "Mhangweni Primary School",
-        "SNR": 41.855636577945404,
-        "Energy": 504.9669260829579,
-        "Position": [
-            30.319,
-            -23.97317,
-            7.0
-        ],
-        "Type": 0
-    },
-    "213": {
-        "Id": "213",
-        "Name": "Khutjwana Primary School",
-        "SNR": 78.4708883945593,
-        "Energy": 823.3603907825825,
-        "Position": [
-            30.22408,
-            -23.9256,
-            7.0
-        ],
-        "Type": 0
-    },
-    "214": {
-        "Id": "214",
-        "Name": "Haenertburg Primary School",
-        "SNR": 61.07744677759503,
-        "Energy": 1639.4997439302706,
-        "Position": [
-            29.94429,
-            -23.94659,
-            7.0
-        ],
-        "Type": 0
-    },
-    "215": {
-        "Id": "215",
-        "Name": "Mushiyani Primary School",
-        "SNR": 63.07633056819862,
-        "Energy": 1131.979083155857,
-        "Position": [
-            30.90377,
-            -23.6161499,
-            7.0
-        ],
-        "Type": 0
-    },
-    "216": {
-        "Id": "216",
-        "Name": "Matiyani Primary School",
-        "SNR": 42.95972157397031,
-        "Energy": 479.01629479429266,
-        "Position": [
-            30.97875,
-            -22.74345,
-            7.0
-        ],
-        "Type": 0
-    },
-    "217": {
-        "Id": "217",
-        "Name": "Kolobetona Secondary School",
-        "SNR": 55.95475588409368,
-        "Energy": 1196.2529924658593,
-        "Position": [
-            30.20802,
-            -23.4233999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "218": {
-        "Id": "218",
-        "Name": "Taulome Primary School",
-        "SNR": 75.30969959708267,
-        "Energy": 1332.6355340957962,
-        "Position": [
-            30.56518,
-            -23.51933,
-            7.0
-        ],
-        "Type": 0
-    },
-    "219": {
-        "Id": "219",
-        "Name": "Nakampe Primary School",
-        "SNR": 68.51343455594508,
-        "Energy": 971.9687941725408,
-        "Position": [
-            30.46003000000001,
-            -23.3915,
-            7.0
-        ],
-        "Type": 0
-    },
-    "220": {
-        "Id": "220",
-        "Name": "Malubana Primary School",
-        "SNR": 38.829936931317235,
-        "Energy": 831.202968769996,
-        "Position": [
-            30.49133,
-            -23.7249999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "221": {
-        "Id": "221",
-        "Name": "Vallambrosa Primary School",
-        "SNR": 26.98464900970619,
-        "Energy": 1054.9962647916814,
-        "Position": [
-            30.58392,
-            -23.6119999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "222": {
-        "Id": "222",
-        "Name": "Makahlule Primary School",
-        "SNR": 57.147763480542395,
-        "Energy": 652.9557436319733,
-        "Position": [
-            30.90011999999999,
-            -22.8908999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "223": {
-        "Id": "223",
-        "Name": "Yingisani Primary School",
-        "SNR": 68.85182926160431,
-        "Energy": 2104.0164868483075,
-        "Position": [
-            30.2604849,
-            -23.8721392,
-            7.0
-        ],
-        "Type": 0
-    },
-    "224": {
-        "Id": "224",
-        "Name": "Tanani Primary School",
-        "SNR": 61.654250779616056,
-        "Energy": 1473.1420779766343,
-        "Position": [
-            30.77038,
-            -23.30718,
-            7.0
-        ],
-        "Type": 0
-    },
-    "225": {
-        "Id": "225",
-        "Name": "Senopelwa Primary School",
-        "SNR": 37.631082636822214,
-        "Energy": 1693.910925739747,
-        "Position": [
-            30.36668000000001,
-            -23.5608699,
-            7.0
-        ],
-        "Type": 0
-    },
-    "226": {
-        "Id": "226",
-        "Name": "Mabunda Primary School",
-        "SNR": 47.692736145292784,
-        "Energy": 1549.0228364821403,
-        "Position": [
-            31.04502,
-            -23.56157,
-            10.0
-        ],
-        "Type": -1
-    },
-    "227": {
-        "Id": "227",
-        "Name": "Mamokgadi Primary School",
-        "SNR": 61.249546198605394,
-        "Energy": 1322.6109931107005,
-        "Position": [
-            30.45447,
-            -23.4258299,
-            7.0
-        ],
-        "Type": 0
-    },
-    "228": {
-        "Id": "228",
-        "Name": "Platland Primary School",
-        "SNR": 73.1908785295914,
-        "Energy": 1002.4755275816447,
-        "Position": [
-            30.18843,
-            -23.61002,
-            7.0
-        ],
-        "Type": 0
-    },
-    "229": {
-        "Id": "229",
-        "Name": "Mlunghisi Primary School",
-        "SNR": 94.55211565856033,
-        "Energy": 2500.3295734462295,
-        "Position": [
-            30.41635,
-            -23.9438299,
-            7.0
-        ],
-        "Type": 0
-    },
-    "230": {
-        "Id": "230",
-        "Name": "Phatima Primary School",
-        "SNR": 64.97814611581998,
-        "Energy": 1610.6476606203055,
-        "Position": [
-            30.89868,
-            -23.1164199,
-            7.0
-        ],
-        "Type": 0
-    },
-    "231": {
-        "Id": "231",
-        "Name": "Kingfisher Private School",
-        "SNR": 47.20237028553835,
-        "Energy": 1820.1453626948833,
-        "Position": [
-            31.14245,
-            -23.951738,
-            7.0
-        ],
-        "Type": 0
-    },
-    "232": {
-        "Id": "232",
-        "Name": "Gumbu Junior Secondary School",
-        "SNR": 42.04024101724717,
-        "Energy": 1536.7244857048927,
-        "Position": [
-            30.7935299,
-            -22.3596699,
-            7.0
-        ],
-        "Type": 0
-    },
-    "233": {
-        "Id": "233",
-        "Name": "Kheodi High School",
-        "SNR": 60.30088575016741,
-        "Energy": 1772.7411731866152,
-        "Position": [
-            30.39833,
-            -23.42735,
-            10.0
-        ],
-        "Type": -1
-    },
-    "234": {
-        "Id": "234",
-        "Name": "Northampton Primary School",
-        "SNR": 63.22566138994883,
-        "Energy": 870.3880344784316,
-        "Position": [
-            30.52812,
-            -23.46632,
-            7.0
-        ],
-        "Type": 0
-    },
-    "235": {
-        "Id": "235",
-        "Name": "Bolotswi Secondary School",
-        "SNR": 106.6858057829347,
-        "Energy": 1423.3436554693833,
-        "Position": [
-            30.47197,
-            -23.4919799,
-            10.0
-        ],
-        "Type": -1
-    },
-    "236": {
-        "Id": "236",
-        "Name": "Nyumbani High School",
-        "SNR": 71.07924859832255,
-        "Energy": 1463.3154131355964,
-        "Position": [
-            30.69352,
-            -23.40173,
-            7.0
-        ],
-        "Type": 0
-    },
-    "237": {
-        "Id": "237",
-        "Name": "Mokoto High School",
-        "SNR": 36.23988937061571,
-        "Energy": 1548.7698715429233,
-        "Position": [
-            30.61417,
-            -23.5168699,
-            7.0
-        ],
-        "Type": 0
-    },
-    "238": {
-        "Id": "238",
-        "Name": "Mtititi Secondary School",
-        "SNR": 56.570337214319935,
-        "Energy": 1295.1692407005282,
-        "Position": [
-            30.88583,
-            -23.1058299,
-            7.0
-        ],
-        "Type": 0
-    },
-    "239": {
-        "Id": "239",
-        "Name": "Nkomo Primary School",
-        "SNR": 65.61515960644319,
-        "Energy": 1089.830780281069,
-        "Position": [
-            30.78392999999999,
-            -23.40372,
-            7.0
-        ],
-        "Type": 0
-    },
-    "240": {
-        "Id": "240",
-        "Name": "Jack Mashamba Primary School",
-        "SNR": 81.33794292663168,
-        "Energy": 1646.302271537094,
-        "Position": [
-            30.39712,
-            -23.94682,
-            7.0
-        ],
-        "Type": 0
-    },
-    "241": {
-        "Id": "241",
-        "Name": "Seagotle Secondary School",
-        "SNR": 19.94990856253652,
-        "Energy": 1577.7685150348807,
-        "Position": [
-            30.41849999999999,
-            -24.2240499,
-            7.0
-        ],
-        "Type": 0
-    },
-    "242": {
-        "Id": "242",
-        "Name": "Leseding Primary School",
-        "SNR": 56.778046799675636,
-        "Energy": 382.7840732579051,
-        "Position": [
-            30.68189,
-            -23.9060199,
-            7.0
-        ],
-        "Type": 0
-    },
-    "243": {
-        "Id": "243",
-        "Name": "Hasani Mninginisi Secondary School",
-        "SNR": 44.2643471402791,
-        "Energy": 2318.309905222905,
-        "Position": [
-            30.801001,
-            -23.1599952,
-            7.0
-        ],
-        "Type": 0
-    },
-    "244": {
-        "Id": "244",
-        "Name": "Gwambeni High School",
-        "SNR": 122.06763035724231,
-        "Energy": 1330.828097875945,
-        "Position": [
-            30.48548000000001,
-            -23.6534999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "245": {
-        "Id": "245",
-        "Name": "Tshikundamalema Secondary School",
-        "SNR": 24.563165748503927,
-        "Energy": 1079.1856283896595,
-        "Position": [
-            30.79457,
-            -22.4167299,
-            7.0
-        ],
-        "Type": 0
-    },
-    "246": {
-        "Id": "246",
-        "Name": "Sefolwe Primary School",
-        "SNR": 91.46993961309883,
-        "Energy": 1088.2973961234627,
-        "Position": [
-            30.31057,
-            -23.6500199,
-            7.0
-        ],
-        "Type": 0
-    },
-    "247": {
-        "Id": "247",
-        "Name": "Serurubele Secondary School",
-        "SNR": 73.3198657117145,
-        "Energy": 1613.6388625036334,
-        "Position": [
-            30.22,
-            -23.94865,
-            7.0
-        ],
-        "Type": 0
-    },
-    "248": {
-        "Id": "248",
-        "Name": "Rama Secondary School",
-        "SNR": 69.39925660688843,
-        "Energy": 1307.8782481287196,
-        "Position": [
-            30.5213,
-            -23.49438,
-            7.0
-        ],
-        "Type": 0
-    },
-    "249": {
-        "Id": "249",
-        "Name": "Mamosala Senior Secondary School",
-        "SNR": 70.97578587865897,
-        "Energy": 1497.6521282258323,
-        "Position": [
-            30.4735,
-            -24.10867,
-            7.0
-        ],
-        "Type": 0
-    },
-    "250": {
-        "Id": "250",
-        "Name": "Ramaolwane Secondary School",
-        "SNR": 63.440608462902844,
-        "Energy": 856.188412993218,
-        "Position": [
-            30.40665,
-            -23.49598,
-            7.0
-        ],
-        "Type": 0
-    },
-    "251": {
-        "Id": "251",
-        "Name": "Tsaneng Combine Junior Secondary School",
-        "SNR": 68.72505561574125,
-        "Energy": 1101.1423842859117,
-        "Position": [
-            30.11735,
-            -23.7425,
-            7.0
-        ],
-        "Type": 0
-    },
-    "252": {
-        "Id": "252",
-        "Name": "Lephepane Primary School",
-        "SNR": 54.72130292157908,
-        "Energy": 1881.459441674745,
-        "Position": [
-            30.18333,
-            -23.98633,
-            7.0
-        ],
-        "Type": 0
-    },
-    "253": {
-        "Id": "253",
-        "Name": "Hetiseka Junior Secondary School",
-        "SNR": 53.1221585750429,
-        "Energy": 877.9759249501094,
-        "Position": [
-            30.43366999999999,
-            -23.7084999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "254": {
-        "Id": "254",
-        "Name": "Manghezi Secondary School",
-        "SNR": 59.71220903410473,
-        "Energy": 1623.6058037153005,
-        "Position": [
-            30.96281999999999,
-            -23.5213699,
-            7.0
-        ],
-        "Type": 0
-    },
-    "255": {
-        "Id": "255",
-        "Name": "Makgoka Secondary School",
-        "SNR": 34.982924098021435,
-        "Energy": 1275.7671516549822,
-        "Position": [
-            29.7946908,
-            -23.9226426,
-            7.0
-        ],
-        "Type": 0
-    },
-    "256": {
-        "Id": "256",
-        "Name": "Mopani SE TVET College - Phalaborwa Campus",
-        "SNR": 53.044794268946134,
-        "Energy": 1670.1149934196092,
-        "Position": [
-            31.14144549999999,
-            -23.9420969,
-            7.0
-        ],
-        "Type": 0
-    },
-    "257": {
-        "Id": "257",
-        "Name": "Sir Val Duncan Technical College nomthandazo",
-        "SNR": 72.96498209180358,
-        "Energy": 968.3140534667409,
-        "Position": [
-            31.02818939999999,
-            -23.9373676,
-            7.0
-        ],
-        "Type": 0
-    },
-    "258": {
-        "Id": "258",
-        "Name": "Letaba FET College Giyani Campus",
-        "SNR": 54.84160621398203,
-        "Energy": 837.0309029974179,
-        "Position": [
-            30.7153534,
-            -23.3162563,
-            7.0
-        ],
-        "Type": 0
-    },
-    "259": {
-        "Id": "259",
-        "Name": "Stanford Business College",
-        "SNR": 71.28178924792847,
-        "Energy": 2121.0641400468753,
-        "Position": [
-            30.15812,
-            -23.82276,
-            7.0
-        ],
-        "Type": 0
-    },
-    "260": {
-        "Id": "260",
-        "Name": "Boston City Campus & Business College - Tzaneen",
-        "SNR": 104.39625003435054,
-        "Energy": 1148.2943757613957,
-        "Position": [
-            30.1623255,
-            -23.833123,
-            7.0
-        ],
-        "Type": 0
-    },
-    "261": {
-        "Id": "261",
-        "Name": "Giyani Education Multipurpose Centre(GEMPC)",
-        "SNR": 75.56489835203696,
-        "Energy": 1478.8408007087992,
-        "Position": [
-            30.7257299,
-            -23.2978079,
-            7.0
-        ],
-        "Type": 0
-    },
-    "262": {
-        "Id": "262",
-        "Name": "Leading Edge Flight School",
-        "SNR": 74.35040405329812,
-        "Energy": 1852.3554494775326,
-        "Position": [
-            30.950216,
-            -24.352078,
-            7.0
-        ],
-        "Type": 0
-    },
-    "263": {
-        "Id": "263",
-        "Name": "Phalaborwa College",
-        "SNR": 43.55060818247737,
-        "Energy": 584.850206329053,
-        "Position": [
-            31.1361081,
-            -23.9418224,
-            7.0
-        ],
-        "Type": 0
-    },
-    "264": {
-        "Id": "264",
-        "Name": "Giyani Campus Of Nursing College",
-        "SNR": 17.686834428659417,
-        "Energy": 1156.6570994444758,
-        "Position": [
-            30.7062535,
-            -23.3072476,
-            7.0
-        ],
-        "Type": 0
-    },
-    "265": {
-        "Id": "265",
-        "Name": "Mopani SE TVET College - Corporate Office",
-        "SNR": 76.76529145553624,
-        "Energy": 1507.1358381090638,
-        "Position": [
-            31.1404314,
-            -23.9419008,
-            7.0
-        ],
-        "Type": 0
-    },
-    "266": {
-        "Id": "266",
-        "Name": "Stanford Lake College",
-        "SNR": 77.89379972549642,
-        "Energy": 903.6986724055657,
-        "Position": [
-            29.973278,
-            -23.910281,
-            7.0
-        ],
-        "Type": 0
-    },
-    "267": {
-        "Id": "267",
-        "Name": "Ehlanzeni TVET College - Mapulaneng Campus",
-        "SNR": 55.148837044704266,
-        "Energy": 1533.848905038051,
-        "Position": [
-            31.0723096,
-            -24.600599,
-            7.0
-        ],
-        "Type": 0
-    },
-    "268": {
-        "Id": "268",
-        "Name": "Meridian College Phalaborwa C C",
-        "SNR": 42.08598835110068,
-        "Energy": 1380.4350682460395,
-        "Position": [
-            31.1388406,
-            -23.9529825,
-            7.0
-        ],
-        "Type": 0
-    },
-    "269": {
-        "Id": "269",
-        "Name": "Southern Cross Schools.",
-        "SNR": 80.78381830029014,
-        "Energy": 2113.4561643648467,
-        "Position": [
-            30.94752609999999,
-            -24.3602282,
-            7.0
-        ],
-        "Type": 0
-    },
-    "270": {
-        "Id": "270",
-        "Name": "Hoedspruit Independent College",
-        "SNR": 52.914082751466104,
-        "Energy": 1211.791130613638,
-        "Position": [
-            31.0382532,
-            -24.5755261,
-            7.0
-        ],
-        "Type": 0
-    },
-    "271": {
-        "Id": "271",
-        "Name": "Mashamba Campus, Vhembe TVET College",
-        "SNR": 57.358478034460866,
-        "Energy": 871.0705335855341,
-        "Position": [
-            30.1244309,
-            -23.2399142,
-            7.0
-        ],
-        "Type": 0
-    },
-    "272": {
-        "Id": "272",
-        "Name": "Strausburg College",
-        "SNR": 61.222066176146676,
-        "Energy": 417.66413734382945,
-        "Position": [
-            31.08211670000001,
-            -23.9450481,
-            7.0
-        ],
-        "Type": 0
-    },
-    "273": {
-        "Id": "273",
-        "Name": "Campfire Academy (Learn ~ Understand ~ Inspire)",
-        "SNR": 110.31973996861485,
-        "Energy": 1312.4755577517972,
-        "Position": [
-            30.886523,
-            -24.218505,
-            7.0
-        ],
-        "Type": 0
-    },
-    "274": {
-        "Id": "274",
-        "Name": "Southern African Wildlife College",
-        "SNR": 83.18081936645525,
-        "Energy": 1604.3782138653542,
-        "Position": [
-            31.3345936,
-            -24.5417534,
-            10.0
-        ],
-        "Type": -1
-    },
-    "275": {
-        "Id": "275",
-        "Name": "eco ranger academy",
-        "SNR": 75.5905744913175,
-        "Energy": 757.0746667828947,
-        "Position": [
-            31.1127115,
-            -24.463246,
-            7.0
-        ],
-        "Type": 0
-    },
-    "276": {
-        "Id": "276",
-        "Name": "Shingwedzi Campus, Vhembe TVET College",
-        "SNR": 70.1040492019898,
-        "Energy": 909.6944175015376,
-        "Position": [
-            30.7157504,
-            -23.0130307,
-            7.0
-        ],
-        "Type": 0
-    },
-    "277": {
-        "Id": "277",
-        "Name": "Flying High FET College",
-        "SNR": 71.3608247543723,
-        "Energy": 1435.5668077965736,
-        "Position": [
-            30.42236729999999,
-            -23.5263641,
-            7.0
-        ],
-        "Type": 0
-    },
-    "278": {
-        "Id": "278",
-        "Name": "Lowveld Academy",
-        "SNR": 54.00930201480747,
-        "Energy": 2289.4320835674453,
-        "Position": [
-            30.9565222,
-            -24.3487241,
-            7.0
-        ],
-        "Type": 0
-    },
-    "279": {
-        "Id": "279",
-        "Name": "Selati Hospitality Training Academy",
-        "SNR": 22.924426952150554,
-        "Energy": 1020.5916782800382,
-        "Position": [
-            31.1295676,
-            -23.9447625,
-            7.0
-        ],
-        "Type": 0
-    },
-    "280": {
-        "Id": "280",
-        "Name": "Nazarene Christian Academy",
-        "SNR": 34.40396490782068,
-        "Energy": 1968.7206898293653,
-        "Position": [
-            30.1952714,
-            -23.8269091,
-            7.0
-        ],
-        "Type": 0
-    },
-    "281": {
-        "Id": "281",
-        "Name": "BUSHVELD BETHEL CHRISTIAN ACADEMY",
-        "SNR": 47.33911214650809,
-        "Energy": 1191.964391028927,
-        "Position": [
-            31.139678,
-            -23.937145,
-            7.0
-        ],
-        "Type": 0
-    },
-    "282": {
-        "Id": "282",
-        "Name": "Eco Ranger Academy",
-        "SNR": 72.94944848149966,
-        "Energy": 1857.8341713035782,
-        "Position": [
-            31.0570074,
-            -24.5150911,
-            7.0
-        ],
-        "Type": 0
-    },
-    "283": {
-        "Id": "283",
-        "Name": "Harvesters Theological Seminary",
-        "SNR": 27.042199204056246,
-        "Energy": 1046.301770413886,
-        "Position": [
-            30.7033395,
-            -23.0149544,
-            7.0
-        ],
-        "Type": 0
-    },
-    "284": {
-        "Id": "284",
-        "Name": "Avuxeni Computer Academy",
-        "SNR": 41.15097709950953,
-        "Energy": 1712.4444015302847,
-        "Position": [
-            30.28828399999999,
-            -23.97775889999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "285": {
-        "Id": "285",
-        "Name": "Warriors",
-        "SNR": 35.37582424500469,
-        "Energy": 971.1513101624364,
-        "Position": [
-            30.0078467,
-            -23.8673308,
-            7.0
-        ],
-        "Type": 0
-    },
-    "286": {
-        "Id": "286",
-        "Name": "Madzivhandila College of Agriculture",
-        "SNR": 68.52583549939699,
-        "Energy": 1414.0118968689217,
-        "Position": [
-            30.5508497,
-            -22.9870197,
-            7.0
-        ],
-        "Type": 0
-    },
-    "287": {
-        "Id": "287",
-        "Name": "Mopani South East Fet",
-        "SNR": 89.491236863647,
-        "Energy": 1623.4282078233641,
-        "Position": [
-            31.1417844,
-            -23.9430647,
-            7.0
-        ],
-        "Type": 0
-    },
-    "288": {
-        "Id": "288",
-        "Name": "Tshisimani Campus, Vhembe TVET College",
-        "SNR": 74.8812079260576,
-        "Energy": 1284.578244594351,
-        "Position": [
-            30.30883979999999,
-            -23.0553523,
-            7.0
-        ],
-        "Type": 0
-    },
-    "289": {
-        "Id": "289",
-        "Name": "Capricorn College for FET",
-        "SNR": 29.786229083690507,
-        "Energy": 1488.1779139585792,
-        "Position": [
-            29.453796,
-            -23.9175241,
-            7.0
-        ],
-        "Type": 0
-    },
-    "290": {
-        "Id": "290",
-        "Name": "Boston City Campus and Business College",
-        "SNR": 58.135191032450145,
-        "Energy": 554.669598674178,
-        "Position": [
-            29.4553,
-            -23.92026,
-            7.0
-        ],
-        "Type": 0
-    },
-    "291": {
-        "Id": "291",
-        "Name": "Calvin College",
-        "SNR": 53.56050882838954,
-        "Energy": 1807.3559325148128,
-        "Position": [
-            30.3108458,
-            -24.6661786,
-            7.0
-        ],
-        "Type": 0
-    },
-    "292": {
-        "Id": "292",
-        "Name": "Southern Cross Schools.",
-        "SNR": 61.92811221602425,
-        "Energy": 2126.737194416958,
-        "Position": [
-            30.94752609999999,
-            -24.3602282,
-            10.0
-        ],
-        "Type": -1
-    },
-    "293": {
-        "Id": "293",
-        "Name": "Refentse Primary School",
-        "SNR": 64.80855040598017,
-        "Energy": 1804.2899055090415,
-        "Position": [
-            31.0200702,
-            -23.9377316,
-            7.0
-        ],
-        "Type": 0
-    },
-    "294": {
-        "Id": "294",
-        "Name": "Damelin - Tzaneen",
-        "SNR": 61.041949853798386,
-        "Energy": 1330.4436462704043,
-        "Position": [
-            30.16239999999999,
-            -23.8333099,
-            7.0
-        ],
-        "Type": 0
-    },
-    "295": {
-        "Id": "295",
-        "Name": "Makhosani Primary School",
-        "SNR": 22.727653382753815,
-        "Energy": 2049.18584584127,
-        "Position": [
-            30.38477179999999,
-            -23.2645109,
-            7.0
-        ],
-        "Type": 0
-    },
-    "296": {
-        "Id": "296",
-        "Name": "Modjadi Teachers Training College",
-        "SNR": 125.39760779557066,
-        "Energy": 1874.7494513287998,
-        "Position": [
-            30.22194,
-            -23.65167,
-            10.0
-        ],
-        "Type": -1
-    },
-    "297": {
-        "Id": "297",
-        "Name": "Stanford Business College",
-        "SNR": 32.583572559898485,
-        "Energy": 1574.253434317944,
-        "Position": [
-            30.15812,
-            -23.82276,
-            7.0
-        ],
-        "Type": 0
-    },
-    "298": {
-        "Id": "298",
-        "Name": "Mopani SE TVET College - Phalaborwa Campus",
-        "SNR": 69.43364399564041,
-        "Energy": 1235.4462294028115,
-        "Position": [
-            31.14144549999999,
-            -23.9420969,
-            7.0
-        ],
-        "Type": 0
-    },
-    "299": {
-        "Id": "299",
-        "Name": "University of Limpopo",
-        "SNR": 86.65856117994176,
-        "Energy": 923.1114384815451,
-        "Position": [
-            29.73855,
-            -23.8888188,
-            7.0
-        ],
-        "Type": 0
-    },
-    "300": {
-        "Id": "300",
-        "Name": "Gate One",
-        "SNR": 46.40434055463232,
-        "Energy": 1797.4409131432944,
-        "Position": [
-            29.7385365,
-            -23.88078059999999,
-            10.0
-        ],
-        "Type": -1
-    },
-    "301": {
-        "Id": "301",
-        "Name": "Gate Two - Turfloop Campus",
-        "SNR": 62.88347726463407,
-        "Energy": 763.068517038473,
-        "Position": [
-            29.7343522,
-            -23.8869462,
-            7.0
-        ],
-        "Type": 0
-    },
-    "302": {
-        "Id": "302",
-        "Name": "Gate Three",
-        "SNR": 49.933778353367835,
-        "Energy": 1242.0330549944326,
-        "Position": [
-            29.7336978,
-            -23.8925377,
-            7.0
-        ],
-        "Type": 0
-    },
-    "303": {
-        "Id": "303",
-        "Name": "University of Limpopo Turfloop Biochem Microbio and Biotech",
-        "SNR": 40.03580645857457,
-        "Energy": 1079.208738630079,
-        "Position": [
-            29.7339171,
-            -23.8718779,
-            7.0
-        ],
-        "Type": 0
-    },
-    "304": {
-        "Id": "304",
-        "Name": "University of Limpopo - Turfloop Campus",
-        "SNR": 37.36042857941881,
-        "Energy": 1063.4348999026408,
-        "Position": [
-            29.7171596,
-            -23.8826204,
-            7.0
-        ],
-        "Type": 0
-    },
-    "305": {
-        "Id": "305",
-        "Name": "University of Limpopo - Facility of Science & Agriculture",
-        "SNR": 61.40721968290756,
-        "Energy": 1274.4537014432572,
-        "Position": [
-            29.7138252,
-            -23.8848118,
-            7.0
-        ],
-        "Type": 0
-    },
-    "306": {
-        "Id": "306",
-        "Name": "University of Venda",
-        "SNR": 70.25830241638702,
-        "Energy": 749.7476834930387,
-        "Position": [
-            30.4464797,
-            -22.9761353,
-            7.0
-        ],
-        "Type": 0
-    },
-    "307": {
-        "Id": "307",
-        "Name": "Letaba FET College Giyani Campus",
-        "SNR": 28.3762653004039,
-        "Energy": 1166.0704701706811,
-        "Position": [
-            30.7153534,
-            -23.3162563,
-            7.0
-        ],
-        "Type": 0
-    },
-    "308": {
-        "Id": "308",
-        "Name": "university of Limpopo",
-        "SNR": 52.18574958740322,
-        "Energy": 2160.3597356989126,
-        "Position": [
-            29.7266776,
-            -23.885523,
-            7.0
-        ],
-        "Type": 0
-    },
-    "309": {
-        "Id": "309",
-        "Name": "Giyani 1 Boxer Superstores",
-        "SNR": 25.128351250667492,
-        "Energy": 1188.5693680109744,
-        "Position": [
-            30.69511949999999,
-            -23.3107087,
-            8.0
-        ],
-        "Type": null
-    },
-    "310": {
-        "Id": "310",
-        "Name": "Checkers",
-        "SNR": 50.59912069795354,
-        "Energy": 1120.4310142954364,
-        "Position": [
-            31.1334677,
-            -23.9487602,
-            7.0
-        ],
-        "Type": 0
-    },
-    "311": {
-        "Id": "311",
-        "Name": "Pick n Pay Hoedspruit",
-        "SNR": 85.6607346384855,
-        "Energy": 1172.4660486171347,
-        "Position": [
-            30.9585409,
-            -24.3514854,
-            7.0
-        ],
-        "Type": 0
-    },
-    "312": {
-        "Id": "312",
-        "Name": "Tzaneen Boxer Superstores",
-        "SNR": 82.62873932067514,
-        "Energy": 653.7846379288285,
-        "Position": [
-            30.1638284,
-            -23.8280834,
-            7.0
-        ],
-        "Type": 0
-    },
-    "313": {
-        "Id": "313",
-        "Name": "Clicks Pharmacy - Giyani",
-        "SNR": 38.33145421400023,
-        "Energy": 1568.08815336011,
-        "Position": [
-            30.687281,
-            -23.306148,
-            7.0
-        ],
-        "Type": 0
-    },
-    "314": {
-        "Id": "314",
-        "Name": "Mopani Superspar",
-        "SNR": 71.49771781241843,
-        "Energy": 1828.843649726717,
-        "Position": [
-            30.6938375,
-            -23.3115495,
-            7.0
-        ],
-        "Type": 0
-    },
-    "315": {
-        "Id": "315",
-        "Name": "Pick n Pay Giyani",
-        "SNR": 82.85660986670325,
-        "Energy": 1242.3077529496186,
-        "Position": [
-            30.693273,
-            -23.310229,
-            7.0
-        ],
-        "Type": 0
-    },
-    "316": {
-        "Id": "316",
-        "Name": "Giyani Build it",
-        "SNR": 70.19074979420212,
-        "Energy": 1510.8892538852124,
-        "Position": [
-            30.69165189999999,
-            -23.3056782,
-            10.0
-        ],
-        "Type": -1
-    },
-    "317": {
-        "Id": "317",
-        "Name": "Shoprite Giyani",
-        "SNR": 66.92908493519998,
-        "Energy": 1285.9628344451066,
-        "Position": [
-            30.726,
-            -23.314,
-            7.0
-        ],
-        "Type": 0
-    },
-    "318": {
-        "Id": "318",
-        "Name": "Game Tzaneen",
-        "SNR": 59.37261848916978,
-        "Energy": 1591.1509313652002,
-        "Position": [
-            30.1637352,
-            -23.8271279,
-            7.0
-        ],
-        "Type": 0
-    },
-    "319": {
-        "Id": "319",
-        "Name": "Pick n Pay Phalaborwa",
-        "SNR": 52.5632661033029,
-        "Energy": 1249.782487382144,
-        "Position": [
-            31.135381,
-            -23.950523,
-            7.0
-        ],
-        "Type": 0
-    },
-    "320": {
-        "Id": "320",
-        "Name": "Game Phalaborwa",
-        "SNR": 80.44996658745333,
-        "Energy": 984.093362041778,
-        "Position": [
-            31.1322335,
-            -23.9490748,
-            7.0
-        ],
-        "Type": 0
-    },
-    "321": {
-        "Id": "321",
-        "Name": "Tops @ Spar - Mopani",
-        "SNR": 97.4505464020445,
-        "Energy": 1340.975105401106,
-        "Position": [
-            30.69377879999999,
-            -23.3119139,
-            7.0
-        ],
-        "Type": 0
-    },
-    "322": {
-        "Id": "322",
-        "Name": "Pick n Pay Tzaneen",
-        "SNR": 52.73333828240373,
-        "Energy": 1334.341275606189,
-        "Position": [
-            30.16284,
-            -23.826013,
-            7.0
-        ],
-        "Type": 0
-    },
-    "323": {
-        "Id": "323",
-        "Name": "Shoprite",
-        "SNR": 65.33463732048021,
-        "Energy": 1273.0207066021662,
-        "Position": [
-            31.1335798,
-            -23.950133,
-            7.0
-        ],
-        "Type": 0
-    },
-    "324": {
-        "Id": "324",
-        "Name": "TZANEEN CASH & CARRY",
-        "SNR": 55.625494092001304,
-        "Energy": 1255.1941717960526,
-        "Position": [
-            30.165002,
-            -23.8282967,
-            7.0
-        ],
-        "Type": 0
-    },
-    "325": {
-        "Id": "325",
-        "Name": "P M E Supplies CC",
-        "SNR": 55.46121347251091,
-        "Energy": 1973.381044838362,
-        "Position": [
-            31.1324321,
-            -23.9506124,
-            10.0
-        ],
-        "Type": -1
-    },
-    "326": {
-        "Id": "326",
-        "Name": "Checkers LiquorShop Tzaneen Lifestyle",
-        "SNR": 97.52473926305883,
-        "Energy": 1537.7700714659861,
-        "Position": [
-            30.15694599999999,
-            -23.822519,
-            7.0
-        ],
-        "Type": 0
-    },
-    "327": {
-        "Id": "327",
-        "Name": "Spar - Duivelskloof",
-        "SNR": 20.889829203863428,
-        "Energy": 1858.4540179928858,
-        "Position": [
-            30.140968,
-            -23.6955603,
-            7.0
-        ],
-        "Type": 0
-    },
-    "328": {
-        "Id": "328",
-        "Name": "Boulevard Cycles",
-        "SNR": 76.19518262754676,
-        "Energy": 423.07151124709105,
-        "Position": [
-            30.160736,
-            -23.830134,
-            7.0
-        ],
-        "Type": 0
-    },
-    "329": {
-        "Id": "329",
-        "Name": "P&L Hardware Modjadji.",
-        "SNR": 35.675349672136434,
-        "Energy": 627.6620774570187,
-        "Position": [
-            30.2315587,
-            -23.6564968,
-            7.0
-        ],
-        "Type": 0
-    },
-    "330": {
-        "Id": "330",
-        "Name": "Tzaneen Salvage Store",
-        "SNR": 91.91768404105603,
-        "Energy": 1071.5866582611861,
-        "Position": [
-            30.1758743,
-            -23.8364661,
-            7.0
-        ],
-        "Type": 0
-    },
-    "331": {
-        "Id": "331",
-        "Name": "Godding & Godding",
-        "SNR": 34.66623948828648,
-        "Energy": 1623.9204082950562,
-        "Position": [
-            30.879435,
-            -24.467599,
-            7.0
-        ],
-        "Type": 0
-    },
-    "332": {
-        "Id": "332",
-        "Name": "Camelia Florists",
-        "SNR": 20.730845612638724,
-        "Energy": 1530.1141591195978,
-        "Position": [
-            30.15275,
-            -23.81889,
-            7.0
-        ],
-        "Type": 0
-    },
-    "333": {
-        "Id": "333",
-        "Name": "Lowveld Camp and Gas 4x4 Outdoor Shop",
-        "SNR": 46.8601380778506,
-        "Energy": 1405.137079408136,
-        "Position": [
-            30.95752,
-            -24.35082,
-            7.0
-        ],
-        "Type": 0
-    },
-    "334": {
-        "Id": "334",
-        "Name": "Forms Media Independent Africa Pty Limited",
-        "SNR": 35.35008300738792,
-        "Energy": 473.5257858120292,
-        "Position": [
-            30.171322,
-            -23.830459,
-            7.0
-        ],
-        "Type": 0
-    },
-    "335": {
-        "Id": "335",
-        "Name": "Khaki Fever Work Wear",
-        "SNR": 63.595729723827176,
-        "Energy": 572.9740292007501,
-        "Position": [
-            30.9572989,
-            -24.3503304,
-            7.0
-        ],
-        "Type": 0
-    },
-    "336": {
-        "Id": "336",
-        "Name": "J & N Bike Shop",
-        "SNR": 104.9415501959,
-        "Energy": 1174.387831110464,
-        "Position": [
-            31.1349524,
-            -23.9458244,
-            7.0
-        ],
-        "Type": 0
-    },
-    "337": {
-        "Id": "337",
-        "Name": "KAROSS Studio & Caf\u00e9",
-        "SNR": 38.018688147167694,
-        "Energy": 2285.190134016241,
-        "Position": [
-            30.43615660000001,
-            -23.7988733,
-            10.0
-        ],
-        "Type": -1
-    },
-    "338": {
-        "Id": "338",
-        "Name": "The Vape Guy",
-        "SNR": 60.394856513774755,
-        "Energy": 1902.294160726835,
-        "Position": [
-            30.15304,
-            -23.83478,
-            7.0
-        ],
-        "Type": 0
-    },
-    "339": {
-        "Id": "339",
-        "Name": "Nappy & Baby King",
-        "SNR": 23.191562362714286,
-        "Energy": 1255.7845031021895,
-        "Position": [
-            30.1602351,
-            -23.8262452,
-            8.0
-        ],
-        "Type": null
-    },
-    "340": {
-        "Id": "340",
-        "Name": "African Jacana",
-        "SNR": 81.14138525847574,
-        "Energy": 1450.4979559418152,
-        "Position": [
-            30.17332589999999,
-            -23.8320456,
-            7.0
-        ],
-        "Type": 0
-    },
-    "341": {
-        "Id": "341",
-        "Name": "Morkels",
-        "SNR": 65.31773315438673,
-        "Energy": 1370.7992689061014,
-        "Position": [
-            31.13323179999999,
-            -23.9482327,
-            7.0
-        ],
-        "Type": 0
-    },
-    "342": {
-        "Id": "342",
-        "Name": "Buco Giyani",
-        "SNR": 58.042834508187426,
-        "Energy": 2186.411669606721,
-        "Position": [
-            30.6908015,
-            -23.3053514,
-            10.0
-        ],
-        "Type": -1
-    },
-    "343": {
-        "Id": "343",
-        "Name": "The Pet Bar",
-        "SNR": 79.43420258167694,
-        "Energy": 772.2828770068786,
-        "Position": [
-            30.9594724,
-            -24.3523024,
-            7.0
-        ],
-        "Type": 0
-    },
-    "344": {
-        "Id": "344",
-        "Name": "Buco Hoedspruit",
-        "SNR": 101.09402530669112,
-        "Energy": 1917.358236566782,
-        "Position": [
-            30.949444,
-            -24.350161,
-            10.0
-        ],
-        "Type": -1
-    },
-    "345": {
-        "Id": "345",
-        "Name": "The Olive Tree",
-        "SNR": 26.14312778401996,
-        "Energy": 1688.714721062819,
-        "Position": [
-            30.1458611,
-            -23.8431439,
-            7.0
-        ],
-        "Type": 0
-    },
-    "346": {
-        "Id": "346",
-        "Name": "Truworths",
-        "SNR": 49.03131762539461,
-        "Energy": 1567.4716918133054,
-        "Position": [
-            31.136143,
-            -23.947764,
-            7.0
-        ],
-        "Type": 0
-    },
-    "347": {
-        "Id": "347",
-        "Name": "Morkels",
-        "SNR": 43.59670886956715,
-        "Energy": 1455.179799177939,
-        "Position": [
-            30.1611398,
-            -23.8252845,
-            7.0
-        ],
-        "Type": 0
-    },
-    "348": {
-        "Id": "348",
-        "Name": "Eskom Tzaneen",
-        "SNR": 49.699143398276064,
-        "Energy": 882.858310946496,
-        "Position": [
-            30.1601703,
-            -23.8284463,
-            7.0
-        ],
-        "Type": 0
-    },
-    "349": {
-        "Id": "349",
-        "Name": "Shoprite Maake",
-        "SNR": 59.32743737869434,
-        "Energy": 1943.6318427934352,
-        "Position": [
-            30.28884900000001,
-            -23.977537,
-            7.0
-        ],
-        "Type": 0
-    },
-    "350": {
-        "Id": "350",
-        "Name": "OK Sugar Hill Mini Market - Tzaneen",
-        "SNR": 58.5077178745867,
-        "Energy": 1383.492900415213,
-        "Position": [
-            30.14879,
-            -23.82716,
-            7.0
-        ],
-        "Type": 0
-    },
-    "351": {
-        "Id": "351",
-        "Name": "Usave Shoprite",
-        "SNR": 50.5454307761153,
-        "Energy": 1362.9742956011244,
-        "Position": [
-            30.14121,
-            -23.6961917,
-            7.0
-        ],
-        "Type": 0
-    },
-    "352": {
-        "Id": "352",
-        "Name": "Ackermans",
-        "SNR": 75.96257168241164,
-        "Energy": 1268.9657746418914,
-        "Position": [
-            30.16346579999999,
-            -23.8263687,
-            7.0
-        ],
-        "Type": 0
-    },
-    "353": {
-        "Id": "353",
-        "Name": "Ackermans",
-        "SNR": 61.8123853728604,
-        "Energy": 1074.3229506378254,
-        "Position": [
-            30.6874957,
-            -23.3057416,
-            7.0
-        ],
-        "Type": 0
-    },
-    "354": {
-        "Id": "354",
-        "Name": "Ackermans",
-        "SNR": 51.97815658637765,
-        "Energy": 1534.1849555970098,
-        "Position": [
-            30.15812,
-            -23.82276,
-            7.0
-        ],
-        "Type": 0
-    },
-    "355": {
-        "Id": "355",
-        "Name": "Giyani Top Tiles",
-        "SNR": 80.07834381089039,
-        "Energy": 1617.4828398684645,
-        "Position": [
-            30.692842,
-            -23.3116249,
-            7.0
-        ],
-        "Type": 0
-    },
-    "356": {
-        "Id": "356",
-        "Name": "Phalaborwa Uitrusters",
-        "SNR": 111.02884687844437,
-        "Energy": 1664.8971527480314,
-        "Position": [
-            31.13640539999999,
-            -23.9494813,
-            10.0
-        ],
-        "Type": -1
-    },
-    "357": {
-        "Id": "357",
-        "Name": "Heqlen Mica",
-        "SNR": 81.48471188965918,
-        "Energy": 1475.8285102298037,
-        "Position": [
-            31.1301654,
-            -23.9466577,
-            7.0
-        ],
-        "Type": 0
-    },
-    "358": {
-        "Id": "358",
-        "Name": "Trappers Tzaneen",
-        "SNR": 63.428568821363875,
-        "Energy": 1314.0318298195486,
-        "Position": [
-            30.1620416,
-            -23.8258924,
-            7.0
-        ],
-        "Type": 0
-    },
-    "359": {
-        "Id": "359",
-        "Name": "MTN Store - Tzaneen Crossing 16",
-        "SNR": 19.390146330032877,
-        "Energy": 1067.5731741397453,
-        "Position": [
-            30.16135999999999,
-            -23.82949,
-            7.0
-        ],
-        "Type": 0
-    },
-    "360": {
-        "Id": "360",
-        "Name": "PEP Store",
-        "SNR": 64.02596851906418,
-        "Energy": 1640.999546328152,
-        "Position": [
-            30.689963,
-            -23.307861,
-            7.0
-        ],
-        "Type": 0
-    },
-    "361": {
-        "Id": "361",
-        "Name": "Spar",
-        "SNR": 52.843883200695814,
-        "Energy": 1557.6266588926064,
-        "Position": [
-            31.1524252,
-            -23.94632,
-            7.0
-        ],
-        "Type": 0
-    },
-    "362": {
-        "Id": "362",
-        "Name": "Mhangela Tea Garden and Animal Touch Farm",
-        "SNR": 112.73167684731706,
-        "Energy": 2290.5538998530956,
-        "Position": [
-            30.30434180000001,
-            -23.8189249,
-            7.0
-        ],
-        "Type": 0
-    },
-    "363": {
-        "Id": "363",
-        "Name": "Van Heerden Pharmacy Tzaneen",
-        "SNR": 66.46500030758747,
-        "Energy": 1547.247602124028,
-        "Position": [
-            30.1571616,
-            -23.8220548,
-            7.0
-        ],
-        "Type": 0
-    },
-    "364": {
-        "Id": "364",
-        "Name": "The Crazy Store",
-        "SNR": 99.09179329468316,
-        "Energy": 1403.9381666246866,
-        "Position": [
-            30.957421,
-            -24.351363,
-            7.0
-        ],
-        "Type": 0
-    },
-    "365": {
-        "Id": "365",
-        "Name": "The Crazy Store",
-        "SNR": 30.335547432504242,
-        "Energy": 736.5277599727355,
-        "Position": [
-            30.15634,
-            -23.823175,
-            7.0
-        ],
-        "Type": 0
-    },
-    "366": {
-        "Id": "366",
-        "Name": "MTN Store - Tzaneen Lifestyle Center",
-        "SNR": 78.31669404336527,
-        "Energy": 2213.818664097077,
-        "Position": [
-            30.1535291,
-            -23.8379328,
-            7.0
-        ],
-        "Type": 0
-    },
-    "367": {
-        "Id": "367",
-        "Name": "Checkers - Tzaneen Lifestyle Centre",
-        "SNR": 36.0308907542485,
-        "Energy": 1584.2677090240225,
-        "Position": [
-            30.1565643,
-            -23.8223499,
-            7.0
-        ],
-        "Type": 0
-    },
-    "368": {
-        "Id": "368",
-        "Name": "PEP Store",
-        "SNR": 97.07549777022336,
-        "Energy": 2026.1208507106376,
-        "Position": [
-            30.162481,
-            -23.828478,
-            7.0
-        ],
-        "Type": 0
-    },
-    "369": {
-        "Id": "369",
-        "Name": "Mopani Superspar",
-        "SNR": 63.04511780699449,
-        "Energy": 1517.6722569510857,
-        "Position": [
-            30.6938375,
-            -23.3115495,
-            7.0
-        ],
-        "Type": 0
-    },
-    "370": {
-        "Id": "370",
-        "Name": "Tops @ Spar - Mopani",
-        "SNR": 54.01806092833599,
-        "Energy": 316.63800820219444,
-        "Position": [
-            30.69377879999999,
-            -23.3119139,
-            7.0
-        ],
-        "Type": 0
-    },
-    "371": {
-        "Id": "371",
-        "Name": "Spar - Duivelskloof",
-        "SNR": 70.93642891197793,
-        "Energy": 760.4008643497359,
-        "Position": [
-            30.140968,
-            -23.6955603,
-            7.0
-        ],
-        "Type": 0
-    },
-    "372": {
-        "Id": "372",
-        "Name": "Checkers LiquorShop Tzaneen Lifestyle",
-        "SNR": 79.2217548252228,
-        "Energy": 1972.2775788699237,
-        "Position": [
-            30.15694599999999,
-            -23.822519,
-            7.0
-        ],
-        "Type": 0
-    },
-    "373": {
-        "Id": "373",
-        "Name": "Checkers LiquorShop",
-        "SNR": 68.88967769050899,
-        "Energy": 1390.7800030968108,
-        "Position": [
-            31.1327914,
-            -23.9492905,
-            7.0
-        ],
-        "Type": 0
-    },
-    "374": {
-        "Id": "374",
-        "Name": "Boulevard Cycles",
-        "SNR": 80.06658060760581,
-        "Energy": 1019.5233189167491,
-        "Position": [
-            30.160736,
-            -23.830134,
-            7.0
-        ],
-        "Type": 0
-    },
-    "375": {
-        "Id": "375",
-        "Name": "P&L Hardware Modjadji.",
-        "SNR": 89.14691843551394,
-        "Energy": 1785.6867025796425,
-        "Position": [
-            30.2315587,
-            -23.6564968,
-            7.0
-        ],
-        "Type": 0
-    },
-    "376": {
-        "Id": "376",
-        "Name": "Tzaneen Salvage Store",
-        "SNR": 69.03392811944627,
-        "Energy": 1686.4858358557453,
-        "Position": [
-            30.1758743,
-            -23.8364661,
-            7.0
-        ],
-        "Type": 0
-    },
-    "377": {
-        "Id": "377",
-        "Name": "Godding & Godding",
-        "SNR": 50.54493814356157,
-        "Energy": 1764.1987702461252,
-        "Position": [
-            30.879435,
-            -24.467599,
-            10.0
-        ],
-        "Type": -1
-    },
-    "378": {
-        "Id": "378",
-        "Name": "Camelia Florists",
-        "SNR": 28.50206497671653,
-        "Energy": 1558.7511209122529,
-        "Position": [
-            30.15275,
-            -23.81889,
-            7.0
-        ],
-        "Type": 0
-    },
-    "379": {
-        "Id": "379",
-        "Name": "Lowveld Camp and Gas 4x4 Outdoor Shop",
-        "SNR": 55.40302268017252,
-        "Energy": 1484.173386647401,
-        "Position": [
-            30.95752,
-            -24.35082,
-            7.0
-        ],
-        "Type": 0
-    },
-    "380": {
-        "Id": "380",
-        "Name": "Pick 'N Pay Family Store - Phalaborwa",
-        "SNR": 63.727080744411644,
-        "Energy": 814.7994064964442,
-        "Position": [
-            31.13511309999999,
-            -23.9495523,
-            7.0
-        ],
-        "Type": 0
-    },
-    "381": {
-        "Id": "381",
-        "Name": "J & N Bike Shop",
-        "SNR": 82.88078002861123,
-        "Energy": 1287.0380498691968,
-        "Position": [
-            31.1349524,
-            -23.9458244,
-            7.0
-        ],
-        "Type": 0
-    },
-    "382": {
-        "Id": "382",
-        "Name": "Forms Media Independent Africa Pty Limited",
-        "SNR": 60.796864617671964,
-        "Energy": 1336.1174214176995,
-        "Position": [
-            30.171322,
-            -23.830459,
-            7.0
-        ],
-        "Type": 0
-    },
-    "383": {
-        "Id": "383",
-        "Name": "Khaki Fever Work Wear",
-        "SNR": 93.11418251892032,
-        "Energy": 1677.574798261584,
-        "Position": [
-            30.9572989,
-            -24.3503304,
-            7.0
-        ],
-        "Type": 0
-    },
-    "384": {
-        "Id": "384",
-        "Name": "KAROSS Studio & Caf\u00e9",
-        "SNR": 48.64581534984849,
-        "Energy": 1981.21476549948,
-        "Position": [
-            30.43615660000001,
-            -23.7988733,
-            7.0
-        ],
-        "Type": 0
-    },
-    "385": {
-        "Id": "385",
-        "Name": "The Vape Guy",
-        "SNR": 75.13292921414438,
-        "Energy": 1441.6412971435807,
-        "Position": [
-            30.15304,
-            -23.83478,
-            7.0
-        ],
-        "Type": 0
-    },
-    "386": {
-        "Id": "386",
-        "Name": "Allesbeste",
-        "SNR": 76.05318778938786,
-        "Energy": 1578.3065811964336,
-        "Position": [
-            30.1215783,
-            -23.80198459999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "387": {
-        "Id": "387",
-        "Name": "Nappy & Baby King",
-        "SNR": 50.294392888178976,
-        "Energy": 1189.8984301139644,
-        "Position": [
-            30.1602351,
-            -23.8262452,
-            7.0
-        ],
-        "Type": 0
-    },
-    "388": {
-        "Id": "388",
-        "Name": "African Jacana",
-        "SNR": 57.656974367617835,
-        "Energy": 1793.6920877274665,
-        "Position": [
-            30.17332589999999,
-            -23.8320456,
-            7.0
-        ],
-        "Type": 0
-    },
-    "389": {
-        "Id": "389",
-        "Name": "Giyani 1 Boxer Superstores",
-        "SNR": 66.20478091169882,
-        "Energy": 1412.1864271025322,
-        "Position": [
-            30.69511949999999,
-            -23.3107087,
-            7.0
-        ],
-        "Type": 0
-    },
-    "390": {
-        "Id": "390",
-        "Name": "Pick n Pay Giyani",
-        "SNR": 63.089112418769766,
-        "Energy": 1935.1652589204382,
-        "Position": [
-            30.693273,
-            -23.310229,
-            7.0
-        ],
-        "Type": 0
-    },
-    "391": {
-        "Id": "391",
-        "Name": "Pick n Pay Hoedspruit",
-        "SNR": 36.94891005879545,
-        "Energy": 1366.0859217419063,
-        "Position": [
-            30.9585409,
-            -24.3514854,
-            7.0
-        ],
-        "Type": 0
-    },
-    "392": {
-        "Id": "392",
-        "Name": "Clicks Pharmacy - Giyani",
-        "SNR": 71.635772784942,
-        "Energy": 1179.9701582286457,
-        "Position": [
-            30.687281,
-            -23.306148,
-            7.0
-        ],
-        "Type": 0
-    },
-    "393": {
-        "Id": "393",
-        "Name": "Shoprite Giyani",
-        "SNR": 53.417157169294214,
-        "Energy": 456.66955711496337,
-        "Position": [
-            30.726,
-            -23.314,
-            7.0
-        ],
-        "Type": 0
-    },
-    "394": {
-        "Id": "394",
-        "Name": "Checkers - Tzaneen Lifestyle Centre",
-        "SNR": 74.63571594569012,
-        "Energy": 1563.9309020117432,
-        "Position": [
-            30.1565643,
-            -23.8223499,
-            7.0
-        ],
-        "Type": 0
-    },
-    "395": {
-        "Id": "395",
-        "Name": "Game Tzaneen",
-        "SNR": 109.2681761163876,
-        "Energy": 819.1159087259732,
-        "Position": [
-            30.1637352,
-            -23.8271279,
-            7.0
-        ],
-        "Type": 0
-    },
-    "396": {
-        "Id": "396",
-        "Name": "Game Phalaborwa",
-        "SNR": 90.3955171793182,
-        "Energy": 1310.3384337677658,
-        "Position": [
-            31.1322335,
-            -23.9490748,
-            7.0
-        ],
-        "Type": 0
-    },
-    "397": {
-        "Id": "397",
-        "Name": "Tzaneen Boxer Superstores",
-        "SNR": 57.70533624298006,
-        "Energy": 1835.627398989682,
-        "Position": [
-            30.1638284,
-            -23.8280834,
-            7.0
-        ],
-        "Type": 0
-    },
-    "398": {
-        "Id": "398",
-        "Name": "TZANEEN CASH & CARRY",
-        "SNR": 106.07297837333896,
-        "Energy": 1166.1563560319569,
-        "Position": [
-            30.165002,
-            -23.8282967,
-            7.0
-        ],
-        "Type": 0
-    },
-    "399": {
-        "Id": "399",
-        "Name": "Shoprite LiquorShop",
-        "SNR": 29.128687691946457,
-        "Energy": 2285.9157436797746,
-        "Position": [
-            31.133973,
-            -23.950606,
-            7.0
-        ],
-        "Type": 0
-    },
-    "400": {
-        "Id": "400",
-        "Name": "Shoprite Maake",
-        "SNR": 66.3777368616432,
-        "Energy": 771.6469011942828,
-        "Position": [
-            30.28884900000001,
-            -23.977537,
-            7.0
-        ],
-        "Type": 0
-    },
-    "401": {
-        "Id": "401",
-        "Name": "Shoprite Modjadji",
-        "SNR": 83.97758288919307,
-        "Energy": 2063.5552750583847,
-        "Position": [
-            30.22033,
-            -23.64733,
-            10.0
-        ],
-        "Type": -1
-    },
-    "402": {
-        "Id": "402",
-        "Name": "Clicks Pharmacy- Tzaneen Centre",
-        "SNR": 57.25190477007636,
-        "Energy": 949.4611910492567,
-        "Position": [
-            30.1619,
-            -23.8256,
-            7.0
-        ],
-        "Type": 0
-    },
-    "403": {
-        "Id": "403",
-        "Name": "Foodzone Haenertsburg",
-        "SNR": 55.43573204113091,
-        "Energy": 1293.9989676921093,
-        "Position": [
-            29.9408304,
-            -23.9421125,
-            7.0
-        ],
-        "Type": 0
-    },
-    "404": {
-        "Id": "404",
-        "Name": "Checkers",
-        "SNR": 65.56968290262755,
-        "Energy": 1797.3711177583436,
-        "Position": [
-            31.1334677,
-            -23.9487602,
-            7.0
-        ],
-        "Type": 0
-    },
-    "405": {
-        "Id": "405",
-        "Name": "The Pet Bar",
-        "SNR": 62.52389866504458,
-        "Energy": 1146.0773080426573,
-        "Position": [
-            30.9594724,
-            -24.3523024,
-            7.0
-        ],
-        "Type": 0
-    },
-    "406": {
-        "Id": "406",
-        "Name": "Barnetts",
-        "SNR": 66.61006099654234,
-        "Energy": 2261.2982735538003,
-        "Position": [
-            30.6871936,
-            -23.3058649,
-            7.0
-        ],
-        "Type": 0
-    },
-    "407": {
-        "Id": "407",
-        "Name": "Morkels",
-        "SNR": 65.86181957054445,
-        "Energy": 1561.529523258272,
-        "Position": [
-            31.13323179999999,
-            -23.9482327,
-            7.0
-        ],
-        "Type": 0
-    },
-    "408": {
-        "Id": "408",
-        "Name": "Mr Price / MRP",
-        "SNR": 56.25384624838456,
-        "Energy": 1374.2449448386137,
-        "Position": [
-            30.695972,
-            -23.3111465,
-            7.0
-        ],
-        "Type": 0
-    },
-    "409": {
-        "Id": "409",
-        "Name": "Mr Price Home Tzaneen",
-        "SNR": 84.57398715136205,
-        "Energy": 510.81585388360145,
-        "Position": [
-            30.16320199999999,
-            -23.8265761,
-            7.0
-        ],
-        "Type": 0
-    },
-    "410": {
-        "Id": "410",
-        "Name": "Mr Price Home Phalaborwa",
-        "SNR": 80.89306792326842,
-        "Energy": 1178.0144147308056,
-        "Position": [
-            31.133,
-            -23.950066,
-            7.0
-        ],
-        "Type": 0
-    },
-    "411": {
-        "Id": "411",
-        "Name": "P M E Supplies CC",
-        "SNR": 76.22562704792762,
-        "Energy": 1520.0822743949518,
-        "Position": [
-            31.1324321,
-            -23.9506124,
-            7.0
-        ],
-        "Type": 0
-    },
-    "412": {
-        "Id": "412",
-        "Name": "The Olive Tree",
-        "SNR": -1.5099283286291936,
-        "Energy": 1133.9844648026553,
-        "Position": [
-            30.1458611,
-            -23.8431439,
-            7.0
-        ],
-        "Type": 0
-    },
-    "413": {
-        "Id": "413",
-        "Name": "OK Sugar Hill Mini Market - Tzaneen",
-        "SNR": 106.55292676798544,
-        "Energy": 1238.0859478160655,
-        "Position": [
-            30.14879,
-            -23.82716,
-            7.0
-        ],
-        "Type": 0
-    },
-    "414": {
-        "Id": "414",
-        "Name": "Buco Giyani",
-        "SNR": 86.50344321758163,
-        "Energy": 1010.9016645348395,
-        "Position": [
-            30.6908015,
-            -23.3053514,
-            7.0
-        ],
-        "Type": 0
-    },
-    "415": {
-        "Id": "415",
-        "Name": "Vodacom Shop Tzaneen",
-        "SNR": 50.23974875117312,
-        "Energy": 780.0624150836254,
-        "Position": [
-            30.1617013,
-            -23.8256034,
-            7.0
-        ],
-        "Type": 0
-    },
-    "416": {
-        "Id": "416",
-        "Name": "Buco Hoedspruit",
-        "SNR": 83.48235460562285,
-        "Energy": 1460.1092304632582,
-        "Position": [
-            30.949444,
-            -24.350161,
-            7.0
-        ],
-        "Type": 0
-    },
-    "417": {
-        "Id": "417",
-        "Name": "Vodacom Shop Giyani",
-        "SNR": 76.89809319196972,
-        "Energy": 1863.2520708499237,
-        "Position": [
-            30.706254,
-            -23.3072628,
-            7.0
-        ],
-        "Type": 0
-    },
-    "418": {
-        "Id": "418",
-        "Name": "Musica",
-        "SNR": 89.29927493605068,
-        "Energy": 1344.6947438693894,
-        "Position": [
-            30.15812,
-            -23.82276,
-            7.0
-        ],
-        "Type": 0
-    },
-    "419": {
-        "Id": "419",
-        "Name": "Truworths",
-        "SNR": 62.17856156038925,
-        "Energy": 1248.2544949564817,
-        "Position": [
-            31.136143,
-            -23.947764,
-            7.0
-        ],
-        "Type": 0
-    },
-    "420": {
-        "Id": "420",
-        "Name": "Heqlen Mica",
-        "SNR": 106.26612904741043,
-        "Energy": 1345.3337630486405,
-        "Position": [
-            31.1301654,
-            -23.9466577,
-            7.0
-        ],
-        "Type": 0
-    },
-    "421": {
-        "Id": "421",
-        "Name": "Morkels",
-        "SNR": 28.36793032123507,
-        "Energy": 1280.8834218474942,
-        "Position": [
-            30.1611398,
-            -23.8252845,
-            7.0
-        ],
-        "Type": 0
-    },
-    "422": {
-        "Id": "422",
-        "Name": "Expecta Motor & Tyre Services C C",
-        "SNR": 57.238319645229694,
-        "Energy": 1229.6596227691907,
-        "Position": [
-            30.15832,
-            -23.82614,
-            7.0
-        ],
-        "Type": 0
-    },
-    "423": {
-        "Id": "423",
-        "Name": "Trappers Tzaneen",
-        "SNR": 45.04127213160406,
-        "Energy": 1727.2053717234785,
-        "Position": [
-            30.1620416,
-            -23.8258924,
-            7.0
-        ],
-        "Type": 0
-    },
-    "424": {
-        "Id": "424",
-        "Name": "Clicks Pharmacy - Phalaborwa",
-        "SNR": 58.4077804283262,
-        "Energy": 1228.2579136867632,
-        "Position": [
-            31.1351171,
-            -23.9504966,
-            7.0
-        ],
-        "Type": 0
-    },
-    "425": {
-        "Id": "425",
-        "Name": "The Crazy Store",
-        "SNR": 26.400611194445787,
-        "Energy": 1609.9060906495683,
-        "Position": [
-            30.957421,
-            -24.351363,
-            7.0
-        ],
-        "Type": 0
-    },
-    "426": {
-        "Id": "426",
-        "Name": "Exact Stores",
-        "SNR": 60.10132051091265,
-        "Energy": 1309.3583049161514,
-        "Position": [
-            30.15812,
-            -23.82276,
-            7.0
-        ],
-        "Type": 0
-    },
-    "427": {
-        "Id": "427",
-        "Name": "Giyani Top Tiles",
-        "SNR": 56.96809549514767,
-        "Energy": 1044.8549969215157,
-        "Position": [
-            30.692842,
-            -23.3116249,
-            7.0
-        ],
-        "Type": 0
-    },
-    "428": {
-        "Id": "428",
-        "Name": "The Crazy Store",
-        "SNR": 64.65133178437877,
-        "Energy": 1140.644951657073,
-        "Position": [
-            30.15634,
-            -23.823175,
-            7.0
-        ],
-        "Type": 0
-    },
-    "429": {
-        "Id": "429",
-        "Name": "Giyani Regional Mall",
-        "SNR": 75.40790462964652,
-        "Energy": 990.5294487276692,
-        "Position": [
-            30.696605,
-            -23.313041,
-            7.0
-        ],
-        "Type": 0
-    },
-    "430": {
-        "Id": "430",
-        "Name": "Mopani Super Spar Centre - Vukile",
-        "SNR": 85.04070944332976,
-        "Energy": 702.251257932756,
-        "Position": [
-            30.6933868,
-            -23.311922,
-            7.0
-        ],
-        "Type": 0
-    },
-    "431": {
-        "Id": "431",
-        "Name": "Masingita Mall",
-        "SNR": 72.0945965044286,
-        "Energy": 723.6376853390992,
-        "Position": [
-            30.69464950000001,
-            -23.3102501,
-            7.0
-        ],
-        "Type": 0
-    },
-    "432": {
-        "Id": "432",
-        "Name": "Maake Plaza (Shopping Center)",
-        "SNR": 48.37707252320098,
-        "Energy": 1863.9608752198017,
-        "Position": [
-            30.2888682,
-            -23.9773747,
-            7.0
-        ],
-        "Type": 0
-    },
-    "433": {
-        "Id": "433",
-        "Name": "Giyani Plaza Centre",
-        "SNR": 74.52155517715524,
-        "Energy": 1107.1233916099977,
-        "Position": [
-            30.69282,
-            -23.30952,
-            7.0
-        ],
-        "Type": 0
-    },
-    "434": {
-        "Id": "434",
-        "Name": "Tzaneng Mall Centre",
-        "SNR": 86.8719977387517,
-        "Energy": 860.5946842770571,
-        "Position": [
-            30.1619,
-            -23.82583,
-            7.0
-        ],
-        "Type": 0
-    },
-    "435": {
-        "Id": "435",
-        "Name": "Eden Square Mall",
-        "SNR": 66.73933294701595,
-        "Energy": 1509.3078691964877,
-        "Position": [
-            31.1355298,
-            -23.9510105,
-            7.0
-        ],
-        "Type": 0
-    },
-    "436": {
-        "Id": "436",
-        "Name": "Tzaneen Crossing Mall",
-        "SNR": 68.88366681313512,
-        "Energy": 1699.689162090809,
-        "Position": [
-            30.1623296,
-            -23.8301853,
-            7.0
-        ],
-        "Type": 0
-    },
-    "437": {
-        "Id": "437",
-        "Name": "Lenyenye Shopping Centre",
-        "SNR": 59.6008997700314,
-        "Energy": 1233.5965013306884,
-        "Position": [
-            30.2692761,
-            -23.9725929,
-            7.0
-        ],
-        "Type": 0
-    },
-    "438": {
-        "Id": "438",
-        "Name": "Tzaneen Lifestyle Centre",
-        "SNR": 62.8561013750814,
-        "Energy": 1232.1310958147583,
-        "Position": [
-            30.1568968,
-            -23.8224744,
-            7.0
-        ],
-        "Type": 0
-    },
-    "439": {
-        "Id": "439",
-        "Name": "Masingita Plaza",
-        "SNR": 71.03767096752576,
-        "Energy": 1558.9435735890363,
-        "Position": [
-            30.686888,
-            -23.306264,
-            7.0
-        ],
-        "Type": 0
-    },
-    "440": {
-        "Id": "440",
-        "Name": "Nkowankwa Shoping Centre",
-        "SNR": 56.41565352131894,
-        "Energy": 1820.434728807216,
-        "Position": [
-            30.2872309,
-            -23.8877379,
-            7.0
-        ],
-        "Type": 0
-    },
-    "441": {
-        "Id": "441",
-        "Name": "Sanlam Centre - Phalaborwa",
-        "SNR": 20.51365282731875,
-        "Energy": 1845.6612658941901,
-        "Position": [
-            31.13766,
-            -23.94765,
-            7.0
-        ],
-        "Type": 0
-    },
-    "442": {
-        "Id": "442",
-        "Name": "Bindzulani Shopping Centre",
-        "SNR": 52.03124832530907,
-        "Energy": 2109.769843879053,
-        "Position": [
-            30.2597213,
-            -23.895024,
-            10.0
-        ],
-        "Type": -1
-    },
-    "443": {
-        "Id": "443",
-        "Name": "Tygervalley Shopping Centre.",
-        "SNR": 47.44652288243367,
-        "Energy": 1888.7702656343754,
-        "Position": [
-            31.090834,
-            -23.613148,
-            7.0
-        ],
-        "Type": 0
-    },
-    "444": {
-        "Id": "444",
-        "Name": "The Hoedspruit Mall",
-        "SNR": 40.02115380278738,
-        "Energy": 1033.39552539051,
-        "Position": [
-            30.9571981,
-            -24.3513583,
-            7.0
-        ],
-        "Type": 0
-    },
-    "445": {
-        "Id": "445",
-        "Name": "Namakgale Crossing complex",
-        "SNR": 49.24881293102794,
-        "Energy": 1468.472434954708,
-        "Position": [
-            31.0257732,
-            -23.9277449,
-            7.0
-        ],
-        "Type": 0
-    },
-    "446": {
-        "Id": "446",
-        "Name": "Teyisi Shopping Centre",
-        "SNR": 97.31642862222938,
-        "Energy": 1980.8363415601596,
-        "Position": [
-            30.7117975,
-            -23.2897804,
-            10.0
-        ],
-        "Type": -1
-    },
-    "447": {
-        "Id": "447",
-        "Name": "Oasis Entertainment Center",
-        "SNR": 101.20793488535544,
-        "Energy": 1317.7190630289558,
-        "Position": [
-            30.15828789999999,
-            -23.8171493,
-            7.0
-        ],
-        "Type": 0
-    },
-    "448": {
-        "Id": "448",
-        "Name": "The Landy Shop",
-        "SNR": 56.98679733174381,
-        "Energy": 1243.2378757045149,
-        "Position": [
-            30.88619599999999,
-            -24.3767364,
-            7.0
-        ],
-        "Type": 0
-    },
-    "449": {
-        "Id": "449",
-        "Name": "Boxer Centre",
-        "SNR": 70.66868343007327,
-        "Energy": 1795.9432098768082,
-        "Position": [
-            30.1636906,
-            -23.8287351,
-            7.0
-        ],
-        "Type": 0
-    },
-    "450": {
-        "Id": "450",
-        "Name": "Orange Tree Furniture",
-        "SNR": 53.98435957138156,
-        "Energy": 844.8049820982942,
-        "Position": [
-            30.9473705,
-            -24.3555319,
-            7.0
-        ],
-        "Type": 0
-    },
-    "451": {
-        "Id": "451",
-        "Name": "Kham Avalante' Travel & Tours Shuttle Coaches",
-        "SNR": 30.578844125071992,
-        "Energy": 1723.2628593015704,
-        "Position": [
-            30.16116,
-            -23.8258699,
-            8.0
-        ],
-        "Type": null
-    },
-    "452": {
-        "Id": "452",
-        "Name": "Hornbill Enterprises",
-        "SNR": 58.917554595872474,
-        "Energy": 1171.6845530775554,
-        "Position": [
-            30.8842627,
-            -24.4787455,
-            7.0
-        ],
-        "Type": 0
-    },
-    "453": {
-        "Id": "453",
-        "Name": "Nkuzana Shopping Centre (Proposed)",
-        "SNR": 31.510199675545834,
-        "Energy": 1423.208986532673,
-        "Position": [
-            30.309836,
-            -23.211568,
-            7.0
-        ],
-        "Type": 0
-    },
-    "454": {
-        "Id": "454",
-        "Name": "Dunns Stores",
-        "SNR": 78.37369475834674,
-        "Energy": 1212.8908692554794,
-        "Position": [
-            31.1342,
-            -23.95108,
-            7.0
-        ],
-        "Type": 0
-    },
-    "455": {
-        "Id": "455",
-        "Name": "Selokwe Shopping Centre",
-        "SNR": 73.60964412144388,
-        "Energy": 1907.541976049123,
-        "Position": [
-            30.1048625,
-            -23.2569917,
-            7.0
-        ],
-        "Type": 0
-    },
-    "456": {
-        "Id": "456",
-        "Name": "FNB Bank ATM",
-        "SNR": 84.56840528658225,
-        "Energy": 1363.1928619536823,
-        "Position": [
-            30.15708000000001,
-            -23.82258,
-            7.0
-        ],
-        "Type": 0
-    },
-    "457": {
-        "Id": "457",
-        "Name": "Roots",
-        "SNR": 60.93011001662685,
-        "Energy": 1188.554623205571,
-        "Position": [
-            30.2183548,
-            -23.6448298,
-            7.0
-        ],
-        "Type": 0
-    },
-    "458": {
-        "Id": "458",
-        "Name": "Thavhani Mall",
-        "SNR": 50.97244714228319,
-        "Energy": 470.74226027077236,
-        "Position": [
-            30.46321,
-            -22.9838848,
-            7.0
-        ],
-        "Type": 0
-    },
-    "459": {
-        "Id": "459",
-        "Name": "Acornhoek Mall",
-        "SNR": 59.987826141508286,
-        "Energy": 1864.0501305283503,
-        "Position": [
-            31.04127,
-            -24.6069299,
-            7.0
-        ],
-        "Type": 0
-    },
-    "460": {
-        "Id": "460",
-        "Name": "Sasekisa Mini Shopping Centre",
-        "SNR": 38.58992415444217,
-        "Energy": 1408.6243731725206,
-        "Position": [
-            30.2454233,
-            -23.2136124,
-            7.0
-        ],
-        "Type": 0
-    },
-    "461": {
-        "Id": "461",
-        "Name": "Malamulele Plaza",
-        "SNR": 84.91333402244737,
-        "Energy": 1669.148620996753,
-        "Position": [
-            30.6928289,
-            -22.9987035,
-            7.0
-        ],
-        "Type": 0
-    },
-    "462": {
-        "Id": "462",
-        "Name": "24 Degrees South",
-        "SNR": 25.516080838172826,
-        "Energy": 949.5236266664225,
-        "Position": [
-            30.87943599999999,
-            -24.467288,
-            7.0
-        ],
-        "Type": 0
-    },
-    "463": {
-        "Id": "463",
-        "Name": "Masingita Crossing Mall",
-        "SNR": 59.32421257104256,
-        "Energy": 2569.078827857923,
-        "Position": [
-            30.685601,
-            -23.004358,
-            7.0
-        ],
-        "Type": 0
-    },
-    "464": {
-        "Id": "464",
-        "Name": "Mala Plaza",
-        "SNR": 51.181603265138946,
-        "Energy": 1450.782260616386,
-        "Position": [
-            30.69857,
-            -23.00261,
-            7.0
-        ],
-        "Type": 0
-    },
-    "465": {
-        "Id": "465",
-        "Name": "Laduma Hardware Malamulele",
-        "SNR": 27.509453742882926,
-        "Energy": 909.4730028541204,
-        "Position": [
-            30.6869066,
-            -23.0076262,
-            7.0
-        ],
-        "Type": 0
-    },
-    "466": {
-        "Id": "466",
-        "Name": "Paledi Mall",
-        "SNR": 86.38115971919527,
-        "Energy": 1378.3054465576454,
-        "Position": [
-            29.700632,
-            -23.890424,
-            7.0
-        ],
-        "Type": 0
-    },
-    "467": {
-        "Id": "467",
-        "Name": "Mall of the North",
-        "SNR": 54.8920954346067,
-        "Energy": 1430.7231435992173,
-        "Position": [
-            29.5092968,
-            -23.87369,
-            7.0
-        ],
-        "Type": 0
-    },
-    "468": {
-        "Id": "468",
-        "Name": "Elim Mall",
-        "SNR": 89.56055370959506,
-        "Energy": 1709.3719869432364,
-        "Position": [
-            30.0574353,
-            -23.15664,
-            10.0
-        ],
-        "Type": -1
-    },
-    "469": {
-        "Id": "469",
-        "Name": "Tubatse Crossing Mall",
-        "SNR": 99.63425903319067,
-        "Energy": 1878.2885093529785,
-        "Position": [
-            30.3120045,
-            -24.6604289,
-            10.0
-        ],
-        "Type": -1
-    },
-    "470": {
-        "Id": "470",
-        "Name": "Sasekisa Mini Shopping Centre, Bungeni",
-        "SNR": 57.298130690828664,
-        "Energy": 1565.0342508927415,
-        "Position": [
-            30.1690334,
-            -23.1845202,
-            7.0
-        ],
-        "Type": 0
-    },
-    "471": {
-        "Id": "471",
-        "Name": "Thulamahashe Plaza",
-        "SNR": 82.16201108503904,
-        "Energy": 1387.0658904264737,
-        "Position": [
-            31.2109163,
-            -24.7259415,
-            7.0
-        ],
-        "Type": 0
-    },
-    "472": {
-        "Id": "472",
-        "Name": "shoprite usave",
-        "SNR": 65.61110286387748,
-        "Energy": 1546.516565338799,
-        "Position": [
-            30.0139734,
-            -24.3232714,
-            7.0
-        ],
-        "Type": 0
-    },
-    "473": {
-        "Id": "473",
-        "Name": "Savannah Mall",
-        "SNR": 74.84352886366676,
-        "Energy": 1221.0144780473242,
-        "Position": [
-            29.4879771,
-            -23.9039221,
-            7.0
-        ],
-        "Type": 0
-    },
-    "474": {
-        "Id": "474",
-        "Name": "Mushavhi Shoping Centre",
-        "SNR": 48.87011126192279,
-        "Energy": 576.989006224138,
-        "Position": [
-            30.70895699999999,
-            -22.9411262,
-            7.0
-        ],
-        "Type": 0
-    },
-    "475": {
-        "Id": "475",
-        "Name": "MVUSULUDZO MALL",
-        "SNR": 86.12687087492856,
-        "Energy": 141.5447517196087,
-        "Position": [
-            30.4592264,
-            -22.9757158,
-            7.0
-        ],
-        "Type": 0
-    },
-    "476": {
-        "Id": "476",
-        "Name": "Bushbuckridge complex",
-        "SNR": -5.5354102268205025,
-        "Energy": 1451.7768632205411,
-        "Position": [
-            31.0704464,
-            -24.8351643,
-            8.0
-        ],
-        "Type": null
-    },
-    "477": {
-        "Id": "477",
-        "Name": "Botlokwa Shopping Plaza",
-        "SNR": 68.74890269255766,
-        "Energy": 1554.3406268010342,
-        "Position": [
-            29.7247015,
-            -23.4928402,
-            10.0
-        ],
-        "Type": -1
-    },
-    "478": {
-        "Id": "478",
-        "Name": "Tshidzini Shopping centre",
-        "SNR": 52.26185438226635,
-        "Energy": 2114.7675284941165,
-        "Position": [
-            30.6904853,
-            -22.827901,
-            7.0
-        ],
-        "Type": 0
-    },
-    "479": {
-        "Id": "479",
-        "Name": "Venda Plaza",
-        "SNR": 78.9503018186255,
-        "Energy": 1277.7807877146297,
-        "Position": [
-            30.4560254,
-            -22.9707461,
-            7.0
-        ],
-        "Type": 0
-    },
-    "480": {
-        "Id": "480",
-        "Name": "Side Step Limpopo Mall",
-        "SNR": 63.561381476759756,
-        "Energy": 1142.4472694963656,
-        "Position": [
-            29.449768,
-            -23.9043439,
-            7.0
-        ],
-        "Type": 0
-    },
-    "481": {
-        "Id": "481",
-        "Name": "MUTSINDO MALL",
-        "SNR": 37.569843837475666,
-        "Energy": 1230.2087937798717,
-        "Position": [
-            30.4612758,
-            -22.9759977,
-            7.0
-        ],
-        "Type": 0
-    },
-    "482": {
-        "Id": "482",
-        "Name": "Makhado Crossing Mall",
-        "SNR": 50.43927252937601,
-        "Energy": 1129.0086991888018,
-        "Position": [
-            29.9188191,
-            -23.0455176,
-            7.0
-        ],
-        "Type": 0
-    },
-    "483": {
-        "Id": "483",
-        "Name": "Kopanong Shopping Centre (Atok",
-        "SNR": 27.756956564777504,
-        "Energy": 1387.9278822528438,
-        "Position": [
-            29.88973,
-            -24.3004699,
-            7.0
-        ],
-        "Type": 0
-    },
-    "484": {
-        "Id": "484",
-        "Name": "SABINA PLAZA",
-        "SNR": 67.49503042390114,
-        "Energy": 1359.1486417060758,
-        "Position": [
-            30.456599,
-            -22.976198,
-            7.0
-        ],
-        "Type": 0
-    },
-    "485": {
-        "Id": "485",
-        "Name": "Bopedi Shopping Centre",
-        "SNR": 75.87286560241341,
-        "Energy": 1795.2360814109043,
-        "Position": [
-            29.78939690000001,
-            -24.4196667,
-            10.0
-        ],
-        "Type": -1
-    },
-    "486": {
-        "Id": "486",
-        "Name": "Morone Centre",
-        "SNR": -11.434078632884237,
-        "Energy": 691.0776593359045,
-        "Position": [
-            30.32983,
-            -24.67315,
-            7.0
-        ],
-        "Type": 0
-    },
-    "487": {
-        "Id": "487",
-        "Name": "Cycad Shopping Centre",
-        "SNR": 62.134311674014185,
-        "Energy": 1611.7228591665616,
-        "Position": [
-            29.4725448,
-            -23.8931241,
-            7.0
-        ],
-        "Type": 0
-    },
-    "488": {
-        "Id": "488",
-        "Name": "Mutsindo Mall/Capricorn Plaza Centre",
-        "SNR": 46.18461442347223,
-        "Energy": 1191.548150073075,
-        "Position": [
-            30.46857,
-            -22.96107,
-            7.0
-        ],
-        "Type": 0
-    },
-    "489": {
-        "Id": "489",
-        "Name": "St. David's Anglican Church, Modjadjiskloof",
-        "SNR": 37.36283846497122,
-        "Energy": 1083.8986428109406,
-        "Position": [
-            30.176249,
-            -23.656889,
-            7.0
-        ],
-        "Type": 0
-    },
-    "490": {
-        "Id": "490",
-        "Name": "St. Peter's Anglican Church",
-        "SNR": 38.07206371642904,
-        "Energy": 1366.0172544411018,
-        "Position": [
-            30.1565717,
-            -23.8307753,
-            7.0
-        ],
-        "Type": 0
-    },
-    "491": {
-        "Id": "491",
-        "Name": "Diocese of Tzaneen - Catholic Church",
-        "SNR": 71.16473852146981,
-        "Energy": 774.8818604966367,
-        "Position": [
-            30.15639999999999,
-            -23.8291499,
-            7.0
-        ],
-        "Type": 0
-    },
-    "492": {
-        "Id": "492",
-        "Name": "Harvest Time Church",
-        "SNR": 58.215129201324395,
-        "Energy": 1168.5940313564527,
-        "Position": [
-            30.69412610000001,
-            -23.3005595,
-            7.0
-        ],
-        "Type": 0
-    },
-    "493": {
-        "Id": "493",
-        "Name": "Miracles Of God Church",
-        "SNR": 76.21904528235982,
-        "Energy": 1413.0072877927248,
-        "Position": [
-            30.789945,
-            -23.316898,
-            7.0
-        ],
-        "Type": 0
-    },
-    "494": {
-        "Id": "494",
-        "Name": "Die Pastorie",
-        "SNR": 58.82585341233996,
-        "Energy": 1567.0600230894136,
-        "Position": [
-            30.8876907,
-            -24.5184295,
-            7.0
-        ],
-        "Type": 0
-    },
-    "495": {
-        "Id": "495",
-        "Name": "Phalaborwa Catholic Church",
-        "SNR": 51.60996839811881,
-        "Energy": 1541.4958301895522,
-        "Position": [
-            31.143784,
-            -23.938406,
-            7.0
-        ],
-        "Type": 0
-    },
-    "496": {
-        "Id": "496",
-        "Name": "NEW LIFE BAPTIST CHURCH",
-        "SNR": 46.86826974211167,
-        "Energy": 1776.975614320733,
-        "Position": [
-            31.1395546,
-            -23.9371205,
-            7.0
-        ],
-        "Type": 0
-    },
-    "497": {
-        "Id": "497",
-        "Name": "Hope of Christ Church",
-        "SNR": 44.57631314537724,
-        "Energy": 1588.7100663376527,
-        "Position": [
-            30.3107576,
-            -23.8901927,
-            7.0
-        ],
-        "Type": 0
-    },
-    "498": {
-        "Id": "498",
-        "Name": "Hoedspruit Community Church",
-        "SNR": 59.53162774922641,
-        "Energy": 1377.6286404899854,
-        "Position": [
-            30.947874,
-            -24.353019,
-            7.0
-        ],
-        "Type": 0
-    },
-    "499": {
-        "Id": "499",
-        "Name": "Giyani True Vine Church",
-        "SNR": 52.811040958541454,
-        "Energy": 1420.5142519182941,
-        "Position": [
-            30.71643430000001,
-            -23.2889558,
-            7.0
-        ],
-        "Type": 0
-    },
-    "500": {
-        "Id": "500",
-        "Name": "Masakona Church of Christ",
-        "SNR": 81.77640150116578,
-        "Energy": 1976.073279975981,
-        "Position": [
-            30.24326619999999,
-            -23.2762057,
-            7.0
-        ],
-        "Type": 0
-    },
-    "501": {
-        "Id": "501",
-        "Name": "African Baptist Apostolic Church",
-        "SNR": 73.25570937455964,
-        "Energy": 1061.9443098619302,
-        "Position": [
-            30.1498401,
-            -23.3495666,
-            7.0
-        ],
-        "Type": 0
-    },
-    "502": {
-        "Id": "502",
-        "Name": "Haenertsburg Christian Church",
-        "SNR": 47.028156207618835,
-        "Energy": 1707.517155582084,
-        "Position": [
-            29.939707,
-            -23.942379,
-            7.0
-        ],
-        "Type": 0
-    },
-    "503": {
-        "Id": "503",
-        "Name": "Lenyenye AFM Church (Apostolic Faith Mission)",
-        "SNR": 96.02485092553391,
-        "Energy": 975.3125470187952,
-        "Position": [
-            30.27090499999999,
-            -23.97648199999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "504": {
-        "Id": "504",
-        "Name": "Shivulani Healing Ministry Church",
-        "SNR": 107.74871654689838,
-        "Energy": 1280.166991301056,
-        "Position": [
-            30.7040596,
-            -23.1464349,
-            7.0
-        ],
-        "Type": 0
-    },
-    "505": {
-        "Id": "505",
-        "Name": "AGS Church Hoedspruit",
-        "SNR": 65.38120854205388,
-        "Energy": 1270.8239514421916,
-        "Position": [
-            30.94604649999999,
-            -24.3569659,
-            7.0
-        ],
-        "Type": 0
-    },
-    "506": {
-        "Id": "506",
-        "Name": "Kubjana A.F.M Church",
-        "SNR": 85.7360855277477,
-        "Energy": 2030.2167608857212,
-        "Position": [
-            30.2960641,
-            -23.6954693,
-            7.0
-        ],
-        "Type": 0
-    },
-    "507": {
-        "Id": "507",
-        "Name": "Joppie Worshippers Church",
-        "SNR": 32.44592252150792,
-        "Energy": 1374.384239285012,
-        "Position": [
-            30.4087944,
-            -23.7325334,
-            7.0
-        ],
-        "Type": 0
-    },
-    "508": {
-        "Id": "508",
-        "Name": "Church of the Nazarene",
-        "SNR": 38.373082707342235,
-        "Energy": 1616.5268692161148,
-        "Position": [
-            31.0919522,
-            -23.8610941,
-            7.0
-        ],
-        "Type": 0
-    },
-    "509": {
-        "Id": "509",
-        "Name": "Alliance Church In Africa",
-        "SNR": 86.55506146722888,
-        "Energy": 1564.3927806283882,
-        "Position": [
-            30.2731031,
-            -23.8956497,
-            7.0
-        ],
-        "Type": 0
-    },
-    "510": {
-        "Id": "510",
-        "Name": "Thomo Evangelism Miracle Church",
-        "SNR": 48.52954350619328,
-        "Energy": 1422.648819212022,
-        "Position": [
-            30.78994430000001,
-            -23.252036,
-            7.0
-        ],
-        "Type": 0
-    },
-    "511": {
-        "Id": "511",
-        "Name": "FNB Bank ATM Moria Zion City",
-        "SNR": 48.678467752804984,
-        "Energy": 1282.5278111398331,
-        "Position": [
-            29.78922,
-            -23.93857,
-            7.0
-        ],
-        "Type": 0
-    },
-    "512": {
-        "Id": "512",
-        "Name": "NKOWANKOWA ZCC CHURCH",
-        "SNR": 99.12341556681326,
-        "Energy": 1367.3413974066823,
-        "Position": [
-            30.2794196,
-            -23.8930669,
-            7.0
-        ],
-        "Type": 0
-    },
-    "513": {
-        "Id": "513",
-        "Name": "St. Matthew's Anglican Church, Lenyenye",
-        "SNR": 29.6417374836457,
-        "Energy": 838.6449919907207,
-        "Position": [
-            30.262141,
-            -23.974685,
-            8.0
-        ],
-        "Type": null
-    },
-    "514": {
-        "Id": "514",
-        "Name": "Masakona Reformed Church",
-        "SNR": 59.4853003000251,
-        "Energy": 1336.7631648797517,
-        "Position": [
-            30.2477345,
-            -23.2809815,
-            7.0
-        ],
-        "Type": 0
-    },
-    "515": {
-        "Id": "515",
-        "Name": "Khaxane Assemblies of God Church",
-        "SNR": 74.54009049877388,
-        "Energy": 1748.1577872745677,
-        "Position": [
-            30.80500959999999,
-            -23.6704281,
-            7.0
-        ],
-        "Type": 0
-    },
-    "516": {
-        "Id": "516",
-        "Name": "Full Gospel Church of God",
-        "SNR": 73.9386967718731,
-        "Energy": 984.6421397970222,
-        "Position": [
-            30.31700530000001,
-            -23.8922818,
-            7.0
-        ],
-        "Type": 0
-    },
-    "517": {
-        "Id": "517",
-        "Name": "Life Abundance Church",
-        "SNR": 35.08130435588262,
-        "Energy": 1384.9187028239608,
-        "Position": [
-            30.9094148,
-            -22.8949546,
-            7.0
-        ],
-        "Type": 0
-    },
-    "518": {
-        "Id": "518",
-        "Name": "BIBLE REVIVAL CHURCH",
-        "SNR": 58.89865679607888,
-        "Energy": 1742.9570153060658,
-        "Position": [
-            30.7082438,
-            -23.2070945,
-            7.0
-        ],
-        "Type": 0
-    },
-    "519": {
-        "Id": "519",
-        "Name": "Kingdom Word City Int'l Church",
-        "SNR": 39.303708448433596,
-        "Energy": 1655.7049604784652,
-        "Position": [
-            31.137179,
-            -23.948113,
-            7.0
-        ],
-        "Type": 0
-    },
-    "520": {
-        "Id": "520",
-        "Name": "Faith and Action, Apostolic church",
-        "SNR": 70.89514078603044,
-        "Energy": 1638.781512980926,
-        "Position": [
-            30.7887733,
-            -23.3280527,
-            7.0
-        ],
-        "Type": 0
-    },
-    "521": {
-        "Id": "521",
-        "Name": "God Harvest Church Main",
-        "SNR": 55.083930845038125,
-        "Energy": 1550.5174144945142,
-        "Position": [
-            30.3266339,
-            -24.0817399,
-            7.0
-        ],
-        "Type": 0
-    },
-    "522": {
-        "Id": "522",
-        "Name": "Christian Fire Church Nkowankowa",
-        "SNR": 69.93982337126695,
-        "Energy": 943.5879604123331,
-        "Position": [
-            30.296941,
-            -23.8936111,
-            7.0
-        ],
-        "Type": 0
-    },
-    "523": {
-        "Id": "523",
-        "Name": "Unity of Faith Church",
-        "SNR": 77.49144915886126,
-        "Energy": 1429.773798613707,
-        "Position": [
-            30.7033214,
-            -23.2842007,
-            7.0
-        ],
-        "Type": 0
-    },
-    "524": {
-        "Id": "524",
-        "Name": "Unity Of faith Church",
-        "SNR": 50.20969100382267,
-        "Energy": 1421.6978917207082,
-        "Position": [
-            30.5309385,
-            -23.3492896,
-            7.0
-        ],
-        "Type": 0
-    },
-    "525": {
-        "Id": "525",
-        "Name": "EVANGELICAL REFORMED CHURCH",
-        "SNR": 73.04862507648855,
-        "Energy": 1073.099579078616,
-        "Position": [
-            30.36814819999999,
-            -23.7254737,
-            7.0
-        ],
-        "Type": 0
-    },
-    "526": {
-        "Id": "526",
-        "Name": "Apostolic Faith Church Of Portland Oregon. Phalaborwa",
-        "SNR": 18.829640116486843,
-        "Energy": 1569.5245585779808,
-        "Position": [
-            31.025027,
-            -23.942221,
-            7.0
-        ],
-        "Type": 0
-    },
-    "527": {
-        "Id": "527",
-        "Name": "Together Christian Church",
-        "SNR": 82.0339610976274,
-        "Energy": 1872.9290093579095,
-        "Position": [
-            30.4229579,
-            -23.7212015,
-            7.0
-        ],
-        "Type": 0
-    },
-    "528": {
-        "Id": "528",
-        "Name": "DINGAMANZI SAGC CHURCH",
-        "SNR": 68.83168361687797,
-        "Energy": 741.7475369183711,
-        "Position": [
-            30.58022609999999,
-            -23.3795586,
-            7.0
-        ],
-        "Type": 0
-    },
-    "529": {
-        "Id": "529",
-        "Name": "Mamatlepa Church of Christ",
-        "SNR": 57.8576488119671,
-        "Energy": 1351.947166767998,
-        "Position": [
-            30.47742369999999,
-            -23.4743107,
-            7.0
-        ],
-        "Type": 0
-    },
-    "530": {
-        "Id": "530",
-        "Name": "PPK Church Phalaborwa",
-        "SNR": 41.26962996071015,
-        "Energy": 1777.4017014944232,
-        "Position": [
-            31.149339,
-            -23.942371,
-            10.0
-        ],
-        "Type": -1
-    },
-    "531": {
-        "Id": "531",
-        "Name": "Come Back Home Church",
-        "SNR": 55.49604231495651,
-        "Energy": 1605.258953320279,
-        "Position": [
-            30.327578,
-            -24.1016723,
-            7.0
-        ],
-        "Type": 0
-    },
-    "532": {
-        "Id": "532",
-        "Name": "Shekinah House",
-        "SNR": 42.25109269454693,
-        "Energy": 1798.1224855779435,
-        "Position": [
-            30.1696014,
-            -23.8185414,
-            7.0
-        ],
-        "Type": 0
-    },
-    "533": {
-        "Id": "533",
-        "Name": "Universal Church",
-        "SNR": 11.37579295420582,
-        "Energy": 1627.7855502180382,
-        "Position": [
-            31.1298387,
-            -23.9513392,
-            7.0
-        ],
-        "Type": 0
-    },
-    "534": {
-        "Id": "534",
-        "Name": "Gereformeerde Kerk - Hoedspruit",
-        "SNR": 55.98748132965081,
-        "Energy": 1695.8301075435554,
-        "Position": [
-            30.94208949999999,
-            -24.3607636,
-            7.0
-        ],
-        "Type": 0
-    },
-    "535": {
-        "Id": "535",
-        "Name": "Shiloh Worship Centre",
-        "SNR": 41.833361702098486,
-        "Energy": 2012.5221778228251,
-        "Position": [
-            30.27869710000001,
-            -23.8950631,
-            7.0
-        ],
-        "Type": 0
-    },
-    "536": {
-        "Id": "536",
-        "Name": "Church of Jesus Christ of Latter-day Saints",
-        "SNR": 72.35622211421335,
-        "Energy": 1892.5036241904595,
-        "Position": [
-            30.2110303,
-            -23.6327638,
-            7.0
-        ],
-        "Type": 0
-    },
-    "537": {
-        "Id": "537",
-        "Name": "Church of Jesus Christ of Latter-day Saints",
-        "SNR": 44.91811247965417,
-        "Energy": 2044.6724269498218,
-        "Position": [
-            30.16039150000001,
-            -23.8392832,
-            7.0
-        ],
-        "Type": 0
-    },
-    "538": {
-        "Id": "538",
-        "Name": "Church of Jesus Christ of Latter-day Saints",
-        "SNR": 108.25501004662817,
-        "Energy": 1057.605741504884,
-        "Position": [
-            30.2713635,
-            -23.9759233,
-            7.0
-        ],
-        "Type": 0
-    },
-    "539": {
-        "Id": "539",
-        "Name": "Mushiru Assemblies Of God Church",
-        "SNR": 101.13317109759619,
-        "Energy": 1898.3319400775135,
-        "Position": [
-            30.8462801,
-            -22.7602711,
-            7.0
-        ],
-        "Type": 0
-    },
-    "540": {
-        "Id": "540",
-        "Name": "Bofu-la-mato Full Gospel Church",
-        "SNR": 79.20717880022929,
-        "Energy": 1925.0654847312144,
-        "Position": [
-            30.424454,
-            -23.1898783,
-            7.0
-        ],
-        "Type": 0
-    },
-    "541": {
-        "Id": "541",
-        "Name": "Turfloop Evangelical Lutheran Church",
-        "SNR": 93.64219746845352,
-        "Energy": 1593.8085171137432,
-        "Position": [
-            29.7599761,
-            -23.8852085,
-            10.0
-        ],
-        "Type": -1
-    },
-    "542": {
-        "Id": "542",
-        "Name": "St. John's Apostolic Faith Mission Church Limpopo Lowveld",
-        "SNR": 75.64231608264399,
-        "Energy": 1080.306399648422,
-        "Position": [
-            30.3698329,
-            -23.4678768,
-            7.0
-        ],
-        "Type": 0
-    },
-    "543": {
-        "Id": "543",
-        "Name": "Nazarene Church",
-        "SNR": 63.60597121210922,
-        "Energy": 1481.0735367323482,
-        "Position": [
-            30.2369902,
-            -23.9972923,
-            10.0
-        ],
-        "Type": -1
-    },
-    "544": {
-        "Id": "544",
-        "Name": "Selwana Lutheran Church",
-        "SNR": 86.81676697581833,
-        "Energy": 1389.2696195590954,
-        "Position": [
-            30.9185509,
-            -23.6964926,
-            7.0
-        ],
-        "Type": 0
-    },
-    "545": {
-        "Id": "545",
-        "Name": "Phalaborwa Methodist Church",
-        "SNR": 43.69920879311864,
-        "Energy": 1045.6497868592826,
-        "Position": [
-            31.144909,
-            -23.936366,
-            7.0
-        ],
-        "Type": 0
-    },
-    "546": {
-        "Id": "546",
-        "Name": "Legacy Church",
-        "SNR": 52.79501293947218,
-        "Energy": 1024.0524690950745,
-        "Position": [
-            30.15430169999999,
-            -23.8366133,
-            7.0
-        ],
-        "Type": 0
-    },
-    "547": {
-        "Id": "547",
-        "Name": "Uniting Reformed Church",
-        "SNR": 55.42854086989953,
-        "Energy": 503.3908457033741,
-        "Position": [
-            30.5641505,
-            -23.4343075,
-            7.0
-        ],
-        "Type": 0
-    },
-    "548": {
-        "Id": "548",
-        "Name": "Acornhoek Christian Fire Church",
-        "SNR": 70.58946102840737,
-        "Energy": 1341.9070336425907,
-        "Position": [
-            31.0677464,
-            -24.5991592,
-            7.0
-        ],
-        "Type": 0
-    },
-    "549": {
-        "Id": "549",
-        "Name": "Tshikondeni Mine",
-        "SNR": 43.17959980853372,
-        "Energy": 1009.2700105249359,
-        "Position": [
-            30.9418988,
-            -22.5151339,
-            8.0
-        ],
-        "Type": null
-    },
-    "550": {
-        "Id": "550",
-        "Name": "Palabora Mining Company",
-        "SNR": 68.45425390973544,
-        "Energy": 1883.3393818834759,
-        "Position": [
-            31.1519799,
-            -23.9687465,
-            7.0
-        ],
-        "Type": 0
-    },
-    "551": {
-        "Id": "551",
-        "Name": "Mining Co",
-        "SNR": 46.045428702551845,
-        "Energy": 1551.260788218598,
-        "Position": [
-            31.09376259999999,
-            -23.9888065,
-            7.0
-        ],
-        "Type": 0
-    },
-    "552": {
-        "Id": "552",
-        "Name": "Valic Mining Supplies",
-        "SNR": 79.85390643616333,
-        "Energy": 2366.581146943454,
-        "Position": [
-            31.1303169,
-            -23.9520533,
-            7.0
-        ],
-        "Type": 0
-    },
-    "553": {
-        "Id": "553",
-        "Name": "Palabora Mining Company Open Pit",
-        "SNR": 28.598987380761965,
-        "Energy": 1465.3817299294658,
-        "Position": [
-            31.12976989999999,
-            -23.9931685,
-            7.0
-        ],
-        "Type": 0
-    },
-    "554": {
-        "Id": "554",
-        "Name": "Foskor (Pty) Ltd",
-        "SNR": 57.66060694098295,
-        "Energy": 1013.1455695255981,
-        "Position": [
-            31.1519348,
-            -23.9688342,
-            7.0
-        ],
-        "Type": 0
-    },
-    "555": {
-        "Id": "555",
-        "Name": "Twickenham mine",
-        "SNR": 57.624367267651635,
-        "Energy": 1238.4902156222538,
-        "Position": [
-            30.5880556,
-            -24.4880556,
-            7.0
-        ],
-        "Type": 0
-    },
-    "556": {
-        "Id": "556",
-        "Name": "Foskor Workplace",
-        "SNR": 46.81176318658428,
-        "Energy": 1769.2593146146855,
-        "Position": [
-            31.1434052,
-            -23.9532602,
-            7.0
-        ],
-        "Type": 0
-    },
-    "557": {
-        "Id": "557",
-        "Name": "Unifrutti South Africa, Blyderiver Farm",
-        "SNR": 74.28381233533504,
-        "Energy": 1209.4834821841903,
-        "Position": [
-            30.73239,
-            -24.366498,
-            7.0
-        ],
-        "Type": 0
-    },
-    "558": {
-        "Id": "558",
-        "Name": "Unifrutti South Africa, Blyderus Farm",
-        "SNR": 27.339015675274908,
-        "Energy": 979.454485002077,
-        "Position": [
-            30.8212176,
-            -24.376174,
-            8.0
-        ],
-        "Type": null
-    },
-    "559": {
-        "Id": "559",
-        "Name": "Ambrosia Citrus Estate",
-        "SNR": 101.55085081283966,
-        "Energy": 1192.0494089526096,
-        "Position": [
-            30.9118849,
-            -24.3629575,
-            7.0
-        ],
-        "Type": 0
-    },
-    "560": {
-        "Id": "560",
-        "Name": "Wegraakbosch Organic Dairy",
-        "SNR": 77.30491013438646,
-        "Energy": 1136.1457165796157,
-        "Position": [
-            29.957784,
-            -23.8969797,
-            7.0
-        ],
-        "Type": 0
-    },
-    "561": {
-        "Id": "561",
-        "Name": "Allesbeste",
-        "SNR": 59.74854870783215,
-        "Energy": 1384.1526936964285,
-        "Position": [
-            30.1215783,
-            -23.80198459999999,
-            10.0
-        ],
-        "Type": -1
-    },
-    "562": {
-        "Id": "562",
-        "Name": "Westfalia Fruit Estates",
-        "SNR": 87.72038238357683,
-        "Energy": 1501.8117507033523,
-        "Position": [
-            30.1116795,
-            -23.7372114,
-            7.0
-        ],
-        "Type": 0
-    },
-    "563": {
-        "Id": "563",
-        "Name": "Farm Bryntirion",
-        "SNR": 98.83495197953005,
-        "Energy": 1447.400613888281,
-        "Position": [
-            30.1270578,
-            -23.9032589,
-            7.0
-        ],
-        "Type": 0
-    },
-    "564": {
-        "Id": "564",
-        "Name": "ZZ2 Headquarters Mooketsi",
-        "SNR": 58.50658601509882,
-        "Energy": 2060.8824522891086,
-        "Position": [
-            30.1050367,
-            -23.6031828,
-            7.0
-        ],
-        "Type": 0
-    },
-    "565": {
-        "Id": "565",
-        "Name": "Amarula Lapa",
-        "SNR": 28.93319577690495,
-        "Energy": 1142.4934104225722,
-        "Position": [
-            31.08176499999999,
-            -23.962276,
-            7.0
-        ],
-        "Type": 0
-    },
-    "566": {
-        "Id": "566",
-        "Name": "THE WHEELBARROW FARMSTALL",
-        "SNR": 57.25854144920319,
-        "Energy": 1711.5658948710357,
-        "Position": [
-            30.1060122,
-            -23.803575,
-            10.0
-        ],
-        "Type": -1
-    },
-    "567": {
-        "Id": "567",
-        "Name": "Hishtil South Africa (Mooketsi Nursery)",
-        "SNR": 73.45738746222834,
-        "Energy": 1534.655929398048,
-        "Position": [
-            30.06078239999999,
-            -23.6518116,
-            7.0
-        ],
-        "Type": 0
-    },
-    "568": {
-        "Id": "568",
-        "Name": "Afrinest Farm Projects",
-        "SNR": 68.92042280109109,
-        "Energy": 1818.8175503191515,
-        "Position": [
-            30.27292,
-            -23.8260678,
-            7.0
-        ],
-        "Type": 0
-    },
-    "569": {
-        "Id": "569",
-        "Name": "Mcezi Farming Enterprise",
-        "SNR": 61.74978769128852,
-        "Energy": 1188.9437237437094,
-        "Position": [
-            30.7166298,
-            -23.5684336,
-            7.0
-        ],
-        "Type": 0
-    },
-    "570": {
-        "Id": "570",
-        "Name": "Rosy Adeniums South Africa",
-        "SNR": 61.70106661886889,
-        "Energy": 1563.308397690392,
-        "Position": [
-            31.151186,
-            -23.927389,
-            7.0
-        ],
-        "Type": 0
-    },
-    "571": {
-        "Id": "571",
-        "Name": "Du Roi, Nursery",
-        "SNR": 65.08303655257485,
-        "Energy": 895.4309218917897,
-        "Position": [
-            30.38367629999999,
-            -23.8625103,
-            7.0
-        ],
-        "Type": 0
-    },
-    "572": {
-        "Id": "572",
-        "Name": "Ndou General Farming",
-        "SNR": 79.4989407995915,
-        "Energy": 2208.216571935526,
-        "Position": [
-            30.6728484,
-            -22.4425131,
-            10.0
-        ],
-        "Type": -1
-    },
-    "573": {
-        "Id": "573",
-        "Name": "Kuhestan",
-        "SNR": 38.39850051942577,
-        "Energy": 963.1243067751404,
-        "Position": [
-            29.9980254,
-            -23.8843052,
-            7.0
-        ],
-        "Type": 0
-    },
-    "574": {
-        "Id": "574",
-        "Name": "Redbank Farm",
-        "SNR": 35.201354300319565,
-        "Energy": 1273.901431578281,
-        "Position": [
-            30.0737871,
-            -23.9004096,
-            7.0
-        ],
-        "Type": 0
-    },
-    "575": {
-        "Id": "575",
-        "Name": "PimUju",
-        "SNR": 63.835530525086405,
-        "Energy": 2094.087240555928,
-        "Position": [
-            30.180902,
-            -23.723322,
-            7.0
-        ],
-        "Type": 0
-    },
-    "576": {
-        "Id": "576",
-        "Name": "Amorentia Estate & Nursery",
-        "SNR": 71.46444404269994,
-        "Energy": 1422.5232359878455,
-        "Position": [
-            30.048809,
-            -23.763351,
-            7.0
-        ],
-        "Type": 0
-    },
-    "577": {
-        "Id": "577",
-        "Name": "El Rancho Farming And Projects",
-        "SNR": 27.87863546328652,
-        "Energy": 2226.414156626781,
-        "Position": [
-            30.5824852,
-            -23.4350717,
-            7.0
-        ],
-        "Type": 0
-    },
-    "578": {
-        "Id": "578",
-        "Name": "Nkuna Family Farm",
-        "SNR": 50.74103690046786,
-        "Energy": 1030.2450989155907,
-        "Position": [
-            30.864,
-            -23.484,
-            7.0
-        ],
-        "Type": 0
-    },
-    "579": {
-        "Id": "579",
-        "Name": "Harmonie farm",
-        "SNR": 46.0427532356012,
-        "Energy": 702.8297440920684,
-        "Position": [
-            30.7521698,
-            -24.2456262,
-            7.0
-        ],
-        "Type": 0
-    },
-    "580": {
-        "Id": "580",
-        "Name": "Bluebird Farm",
-        "SNR": 63.33694738898556,
-        "Energy": 728.2822029678093,
-        "Position": [
-            30.2455033,
-            -23.36299529999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "581": {
-        "Id": "581",
-        "Name": "P & a Seedlings",
-        "SNR": 22.050569340703795,
-        "Energy": 1631.0118886676385,
-        "Position": [
-            30.18248929999999,
-            -23.5184764,
-            7.0
-        ],
-        "Type": 0
-    },
-    "582": {
-        "Id": "582",
-        "Name": "Dzundeni Fruits & Veg",
-        "SNR": 45.29891135568166,
-        "Energy": 1280.4860754158362,
-        "Position": [
-            30.4548679,
-            -23.21458239999999,
-            7.0
-        ],
-        "Type": 0
-    },
-    "583": {
-        "Id": "583",
-        "Name": "Mashudu Poultry Farm",
-        "SNR": 55.30175895754717,
-        "Energy": 1261.379716875946,
-        "Position": [
-            30.832521,
-            -22.7797331,
-            7.0
-        ],
-        "Type": 0
-    },
-    "584": {
-        "Id": "584",
-        "Name": "ZZ2 Natuur Boerdery",
-        "SNR": 24.826489076167164,
-        "Energy": 1423.8502247271308,
-        "Position": [
-            30.04397029999999,
-            -23.6408976,
-            7.0
-        ],
-        "Type": 0
-    },
-    "585": {
-        "Id": "585",
-        "Name": "Hetisani Forever Farming Poultry",
-        "SNR": 81.75706838716584,
-        "Energy": 1322.9998208096263,
-        "Position": [
-            30.1418731,
-            -23.2371407,
-            7.0
-        ],
-        "Type": 0
-    },
-    "586": {
-        "Id": "586",
-        "Name": "AvoOwner",
-        "SNR": 56.22360677050451,
-        "Energy": 597.6458499292706,
-        "Position": [
-            29.95642559999999,
-            -23.4954645,
-            7.0
-        ],
-        "Type": 0
-    },
-    "587": {
-        "Id": "587",
-        "Name": "Ngwenya Farm",
-        "SNR": 44.930513248620805,
-        "Energy": 615.5959753392551,
-        "Position": [
-            30.2000853,
-            -23.2159366,
-            7.0
-        ],
-        "Type": 0
-    },
-    "588": {
-        "Id": "588",
-        "Name": "Dzunde la Manavhela",
-        "SNR": 67.53399228612439,
-        "Energy": 813.3424283314441,
-        "Position": [
-            30.4281378,
-            -23.1173513,
-            7.0
-        ],
-        "Type": 0
-    },
-    "589": {
-        "Id": "589",
-        "Name": "Shandukani Farm",
-        "SNR": 80.0408602154115,
-        "Energy": 1775.9902557804833,
-        "Position": [
-            30.4296416,
-            -23.1096902,
-            10.0
-        ],
-        "Type": -1
-    },
-    "590": {
-        "Id": "590",
-        "Name": "Ha-Manavhela grazing zone for livestock farmers.",
-        "SNR": 59.60560362598766,
-        "Energy": 1714.7489040901105,
-        "Position": [
-            30.4424286,
-            -23.111786,
-            7.0
-        ],
-        "Type": 0
-    },
-    "591": {
-        "Id": "591",
-        "Name": "Cottondale Game Breeders",
-        "SNR": 44.19210190281165,
-        "Energy": 1486.187275524417,
-        "Position": [
-            30.1571711,
-            -23.823791,
-            7.0
-        ],
-        "Type": 0
     }
 }

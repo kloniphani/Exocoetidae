@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7c1452f9-28a1-434f-95bb-a67a6a4e6990}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Emulation.py</StartupFile>
+    <StartupFile>Multisink_Emulations.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -2432,6 +2432,9 @@
     <Compile Include="Backhauling_Emulations.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Multisink_Emulations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Myopic_Emulations.py">
       <SubType>Code</SubType>
     </Compile>
@@ -2520,6 +2523,9 @@
     <Folder Include="Source\Results" />
     <Folder Include="Source\Results\01" />
     <Folder Include="Source\Results\Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|env (Python 3.7 (64-bit))" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

@@ -28,8 +28,8 @@ class Distribution(object):
 	def Normal(ResidualEnergyMean = 1340,
 			ResidualEnergySigma = 428.547,
 			ResidualEnergySize = 100000000,
-			SNRMean =  32,
-			SNRSigma = 17.59,
+			SNRMean =  -92,
+			SNRSigma = 16.59,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
 			Size = None):
@@ -43,8 +43,8 @@ class Distribution(object):
 	def Uniform(ResidualEnergyLow = 0,
 			ResidualEnergyHigh = 2400,
 			ResidualEnergySize = 100000000,
-			SNRLow =  -30,
-			SNRHigh = 100,
+			SNRLow =  -160,
+			SNRHigh = -20,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
 			Size = None):

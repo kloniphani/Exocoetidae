@@ -21,7 +21,7 @@ class Emulation(object):
 		else:
 			if Distribution is None: Distribution = '';
 			Stamp = str(strftime("%Y %b %d %H-%M", gmtime()))
-			FileName = './Model/Computed Data/{0}-[{1}]-{2}.xlsx'.format(FileName, Stamp, Distribution)
+			FileName = './Model/Backbone/{0}-[{1}]-{2}.xlsx'.format(FileName, Stamp, Distribution)
 
 
 		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 
@@ -98,7 +98,7 @@ if __name__ is '__main__':
 
 	Place = 'Khayelitsha'
 	Code = '7784';
-	Distribution = 'LogNormal'
+	Distribution = 'Normal'
 
 	RESULTS = []	
 	End = 50

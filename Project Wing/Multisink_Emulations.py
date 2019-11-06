@@ -1,8 +1,8 @@
 """         
-Authors:    Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:       October 28, 2019
-Copyrights:  2019 ISAT, Department of Computer Science
-            University of the Western Cape, Bellville, ZA
+Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
+Date:        April 10, 2018
+Copyrights:  2018 ISAT, Department of Computer Science
+             University of the Western Cape, Bellville, ZA
 """
 
 #PACKAGES
@@ -11,20 +11,23 @@ from Project_Wing import *
 import progressbar
 
 class Emulation(object):
-	def SaveToExcel(INPUTDATA, FileName = None, SheetName = None, Results = False):
+	def SaveToExcel(INPUTDATA, FileName = None, SheetName = None, Distribution = None, Results = False):
 		import pandas as pd
-		import datetime
+		from time import gmtime, strftime
 
-		if FileName is not None:
-			FileName = './Model/Clustering/{0}-{1}.xlsx'.format(FileName,  datetime.datetime.now().strftime("%d-%m-%y--%H-%M"))
+		if SheetName is None: SheetName = 'Results';
+		if FileName is None:
+			FileName = './Model/Computed Data/Results.xlsx'
 		else:
-			FileName = './Model/Clustering/Results.xlsx'
+			if Distribution is None: Distribution = '';
+			Stamp = str(strftime("%Y %b %d %H-%M", gmtime()))
+			FileName = './Model/Backbone/{0}-[{1}]-{2}.xlsx'.format(FileName, Stamp, Distribution)
 
-		if SheetName is None:
-			SheetName = 'Results'
 
-		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 'Backhauling CH', 'MSLBACK CH', 'MSGBACK CH', 'K-Means CH', 'Backhauling I-CH', 'MSLBACK I-CH', 'MSGBACK I-CH', 'K-Means I-CH', 
-			 'Backhauling Unassigned', 'MSLBACK Unassigned', 'MSGBACK Unassigned', 'K-Means Unassigned', 'Backhauling Empty', 'MSLBACK Empty', 'MSGBACK Empty', 'K-Means Empty']
+		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 
+			 'Backhauling CH', 'Myopic CH', 'MSGBACK CH', 'MSLBACK CH', 'K-Means CH',
+			 'Backhauling I-CH', 'Myopic I-CH', 'MSGBACK I-CH', 'MSLBACK I-CH', 'K-Means I-CH',
+			 'Backhauling Unassigned', 'Myopic Unassigned', 'MSGBACK Unassigned', 'MSLBACK Unassigned', 'K-Means Unassigned',]
 		
 		DATA = {}
 		DATA['Emulation'] = []
@@ -32,21 +35,20 @@ class Emulation(object):
 		DATA['Maximum SNR'] = []
 		DATA['Median RE'] = []
 		DATA['Backhauling CH'] = []
-		DATA['MSLBACK CH'] = []
+		DATA['Myopic CH'] = []
 		DATA['MSGBACK CH'] = []
+		DATA['MSLBACK CH'] = []
 		DATA['K-Means CH'] = []
 		DATA['Backhauling I-CH'] = []
-		DATA['MSLBACK I-CH'] = []
+		DATA['Myopic I-CH'] = []
 		DATA['MSGBACK I-CH'] = []
+		DATA['MSLBACK I-CH'] = []
 		DATA['K-Means I-CH'] = []
 		DATA['Backhauling Unassigned'] = []
-		DATA['MSLBACK Unassigned'] = []
+		DATA['Myopic Unassigned'] = []
 		DATA['MSGBACK Unassigned'] = []
+		DATA['MSLBACK Unassigned'] = []
 		DATA['K-Means Unassigned'] = []
-		DATA['Backhauling Empty'] = []
-		DATA['MSLBACK Empty'] = []
-		DATA['MSGBACK Empty'] = []
-		DATA['K-Means Empty'] = []
 
 		for data in INPUTDATA:
 			DATA['Emulation'].append(data[0])
@@ -54,21 +56,20 @@ class Emulation(object):
 			DATA['Maximum SNR'].append(data[2])
 			DATA['Median RE'].append(data[3])
 			DATA['Backhauling CH'].append(data[4])
-			DATA['MSLBACK CH'].append(data[5])
+			DATA['Myopic CH'].append(data[5])
 			DATA['MSGBACK CH'].append(data[6])
-			DATA['K-Means CH'].append(data[7])
-			DATA['Backhauling I-CH'].append(data[8])
-			DATA['MSLBACK I-CH'].append(data[9])
-			DATA['MSGBACK I-CH'].append(data[10])
-			DATA['K-Means I-CH'].append(data[11])
-			DATA['Backhauling Unassigned'].append(data[12])
-			DATA['MSLBACK Unassigned'].append(data[13])
-			DATA['MSGBACK Unassigned'].append(data[14])
-			DATA['K-Means Unassigned'].append(data[15])
-			DATA['Backhauling Empty'].append(data[16])
-			DATA['MSLBACK Empty'].append(data[17])
-			DATA['MSGBACK Empty'].append(data[18])
-			DATA['K-Means Empty'].append(data[19])
+			DATA['MSLBACK CH'].append(data[7])
+			DATA['K-Means CH'].append(data[8])
+			DATA['Backhauling I-CH'].append(data[9])
+			DATA['Myopic I-CH'].append(data[10])
+			DATA['MSGBACK I-CH'].append(data[11])
+			DATA['MSLBACK I-CH'].append(data[12])
+			DATA['K-Means I-CH'].append(data[13])
+			DATA['Backhauling Unassigned'].append(data[14])
+			DATA['Myopic Unassigned'].append(data[15])
+			DATA['MSGBACK Unassigned'].append(data[16])
+			DATA['MSLBACK Unassigned'].append(data[17])
+			DATA['K-Means Unassigned'].append(data[18])
 		
 		DataFrames = pd.DataFrame(data = DATA, columns = Columns)  #Create a Pandas dataframe from some data.
 		Writer = pd.ExcelWriter(FileName, engine='xlsxwriter') #Create a Pandas Excel writer using XlsxWriter as the engine.
@@ -81,12 +82,12 @@ class Emulation(object):
 if __name__ is '__main__':
 	import time
 
-	Place = 'Mopani'
-	Code = '0930';
+	Place = 'Khayelitsha'
+	Code = '7784';
 	Distribution = 'Normal'
+
 	RESULTS = []	
 	End = 10
-	FileName = "{0}-{1}".format(Place, Distribution)
 
 	Network = None; NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -100,19 +101,21 @@ if __name__ is '__main__':
 			print('\n#{0:5}: Creating Nodes!'.format(i))
 			ServiceProvider = Provider(Id = '00', Address = "" + Place + ", South Africa", Position = [-23.829150, 30.142595,10])
 			Network = Nodes()
-			Network.CreateNodes('./Source/Data/' + Place + '.json', Place, ClusterRadius = 1000, ServiceProvider = ServiceProvider, Results = False)
+			Network.CreateNodes('./Source/Data/' + Place + '.json', Place, ClusterRadius = 1000, ServiceProvider = ServiceProvider, Results = True)
 
 			#MODELS
 			print('\n#{0:5}: Running Models!'.format(i))
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNASSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			Technique = 'Backhauling';
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Backhauling(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			Technique = 'Myopic';
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
 			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
@@ -120,10 +123,16 @@ if __name__ is '__main__':
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			NODES, NETWORK, UNASSIGNED, DATA = Model.Chaining(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-			NODES, NETWORK, UNASSIGNED, DATA = Model.Hoop(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius, ServiceProvider = ServiceProvider)
+			Technique = 'MSGBACK';
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
+			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
+			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
+			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
+
+			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
+			Technique = 'MSLBACK';
+			NODES, NETWORK, UNASSIGNED, DATA = Model.Successive(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
@@ -139,9 +148,8 @@ if __name__ is '__main__':
 			bar.update(i)
 			RESULTS.append([i, Network.Minimum_SNR, Network.Maximum_SNR, Network.Median_ResidualEnergy] + Heads + Interclusters + Unassigned + Empty)
 			del Network;
-			time.sleep(5)
 
-	Emulation.SaveToExcel(RESULTS, FileName = FileName)
+	Emulation.SaveToExcel(RESULTS, FileName = Place, SheetName = Distribution, Distribution=Distribution)
 
 	print('\n\n-----DONE-----')
 

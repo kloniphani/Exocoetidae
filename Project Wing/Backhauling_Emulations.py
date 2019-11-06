@@ -82,7 +82,7 @@ if __name__ is '__main__':
 	Code = '0930';
 	Distribution = 'Normal'
 	RESULTS = []	
-	End = 20
+	End = 10
 	FileName = "{0}-{1}".format(Place, Distribution)
 
 	Network = None; NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;

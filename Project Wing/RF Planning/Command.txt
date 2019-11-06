@@ -1,0 +1,2 @@
+openExample('antenna_phased/PlanningA5GFixedWirelessAccessLinkOverTerrainExample')
+openExample('antenna_phased/SINRMapForA5GUrbanMacroCellTestEnvironmentExample')
