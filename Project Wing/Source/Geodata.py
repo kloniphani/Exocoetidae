@@ -20,8 +20,8 @@ class Geodata(object):
 	def SearchPlaces(self, Places, Next = ''):
 		return self.GMaps.places(query = Places, page_token = Next)
 
-	def PopulateResults(self, Query = None, Type = 'point_of_interest', Next = '', Results = False, Sleep = 5, FileName = None, OutputFile = False):
-		SearchResults = {}
+	def PopulateResults(self, Query = None, Location = "", Type = 'point_of_interest', Next = '', Results = False, Sleep = 5, FileName = None, OutputFile = False):
+		Results = {}
 		while True:
 			try:
 				PlaceResults = self.SearchPlaces(Query, Next = Next)
@@ -30,22 +30,23 @@ class Geodata(object):
 				continue;
 			else:	
 				for Place in PlaceResults['results']:
-					if Place['formatted_address'].find("South Africa") or Place['formatted_address'] == 'South Africa':
+					if (Place['formatted_address'].find("South Africa") or Place['formatted_address'] == 'South Africa'):
 						if Type.lower() in Place['types']:
-							SearchResults[str(Place['name'])] = Place
-							if Results is True: print(Place);
-							if OutputFile is True:
-								self.WriteFile(FileName + ".txt", "{0:3} {1:70} {2:12f} {3:12f} \t{4}\n".format(self.Counter, Place['name'], Place['geometry']['location']['lat'], Place['geometry']['location']['lng'], Place['formatted_address']))
-							self.Counter += 1; 
-				
+							if Location in Place['formatted_address']:
+								print("---{0}".format(Place['formatted_address']))
+								Results[str(Place['name'])] = Place
+								if Results is True: print(Place);
+								if OutputFile is True:
+									self.WriteFile(FileName + ".txt", "{0:3} {1:70} {2:12f} {3:12f} \t{4}\n".format(self.Counter, Place['name'], Place['geometry']['location']['lat'], Place['geometry']['location']['lng'], Place['formatted_address']))
+								self.Counter += 1; 				
 			time.sleep(Sleep)
 
 			if 'next_page_token' in PlaceResults.keys():
 				Next = PlaceResults['next_page_token']
 			else:
 				break;
-		
-		return SearchResults
+
+		return Results
 
 	def SearchPlacesResults(self, Query = None, Type = '', Types = None, Places = None, Next = '', Results = False, Sleep = 1, FileName = None, OutputFile = False):
 		SearchResults = {}
@@ -55,15 +56,23 @@ class Geodata(object):
 					Query = Type + " in " + Place + ", South Africa"
 					print(Query)
 					FileName = "./Source/Data/Study/" + Place
-					SearchResults.update(self.PopulateResults(Query = Query, FileName = FileName, OutputFile = True))
+					SearchResults.update(self.PopulateResults(Query = Query, Location = Place, FileName = FileName, Results = Results, OutputFile = True))
+				
 				if OutputFile is True:
 					with open(FileName + ".json", 'w') as fp:
 						json.dump(SearchResults, fp, indent = 4)
 					fp.close()
+
+				SearchResults.clear()
 				self.Counter = 1;
 		else:
-			SearchResults.update(PopulateResults(Query = Query, FileName = FileName, OutputFile = True))
-	
+			SearchResults.update(PopulateResults(Query = Query, Location = Place, FileName = FileName, Results = Results, OutputFile = True))
+			if OutputFile is True:
+				with open(FileName + ".json", 'w') as fp:
+					json.dump(SearchResults, fp, indent = 4)
+				fp.close()
+		
+
 		return SearchResults
 	
 	def WriteFile(self, FileName, Data):
@@ -103,7 +112,8 @@ if __name__ == '__main__':
 	#Types = ['SAPS'], Places = ["Port Of Entry SAPS, Cape Town, Western Cape"]
 
 	Type = ['School', 'College', 'Academy', 'University']
-	Place = ['Mopani District Municipality', 'Vhembe District Municipality', 'Waterberg District Municipality', 'Chris Hani District Municipality', 'Tzaneen', 'Lulekani', 'Zeerust', 'Duduza', 'Hlankomo', 'Mandileni', 'Gon\'on\'o', 'Soweto', 'Khayelitsha']
+	#Place = ['Mopani District Municipality', 'Vhembe District Municipality', 'Waterberg District Municipality', 'Chris Hani District Municipality', 'Tzaneen', 'Lulekani', 'Zeerust', 'Duduza', 'Hlankomo', 'Mandileni', 'Gonono', 'Soweto', 'Khayelitsha, Cape Town']
+	Place = ['Lulekani', 'Zeerust', 'Duduza', 'Hlankomo', 'Mandileni', 'Gonono', 'Soweto', 'Khayelitsha']
 	#SearchQuery = "" + Type[0] + " in " + Place[4] + " , South Africa"
 	#G.WriteGeodata(FileName = "./Source/Data/" + Type[0] + " - " + Place[4] + ".txt", 
 	#				Query = SearchQuery,

@@ -1,0 +1,31 @@
+  1 Duduza Primary School                                                    -26.370216    28.410507 	Sobende St, Duduza, Brakpan, 1496, South Africa
+  2 Sizwesethu Primary School                                                -26.372311    28.410294 	758 Sibeko St, Duduza, Nigel, 1494, South Africa
+  3 Edalinceba Primary School                                                -26.369450    28.403790 	1691, Duduza, Nigel, 1494, South Africa
+  4 Nimrod Ndebele Secondary School                                          -26.376574    28.417474 	6970 Flamingo St, Duduza, Nigel, 1494, South Africa
+  5 Iphahamiseng Primary School                                              -26.377569    28.407899 	Lekobe St, Duduza, Brakpan, 1496, South Africa
+  6 Emzimkhulu Primary School                                                -26.367717    28.407958 	442, Duduza, Nigel, 1494, South Africa
+  7 Sibonisiwe Primary School                                                -26.374537    28.399125 	5051 Mothalova Street, Duduza, Johannesburg, 1496, South Africa
+  8 Dan Radebe Primary School                                                -26.381983    28.415084 	Duduza, Nigel, 1494, South Africa
+  9 Esibonelwesihle High School                                              -26.370547    28.404309 	1689 Jacobs St, Duduza, Nigel, 1496, South Africa
+ 10 MMUSO Primary School                                                     -26.380655    28.406830 	Lopeng St, Duduza, Brakpan, 1496, South Africa
+ 11 Zakheni Primary School                                                   -26.373880    28.406727 	1525 Nzimande St, Duduza, Nigel, 1496, South Africa
+ 12 Mom Sebone Secondary School                                              -26.376815    28.397346 	5346 Kau St, Duduza, Nigel, 1494, South Africa
+ 13 Roseview Primary School                                                  -26.366115    28.404376 	Cnr Ndululas & Limu Street, Duduza, Brakpan, 1496, South Africa
+ 14 Dan Radebe Primary School                                                -26.382058    28.415063 	Kaunda St, Duduza, Brakpan, 1496, South Africa
+ 15 Thakgalang Primary School                                                -26.377020    28.411010 	3131 Pitzi St, Duduza, Nigel, 1494, South Africa
+ 16 Edalinceba Primary School                                                -26.369458    28.403798 	Ngubane St, Duduza, Brakpan, 1496, South Africa
+ 17 M.O.M. Seboni                                                            -26.376260    28.397850 	4889 Seboku St, Duduza, Nigel, 1494, South Africa
+ 18 Inkanyezi Yesizwe Preschool & Creche                                     -26.373471    28.405698 	5514 Nzimande St, Duduza, Nigel, 1496, South Africa
+ 19 Mbusomusha Nursery & Pre - School                                        -26.382723    28.415810 	4706 Kaunda Street, Duduza, Brakpan, 1496, South Africa
+ 20 Asser Maloka Secondary School                                            -26.382489    28.388929 	Honeysuckle St, Duduza, Nigel, 1494, South Africa
+ 21 duduza prototype early childhood development centre                      -26.377779    28.414639 	3001 Pooa St, Duduza, Nigel, 1494, South Africa
+ 22 Mastergucci National Youth Builder Program                               -26.374770    28.413679 	Resource Centre, 97/2 Nala St, Duduza, Nigel, 1494, South Africa
+ 23 SAsol garage                                                             -26.386515    28.400999 	131327 Flamingo St, Bluegum View, Duduza, 1499, South Africa
+ 24 asser maloka                                                             -26.386515    28.400999 	1327 Flamingo St, Bluegum View, Duduza, 1499, South Africa
+ 25 Nimrod Ndebele Secondary School                                          -26.376574    28.417474 	6970 Flamingo St, Duduza, Nigel, 1494, South Africa
+ 26 Duduza Primary School                                                    -26.370216    28.410507 	Sobende St, Duduza, Brakpan, 1496, South Africa
+ 27 Sizwesethu Primary School                                                -26.372311    28.410294 	758 Sibeko St, Duduza, Nigel, 1494, South Africa
+ 28 Edalinceba Primary School                                                -26.369450    28.403790 	1691, Duduza, Nigel, 1494, South Africa
+ 29 Esibonelwesihle High School                                              -26.370547    28.404309 	1689 Jacobs St, Duduza, Nigel, 1496, South Africa
+ 30 Nimrod Ndebele Secondary School                                          -26.376574    28.417474 	6970 Flamingo St, Duduza, Nigel, 1494, South Africa
+ 31 Duduza Primary School                                                    -26.370216    28.410507 	Sobende St, Duduza, Brakpan, 1496, South Africa
