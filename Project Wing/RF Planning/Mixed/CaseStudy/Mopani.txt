@@ -1,0 +1,591 @@
+  1 Mafarana Clinic                                                          -23.960285    30.369359 	Khangela, South Africa
+  2 Benfarm Clinic                                                           -23.916016    31.037002 	Ben-A, Phalaborwa, South Africa
+  3 Evelyn Lekganyane Clinic                                                 -23.945628    29.798391 	Boyne, 0728, South Africa
+  4 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+  5 Lebaka Clinic                                                            -23.462091    30.367432 	Unnamed Road, Mohlabaneng, South Africa
+  6 Belleview Clinic                                                         -23.411908    30.420875 	c0004 Belleview location 1 118,8N national road, molototsi, R81, 0826, South Africa
+  7 Masakona Clinic                                                          -23.273748    30.244264 	Masakona, 0941, South Africa
+  8 Loloka Clinic                                                            -23.550548    30.794884 	Loloka Village, Loloka Main Rd, Loloka, 0826, South Africa
+  9 Maphalle Clinic                                                          -23.468256    30.311719 	R81, Maphalle, 0827, South Africa
+ 10 Makuleke Clinic                                                          -22.865220    30.914540 	Unnamed Rd,, Makuleke, 1007, South Africa
+ 11 Shivulani Clinic                                                         -23.141727    30.701991 	Shivulani, South Africa
+ 12 Sehlale Clinic                                                           -23.998332    29.806263 	Ga-Mmamatsha, 0728, South Africa
+ 13 Kgapane Clinic                                                           -23.640418    30.218125 	0838, Ga-Kgapane-A, Modjadjiskloof, South Africa
+ 14 lulekani clinic                                                          -23.864432    31.077597 	1493 Nghunghunyani Dr, Lulekani-B, Phalaborwa, 1392, South Africa
+ 15 xitlakati clinic                                                         -23.660782    30.881184 	Ka-Xihlakati, South Africa
+ 16 Dan Clinic                                                               -23.904416    30.271725 	Dan, 0878, South Africa
+ 17 murhotso clinic                                                          -24.566430    31.143945 	Okkerneutboom, Acornhoek, South Africa
+ 18 Shikhumba Clinic                                                         -23.500227    30.881050 	8"S 8th St, Johannesburg, 2192, South Africa
+ 19 Tzaneen Travel Clinic.                                                   -23.825513    30.158793 	9 Loop St, Arbor Park, Tzaneen, 0850, South Africa
+ 20 Mogoboya Clinic                                                          -24.013389    30.199257 	Tlhabine, South Africa
+ 21 Makahlule Clinic                                                         -22.892224    30.911466 	Unnamed Road,, Ntlhaveni, 0928, South Africa
+ 22 Thomo Clinic                                                             -23.248447    30.788410 	Thomo, 0826, South Africa
+ 23 Giyani Health Center                                                     -23.312801    30.723250 	0826, Giyani-A, Giyani, South Africa
+ 24 Choice Clinic                                                            -23.839309    30.163576 	Protea St, Arbor Park, Tzaneen, 0850, South Africa
+ 25 Mariveni Clinic                                                          -23.887462    30.348540 	Mariveni, South Africa
+ 26 Basani Clinic                                                            -23.369055    30.519020 	R81, Ka Nwamankena, South Africa
+ 27 Kremetart Clinic                                                         -23.312054    30.692297 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+ 28 medingen clinic                                                          -23.641345    30.242588 	Medingen, Modjadjiskloof, 0838, South Africa
+ 29 Dr Hugo Clinic                                                           -23.676647    30.421359 	Mavele, 0837, South Africa
+ 30 Letsitele Clinic                                                         -23.888649    30.383660 	Letsitele, 0885, South Africa
+ 31 Relela Clinic                                                            -23.674952    30.332161 	Sethong, South Africa
+ 32 Ratanang Clinic                                                          -23.436165    30.634968 	Mpepule, South Africa
+ 33 Mahale Clinic                                                            -23.694783    30.969454 	Mahale-A, South Africa
+ 34 Spec-Savers Phalaborwa                                                   -23.950333    31.135333 	Cnr Palm And Mandela Street, Shop 19 Pick & Pay Centre, Phalaborwa, 1390, South Africa
+ 35 Tzaneen Medi-Clinic                                                      -23.822641    30.152796 	R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa
+ 36 Van Heerden Pharmacy Tzaneen                                             -23.822055    30.157162 	Shop 05 Life Style Centre, Cnr R71 & Voortrekker Road, Tzaneen, 0850, South Africa
+ 37 Mphambo Clinic                                                           -23.084812    30.671079 	Ka-Mphambo, South Africa
+ 38 Duvhuledza clinic                                                        -22.756571    30.787811 	Lukalo, 0987, South Africa
+ 39 Mulala Clinic Sanari                                                     -22.476112    30.877176 	Unnamed Rd,, Mutele, 0959, South Africa
+ 40 Manenzhe Clinic                                                          -22.469550    30.681288 	Mataulu, South Africa
+ 41 Malamulele Clinic                                                        -23.013700    30.701504 	Xitlhelali Villiage, Malamulele, Thohoyandou, 0982, South Africa
+ 42 Mhlava Wellem Clinic                                                     -23.211130    30.860020 	17, Mlhava, Oman
+ 43 Vleifontein Clinic                                                       -23.213499    29.991891 	Ha-Tshikota-A, Louis Trichardt, 0920, South Africa
+ 44 Mbokota Clinic                                                           -23.199992    30.099365 	Bokisi, South Africa
+ 45 Zanghoma-Uhuru Clinic                                                    -23.911438    30.341169 	Zanghoma-Uhuru Clinic, South Africa
+ 46 OLIFANTSHOEK CLINIC                                                      -23.334507    30.274907 	Unnamed Road, Olifantshoek, South Africa
+ 47 Nkurhi Clinic                                                            -23.213869    30.554045 	Rihanyo Street unit # 316 & 318, South Africa
+ 48 Kheyi Clinic                                                             -23.579771    30.873646 	Ka-Kheyi, South Africa
+ 49 Mediclinic Limpopo                                                       -23.908231    29.464552 	53 Plein Street, Polokwane, 0700, South Africa
+ 50 Hoedspruit Training Trust                                                -24.403725    30.789454 	R527, Hoedspruit, 1380, South Africa
+ 51 Lambani Clinic                                                           -22.721387    30.831579 	Ha-Lambani, 0906, South Africa
+ 52 Msengi Clinic                                                            -23.345596    30.370077 	Noblehoek, South Africa
+ 53 Tshino Clinic                                                            -23.115177    30.398480 	Tshino, 0952, South Africa
+ 54 Mukhomi Clinic                                                           -23.071965    30.561483 	Mukhomi, South Africa
+ 55 Zava Clinic                                                              -23.629328    30.737869 	Makhwivirini, South Africa
+ 56 Tshifudi Clinic                                                          -22.814397    30.698453 	Unnamed Road,, Tshifudi, 0979, South Africa
+ 57 Mpheni Clinic                                                            -23.139538    30.071085 	Djunani, Elim, 0960, South Africa
+ 58 Laastehoop Clinic                                                        -23.984568    29.645567 	Laaste Hoop, 0734, South Africa
+ 59 Marie Stopes South Africa                                                -23.902337    29.451384 	95 Landdros Mare St, Polokwane Central, Polokwane, 0700, South Africa
+ 60 Mens Clinic International - Giyani                                       -23.309005    30.686628 	Shop 5 A, The Shoprite Centre, Giyane, Giyani, 0826, South Africa
+ 61 Dzumeri Health Centre                                                    -23.576564    30.708916 	Ka-Dzumeri, KaDzumeri, 0833, South Africa
+ 62 Sekhiming Health Centre                                                  -23.430388    30.560966 	Sekhiming, South Africa
+ 63 Health Centre Clinic                                                     -23.886781    30.293284 	1, 1 Valencia St, Nkowankowa, 0870, South Africa
+ 64 Hanyani Medical Centre Nkwinika TI                                       -23.886778    30.291036 	1212A Nkowankowa Hitsakile street, Nkowankowa Section A, Letaba, 0870, South Africa
+ 65 Grace Mogodeni Health Centre                                             -23.716532    30.436292 	Mosiphane, South Africa
+ 66 Nkonkowa Health Centre                                                   -23.886156    30.293083 	Unnamed Road, Nkowankowa-A, 0870, South Africa
+ 67 Tzaneen Medi-Clinic                                                      -23.822641    30.152796 	R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa
+ 68 Wayeni Health Centre                                                     -23.241312    30.218933 	Wayeni St, Ka-Bungeni, 0943, South Africa
+ 69 Mopani Medical Centre                                                    -23.829845    30.161507 	shop no 8, crossing mall, Tzaneen, South Africa
+ 70 Giyani Health Center                                                     -23.312801    30.723250 	0826, Giyani-A, Giyani, South Africa
+ 71 Mokwakwaila Medical Centre                                               -23.527093    30.424967 	Modjadjiskloof, South Africa
+ 72 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+ 73 S a Federation for Mental Health                                         -23.831880    30.157940 	22 Peace St, Arbor Park, Tzaneen, 0850, South Africa
+ 74 Belleview Clinic                                                         -23.411908    30.420875 	c0004 Belleview location 1 118,8N national road, molototsi, R81, 0826, South Africa
+ 75 GREENWORLD TZANEEN,LIMPOPO                                               -23.827008    30.159371 	CRS MALL,SHOP NO 17, CNR AGATHA, Skirving St, Arbor Park, Tzaneen, 0850, South Africa
+ 76 Mafarana Clinic                                                          -23.960285    30.369359 	Khangela, South Africa
+ 77 Themeli Medical Centre                                                   -23.428993    30.396800 	Modjadjiskloof, South Africa
+ 78 Lulekani Community Health Centre                                         -23.863053    31.082236 	1453b Clinic Street, Lulekani, Phalaborwa, 1392, South Africa
+ 79 Dr MBOMBI                                                                -23.308826    30.687686 	Giyani-D, Giyani, 0826, South Africa
+ 80 Giyani Community Healthcare Centre                                       -23.309557    30.691418 	Giyani Community Healthcare Centre, Section A, Giyani, 0826, South Africa
+ 81 Van Heerden Pharmacy Tzaneen                                             -23.822055    30.157162 	Shop 05 Life Style Centre, Cnr R71 & Voortrekker Road, Tzaneen, 0850, South Africa
+ 82 Letaba Hospital                                                          -23.873548    30.267554 	Tzaneen Lydenburg Road, Letaba, Tzaneen, 0870, South Africa
+ 83 Van Velden Hospital.                                                     -23.835070    30.164320 	Third Avenue, Arbor Park, Tzaneen, 0850, South Africa
+ 84 Kgapane Hospital                                                         -23.649340    30.217102 	Modjadji College Road, Ga-Kgapane, Modjadjiskloof, 0830, South Africa
+ 85 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+ 86 Elim Hospital In South Africa                                            -23.311625    30.692842 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+ 87 Nkhensani Hospital                                                       -23.318164    30.710865 	Main Street, Giyani-D, Giyani, 0826, South Africa
+ 88 Tzaneen Medi-Clinic                                                      -23.822641    30.152796 	R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa
+ 89 Maphutha L Malatjie Hospital - Dietetics Dept                            -23.924939    31.036962 	Namakgale-E, Phalaborwa, 1391, South Africa
+ 90 Sekororo Hospital.                                                       -24.253166    30.447761 	R36, Madeira, 0890, South Africa
+ 91 Maphutha Malatji Hospital Pharmacy                                       -23.926047    31.038652 	Namakgale-D, Phalaborwa, 1391, South Africa
+ 92 Mhlava Wellem Clinic                                                     -23.211130    30.860020 	17, Mlhava, Oman
+ 93 DR C N Phatudi Hospital                                                  -24.026580    30.280849 	Maake, 0871, South Africa
+ 94 Shiluvana Hospital                                                       -24.042689    30.274442 	Unnamed Road, 0873, Shiluvane, South Africa
+ 95 Mopani Medical Centre                                                    -23.829845    30.161507 	shop no 8, crossing mall, Tzaneen, South Africa
+ 96 Consolidated Murchison Mine Hospital                                     -23.950670    30.611550 	77 Antimoon Rd, Gravelotte, 0895, South Africa
+ 97 Sekhiming Health Centre                                                  -23.430388    30.560966 	Sekhiming, South Africa
+ 98 Jj BRITZ ORT/PROT                                                        -23.820541    30.156488 	Aqua Park, Tzaneen, 0850, South Africa
+ 99 Tintswalo Hospital                                                       -24.591936    31.060384 	Acornhoek-A, Acornhoek, 1360, South Africa
+100 Matibidi Hospital                                                        -24.588847    30.769602 	Matibidi, 1274, South Africa
+101 Mankweng hospital                                                        -23.880948    29.725874 	Polokwane Local Municipality, South Africa
+102 Mankweng Hospital                                                        -23.880680    29.725910 	Mankweng-D, 0727, South Africa
+103 Malamulele Hospital                                                      -22.996367    30.697213 	Malamulela Street, Malamulele-A, Malamuela, 0982, South Africa
+104 Elim District Hospital                                                   -23.153376    30.056596 	Mpheni, Elim, 0960, South Africa
+105 Bungeni Health Centre                                                    -23.202387    30.197912 	Ka-Bungeni, South Africa
+106 Mecklenburg Hospital                                                     -24.398604    30.080093 	Moroke Village, Burgersfort, Limpopo, South Africa, South Africa
+107 Netcare Hospital Polokwane                                               -23.902021    29.493431 	Grobler St & Eland Ave, Savannah, Polokwane, 0699, South Africa
+108 Tshilidzini Hospital                                                     -22.995015    30.414615 	Phundamaria Main Road, Shayandima, Thohoyandou, 0945, South Africa
+109 Mediclinic                                                               -22.995415    30.480405 	Thohoyandou-L, Polokwane, 0950, South Africa
+110 Dilokong Hospital                                                        -24.616226    30.171767 	Driekop, 1129, South Africa
+111 Mapulaneng Hospital                                                      -24.844134    31.055559 	Main Rd, Bushbuckridge, 1280, South Africa
+112 Siloam Hospital                                                          -22.901600    30.193245 	Siloam, 0993, South Africa
+113 Mediclinic                                                               -23.904378    29.464594 	48a Jorissen St, Polokwane Central, Polokwane, 0700, South Africa
+114 Mutale Health Center                                                     -22.736251    30.521393 	0956, South Africa
+115 Botlokwa Hospital                                                        -23.492489    29.742791 	Mmatseke, 0812, South Africa
+116 Tzaneen Medi-Clinic                                                      -23.822641    30.152796 	R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa
+117 Mopani Medical Centre                                                    -23.829845    30.161507 	shop no 8, crossing mall, Tzaneen, South Africa
+118 Hanyani Medical Centre Nkwinika TI                                       -23.886778    30.291036 	1212A Nkowankowa Hitsakile street, Nkowankowa Section A, Letaba, 0870, South Africa
+119 Mokwakwaila Medical Centre                                               -23.527093    30.424967 	Modjadjiskloof, South Africa
+120 Letaba Hospital                                                          -23.873548    30.267554 	Tzaneen Lydenburg Road, Letaba, Tzaneen, 0870, South Africa
+121 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+122 Jj BRITZ ORT/PROT                                                        -23.820541    30.156488 	Aqua Park, Tzaneen, 0850, South Africa
+123 Cheapside medical centre                                                 -23.000528    30.691041 	478 0982, Malamulele Rd, Giyani, South Africa
+124 Safari-Med Medical Practice                                              -24.350366    30.957810 	Hoedspruit, 1380, South Africa
+125 Themeli Medical Centre                                                   -23.428993    30.396800 	Modjadjiskloof, South Africa
+126 Peacemed Medical Centre                                                  -23.830550    30.159100 	34 Peace St, Arbor Park, Tzaneen, 0850, South Africa
+127 Nkhensani Hospital                                                       -23.318164    30.710865 	Main Street, Giyani-D, Giyani, 0826, South Africa
+128 DR C N Phatudi Hospital                                                  -24.026580    30.280849 	Maake, 0871, South Africa
+129 Dr MBOMBI                                                                -23.308826    30.687686 	Giyani-D, Giyani, 0826, South Africa
+130 Kgapane Hospital                                                         -23.649340    30.217102 	Modjadji College Road, Ga-Kgapane, Modjadjiskloof, 0830, South Africa
+131 Maphutha Malatji Hospital Pharmacy                                       -23.926047    31.038652 	Namakgale-D, Phalaborwa, 1391, South Africa
+132 Spec-Savers Phalaborwa                                                   -23.950333    31.135333 	Cnr Palm And Mandela Street, Shop 19 Pick & Pay Centre, Phalaborwa, 1390, South Africa
+133 Giyani Community Healthcare Centre                                       -23.309557    30.691418 	Giyani Community Healthcare Centre, Section A, Giyani, 0826, South Africa
+134 Tzaneen Police Station                                                   -23.828211    30.162108 	Tzaneen, Limpopo, South Africa, South Africa
+135 SAPS                                                                     -23.412378    30.150437 	Senwamokgope-A, Senwamokgope, 0815, South Africa
+136 Maake Police Station (SAPS Lenyenye)                                     -23.973332    30.270563 	2123 Police Station Street, Maake, Lenyenye-A, 0857, South Africa
+137 South African Police Service                                             -23.643680    30.221770 	Post Office Street, Ga-Kgapane, Modjadjiskloof, 0838, South Africa
+138 South African Police Service                                             -24.597074    31.048501 	1 Main Road, Greenvalley, Acornhoek, 1360, South Africa
+139 South African Police Service                                             -22.727413    30.614237 	Tshilamba, Mutale, 0956, South Africa
+140 Hoedspruit Police Station                                                -24.353542    30.951279 	Corner of and, Moose Street, R527, Hoedspruit, 1380, South Africa
+141 SAPS - Mutale                                                            -22.735249    30.523137 	0956, South Africa
+142 Malamulele SAPS                                                          -23.004497    30.686515 	Malamulele Hospital Road, Malamulele, 0982, South Africa
+143 Mankweng Police Station                                                  -23.884924    29.726805 	Campus Road, Mankweng-A, Mankweng, 0727, South Africa
+144 Vuwani Police Station                                                    -23.129688    30.420978 	Vuwani, 0952, South Africa
+145 South African Police Services                                            -24.679114    30.330080 	7 Justisie St, Burgersfort, 1150, South Africa
+146 Tshaulu Police Station                                                   -22.803343    30.747771 	Tshaulu, 0987, South Africa
+147 SAPS Supply Chain Management                                             -23.900403    29.451789 	105 Excelsior St, Polokwane Central, Polokwane, 0600, South Africa
+148 South African Police Service                                             -23.913070    29.454763 	38 Schoeman St, Polokwane Central, Polokwane, 0700, South Africa
+149 SAPS                                                                     -23.097068    29.741658 	Ravele Village, Ha-Ravele, Tshilwavhusiku, 0938, South Africa
+150 SAPS Seshego                                                             -23.853931    29.382839 	Nelson Mandela Dr, Seshego, Polokwane, 0699, South Africa
+151 Greater Tzaneen Municipality                                             -23.829460    30.158498 	1 Agatha St, Arbor Park, Tzaneen, 0850, South Africa
+152 SAPS                                                                     -23.644210    30.222608 	Post Office st, Ga-Kgapane-A, Bolobedu, 0838, South Africa
+153 Maake Police Station (SAPS Lenyenye)                                     -23.973332    30.270563 	2123 Police Station Street, Maake, Lenyenye-A, 0857, South Africa
+154 Tzaneen Police Station                                                   -23.828211    30.162108 	Tzaneen, Limpopo, South Africa, South Africa
+155 SAPS                                                                     -23.412378    30.150437 	Senwamokgope-A, Senwamokgope, 0815, South Africa
+156 Giyani SAPS                                                              -23.313270    30.715959 	Giyani-D, Giyani, 0826, South Africa
+157 South African Police Service                                             -24.597074    31.048501 	1 Main Road, Greenvalley, Acornhoek, 1360, South Africa
+158 Malamulele SAPS                                                          -23.004497    30.686515 	Malamulele Hospital Road, Malamulele, 0982, South Africa
+159 Saps - Haenertsburg                                                      -23.940496    29.939676 	Haenertsburg, 0730, South Africa
+160 Saps - Namakgale                                                         -23.932728    31.027902 	Namakgale-C, Phalaborwa, 1391, South Africa
+161 SAPS - Mutale                                                            -22.735249    30.523137 	0956, South Africa
+162 saps levubu                                                              -23.080099    30.255257 	Saps Levubu,, 0929, South Africa
+163 Saps - Phalaborwa                                                        -23.952277    31.136705 	59 Sealene Rd, Phalaborwa, 1390, South Africa
+164 Magisterial Court - Greater Tzaneen Rural                                -23.853200    30.296060 	South Africa
+165 Magisterial Court - Greater Giyani Rural                                 -23.419040    30.679480 	South Africa
+166 Lenyenye Magistrate Court (Previously Naphuno)                           -23.973345    30.270255 	Lenyenye-A, 0857, South Africa
+167 Magistrate Court - Giyani                                                -23.312199    30.694588 	Giyani-BA, Giyani, 0826, South Africa
+168 Magistrate Court Tzaneen                                                 -23.827256    30.161076 	Arbor Park, Tzaneen, 0850, South Africa
+169 Magisterial Court - Tzaneen                                              -23.860250    30.157220 	Tzaneen, 0850, South Africa
+170 Magisterial Court - Phalaborwa                                           -23.949930    31.138070 	Phalaborwa, 1390, South Africa
+171 Magisterial Court - Duiwelskloof                                         -23.658500    30.191420 	Modjadjiskloof, 0835, South Africa
+172 Nkowankowa Court                                                         -23.887622    30.283668 	Nkowankowa-A, 0870, South Africa
+173 Magisterial Court - NP343 Rural                                          -22.972660    30.786100 	South Africa
+174 Limpopo Division of the High Court                                       -23.913146    29.457639 	36 Biccard St, Polokwane Central, Polokwane, 0700, South Africa
+175 Mankweng Magistrate Office                                               -23.881819    29.701895 	Mankweng-C, Mankweng, 0727, South Africa
+176 Magisterial Court - Bushbuckridge Rural                                  -24.745960    31.199920 	South Africa
+177 Magisterial Court - Mutale Rural                                         -22.596300    30.641410 	South Africa
+178 Moshate Mothapo                                                          -23.958176    29.702439 	Tholongwe, 0734, South Africa
+179 Correctional Services                                                    -23.826459    30.142607 	Annecke St, Aqua Park, Tzaneen, 0850, South Africa
+180 Correctional Services                                                    -23.036583    29.905204 	106 Anderson St, Louis Trichardt, 0920, South Africa
+181 Polokwane Correctional Services Clinic                                   -23.921438    29.454944 	Landdros Mare Street, Polokwane, 0699, South Africa
+182 Correctional Services                                                    -23.909181    29.452595 	Landdros Mare St, Polokwane Central, Polokwane, 0699, South Africa
+183 Matatshe Prison                                                          -22.894417    30.531202 	matatshe prison near Thohoyandou, South Africa
+184 Correctional Services                                                    -22.971794    30.442806 	South Africa
+185 Tzaneen Traffic Department                                               -23.858168    30.165699 	3 Silica St, Tzaneen, 0850, South Africa
+186 Giyani Traffic Testing Station                                           -23.316660    30.715105 	C, 0826, Giyani, South Africa
+187 Greater Tzaneen Municipality                                             -23.829460    30.158498 	1 Agatha St, Arbor Park, Tzaneen, 0850, South Africa
+188 Hoedspruit Police Station                                                -24.353542    30.951279 	Corner of and, Moose Street, R527, Hoedspruit, 1380, South Africa
+189 Department of Home Affairs Office - Phalaborwa                           -23.954772    31.129106 	23 Potgieter St, Phalaborwa, 1389, South Africa
+190 Mopani District Office                                                   -23.313093    30.710254 	Giyani Rd, Giyani-D, Giyani, 0826, South Africa
+191 Malamulele Traffic Department                                            -23.003459    30.687045 	Malamulele-A, Malamulele, 0982, South Africa
+192 Vuwani Department of Traffic Testing Station                             -23.130253    30.418308 	Vuwani, 0952, South Africa
+193 Thohoyandou Traffic Department                                           -22.971102    30.495256 	Tshilungoma, Thohoyandou, 0950, South Africa
+194 Sibasa Traffic Department                                                -22.944030    30.472410 	Thohoyandou-Q, Thohoyandou, 0950, South Africa
+195 Department of Home Affairs Office - Tzaneen                              -23.825777    30.161787 	2B Tzaneng Mall, Danie Joubert St, Sentrapark, Tzaneen, 0850, South Africa
+196 Mankoeng High School                                                     -23.877820    29.820580 	South Africa
+197 Marobathotha High School                                                 -23.933335    29.795398 	South Africa
+198 Makgoka High School                                                      -23.947150    29.790800 	South Africa
+199 Doasho High School                                                       -23.954020    29.804050 	South Africa
+200 Mokwatedi Secondary School                                               -23.974470    29.795850 	South Africa
+201 Makgopele High School                                                    -23.429056    30.560413 	Sekhiming, South Africa
+202 Phangasasa Senior Secondary School                                       -23.987000    30.333570 	South Africa
+203 Risinga High School                                                      -23.305627    30.719222 	Giyani-D, Giyani, 0826, South Africa
+204 Daktari Bush School & Wildlife Orphanage                                 -24.218279    30.670716 	Harmony 81, Hoedspruit, 1380, South Africa
+205 Southern Cross Schools.                                                  -24.360228    30.947526 	Hoedspruit, 1380, South Africa
+206 Craighead Primary School                                                 -23.974220    30.164620 	South Africa
+207 Ramotshinyadi Secondary School                                           -23.621708    30.594981 	Merekome, South Africa
+208 Educare Primary School                                                   -23.872830    29.995000 	South Africa
+209 Mohlaba Primary School                                                   -23.933726    30.283132 	South Africa
+210 Nwamavimbi Secondary School                                              -23.379809    30.356774 	South Africa
+211 Nwajaheni Primary School                                                 -23.749370    30.412320 	South Africa
+212 Mhangweni Primary School                                                 -23.973170    30.319000 	South Africa
+213 Khutjwana Primary School                                                 -23.925600    30.224080 	South Africa
+214 Haenertburg Primary School                                               -23.946590    29.944290 	South Africa
+215 Mushiyani Primary School                                                 -23.616150    30.903770 	South Africa
+216 Matiyani Primary School                                                  -22.743450    30.978750 	South Africa
+217 Kolobetona Secondary School                                              -23.423400    30.208020 	South Africa
+218 Taulome Primary School                                                   -23.519330    30.565180 	South Africa
+219 Nakampe Primary School                                                   -23.391500    30.460030 	South Africa
+220 Malubana Primary School                                                  -23.725000    30.491330 	South Africa
+221 Vallambrosa Primary School                                               -23.612000    30.583920 	South Africa
+222 Makahlule Primary School                                                 -22.890900    30.900120 	South Africa
+223 Yingisani Primary School                                                 -23.872139    30.260485 	South Africa
+224 Tanani Primary School                                                    -23.307180    30.770380 	South Africa
+225 Senopelwa Primary School                                                 -23.560870    30.366680 	South Africa
+226 Mabunda Primary School                                                   -23.561570    31.045020 	South Africa
+227 Mamokgadi Primary School                                                 -23.425830    30.454470 	South Africa
+228 Platland Primary School                                                  -23.610020    30.188430 	South Africa
+229 Mlunghisi Primary School                                                 -23.943830    30.416350 	South Africa
+230 Phatima Primary School                                                   -23.116420    30.898680 	South Africa
+231 Kingfisher Private School                                                -23.951738    31.142450 	Corner of Tamboti & Rooibos street, Phalaborwa, 1390, South Africa
+232 Gumbu Junior Secondary School                                            -22.359670    30.793530 	South Africa
+233 Kheodi High School                                                       -23.427350    30.398330 	South Africa
+234 Northampton Primary School                                               -23.466320    30.528120 	South Africa
+235 Bolotswi Secondary School                                                -23.491980    30.471970 	South Africa
+236 Nyumbani High School                                                     -23.401730    30.693520 	South Africa
+237 Mokoto High School                                                       -23.516870    30.614170 	South Africa
+238 Mtititi Secondary School                                                 -23.105830    30.885830 	South Africa
+239 Nkomo Primary School                                                     -23.403720    30.783930 	Nkomo B, Nkomo, 0840, South Africa
+240 Jack Mashamba Primary School                                             -23.946820    30.397120 	South Africa
+241 Seagotle Secondary School                                                -24.224050    30.418500 	South Africa
+242 Leseding Primary School                                                  -23.906020    30.681890 	South Africa
+243 Hasani Mninginisi Secondary School                                       -23.159995    30.801001 	South Africa
+244 Gwambeni High School                                                     -23.653500    30.485480 	South Africa
+245 Tshikundamalema Secondary School                                         -22.416730    30.794570 	South Africa
+246 Sefolwe Primary School                                                   -23.650020    30.310570 	South Africa
+247 Serurubele Secondary School                                              -23.948650    30.220000 	South Africa
+248 Rama Secondary School                                                    -23.494380    30.521300 	South Africa
+249 Mamosala Senior Secondary School                                         -24.108670    30.473500 	South Africa
+250 Ramaolwane Secondary School                                              -23.495980    30.406650 	South Africa
+251 Tsaneng Combine Junior Secondary School                                  -23.742500    30.117350 	South Africa
+252 Lephepane Primary School                                                 -23.986330    30.183330 	Magoboya, South Africa
+253 Hetiseka Junior Secondary School                                         -23.708500    30.433670 	South Africa
+254 Manghezi Secondary School                                                -23.521370    30.962820 	South Africa
+255 Makgoka Secondary School                                                 -23.922643    29.794691 	McLean Farm - R71, Boyne, 0728, South Africa
+256 Mopani SE TVET College - Phalaborwa Campus                               -23.942097    31.141445 	Cnr Combretum & Haarlem Street, Combretum St, Phalaborwa, 1390, South Africa
+257 Sir Val Duncan Technical College nomthandazo                             -23.937368    31.028189 	Ithambo Drive, Namakgale-D, Phalaborwa, 1391, South Africa
+258 Letaba FET College Giyani Campus                                         -23.316256    30.715353 	Industrial Road, Giyani-A, Giyani, 0826, South Africa
+259 Stanford Business College                                                -23.822760    30.158120 	Danie Joubert St, Sentrapark, Tzaneen, 0850, South Africa
+260 Boston City Campus & Business College - Tzaneen                          -23.833123    30.162326 	Veritas Building, 34 Skirving St, Tzaneen, 0850, South Africa
+261 Giyani Education Multipurpose Centre(GEMPC)                              -23.297808    30.725730 	South Africa
+262 Leading Edge Flight School                                               -24.352078    30.950216 	53 Koedoe St, Hoedspruit, 1380, South Africa
+263 Phalaborwa College                                                       -23.941822    31.136108 	Cnr Harlem & Combretum Ave , Next to Delstern Butchery, Phalaborwa, 1390, South Africa
+264 Giyani Campus Of Nursing College                                         -23.307248    30.706253 	Giyani-D, Giyani, 0826, South Africa
+265 Mopani SE TVET College - Corporate Office                                -23.941901    31.140431 	5 Combretum St, Phalaborwa, 1390, South Africa
+266 Stanford Lake College                                                    -23.910281    29.973278 	A22, off the, R71, Haenertsburg, 0730, South Africa
+267 Ehlanzeni TVET College - Mapulaneng Campus                               -24.600599    31.072310 	Acornhoek, South Africa
+268 Meridian College Phalaborwa C C                                          -23.952983    31.138841 	South Africa
+269 Southern Cross Schools.                                                  -24.360228    30.947526 	Hoedspruit, 1380, South Africa
+270 Hoedspruit Independent College                                           -24.575526    31.038253 	Bushbuckridge, South Africa
+271 Mashamba Campus, Vhembe TVET College                                     -23.239914    30.124431 	Ha-Mashamba, 0942, South Africa
+272 Strausburg College                                                       -23.945048    31.082117 	R40, Phalaborwa, 1390, South Africa
+273 Campfire Academy (Learn ~ Understand ~ Inspire)                          -24.218505    30.886523 	Kruger National Park, Hoedspruit, South Africa
+274 Southern African Wildlife College                                        -24.541753    31.334594 	Springvalley Farm 200KU, Kempiana Nature Reserve, Orpen Road, 1380, South Africa
+275 eco ranger academy                                                       -24.463246    31.112711 	Guernsey Rd, South Africa
+276 Shingwedzi Campus, Vhembe TVET College                                   -23.013031    30.715750 	Malamulele, 0982, South Africa
+277 Flying High FET College                                                  -23.526364    30.422367 	Senakwe, South Africa
+278 Lowveld Academy                                                          -24.348724    30.956522 	Hoedspruit Wildlife Estate, R527, Hoedspruit, 1380, South Africa
+279 Selati Hospitality Training Academy                                      -23.944762    31.129568 	Potgieter St, Phalaborwa, 1390, South Africa
+280 Nazarene Christian Academy                                               -23.826909    30.195271 	Tzaneen, South Africa
+281 BUSHVELD BETHEL CHRISTIAN ACADEMY                                        -23.937145    31.139678 	64 Grosvenor St, Phalaborwa, 1390, South Africa
+282 Eco Ranger Academy                                                       -24.515091    31.057007 	Guernsey Rd, South Africa
+283 Harvesters Theological Seminary                                          -23.014954    30.703339 	Xitlhelani, Site 783, South Africa
+284 Avuxeni Computer Academy                                                 -23.977759    30.288284 	Ramalema, South Africa
+285 Warriors                                                                 -23.867331    30.007847 	46A Franschoek, Magoebaskloof, 0850, South Africa
+286 Madzivhandila College of Agriculture                                     -22.987020    30.550850 	Ha-Budeli, Thohoyandou, 0950, South Africa
+287 Mopani South East Fet                                                    -23.943065    31.141784 	Cnr Haarlem & Combretum Avenue, Phalaborwa, 1389, South Africa
+288 Tshisimani Campus, Vhembe TVET College                                   -23.055352    30.308840 	Unnamed Road,, Tshakhuma, 0951, South Africa
+289 Capricorn College for FET                                                -23.917524    29.453796 	16 Market St, Polokwane Central, Polokwane, 0699, South Africa
+290 Boston City Campus and Business College                                  -23.920260    29.455300 	Floor 3 Standard Bank Bldg, Landros Mare St, Polokwane, 0699, South Africa
+291 Calvin College                                                           -24.666179    30.310846 	Dirk Winterbach St, Burgersfort, 1150, South Africa
+292 Southern Cross Schools.                                                  -24.360228    30.947526 	Hoedspruit, 1380, South Africa
+293 Refentse Primary School                                                  -23.937732    31.020070 	461 Ronnie Kasrils St, Namakgale-E, Phalaborwa, 1391, South Africa
+294 Damelin - Tzaneen                                                        -23.833310    30.162400 	34 Skirving St, Arbor Park, Tzaneen, 0850, South Africa
+295 Makhosani Primary School                                                 -23.264511    30.384772 	Khomanani, 0933, South Africa
+296 Modjadi Teachers Training College                                        -23.651670    30.221940 	Ga-Kgapane, Modjadjiskloof, 0838, South Africa
+297 Stanford Business College                                                -23.822760    30.158120 	Danie Joubert St, Sentrapark, Tzaneen, 0850, South Africa
+298 Mopani SE TVET College - Phalaborwa Campus                               -23.942097    31.141445 	Cnr Combretum & Haarlem Street, Combretum St, Phalaborwa, 1390, South Africa
+299 University of Limpopo                                                    -23.888819    29.738550 	Polokwane, 0727, South Africa
+300 Gate One                                                                 -23.880781    29.738536 	South Africa
+301 Gate Two - Turfloop Campus                                               -23.886946    29.734352 	Gundo St, Mankweng, 0727, South Africa
+302 Gate Three                                                               -23.892538    29.733698 	South Africa
+303 University of Limpopo Turfloop Biochem Microbio and Biotech              -23.871878    29.733917 	1st Floor Room 1003 Life Sciences Building, University Drive, Sovenga, Polokwane, 0727, South Africa
+304 University of Limpopo - Turfloop Campus                                  -23.882620    29.717160 	University Rd, Mankweng-B, Mankweng, 0727, South Africa
+305 University of Limpopo - Facility of Science & Agriculture                -23.884812    29.713825 	Room Q 2032 Turfloop Campus, University Street, Mankweng, Polokwane, 0727, South Africa
+306 University of Venda                                                      -22.976135    30.446480 	University Rd, Thohoyandou, 0950, South Africa
+307 Letaba FET College Giyani Campus                                         -23.316256    30.715353 	Industrial Road, Giyani-A, Giyani, 0826, South Africa
+308 university of Limpopo                                                    -23.885523    29.726678 	A, Mankweng, South Africa
+309 Giyani 1 Boxer Superstores                                               -23.310709    30.695119 	Masingita Road, Giyani, 0826, South Africa
+310 Checkers                                                                 -23.948760    31.133468 	Lantana Street, Phalaborwa, 1390, South Africa
+311 Pick n Pay Hoedspruit                                                    -24.351485    30.958541 	R 40 (Inside Hoedspruit Wildlife Estate Shopping Centre), Hoedspruit, 1380, South Africa
+312 Tzaneen Boxer Superstores                                                -23.828083    30.163828 	9 Stasie Rd, Tzaneen, 0850, South Africa
+313 Clicks Pharmacy - Giyani                                                 -23.306148    30.687281 	Shop 34 Malalumela Road Masingita Plaza, Malalumela Road Giyani, Giyani, Polokwane, 0826, South Africa
+314 Mopani Superspar                                                         -23.311550    30.693838 	Main Street, Giyani-D, Giyani, 0826, South Africa
+315 Pick n Pay Giyani                                                        -23.310229    30.693273 	Giyani, (Inside Giyani Plaza Shopping centre), Giyani, 0826, South Africa
+316 Giyani Build it                                                          -23.305678    30.691652 	Giyani-BA, Giyani, 0826, South Africa
+317 Shoprite Giyani                                                          -23.314000    30.726000 	Shop 54, Masingita Plaza, Malamulele and Thohoyandou Road, Giyani, 0826, South Africa
+318 Game Tzaneen                                                             -23.827128    30.163735 	Danie Joubert St, Shop 26, Tzaneng Mall, Tzaneen, 0850, South Africa
+319 Pick n Pay Phalaborwa                                                    -23.950523    31.135381 	President Nelson Mandela Rd & Palm St, Phalaborwa, 1390, South Africa
+320 Game Phalaborwa                                                          -23.949075    31.132234 	Sealene Rd, Shop 13, Phalaborwa Checkers Centre, Phalaborwa, 1390, South Africa
+321 Tops @ Spar - Mopani                                                     -23.311914    30.693779 	Giyani Main Rd, Giyani-D, Giyani, 0826, South Africa
+322 Pick n Pay Tzaneen                                                       -23.826013    30.162840 	Cnr Agatha & Claude Wheatley St, Tzaneng Mall, Tzaneen, 0805, South Africa
+323 Shoprite                                                                 -23.950133    31.133580 	Shoprite Centre, C/O Seline And Palm Ave, Phalaborwa, 1389, South Africa
+324 TZANEEN CASH & CARRY                                                     -23.828297    30.165002 	100d Station &, Claude Wheatley St, Tzaneen, 0850, South Africa
+325 P M E Supplies CC                                                        -23.950612    31.132432 	Nyala Ave, Phalaborwa, 1389, South Africa
+326 Checkers LiquorShop Tzaneen Lifestyle                                    -23.822519    30.156946 	Cnr Wolkberg Dr (R71) & Voortrekker Rd, Shop 21, Tzaneen Lifestyle Centre, Tzaneen, 0850, South Africa
+327 Spar - Duivelskloof                                                      -23.695560    30.140968 	2 R36, Modjadjiskloof, 0835, South Africa
+328 Boulevard Cycles                                                         -23.830134    30.160736 	Shop 8 Crossing, Skirving St, Tzaneen, 0850, South Africa
+329 P&L Hardware Modjadji.                                                   -23.656497    30.231559 	Ga-Kgapane, Modjadjiskloof, 0838, South Africa
+330 Tzaneen Salvage Store                                                    -23.836466    30.175874 	Tzaneen, 0850, South Africa
+331 Godding & Godding                                                        -24.467599    30.879435 	24 Degrees South Estate,, R531, South Africa
+332 Camelia Florists                                                         -23.818890    30.152750 	23b Maritz St, Aqua Park, Tzaneen, 0850, South Africa
+333 Lowveld Camp and Gas 4x4 Outdoor Shop                                    -24.350820    30.957520 	Shop No. 4, Pick n Pay Centre, Hoedspruit Wildlife Estate, Hoedspruit, Limpopo Province, 1380, South Africa
+334 Forms Media Independent Africa Pty Limited                               -23.830459    30.171322 	Old Industria, Duiker Ave, Tzaneen, 0850, South Africa
+335 Khaki Fever Work Wear                                                    -24.350330    30.957299 	Office 4/5 Rockfig Lifestyle Ctr Wildlife Est, Hoedspruit, 1380, South Africa
+336 J & N Bike Shop                                                          -23.945824    31.134952 	5 Kiaat St, Phalaborwa, 1390, South Africa
+337 KAROSS Studio & Café                                                     -23.798873    30.436157 	Giyani Rd, R529, Middelplaas, Letsitele, 0885, South Africa
+338 The Vape Guy                                                             -23.834780    30.153040 	2 Boundary St, Arbor Park, Tzaneen, 0850, South Africa
+339 Nappy & Baby King                                                        -23.826245    30.160235 	60 Agatha St, Arbor Park, Tzaneen, 0850, South Africa
+340 African Jacana                                                           -23.832046    30.173326 	2 Nyala St, Tzaneen, 0850, South Africa
+341 Morkels                                                                  -23.948233    31.133232 	President Nelson Mandela Rd, Phalaborwa, 1390, South Africa
+342 Buco Giyani                                                              -23.305351    30.690801 	Giyani-BA, Giyani, 0826, South Africa
+343 The Pet Bar                                                              -24.352302    30.959472 	Shop Nr. 4, 392 Huildboerboom Road, Wildlife Estate, 1380, Province, Hoedspruit, South Africa
+344 Buco Hoedspruit                                                          -24.350161    30.949444 	53b, Koedoe St, Hoedspruit, 1380, South Africa
+345 The Olive Tree                                                           -23.843144    30.145861 	Premier Park, Tzaneen, South Africa
+346 Truworths                                                                -23.947764    31.136143 	24 Palm St, Phalaborwa, 1389, South Africa
+347 Morkels                                                                  -23.825284    30.161140 	7 Morgan St, Arbor Park, Tzaneen, 0850, South Africa
+348 Eskom Tzaneen                                                            -23.828446    30.160170 	17 Skirving St, Arbor Park, Tzaneen, 0850, South Africa
+349 Shoprite Maake                                                           -23.977537    30.288849 	Shop No 10, Maake Plaza, Cnr Ramalema and Tzaneen Lydenburg Road, Lenyenye, Tzaneen, 0857, South Africa
+350 OK Sugar Hill Mini Market - Tzaneen                                      -23.827160    30.148790 	23 Adshade St, Premier Park, Tzaneen, 0850, South Africa
+351 Usave Shoprite                                                           -23.696192    30.141210 	Modjadjiskloof, 0835, South Africa
+352 Ackermans                                                                -23.826369    30.163466 	Tzaneng Mall Tzaneen 0850, South Africa
+353 Ackermans                                                                -23.305742    30.687496 	Shop 3 Masingita Ctr, Giyani, 0826, South Africa
+354 Ackermans                                                                -23.822760    30.158120 	Shop 18-19 Tzaneng Mall, Danie Joubert St, Sentrapark, Tzaneen, 0850, South Africa
+355 Giyani Top Tiles                                                         -23.311625    30.692842 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+356 Phalaborwa Uitrusters                                                    -23.949481    31.136405 	36 Wilger St, Phalaborwa, 1390, South Africa
+357 Heqlen Mica                                                              -23.946658    31.130165 	3 Sealen Road, Phalaborwa, 1390, South Africa
+358 Trappers Tzaneen                                                         -23.825892    30.162042 	Danie Joubert St, Shop 10 & 11, Tzaneng Mall, Tzaneen, 0850, South Africa
+359 MTN Store - Tzaneen Crossing 16                                          -23.829490    30.161360 	Ground Floor Tzaneen Pl, 54 Peace St, Limpopo, Tzaneen, 0850, South Africa
+360 PEP Store                                                                -23.307861    30.689963 	Giyani-BA, Giyani, 0826, South Africa
+361 Spar                                                                     -23.946320    31.152425 	Koper Rd, Phalaborwa, 1390, South Africa
+362 Mhangela Tea Garden and Animal Touch Farm                                -23.818925    30.304342 	Farm Tarentaalrand 524, Tarentaalrand, 0859, South Africa
+363 Van Heerden Pharmacy Tzaneen                                             -23.822055    30.157162 	Shop 05 Life Style Centre, Cnr R71 & Voortrekker Road, Tzaneen, 0850, South Africa
+364 The Crazy Store                                                          -24.351363    30.957421 	CNR R40 Main Rd&Rotsvy St, Shop 19B, Hoedspruit S/Centre, Hoedspruit, Hoedspruit, 1380, South Africa
+365 The Crazy Store                                                          -23.823175    30.156340 	CNR Agatha Str.&R36, Shop 18, Tzaneen Centre, Tzaneen, Tzaneen, 0850, South Africa
+366 MTN Store - Tzaneen Lifestyle Center                                     -23.837933    30.153529 	cnr Agatha & R36 intersection, Tzaneen, Limpopo, Tzaneen, 0920, South Africa
+367 Checkers - Tzaneen Lifestyle Centre                                      -23.822350    30.156564 	Danie Joubert St, Aqua Park, Tzaneen, 0850, South Africa
+368 PEP Store                                                                -23.828478    30.162481 	4 Danie Joubert St, Tzaneen, 0850, South Africa
+369 Mopani Superspar                                                         -23.311550    30.693838 	Main Street, Giyani-D, Giyani, 0826, South Africa
+370 Tops @ Spar - Mopani                                                     -23.311914    30.693779 	Giyani Main Rd, Giyani-D, Giyani, 0826, South Africa
+371 Spar - Duivelskloof                                                      -23.695560    30.140968 	2 R36, Modjadjiskloof, 0835, South Africa
+372 Checkers LiquorShop Tzaneen Lifestyle                                    -23.822519    30.156946 	Cnr Wolkberg Dr (R71) & Voortrekker Rd, Shop 21, Tzaneen Lifestyle Centre, Tzaneen, 0850, South Africa
+373 Checkers LiquorShop                                                      -23.949291    31.132791 	Sealene Rd, Phalaborwa, 1389, South Africa
+374 Boulevard Cycles                                                         -23.830134    30.160736 	Shop 8 Crossing, Skirving St, Tzaneen, 0850, South Africa
+375 P&L Hardware Modjadji.                                                   -23.656497    30.231559 	Ga-Kgapane, Modjadjiskloof, 0838, South Africa
+376 Tzaneen Salvage Store                                                    -23.836466    30.175874 	Tzaneen, 0850, South Africa
+377 Godding & Godding                                                        -24.467599    30.879435 	24 Degrees South Estate,, R531, South Africa
+378 Camelia Florists                                                         -23.818890    30.152750 	23b Maritz St, Aqua Park, Tzaneen, 0850, South Africa
+379 Lowveld Camp and Gas 4x4 Outdoor Shop                                    -24.350820    30.957520 	Shop No. 4, Pick n Pay Centre, Hoedspruit Wildlife Estate, Hoedspruit, Limpopo Province, 1380, South Africa
+380 Pick 'N Pay Family Store - Phalaborwa                                    -23.949552    31.135113 	Cnr &, President Nelson Mandela Rd & Palm St, Phalaborwa, 1390, South Africa
+381 J & N Bike Shop                                                          -23.945824    31.134952 	5 Kiaat St, Phalaborwa, 1390, South Africa
+382 Forms Media Independent Africa Pty Limited                               -23.830459    30.171322 	Old Industria, Duiker Ave, Tzaneen, 0850, South Africa
+383 Khaki Fever Work Wear                                                    -24.350330    30.957299 	Office 4/5 Rockfig Lifestyle Ctr Wildlife Est, Hoedspruit, 1380, South Africa
+384 KAROSS Studio & Café                                                     -23.798873    30.436157 	Giyani Rd, R529, Middelplaas, Letsitele, 0885, South Africa
+385 The Vape Guy                                                             -23.834780    30.153040 	2 Boundary St, Arbor Park, Tzaneen, 0850, South Africa
+386 Allesbeste                                                               -23.801985    30.121578 	M2 R71, Tzaneen, 0850, South Africa
+387 Nappy & Baby King                                                        -23.826245    30.160235 	60 Agatha St, Arbor Park, Tzaneen, 0850, South Africa
+388 African Jacana                                                           -23.832046    30.173326 	2 Nyala St, Tzaneen, 0850, South Africa
+389 Giyani 1 Boxer Superstores                                               -23.310709    30.695119 	Masingita Road, Giyani, 0826, South Africa
+390 Pick n Pay Giyani                                                        -23.310229    30.693273 	Giyani, (Inside Giyani Plaza Shopping centre), Giyani, 0826, South Africa
+391 Pick n Pay Hoedspruit                                                    -24.351485    30.958541 	R 40 (Inside Hoedspruit Wildlife Estate Shopping Centre), Hoedspruit, 1380, South Africa
+392 Clicks Pharmacy - Giyani                                                 -23.306148    30.687281 	Shop 34 Malalumela Road Masingita Plaza, Malalumela Road Giyani, Giyani, Polokwane, 0826, South Africa
+393 Shoprite Giyani                                                          -23.314000    30.726000 	Shop 54, Masingita Plaza, Malamulele and Thohoyandou Road, Giyani, 0826, South Africa
+394 Checkers - Tzaneen Lifestyle Centre                                      -23.822350    30.156564 	Danie Joubert St, Aqua Park, Tzaneen, 0850, South Africa
+395 Game Tzaneen                                                             -23.827128    30.163735 	Danie Joubert St, Shop 26, Tzaneng Mall, Tzaneen, 0850, South Africa
+396 Game Phalaborwa                                                          -23.949075    31.132234 	Sealene Rd, Shop 13, Phalaborwa Checkers Centre, Phalaborwa, 1390, South Africa
+397 Tzaneen Boxer Superstores                                                -23.828083    30.163828 	9 Stasie Rd, Tzaneen, 0850, South Africa
+398 TZANEEN CASH & CARRY                                                     -23.828297    30.165002 	100d Station &, Claude Wheatley St, Tzaneen, 0850, South Africa
+399 Shoprite LiquorShop                                                      -23.950606    31.133973 	Cnr Sealane Rd &, Palm St, Phalaborwa, 1389, South Africa
+400 Shoprite Maake                                                           -23.977537    30.288849 	Shop No 10, Maake Plaza, Cnr Ramalema and Tzaneen Lydenburg Road, Lenyenye, Tzaneen, 0857, South Africa
+401 Shoprite Modjadji                                                        -23.647330    30.220330 	Shop 12 Modjadji Plaza, Stand 20, Ga Kgapane 1A Township, Modjadji, 0838, South Africa
+402 Clicks Pharmacy- Tzaneen Centre                                          -23.825600    30.161900 	Tzaneen Centre, C/O Agatha street and V/D Avenue, Tzaneen, 0850, South Africa
+403 Foodzone Haenertsburg                                                    -23.942113    29.940830 	Central, South Africa
+404 Checkers                                                                 -23.948760    31.133468 	Lantana Street, Phalaborwa, 1390, South Africa
+405 The Pet Bar                                                              -24.352302    30.959472 	Shop Nr. 4, 392 Huildboerboom Road, Wildlife Estate, 1380, Province, Hoedspruit, South Africa
+406 Barnetts                                                                 -23.305865    30.687194 	Malamelele Rd, Giyani, 0826, South Africa
+407 Morkels                                                                  -23.948233    31.133232 	President Nelson Mandela Rd, Phalaborwa, 1390, South Africa
+408 Mr Price / MRP                                                           -23.311146    30.695972 	Shop 12 Masingita Mall, Limpopo North, Giyani, 0826, South Africa
+409 Mr Price Home Tzaneen                                                    -23.826576    30.163202 	23, Tzaneng Mall, 26 Danie Joubert St, Tzaneen, 0850, South Africa
+410 Mr Price Home Phalaborwa                                                 -23.950066    31.133000 	Palm Av, Phalaborwa Mall, Phalaborwa, 1390, South Africa
+411 P M E Supplies CC                                                        -23.950612    31.132432 	Nyala Ave, Phalaborwa, 1389, South Africa
+412 The Olive Tree                                                           -23.843144    30.145861 	Premier Park, Tzaneen, South Africa
+413 OK Sugar Hill Mini Market - Tzaneen                                      -23.827160    30.148790 	23 Adshade St, Premier Park, Tzaneen, 0850, South Africa
+414 Buco Giyani                                                              -23.305351    30.690801 	Giyani-BA, Giyani, 0826, South Africa
+415 Vodacom Shop Tzaneen                                                     -23.825603    30.161701 	Tzaneen, Danie Joubert St, Tzaneen, 0850, South Africa
+416 Buco Hoedspruit                                                          -24.350161    30.949444 	53b, Koedoe St, Hoedspruit, 1380, South Africa
+417 Vodacom Shop Giyani                                                      -23.307263    30.706254 	Giyani-D, Giyani, 0826, South Africa
+418 Musica                                                                   -23.822760    30.158120 	Shop 27 Tzaneng Mall, Danie Joubert St, Sentrapark, Tzaneen, 0850, South Africa
+419 Truworths                                                                -23.947764    31.136143 	24 Palm St, Phalaborwa, 1389, South Africa
+420 Heqlen Mica                                                              -23.946658    31.130165 	3 Sealen Road, Phalaborwa, 1390, South Africa
+421 Morkels                                                                  -23.825284    30.161140 	7 Morgan St, Arbor Park, Tzaneen, 0850, South Africa
+422 Expecta Motor & Tyre Services C C                                        -23.826140    30.158320 	5 Loop St, Arbor Park, Tzaneen, 0850, South Africa
+423 Trappers Tzaneen                                                         -23.825892    30.162042 	Danie Joubert St, Shop 10 & 11, Tzaneng Mall, Tzaneen, 0850, South Africa
+424 Clicks Pharmacy - Phalaborwa                                             -23.950497    31.135117 	Shop 43 Eden Square, CNR Nelson Mandela and Palm, Phalaborwa, 1389, South Africa
+425 The Crazy Store                                                          -24.351363    30.957421 	CNR R40 Main Rd&Rotsvy St, Shop 19B, Hoedspruit S/Centre, Hoedspruit, Hoedspruit, 1380, South Africa
+426 Exact Stores                                                             -23.822760    30.158120 	Shop 28 Tzaneng Mall, Danie Joubert St, Sentrapark, Tzaneen, 0850, South Africa
+427 Giyani Top Tiles                                                         -23.311625    30.692842 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+428 The Crazy Store                                                          -23.823175    30.156340 	CNR Agatha Str.&R36, Shop 18, Tzaneen Centre, Tzaneen, Tzaneen, 0850, South Africa
+429 Giyani Regional Mall                                                     -23.313041    30.696605 	Giyani-BA, Giyani, 0826, South Africa
+430 Mopani Super Spar Centre - Vukile                                        -23.311922    30.693387 	Giyani-BA, Giyani, 0826, South Africa
+431 Masingita Mall                                                           -23.310250    30.694650 	Giyani-BA, Giyani, 0826, South Africa
+432 Maake Plaza (Shopping Center)                                            -23.977375    30.288868 	Ramalema, South Africa
+433 Giyani Plaza Centre                                                      -23.309520    30.692820 	Danie Theron Street, Giyani-BA, Giyani, 0826, South Africa
+434 Tzaneng Mall Centre                                                      -23.825830    30.161900 	26 Danie Joubert St, Tzaneen, 0850, South Africa
+435 Eden Square Mall                                                         -23.951010    31.135530 	67 Sealene Rd, Phalaborwa, 1390, South Africa
+436 Tzaneen Crossing Mall                                                    -23.830185    30.162330 	37 California St, Arbor Park, Tzaneen, 0850, South Africa
+437 Lenyenye Shopping Centre                                                 -23.972593    30.269276 	Lenyenye-A, 0857, South Africa
+438 Tzaneen Lifestyle Centre                                                 -23.822474    30.156897 	24-26 Danie Joubert St, Sentrapark, Tzaneen, 0850, South Africa
+439 Masingita Plaza                                                          -23.306264    30.686888 	23°18'22. 30°41'12.8"E, 6th Rd, Northern Farm, 2189, South Africa
+440 Nkowankwa Shoping Centre                                                 -23.887738    30.287231 	24 Delta St, Nkowankowa-A, 0870, South Africa
+441 Sanlam Centre - Phalaborwa                                               -23.947650    31.137660 	Wildevy St, Phalaborwa, 1390, South Africa
+442 Bindzulani Shopping Centre                                               -23.895024    30.259721 	Dan, South Africa
+443 Tygervalley Shopping Centre.                                             -23.613148    31.090834 	Giyani, South Africa
+444 The Hoedspruit Mall                                                      -24.351358    30.957198 	Kudu Street, Hoedspruit, 1380, South Africa
+445 Namakgale Crossing complex                                               -23.927745    31.025773 	337-339 Calvin Ngobeni, Namakgale-B, Phalaborwa, 1391, South Africa
+446 Teyisi Shopping Centre                                                   -23.289780    30.711797 	Giyani-F, Giyani, 0826, South Africa
+447 Oasis Entertainment Center                                               -23.817149    30.158288 	Voortrekker Rd, Aqua Park, Tzaneen, 0850, South Africa
+448 The Landy Shop                                                           -24.376736    30.886196 	Hoedspruit, South Africa
+449 Boxer Centre                                                             -23.828735    30.163691 	3 Stasie Rd, Tzaneen, 0850, South Africa
+450 Orange Tree Furniture                                                    -24.355532    30.947371 	kamogelo tourism centre Shop 5, Ferret R527, Hoedspruit, 1380, South Africa
+451 Kham Avalante' Travel & Tours Shuttle Coaches                            -23.825870    30.161160 	21 Danie Joubert St, Arbor Park, Tzaneen, 0850, South Africa
+452 Hornbill Enterprises                                                     -24.478745    30.884263 	R531, South Africa
+453 Nkuzana Shopping Centre (Proposed)                                       -23.211568    30.309836 	23°12'41. 30°18'35., 6"S 4th St, Louis Trichardt, 0920, South Africa
+454 Dunns Stores                                                             -23.951080    31.134200 	Shop 10, Cnr. Charlene & Sealene Rd, Phalaborwa, 1389, South Africa
+455 Selokwe Shopping Centre                                                  -23.256992    30.104862 	Mukondeni, 0942, South Africa
+456 FNB Bank ATM                                                             -23.822580    30.157080 	R71, Tzaneen, 0850, South Africa
+457 Roots                                                                    -23.644830    30.218355 	Unnamed Road, Modjadjiskloof, 0835, South Africa
+458 Thavhani Mall                                                            -22.983885    30.463210 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+459 Acornhoek Mall                                                           -24.606930    31.041270 	Greenvalley, Acornhoek, South Africa
+460 Sasekisa Mini Shopping Centre                                            -23.213612    30.245423 	Ka-Bungeni, South Africa
+461 Malamulele Plaza                                                         -22.998704    30.692829 	Malamulele-A, Malamulele, 0982, South Africa
+462 24 Degrees South                                                         -24.467288    30.879436 	24 Degrees South Country Estate, R531, Hoedspruit, 1380, South Africa
+463 Masingita Crossing Mall                                                  -23.004358    30.685601 	Malamulele-A, Malamulele, 0982, South Africa
+464 Mala Plaza                                                               -23.002610    30.698570 	Main Road, Malamulele-A, Malamulele, 0982, South Africa
+465 Laduma Hardware Malamulele                                               -23.007626    30.686907 	Xitlhelani, South Africa
+466 Paledi Mall                                                              -23.890424    29.700632 	R71, Mankweng, Polokwane, 0727, South Africa
+467 Mall of the North                                                        -23.873690    29.509297 	Cnr R81 & N1, Bendor Park, Polokwane, 0699, South Africa
+468 Elim Mall                                                                -23.156640    30.057435 	Elim, 0960, South Africa
+469 Tubatse Crossing Mall                                                    -24.660429    30.312005 	R37 & R555, Burgersfort, 1150, South Africa
+470 Sasekisa Mini Shopping Centre, Bungeni                                   -23.184520    30.169033 	Bungeni, South Africa
+471 Thulamahashe Plaza                                                       -24.725942    31.210916 	Thulamahashe-C, Thulamahashe, 1365, South Africa
+472 shoprite usave                                                           -24.323271    30.013973 	Mangaka, South Africa
+473 Savannah Mall                                                            -23.903922    29.487977 	Thabo Mbeki St & Grimm Street, Fauna Park, Polokwane, 0699, South Africa
+474 Mushavhi Shoping Centre                                                  -22.941126    30.708957 	shopping near, Shigalo, South Africa
+475 MVUSULUDZO MALL                                                          -22.975716    30.459226 	Thohoyandou, 0950, South Africa
+476 Bushbuckridge complex                                                    -24.835164    31.070446 	R40, Marijane A, Bushbuckridge, South Africa
+477 Botlokwa Shopping Plaza                                                  -23.492840    29.724701 	Sefene, 0812, South Africa
+478 Tshidzini Shopping centre                                                -22.827901    30.690485 	Tshifudi, 0979, South Africa
+479 Venda Plaza                                                              -22.970746    30.456025 	Cnr. Mphephu St & Main Rd, Sibasa, Thohoyandou, 0970, South Africa
+480 Side Step Limpopo Mall                                                   -23.904344    29.449768 	86 Devenish St, Polokwane Central, Polokwane, 0700, South Africa
+481 MUTSINDO MALL                                                            -22.975998    30.461276 	Thohoyandou, 0950, South Africa
+482 Makhado Crossing Mall                                                    -23.045518    29.918819 	Louis Trichardt, 0920, South Africa
+483 Kopanong Shopping Centre (Atok                                           -24.300470    29.889730 	Atok, 0749, South Africa
+484 SABINA PLAZA                                                             -22.976198    30.456599 	93 Mphephu Main Road, Thohoyandou CBD, Thohoyandou, 0950, South Africa
+485 Bopedi Shopping Centre                                                   -24.419667    29.789397 	Apel, 0739, South Africa
+486 Morone Centre                                                            -24.673150    30.329830 	72 Kastania Street, Burgersfort, 1150, South Africa
+487 Cycad Shopping Centre                                                    -23.893124    29.472545 	Outspan Dr, Bendor Ext 59, Polokwane, 0699, South Africa
+488 Mutsindo Mall/Capricorn Plaza Centre                                     -22.961070    30.468570 	Main Boulevard, Thohoyandou-D, Thohoyandou, 0950, South Africa
+489 St. David's Anglican Church, Modjadjiskloof                              -23.656889    30.176249 	Corner of Mabel & Orchard Streets, Modjadjiskloof, 0835, South Africa
+490 St. Peter's Anglican Church                                              -23.830775    30.156572 	15 Agatha St, Arbor Park, Tzaneen, 0850, South Africa
+491 Diocese of Tzaneen - Catholic Church                                     -23.829150    30.156400 	31 Draai Street, Tzaneen, 0850, South Africa
+492 Harvest Time Church                                                      -23.300559    30.694126 	Giyani Main Rd, Giyani, 0826, South Africa
+493 Miracles Of God Church                                                   -23.316898    30.789945 	No 862 Homu 14A, Homu, 0826, South Africa
+494 Die Pastorie                                                             -24.518429    30.887691 	Hoewe 70, Kampersrus,, Mare St, Kampersrus AH, 1371, South Africa
+495 Phalaborwa Catholic Church                                               -23.938406    31.143784 	21 Haarlem St, Phalaborwa, 1390, South Africa
+496 NEW LIFE BAPTIST CHURCH                                                  -23.937120    31.139555 	64 Grosvenor St, Phalaborwa, 1390, South Africa
+497 Hope of Christ Church                                                    -23.890193    30.310758 	Unnamed Road, Nkowankowa, 0870, South Africa
+498 Hoedspruit Community Church                                              -24.353019    30.947874 	Springbok Street, Hoedspruit, 1380, South Africa
+499 Giyani True Vine Church                                                  -23.288956    30.716434 	Giyani-F, Giyani, 0826, South Africa
+500 Masakona Church of Christ                                                -23.276206    30.243266 	Masakona, 0941, South Africa
+501 African Baptist Apostolic Church                                         -23.349567    30.149840 	Ga-Phooko, South Africa
+502 Haenertsburg Christian Church                                            -23.942379    29.939707 	Rissik Street No. 7, 0730, South Africa
+503 Lenyenye AFM Church (Apostolic Faith Mission)                            -23.976482    30.270905 	Unnamed Rd,, Lenyenye-A, 0857, South Africa
+504 Shivulani Healing Ministry Church                                        -23.146435    30.704060 	Shivulani, South Africa
+505 AGS Church Hoedspruit                                                    -24.356966    30.946046 	Ferret St, Hoedspruit, 1380, South Africa
+506 Kubjana A.F.M Church                                                     -23.695469    30.296064 	Pastor France Modiba Street, South Africa
+507 Joppie Worshippers Church                                                -23.732533    30.408794 	nwamitwa, South Africa
+508 Church of the Nazarene                                                   -23.861094    31.091952 	1164 Gracia St, Lulekani-B, Phalaborwa, 1392, South Africa
+509 Alliance Church In Africa                                                -23.895650    30.273103 	Dan, 0878, South Africa
+510 Thomo Evangelism Miracle Church                                          -23.252036    30.789944 	Thomo, 0826, South Africa
+511 FNB Bank ATM Moria Zion City                                             -23.938570    29.789220 	Moria Zion City, Mankweng, Polokwane, 0700, South Africa
+512 NKOWANKOWA ZCC CHURCH                                                    -23.893067    30.279420 	Nkowankowa, 0870, South Africa
+513 St. Matthew's Anglican Church, Lenyenye                                  -23.974685    30.262141 	Corner of Dirapeng Street, Lenyenye-A, 0857, South Africa
+514 Masakona Reformed Church                                                 -23.280981    30.247734 	Masakona, 0941, South Africa
+515 Khaxane Assemblies of God Church                                         -23.670428    30.805010 	Ka-Khaxani, South Africa
+516 Full Gospel Church of God                                                -23.892282    30.317005 	Ka-Mayomela, South Africa
+517 Life Abundance Church                                                    -22.894955    30.909415 	Unnamed Road,, Ntlhaveni, 0928, South Africa
+518 BIBLE REVIVAL CHURCH                                                     -23.207095    30.708244 	Unnamed Road, Mavalani, South Africa
+519 Kingdom Word City Int'l Church                                           -23.948113    31.137179 	Wild Evy, Phalaborwa, Shop No. 3 Sanlam Building, Phalaborwa, 1390, South Africa
+520 Faith and Action, Apostolic church                                       -23.328053    30.788773 	Homu 14B, Giyani, 0826, South Africa
+521 God Harvest Church Main                                                  -24.081740    30.326634 	Tzaneen, South Africa
+522 Christian Fire Church Nkowankowa                                         -23.893611    30.296941 	Nkowankowa, South Africa
+523 Unity of Faith Church                                                    -23.284201    30.703321 	Giyani-F, Giyani, 0826, South Africa
+524 Unity Of faith Church                                                    -23.349290    30.530939 	Basani, South Africa
+525 EVANGELICAL REFORMED CHURCH                                              -23.725474    30.368148 	Tzaneen, South Africa
+526 Apostolic Faith Church Of Portland Oregon. Phalaborwa                    -23.942221    31.025027 	1011 Sebele Phaana St, Namakgale-D, Phalaborwa, 1391, South Africa
+527 Together Christian Church                                                -23.721201    30.422958 	Mamitwa, 0850, South Africa
+528 DINGAMANZI SAGC CHURCH                                                   -23.379559    30.580226 	Dingamazi, South Africa
+529 Mamatlepa Church of Christ                                               -23.474311    30.477424 	Mamatlepa, South Africa
+530 PPK Church Phalaborwa                                                    -23.942371    31.149339 	26 President Kruger St, Phalaborwa, 1390, South Africa
+531 Come Back Home Church                                                    -24.101672    30.327578 	Unnamed Road,, Julesburg, 0875, South Africa
+532 Shekinah House                                                           -23.818541    30.169601 	10 Manor Vlei, Tzaneen, 0850, South Africa
+533 Universal Church                                                         -23.951339    31.129839 	Mellor str, Phalaborwa, 1390, South Africa
+534 Gereformeerde Kerk - Hoedspruit                                          -24.360764    30.942089 	Hoedspruit, 1380, South Africa
+535 Shiloh Worship Centre                                                    -23.895063    30.278697 	Ka-Mohlaba, South Africa
+536 Church of Jesus Christ of Latter-day Saints                              -23.632764    30.211030 	0838, Ga-Kgapane-A, Modjadjiskloof, South Africa
+537 Church of Jesus Christ of Latter-day Saints                              -23.839283    30.160392 	34A Sirkel Dr, Arbor Park, Tzaneen, 0850, South Africa
+538 Church of Jesus Christ of Latter-day Saints                              -23.975923    30.271363 	Lenyenye-A, 0857, South Africa
+539 Mushiru Assemblies Of God Church                                         -22.760271    30.846280 	Mahagala, 0928, South Africa
+540 Bofu-la-mato Full Gospel Church                                          -23.189878    30.424454 	Bofu-La-Mato, South Africa
+541 Turfloop Evangelical Lutheran Church                                     -23.885209    29.759976 	Polokwane, 0699, South Africa
+542 St. John's Apostolic Faith Mission Church Limpopo Lowveld                -23.467877    30.369833 	Church Street Mohlabaneng village, South Africa
+543 Nazarene Church                                                          -23.997292    30.236990 	Tzaneen, South Africa
+544 Selwana Lutheran Church                                                  -23.696493    30.918551 	Ga-Selwana, South Africa
+545 Phalaborwa Methodist Church                                              -23.936366    31.144909 	16 Gelderland St, Phalaborwa, 1390, South Africa
+546 Legacy Church                                                            -23.836613    30.154302 	6 Agatha St, Arbor Park, Tzaneen, 0850, South Africa
+547 Uniting Reformed Church                                                  -23.434307    30.564151 	Giyani, Sekhiming, 0826, South Africa
+548 Acornhoek Christian Fire Church                                          -24.599159    31.067746 	Acornhoek, South Africa
+549 Tshikondeni Mine                                                         -22.515134    30.941899 	South Africa
+550 Palabora Mining Company                                                  -23.968747    31.151980 	1 Copper Road, Phalaborwa, 1389, South Africa
+551 Mining Co                                                                -23.988806    31.093763 	Phalaborwa, South Africa
+552 Valic Mining Supplies                                                    -23.952053    31.130317 	15 Mansvelt St, Phalaborwa, 1389, South Africa
+553 Palabora Mining Company Open Pit                                         -23.993168    31.129770 	Phalaborwa, 1390, South Africa
+554 Foskor (Pty) Ltd                                                         -23.968834    31.151935 	27 Selati Rd, Phalaborwa, 1389, South Africa
+555 Twickenham mine                                                          -24.488056    30.588056 	makgopa, South Africa
+556 Foskor Workplace                                                         -23.953260    31.143405 	27 Sealene Rd, Phalaborwa, 1390, South Africa
+557 Unifrutti South Africa, Blyderiver Farm                                  -24.366498    30.732390 	24°21'59. 30°43'56., 4 6th St, Randfontein, 1760, South Africa
+558 Unifrutti South Africa, Blyderus Farm                                    -24.376174    30.821218 	Farm Blyderus, Hoedspruit, South Africa
+559 Ambrosia Citrus Estate                                                   -24.362958    30.911885 	1380, South Africa
+560 Wegraakbosch Organic Dairy                                               -23.896980    29.957784 	Road no M1, Cheerio Valley, Magoebaskloof, 0730, South Africa
+561 Allesbeste                                                               -23.801985    30.121578 	M2 R71, Tzaneen, 0850, South Africa
+562 Westfalia Fruit Estates                                                  -23.737211    30.111680 	Main Road, Duiwelskloof, Modjadjiskloof, 0835, South Africa
+563 Farm Bryntirion                                                          -23.903259    30.127058 	Mopani, South Africa
+564 ZZ2 Headquarters Mooketsi                                                -23.603183    30.105037 	Modjadjiskloof, South Africa
+565 Amarula Lapa                                                             -23.962276    31.081765 	4311 First Avenue, R40, Phalaborwa, 1390, South Africa
+566 THE WHEELBARROW FARMSTALL                                                -23.803575    30.106012 	R71 Magoebaskloof Road, Tzaneen, 0850, South Africa
+567 Hishtil South Africa (Mooketsi Nursery)                                  -23.651812    30.060782 	South Africa
+568 Afrinest Farm Projects                                                   -23.826068    30.272920 	Tzaneen, South Africa
+569 Mcezi Farming Enterprise                                                 -23.568434    30.716630 	Ka-Rhangani, Mageva-A, South Africa
+570 Rosy Adeniums South Africa                                               -23.927389    31.151186 	11 Bokmakierie str, Phalaborwa, 1390, South Africa
+571 Du Roi, Nursery                                                          -23.862510    30.383676 	R529, South Africa
+572 Ndou General Farming                                                     -22.442513    30.672848 	Masisi, South Africa
+573 Kuhestan                                                                 -23.884305    29.998025 	Houtbosdorp road magoebaskloof, South Africa
+574 Redbank Farm                                                             -23.900410    30.073787 	GV35, R528, Tzaneen, South Africa
+575 PimUju                                                                   -23.723322    30.180902 	1 Hansfontein Farm, Politsi, Tzaneen, 0850, South Africa
+576 Amorentia Estate & Nursery                                               -23.763351    30.048809 	Grootbosch Road, Politsi Valley, Tzaneen, 0850, South Africa
+577 El Rancho Farming And Projects                                           -23.435072    30.582485 	Modjadjiskloof, South Africa
+578 Nkuna Family Farm                                                        -23.484000    30.864000 	Xawela, South Africa
+579 Harmonie farm                                                            -24.245626    30.752170 	Hoedspruit, South Africa
+580 Bluebird Farm                                                            -23.362995    30.245503 	Hartebeesfontein, Hartbeesfontein, South Africa
+581 P & a Seedlings                                                          -23.518476    30.182489 	Mooketsi, 0825, South Africa
+582 Dzundeni Fruits & Veg                                                    -23.214582    30.454868 	Louis Trichardt, South Africa
+583 Mashudu Poultry Farm                                                     -22.779733    30.832521 	Mashudu St, Etwatwa, Benoni, 1519, South Africa
+584 ZZ2 Natuur Boerdery                                                      -23.640898    30.043970 	South Africa
+585 Hetisani Forever Farming Poultry                                         -23.237141    30.141873 	Ha-Mashamba, 0942, South Africa
+586 AvoOwner                                                                 -23.495465    29.956426 	Morebeng, South Africa
+587 Ngwenya Farm                                                             -23.215937    30.200085 	bungeni ma bodlongwa, South Africa
+588 Dzunde la Manavhela                                                      -23.117351    30.428138 	South Africa
+589 Shandukani Farm                                                          -23.109690    30.429642 	0952, South Africa
+590 Ha-Manavhela grazing zone for livestock farmers.                         -23.111786    30.442429 	South Africa
+591 Cottondale Game Breeders                                                 -23.823791    30.157171 	Section 15, Old Gravelotte Road, Tzaneen, 0850, South Africa

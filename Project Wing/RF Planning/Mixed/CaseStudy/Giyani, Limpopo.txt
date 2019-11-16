@@ -1,0 +1,477 @@
+  1 Gaz Panel Beaters And Tow In Services                                    -23.319331    30.708733 	C, 0826, Giyani, South Africa
+  2 National Health Laboratory Services - Nkhensani Hospital                 -23.312160    30.705890 	Section A Nkhensani Hospital, R81 Road, Giyani, 0826, South Africa
+  3 Giyani High School                                                       -23.320363    30.726433 	Giyani-A, Giyani, 0826, South Africa
+  4 Risinga High School                                                      -23.305627    30.719222 	Giyani-D, Giyani, 0826, South Africa
+  5 Giyani Comprehensive School                                              -23.286690    30.707670 	Giyani-F, Giyani, 0826, South Africa
+  6 Vurhonga Primary School                                                  -23.299030    30.698930 	Giyani-E, Giyani, 0826, South Africa
+  7 Limpopo Province College of Nursing                                      -23.309286    30.689296 	Giyani Main Road, Giyani, 0826, South Africa
+  8 Ndzalama Primary School                                                  -23.308100    30.704020 	Giyani-D, Giyani, 0826, South Africa
+  9 Sukani Primary School                                                    -23.315580    30.724230 	Giyani-A, Giyani, 0826, South Africa
+ 10 Rithlavile Secondary School                                              -23.292953    30.699694 	Giyani-E, Giyani, 0826, South Africa
+ 11 Nhlalala Primary School                                                  -23.315500    30.733220 	Giyani-A, Giyani, 0826, South Africa
+ 12 Mehleketo Primary School                                                 -23.316430    30.727630 	Giyani-A, Giyani, 0826, South Africa
+ 13 Nkwangulatilo Education Centre                                           -23.313449    30.702281 	Giyani-D, Giyani, 0826, South Africa
+ 14 Laerskool Kremetart                                                      -23.323950    30.678554 	Giyani-B, Giyani, 0826, South Africa
+ 15 Giyani Campus Of Nursing College                                         -23.307248    30.706253 	Giyani-D, Giyani, 0826, South Africa
+ 16 Thandabantu Lower Primary School                                         -23.319310    30.742280 	Hlupekani, Giyani, South Africa
+ 17 makobo secondary school                                                  -23.308923    30.716043 	Giyani-D, Giyani, 0826, South Africa
+ 18 Muhluri Combined school                                                  -23.306968    30.699105 	Giyani-E, Giyani, 0826, South Africa
+ 19 Kheto Nxumayo Agricultural High School                                   -23.309624    30.675025 	Ka-Siandana, South Africa
+ 20 Hillside Primary School Giyani                                           -23.305486    30.708932 	0826, Giyani-D, Giyani, South Africa
+ 21 Ritlhavile Secondary                                                     -23.296774    30.705658 	Giyani Rd, Giyani-E, Giyani, 0826, South Africa
+ 22 MABENDLE TRAINING CENTRE                                                 -23.305752    30.710627 	Giyani-D, Giyani, 0826, South Africa
+  1 Kremetart Clinic                                                         -23.312054    30.692297 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+  2 Giyani Health Center                                                     -23.312801    30.723250 	0826, Giyani-A, Giyani, South Africa
+  3 Midrand Physiotherapy Clinic                                             -23.316667    30.716667 	Shop 18 Shoprite Complex Masingita Plaza, 0826, South Africa
+  4 Mens Clinic International - Giyani                                       -23.309005    30.686628 	Shop 5 A, The Shoprite Centre, Giyane, Giyani, 0826, South Africa
+  5 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+  6 Dr MBOMBI                                                                -23.308826    30.687686 	Giyani-D, Giyani, 0826, South Africa
+  7 Dr N Ndlovu                                                              -23.314837    30.718714 	Unnamed Road, Giyani, 0826, South Africa
+  8 Nkhensani Gateway Clinic                                                 -23.318323    30.710496 	Giyani, 0826, South Africa
+  9 Nkhensani Hospital                                                       -23.317747    30.710786 	Main Street, Giyani-D, Giyani, 0826, South Africa
+ 10 Masingita Medical Centre                                                 -23.305527    30.686907 	Giyani-BA, Giyani, 0826, South Africa
+ 11 Maranatha 1279 E                                                         -23.296617    30.705532 	Giyani-E, Giyani, 0826, South Africa
+ 12 Dr NF Mbiza                                                              -23.307356    30.691641 	Dokodela Surgery, Giyani-BA, Giyani, 0826, South Africa
+ 13 Ngove Clinic                                                             -23.361106    30.721966 	Ka-Ngove, South Africa
+ 14 Hlomela-Khakhala Clinic                                                  -23.274940    30.844317 	Giyani, South Africa
+ 15 Thomo Clinic                                                             -23.248447    30.788410 	Thomo, 0826, South Africa
+ 16 Mapayeni Clinic                                                          -23.350011    30.818817 	Ka-Mapayeni, South Africa
+ 17 Shivulani Clinic                                                         -23.141727    30.701991 	Shivulani, South Africa
+ 18 Ratanang Clinic                                                          -23.436165    30.634968 	Mpepule, South Africa
+ 19 Mhlamulo Clinic - OPD Aids                                               -23.312160    30.705890 	Main Road, Giyani, 0826, South Africa
+ 20 Giyani Community Healthcare Centre                                       -23.309557    30.691418 	Giyani Community Healthcare Centre, Section A, Giyani, 0826, South Africa
+ 21 Shikhumba Clinic                                                         -23.500227    30.881050 	8"S 8th St, Johannesburg, 2192, South Africa
+ 22 Basani Clinic                                                            -23.369055    30.519020 	R81, Ka Nwamankena, South Africa
+ 23 Tlou Physiotherapy Clinic                                                -23.308662    30.693447 	Shop 8 Maluleke Complex, Giyani - BA, Giyani, 0826, 0826, South Africa
+ 24 Tloubatla M E T/a Tlou Physiotherapy Clinic                              -23.316667    30.716667 	Shop 18 Shoprite Complex, Masingita Plaza, Giyani, 0826, South Africa
+ 25 Mapuve Sport Development and Rehabilitation Centre                       -23.316667    30.716667 	Mapuva Main Street, Mapuva, Giyani, 0826, South Africa
+ 26 Tshimbupfe Clinic                                                        -23.157666    30.468347 	Stand 1, Tshimbupfe Village, Vuwani, Makhado Rural, 0952, South Africa
+ 27 Malamulele Clinic                                                        -23.013700    30.701504 	Xitlhelali Villiage, Malamulele, Thohoyandou, 0982, South Africa
+ 28 Chauke M N                                                               -23.309557    30.691418 	Bellevue Clinic, Giyani, 0826, South Africa
+ 29 Belleview Clinic                                                         -23.411908    30.420875 	c0004 Belleview location 1 118,8N national road, molototsi, R81, 0826, South Africa
+ 30 Mukhomi Clinic                                                           -23.071965    30.561483 	Mukhomi, South Africa
+ 31 Davhana Clinic                                                           -23.209743    30.456503 	Davhana, Ha-Davhana, South Africa
+ 32 Giyani-D 2                                                               -23.304871    30.720448 	482a, 482A Unigazi St, Giyani-D, Giyani, 0826, South Africa
+ 33 Greater Giyani Municipality Council Chamber (Civic Center)               -23.315644    30.712743 	Giyani-A, Giyani, 0826, South Africa
+ 34 Charlie Rangani Clinic                                                   -23.477702    30.551346 	Ga-Ramodumo, South Africa
+ 35 Greater Giyani Municipality - Council Chamber (Civic Center Hall) Second Floor No.22   -23.310962    30.692944 	Giyani-BA, Giyani, 0826, South Africa
+ 36 Mhlava Wellem Clinic                                                     -23.211130    30.860020 	17, Mlhava, Oman
+ 37 Mphambo Clinic                                                           -23.084812    30.671079 	Ka-Mphambo, South Africa
+ 38 Giyani tourisM and information centre                                    -23.314417    30.685132 	R81, Mashavela, South Africa
+ 39 Giyani Science Centre                                                    -23.317124    30.717717 	Giyani-A, Giyani, 0826, South Africa
+ 40 Bishop AK Maswanganyi Home                                               -23.371033    30.720824 	Ka-Ngove, South Africa
+ 41 Matsotsosela clinic                                                      -23.603570    30.824907 	Giyani, South Africa
+ 42 Peninghotsa Clinic                                                       -23.020933    30.837826 	Peninghotsa, South Africa
+ 43 Mavambe Clinic                                                           -23.003646    30.648765 	Mavambe, 0998, South Africa
+ 44 Mamanyoha Clinic                                                         -23.526586    30.517287 	Mamanyoha, South Africa
+ 45 Xikhumba Clinin                                                          -23.500231    30.881007 	Xikhumba, 0843, South Africa
+ 46 Nkwangulatilo Education Centre                                           -23.313449    30.702281 	Giyani-D, Giyani, 0826, South Africa
+ 47 Seaphole Clinic                                                          -23.496220    30.459941 	Seaphole, Modjadjiskloof, South Africa
+ 48 Mokgwathi Clinic                                                         -23.584535    30.582945 	Ga-Mokgwathi, South Africa
+ 49 Makaringe J M                                                            -23.313700    30.718743 	Section A House No 1544, Cheat Street, Giyani, 0826, South Africa
+ 50 Nkurhi Clinic                                                            -23.213869    30.554045 	Rihanyo Street unit # 316 & 318, South Africa
+ 51 Majosi Ambulance Station Clinic                                          -23.229969    30.343867 	Ka-Majosi, South Africa
+ 52 Dombo P T                                                                -23.307248    30.706253 	Shop 3a, Mafingipa Complex, Giyani, 0826, South Africa
+ 53 Mbhiza & Associates                                                      -23.310103    30.685897 	Site B27, Main Street, Giyani, 0826, South Africa
+ 54 Madonsi Clinic                                                           -23.001930    30.737626 	Boltman, Malamulele, South Africa
+ 55 Nkomo B Clinic                                                           -23.417436    30.777945 	Nkomo B, Nkomo, 0840, South Africa
+ 56 Maphalle Clinic                                                          -23.468256    30.311719 	R81, Maphalle, 0827, South Africa
+ 57 Peninghotsa clinic                                                       -23.027625    30.844716 	Peninghotsa, South Africa
+ 58 Magwedzha Clinic                                                         -22.958654    30.560791 	Unnamed Road, Dumasi, Thohoyandou, 0950, South Africa
+ 59 Mawa Clinic                                                              -23.607744    30.538949 	Mawa, South Africa
+ 60 Mbhiza R W                                                               -23.309557    30.691418 	Shop 6 Mopani Super Spar Complex, Giyani, 0826, South Africa
+ 61 Giyani Health Center                                                     -23.312801    30.723250 	0826, Giyani-A, Giyani, South Africa
+ 62 Holani Medical Centre - Dr MT Mbombi                                     -23.308605    30.687855 	Giyani Main Rd, Giyani-D, Giyani, 0826, South Africa
+ 63 Masingita Medical Centre                                                 -23.305527    30.686907 	Giyani-BA, Giyani, 0826, South Africa
+ 64 Kremetart Clinic                                                         -23.312054    30.692297 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+ 65 Giyani Community Healthcare Centre                                       -23.309557    30.691418 	Giyani Community Healthcare Centre, Section A, Giyani, 0826, South Africa
+ 66 Dr MBOMBI                                                                -23.308826    30.687686 	Giyani-D, Giyani, 0826, South Africa
+ 67 Mens Clinic International - Giyani                                       -23.309005    30.686628 	Shop 5 A, The Shoprite Centre, Giyane, Giyani, 0826, South Africa
+ 68 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+ 69 Nkhensani Hospital                                                       -23.317747    30.710786 	Main Street, Giyani-D, Giyani, 0826, South Africa
+ 70 Midrand Physiotherapy Clinic                                             -23.316667    30.716667 	Shop 18 Shoprite Complex Masingita Plaza, 0826, South Africa
+ 71 Ngove Clinic                                                             -23.361106    30.721966 	Ka-Ngove, South Africa
+ 72 Sekhiming Health Centre                                                  -23.430388    30.560966 	Sekhiming, South Africa
+ 73 Dr NF Mbiza                                                              -23.307356    30.691641 	Dokodela Surgery, Giyani-BA, Giyani, 0826, South Africa
+ 74 Thomo Clinic                                                             -23.248447    30.788410 	Thomo, 0826, South Africa
+ 75 Hlomela-Khakhala Clinic                                                  -23.274940    30.844317 	Giyani, South Africa
+ 76 Nkhensani Hospital                                                       -23.317747    30.710786 	Main Street, Giyani-D, Giyani, 0826, South Africa
+ 77 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+ 78 Nkhensani Gateway Clinic                                                 -23.318323    30.710496 	Giyani, 0826, South Africa
+ 79 Holani Medical Centre - Dr MT Mbombi                                     -23.308605    30.687855 	Giyani Main Rd, Giyani-D, Giyani, 0826, South Africa
+ 80 Masingita Medical Centre                                                 -23.305527    30.686907 	Giyani-BA, Giyani, 0826, South Africa
+ 81 Evuxakeni Psychiatric Hospital Pharmacy                                  -23.318986    30.729908 	Main Road, Giyani, 0826, South Africa
+ 82 Holani Medical Centre - Dr MT Mbombi                                     -23.308605    30.687855 	Giyani Main Rd, Giyani-D, Giyani, 0826, South Africa
+ 83 Masingita Medical Centre                                                 -23.305527    30.686907 	Giyani-BA, Giyani, 0826, South Africa
+ 84 Evuxakeni Hospital                                                       -23.318764    30.728836 	giyani section a vuxakeni street, South Africa
+ 85 Nkhensani Hospital                                                       -23.317747    30.710786 	Main Street, Giyani-D, Giyani, 0826, South Africa
+ 86 Giyani Health Center                                                     -23.312801    30.723250 	0826, Giyani-A, Giyani, South Africa
+ 87 Kremetart Clinic                                                         -23.312054    30.692297 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+ 88 Dr MBOMBI                                                                -23.308826    30.687686 	Giyani-D, Giyani, 0826, South Africa
+ 89 Mens Clinic International - Giyani                                       -23.309005    30.686628 	Shop 5 A, The Shoprite Centre, Giyane, Giyani, 0826, South Africa
+ 90 Midrand Physiotherapy Clinic                                             -23.316667    30.716667 	Shop 18 Shoprite Complex Masingita Plaza, 0826, South Africa
+ 91 Dr NF Mbiza                                                              -23.307356    30.691641 	Dokodela Surgery, Giyani-BA, Giyani, 0826, South Africa
+ 92 Giyani Community Healthcare Centre                                       -23.309557    30.691418 	Giyani Community Healthcare Centre, Section A, Giyani, 0826, South Africa
+ 93 The Local Choice Pharmacy Shirinda                                       -23.308490    30.709580 	Shop No 20 Shoprite Masingita Plaza Shopping Cntr, Giyani Main Road, Giyani, 0826, South Africa
+ 94 Mbombi M T                                                               -23.323198    30.682154 	Denosa Building Holani Medical Centre, 566 Main Street, Giyani, 0826, South Africa
+ 95 Ngove Clinic                                                             -23.361106    30.721966 	Ka-Ngove, South Africa
+ 96 Nkhensani Hospital Primary Health Care                                   -23.312160    30.705890 	Nkhensani Hospital, Main Road, Giyani, 0826, South Africa
+ 97 Thomo Clinic                                                             -23.248447    30.788410 	Thomo, 0826, South Africa
+ 98 Sekhiming Health Centre                                                  -23.430388    30.560966 	Sekhiming, South Africa
+ 99 Evuxakeni Psychiatric Hospital Pharmacy                                  -23.318986    30.729908 	Main Road, Giyani, 0826, South Africa
+100 Hlomela-Khakhala Clinic                                                  -23.274940    30.844317 	Giyani, South Africa
+101 Cheapside medical centre                                                 -23.000528    30.691041 	478 0982, Malamulele Rd, Giyani, South Africa
+102 Giyani Health Center                                                     -23.312801    30.723250 	0826, Giyani-A, Giyani, South Africa
+103 Giyani Community Healthcare Centre                                       -23.309557    30.691418 	Giyani Community Healthcare Centre, Section A, Giyani, 0826, South Africa
+104 Nkhensani Hospital Primary Health Care                                   -23.312160    30.705890 	Nkhensani Hospital, Main Road, Giyani, 0826, South Africa
+105 Holani Medical Centre - Dr MT Mbombi                                     -23.308605    30.687855 	Giyani Main Rd, Giyani-D, Giyani, 0826, South Africa
+106 Giyani Pharmacy                                                          -23.308862    30.686858 	Shop 3A Spar Building, Giyani, South Africa
+107 National Health Laboratory Services - Nkhensani Hospital                 -23.312160    30.705890 	Section A Nkhensani Hospital, R81 Road, Giyani, 0826, South Africa
+108 Dr MBOMBI                                                                -23.308826    30.687686 	Giyani-D, Giyani, 0826, South Africa
+109 Dr NF Mbiza                                                              -23.307356    30.691641 	Dokodela Surgery, Giyani-BA, Giyani, 0826, South Africa
+110 Nkhensani Hospital                                                       -23.317747    30.710786 	Main Street, Giyani-D, Giyani, 0826, South Africa
+111 Giyani Traffic Testing Station                                           -23.316660    30.715105 	C, 0826, Giyani, South Africa
+112 Giyani Saps                                                              -23.313435    30.715353 	Giyani Section A Road, Giyani, 0826, South Africa
+113 Malamulele Police Station                                                -23.004497    30.686515 	Malamulele Hospital Road, Malamulele-A, Malamulele, 0982, South Africa
+114 SITA request                                                             -23.312750    30.708850 	Giyani-D, Giyani, 0826, South Africa
+115 South African Police Service                                             -23.643680    30.221770 	Post Office Street, Ga-Kgapane, Modjadjiskloof, 0838, South Africa
+116 Tshaulu Police Station                                                   -22.803343    30.747771 	Tshaulu, 0987, South Africa
+117 Tzaneen Police Station                                                   -23.828211    30.162108 	1 Danie Joubert St, Arbor Park, Tzaneen, 0850, South Africa
+118 Vuwani Police Station                                                    -23.129688    30.420978 	Vuwani, 0952, South Africa
+119 Spar Giyani                                                              -23.309097    30.686836 	Stand 58 Giyani Main Road, Bendstore Plaza, Giyani, Limpopo, South Africa, South Africa
+120 Giyani Saps                                                              -23.313435    30.715353 	Giyani Section A Road, Giyani, 0826, South Africa
+121 Magistrate Court Giyani                                                  -23.312199    30.694588 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+122 Magisterial Court - Greater Giyani Rural                                 -23.419040    30.679480 	South Africa
+123 Gaz Panel Beaters And Tow In Services                                    -23.319331    30.708733 	C, 0826, Giyani, South Africa
+124 National Health Laboratory Services - Nkhensani Hospital                 -23.312160    30.705890 	Section A Nkhensani Hospital, R81 Road, Giyani, 0826, South Africa
+125 Giyani Traffic Testing Station                                           -23.316660    30.715105 	C, 0826, Giyani, South Africa
+126 Mopani District Office                                                   -23.313093    30.710254 	Giyani Rd, Giyani-D, Giyani, 0826, South Africa
+127 Giyani High School                                                       -23.320363    30.726433 	Giyani-A, Giyani, 0826, South Africa
+128 Risinga High School                                                      -23.305627    30.719222 	Giyani-D, Giyani, 0826, South Africa
+129 Giyani Comprehensive School                                              -23.286690    30.707670 	Giyani-F, Giyani, 0826, South Africa
+130 Vurhonga Primary School                                                  -23.299030    30.698930 	Giyani-E, Giyani, 0826, South Africa
+131 Limpopo Province College of Nursing                                      -23.309286    30.689296 	Giyani Main Road, Giyani, 0826, South Africa
+132 Ndzalama Primary School                                                  -23.308100    30.704020 	Giyani-D, Giyani, 0826, South Africa
+133 Sukani Primary School                                                    -23.315580    30.724230 	Giyani-A, Giyani, 0826, South Africa
+134 Rithlavile Secondary School                                              -23.292953    30.699694 	Giyani-E, Giyani, 0826, South Africa
+135 Nhlalala Primary School                                                  -23.315500    30.733220 	Giyani-A, Giyani, 0826, South Africa
+136 Mehleketo Primary School                                                 -23.316430    30.727630 	Giyani-A, Giyani, 0826, South Africa
+137 Nkwangulatilo Education Centre                                           -23.313449    30.702281 	Giyani-D, Giyani, 0826, South Africa
+138 Laerskool Kremetart                                                      -23.323950    30.678554 	Giyani-B, Giyani, 0826, South Africa
+139 Giyani Campus Of Nursing College                                         -23.307248    30.706253 	Giyani-D, Giyani, 0826, South Africa
+140 Thandabantu Lower Primary School                                         -23.319310    30.742280 	Hlupekani, Giyani, South Africa
+141 makobo secondary school                                                  -23.308923    30.716043 	Giyani-D, Giyani, 0826, South Africa
+142 Muhluri Combined school                                                  -23.306968    30.699105 	Giyani-E, Giyani, 0826, South Africa
+143 Kheto Nxumayo Agricultural High School                                   -23.309624    30.675025 	Ka-Siandana, South Africa
+144 Hillside Primary School Giyani                                           -23.305486    30.708932 	0826, Giyani-D, Giyani, South Africa
+145 Ritlhavile Secondary                                                     -23.296774    30.705658 	Giyani Rd, Giyani-E, Giyani, 0826, South Africa
+146 MABENDLE TRAINING CENTRE                                                 -23.305752    30.710627 	Giyani-D, Giyani, 0826, South Africa
+147 Muhluri combined                                                         -23.309302    30.709128 	Giyani-D, Giyani, 0826, South Africa
+148 Tsonga High School                                                       -23.289504    30.714488 	Giyani-F, Giyani, 0826, South Africa
+149 Bright Star Combined Learning Centre                                     -23.289297    30.729083 	Giyani, South Africa
+150 Khanyisa Education Centre                                                -23.282560    30.738940 	Nsami road, Giyani, South Africa
+151 Rivoningo Education Centre                                               -23.274701    30.685455 	Giyani, South Africa
+152 Letaba FET College Giyani Campus                                         -23.316256    30.715353 	Industrial Road, Giyani-A, Giyani, 0826, South Africa
+153 Tanani Primary School                                                    -23.307180    30.770380 	South Africa
+154 Khanyisa Education Centre                                                -23.280980    30.737460 	South Africa
+155 Hivuyeriwile Commercial Secondary School                                 -23.336335    30.653039 	Ka-Dizingidzingi, 0826, South Africa
+156 Nyukani Education Centre                                                 -23.322275    30.774984 	A-14B, Main Road, Giyani, 0826, South Africa
+157 Makovongo High School                                                    -23.260342    30.743842 	Makosha, 0826, South Africa
+158 Khomisani Primary School                                                 -23.333670    30.638050 	Bode, 0826, South Africa
+159 Famandha High School                                                     -23.297870    30.640470 	Ka-Siandana, South Africa
+160 Mafumani Secondary School                                                -23.317610    30.788430 	Homu, 0831, South Africa
+161 Vahlave Primary School                                                   -23.358730    30.733580 	Ka-Ngove, South Africa
+162 M.K. Khambani Primary School                                             -23.367750    30.713350 	Ka-Ngove, South Africa
+163 Risenga Primary School                                                   -23.296630    30.638200 	Ka-Siandana, South Africa
+164 Hanyani Thomo High School                                                -23.256872    30.787743 	Thomo, 0826, South Africa
+165 Makheto                                                                  -23.273940    30.654660 	South Africa
+166 Hatshama Primary School                                                  -23.253728    30.750363 	Makosha, 0826, South Africa
+167 Mashengani Primary School                                                -23.244420    30.707200 	Ka-Xikukwani, South Africa
+168 Madzivi Primary School                                                   -23.326773    30.782148 	Homu, 0831, South Africa
+169 Mbhangazeki High School                                                  -23.242170    30.704300 	Ka-Xikukwani, South Africa
+170 Starlight academy                                                        -23.232885    30.690192 	Giyani, South Africa
+171 Hipambukile Primary School                                               -23.331070    30.778772 	Homu, 0831, South Africa
+172 Hola-Pondo Secondary School                                              -23.330620    30.625920 	Bode, 0826, South Africa
+173 Maswanganyi Primary School                                               -23.319002    30.610092 	Maswanganyi, South Africa
+174 Xikukwana Primary School                                                 -23.229780    30.710550 	Ka-Xikukwani, South Africa
+175 Sikhunyani Secondary School                                              -23.398030    30.674450 	Sikhunyani-A, South Africa
+176 Dingamanzi Primary School                                                -23.377170    30.581880 	Dingamazi, South Africa
+177 Mashengani Primary School                                                -23.232040    30.708332 	Ka-Xikukwani, South Africa
+178 Schools - Nghonyama                                                      -23.314530    30.707300 	Giyani-D, Giyani, 0826, South Africa
+179 Nkomo Primary School                                                     -23.403720    30.783930 	Nkomo B, Nkomo, 0840, South Africa
+180 Hipambukile Primary school                                               -23.333242    30.784023 	Homu, 0831, South Africa
+181 Mavalani High School                                                     -23.207150    30.705300 	Mavalani, South Africa
+182 Mhlanganisweni Primary School                                            -23.389750    30.673630 	Ka-Sikhunyane, 0826, South Africa
+183 Hasani Mninginisi Secondary School                                       -23.159995    30.801001 	South Africa
+184 Letaba FET College Giyani Campus                                         -23.316256    30.715353 	Industrial Road, Giyani-A, Giyani, 0826, South Africa
+185 Limpopo Province College of Nursing                                      -23.309286    30.689296 	Giyani Main Road, Giyani, 0826, South Africa
+186 Giyani Campus Of Nursing College                                         -23.307248    30.706253 	Giyani-D, Giyani, 0826, South Africa
+187 Giyani Education Multipurpose Centre(GEMPC)                              -23.297808    30.725730 	South Africa
+188 Giyani High School                                                       -23.320363    30.726433 	Giyani-A, Giyani, 0826, South Africa
+189 Risinga High School                                                      -23.305627    30.719222 	Giyani-D, Giyani, 0826, South Africa
+190 Giyani Comprehensive School                                              -23.286690    30.707670 	Giyani-F, Giyani, 0826, South Africa
+191 Nkwangulatilo Education Centre                                           -23.313449    30.702281 	Giyani-D, Giyani, 0826, South Africa
+192 Limpopo Province College of Nursing                                      -23.309286    30.689296 	Giyani Main Road, Giyani, 0826, South Africa
+193 Ndzalama Primary School                                                  -23.308100    30.704020 	Giyani-D, Giyani, 0826, South Africa
+194 Vurhonga Primary School                                                  -23.299030    30.698930 	Giyani-E, Giyani, 0826, South Africa
+195 Sukani Primary School                                                    -23.315580    30.724230 	Giyani-A, Giyani, 0826, South Africa
+196 Mehleketo Primary School                                                 -23.316430    30.727630 	Giyani-A, Giyani, 0826, South Africa
+197 Rithlavile Secondary School                                              -23.292953    30.699694 	Giyani-E, Giyani, 0826, South Africa
+198 Nhlalala Primary School                                                  -23.315500    30.733220 	Giyani-A, Giyani, 0826, South Africa
+199 Laerskool Kremetart                                                      -23.323950    30.678554 	Giyani-B, Giyani, 0826, South Africa
+200 Muhluri Combined school                                                  -23.306968    30.699105 	Giyani-E, Giyani, 0826, South Africa
+201 Giyani Campus Of Nursing College                                         -23.307248    30.706253 	Giyani-D, Giyani, 0826, South Africa
+202 Letaba FET College Giyani Campus                                         -23.316256    30.715353 	Industrial Road, Giyani-A, Giyani, 0826, South Africa
+203 Giyani Education Multipurpose Centre(GEMPC)                              -23.297808    30.725730 	South Africa
+204 Giyani Campus Of Nursing College                                         -23.307248    30.706253 	Giyani-D, Giyani, 0826, South Africa
+205 Limpopo Province College of Nursing                                      -23.309286    30.689296 	Giyani Main Road, Giyani, 0826, South Africa
+206 Giyani High School                                                       -23.320363    30.726433 	Giyani-A, Giyani, 0826, South Africa
+207 Nkwangulatilo Education Centre                                           -23.313449    30.702281 	Giyani-D, Giyani, 0826, South Africa
+208 Ndzalama Primary School                                                  -23.308100    30.704020 	Giyani-D, Giyani, 0826, South Africa
+209 University of Venda                                                      -22.976135    30.446480 	University Rd, Thohoyandou, 0950, South Africa
+210 University of Venda Microbiology Lab                                     -22.950000    30.483333 	Room 170 - 121 Ground Floor Science Building, University Road, Thohoyandou, 0950, South Africa
+211 University Of Venda Satelite Maths And Science Centre                    -23.130690    30.424328 	Vuwani, 0952, South Africa
+212 UNIVERSITY OF VENDA, SCHOOL OF EDUCATION                                 -22.977910    30.442133 	Thohoyandou, 0950, South Africa
+213 Dzingahe Graveyard                                                       -22.909769    30.537043 	Thohoyandou, South Africa
+214 University Of Venda Prefab                                               -22.977791    30.446606 	University Road, Thohoyandou, 0950, South Africa
+215 Spar Giyani                                                              -23.309097    30.686836 	Stand 58 Giyani Main Road, Bendstore Plaza, Giyani, Limpopo, South Africa, South Africa
+216 University Of Venda School Of Environmental Sciences                     -22.977470    30.444161 	Thohoyandou, 0950, South Africa
+217 We-Build Academy                                                         -22.984438    30.464176 	Thohoyandou-J, Thohoyandou, 0950, South Africa
+218 Modjadi Teachers Training College                                        -23.651670    30.221940 	Ga-Kgapane, Modjadjiskloof, 0838, South Africa
+219 Amuscar construction and project                                         -23.014570    30.681653 	Magageni street, Malamulele, 0982, South Africa
+220 University Of Venda                                                      -22.977361    30.446471 	Thohoyandou, 0950, South Africa
+221 Hillside Primary School Giyani                                           -23.305486    30.708932 	0826, Giyani-D, Giyani, South Africa
+222 Khanyisa Education Centre                                                -23.282560    30.738940 	Nsami road, Giyani, South Africa
+223 Nyukani Education Centre                                                 -23.322275    30.774984 	A-14B, Main Road, Giyani, 0826, South Africa
+224 Madzivhandila College of Agriculture                                     -22.987020    30.550850 	Ha-Budeli, Thohoyandou, 0950, South Africa
+225 Nkhensani Hospital                                                       -23.317747    30.710786 	Main Street, Giyani-D, Giyani, 0826, South Africa
+226 Unisa Louis Trichardt                                                    -23.041050    29.907420 	91 Krogh Straat, Louis Trichardt, 0920, South Africa
+227 Tihosi Guest House                                                       -23.312076    30.718678 	Giyani-A, Giyani, 0826, South Africa
+228 Vhembe FET College                                                       -22.942310    30.482588 	Sibasa, Thohoyandou, 0970, South Africa
+229 Accodomation Giyani - Vahlavi Guest House                                -23.324044    30.678133 	44B Tarental Street, kremetart,, Giyani-B, Giyani, South Africa
+230 Xisaka Guest House                                                       -23.317459    30.683927 	257 Nyala Drive, Giyani-B, Giyani, 0826, South Africa
+231 Tshisimani Campus, Vhembe TVET College                                   -23.055352    30.308840 	Unnamed Road,, Tshakhuma, 0951, South Africa
+232 Giyani Build it                                                          -23.305678    30.691652 	Giyani-BA, Giyani, 0826, South Africa
+233 Buco Giyani                                                              -23.306775    30.706661 	84 Magistrates Rd, Giyani, Limpopo, 0826, South Africa
+234 Ackermans Giyani Masangita Mall                                          -23.296130    30.705028 	Shop 3 Masangita Mall Masangita Rd, Giyani-BA, Giyani, 0826, South Africa
+235 Giyani 1 Boxer Superstores                                               -23.310709    30.695119 	Masingita Road, Giyani, 0826, South Africa
+236 MTN Store - Masingita Mall 25                                            -23.311070    30.694752 	Giyani-BA, Limpopo, Giyani, 0826, South Africa
+237 Bafana Bafana Hardware                                                   -23.307271    30.690920 	23°18'26.2"S 30°41'27.3"E, Provincial P9/2 Rd, South Africa
+238 Pick n Pay Family Giyani                                                 -23.310710    30.692970 	Giyani Plaza Shopping Centre, 0826, South Africa
+239 Mr Price / MRP                                                           -23.311146    30.695972 	Shop 12 Masingita Mall, Limpopo North, Giyani, 0826, South Africa
+240 AutoZone Giyani                                                          -23.309241    30.686037 	R81, Shop No. 7 Masingita Shopping Centre, Giyani, 0826, South Africa
+241 Giyani 1 Boxer Superstores                                               -23.311189    30.695096 	Masingita Centre, Giyani Main Road, Giyani, Limpopo, 0826, South Africa
+242 Giyani 2 Boxer Superstores                                               -23.308009    30.692080 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+243 Hi-Q                                                                     -23.312766    30.718598 	Unnamed Road, Giyani-A, Giyani, 0826, South Africa
+244 section A                                                                -23.313807    30.722781 	Unnamed Rd,, Giyani, 0826, South Africa
+245 Supa Quick Tyre Experts Giyani                                           -23.307741    30.690735 	Giyani Main Rd, Site BA30, Giyani, 0826, South Africa
+246 Buco Giyani                                                              -23.305351    30.690801 	Giyani-BA, Giyani, 0826, South Africa
+247 Galaxy Hardware                                                          -23.306984    30.691852 	Giyani-BA, Giyani, 0826, South Africa
+248 Spar - Mopani                                                            -23.311766    30.693327 	Stand 58 Bendstore Plaza, Giyani Main Road, Giyani, 0826, South Africa
+249 Boxer Giyani 2                                                           -23.308373    30.692286 	Giyani-BA, Giyani, 0826, South Africa
+250 Vodacom Shop Giyani                                                      -23.307248    30.706254 	53A & 54A Ervin Shop 7B, Giyani, 0826, South Africa
+251 JET GIYANI                                                               -23.309240    30.692790 	SHOP 16, GIYANI SHOPRITE CENTRE, Giyani, 0826, South Africa
+252 S I HARDWARE                                                             -23.306194    30.690351 	Magistrate Rd, Giyani, 0826, South Africa
+253 Giyani Top Tiles                                                         -23.311625    30.692842 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+254 PEP Store                                                                -23.305842    30.687225 	Giyani Shoprite Centre, Giyani, 0826, South Africa
+255 PEP Store                                                                -23.307861    30.689963 	Giyani-BA, Giyani, 0826, South Africa
+256 Ackermans Giyani                                                         -23.307248    30.706253 	Shop 3 Masingita Ctr, Giyani, 0826, South Africa
+257 Ackermans Giyani Plaza                                                   -23.296209    30.705071 	Shop GFA08A, Giyani Plaza, Danie Theron Str, Giyani-BA, Giyani, 0826, South Africa
+258 Pick n Pay Supermarket Giyani                                            -23.310229    30.693226 	Giyani-D, Giyani, 0826, South Africa
+259 Joshua Doore                                                             -23.311680    30.706120 	Giyani-D, Giyani, 0826, South Africa
+260 Cash Crusaders Giyani                                                    -23.308925    30.686933 	Shop 6, Masingita Centre, 0826, South Africa
+261 hardware city                                                            -23.321029    30.710565 	Giyani-C, Giyani, 0826, South Africa
+262 diza shopping complex                                                    -23.311612    30.729487 	Unnamed Rd, Giyani, 0826, South Africa
+263 JetMart GIYANI                                                           -23.305678    30.710582 	SHOP 5, BENDSTORE SHOPPING CENTRE, Giyani, 0826, South Africa
+264 Shoprite - Masingita Plaza                                               -23.306276    30.687248 	Giyani-BA, Giyani, 0826, South Africa
+265 Mopani Superspar                                                         -23.311550    30.693837 	Main Street, Giyani-D, Giyani, 0826, South Africa
+266 Russells                                                                 -23.305393    30.687246 	Malamulele Rd, Giyani, 2146, South Africa
+267 Bradlows Giyani                                                          -23.305326    30.686945 	SHOP 3 SHOPRITE CENTRE MAIN MALAMELELE ROAD, GIYANI, Giyani, 2635, South Africa
+268 Edgars MASINGITA MALL, GIYANI                                            -23.310250    30.694650 	SHOP 2, MASINGITA MALL, Giyani, 0826, South Africa
+269 Edgars Active GIYANI SHOPRITE PLAZA                                      -23.312240    30.693580 	SHOP 31 & 23, SHOPRITE PLAZA, CNR MALAMULELE & MAIN ROAD, 0826, South Africa
+270 Dunns                                                                    -23.309520    30.692820 	SHOP 15, GIYANI PLAZA, DANIE THERON STREET, GIYANI, Giyani, 0826, South Africa
+271 Russells Giyani Mall                                                     -23.309520    30.692820 	Shop 8 Giyani Mall Plaza, Giyani, 0826, South Africa
+272 Markham                                                                  -23.299916    30.704150 	FNB ROAD, BOMBANI PLAZA, SHOP 4, GIYANI-E, Giyani, 0826, South Africa
+273 Dunns                                                                    -23.310800    30.695300 	SHOP 8, MASINGITA MALL, MASINGITA ROAD, GIYANI, Giyani, 0826, South Africa
+274 Express Giyani                                                           -23.307248    30.706253 	Erf 571, Giyani, 5080, South Africa
+275 Barnetts                                                                 -23.305865    30.687194 	Malamelele Rd, Giyani, 0826, South Africa
+276 Morkels                                                                  -23.312009    30.705750 	Malamulele Rd, Giyani, 1700, South Africa
+277 BestDrive Osbro Wheel & Tyre                                             -23.306936    30.704894 	23 Magestrite Road, Giyani-D, Giyani, 0826, South Africa
+278 Sasekani Clothing & Promotions                                           -23.315005    30.718803 	Sasekani Centre, Plot 22B, Giyani, 0826, South Africa
+279 Totalsports - Polokwane                                                  -23.310447    30.694521 	Malamulele Road, Masingita Mall, Shop No 12, Polokwane, Limpopo, 0826, South Africa
+280 Russells Giyani                                                          -23.323200    30.682150 	Shop 14 Benstore Shopping Centre, Giyani, 0826, South Africa
+281 Sign A Print                                                             -23.310059    30.720477 	Stand 61, Section D2, Giyani, 0826, South Africa
+282 ALL IN ONE SPICE WORLD & SUPERMARKET GIYANI                              -23.307374    30.691064 	Giyani-BA, Giyani, 0826, South Africa
+283 FreshStop at Caltex Giyani                                               -23.310383    30.685869 	669 Giyani Main Rd, Giyani, 0826, South Africa
+284 Paint Pot Giyani                                                         -23.304953    30.688088 	Giyani-BA, Giyani, 0826, South Africa
+285 Totalsports - Giyani                                                     -23.309241    30.686037 	Malamulele Road, Shop 4, Giyani, 0826, South Africa
+286 Price N Pride                                                            -23.305880    30.711720 	Malamelele Rd, Giyani, 0826, South Africa
+287 PEP Cell                                                                 -23.310766    30.695279 	Shop NO 7A, Masingita Mall, Giyani, 0826, South Africa
+288 Hollywoodbets                                                            -23.307654    30.690295 	Giyani Shopping Centre, Giyani, 0826, South Africa
+289 Skipper Bar Masingita Mall                                               -23.308701    30.693318 	Shop 33, Masingita Mall, Giyani-BA, Giyani, 0826, South Africa
+290 Tekkie Town                                                              -23.309517    30.692816 	Shop 15, First Road, Giyani-BA, Giyani, 0826, South Africa
+291 MAGNUM CELL-LAB                                                          -23.306371    30.688251 	comm hall street, maluleke complex, Giyani, 0826, South Africa
+292 Ackermans Giyani Masangita Mall                                          -23.296130    30.705028 	Shop 3 Masangita Mall Masangita Rd, Giyani-BA, Giyani, 0826, South Africa
+293 Giyani Build it                                                          -23.305678    30.691652 	Giyani-BA, Giyani, 0826, South Africa
+294 Buco Giyani                                                              -23.306775    30.706661 	84 Magistrates Rd, Giyani, Limpopo, 0826, South Africa
+295 MTN Store - Masingita Mall 25                                            -23.311070    30.694752 	Giyani-BA, Limpopo, Giyani, 0826, South Africa
+296 AutoZone Giyani                                                          -23.309241    30.686037 	R81, Shop No. 7 Masingita Shopping Centre, Giyani, 0826, South Africa
+297 Bafana Bafana Hardware                                                   -23.307271    30.690920 	23°18'26.2"S 30°41'27.3"E, Provincial P9/2 Rd, South Africa
+298 Pick n Pay Family Giyani                                                 -23.310710    30.692970 	Giyani Plaza Shopping Centre, 0826, South Africa
+299 Giyani 1 Boxer Superstores                                               -23.310709    30.695119 	Masingita Road, Giyani, 0826, South Africa
+300 Supa Quick Tyre Experts Giyani                                           -23.307741    30.690735 	Giyani Main Rd, Site BA30, Giyani, 0826, South Africa
+301 Vodacom Shop Giyani                                                      -23.307248    30.706254 	53A & 54A Ervin Shop 7B, Giyani, 0826, South Africa
+302 Mr Price / MRP                                                           -23.311146    30.695972 	Shop 12 Masingita Mall, Limpopo North, Giyani, 0826, South Africa
+303 Hi-Q                                                                     -23.312766    30.718598 	Unnamed Road, Giyani-A, Giyani, 0826, South Africa
+304 Giyani 1 Boxer Superstores                                               -23.311189    30.695096 	Masingita Centre, Giyani Main Road, Giyani, Limpopo, 0826, South Africa
+305 section A                                                                -23.313807    30.722781 	Unnamed Rd,, Giyani, 0826, South Africa
+306 Giyani 2 Boxer Superstores                                               -23.308009    30.692080 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+307 Buco Giyani                                                              -23.305351    30.690801 	Giyani-BA, Giyani, 0826, South Africa
+308 diza shopping complex                                                    -23.311612    30.729487 	Unnamed Rd, Giyani, 0826, South Africa
+309 Dunns                                                                    -23.310800    30.695300 	SHOP 8, MASINGITA MALL, MASINGITA ROAD, GIYANI, Giyani, 0826, South Africa
+310 Giyani Top Tiles                                                         -23.311625    30.692842 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+311 JET GIYANI                                                               -23.309240    30.692790 	SHOP 16, GIYANI SHOPRITE CENTRE, Giyani, 0826, South Africa
+312 JetMart GIYANI                                                           -23.305678    30.710582 	SHOP 5, BENDSTORE SHOPPING CENTRE, Giyani, 0826, South Africa
+313 Galaxy Hardware                                                          -23.306984    30.691852 	Giyani-BA, Giyani, 0826, South Africa
+314 Joshua Doore                                                             -23.311680    30.706120 	Giyani-D, Giyani, 0826, South Africa
+315 Ackermans Giyani                                                         -23.307248    30.706253 	Shop 3 Masingita Ctr, Giyani, 0826, South Africa
+316 Spar - Mopani                                                            -23.311766    30.693327 	Stand 58 Bendstore Plaza, Giyani Main Road, Giyani, 0826, South Africa
+317 Hollywoodbets                                                            -23.307654    30.690295 	Giyani Shopping Centre, Giyani, 0826, South Africa
+318 S I HARDWARE                                                             -23.306194    30.690351 	Magistrate Rd, Giyani, 0826, South Africa
+319 Ackermans Giyani Plaza                                                   -23.296209    30.705071 	Shop GFA08A, Giyani Plaza, Danie Theron Str, Giyani-BA, Giyani, 0826, South Africa
+320 PEP Store                                                                -23.307861    30.689963 	Giyani-BA, Giyani, 0826, South Africa
+321 Boxer Giyani 2                                                           -23.308373    30.692286 	Giyani-BA, Giyani, 0826, South Africa
+322 Cash Crusaders Giyani                                                    -23.308925    30.686933 	Shop 6, Masingita Centre, 0826, South Africa
+323 hardware city                                                            -23.321029    30.710565 	Giyani-C, Giyani, 0826, South Africa
+324 PEP Store                                                                -23.305842    30.687225 	Giyani Shoprite Centre, Giyani, 0826, South Africa
+325 Russells                                                                 -23.305393    30.687246 	Malamulele Rd, Giyani, 2146, South Africa
+326 Bradlows Giyani                                                          -23.305326    30.686945 	SHOP 3 SHOPRITE CENTRE MAIN MALAMELELE ROAD, GIYANI, Giyani, 2635, South Africa
+327 Russells Giyani Mall                                                     -23.309520    30.692820 	Shop 8 Giyani Mall Plaza, Giyani, 0826, South Africa
+328 Markham                                                                  -23.299916    30.704150 	FNB ROAD, BOMBANI PLAZA, SHOP 4, GIYANI-E, Giyani, 0826, South Africa
+329 Russells Giyani                                                          -23.323200    30.682150 	Shop 14 Benstore Shopping Centre, Giyani, 0826, South Africa
+330 BestDrive Osbro Wheel & Tyre                                             -23.306936    30.704894 	23 Magestrite Road, Giyani-D, Giyani, 0826, South Africa
+331 Edgars MASINGITA MALL, GIYANI                                            -23.310250    30.694650 	SHOP 2, MASINGITA MALL, Giyani, 0826, South Africa
+332 Edgars Active GIYANI SHOPRITE PLAZA                                      -23.312240    30.693580 	SHOP 31 & 23, SHOPRITE PLAZA, CNR MALAMULELE & MAIN ROAD, 0826, South Africa
+333 Barnetts                                                                 -23.305865    30.687194 	Malamelele Rd, Giyani, 0826, South Africa
+334 Morkels                                                                  -23.312009    30.705750 	Malamulele Rd, Giyani, 1700, South Africa
+335 Sign A Print                                                             -23.310059    30.720477 	Stand 61, Section D2, Giyani, 0826, South Africa
+336 Dunns                                                                    -23.309520    30.692820 	SHOP 15, GIYANI PLAZA, DANIE THERON STREET, GIYANI, Giyani, 0826, South Africa
+337 Totalsports - Polokwane                                                  -23.310447    30.694521 	Malamulele Road, Masingita Mall, Shop No 12, Polokwane, Limpopo, 0826, South Africa
+338 Totalsports - Giyani                                                     -23.309241    30.686037 	Malamulele Road, Shop 4, Giyani, 0826, South Africa
+339 Sasekani Clothing & Promotions                                           -23.315005    30.718803 	Sasekani Centre, Plot 22B, Giyani, 0826, South Africa
+340 Paint Pot Giyani                                                         -23.304953    30.688088 	Giyani-BA, Giyani, 0826, South Africa
+341 FreshStop at Caltex Giyani                                               -23.310383    30.685869 	669 Giyani Main Rd, Giyani, 0826, South Africa
+342 Giyani Pharmacy                                                          -23.308862    30.686858 	Shop 3A Spar Building, Giyani, South Africa
+343 Tekkie Town                                                              -23.309517    30.692816 	Shop 15, First Road, Giyani-BA, Giyani, 0826, South Africa
+344 Skipper Bar Masingita Mall                                               -23.308701    30.693318 	Shop 33, Masingita Mall, Giyani-BA, Giyani, 0826, South Africa
+345 Price N Pride                                                            -23.305880    30.711720 	Malamelele Rd, Giyani, 0826, South Africa
+346 Top T Giyani                                                             -23.311467    30.703932 	Giyani Main Rd, Horizon Mall, Giyani, 0826, South Africa
+347 Legit                                                                    -23.313231    30.726597 	Shop 22 Masingita Ctr, Giyani, 0826, South Africa
+348 MAGNUM CELL-LAB                                                          -23.306371    30.688251 	comm hall street, maluleke complex, Giyani, 0826, South Africa
+349 ALL IN ONE SPICE WORLD & SUPERMARKET GIYANI                              -23.307374    30.691064 	Giyani-BA, Giyani, 0826, South Africa
+350 Toys for All (Pty) Ltd                                                   -23.307867    30.690208 	Shop No 05 Opposite FNB Giyani, R81, Giyani-BA, Giyani, 0826, South Africa
+351 POWER Fashion Factory                                                    -23.309861    30.695597 	Giyani-BA, Giyani, 0826, South Africa
+352 Giyani Regional Mall                                                     -23.313364    30.696498 	Giyani-BA, Giyani, 0826, South Africa
+353 Masingita Mall                                                           -23.310250    30.694650 	Giyani-BA, Giyani, 0826, South Africa
+354 Giyani Plaza Centre                                                      -23.309520    30.692820 	Danie Theron Street, Giyani-BA, Giyani, 0826, South Africa
+355 Teyisi Shopping Centre                                                   -23.289780    30.711797 	Giyani-F, Giyani, 0826, South Africa
+356 Masingita Plaza                                                          -23.306264    30.686888 	23°18'22. 30°41'12.8"E, 6th Rd, Northern Farm, 2189, South Africa
+357 Giyani Boulevard                                                         -23.323352    30.682502 	R81, Giyani-B, Giyani, 0826, South Africa
+358 Giyani Truworth                                                          -23.311241    30.695772 	0826, Giyani-BA, Giyani, South Africa
+359 SLEEBOK TOMBSTONES                                                       -23.306616    30.688249 	Giyani-BA, Giyani, 0826, South Africa
+360 Xaka Ra Mbhurhi Complex                                                  -23.315188    30.716570 	1620 portion 2A Giyani section A, 0826, South Africa
+361 Casmart Complex                                                          -23.290197    30.711735 	Unnamed Rd,, Giyani, 0826, South Africa
+362 Chachulani Plaza                                                         -23.309134    30.691423 	Giyani-BA, Giyani, 0826, South Africa
+363 Mana Business Centre                                                     -23.308992    30.717350 	Shimati Rd, Giyani-D, Giyani, 0826, South Africa
+364 Usmani Complex                                                           -23.307887    30.693700 	Giyani-BA, Giyani, 0826, South Africa
+365 Umar Turkshop                                                            -23.292330    30.709094 	Giyani-F, Giyani, 0826, South Africa
+366 Spar - Mopani                                                            -23.311766    30.693327 	Stand 58 Bendstore Plaza, Giyani Main Road, Giyani, 0826, South Africa
+367 Mpj Shopping Centre.ka Baloyi                                            -23.305795    30.685723 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+368 Ackermans Giyani Masangita Mall                                          -23.296130    30.705028 	Shop 3 Masangita Mall Masangita Rd, Giyani-BA, Giyani, 0826, South Africa
+369 Hatshama Trading Store                                                   -23.258208    30.748729 	Hatshama trading store stand no 108, Makosha, 0826, South Africa
+370 Mathebula Estate                                                         -23.241537    30.684695 	Ka-Xikukwani, South Africa
+371 Edgars MASINGITA MALL, GIYANI                                            -23.310250    30.694650 	SHOP 2, MASINGITA MALL, Giyani, 0826, South Africa
+372 MTN Store - Masingita Mall 25                                            -23.311070    30.694752 	Giyani-BA, Limpopo, Giyani, 0826, South Africa
+373 Edgars Active GIYANI SHOPRITE PLAZA                                      -23.312240    30.693580 	SHOP 31 & 23, SHOPRITE PLAZA, CNR MALAMULELE & MAIN ROAD, 0826, South Africa
+374 Skipper Bar Masingita Mall                                               -23.308701    30.693318 	Shop 33, Masingita Mall, Giyani-BA, Giyani, 0826, South Africa
+375 Vashilumani Brickyard                                                    -23.142304    30.802186 	Giyani, South Africa
+376 Vahlavi Plaza                                                            -23.370086    30.509972 	R81, Gandlanani, South Africa
+377 Russells Giyani Mall                                                     -23.309520    30.692820 	Shop 8 Giyani Mall Plaza, Giyani, 0826, South Africa
+378 Kgapane Plaza                                                            -23.464783    30.474550 	Sekhula, South Africa
+379 Laduma Hardware Malamulele                                               -23.007626    30.686907 	Xitlhelani, South Africa
+380 Malamulele Plaza                                                         -22.998704    30.692829 	Malamulele-A, Malamulele, 0982, South Africa
+381 Tygervalley Shopping Centre.                                             -23.613148    31.090834 	Giyani, South Africa
+382 Giyani True Vine Church                                                  -23.288956    30.716434 	Giyani-F, Giyani, 0826, South Africa
+383 St Augustine Catholic Church                                             -23.314319    30.720806 	0826,, Giyani-A, Giyani, South Africa
+384 Philadephia Fire Centre                                                  -23.291106    30.701399 	Giyani-E, Giyani, 0826, South Africa
+385 Harvest Time Church                                                      -23.300559    30.694126 	Giyani Main Rd, Giyani, 0826, South Africa
+386 Giyani Assemblies Of God Fellowship                                      -23.301513    30.697763 	Giyani-E, Giyani, 0826, South Africa
+387 Giyani East Presbytrian Church                                           -23.306681    30.719156 	Giyani-D, Giyani, 0826, South Africa
+388 Kingdom Tabernacle Centre (KTC)                                          -23.289196    30.708139 	Giyani-F, Giyani, 0826, South Africa
+389 Consuming Fire Cathedral                                                 -23.287127    30.715399 	Giyani-F, Giyani, 0826, South Africa
+390 Christ Family Church                                                     -23.304118    30.703180 	Giyani-E, Giyani, 0826, South Africa
+391 Giyane E Locust Army Church                                              -23.298842    30.702335 	Giyani-E, Giyani, 0826, South Africa
+392 Christ Emabassy Giyani                                                   -23.301600    30.706397 	Giyani-E, Giyani, 0826, South Africa
+393 Unity of Faith Church                                                    -23.284201    30.703321 	Giyani-F, Giyani, 0826, South Africa
+394 Giyani Locast Army International Church                                  -23.300189    30.711957 	Unnamed Road, Giyani-E, Giyani, 0826, South Africa
+395 EPC GIYANI WEST                                                          -23.297221    30.698260 	Unnamed Road, Giyani-E, Giyani, 0826, South Africa
+396 GAOG                                                                     -23.315555    30.721857 	0826, Giyani-A, Giyani, South Africa
+397 Miracles Of God Church                                                   -23.316898    30.789945 	No 862 Homu 14A, Homu, 0826, South Africa
+398 Power To Power Christan Church                                           -23.309213    30.667146 	Ka-Siandana, South Africa
+399 True vine Dzingidzingi                                                   -23.339509    30.652305 	Ka-Dizingidzingi, 0826, South Africa
+400 Revival Centre                                                           -23.339387    30.637083 	Giyani, South Africa
+401 Hatshama Assembly Of God                                                 -23.251813    30.749374 	Makosha, 0826, South Africa
+402 Healing Ministry Church                                                  -23.244333    30.710349 	Ka-Xikukwani, South Africa
+403 Faith and Action, Apostolic church                                       -23.328053    30.788773 	Homu 14B, Giyani, 0826, South Africa
+404 Hatshama Assembly Of God                                                 -23.256798    30.747926 	Makosha, 0826, South Africa
+405 AFM Dzingidzingi                                                         -23.333835    30.643310 	Ka-Dizingidzingi, 0826, South Africa
+406 Life Christian Church SA                                                 -23.343019    30.636528 	Dzingidzingi-A, South Africa
+407 Dunamis Bibile Church                                                    -23.252268    30.745048 	Makosha, 0826, South Africa
+408 God's Fire Christian Church                                              -23.334774    30.629075 	Bode, 0826, South Africa
+409 Zion Christian Church (ZCC)                                              -23.329273    30.627069 	Bode, 0826, South Africa
+410 God Is Able Ministries                                                   -23.344976    30.635462 	Dzingidzingi-A, South Africa
+411 Apostolic Faith Mission Bode                                             -23.332531    30.629800 	Bode, 0826, South Africa
+412 House of Prayer (AFM)                                                    -23.240401    30.708809 	Ka-Xikukwani, South Africa
+413 Bethany Life Ministries                                                  -23.333472    30.794175 	Homu, 0831, South Africa
+414 Thomo Evangelism Miracle Church                                          -23.252036    30.789944 	Thomo, 0826, South Africa
+415 JUMMAH MASJID GIYANI                                                     -23.305039    30.688562 	Giyani-BA, Giyani, 0826, South Africa
+416 Tomu zcc                                                                 -23.199119    30.584345 	Giyani, South Africa
+417 Revelation Church Of God                                                 -23.197888    30.700450 	Mavalani, South Africa
+418 Emmanuel Assembly Homu 14A                                               -23.303491    30.803631 	Homu, 0831, South Africa
+419 Mninginisi Block 3                                                       -23.151248    30.803806 	Riverpark street, Mininginisi, South Africa
+420 Nantswo Investments, Trading as Giyani Quarry                            -23.307222    30.688569 	Office 3, KP Maluleke Complex, Giyani, 0826, South Africa
+421 Giyani Quarry, Three Diamonds Trading 87                                 -23.351596    30.658207 	giyani quarry road, South Africa
+422 Engen Elim Plaza Convenience Centre                                      -23.311625    30.692842 	Giyane Rd, Elim, 0960, South Africa
+423 MOHALE FARMSTEAD                                                         -23.308923    30.716043 	Giyani-D, Giyani, 0826, South Africa
+424 Mavhikani                                                                -23.311789    30.720332 	Giyani-D, Giyani, 0826, South Africa
+425 MAGREENOS FARM                                                           -23.256798    30.747926 	ka, Makosha, South Africa
+426 Chavalala Mixed Farming                                                  -23.315959    30.609921 	Giyani, Maswanganyi, South Africa
+427 Meshack Farms                                                            -23.220129    30.689282 	Giyani, South Africa
+428 KVM Poultry Farm                                                         -23.133733    30.811399 	Giyani, South Africa
+429 El Rancho Farming And Projects                                           -23.435072    30.582485 	Modjadjiskloof, South Africa
+430 Cashbuild Giyani Central                                                 -23.305984    30.692134 	Giyani-D, Giyani, 0826, South Africa
+431 Mbavazi Poultry Farm                                                     -23.236831    30.529438 	Old Malonga to Sifasonke road near Khathu Bricksyard, South Africa
+432 Nkuna Family Farm                                                        -23.484000    30.864000 	Xawela, South Africa
+433 NGAMBA CHICKEN FARM                                                      -23.592100    30.706634 	Giyani, South Africa
+434 Mcezi Farming Enterprise                                                 -23.568434    30.716630 	Ka-Rhangani, Mageva-A, South Africa
+435 Dzundeni Fruits & Veg                                                    -23.214582    30.454868 	Louis Trichardt, South Africa
+436 green khosa farm                                                         -23.176403    30.486164 	Tshimbupfe, Vuwani, 0983, South Africa
+437 Dzundeni                                                                 -23.183345    30.488829 	0983, Tshimbupfe, South Africa
+438 Malan Farm                                                               -23.569084    30.712738 	Dzumeri, Mageva-A, South Africa
+439 ntimba's field                                                           -23.563509    30.700692 	Ka-Dzumeri, KaDzumeri, 0833, South Africa
+440 Bisson's field                                                           -23.570058    30.708834 	Dzumeri, Mageva-A, South Africa
+441 Miami Canners B K                                                        -23.697898    30.596521 	South Africa
+442 Buco Giyani                                                              -23.305351    30.690801 	Giyani-BA, Giyani, 0826, South Africa
+443 Giyani Top Tiles                                                         -23.311625    30.692842 	Giyani Main Rd, Giyani-BA, Giyani, 0826, South Africa
+444 Engen Elim Plaza Convenience Centre                                      -23.311625    30.692842 	Giyane Rd, Elim, 0960, South Africa
+445 Henley Farms                                                             -23.770302    30.541153 	Phalaborwa, South Africa
+446 Masingita Plaza                                                          -23.306264    30.686888 	23°18'22. 30°41'12.8"E, 6th Rd, Northern Farm, 2189, South Africa
+447 Spar - Mopani                                                            -23.311766    30.693327 	Stand 58 Bendstore Plaza, Giyani Main Road, Giyani, 0826, South Africa
+448 JetMart GIYANI                                                           -23.305678    30.710582 	SHOP 5, BENDSTORE SHOPPING CENTRE, Giyani, 0826, South Africa
+449 Makhinya Poultry Farm                                                    -23.627322    30.584978 	Farm 55,Ramochinyadi, Merekome, South Africa
+450 Giyani Build it                                                          -23.305678    30.691652 	Giyani-BA, Giyani, 0826, South Africa
+451 Barnetts                                                                 -23.305865    30.687194 	Malamelele Rd, Giyani, 0826, South Africa
+452 Morkels                                                                  -23.312009    30.705750 	Malamulele Rd, Giyani, 1700, South Africa
+453 The Local Choice Pharmacy Shirinda                                       -23.308490    30.709580 	Shop No 20 Shoprite Masingita Plaza Shopping Cntr, Giyani Main Road, Giyani, 0826, South Africa
+454 Price N Pride                                                            -23.305880    30.711720 	Malamelele Rd, Giyani, 0826, South Africa
+455 Bluebird Farm                                                            -23.362995    30.245503 	Hartebeesfontein, Hartbeesfontein, South Africa

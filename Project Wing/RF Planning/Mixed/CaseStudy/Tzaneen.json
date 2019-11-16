@@ -1,0 +1,1560 @@
+{
+    "1": {
+        "formatted_address": "9 Loop St, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.825513,
+                "lng": 30.158793
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82415577010728,
+                    "lng": 30.16011227989273
+                },
+                "southwest": {
+                    "lat": -23.82685542989272,
+                    "lng": 30.15741262010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "e2dee7f22312280a564292baa301ed906c3384d5",
+        "name": "Tzaneen Travel Clinic.",
+        "place_id": "ChIJZ0t6jN-pxh4RtTzD2BWsb8s",
+        "plus_code": {
+            "compound_code": "55F5+QG Tzaneen, South Africa",
+            "global_code": "5G8G55F5+QG"
+        },
+        "rating": 0,
+        "reference": "ChIJZ0t6jN-pxh4RtTzD2BWsb8s",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "2": {
+        "formatted_address": "Claude Wheatley St, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8255146,
+                "lng": 30.1639054
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82418062010728,
+                    "lng": 30.16522552989272
+                },
+                "southwest": {
+                    "lat": -23.82688027989272,
+                    "lng": 30.16252587010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "50bd47bdb9e9d53bf77934452f7b782bc38a9c8f",
+        "name": "Tzaneen Busstop Clinic",
+        "opening_hours": {},
+        "place_id": "ChIJ49zGsXQCxB4RAZnZ_HNZkw4",
+        "plus_code": {
+            "compound_code": "55F7+QH Tzaneen, South Africa",
+            "global_code": "5G8G55F7+QH"
+        },
+        "rating": 0,
+        "reference": "ChIJ49zGsXQCxB4RAZnZ_HNZkw4",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "3": {
+        "formatted_address": "R71 Wolkberg Avenue, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8226407,
+                "lng": 30.1527959
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82111012010728,
+                    "lng": 30.15411457989272
+                },
+                "southwest": {
+                    "lat": -23.82380977989272,
+                    "lng": 30.15141492010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "56517be4b087f355592b778f4ecc6b994d18dad3",
+        "name": "Tzaneen Medi-Clinic",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114402395951468578213/photos\">Harmony Mkhabela</a>"
+                ],
+                "photo_reference": "CmRaAAAANy0yC1m1_K4OUZiJRgeSyNAH98Q7JjaFbHMWH9CAjtPi3Bf2ebXSc2_tPg1Ln0vDPOMZ1YLMyNGpXsrRM9LbZpcX4OmsKLYg3ekOgQYqpL9PxJp45nGV0c4Y-gl0_HTwEhBLyqbOAF4S_jK_nq47WzSAGhTTuSET4nUmLXL4mF4n7FQo93am7Q",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJrdmu5Nupxh4RPTewCPA46aU",
+        "plus_code": {
+            "compound_code": "55G3+W4 Tzaneen, South Africa",
+            "global_code": "5G8G55G3+W4"
+        },
+        "rating": 3.8,
+        "reference": "ChIJrdmu5Nupxh4RPTewCPA46aU",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "4": {
+        "formatted_address": "43 Douglas Street, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8222999,
+                "lng": 30.15171
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82095007010727,
+                    "lng": 30.15305982989272
+                },
+                "southwest": {
+                    "lat": -23.82364972989271,
+                    "lng": 30.15036017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "d4013e9a9d1b8967df9778ce39605e0b6860a017",
+        "name": "Spies S J & Partners",
+        "opening_hours": {},
+        "place_id": "ChIJO8U0k9upxh4RKgC6SG8zZ78",
+        "plus_code": {
+            "compound_code": "55H2+3M Tzaneen, South Africa",
+            "global_code": "5G8G55H2+3M"
+        },
+        "rating": 3,
+        "reference": "ChIJO8U0k9upxh4RKgC6SG8zZ78",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "5": {
+        "formatted_address": "25 Agatha St, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.829879,
+                "lng": 30.157696
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82857382010727,
+                    "lng": 30.15910227989272
+                },
+                "southwest": {
+                    "lat": -23.83127347989272,
+                    "lng": 30.15640262010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "f64e4a37734d46586aeeb96708fa48bc250f62c9",
+        "name": "Mens Clinic International - Tzaneen",
+        "opening_hours": {},
+        "place_id": "ChIJj-nmNOCpxh4Rye9aHv6D_lQ",
+        "plus_code": {
+            "compound_code": "55C5+23 Tzaneen, South Africa",
+            "global_code": "5G8G55C5+23"
+        },
+        "rating": 1,
+        "reference": "ChIJj-nmNOCpxh4Rye9aHv6D_lQ",
+        "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "6": {
+        "formatted_address": "22 Peace St, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.83188,
+                "lng": 30.15794
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83046027010728,
+                    "lng": 30.15920147989272
+                },
+                "southwest": {
+                    "lat": -23.83315992989272,
+                    "lng": 30.15650182010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9e6647420bc6a35e0734c267e5ee80eaa1001847",
+        "name": "S a Federation for Mental Health",
+        "opening_hours": {},
+        "place_id": "ChIJGfM97uGpxh4RXO1rdtB_csM",
+        "plus_code": {
+            "compound_code": "5595+65 Tzaneen, South Africa",
+            "global_code": "5G8G5595+65"
+        },
+        "rating": 0,
+        "reference": "ChIJGfM97uGpxh4RXO1rdtB_csM",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "7": {
+        "formatted_address": "2 Park St, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8370478,
+                "lng": 30.156029
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83565797010728,
+                    "lng": 30.15739602989272
+                },
+                "southwest": {
+                    "lat": -23.83835762989272,
+                    "lng": 30.15469637010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9bfa33d72fc76b6990a5616bdfc8d0bc30a274ad",
+        "name": "Elle Beaut\u00e9",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJWdoBIOOpxh4R6P2f7tk9DFQ",
+        "rating": 0,
+        "reference": "ChIJWdoBIOOpxh4R6P2f7tk9DFQ",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "8": {
+        "formatted_address": "Suite 2 Ivory Tusk Medical Centre, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8221766,
+                "lng": 30.1533512
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82082677010727,
+                    "lng": 30.15470102989272
+                },
+                "southwest": {
+                    "lat": -23.82352642989272,
+                    "lng": 30.15200137010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "e1c8ae53b3544b9cd39aaeded358a422366ecf22",
+        "name": "Limpopo Pain Clinic",
+        "place_id": "ChIJ963VWdmpxh4R7D_CQi9ZA5M",
+        "plus_code": {
+            "compound_code": "55H3+48 Tzaneen, South Africa",
+            "global_code": "5G8G55H3+48"
+        },
+        "rating": 0,
+        "reference": "ChIJ963VWdmpxh4R7D_CQi9ZA5M",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "9": {
+        "formatted_address": "Mediclinic Tzaneen Wolkberg Drive, R71, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.822626,
+                "lng": 30.1527932
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82110277010728,
+                    "lng": 30.15411312989272
+                },
+                "southwest": {
+                    "lat": -23.82380242989272,
+                    "lng": 30.15141347010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "96ca23ef952d1bf05f432ed0097d9c0356e2dbc3",
+        "name": "Afrirad Medical Imaging Inc",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJNwEd_dupxh4RmYliyt2kH7Y",
+        "plus_code": {
+            "compound_code": "55G3+W4 Tzaneen, South Africa",
+            "global_code": "5G8G55G3+W4"
+        },
+        "rating": 1,
+        "reference": "ChIJNwEd_dupxh4RmYliyt2kH7Y",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "10": {
+        "formatted_address": "R71, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8193699,
+                "lng": 30.1639191
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.81853142010728,
+                    "lng": 30.16549947989272
+                },
+                "southwest": {
+                    "lat": -23.82123107989272,
+                    "lng": 30.16279982010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "755ba6c90f2bf98011d5e059cb2f0b313c740205",
+        "name": "FMS Academy CC",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJ7-jiSuepxh4RPK4gAyGRAIs",
+        "plus_code": {
+            "compound_code": "55J7+7H Tzaneen, South Africa",
+            "global_code": "5G8G55J7+7H"
+        },
+        "rating": 5,
+        "reference": "ChIJ7-jiSuepxh4RPK4gAyGRAIs",
+        "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "11": {
+        "formatted_address": "7 Koedoe St, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8299517,
+                "lng": 30.1710839
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82845687010727,
+                    "lng": 30.17236867989272
+                },
+                "southwest": {
+                    "lat": -23.83115652989272,
+                    "lng": 30.16966902010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "de44daf9b191d2d818819fa16b53b390f9dafa24",
+        "name": "Tzaneen Precision Motor Works CC",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112900964038216404940/photos\">Tzaneen Precision Motor Works CC</a>"
+                ],
+                "photo_reference": "CmRaAAAAwXqgg4xatIJIEvk0tdlPK96PDLcgb7g6x7YRO705C__eSwsXWZ--5C2UV6Xc2oL5DZyr0Yq1BhFmhDhwYMsV6I3wJKQWX0llsE8F36-v_rGNsSqFRaKbiVdY-xJmAHbWEhACjaRjaPPdweiDhngOsREcGhS-jzOjKvHwTvwQiSKrPb1y3wgCdA",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJpeobThICxB4Rs1gcwRobqbc",
+        "plus_code": {
+            "compound_code": "55CC+2C Tzaneen, South Africa",
+            "global_code": "5G8G55CC+2C"
+        },
+        "rating": 0,
+        "reference": "ChIJpeobThICxB4Rs1gcwRobqbc",
+        "types": [
+            "car_repair",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "12": {
+        "formatted_address": "R71, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8218,
+                "lng": 30.16744
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82045017010728,
+                    "lng": 30.16878982989272
+                },
+                "southwest": {
+                    "lat": -23.82314982989272,
+                    "lng": 30.16609017010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "8cee17c0dbd56268e2cce0a24d29263ffa80dcff",
+        "name": "Tzaneen Medi-Clinic",
+        "opening_hours": {},
+        "place_id": "ChIJ_26PsnMCxB4RyjWslMOlMUs",
+        "plus_code": {
+            "compound_code": "55H8+7X Tzaneen, South Africa",
+            "global_code": "5G8G55H8+7X"
+        },
+        "rating": 0,
+        "reference": "ChIJ_26PsnMCxB4RyjWslMOlMUs",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "13": {
+        "formatted_address": "Shop 05 Life Style Centre, Cnr R71 & Voortrekker Road, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8220548,
+                "lng": 30.15716159999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82070497010728,
+                    "lng": 30.15851142989272
+                },
+                "southwest": {
+                    "lat": -23.82340462989272,
+                    "lng": 30.15581177010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "990c0183ddbca16287d09ca6215537108fedfe31",
+        "name": "Van Heerden Pharmacy Tzaneen",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115598610988927147937/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAtPeA3oolQ015qSMIDZJj1Zfqp4AeNzyj-1mTb3MhkEhOWXqbsrEANLFIu0dFfC_Y6d-YXemtJfn2KZflf-CYZm_gnInMVp7Gm0UiZJYNBBRf95YFfyZDEYFOYGVkeTBSEhCb_kkqKU7qVJJ55Y7lcKftGhRKWx6Y25k3WU5HzvZlSKz-mZiQxA",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJZ8l0YN-pxh4R9yXgyrWt2pQ",
+        "plus_code": {
+            "compound_code": "55H4+5V Tzaneen, South Africa",
+            "global_code": "5G8G55H4+5V"
+        },
+        "rating": 3.8,
+        "reference": "ChIJZ8l0YN-pxh4R9yXgyrWt2pQ",
+        "types": [
+            "pharmacy",
+            "store",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "14": {
+        "formatted_address": "Third Avenue, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.83507,
+                "lng": 30.16432
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83372017010728,
+                    "lng": 30.16566982989272
+                },
+                "southwest": {
+                    "lat": -23.83641982989273,
+                    "lng": 30.16297017010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "a1835c32aa8c300e585f06f7931a8f4338206d0e",
+        "name": "Van Velden Hospital.",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102311342789582523301/photos\">Thabo Casca Mafokwane</a>"
+                ],
+                "photo_reference": "CmRaAAAAXyCdZezgktrXX790rUHRouws99VwrEOiXgOoVMRKKWSulsvYSgIV2u3i-Zn1yDrPtI0WTaZ1RjBQN3wFgooVqk_5bVKDrniVJY3CoWn2A8JwTqkqYVNP5sPPBTQSk3laEhAqMPl8glVZlvWJT_yvWipSGhTXCgYhrc3kfV7KlIm6sAM4UWt7XQ",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJE4p7yQgCxB4RJD1kjz9rKvE",
+        "plus_code": {
+            "compound_code": "5577+XP Tzaneen, South Africa",
+            "global_code": "5G8G5577+XP"
+        },
+        "rating": 3.5,
+        "reference": "ChIJE4p7yQgCxB4RJD1kjz9rKvE",
+        "types": [
+            "hospital",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "15": {
+        "formatted_address": "Shop CS 18 Tzaneen Crossing Mall Next To PostNet, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.82892,
+                "lng": 30.161162
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82757017010728,
+                    "lng": 30.16251182989273
+                },
+                "southwest": {
+                    "lat": -23.83026982989272,
+                    "lng": 30.15981217010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "a4e3760b89f05b93b5b68d02210c850378ac743b",
+        "name": "Mushavhanamadi T E",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1460,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104213655247539411989/photos\">Mushavhanamadi T E</a>"
+                ],
+                "photo_reference": "CmRaAAAAgE18l0NIMAiSfasgn_mdTkvZ-jyM62kWU5FjKI6AcE4ulLw4o0xqXZ6HWfJtyhgoVjx9GoTt9Q3gFgRifF8U_B40Sc2_nHaxtmIUYhFRU6-HyL3tYak-BnVW53QegCMBEhDoh9TSm_bMHEtTD_DoWbgKGhSSXcbsqLyuw7COjWYjwQAvI7KO6Q",
+                "width": 1456
+            }
+        ],
+        "place_id": "ChIJgZ5z_9-pxh4RPxj4bmphdbM",
+        "plus_code": {
+            "compound_code": "55C6+CF Tzaneen, South Africa",
+            "global_code": "5G8G55C6+CF"
+        },
+        "rating": 0,
+        "reference": "ChIJgZ5z_9-pxh4RPxj4bmphdbM",
+        "types": [
+            "doctor",
+            "dentist",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "16": {
+        "formatted_address": "12 Peace St, Arbor Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.83309,
+                "lng": 30.15681
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83167032010728,
+                    "lng": 30.15807047989271
+                },
+                "southwest": {
+                    "lat": -23.83436997989272,
+                    "lng": 30.15537082010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "9c523de9dc063ce9e2c2cce38aa6a4389be3ce10",
+        "name": "Altona Gail Optometrist",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJlTIjJuKpxh4RiZLtu9lsu2Q",
+        "plus_code": {
+            "compound_code": "5584+QP Tzaneen, South Africa",
+            "global_code": "5G8G5584+QP"
+        },
+        "rating": 4.2,
+        "reference": "ChIJlTIjJuKpxh4RiZLtu9lsu2Q",
+        "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "17": {
+        "formatted_address": "28 Koedoe St, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8289987,
+                "lng": 30.1644829
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82762057010728,
+                    "lng": 30.16607012989273
+                },
+                "southwest": {
+                    "lat": -23.83032022989272,
+                    "lng": 30.16337047010729
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "6baf0e70acff6f1517a6e2f9fb9d4bea504bb2f2",
+        "name": "Dentists in Tzaneen (Dental Surgery)",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJc7RVFLEDxB4RxTK6ZomOnAU",
+        "plus_code": {
+            "compound_code": "55C7+CQ Tzaneen, South Africa",
+            "global_code": "5G8G55C7+CQ"
+        },
+        "rating": 5,
+        "reference": "ChIJc7RVFLEDxB4RxTK6ZomOnAU",
+        "types": [
+            "dentist",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "18": {
+        "formatted_address": "Boundary St, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8323743,
+                "lng": 30.1520763
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83100552010728,
+                    "lng": 30.15351917989272
+                },
+                "southwest": {
+                    "lat": -23.83370517989272,
+                    "lng": 30.15081952010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "bb8ec5f8ce02d7fb5d4460385bdc16ea7e2a2051",
+        "name": "Tzaneen Animal Clinic",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2322,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118134186248734063279/photos\">Suhayfa Junade</a>"
+                ],
+                "photo_reference": "CmRZAAAAGvtClMyqtRCE_bLJAsqPag6nZ66bbbcn3l1xFQ-50AjVbBQWYZGvgyqzjI77mOxJxTTUZeiKr2gagj-qUJBF3rhLz6Y8rUFxqnVn76ZG89sVFDYVQDOPUwzkPt02VwleEhDgEwdZcsiLWsAw4wCYV1_8GhQgyXRPt7rjsp_ofw31jtznnRVMig",
+                "width": 4128
+            }
+        ],
+        "place_id": "ChIJCdtc5eGpxh4RI0KQ1AfXHPI",
+        "plus_code": {
+            "compound_code": "5592+3R Tzaneen, South Africa",
+            "global_code": "5G8G5592+3R"
+        },
+        "rating": 4.3,
+        "reference": "ChIJCdtc5eGpxh4RI0KQ1AfXHPI",
+        "types": [
+            "veterinary_care",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "19": {
+        "formatted_address": "Ebenezer St, Aqua Park, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8095201,
+                "lng": 30.1613946
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.80816012010728,
+                    "lng": 30.16271182989272
+                },
+                "southwest": {
+                    "lat": -23.81085977989272,
+                    "lng": 30.16001217010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "227425a9b5a7aa204e5d82557d324137319df85f",
+        "name": "Applegrange",
+        "place_id": "ChIJURg83HEDxB4RIpH7kfKkdbg",
+        "plus_code": {
+            "compound_code": "55R6+5H Tzaneen, South Africa",
+            "global_code": "5G8G55R6+5H"
+        },
+        "rating": 0,
+        "reference": "ChIJURg83HEDxB4RIpH7kfKkdbg",
+        "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "20": {
+        "formatted_address": "shop no.1, Dental Surgery, 28 Koedoe St, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8340235,
+                "lng": 30.1368454
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83267367010728,
+                    "lng": 30.13819522989272
+                },
+                "southwest": {
+                    "lat": -23.83537332989272,
+                    "lng": 30.13549557010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c23ee12bfb73a8fc9aa1f39c337343d3aec5e471",
+        "name": "Limpopo Dentists",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJg6mch5fZxh4RC9NWfKN07pk",
+        "plus_code": {
+            "compound_code": "548P+9P Tzaneen, South Africa",
+            "global_code": "5G8G548P+9P"
+        },
+        "rating": 5,
+        "reference": "ChIJg6mch5fZxh4RC9NWfKN07pk",
+        "types": [
+            "dentist",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "21": {
+        "formatted_address": "M2 R71, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8022812,
+                "lng": 30.1214144
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.80112592010727,
+                    "lng": 30.12278697989272
+                },
+                "southwest": {
+                    "lat": -23.80382557989272,
+                    "lng": 30.12008732010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "978aea2e024f8fdaa520b100dd129a4e0e33b493",
+        "name": "Allesbeste",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3456,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105593507325873898539/photos\">Allesbeste Nursery</a>"
+                ],
+                "photo_reference": "CmRaAAAAUk_DiWx390K_40JlKs6TRL0BBqOPsawmKI4HS2eRHH9H_Ze4mXUwejIHSNEjmfOG2ZNRKqcO_gt9UzT3_9HZu0oMGLwr_IhjSnI5ENI9voF24GlM9tAT_OonD3X40sQHEhBlRZojPTk1Y-UnLTAWuDA1GhTMdW3VzpIjcg95Bo-CaNIJoKtNLQ",
+                "width": 5184
+            }
+        ],
+        "place_id": "ChIJkYbQj1qoxh4RwJcBNlLT6J8",
+        "plus_code": {
+            "compound_code": "54XC+3H Tzaneen, South Africa",
+            "global_code": "5G8G54XC+3H"
+        },
+        "rating": 4.4,
+        "reference": "ChIJkYbQj1qoxh4RwJcBNlLT6J8",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "22": {
+        "formatted_address": "R71 Magoebaskloof Road, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.803575,
+                "lng": 30.1060122
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.80222517010728,
+                    "lng": 30.10736202989272
+                },
+                "southwest": {
+                    "lat": -23.80492482989272,
+                    "lng": 30.10466237010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+        "id": "75b3752e8305fe979e17689e254656c56d3f7d90",
+        "name": "THE WHEELBARROW FARMSTALL",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1080,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116279217151519623569/photos\">Riempster Maree</a>"
+                ],
+                "photo_reference": "CmRaAAAAjm8zJ_MRkAKFWCFEbugAzpUVj5d5mOUebYZhq6N9H_ClE5rmVukWSlXCcylJRD3Nz_4eE_05kHPtRqSs7Z7IjYdxyk29hJxDyNp_9w8uhjO20rTUc5e7kyMQ70Q_kYSeEhA4QyjMb2ycoofT5ekp91XAGhScvb1s9ZC31z4OwAJVt8yzg2mmUw",
+                "width": 1920
+            }
+        ],
+        "place_id": "ChIJoVu64PCoxh4RTGUZA7KWQ1c",
+        "plus_code": {
+            "compound_code": "54W4+HC Tzaneen, South Africa",
+            "global_code": "5G8G54W4+HC"
+        },
+        "rating": 4,
+        "reference": "ChIJoVu64PCoxh4RTGUZA7KWQ1c",
+        "types": [
+            "cafe",
+            "grocery_or_supermarket",
+            "park",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ]
+    },
+    "23": {
+        "formatted_address": "GV35, R528, Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9004096,
+                "lng": 30.0737871
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.89905977010728,
+                    "lng": 30.07513692989272
+                },
+                "southwest": {
+                    "lat": -23.90175942989272,
+                    "lng": 30.07243727010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "3246f96cad33c923e638a3ef1a993f0b74198fcf",
+        "name": "Redbank Farm",
+        "opening_hours": {},
+        "place_id": "ChIJxxLyv4Wrxh4RTSuj_bX-VZo",
+        "plus_code": {
+            "compound_code": "33XF+RG Tzaneen, South Africa",
+            "global_code": "5G8G33XF+RG"
+        },
+        "rating": 4,
+        "reference": "ChIJxxLyv4Wrxh4RTSuj_bX-VZo",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "24": {
+        "formatted_address": "Section 15, Old Gravelotte Road, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.823791,
+                "lng": 30.1571711
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.82244117010728,
+                    "lng": 30.15852092989272
+                },
+                "southwest": {
+                    "lat": -23.82514082989272,
+                    "lng": 30.15582127010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+        "id": "62c3b100ce673e8ea7cb8251937dd01a18ec0aa3",
+        "name": "Cottondale Game Breeders",
+        "place_id": "ChIJEUxy8ggx6B4RLFQLatUeS1Y",
+        "plus_code": {
+            "compound_code": "55G4+FV Tzaneen, South Africa",
+            "global_code": "5G8G55G4+FV"
+        },
+        "rating": 0,
+        "reference": "ChIJEUxy8ggx6B4RLFQLatUeS1Y",
+        "types": [
+            "point_of_interest",
+            "food",
+            "establishment"
+        ]
+    },
+    "25": {
+        "formatted_address": "Annecke St, Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8366909,
+                "lng": 30.13374199999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83532902010728,
+                    "lng": 30.13510257989272
+                },
+                "southwest": {
+                    "lat": -23.83802867989272,
+                    "lng": 30.13240292010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "0ac1beea83d4f2275fe77f5659ea7bffe998eeb7",
+        "name": "Molani Estate Gate A",
+        "opening_hours": {},
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111657337758103073102/photos\">Didi Schoeman</a>"
+                ],
+                "photo_reference": "CmRaAAAA_gTjeG5BMTNxe1xM_v-ZnM-5M7ktk3Bp9Kk3LgWoQRSFIrdmOWhpXoPjT-nYE6DghbWzYGZepnI1-lLHLvUS0hkoY8nYsXn2WOmHW2tVZtfRcsdP6-1qum4ggYK0ODYOEhCdS2QThnEH957rMlYqlBoqGhRvvgXiEUsRhLeNLOaGeVdp3hDdiA",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJaV5pkpSpxh4RlRNbDFhcPIo",
+        "plus_code": {
+            "compound_code": "547M+8F Tzaneen, South Africa",
+            "global_code": "5G8G547M+8F"
+        },
+        "rating": 4,
+        "reference": "ChIJaV5pkpSpxh4RlRNbDFhcPIo",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "26": {
+        "formatted_address": "Unnamed Road,, Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8427437,
+                "lng": 30.0846846
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.84139387010728,
+                    "lng": 30.08603442989272
+                },
+                "southwest": {
+                    "lat": -23.84409352989272,
+                    "lng": 30.08333477010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "5a4ced589c93b56fde487d2706da05b152d631e5",
+        "name": "Evenrond",
+        "opening_hours": {},
+        "place_id": "ChIJ20K3WT-pxh4RuT8o3QJnslU",
+        "plus_code": {
+            "compound_code": "534M+WV Tzaneen, South Africa",
+            "global_code": "5G8G534M+WV"
+        },
+        "rating": 0,
+        "reference": "ChIJ20K3WT-pxh4RuT8o3QJnslU",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "27": {
+        "formatted_address": "Main Road, Modjadjiskloof, 0835, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.7372114,
+                "lng": 30.1116795
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.73586157010728,
+                    "lng": 30.11302932989272
+                },
+                "southwest": {
+                    "lat": -23.73856122989272,
+                    "lng": 30.11032967010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "f3ff0d5262b5706f03da6c02776c793c37933c40",
+        "name": "Westfalia Fruit Estates",
+        "opening_hours": {},
+        "photos": [
+            {
+                "height": 3120,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115816105613530107900/photos\">tebogo monyane</a>"
+                ],
+                "photo_reference": "CmRaAAAAE-Mgd63DnyhLm9O9QvXIr2pMyidWaBAFBAhDTwIcUA6sXmlmTTiDn9BWyLpLhlt7YchQFevxGZ4dbJQhgnX3bt9Lw-Zp6rLtl5n2v94vcvJmFSD6dO5R0nt3Z7uzdaU5EhDySfm5WHvFVbV9yVjybMMuGhTVl-WnmI9afII8-Mgu2uC9otRIiw",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJde9EfESnxh4R0a2pHeqHKl0",
+        "plus_code": {
+            "compound_code": "7476+4M Tzaneen, South Africa",
+            "global_code": "5G8G7476+4M"
+        },
+        "rating": 3.8,
+        "reference": "ChIJde9EfESnxh4R0a2pHeqHKl0",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "28": {
+        "formatted_address": "Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8343847,
+                "lng": 30.1334743
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83303487010728,
+                    "lng": 30.13482412989273
+                },
+                "southwest": {
+                    "lat": -23.83573452989272,
+                    "lng": 30.13212447010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "1c540c7d5e316f64be931cc9a7898252645cf682",
+        "name": "Molani Estate Gate C",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2336,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107751724995680621562/photos\">Thembinkosi Mabila</a>"
+                ],
+                "photo_reference": "CmRaAAAA0w9Gy104p_I3zp2P0nxSU6tOBGk5YCLrhiYxHNHDnY5-nl9ClnWD_T3zZmnRM58i1e23PjX8yZ7O2f5wMZWWcua_xj_JGmMiEB-YL3vHQ9tLbRfdaSz14vdWE1a7Q4hLEhBdNXneGCYpRwI2pT1fCBBZGhR7epTNVSRNejJyQMFe86MDTQy_-g",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJN-0ID5Wpxh4Rt5pZB-GXaPY",
+        "plus_code": {
+            "compound_code": "548M+69 Tzaneen, South Africa",
+            "global_code": "5G8G548M+69"
+        },
+        "rating": 5,
+        "reference": "ChIJN-0ID5Wpxh4Rt5pZB-GXaPY",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "29": {
+        "formatted_address": "AB1, Agatha Road, Agatha, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8947884,
+                "lng": 30.1320828
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.89343857010727,
+                    "lng": 30.13343262989271
+                },
+                "southwest": {
+                    "lat": -23.89613822989272,
+                    "lng": 30.13073297010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "52f6762995908d65de839c8db715c74701f07f23",
+        "name": "Mac Hill Farm",
+        "opening_hours": {},
+        "place_id": "ChIJx8zyHF-qxh4Rfk0n2VqXQIo",
+        "plus_code": {
+            "compound_code": "444J+3R Tzaneen, South Africa",
+            "global_code": "5G8G444J+3R"
+        },
+        "rating": 0,
+        "reference": "ChIJx8zyHF-qxh4Rfk0n2VqXQIo",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "30": {
+        "formatted_address": "Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.761951,
+                "lng": 30.147924
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.76060117010728,
+                    "lng": 30.14927382989272
+                },
+                "southwest": {
+                    "lat": -23.76330082989272,
+                    "lng": 30.14657417010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "7eec677d78a3f6e36dafc2ca05359edb73863c62",
+        "name": "Farm BOSCHOEK",
+        "place_id": "ChIJE37V1vynxh4RfWPMDuQesrI",
+        "plus_code": {
+            "compound_code": "64QX+65 Tzaneen, South Africa",
+            "global_code": "5G8G64QX+65"
+        },
+        "rating": 0,
+        "reference": "ChIJE37V1vynxh4RfWPMDuQesrI",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "31": {
+        "formatted_address": "Molani Road, Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8370724,
+                "lng": 30.1324058
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83572257010728,
+                    "lng": 30.13375562989272
+                },
+                "southwest": {
+                    "lat": -23.83842222989272,
+                    "lng": 30.13105597010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "bfcc727af7fcd6adc09e3e97747d8dac621e0ba4",
+        "name": "Molani Estate",
+        "place_id": "ChIJ3VgiYMKpxh4RIrcaSYwbViw",
+        "plus_code": {
+            "compound_code": "547J+5X Tzaneen, South Africa",
+            "global_code": "5G8G547J+5X"
+        },
+        "rating": 0,
+        "reference": "ChIJ3VgiYMKpxh4RIrcaSYwbViw",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "32": {
+        "formatted_address": "Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.7392088,
+                "lng": 30.11422779999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.73785897010728,
+                    "lng": 30.11557762989272
+                },
+                "southwest": {
+                    "lat": -23.74055862989272,
+                    "lng": 30.11287797010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "e8e16f9f19595fa4e65aca2a3539c1f4815dadf9",
+        "name": "Waterval",
+        "opening_hours": {},
+        "place_id": "ChIJN3EXaK2nxh4RWGwor0PdxAM",
+        "plus_code": {
+            "compound_code": "7467+8M Tzaneen, South Africa",
+            "global_code": "5G8G7467+8M"
+        },
+        "rating": 3,
+        "reference": "ChIJN3EXaK2nxh4RWGwor0PdxAM",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "33": {
+        "formatted_address": "Farm Dwarsfontein 541 Main Road, R36, Politsi, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.7711369,
+                "lng": 30.1138426
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.77005972010727,
+                    "lng": 30.11466172989272
+                },
+                "southwest": {
+                    "lat": -23.77275937989272,
+                    "lng": 30.11196207010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "c431e6e96fb3461753e0a724ac1ec6e661259759",
+        "name": "Afrupro Exporters Pty Ltd",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 586,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111241335047839070372/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAL8jge3S0mhaVpdtgyqDPUMcyse4nBsKveKdy4Swo7eWcdXKQzopd3NGoLFhOYXxb3bK4zbe-th4lTnG7q5N50mCOfcLx4uDYl5y-I2C1w7QBm8-Qevey5Ilu7v_d_OcVEhCvMNQRtBOeFUI1VFNOdTWbGhQsZR_Pss52HEdpSo1BTAmpOs8x7w",
+                "width": 1920
+            }
+        ],
+        "place_id": "ChIJ9_36tQcCxB4R5wei_RIcVak",
+        "plus_code": {
+            "compound_code": "64H7+GG Tzaneen, South Africa",
+            "global_code": "5G8G64H7+GG"
+        },
+        "rating": 4.6,
+        "reference": "ChIJ9_36tQcCxB4R5wei_RIcVak",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "34": {
+        "formatted_address": "Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.838838,
+                "lng": 30.1321141
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.83748817010727,
+                    "lng": 30.13346392989272
+                },
+                "southwest": {
+                    "lat": -23.84018782989272,
+                    "lng": 30.13076427010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "93f0565377e3688938bbf40f36dd7b5a59366188",
+        "name": "Red Sun Hortitech",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJ0TMhkJOpxh4RBkwusmFgr4c",
+        "plus_code": {
+            "compound_code": "546J+FR Tzaneen, South Africa",
+            "global_code": "5G8G546J+FR"
+        },
+        "rating": 0,
+        "reference": "ChIJ0TMhkJOpxh4RBkwusmFgr4c",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "35": {
+        "formatted_address": "1 Hansfontein Farm, Politsi, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.723322,
+                "lng": 30.180902
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.72197217010728,
+                    "lng": 30.18225182989272
+                },
+                "southwest": {
+                    "lat": -23.72467182989272,
+                    "lng": 30.17955217010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "a776d9ec0265b7b0cadc9ba3d800a685a828bc22",
+        "name": "PimUju",
+        "opening_hours": {},
+        "place_id": "ChIJy-6o3nIdxB4RmEg_OZynXQU",
+        "plus_code": {
+            "compound_code": "75GJ+M9 Tzaneen, South Africa",
+            "global_code": "5G8G75GJ+M9"
+        },
+        "rating": 0,
+        "reference": "ChIJy-6o3nIdxB4RmEg_OZynXQU",
+        "types": [
+            "campground",
+            "real_estate_agency",
+            "travel_agency",
+            "park",
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "36": {
+        "formatted_address": "Mopani, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9032589,
+                "lng": 30.1270578
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90190907010727,
+                    "lng": 30.12840762989272
+                },
+                "southwest": {
+                    "lat": -23.90460872989272,
+                    "lng": 30.12570797010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "1441602acfb0d4c42df7ae3d5239d7c24508906f",
+        "name": "Farm Bryntirion",
+        "place_id": "ChIJDRn4Lveqxh4RjtYquvXO0_s",
+        "plus_code": {
+            "compound_code": "34WG+MR Tzaneen, South Africa",
+            "global_code": "5G8G34WG+MR"
+        },
+        "rating": 5,
+        "reference": "ChIJDRn4Lveqxh4RjtYquvXO0_s",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "37": {
+        "formatted_address": "8 John Smit Str, Aquapark, Tzaneen, 0850, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.814097,
+                "lng": 30.155464
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.81274717010728,
+                    "lng": 30.15681382989272
+                },
+                "southwest": {
+                    "lat": -23.81544682989272,
+                    "lng": 30.15411417010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "35361fcbb4aee735850a1d8c197ef7d488395624",
+        "name": "enoz electrostatic sprayers",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106093231148010978699/photos\">enoz electrostatic sprayers</a>"
+                ],
+                "photo_reference": "CmRaAAAAQTY5wYlPVMNKcVA8ybTdU7anub_wIB_QzGQDKpnpz83WooiU_ZTdH-sITbtV0KTi9G_g9_aWmAeeTQHsF0K0w8iMsP9BnQzY8APLwZNHnqWpa0GRF9iTMP15b56xijPhEhAWBkFCAW2XaR04QNLoUIb6GhQBLVUY5_gnf-86DAUTvnvIaYt9ug",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJ2TaN_Napxh4RoRw8eBkLhoY",
+        "plus_code": {
+            "compound_code": "55P4+95 Tzaneen, South Africa",
+            "global_code": "5G8G55P4+95"
+        },
+        "rating": 0,
+        "reference": "ChIJ2TaN_Napxh4RoRw8eBkLhoY",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "38": {
+        "formatted_address": "Modjadjiskloof, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.719713,
+                "lng": 30.132872
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.71836317010727,
+                    "lng": 30.13422182989271
+                },
+                "southwest": {
+                    "lat": -23.72106282989272,
+                    "lng": 30.13152217010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "624ce5c1f8345e8d0f2d86adbf8844f9bd21292c",
+        "name": "Macnoo",
+        "opening_hours": {},
+        "place_id": "ChIJNWzJfwynxh4RX0y2QDgo8c8",
+        "plus_code": {
+            "compound_code": "74JM+44 Modjadjiskloof, South Africa",
+            "global_code": "5G8G74JM+44"
+        },
+        "rating": 1.5,
+        "reference": "ChIJNWzJfwynxh4RX0y2QDgo8c8",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "39": {
+        "formatted_address": "Old Coach Rd, Tzaneen, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9206023,
+                "lng": 30.1367078
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.91930727010728,
+                    "lng": 30.13804397989273
+                },
+                "southwest": {
+                    "lat": -23.92200692989272,
+                    "lng": 30.13534432010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "626eccbddc8d33a3515200df77313193cba89ce3",
+        "name": "Lombard Avocado @ Agatha",
+        "opening_hours": {
+            "open_now": true
+        },
+        "place_id": "ChIJsRUbd7-qxh4RuEc4qzMQ4zg",
+        "plus_code": {
+            "compound_code": "34HP+QM Tzaneen, South Africa",
+            "global_code": "5G8G34HP+QM"
+        },
+        "rating": 5,
+        "reference": "ChIJsRUbd7-qxh4RuEc4qzMQ4zg",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    "40": {
+        "formatted_address": "Unnamed Rd, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.9092179,
+                "lng": 30.1259614
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.90786807010728,
+                    "lng": 30.12731122989272
+                },
+                "southwest": {
+                    "lat": -23.91056772989273,
+                    "lng": 30.12461157010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "06f615a168901b8df35704700d7422497c1d628b",
+        "name": "Farm: Die Tuine",
+        "opening_hours": {},
+        "place_id": "ChIJ75WRIPCqxh4RkvG0H_zWVA8",
+        "plus_code": {
+            "compound_code": "34RG+89 Tzaneen, South Africa",
+            "global_code": "5G8G34RG+89"
+        },
+        "rating": 0,
+        "reference": "ChIJ75WRIPCqxh4RkvG0H_zWVA8",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+}

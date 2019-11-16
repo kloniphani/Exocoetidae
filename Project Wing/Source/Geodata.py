@@ -54,7 +54,7 @@ class Geodata(object):
 				for Type in Types:
 					Query = Type + " in " + Place + ", South Africa"
 					print(Query)
-					FileName = "./Source/Data/" + Place
+					FileName = "./Source/Data/Study/" + Place
 					SearchResults.update(self.PopulateResults(Query = Query, FileName = FileName, OutputFile = True))
 				if OutputFile is True:
 					with open(FileName + ".json", 'w') as fp:
@@ -67,7 +67,7 @@ class Geodata(object):
 		return SearchResults
 	
 	def WriteFile(self, FileName, Data):
-		File = io.open(FileName, 'a', encoding="utf-8")
+		File = io.open(FileName, 'a+', encoding="utf-8")
 		File.write(Data)
 		File.close()
 
@@ -98,13 +98,15 @@ class Geodata(object):
 		
 if __name__ == '__main__':
 	G = Geodata()
-	Type = ['Clinic','Health Centre', 'Hospital', 'Medical Centre', 'Health Care', 'Surgery', 'Police', 'SAPS', 'Court', 'Correction Services', 'Traffic Department', 'School', 'College', 'Academy', 'University', 'Store', 'Shop', 'Shopping Mall',	 'Church', 'Stadiums' 'Park', 'Mining', 'Farms']
+	#Type = ['Clinic','Health Centre', 'Hospital', 'Medical Centre', 'Health Care', 'Surgery', 'Police', 'SAPS', 'Court', 'Correction Services', 'Traffic Department', 'School', 'College', 'Academy', 'University', 'Store', 'Shop', 'Shopping Mall',	 'Church', 'Stadiums' 'Park', 'Mining', 'Farms']
 	
-	#Type = ['School', 'College', 'Academy', 'University']
+	#Types = ['SAPS'], Places = ["Port Of Entry SAPS, Cape Town, Western Cape"]
+
+	Type = ['School', 'College', 'Academy', 'University']
 	Place = ['Mopani District Municipality', 'Vhembe District Municipality', 'Waterberg District Municipality', 'Chris Hani District Municipality', 'Tzaneen', 'Lulekani', 'Zeerust', 'Duduza', 'Hlankomo', 'Mandileni', 'Gon\'on\'o', 'Soweto', 'Khayelitsha']
 	#SearchQuery = "" + Type[0] + " in " + Place[4] + " , South Africa"
 	#G.WriteGeodata(FileName = "./Source/Data/" + Type[0] + " - " + Place[4] + ".txt", 
 	#				Query = SearchQuery,
 	#				Type = Type[4].lower())
 	#G.SearchPlacesResults(Query = SearchQuery, Type = Type.lower())
-	G.SearchPlacesResults(Types = ['SAPS'], Places = ["Port Of Entry SAPS, Cape Town, Western Cape"], OutputFile = True)
+	G.SearchPlacesResults(Types = Type, Places = Place, OutputFile = True)

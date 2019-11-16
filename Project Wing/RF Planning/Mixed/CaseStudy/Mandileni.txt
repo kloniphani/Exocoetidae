@@ -1,0 +1,170 @@
+  1 Old Bunting Clinic                                                       -31.671075    29.177771 	Unnamed Road, Nqutyana, 5119, South Africa
+  2 Nkanunu Clinic                                                           -31.760988    29.216665 	Nkanunu, South Africa
+  3 Mantusini Clinic                                                         -31.576026    29.276081 	Mantusini Location, Port St Johns, 5120, South Africa
+  4 Nkanga Clinic                                                            -31.533333    29.016667 	Nkanga Location, Libode, 5160, South Africa
+  5 Libode PHC                                                               -31.539911    29.024220 	Libode, 5160, South Africa
+  6 Mgwenyana Community Health Centre                                        -31.555693    29.232284 	Unnamed Road, Volibi, South Africa
+  7 Nkanga Clinic                                                            -31.465223    29.173672 	Nkanga, South Africa
+  8 Makhotyana Clinic                                                        -31.435161    29.022830 	eMhlanga, Umhlanga, South Africa
+  9 Pilani Clinic                                                            -31.906155    29.148022 	Sidabadabeni, South Africa
+ 10 Majola Clinic                                                            -31.516466    29.318521 	Unnamed Road, Ntshibi, South Africa
+ 11 Mtakatayi                                                                -31.846159    29.245401 	Unnamed Road, Mtakatyi, South Africa
+ 12 Malusi Clinic                                                            -31.578171    28.872651 	Mambethu, South Africa
+ 13 Ntlangaza Clinic                                                         -31.826576    28.871303 	Jojweni, South Africa
+ 14 Old Bunting Clinic                                                       -31.671075    29.177771 	Unnamed Road, Nqutyana, 5119, South Africa
+ 15 Canzibe Hospital                                                         -31.808312    29.065177 	Ngqeleni, 5140, South Africa
+ 16 Saint Barnabas Hospital                                                  -31.564907    29.117518 	Port ST Johns Road, Libode, 5160, South Africa
+ 17 Isilimela Hospital                                                       -31.734042    29.359000 	1 Stand Street, Port St Johns, 5120, South Africa
+ 18 Nelson Mandela Academic Hospital                                         -31.586462    28.764164 	Sisson St, Fort Gale, Mthatha, 5100, South Africa
+ 19 Old Mthatha General Hospital                                             -31.592132    28.774387 	68 Blakeway Rd, Umtata Central, Mthatha, 5100, South Africa
+ 20 Life St Marys Private Hospital                                           -31.591429    28.785323 	30 Durham St, Norwood, Mthatha, 5100, South Africa
+ 21 Mthatha Regional Hospital                                                -31.589102    28.766221 	Hillcrest, Mthatha, 5100, South Africa
+ 22 Mthatha Private Hospital                                                 -31.592778    28.781317 	59 Nelson Mandela Dr, Norwood, Mthatha, 5100, South Africa
+ 23 Ntlangaza Clinic                                                         -31.826576    28.871303 	Jojweni, South Africa
+ 24 Dr Coy Yako                                                              -31.592775    28.781315 	Unit1A, 26 Madeira St, Norwood, Mthatha, 5100, South Africa
+ 25 Tshezi Clinic                                                            -31.959058    29.091632 	Ngqakayi, South Africa
+ 26 National Renal Care Mthata                                               -31.589452    28.785056 	22 Durham St, Norwood, Mthatha, 5100, South Africa
+ 27 Sir Henry Elliot Hospital                                                -31.592502    28.774827 	107 Nelson Mandela Dr, Umtata Central, Mthatha, 5100, South Africa
+ 28 Baziya C H C                                                             -31.589111    28.775184 	Mthatha, 5100, South Africa
+ 29 Bedford Orthopedic Hospital (Mthatha)                                    -31.577134    28.706877 	Mthatha, South Africa
+ 30 Emergency Medical Sercices                                               -31.591043    28.775084 	Umtata Central, Mthatha, 5100, South Africa
+ 31 Mani A                                                                   -31.590963    28.791696 	35 Sprigg St, Norwood, Mthatha, 5100, South Africa
+ 32 Ngqungqu Clinic                                                          -31.865309    28.817612 	Komkhulu, 5129, South Africa
+ 33 Executive Health Centre ( Dr. Theron & Associates ) + Occupational Health exams   -31.584315    28.788830 	3 York Rd, Umtata Central, Mthatha, 5100, South Africa
+ 34 Mangcwanguleni Clinic                                                    -31.329507    29.172506 	Mangcwanguleni, South Africa
+ 35 Mthatha State Veterinary Lab                                             -31.567903    28.757255 	Mthatha, South Africa
+ 36 Bedford Orthopidic Hospital                                              -31.576497    28.707005 	Bedford Convent, Mthatha, Chris Hani, South Africa
+ 37 Dr R. Adkins                                                             -31.586458    28.796324 	St Dj Memorial Medical Centre, 42 Eagle Street, Mthatha, 5100, South Africa
+ 38 GOOD LIFE                                                                -31.590050    28.783289 	Leeds Rd, Norwood, Mthatha, 5100, South Africa
+ 39 Jalamba Clinic                                                           -32.031754    28.942761 	Ngcatelweni, South Africa
+ 40 Old Bunting Clinic                                                       -31.671075    29.177771 	Unnamed Road, Nqutyana, 5119, South Africa
+ 41 Nkanunu Clinic                                                           -31.760988    29.216665 	Nkanunu, South Africa
+ 42 Nyandeni LM Traffic Department                                           -31.544293    29.019865 	Libode, 5160, South Africa
+ 43 Department of Home Affairs Office - Ngqeleni                             -31.668253    29.027629 	10 Crowther Street, Ngqeleni, 5140, South Africa
+ 44 Magisterial Court - Ngqeleni                                             -31.670210    29.029400 	Ngqeleni, 5140, South Africa
+ 45 Magisterial Court - Libode                                               -31.521264    29.020718 	Libode, 5160, South Africa
+ 46 Port St Johns Magistrates Court                                          -31.621032    29.543305 	52 Westgate St, Port St Johns, 5120, South Africa
+ 47 Magisterial Court - Umtata                                               -31.588250    28.777280 	Umtata Central, Mthatha, 5100, South Africa
+ 48 Magisterial Court - Mqanduli                                             -31.807860    28.759220 	Mqanduli, 5080, South Africa
+ 49 Magisterial Court - Port Saint Johns                                     -31.628280    29.542350 	Port St Johns, 5120, South Africa
+ 50 Magisterial Court - Lusikisiki                                           -31.364250    29.578440 	Lusikisiki, 4820, South Africa
+ 51 Qumbu Magistrates Court                                                  -31.161954    28.871205 	Hope St, Qumbu, 5180, South Africa
+ 52 Magisterial Court - Tsomo                                                -31.294860    28.736810 	Tsolo, 5170, South Africa
+ 53 Magisterial Court - Elliotdale                                           -31.964650    28.681690 	Elliotdale, 5070, South Africa
+ 54 Magisterial Court - Qumbo                                                -31.153870    28.895720 	Qumbu, 5180, South Africa
+ 55 Ngqeleni Magistrate Court                                                -31.673275    29.031766 	King George Street, Ngqeleni, 5140, South Africa
+ 56 Correctional Services                                                    -31.670000    29.028000 	Armstrong St, Ngqeleni, 5140, South Africa
+ 57 Correctional Services                                                    -32.267017    28.507290 	Main St, Willowvale, South Africa
+ 58 Department of Home Affairs Office - Ngqeleni                             -31.668253    29.027629 	10 Crowther Street, Ngqeleni, 5140, South Africa
+ 59 Nyandeni LM Traffic Department                                           -31.544293    29.019865 	Libode, 5160, South Africa
+ 60 Department of Home Affairs Office - Libode                               -31.586736    28.784288 	58 Stanford Terrace, Umtata Central, Libode, 5160, South Africa
+ 61 Department of Home Affairs Office - Mthatha                              -31.590380    28.786756 	Owen St & Leeds Rd, Norwood, Mthatha, 5099, South Africa
+ 62 South African Department of Labour                                       -31.587272    28.793003 	Standard Bank Building, 106 Chatam Street, Umtata, Mthatha, 5990, South Africa
+ 63 Vulindlela Heights Post Office                                           -31.599911    28.774344 	Pick & Pay Complex, 2 Errol Spring Ave & Vulindlela Rd, Umtata Part 1, Mthatha, 5143, South Africa
+ 64 Nyandeni Local Municipality - Libode                                     -31.546534    29.019918 	Libode, 5160, South Africa
+ 65 Waban SS School                                                          -31.683870    29.125820 	Mandileni, South Africa
+ 66 Msolo JS School                                                          -31.683330    29.125560 	Mandileni, South Africa
+ 67 Nkalweni SP School                                                       -31.691820    29.103180 	South Africa
+ 68 Ludaka JS School                                                         -31.656030    29.127310 	Ludaka, South Africa
+ 69 Maqolo SP School                                                         -31.706180    29.119130 	Tonti, South Africa
+ 70 Noxova JS School                                                         -31.711490    29.135850 	Noxova, South Africa
+ 71 Bantini JS School                                                        -31.669550    29.069970 	Mazizini, South Africa
+ 72 Ngidini SP School                                                        -31.648740    29.105500 	Mhlahlane, South Africa
+ 73 Godini JS School                                                         -31.687500    29.068090 	Godini, South Africa
+ 74 Dilizintaba JP Shcool                                                    -31.684680    29.162880 	Kateni, South Africa
+ 75 Old Bunting JS School                                                    -31.675300    29.171570 	Nquba, South Africa
+ 76 Mjongile SP School                                                       -31.705450    29.168490 	South Africa
+ 77 Guduza School                                                            -31.686393    29.065630 	Godini, South Africa
+ 78 Nomcamba JS School                                                       -31.710550    29.174720 	Nomcamba, South Africa
+ 79 Lower Godini Primary School                                              -31.720890    29.102220 	Ncedane, South Africa
+ 80 Mdumazulu JS School                                                      -31.627500    29.145560 	Mdumazulu, South Africa
+ 81 D.Z.Dumezweni SS School                                                  -31.682500    29.191940 	Ezinduneni, South Africa
+ 82 Pondomiseni JS School                                                    -31.627070    29.097920 	Mampondomomiseni, South Africa
+ 83 Guqaza Primary School                                                    -31.703010    29.048620 	KwaGuqaza, South Africa
+ 84 Zamdola JS School                                                        -31.684740    29.194950 	Ezinduneni, South Africa
+ 85 Dikiso JS School                                                         -31.734780    29.097910 	Mhlakotshane, South Africa
+ 86 Magozeni JS School                                                       -31.650710    29.195030 	Magozeni, South Africa
+ 87 Chief Henry Bokeleni Secondary School                                    -31.668363    29.027543 	Ngqeleni, 5140, South Africa
+ 88 Mzongwana JS School                                                      -31.674770    29.214260 	Edangeni, South Africa
+ 89 Notintsila JS School                                                     -31.733330    29.185280 	Kudarana, South Africa
+ 90 Tungweni JS School                                                       -31.699780    29.210450 	Emnyameni, South Africa
+ 91 Mabetshe JS School                                                       -31.727740    29.046820 	Kumandeni, South Africa
+ 92 Sidanda SP School                                                        -31.751070    29.138340 	Magcakini, South Africa
+ 93 Pangalele SS School                                                      -31.737410    29.055790 	Kumandeni, South Africa
+ 94 Sizwe JP School                                                          -31.714700    29.212500 	Tungweni, South Africa
+ 95 Ngqeleni SS School                                                       -31.667690    29.014780 	Ngqeleni, 5140, South Africa
+ 96 Lutsheko JS School                                                       -31.623420    29.044660 	Lutsheko, 5131, South Africa
+ 97 Manzini JS School                                                        -31.643280    29.022550 	Mngazana, South Africa
+ 98 Qokama JS School                                                         -31.754620    29.087680 	Sizindeni, South Africa
+ 99 Dalindyebo SP School                                                     -31.733970    29.040410 	KwaZaka, South Africa
+100 Dokodela JS School                                                       -31.594440    29.103610 	South Africa
+101 Mpikeleli JS School                                                      -31.649610    29.217490 	Emagozini, South Africa
+102 Kangisa Primary School                                                   -31.588890    29.139170 	Bhukwini, South Africa
+103 Mbambeni SP School                                                       -31.755020    29.062430 	Hamsini, South Africa
+104 Mfundweni JP School                                                      -31.771990    29.122650 	Lutsheni, South Africa
+105 Qiti JS School                                                           -31.583210    29.156010 	Bhukwini, South Africa
+106 Mayibenye SP School                                                      -31.708060    29.238890 	Esitshayelweni, South Africa
+107 Langalakhe Primary School                                                -31.705140    28.997450 	Malungeni, South Africa
+108 Zamuxolo SP School                                                       -31.671390    29.236940 	Cwele, South Africa
+109 Cwele Public JS School                                                   -31.672010    29.243640 	Cwele, South Africa
+110 Emvilo JS School                                                         -31.730770    29.232410 	eNtshingeni, South Africa
+111 Upper Mngamnye JS School                                                 -31.629110    29.009460 	Bomvini, South Africa
+112 Matanzima JS School                                                      -31.649600    28.997060 	Matanzima, South Africa
+113 Njiveni JS School                                                        -31.574720    29.152220 	Enjiveni, South Africa
+114 Zanokhanyo JS School                                                     -31.578610    29.085830 	Ngxokweni, South Africa
+115 Maqebevu JS School                                                       -31.695560    29.253060 	Zingosini, South Africa
+116 Sonata JP School                                                         -31.545560    29.165830 	Mandulvini, South Africa
+117 Sandi SS School                                                          -31.761820    29.215430 	Ntsundwane, South Africa
+118 Mbange JS School                                                         -31.671980    28.980680 	Epapeleni, South Africa
+119 Nohokoza JS School                                                       -31.593060    29.204440 	Taweni, South Africa
+120 Qanda JS School                                                          -31.650980    29.249510 	Bandla, South Africa
+121 Ntsundwane JS School                                                     -31.767700    29.211110 	Ntsundwane, South Africa
+122 Ntlaza JS School                                                         -31.565560    29.120280 	Makhwetshubeni, South Africa
+123 Tembeni SP School                                                        -31.790420    29.115600 	Mayalweni, South Africa
+124 Lower Ntlaza JP School                                                   -31.566940    29.100280 	Khuleka, South Africa
+125 KSD TVET College - Libode Campus                                         -31.543125    29.026328 	Libode, 5160, South Africa
+126 King Sabatha Dalindyebo FET College Umngazi Campus                       -31.553748    29.233545 	Masameni, South Africa
+127 University of Transkei                                                   -31.598500    28.803980 	Tipini, Mthatha, South Africa
+128 Guduza School                                                            -31.686393    29.065630 	Godini, South Africa
+129 Unisa                                                                    -31.591598    28.788620 	32 Victoria St, Norwood, Mthatha, 5100, South Africa
+130 University of Transkei                                                   -31.588250    28.777280 	Nelson Mandela Dr, Umtata Central, Mthatha, 5100, South Africa
+131 Mear's Training Centre                                                   -31.313890    28.820560 	Madadeni, South Africa
+132 KSD Mthatha                                                              -31.580985    28.771396 	R61,, Queenstown Rd, Mthatha, South Africa
+133 KSD TVET College - Libode Campus                                         -31.543125    29.026328 	Libode, 5160, South Africa
+134 Saint Paul's Primary School                                              -31.605490    28.799060 	16, Ngangelizwe, Mthatha, 5100, South Africa
+135 King Hintsa FET College                                                  -32.109716    28.314414 	Idutywa, 5000, South Africa
+136 Sakhikamva College                                                       -31.591847    28.792189 	13 Victoria Street, Mthatha, 5099, South Africa
+137 Ngqeleni Boxer Superstores                                               -31.672926    29.031583 	Main Road, Ngqeleni, Eastern Cape, 5140, South Africa
+138 PEP Store                                                                -31.673186    29.032387 	56 King George Street, Ngqeleni, 5140, South Africa
+139 New Chief Hardware                                                       -31.671445    29.025444 	Unnamed Road, Ngqeleni, 5140, South Africa
+140 Magwa Wholesales Harware And Furniture                                   -31.800995    29.066084 	Libode, South Africa
+141 New Libode Shopping Mall                                                 -31.541488    29.017409 	Unnamed Road, Libode, 5160, South Africa
+142 Mabomvini Store                                                          -31.734955    28.967758 	Ncobendlana, Ncambedlana, Mthatha, South Africa
+143 Ngcwanguba Shopping Centre                                               -31.918755    29.032359 	Ngcwanguba, 5085, South Africa
+144 Shelly Centre                                                            -30.810374    30.409502 	Marine Dr, Shelly Beach, Margate, 4265, South Africa
+145 Southcoast Mall                                                          -30.797736    30.405687 	Izotsha Rd, Shelly Beach, Margate, 4265, South Africa
+146 Galaxy Grill-Kings Mall                                                  -32.936286    27.994454 	Cnr &, Main Rd & Gulls Way, Gonubie, East London, 5257, South Africa
+147 Hemingways Mall                                                          -32.969859    27.896118 	Cnr Western Avenue & Two Rivers Drive, Cambridge Village, East London, 5247, South Africa
+148 Vincent Park                                                             -32.983800    27.904035 	Devereux Ave & Frere Rd, Vincent, East London, 5217, South Africa
+149 Galleria Mall                                                            -30.033318    30.898060 	Cnr Moss Kolnik & Arbour Road, Amanzimtoti, Kwazulu-Natal, 4126, South Africa
+150 The Pavilion Westville                                                   -29.849318    30.936931 	Jack Martens Dr, Dawncliffe, Westville, 3611, South Africa
+151 Gateway Shopping Centre                                                  -29.726293    31.065941 	1 Palm Blvd, Umhlanga Ridge, Umhlanga, 4319, South Africa
+152 Chatsworth Centre                                                        -29.912860    30.880820 	17 Joyhurst St, Westcliff, Chatsworth, 4092, South Africa
+153 Liberty Midlands Mall                                                    -29.582634    30.378083 	50 Sanctuary Rd, Woodlands, Pietermaritzburg, 3201, South Africa
+154 Bridge City Shopping Centre                                              -29.727139    30.987230 	Bridge City Shop Ctr, Station Rd, KwaMashu, 4360, South Africa
+155 Pinecrest Shopping Centre                                                -29.811601    30.858278 	17 Kings Rd, New Germany, Pinetown, 3610, South Africa
+156 Ngqeleni Boxer Liquors                                                   -31.672618    29.031052 	Main Road, Ngqeleni, Eastern Cape, 5140, South Africa
+157 La Lucia Mall                                                            -29.753798    31.064575 	90 William Campbell Dr, La Lucia, Durban, 4051, South Africa
+158 Ballito Junction Regional Mall                                           -29.526340    31.203610 	Shop 242a and Shop 628d, Leonora Drive, Ballito, Dolphin Coast, 4399, South Africa
+159 Greenacres Shopping Centre                                               -33.949326    25.578308 	Ring Road 1st Floor, Office Tower, Greenscares Shopping Centre, Greenacres, Port Elizabeth, 6045, South Africa
+160 Ackermans - Pinetown - Pine Crest Centre                                 -29.811442    30.857610 	17 Kings Rd, New Germany, Durban, 3610, South Africa
+161 RUCC Libode                                                              -31.546905    29.021368 	Libode, 5160, South Africa
+162 COGOP                                                                    -31.530848    28.935413 	R61, MISTY MOUNT LOCALITY, Libode, 5160, South Africa
+163 AEC Nkanga Mission                                                       -31.464773    29.172806 	Nkanga, South Africa
+164 AFM Power Station Assembly                                               -31.712645    29.376984 	Faith street, Magcakini, South Africa
+165 Nkaukazi SDA Church                                                      -31.581862    28.876435 	Langeni, South Africa
+166 faith mission church                                                     -31.492498    28.897070 	locationa,, Mafusini, South Africa
+167 Dutch Reformed Church Of Nyathi                                          -31.407601    29.402377 	Emanangeni, South Africa
+168 Ruze Baptist Church                                                      -31.374872    28.994356 	Ngavungavu Rd, South Africa
+169 Nzame Organic Farm                                                       -31.567270    29.071224 	Libode, South Africa
+170 Mantusini Dairy                                                          -31.573086    29.313957 	Port St Johns, South Africa

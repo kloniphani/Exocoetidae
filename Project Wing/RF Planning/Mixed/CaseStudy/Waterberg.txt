@@ -1,0 +1,552 @@
+  1 Northam Platinum Mine Clinic                                             -24.950000    27.266667 	Northam, Thabazimbi, 0360, South Africa
+  2 Phake Clinic                                                             -25.150358    28.495425 	South Africa
+  3 Van Heerden Pharmacy Medlin                                              -24.887171    28.294016 	Shop 26 Pick `n Pay Centre, Cnr Marx & Potgieter Road, Warmbad, Bela-Bela, 0480, South Africa
+  4 Mens Clinic International - Laphalale                                    -23.686909    27.697628 	Douwater Rd & Joe Slovo st, Lephalale, 0555, South Africa
+  5 Ramotse Clinic                                                           -25.357573    28.295025 	Hammanskraal, 0407, South Africa
+  6 Kekana Garden Clinic                                                     -25.373814    28.310329 	Cullinan, South Africa
+  7 Spec-Savers Modimolle Nylstroom                                          -24.708543    28.414254 	Cnr Nelson Mandela And Meiniger Road, Shop 24 Sparrow Shopping Centre, Modimolle, 0510, South Africa
+  8 Lephalale Medical Center                                                 -23.656769    27.617095 	175 Mosethla St, Marapong, Lephalale, 0556, South Africa
+  9 Tshamahansi Clinic                                                       -24.076888    28.979934 	0659, South Africa
+ 10 Ellisras Hospital                                                        -23.678097    27.701114 	Alwyn Street & Chris Hani Ave, Lephalale, 0555, South Africa
+ 11 Dr Aucamp's Clinic                                                       -24.864230    28.327671 	R101, South Africa
+ 12 Mediclinic Limpopo                                                       -23.908231    29.464552 	53 Plein Street, Polokwane, 0700, South Africa
+ 13 Marie Stopes South Africa                                                -23.902337    29.451384 	95 Landdros Mare St, Polokwane Central, Polokwane, 0700, South Africa
+ 14 Spec-Savers Naboomspruit                                                 -24.521658    28.711831 	Hans Van Rensburg Straat, Shop 20 , Euphorbia Park, Mookgopong, 0560, South Africa
+ 15 Spec-Savers Thabazimbi                                                   -24.588000    27.408167 	Eland Street And Steenbok Street, Eland Building Shop 2, Thabazimbi, 0380, South Africa
+ 16 Stinkwater Clinic.                                                       -25.396790    28.156201 	3197 Tambo 2, Stinkwater, City of Tshwane Rural, 0407, South Africa
+ 17 Percy Clinic                                                             -23.480408    29.185863 	Ga-Kolopo, 0714, South Africa
+ 18 Mens Clinic International - Mokopane                                     -24.181014    29.010300 	55 Ruiter Rd, Mokopane, 0600, South Africa
+ 19 Pretoria North Clinic                                                    -25.667061    28.168960 	376 Jack Hinden Street, Pretoria North, Pretoria, 0182, South Africa
+ 20 Dr kim women's abortion clinic/cytotec abortion pills for sale           -25.169790    29.393830 	20A Kruger St, Groblersdal, 0470, South Africa
+ 21 Dr. Vernon Els                                                           -24.190349    29.010772 	120 Thabo Mbeki Dr, Mokopane, 0600, South Africa
+ 22 Van Der Merwe M T/a Torga Optical Modi Mall                              -24.695248    28.404810 	Shop No 203 A Modi Mall, Cnr Thabo Mbeki Drive & Rivier Street, Nylstroom, Modimolle, 0510, South Africa
+ 23 Doc-on-Call                                                              -24.182206    29.015948 	52 Hooge St, Mokopane, 0600, South Africa
+ 24 F H Odendaal Hospital.                                                   -24.701466    28.422046 	Berg St, Modimolle, 0510, South Africa
+ 25 Mens Clinic International - Bela-Bela                                    -24.882510    28.296150 	21 Kretzschmar St, Bela-Bela, 0480, South Africa
+ 26 Kwaggafontein C Clinic                                                   -25.294111    28.959966 	Kwaggafontein-A, Kwaggafontein, South Africa
+ 27 Malebitsa Comunity Health Centre                                         -24.903280    28.935643 	Unnamed Road, Malebitsa, South Africa
+ 28 Thaba Leshoba Health Centre                                              -23.483369    28.656053 	N11, Thaba Leshoba, 0617, South Africa
+ 29 Marapyane Community Health Centre                                        -25.004623    28.795793 	Marapyane, 0431, South Africa
+ 30 Lephalale Medical Center                                                 -23.656769    27.617095 	175 Mosethla St, Marapong, Lephalale, 0556, South Africa
+ 31 Mookgophong Health Center                                                -24.524441    28.708309 	2 Thabo Mbeki St, Mookgopong, 0560, South Africa
+ 32 Kutlwanong Health Centre Syferkuil                                       -25.080053    28.234762 	Unnamed Rd, Walman, South Africa
+ 33 Teffo S F & Poto L T T/a Bophelong Medical Centre                        -23.677390    27.738380 	Shop 12 Lephalale Square, Jan-Lee Street, Ellisras, Lephalale, 0555, South Africa
+ 34 Senwamadi M S                                                            -24.178055    29.012011 	Folang Medical centre; 31 Ruiter Road, Mokopane, 0601, South Africa
+ 35 Medical Centre                                                           -24.588450    27.412499 	Watson St, Thabazimbi, 0387, South Africa
+ 36 Phelang Medical Centre                                                   -24.178251    29.009708 	39 Pretorius St, Mokopane, 0601, South Africa
+ 37 Doc-on-Call                                                              -24.182206    29.015948 	52 Hooge St, Mokopane, 0600, South Africa
+ 38 Northam Platinum Mine Clinic                                             -24.950000    27.266667 	Northam, Thabazimbi, 0360, South Africa
+ 39 Phake Clinic                                                             -25.150358    28.495425 	South Africa
+ 40 Dr. M.S.C. Radipabe                                                      -24.704562    28.410617 	72 Joe Slovo St, Modimolle, 0510, South Africa
+ 41 Dr. Vernon Els                                                           -24.190349    29.010772 	120 Thabo Mbeki Dr, Mokopane, 0600, South Africa
+ 42 Witpoort Hospital                                                        -23.334869    28.010159 	1 Jan Lees Botha Ln, Lephalale, 0555, South Africa
+ 43 Ellisras Hospital                                                        -23.678097    27.701114 	Alwyn Street & Chris Hani Ave, Lephalale, 0555, South Africa
+ 44 F H Odendaal Hospital.                                                   -24.701466    28.422046 	Berg St, Modimolle, 0510, South Africa
+ 45 Witpoort Hospital                                                        -23.334869    28.010159 	1 Jan Lees Botha Ln, Lephalale, 0555, South Africa
+ 46 George Masebe Hospital                                                   -23.875733    28.694712 	South Africa
+ 47 Saint Vincent's Hospital                                                 -24.880899    28.280064 	30 Quagga Rd, Bela-Bela, 0480, South Africa
+ 48 Thabazimbi public Hospital                                               -24.595747    27.390735 	Lood Dr, Thabazimbi, 0387, South Africa
+ 49 Mokopane Hospital Dispensary                                             -24.166749    28.995143 	Dudu Madisha Dr, Mokopane, 0601, South Africa
+ 50 Voortrekker Hospital                                                     -24.196076    29.014667 	2 Geyser St, Trim Park, Mokopane, South Africa
+ 51 Mokopane Hospital                                                        -24.153797    28.988596 	269 Dudu Madisha Dr, Mahwelereng-A, Mokopane, 0626, South Africa
+ 52 Lephalale Medical Center                                                 -23.656769    27.617095 	175 Mosethla St, Marapong, Lephalale, 0556, South Africa
+ 53 Mediclinic Lephalale                                                     -23.686585    27.698493 	Cnr Douwater & Joe Slovo Str, Onverwacht, Lephalale, 0557, South Africa
+ 54 Mmamethlake Hospital                                                     -25.105090    28.557841 	Pankop Road, Hammanskraal, 0432, South Africa
+ 55 Curamed Thabazimbi Hospital                                              -24.598830    27.407182 	1 Hospital Street, Thabazimbi, 0387, South Africa
+ 56 Platinum Health Hospital                                                 -24.938235    27.154746 	Swartklip, 0370, South Africa
+ 57 Bela Bela Provincial Hospital                                            -24.885991    28.289187 	57 Voortrekker Rd, Bela-Bela, 0480, South Africa
+ 58 Unit c mahwelereng, hospital view                                        -24.150159    28.989633 	Khutso St, Mahwelereng-A, Mokopane, 0626, South Africa
+ 59 FH Odendaal MDR Hospital                                                 -24.707934    28.394804 	54 Thabo Mbeki Drive, Modimolle, 0510, South Africa
+ 60 Thabazimbi Hospital Mortuary                                             -24.589503    27.394458 	Thabazimbi, 0387, South Africa
+ 61 Tembisa Zoo Hospital                                                     -24.883944    28.315200 	40 Flint Mazibuko St, Tembisa, 0040, South Africa
+ 62 Nhls Modimolle                                                           -24.701211    28.421262 	58 Ad Diederick St, Modimolle, 0510, South Africa
+ 63 Kekana Gardens Clinic                                                    -25.371755    28.302201 	Cullinan, South Africa
+ 64 Jubilee District Hospital                                                -25.402324    28.265087 	Temba Rural, Temba, 0407, South Africa
+ 65 Dr MMM Hospital                                                          -24.310850    29.337512 	Mathibela, 0737, South Africa
+ 66 W F Knobel Hospital                                                      -23.607090    29.152680 	Ga-Mmabasotho, 0710, South Africa
+ 67 Sefhare Primary Hospital                                                 -23.023204    27.515624 	Sefhare, Botswana
+ 68 Matlala Hospital                                                         -24.833418    29.502314 	Matlala, South Africa
+ 69 Hammamskraal animal hospital                                             -25.402926    28.267178 	Temba Rural Temba, South Africa
+ 70 Odi Community Hospital                                                   -25.518200    28.022530 	Klipgat Road, Mabopane Unit U, Mabopane, 0190, South Africa
+ 71 Blouberg Hospital                                                        -23.277760    29.124090 	South Africa
+ 72 Helena Franz Hospital                                                    -23.283366    29.112320 	Bochum Road, South Africa
+ 73 Lebowakgomo Hospital                                                     -24.295404    29.528432 	Lebowakgomo, 0737, South Africa
+ 74 Philadelphia Hospital                                                    -25.256827    29.149967 	246 Philadelphia Main Road, Dennilton AH, 1030, South Africa
+ 75 Polokwane Hospital                                                       -23.896849    29.457435 	Cnr. Hospital & Dorp St, Polokwane, 0699, South Africa
+ 76 Seshego Hospital                                                         -23.857343    29.395439 	48 Bo-Okelo St, Seshego-A, Polokwane, 0742, South Africa
+ 77 Pietersburg Hospital                                                     -23.894914    29.460023 	Dorp St, Hospital Park, Polokwane, 0699, South Africa
+ 78 Philadelphia Hospital                                                    -25.258907    29.149130 	Philadelphia Road, Dennilton AH, 1030, South Africa
+ 79 Limpopo Province Department of Health                                    -23.851818    29.378679 	Stratmed Warehouse, 30 Main Road, Seshego, Polokwane, 0741, South Africa
+ 80 Groblersdal Hospital                                                     -25.176480    29.403715 	18 Voortrekker Rd, Groblersdal, 0470, South Africa
+ 81 Netcare Hospital Polokwane                                               -23.902021    29.493431 	Grobler St & Eland Ave, Savannah, Polokwane, 0699, South Africa
+ 82 Mediclinic                                                               -23.904378    29.464594 	48a Jorissen St, Polokwane Central, Polokwane, 0700, South Africa
+ 83 Teffo S F & Poto L T T/a Bophelong Medical Centre                        -23.677390    27.738380 	Shop 12 Lephalale Square, Jan-Lee Street, Ellisras, Lephalale, 0555, South Africa
+ 84 Lephalale Medical Center                                                 -23.656769    27.617095 	175 Mosethla St, Marapong, Lephalale, 0556, South Africa
+ 85 Better2Know Private STD Centre Mokopane                                  -24.180916    29.011962 	Ruiter Rd, Mokopane, 0601, South Africa
+ 86 Senwamadi M S                                                            -24.178055    29.012011 	Folang Medical centre; 31 Ruiter Road, Mokopane, 0601, South Africa
+ 87 Medi-Mall                                                                -24.190386    29.010879 	120 Thabo Mbeki Dr, Mokopane, 0600, South Africa
+ 88 Dr T R S Mahlare                                                         -24.888268    28.312152 	271 Sekombane St, Bela-Bela, 0480, South Africa
+ 89 Voortrekker Hospital                                                     -24.196026    29.014365 	South Africa
+ 90 Mediclinic Lephalale                                                     -23.686585    27.698493 	Cnr Douwater & Joe Slovo Str, Onverwacht, Lephalale, 0557, South Africa
+ 91 Curamed Thabazimbi Hospital                                              -24.598830    27.407182 	1 Hospital Street, Thabazimbi, 0387, South Africa
+ 92 Platinum Health Hospital                                                 -24.938235    27.154746 	Swartklip, 0370, South Africa
+ 93 Bela Bela Provincial Hospital                                            -24.885991    28.289187 	57 Voortrekker Rd, Bela-Bela, 0480, South Africa
+ 94 Medical Centre                                                           -24.588450    27.412499 	Watson St, Thabazimbi, 0387, South Africa
+ 95 Redicare Medical Centre                                                  -25.406750    28.271683 	Front Opposite Jubilee Mall, Shop No. 4, Katleho Crossing Shopping Centre, 4 Harry Gwala Ave, Hammanskraal, 0400, South Africa
+ 96 Blueprint Medical Suites                                                 -25.404744    28.270643 	Jubilee Mall, 104 Harry Gwala Ave, Hammanskraal, Pretoria, 0001, South Africa
+ 97 Phelang Medical Centre                                                   -24.178251    29.009708 	39 Pretorius St, Mokopane, 0601, South Africa
+ 98 Nhls Modimolle                                                           -24.701211    28.421262 	58 Ad Diederick St, Modimolle, 0510, South Africa
+ 99 Golding's Orthopaedic Centre - ST Vincent's Hospital                     -24.881161    28.280527 	Quagga Rd, Bela-Bela, Warmbaths, 0480, South Africa
+100 Mmamethlake Hospital                                                     -25.105090    28.557841 	Pankop Road, Hammanskraal, 0432, South Africa
+101 Van Der Merwe M T/a Torga Optical Modi Mall                              -24.695248    28.404810 	Shop No 203 A Modi Mall, Cnr Thabo Mbeki Drive & Rivier Street, Nylstroom, Modimolle, 0510, South Africa
+102 Primary Health Care Centre Clinic 2                                      -24.140336    28.992052 	167 Ngobeni St, Mahwelereng-B, Mokopane, 0626, South Africa
+103 Bokwalakwla Primary Health Care Centre                                   -24.147745    28.951156 	Mosate, Mokopane, 0626, South Africa
+104 Lephalale Medical Center                                                 -23.656769    27.617095 	175 Mosethla St, Marapong, Lephalale, 0556, South Africa
+105 SOUTH AFRICAN POLICE SERVICE                                             -24.184142    29.016044 	34 Van Riebeeck St, Mokopane, 0600, South Africa
+106 South African Police Service                                             -24.518736    28.712510 	34 4th St, Mookgopong, 0560, South Africa
+107 Lephalale Police Station                                                 -23.678650    27.734900 	3 Herman St, Lephalale, 0555, South Africa
+108 S.A.P.S                                                                  -24.183211    29.017795 	5b Rabe St, Mokopane, 0600, South Africa
+109 Mahwelereng Police Station                                               -24.155045    28.982974 	56-, 57 Sefakaola St, Mokopane, 0626, South Africa
+110 Saps GILEAD                                                              -23.488182    28.656097 	Mokopane, South Africa
+111 SAPS - Naboomspruit                                                      -24.518843    28.712549 	Fifth Street, Mookgopong, 0560, South Africa
+112 SAPS                                                                     -24.877880    28.293971 	61 Van Der Merwe St, Bela-Bela, 0480, South Africa
+113 METROPOLITAN                                                             -24.180997    29.010419 	Stan Boutique Centre, Ruiter Rd, Mokopane, 0600, South Africa
+114 Tshwane Metropolitan Police Service                                      -25.403711    28.287861 	350 Lovers Lane, Hammanskraal, Pretoria, 0400, South Africa
+115 Hammanskraal Police Station                                              -25.404583    28.275197 	Harry Gwala Ave, Hammanskraal, Pretoria, 0400, South Africa
+116 Modimolle Correctional Centre                                            -24.697670    28.402979 	Potgieter Street, Modimolle, 0510, South Africa
+117 SOUTH AFRICAN POLICE SERVICE ACADEMY                                     -25.405535    28.272777 	Harry Gwala Ave, Hammanskraal West, Pretoria, 0400, South Africa
+118 Sheriff Thabazimbi                                                       -24.586886    27.408904 	10 Steenbok St, Thabazimbi, 0387, South Africa
+119 Mantsole Traffic Control Center - N1                                     -25.134186    28.309941 	N1, South Africa
+120 South African Police Service                                             -24.969385    29.296715 	147 East Marble Street, Marblehall, 0450, South Africa
+121 Sefhare Police Station                                                   -23.026857    27.529732 	Sefhare, Botswana
+122 SAPS                                                                     -25.112622    29.050618 	2141 Masakhana St, Siyabuswa-B, Siyabuswa, 0472, South Africa
+123 SAPS Supply Chain Management                                             -23.900403    29.451789 	105 Excelsior St, Polokwane Central, Polokwane, 0600, South Africa
+124 SAPS                                                                     -25.375720    28.255460 	Jubilee Road, Temba Rural, Temba, 0407, South Africa
+125 Machaneng Police Station                                                 -23.186226    27.487938 	Machaneng, Botswana
+126 Mogalakwena Municipality                                                 -24.182932    29.009573 	56 Retief St, Mokopane, 0601, South Africa
+127 SJ Lehare Police Station                                                 -25.341009    28.061579 	2 Sello Lehare Dr, Moeka, 0407, South Africa
+128 Limpopo Department of Agriculture and Rural Development                  -24.699285    28.408125 	89 Thabo Mbeki Dr, Modimolle, 0510, South Africa
+129 Loate Police Station                                                     -25.495230    28.073970 	Loate, North West, South Africa, 9585, South Africa
+130 Tweefontein Police Station                                               -25.392090    28.808534 	R573, KwaMhlanga, South Africa
+131 Senwabarwana Police Station                                              -23.285576    29.138918 	Bochum-A, Bochum, 0790, South Africa
+132 SAPS                                                                     -25.494767    27.837735 	159A Hlanganani St, Lethlabile-B, Letaba, 0870, South Africa
+133 Tshwane Metro Police Station                                             -25.507668    28.040885 	2162 Lucas Mangope Rd, Mabopane Unit U, Mabopane, 0190, South Africa
+134 Police Station (Ga-rankuwa)                                              -25.599860    27.999170 	Ga-rankuwa, North West, South Africa, South Africa
+135 South African Police Service                                             -23.913070    29.454763 	38 Schoeman St, Polokwane Central, Polokwane, 0700, South Africa
+136 SAPS                                                                     -24.877880    28.293971 	61 Van Der Merwe St, Bela-Bela, 0480, South Africa
+137 S.A.P.S                                                                  -24.183211    29.017795 	5b Rabe St, Mokopane, 0600, South Africa
+138 South African Police Service                                             -24.518736    28.712510 	34 4th St, Mookgopong, 0560, South Africa
+139 SOUTH AFRICAN POLICE SERVICE                                             -24.184142    29.016044 	34 Van Riebeeck St, Mokopane, 0600, South Africa
+140 Saps - Gilead                                                            -23.662020    28.861180 	South Africa
+141 SAPS K9 Unit                                                             -24.155923    28.985003 	2182 Dudu Madisha Dr, Mahwelereng-A, Mokopane, 0626, South Africa
+142 SAPS - Naboomspruit                                                      -24.518843    28.712549 	Fifth Street, Mookgopong, 0560, South Africa
+143 Saps GILEAD                                                              -23.488182    28.656097 	Mokopane, South Africa
+144 Saps - Northam                                                           -24.960121    27.263960 	Northam, 0360, South Africa
+145 Saps - Dwaalboom                                                         -24.731250    26.810730 	South Africa
+146 Saps - Thabazimbi                                                        -24.596917    27.407686 	Judith Street, Thabazimbi, 0387, South Africa
+147 SAPS                                                                     -25.112622    29.050618 	2141 Masakhana St, Siyabuswa-B, Siyabuswa, 0472, South Africa
+148 SAPS                                                                     -25.375720    28.255460 	Jubilee Road, Temba Rural, Temba, 0407, South Africa
+149 SOUTH AFRICAN POLICE SERVICE ACADEMY                                     -25.405535    28.272777 	Harry Gwala Ave, Hammanskraal West, Pretoria, 0400, South Africa
+150 South African Police Service                                             -24.969385    29.296715 	147 East Marble Street, Marblehall, 0450, South Africa
+151 Magisterial Court - Ellisras                                             -23.677250    27.740450 	Lephalale, 0555, South Africa
+152 Mokopane Magistrate Court                                                -24.184647    29.015104 	Hooge St, Mokopane, 0300, South Africa
+153 Phalala Magistrate Court                                                 -23.329948    28.006643 	Lephalale, South Africa
+154 Lephalale Magistrate Court                                               -23.677937    27.735877 	2 Wells St, Lephalale, 0555, South Africa
+155 Mokerong Magistrates Court                                               -24.155897    28.987235 	2182 Dudu Madisha Dr, Mahwelereng-C, Mokopane, 0626, South Africa
+156 Magatle Magistrate Court                                                 -24.460790    29.411376 	Magatle, South Africa
+157 Magistrate Court Bela Bela                                               -24.882727    28.291616 	29 Moffat Rd, Bela-Bela, 0480, South Africa
+158 Magisterial Court - Nylstroom                                            -24.704790    28.407957 	Van Emmenis Street, Modimolle, 0510, South Africa
+159 Magisterial Court - Potgietersrus                                        -24.201317    28.993774 	Chroompark, Mokopane, 0656, South Africa
+160 Magisterial Court - Naboomspruit                                         -24.516783    28.711288 	6th St, Mookgopong, 0560, South Africa
+161 Magisterial Court - Warmbad                                              -24.884720    28.293820 	Bela-Bela, 0480, South Africa
+162 Magisterial Court - Thabazimbi                                           -24.584630    27.402990 	Thabazimbi, 0387, South Africa
+163 Limpopo Division of the High Court                                       -23.913146    29.457639 	36 Biccard St, Polokwane Central, Polokwane, 0700, South Africa
+164 Magisterial Court - Temba                                                -25.375720    28.255460 	Kudube Unit 2, Kudube, 0400, South Africa
+165 Temba Court                                                              -25.380327    28.259425 	Kudube Unit 2, Kudube, 0400, South Africa
+166 Mokobeng Kgotla                                                          -23.001271    27.671814 	Mokobeng, Botswana
+167 Sefhare Kgotla                                                           -23.026837    27.529882 	Sefhare, Botswana
+168 Magisterial Court - DR J S Moroka Rural.                                 -25.114290    29.046790 	Siyabuswa-B, Siyabuswa, 0472, South Africa
+169 Magistrate Court Groblersdal                                             -25.168424    29.394138 	15 Van Riebeeck St, Groblersdal, 0470, South Africa
+170 correctional services                                                    -24.518046    28.712015 	41 5th St, Naboom, Mookgopong, 0560, South Africa
+171 Department Of Correctional Service                                       -24.182432    29.012093 	55 Ruiter Rd, Mokopane, 0600, South Africa
+172 Modimolle Correctional Centre                                            -24.697670    28.402979 	Potgieter Street, Modimolle, 0510, South Africa
+173 correctional sevices                                                     -25.385987    28.258628 	2025 Jubilee Rd, Kudube Unit 1, Hammanskraal, 0407, South Africa
+174 Mogalakwena Municipality                                                 -24.182932    29.009573 	56 Retief St, Mokopane, 0601, South Africa
+175 Bela Bela traffic licensing office                                       -24.879360    28.294935 	48 Van Der Merwe St, Bela-Bela, 0480, South Africa
+176 Mokopane Traffic Station                                                 -24.227066    29.031784 	Mokopane, South Africa
+177 Thabazimbi Local Municipality                                            -24.589120    27.409630 	7 Rietbok St, Thabazimbi, 0380, South Africa
+178 Mantsole Traffic Control Center - N1                                     -25.134186    28.309941 	N1, South Africa
+179 Bela-Bela Municipality                                                   -24.884742    28.291152 	57 Voortrekker Rd, Bela-Bela, 0480, South Africa
+180 Limpopo Department of Agriculture and Rural Development                  -24.699285    28.408125 	89 Thabo Mbeki Dr, Modimolle, 0510, South Africa
+181 Moretele Local Municipality                                              -25.267593    28.153374 	Mathibestad, 0418, South Africa
+182 Department of Home Affairs Office - Mokopane                             -24.182238    29.018176 	50 Rabe St, Mokopane, 0601, South Africa
+183 Munisipale Kantoor Ellisras (Lephalale)                                  -23.686472    27.696573 	23°41'11. 27°41'47., 7 3rd St, Randfontein, 1760, South Africa
+184 Labour Centre - Lephalale                                                -23.677250    27.740450 	4 Muller Street, Lephalale, 0555, South Africa
+185 Ephraim Mogale Local Municipality                                        -24.967467    29.293664 	13 Fiscus St, Marblehall, 0450, South Africa
+186 Department Of Health                                                     -24.183948    29.009990 	77 Ruiter Rd, Mokopane, 0600, South Africa
+187 Tshwane Metropolitan Police Service                                      -25.403711    28.287861 	350 Lovers Lane, Hammanskraal, Pretoria, 0400, South Africa
+188 Department of Home Affairs Office - Lephalale                            -23.667033    27.745834 	Nicolette Street, 2 Ströh Street, Lephalale, 0555, South Africa
+189 Department Of Correctional Service                                       -24.182432    29.012093 	55 Ruiter Rd, Mokopane, 0600, South Africa
+190 Waterberg High School                                                    -24.188130    28.997450 	137 Dudu Madisha Dr, Mokopane, 0601, South Africa
+191 Waterberg Academy                                                        -24.282428    28.103333 	R33, South Africa
+192 Settlers Agricultural High School                                        -24.955570    28.538070 	R516, Settlers, 0430, South Africa
+193 Pepps Mokopane Primary School                                            -24.126631    29.007977 	Ga-Madiba, Mokopane, South Africa
+194 Mmatshipi Senior Secondary School                                        -23.981100    29.182700 	South Africa
+195 North Crest Academy                                                      -24.196933    29.006524 	165 Thabo Mbeki Dr, Chroompark, Mokopane, 0600, South Africa
+196 Pienaarsrivier Primary School                                            -25.203550    28.300330 	South Africa
+197 Mohlakamotala High School                                                -24.456450    28.162200 	South Africa
+198 Mokopane English Combined School                                         -24.176819    28.997468 	19 Kiepersol St, Akasia, Mokopane, 0601, South Africa
+199 Clermont Primary School                                                  -23.770780    28.798200 	South Africa
+200 Skuinskloof Primary School                                               -24.056500    27.987400 	South Africa
+201 Deo Gloria Primary School                                                -24.585970    27.449550 	South Africa
+202 Makobe Primary School                                                    -23.536670    28.807000 	South Africa
+203 Malapile Primary School                                                  -23.754250    28.716980 	South Africa
+204 Mahlasedi Primary School                                                 -24.285750    28.103720 	South Africa
+205 Phahlaphahla Primary School                                              -23.555670    28.592670 	South Africa
+206 Rekgonne Primary School                                                  -25.035121    28.971925 	South Africa
+207 Kgakgala Primary School                                                  -23.893230    28.595700 	South Africa
+208 Tibanefontein Primary School                                             -23.646680    29.010450 	South Africa
+209 Ham Primary School                                                       -23.627680    28.850610 	South Africa
+210 Ellisras High School                                                     -23.665959    27.737479 	Strydomstraat, Ellisras, Lephalale, 0555, South Africa
+211 Waterberg Fet College                                                    -24.180182    29.016780 	36 Hooge St, Mokopane, 0600, South Africa
+212 Mpadi Secondary School                                                   -23.471330    28.705670 	South Africa
+213 Tshikanoshi Secondary School                                             -24.978970    28.946250 	South Africa
+214 Rabasotho Primary School                                                 -23.855075    28.752163 	South Africa
+215 Lekkerbreek Primary School                                               -24.715630    28.492200 	South Africa
+216 Reenpan Primary School                                                   -24.251380    27.272930 	South Africa
+217 Reabilwe Primary School                                                  -23.427930    28.613780 	0617, South Africa
+218 Sekgopi Primary School                                                   -25.012000    27.925830 	South Africa
+219 Chrome Mine Primary School                                               -24.788920    27.291270 	South Africa
+220 Chumana Primary School                                                   -24.074880    28.978070 	0659, South Africa
+221 Ramojapudi Primary School                                                -23.566220    28.123900 	South Africa
+222 Matlou Memorial Primary School                                           -23.591170    28.520000 	South Africa
+223 Eden Christian School                                                    -24.900039    28.231060 	Noodhulp, Bela-Bela, 0480, South Africa
+224 Seoka Primary School                                                     -23.907580    29.091670 	South Africa
+225 Harry Oppenheimer Secondary School                                       -23.795700    28.894650 	South Africa
+226 Badseloop Primary School                                                 -24.573380    28.646370 	South Africa
+227 Kgoka Primary School                                                     -23.851590    28.758500 	South Africa
+228 Utsane High School                                                       -25.063330    28.209830 	South Africa
+229 Turffontein Primary School                                               -24.954350    28.422720 	South Africa
+230 Basterspad Primary School                                                -23.884700    28.624880 	South Africa
+231 Mpepule Primary School                                                   -23.714630    28.182430 	South Africa
+232 Ralehumane Primary School                                                -23.483500    28.459170 	South Africa
+233 Motjere High School                                                      -23.585870    28.935700 	South Africa
+234 Heuningfontein Primary School                                            -24.458970    28.310970 	South Africa
+235 Moshira Primary School                                                   -23.623500    28.768330 	South Africa
+236 Abiot Kolobe Primary School                                              -23.920000    28.685500 	South Africa
+237 Sepobe Primary School                                                    -23.583670    28.756830 	South Africa
+238 Gobolibi Secondary School                                                -25.066000    28.802500 	South Africa
+239 Ngwanallela High School                                                  -23.518230    28.937950 	South Africa
+240 John Petro Secondary School                                              -24.017850    28.957480 	8191 S Africa Dr, Roodepoort, 2188, South Africa
+241 Mananye Secondary School                                                 -23.247300    28.038200 	South Africa
+242 Meetsetshehla Secondary School                                           -24.280320    28.104900 	South Africa
+243 Mafasa Secondary School                                                  -23.475000    28.819500 	South Africa
+244 Moshibudi Primary School                                                 -24.051330    28.943630 	0626, South Africa
+245 Lephadimisha Senior Secondary School                                     -23.806830    28.809420 	South Africa
+246 Tshukutswe High School                                                   -23.650820    28.980000 	South Africa
+247 Nkgoru High School                                                       -23.885670    28.619830 	South Africa
+248 Nakonkwetlou Secondary School                                            -23.550830    28.717500 	South Africa
+249 Maphutha Primary School                                                  -23.651170    28.920830 	South Africa
+250 Waterberg Fet College                                                    -24.180182    29.016780 	36 Hooge St, Mokopane, 0600, South Africa
+251 Waterberg FET College                                                    -24.152228    28.980331 	Technical St, Mahwelereng-A, Mahwelereng, 0626, South Africa
+252 Lephalale Fet College                                                    -23.682528    27.686196 	Cnr Nelson Mandela Lane & Ramathodi Street, Lephalale, 0555, South Africa
+253 Limpopo Chefs Academy                                                    -24.186093    29.015987 	81 Rabe St, Mokopane, 0600, South Africa
+254 Waterberg Academy                                                        -24.282428    28.103333 	R33, South Africa
+255 Waterberg TVET college Thabazimbi Campus                                 -24.571731    27.383262 	Regorogile, Thabazimbi, 0387, South Africa
+256 Kamoka Bush School St Stithians College                                  -24.590398    28.467615 	South Africa
+257 Mokopane College                                                         -24.147326    28.988606 	1830 Rufus Seakamela St, Mahwelereng-C, Mokopane, 0626, South Africa
+258 Marapyane Agric College                                                  -24.964935    28.761462 	Marapyane, 0431, South Africa
+259 Kings College                                                            -23.681990    27.686950 	118 Waterbessie Way, Lephalale, 0555, South Africa
+260 North Crest Academy                                                      -24.196933    29.006524 	165 Thabo Mbeki Dr, Chroompark, Mokopane, 0600, South Africa
+261 Lephalale TVET College                                                   -23.681737    27.688242 	Lephalale, 0555, South Africa
+262 Waterberg TVET College Lebowakgomo                                       -24.304831    29.493479 	P 0737, Lebowakgomo, South Africa
+263 Tompi Seleka College of Agriculture                                      -24.980540    29.284644 	Marblehall, 0450, South Africa
+264 Mogolo Academy                                                           -23.657650    27.618723 	175 Mosethla St, Marapong, Lephalale, 0556, South Africa
+265 TSHWANE NORTH TVET COLLEGE                                               -25.388307    28.258715 	Jubilee Road, Hammanskraal, Pretoria, 0407, South Africa
+266 Compass Academy Of Learning                                              -24.195057    29.012599 	15 Geyser St, Mokopane, 0601, South Africa
+267 iCollege                                                                 -25.409737    28.281379 	Shop 31, Kopanong Centre, Cnr Douglas Rens Road., Old Warmbaths Rd, Hammanskraal, 0407, South Africa
+268 Sutherland Hunting Academy                                               -24.339138    28.107695 	groenfontein, Vaalwater, South Africa
+269 PLG Sanrock Academy                                                      -24.674390    28.445770 	R101, Modimolle, 0510, South Africa
+270 Moretele College of Education                                            -25.240280    28.102780 	Makapanstad, 0404, South Africa
+271 Mukhanyo Theological College                                             -25.418875    28.711276 	Plot 1 Solomon Mahlangu Drive, KwaMhlanga, 1022, South Africa
+272 Alathea Bible College                                                    -25.117535    29.037663 	C,, Siyabuswa-D, South Africa
+273 Boston City Campus and Business College                                  -23.920260    29.455300 	Floor 3 Standard Bank Bldg, Landros Mare St, Polokwane, 0699, South Africa
+274 Pax College,Brothers of Charity                                          -23.830419    29.204444 	South Africa
+275 Prestige College                                                         -25.427927    28.273466 	116 Elke Street, Hammanskraal, 0407, South Africa
+276 Sekhukhune FETCollege                                                    -25.167361    29.398692 	676 Motetema Private Bag X, Groblersdal, 0470, South Africa
+277 Capricorn College for FET                                                -23.917524    29.453796 	16 Market St, Polokwane Central, Polokwane, 0699, South Africa
+278 Brooklyn city college, Polokwane                                         -23.910030    29.449430 	11 Grobler St, Polokwane Central, Polokwane, 0700, South Africa
+279 Nicole Nurses Training School                                            -25.453864    28.091852 	946/16, Block HH, Soshanguve, Pretoria, 0152, South Africa
+280 Rosebank College                                                         -23.910963    29.450288 	54 Kerk St, Polokwane Central, Polokwane, 0700, South Africa
+281 Zurel Bros SA - Education and Training Academy - Private FET College     -23.886444    29.439730 	120 River St, Polokwane Ext 16, Polokwane, 0700, South Africa
+282 Waterberg Academy                                                        -24.282428    28.103333 	R33, South Africa
+283 Impala Game Ranger Training                                              -24.937036    27.893836 	South Africa
+284 Skills Unlimited                                                         -24.194634    29.011667 	21 Geyser St, Mokopane, 0600, South Africa
+285 Moretele College of Education                                            -25.240280    28.102780 	Makapanstad, 0404, South Africa
+286 Arabie Agricultural School                                               -24.789440    29.454720 	Arabie, South Africa
+287 Teacher Education Campus                                                 -25.129060    29.072902 	Siyabuswa-F, Siyabuswa, 0472, South Africa
+288 Kuschke Agricultural School                                              -24.010830    29.371110 	South Africa
+289 University of South Africa                                               -23.916124    29.453825 	23 Landdros Mare St, Polokwane Central, Polokwane, 0700, South Africa
+290 Game Mokopane                                                            -24.182001    29.013816 	56 Thabo Mbeki Dr, Shop 41, The Crossing, Mokopane, 0601, South Africa
+291 Shoprite Steilloop                                                       -23.431458    28.619807 	N11 in Steilloopbrug, Steilloop, 0617, South Africa
+292 Waterberg Apteek Kantoor                                                 -24.186554    29.011580 	89 Thabo Mbeki Dr, Mokopane, 0600, South Africa
+293 Game Northam                                                             -24.957963    27.259349 	Swartklip Rd, Shop 107, Northam Plaza, Northam, 0360, South Africa
+294 Game Lephalale                                                           -23.688062    27.705006 	Cnr Nelson Mandela Dr & Chris Hani Ave, Shop 23, Lephalale Mall, Onverwacht, Lephalale, 0557, South Africa
+295 O K Furniture                                                            -24.179647    29.009845 	Nelson Mandela Dr, Mokopane, 0601, South Africa
+296 tops at SPAR                                                             -24.884568    28.293012 	53 Chris Hani Way, Warmbaths, Bela-Bela, 0480, South Africa
+297 Pick n Pay Northam                                                       -24.957323    27.262123 	Brits Rd & Botha Rd, Northam, 0360, South Africa
+298 Pick n Pay Modimolle                                                     -24.711476    28.415747 	Cnr Nelson Mandela Dr & Allen St, Nylstroom Shopping Centre, Modimolle, 0510, South Africa
+299 Quality Store                                                            -23.677452    27.739540 	3 Jan Lees Botha Ln, Lephalale, 0555, South Africa
+300 Quick Shop                                                               -24.176929    28.999313 	Akasia, Mokopane, 0600, South Africa
+301 Pick n Pay Mokopane                                                      -24.188064    29.012767 	Cnr Hooge Str and Thabo Mbeki Str, (Inside Mokopane Mall), Mokopane, 0601, South Africa
+302 Beadle                                                                   -24.153606    28.295674 	Klipfontein, Vaalwater, 0530, South Africa
+303 Pick 'n Pay Liquor                                                       -23.690274    27.703722 	Lephalale, 0555, South Africa
+304 SPAR                                                                     -24.519479    28.713751 	64 Thabo Mbeki St, Mookgopong, 0560, South Africa
+305 Superspar - Mogol                                                        -23.687105    27.700365 	Dagbreek Dr & Drif Wy, Lephalale, 0555, South Africa
+306 Waterberg Toyota Modimolle                                               -24.696169    28.410129 	88 Thabo Mbeki Dr, Modimolle, 0510, South Africa
+307 Husqvarna Waterberg                                                      -23.678469    27.739726 	4 Eckard St, Lephalale, 0555, South Africa
+308 Shoprite Ellisras                                                        -23.669393    27.743270 	Shoprite Centre, Hendrikstraat No 9, Lephalale, 0555, South Africa
+309 Liqour City Mokopane                                                     -24.186965    29.013448 	89 Hooge St, Mokopane, 0300, South Africa
+310 Checkers LiquorShop                                                      -23.686582    27.704851 	Cnr Nelson Mandela Dr & Chris Hani Ave, Shop 9, Lephalale Mall, Lephalale, 0555, South Africa
+311 Pick n Pay                                                               -24.588869    27.398534 	Corner Warmbaths Road and Ellisras Road, Portion 19, Doornhoek, Thabazimbi, 0380, South Africa
+312 Checkers Modimolle                                                       -24.696256    28.405738 	Modi Mall, Thabo Mbeki Drive, Modimolle, 0510, South Africa
+313 Toys"R"Us                                                                -23.688998    27.704625 	Lephalale Way, Lephalale, 0555, South Africa
+314 Ackermans                                                                -24.593813    27.408369 	7 Van Der Bijl St, Thabazimbi, 0380, South Africa
+315 Spar                                                                     -24.884725    28.292633 	53 Chris Hani Way, Bela-Bela, 0480, South Africa
+316 Shoprite Northam                                                         -24.956665    27.258581 	Northam Plaza, 1235 Provencial Road, Northam, 0360, South Africa
+317 Clicks                                                                   -23.687526    27.704820 	Shop 18-19 Lephalale Mall, Cnr Chris Hani Road & Nelson Mandela, Lephalale, 0555, South Africa
+318 Shoprite LiquorShop Thabazimbi                                           -24.588571    27.410891 	Cnr &, Van Der Bijl St, Thabazimbi, 0387, South Africa
+319 Mokopane Build it                                                        -24.178874    29.006130 	82 Nelson Mandela Dr, Mokopane, 0600, South Africa
+320 Shoprite Potgietersrus                                                   -24.179130    29.010290 	Shoprite Taxi Rank Centre, Cnr Ruiter and Potgieter Street, Mahwelereng, Mokopane, 0600, South Africa
+321 Spar                                                                     -24.587502    27.410989 	75 Van Der Bijl St, Thabazimbi, 0387, South Africa
+322 Usave SHOPRITE                                                           -24.517853    28.715565 	76 Thabo Mbeki St, Mookgopong, 0560, South Africa
+323 Clicks Pharmacy- Mokopane Mall                                           -24.187469    29.011996 	3 Mokopane Mall, C/O Van Riebeeck Road and Thabo Mbeki Road, Mokopane, 0601, South Africa
+324 Choppies - Lephalale                                                     -23.676419    27.737627 	Morula Mile, 35j Louis Botha Drive, Lephalale, 0555, South Africa
+325 SUPERSPAR                                                                -24.184279    29.013406 	Spar Plaza, 32 Retief St, Mokopane, 0300, South Africa
+326 Clicks - Modi Mall                                                       -24.696013    28.406991 	27 Modi Mall, Ext 35 Cnr Thabo Mbeki Drive Drive and River Street, Modimole, Pretoria, 0510, South Africa
+327 Clicks Pharmacy - Thaba Mall(Thabazimbi)                                 -24.589283    27.399881 	Shop 41 Thaba Mall, 41 MAIN ROAD, Thabazimbi, 0380, South Africa
+328 Zee Cash & Carry                                                         -24.177846    29.002947 	100 Nelson Mandela Dr, Mokopane, 0600, South Africa
+329 Choppies Modimolle                                                       -24.705123    28.410014 	42 Calvyn St, Modimolle, 0510, South Africa
+330 Usave Northam                                                            -24.956561    27.263048 	Northam, 0360, South Africa
+331 Checkers LiquorShop Bela Mall                                            -24.895066    28.294917 	R101, Shop 3, Bela Mall, Warmbaths, Bela-Bela, 0480, South Africa
+332 Makoro Brick South Africa                                                -24.171123    29.003828 	83 Sussex St, Mokopane, 0601, South Africa
+333 Checkers LiquorShop Modimolle                                            -24.696250    28.406297 	Cnr Thabo Mbeki Dr & Limpopo St, Shop 127, Modi Mall, Nylstroom, Modimolle, 0510, South Africa
+334 Naboom Pet Shop                                                          -24.522513    28.710896 	36 Thabo Mbeki St, Mokopane, Polokwana, 0560, South Africa
+335 WATERBERG TOYOTA                                                         -24.886907    28.295914 	12, Potgieter Rd, Warmbaths, Bela-Bela, 0480, South Africa
+336 Rand Super Store                                                         -24.180964    29.011861 	52 Ruiter Rd, Mokopane, 0600, South Africa
+337 Hassim's Supply Store                                                    -24.885278    28.297997 	3 Potgieter Rd, Bela-Bela, 0480, South Africa
+338 Boxer Superstore Lephalale                                               -23.672580    27.712680 	6 Hendrik Pistorius Ave, Lephalale, 0555, South Africa
+339 SA Chinchillas                                                           -23.666421    27.744731 	Lephalale Limpopo, Lephalale, 0555, South Africa
+340 Big Fig Inn                                                              -23.024368    27.962007 	621 Tom Burke St, Faerie Glen, Tomburke, 0621, South Africa
+341 Exanten                                                                  -24.615669    27.387154 	Warmbad Weg Rd, 26465 Langeoog, Germany
+342 Inspecta Car                                                             -24.187970    29.011809 	102 Thabo Mbeki Street, Mokopane, 0600, South Africa
+343 Nurtra Paints CC                                                         -24.172349    29.009622 	67 Sussex St, Mokopane, 0600, South Africa
+344 T. Albers Furnishers                                                     -24.178662    29.007438 	04, 73 Nelson Mandela Dr, Mokopane, 0600, South Africa
+345 Foodzone                                                                 -24.913486    27.152906 	Swartklip, 0370, South Africa
+346 NTK                                                                      -24.884536    28.297353 	Kretzschmar St, Bela-Bela, 0480, South Africa
+347 Campworld Mokopane                                                       -24.178257    29.011936 	33 Ruiter Rd, Mokopane, 0601, South Africa
+348 OVERLAND LIQUORS                                                         -24.184465    29.012951 	Shop No. 13, Spar Plaza, 76 Thabo Mbeki Street, Mokopane, Polokwane, 0300, South Africa
+349 STEILLOOP PLAZA                                                          -24.026839    28.980436 	N11, South Africa
+350 Waterberg Apteek Kantoor                                                 -24.186554    29.011580 	89 Thabo Mbeki Dr, Mokopane, 0600, South Africa
+351 Game Mokopane                                                            -24.182001    29.013816 	56 Thabo Mbeki Dr, Shop 41, The Crossing, Mokopane, 0601, South Africa
+352 Shoprite Steilloop                                                       -23.431458    28.619807 	N11 in Steilloopbrug, Steilloop, 0617, South Africa
+353 Game Northam                                                             -24.957963    27.259349 	Swartklip Rd, Shop 107, Northam Plaza, Northam, 0360, South Africa
+354 Game Lephalale                                                           -23.688062    27.705006 	Cnr Nelson Mandela Dr & Chris Hani Ave, Shop 23, Lephalale Mall, Onverwacht, Lephalale, 0557, South Africa
+355 Pick n Pay Modimolle                                                     -24.711476    28.415747 	Cnr Nelson Mandela Dr & Allen St, Nylstroom Shopping Centre, Modimolle, 0510, South Africa
+356 Quick Shop                                                               -24.176929    28.999313 	Akasia, Mokopane, 0600, South Africa
+357 Checkers Bela Bela                                                       -24.895242    28.294745 	Bela Bela Mall, R101, Bela-Bela, 0480, South Africa
+358 Clicks Pharmacy- Mokopane Mall                                           -24.187469    29.011996 	3 Mokopane Mall, C/O Van Riebeeck Road and Thabo Mbeki Road, Mokopane, 0601, South Africa
+359 Beadle                                                                   -24.153606    28.295674 	Klipfontein, Vaalwater, 0530, South Africa
+360 J.M.K Pharmacy                                                           -24.884634    28.293033 	Shop 4, Spar Complex, Bela-Bela, 0480, South Africa
+361 O K Furniture                                                            -24.179647    29.009845 	Nelson Mandela Dr, Mokopane, 0601, South Africa
+362 tops at SPAR                                                             -24.884568    28.293012 	53 Chris Hani Way, Warmbaths, Bela-Bela, 0480, South Africa
+363 Northam Shoprite Centre                                                  -24.956030    27.258600 	1235 Provencial Road, Northam, Limpopo, South Africa, South Africa
+364 Clicks Pharmacy - Thaba Mall(Thabazimbi)                                 -24.589283    27.399881 	Shop 41 Thaba Mall, 41 MAIN ROAD, Thabazimbi, 0380, South Africa
+365 Waterberg Toyota Modimolle                                               -24.696169    28.410129 	88 Thabo Mbeki Dr, Modimolle, 0510, South Africa
+366 Husqvarna Waterberg                                                      -23.678469    27.739726 	4 Eckard St, Lephalale, 0555, South Africa
+367 Superspar - Mogol                                                        -23.687105    27.700365 	Dagbreek Dr & Drif Wy, Lephalale, 0555, South Africa
+368 Quality Store                                                            -23.677452    27.739540 	3 Jan Lees Botha Ln, Lephalale, 0555, South Africa
+369 Pick 'n Pay Liquor                                                       -23.690274    27.703722 	Lephalale, 0555, South Africa
+370 Checkers Modimolle                                                       -24.696256    28.405738 	Modi Mall, Thabo Mbeki Drive, Modimolle, 0510, South Africa
+371 Checkers LiquorShop                                                      -23.686582    27.704851 	Cnr Nelson Mandela Dr & Chris Hani Ave, Shop 9, Lephalale Mall, Lephalale, 0555, South Africa
+372 Clicks                                                                   -23.687526    27.704820 	Shop 18-19 Lephalale Mall, Cnr Chris Hani Road & Nelson Mandela, Lephalale, 0555, South Africa
+373 Spar                                                                     -24.587502    27.410989 	75 Van Der Bijl St, Thabazimbi, 0387, South Africa
+374 Pick n Pay                                                               -24.588869    27.398534 	Corner Warmbaths Road and Ellisras Road, Portion 19, Doornhoek, Thabazimbi, 0380, South Africa
+375 Ackermans                                                                -24.593813    27.408369 	7 Van Der Bijl St, Thabazimbi, 0380, South Africa
+376 Shoprite LiquorShop Modimolle                                            -24.708136    28.415648 	Nelson Mandela Dr & Meiniger St, Modimolle, 0510, South Africa
+377 Mokopane Build it                                                        -24.178874    29.006130 	82 Nelson Mandela Dr, Mokopane, 0600, South Africa
+378 Shoprite LiquorShop Thabazimbi                                           -24.588571    27.410891 	Cnr &, Van Der Bijl St, Thabazimbi, 0387, South Africa
+379 Liquor city ellisras                                                     -23.669413    27.743014 	21 Hendrik Pistorius Ave, Lephalale, 0555, South Africa
+380 Clicks - Modi Mall                                                       -24.696013    28.406991 	27 Modi Mall, Ext 35 Cnr Thabo Mbeki Drive Drive and River Street, Modimole, Pretoria, 0510, South Africa
+381 Checkers LiquorShop Bela Mall                                            -24.895066    28.294917 	R101, Shop 3, Bela Mall, Warmbaths, Bela-Bela, 0480, South Africa
+382 Makoro Brick South Africa                                                -24.171123    29.003828 	83 Sussex St, Mokopane, 0601, South Africa
+383 MUSICA                                                                   -24.188150    29.012632 	8, Mokopane Mall, 99 Hooge St, Mokopane, 0600, South Africa
+384 WATERBERG TOYOTA                                                         -24.886907    28.295914 	12, Potgieter Rd, Warmbaths, Bela-Bela, 0480, South Africa
+385 Naboom Pet Shop                                                          -24.522513    28.710896 	36 Thabo Mbeki St, Mokopane, Polokwana, 0560, South Africa
+386 Usave Northam                                                            -24.956561    27.263048 	Northam, 0360, South Africa
+387 SA Chinchillas                                                           -23.666421    27.744731 	Lephalale Limpopo, Lephalale, 0555, South Africa
+388 Rand Super Store                                                         -24.180964    29.011861 	52 Ruiter Rd, Mokopane, 0600, South Africa
+389 Hassim's Supply Store                                                    -24.885278    28.297997 	3 Potgieter Rd, Bela-Bela, 0480, South Africa
+390 Checkers LiquorShop Modimolle                                            -24.696250    28.406297 	Cnr Thabo Mbeki Dr & Limpopo St, Shop 127, Modi Mall, Nylstroom, Modimolle, 0510, South Africa
+391 Exanten                                                                  -24.615669    27.387154 	Warmbad Weg Rd, 26465 Langeoog, Germany
+392 Liqour City Mokopane                                                     -24.186965    29.013448 	89 Hooge St, Mokopane, 0300, South Africa
+393 Inspecta Car                                                             -24.187970    29.011809 	102 Thabo Mbeki Street, Mokopane, 0600, South Africa
+394 Big Fig Inn                                                              -23.024368    27.962007 	621 Tom Burke St, Faerie Glen, Tomburke, 0621, South Africa
+395 Boxer Superstore Lephalale                                               -23.672580    27.712680 	6 Hendrik Pistorius Ave, Lephalale, 0555, South Africa
+396 Campworld Mokopane                                                       -24.178257    29.011936 	33 Ruiter Rd, Mokopane, 0601, South Africa
+397 Limpopo ANC Merchandise                                                  -24.179850    29.008499 	Shop No. 66, 66C Nelson Mandela Dr, Mokopane, 0600, South Africa
+398 Warmbaths Produce                                                        -24.884523    28.293827 	Pretoria Rd, Bela-Bela, 0480, South Africa
+399 Telkom Direct Potgietersrus                                              -24.187294    29.013213 	96 Thabo Mbeki Dr, Shop 5 & 6, Mokopane Mall, Mokopane, 0601, South Africa
+400 T. Albers Furnishers                                                     -24.178662    29.007438 	04, 73 Nelson Mandela Dr, Mokopane, 0600, South Africa
+401 point S                                                                  -24.887673    28.294932 	14 Potgieter Rd, Bela-Bela, 0480, South Africa
+402 Pick n Pay Northam                                                       -24.957323    27.262123 	Brits Rd & Botha Rd, Northam, 0360, South Africa
+403 Truworths                                                                -24.181627    29.007489 	69 Retief St, Mokopane, 0601, South Africa
+404 pro sat electronics                                                      -24.876864    28.290353 	72 Kretzschmar St, Bela-Bela, 0480, South Africa
+405 Linda's Materiale                                                        -24.884420    28.298339 	11B Chris Hani Rd, Bela-Bela, 0480, South Africa
+406 TRUWORTHS MAN                                                            -24.895112    28.294279 	Bela Mall, R101, Bela-Bela, Polokwane, 0902, South Africa
+407 Engen Waterberg Toyota                                                   -24.696845    28.409301 	96 Thabo Mbeki Dr, Modimolle, 0510, South Africa
+408 Truworths                                                                -24.187824    29.012940 	Shop 2, Mokopane Mall, 99 Hooge St, Mokopane, 0600, South Africa
+409 Truworths                                                                -24.885074    28.295100 	Chris Hani Way, Bela-Bela, 0480, South Africa
+410 Modi Mall.                                                               -24.695933    28.406261 	Cnr Thabo Mbeki Dr & Limpopo St, South Africa
+411 Spar Shopping Centre (Bela Bela)                                         -24.884725    28.292633 	63 Chris Hanni Road, Belabela (Warmbad), 0480, Limpopo, South Africa, South Africa
+412 Bela Mall.                                                               -24.895778    28.295675 	Bela-Bela, 0480, South Africa
+413 Thaba Mall                                                               -24.589252    27.399514 	Thabazimbi, 0387, South Africa
+414 Zebediela Plaza                                                          -24.360877    29.321045 	R519, Zebediela, 0737, South Africa
+415 The Crossing Mall                                                        -24.182408    29.013881 	60 Thabo Mbeki Dr, Mokopane, 0601, South Africa
+416 Moshate Shopping Complex                                                 -24.141064    28.966636 	Masehlaneng, Mokopane, 0626, South Africa
+417 Tibani Shopping Centre                                                   -23.636403    29.014535 	R567, Tibanefontein Village, 0748, South Africa
+418 Mahwelereng Shopping Centre                                              -24.139888    28.968829 	Dudu Madisha Dr, Ga-Madiba, Mokopane, South Africa
+419 Lephalale Mall                                                           -23.688181    27.704834 	Lephalale, 0555, South Africa
+420 Spar Plaza - Mokopane                                                    -24.184498    29.013381 	Thabo Mbeki Dr, Mokopane, 0601, South Africa
+421 Bela Bela Waterfront                                                     -24.892019    28.294653 	R101, Bela-Bela, Plokwane, 0902, South Africa
+422 Senotlelo Cemetery                                                       -25.030619    28.927151 	South Africa
+423 Soomaya Centre                                                           -24.181347    29.016725 	19 Potgieter St, Mokopane, 0600, South Africa
+424 Marula Square                                                            -23.688860    27.699362 	Lephalale, 0555, South Africa
+425 Autozone Vaalwater                                                       -24.301113    28.113008 	Vaalwater, 0530, South Africa
+426 West Pack Express Bela- Bela                                             -24.886883    28.293971 	3 Marx St, Bela-Bela, 0480, South Africa
+427 JUBILEE MALL                                                             -25.405671    28.270027 	Jubilee Road & Harry Gwala Road, Hammanskraal, 0400, South Africa
+428 Temba City Shopping Centre                                               -25.377581    28.259490 	Lucas Mangope Rd, Kudube Unit 2, Temba, 0407, South Africa
+429 Kopanong Centre Hammanskraal                                             -25.407820    28.281400 	Kudebe Douglas Rens Rd, South Africa
+430 Kolonnade Shopping Centre                                                -25.681090    28.250625 	Sefako Makgatho Dr & Enkeldoorn Ave, Montana Park, Pretoria, 0159, South Africa
+431 Wonderpark Shopping Centre                                               -25.672371    28.110786 	344 Brits Rd, Karenpark, Pretoria, 0116, South Africa
+432 Mogwase Centre                                                           -25.273010    27.236430 	South Africa
+433 Siyabuswa Mall                                                           -25.114587    29.057802 	R573, Siyabuswa-A, 0472, South Africa
+434 FNB Bank ATM                                                             -25.163800    27.169090 	Shop 58A Moruleng Mall, Moruleng, Rustenburg, 0299, South Africa
+435 mall@lebo                                                                -24.316028    29.478617 	Lebowakgomo-F, Lebowakgomo, 0737, South Africa
+436 Phola Park Shopping Centre                                               -25.404641    28.771638 	KwaMhlanga, South Africa
+437 Metropolitan Life Plaza                                                  -24.311690    29.477520 	Lebowakgomo-BA, Lebowakgomo, 0737, South Africa
+438 Savannah Mall                                                            -23.903922    29.487977 	Thabo Mbeki St & Grimm Street, Fauna Park, Polokwane, 0699, South Africa
+439 Ecozone Trading Enterprise                                               -25.402200    28.721510 	Moloto Road, Kwamhlanga Crossroads, KwaMhlanga, 1022, South Africa
+440 Batho Plaza                                                              -25.480433    28.116545 	Corner Dr Maroko Drive and Deadly Nightshade Street, Soshunguve, 0164, South Africa
+441 Mall of the North                                                        -23.873690    29.509297 	Cnr R81 & N1, Bendor Park, Polokwane, 0699, South Africa
+442 Side Step Limpopo Mall                                                   -23.904344    29.449768 	86 Devenish St, Polokwane Central, Polokwane, 0700, South Africa
+443 Tshwane China Shopping Mall                                              -25.684052    28.294280 	Zambezi Drive, Zambezi, Pretoria, 0182, South Africa
+444 Kwagga Plaza                                                             -25.312984    28.940563 	Main Road, Kwaggafontein, South Africa
+445 Sun Central                                                              -25.345727    27.096730 	Sun City, South Africa
+446 Siksha Decor & Lifestyle Centre                                          -23.907870    29.446580 	8 Jorissen St, Polokwane Central, Polokwane Limpopo Province South Africa, 0699, South Africa
+447 Groblersdal Mall                                                         -25.166872    29.402794 	6 Van Riebeeck St, Groblersdal, 0470, South Africa
+448 Thorntree shopping complex                                               -25.580460    28.105189 	Hebron Rd, Soshanguve - VV, Soshanguve, 0152, South Africa
+449 Bochum Plaza                                                             -23.271000    29.123000 	364 Dendron Road, Bochum, 0790, South Africa
+450 New Mall                                                                 -25.402712    28.773015 	KwaMhlanga, South Africa
+451 Letlhabile Centre                                                        -25.495203    27.839967 	10th Ave, Lethlabile-A, Brits, South Africa
+452 Bochum and Blouberg Plaza                                                -23.288682    29.137873 	366 Dendron Road, Bochum-A, Bochum, 0790, South Africa
+453 Ivydale Shopping Centre                                                  -23.936171    29.447863 	Timbavati St, Polokwane, South Africa
+454 Soshanguve Crossing Mall                                                 -25.550165    28.089727 	Ruth First Rd & Aubrey Matlala Street, Soshanguve, Pretoria, 0152, South Africa
+455 Central City Centre                                                      -25.512780    28.044640 	Mabopane Unit X, Mabopane, 0190, South Africa
+456 Seshego Circle Centre                                                    -23.852238    29.398490 	Ditlou St, Seshego-B, Polokwane, 0742, South Africa
+457 Seshego Plaza                                                            -23.851997    29.379032 	New Era Dr, Seshego-G, Polokwane, 0742, South Africa
+458 The Pantry                                                               -25.340654    27.086188 	South Village, Sun City, 0316, South Africa
+459 Andys Service Station                                                    -24.310340    29.486617 	Lebowakgomo-BA, Lebowakgomo, 0737, South Africa
+460 Waverley Plaza                                                           -25.703594    28.239911 	1116 Hertzog St, Waverley, Pretoria, 0186, South Africa
+461 Polokwane Life Style Centre                                              -23.894998    29.449484 	Landdros Mare St, Polokwane, 0699, South Africa
+462 Ladana Tropicana Centre                                                  -23.878898    29.441620 	25 Witklip St, Annadale, Polokwane, 0699, South Africa
+463 Madelief Shopping Centre                                                 -25.668820    28.155797 	Daan De Wet Nel Dr, Dorandia, Pretoria, 0188, South Africa
+464 Moutse Mall                                                              -25.280723    29.183708 	10 Bronkhorspruit, Denniliton, 1030, South Africa
+465 Hebron Mall (proposed)                                                   -25.556943    28.043955 	25°33'25. 28°02'38., 0"S 2nd Ave, Akasia, 0182, South Africa
+466 North Park Mall                                                          -25.676520    28.171652 	North Park, Pretoria North, Pretoria, 0001, South Africa
+467 Jakaranda Centre                                                         -25.716887    28.218746 	1A, Nico Smith St, Rietfontein, Pretoria, 0084, South Africa
+468 FNB Bank ATM Montana Crossing                                            -25.678070    28.241740 	Cnr Zambezi Drive and Swanepoel Road, Sinoville, Pretoria, 0151, South Africa
+469 Welgelegen Shopping Centre                                               -23.894120    29.469710 	Welgelegen, Polokwane, 0699, South Africa
+470 New Apostolic Church Bela-Bela                                           -24.871783    28.290245 	26 Flamboyant St, Bela-Bela, 0480, South Africa
+471 Saint Engenas Zion Christian Church                                      -25.026009    28.977399 	South Africa
+472 NG Kerk Waterberg                                                        -24.700245    28.402153 	112 Kerk St, Modimolle, 0510, South Africa
+473 International Pentacostal Holiness Church                                -24.127248    29.000731 	Mahwelereng-B, Mokopane, 0626, South Africa
+474 Gereformeerde Kerk - Waterberg                                           -24.706474    28.409338 	Kerk St, Modimolle, 0510, South Africa
+475 Methodist Church In Southern Africa                                      -25.146951    27.966682 	Moretele, South Africa
+476 St. Stephens Anglican Church, Diocese of St. Mark the Evangelist         -24.698473    28.436829 	345 Mokgatho St, Phagameng, Modimolle, South Africa
+477 African Methodist Episcopal Church (A.M.E)                               -25.145838    27.958480 	Moretele, South Africa
+478 Nederduitsch Hervormde Kerk Van Afrika - Waterberg                       -24.701189    28.405033 	Voortrekker Road, Modimolle, 0510, South Africa
+479 Universal                                                                -24.644853    29.299428 	25 Plein St, Johannesburg, 2000, South Africa
+480 NEW CHURCH OF SOUTHREN AFRICA                                            -24.794178    26.931837 	Dithabaneng, Matlametlong, 0367, South Africa
+481 Lutheran Bapedi Church                                                   -25.142127    27.959111 	Moretele, South Africa
+482 Waterberg Christen Sentrum                                               -24.191690    29.014854 	120 Rabe St, Mokopane, 0601, South Africa
+483 Afrikaanse Protestantse Kerk Waterberg                                   -24.706191    28.385225 	42 Hans Campher Driveway, Modimolle, 0510, South Africa
+484 Church Of The First Born                                                 -24.156974    28.989158 	C,, Mahwelereng-B, Mokopane, 0626, South Africa
+485 BREAD OF LIFE CHURCH MINISTRIES                                          -24.879570    28.319210 	5431 Tambo St, Bela-Bela, 0480, South Africa
+486 African Holy Trinity Church - Nokaneng                                   -25.072716    28.640695 	Nokaneng, 0435, South Africa
+487 St Peters African Church                                                 -25.068621    28.657020 	Nokaneng, 0435, South Africa
+488 Christ The Word Church                                                   -23.656299    27.634580 	ERF 1727 Extension 2, Marapong, Lephalale, 0556, South Africa
+489 Agapé Church / Kerk                                                      -23.697142    27.690382 	Knoppiesdoorn Rd, Lephalale, 0555, South Africa
+490 Corpus Christi Roman Catholic Church Lephalale                           -23.683231    27.724325 	Lephalale, 0555, South Africa
+491 Boschkop Catholic Church                                                 -23.300412    27.970296 	Letlora, South Africa
+492 Roman Catholic Church                                                    -24.144126    28.984874 	2291 Matebele St, Mahwelereng-A, Mokopane, 0626, South Africa
+493 ROLLING ROCK INTERNATIONAL MINISTRY                                      -25.136708    27.957808 	South Africa
+494 Gereformeerde Kerk Matlabas                                              -24.270650    27.486860 	South Africa
+495 Nederduitse Gereformeerde Kerk - Limpopo                                 -23.710320    27.274690 	South Africa
+496 Gereformeerde Kerk - Koedoesrand                                         -24.357380    28.266890 	South Africa
+497 Love Covenant Kings Assembly                                             -25.103601    28.547793 	South Africa
+498 St. Pauls Anglican Church , Diocese of St. Mark the Evangelist           -24.523413    28.722697 	Mookgopong, 0560, South Africa
+499 St. Simon of Cyrene Anglican Church, Diocese of St. Mark the Evangelist   -25.073051    28.226937 	Syferkuil, 0480, South Africa
+500 Bapela Postolic Church                                                   -24.345573    29.290183 	Mogoto, 0737, South Africa
+501 Lutheran Church - St Peters Parish                                       -24.147323    28.979067 	729 Moruleng St, Mahwelereng-A, Mokopane, 0626, South Africa
+502 Pentacostal Holiness Church - GGT (Greater Glory Tabernacle)             -24.144495    28.980998 	1086 Tshephanong St, Mahwelereng-A, Mokopane, 0626, South Africa
+503 Dutch reformed Church                                                    -24.896397    28.922401 	Malebitsa, South Africa
+504 Zion Christian Church                                                    -25.136436    27.961380 	Moretele, South Africa
+505 Harvester Reformational Church                                           -24.300034    28.110663 	Vaalwater, 0530, South Africa
+506 Lutheran Bapedi Church                                                   -25.018008    28.781923 	Marapyane, 0431, South Africa
+507 MMALETSWAI MORULENG ZCC CHURCH                                           -23.378832    28.031979 	Maletswai St, Aliwal North, 9750, South Africa
+508 ST Engenas Zion Christian Church                                         -25.051053    27.937577 	Lebotloane, 0411, South Africa
+509 Universal Church                                                         -24.183626    29.012699 	69 Thabo Mbeki St, Mokopane, 0600, South Africa
+510 Bosplaas Community Baptist Church                                        -25.311003    28.278775 	Unnamed, Pretoria, 0049, South Africa
+511 El-Shaddai GCI Ministries                                                -24.952645    27.257649 	6 Northam Pl, Northam, Johannesburg South, 2197, South Africa
+512 PPK Lephalale                                                            -23.682337    27.699367 	Bloukweek St, Lephalale, 0555, South Africa
+513 Gereformeerde Kerk Mogol                                                 -23.684570    27.722834 	Lephalale, 0555, South Africa
+514 Nederduitsch Hervormde Kerk                                              -24.518041    28.711151 	Nelson Mandela Dr, Mookgopong, 0560, South Africa
+515 The Redeemed Christian Church Of God                                     -24.181840    29.016328 	Shop No.6, 22 Nelson Mandela Dr, Mokopane, 0600, South Africa
+516 Seventh Day Adventist (SDA- English)                                     -24.708017    28.409818 	Kerk St, Modimolle, 0510, South Africa
+517 Universal Church                                                         -24.885687    28.295824 	12 Sutter Rd, Bela-Bela, 0480, South Africa
+518 No Smoking Church Of Christ                                              -24.361894    29.327939 	Moletlane, 0697, South Africa
+519 Hammanskraal Church.                                                     -25.329496    28.283678 	Carousel View, 0407, South Africa
+520 Hammanskraal Church Of Christ                                            -25.296977    28.245225 	Unnamed Road,, Danhouse, 0407, South Africa
+521 Old Apostolic Church of South Africa                                     -25.032889    27.855183 	Ruigtesloot, 0486, South Africa
+522 Seventh Day Adventist Church                                             -25.377719    28.209656 	South Africa
+523 African Catholic Church                                                  -25.373534    28.255421 	Temba Manyelete, Pretoria, 0407, South Africa
+524 Ebenezer Bible Church                                                    -25.386378    28.256367 	1905 Molefe Makinta St, Temba Rural, Temba, 0400, South Africa
+525 THE METHODIST CHURCH OF SOUTHERN AFRICA                                  -25.529804    28.102133 	Bethlehem Society, 749 Thakgalang St, Soshanguve Block K, Pretoria, 0152, South Africa
+526 Wesley Methodist Church                                                  -23.905980    29.455830 	74 Biccard St, Polokwane Central, Polokwane, 0700, South Africa
+527 Temba Holy Cross Roman Catholic Church                                   -25.378176    28.261424 	2470 Roma Street, Temba, Pretoria, 0407, South Africa
+528 The Church of Pentecost                                                  -25.402772    28.280927 	34 Old Warmbaths Rd, Hammanskraal, Pretoria, 0400, South Africa
+529 Hammanskraal Uniting Reformed Church in Southern Africa                  -25.396183    28.264683 	96 block g, Temba, 0407, South Africa
+530 Geluksfontein Goat Cheese Farm                                           -23.971960    28.271270 	Limpopo, South Africa, South Africa
+531 Lalele Crocodile Farm                                                    -24.459143    28.573165 	R520, Mookgopong, 0560, South Africa
+532 Ba Batle Game Farm                                                       -23.944432    27.935063 	R33, Grootwater Nature Reserve, 0000, South Africa
+533 Shona Langa                                                              -24.934657    27.909152 	South Africa
+534 Timulu Farm                                                              -24.027672    28.770766 	South Africa
+535 Wiltinnet                                                                -24.705476    28.410821 	11 Nelson Mandela Dr, Modimolle, 0510, South Africa
+536 Cyferskuil Farms                                                         -25.068047    28.242856 	Temba, South Africa
+537 Tubundu Wildlife Estate                                                  -23.891910    28.094026 	South Africa
+538 Moseja Farms and Projects                                                -25.230565    28.010845 	E 73 Mmatlhwaela, Makapanstad, 0503, South Africa
+539 Matlabas Game Hunters                                                    -23.810965    27.040230 	Farm Avondale 341LQ, Steenbokpan, Lephalale, 0555, South Africa
+540 Kolobe Estates Game Farm                                                 -24.649492    28.446977 	Bosveld, South Africa
+541 Vygeboom Farm, Nylstroom                                                 -24.779698    28.434482 	Nylstroom, South Africa
+542 Bufland Boerdery                                                         -24.428789    28.594730 	Unnamed Rd, South Africa
+543 Jahane Game Farm                                                         -23.417044    28.405822 	Lephalale, South Africa
+544 Jobedi Game Farm                                                         -24.089461    28.296257 	Unnamed Rd, South Africa
+545 Motlopi Farm                                                             -24.577150    27.579560 	Thabazimbi, South Africa
+546 Mama Tau Boerderij Boerdery                                              -23.725041    28.067584 	Lephalale, South Africa
+547 Rametse Farming Enterprise Mokgwaneng                                    -25.062530    28.979088 	South Africa
+548 Tony's Farm                                                              -25.274078    28.080131 	South Africa
+549 EL Sundew Farming (Pty) Ltd                                              -24.965058    29.281469 	Marblehall, 0450, South Africa
+550 Schoeman Boerdery (Edms) Bpk                                             -25.035723    29.367482 	Moos Rivier Farm, Groblersdal, 0470, South Africa
+551 Pannar Seed (Pty) Ltd Stockist                                           -24.517982    28.719165 	1st St, Mookgopong, 0560, South Africa
+552 Hygrotech Trial Farm (De Wagendrift)                                     -25.496352    28.582692 	South Africa
