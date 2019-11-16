@@ -1,0 +1,840 @@
+{
+    "Duduza Primary School": {
+        "formatted_address": "Sobende St, Duduza, Brakpan, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.370216,
+                "lng": 28.410507
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.36852447010728,
+                    "lng": 28.41188927989272
+                },
+                "southwest": {
+                    "lat": -26.37122412989272,
+                    "lng": 28.40918962010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "d4dbce8afe3a766915b6c0c1d202612821a922f2",
+        "name": "Duduza Primary School",
+        "photos": [
+            {
+                "height": 1280,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105383455288655260428/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAZ8eiMCMhmSg1YsDseE0Vis1bjNfy2Ot64NhcNRTXlwi0DwWqQWJwlFlmr65V2-opDSV43ElhEWoQKWmLJ4t6N84ZWOC35xDL-ubXO3hU2YAep9lEBY5f45U9qORctqnBEhAGPAj2ooExoYRGWZwYUU7NGhTPfuqHn2ueVQhVrJ650wtuAC09vQ",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJY103X1snlR4R49mRNRDUN9o",
+        "plus_code": {
+            "compound_code": "JCH6+W6 Brakpan",
+            "global_code": "5G5CJCH6+W6"
+        },
+        "rating": 3,
+        "reference": "ChIJY103X1snlR4R49mRNRDUN9o",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 5
+    },
+    "Sizwesethu Primary School": {
+        "formatted_address": "758 Sibeko St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3723112,
+                "lng": 28.4102944
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37102057010728,
+                    "lng": 28.41163767989272
+                },
+                "southwest": {
+                    "lat": -26.37372022989272,
+                    "lng": 28.40893802010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "8b3874ad81c1831349a947d639a12eccd1e110a0",
+        "name": "Sizwesethu Primary School",
+        "place_id": "ChIJDUh3dlwnlR4RpSxSBRTkr7c",
+        "plus_code": {
+            "compound_code": "JCH6+34 Brakpan",
+            "global_code": "5G5CJCH6+34"
+        },
+        "rating": 3.5,
+        "reference": "ChIJDUh3dlwnlR4RpSxSBRTkr7c",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    "Edalinceba Primary School": {
+        "formatted_address": "1691, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.36945,
+                "lng": 28.40379
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.36824492010728,
+                    "lng": 28.40528377989272
+                },
+                "southwest": {
+                    "lat": -26.37094457989272,
+                    "lng": 28.40258412010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "bbe6319b010d851755f8f53a062157cb823fc690",
+        "name": "Edalinceba Primary School",
+        "place_id": "ChIJh08S7U8nlR4RF6i88niGzwc",
+        "plus_code": {
+            "compound_code": "JCJ3+6G Brakpan",
+            "global_code": "5G5CJCJ3+6G"
+        },
+        "rating": 5,
+        "reference": "ChIJh08S7U8nlR4RF6i88niGzwc",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    "Nimrod Ndebele Secondary School": {
+        "formatted_address": "6970 Flamingo St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3765742,
+                "lng": 28.417474
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37525062010728,
+                    "lng": 28.41913947989272
+                },
+                "southwest": {
+                    "lat": -26.37795027989272,
+                    "lng": 28.41643982010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "ac457c24d8d04f6854eff7b87545a9c13ec15d97",
+        "name": "Nimrod Ndebele Secondary School",
+        "photos": [
+            {
+                "height": 1440,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103108286298025512466/photos\">SAKHIWE JWARA</a>"
+                ],
+                "photo_reference": "CmRaAAAAg-bx2YrCrcDob8XRQcqLqzDpKtwrRriziMN8wcKnolmMxmqL0ciL1fuEdvl_rEHE5XVLfHpfybNPlpLXV7hx1tlLjdehDAmSh3xjGybH1nCfjoPrhxcSdUZ3egIkTbJFEhD_SCBiDarseH_w8iA63XHPGhQp2_9YZj4D-k_SHHUO6IlA5JtDzg",
+                "width": 2560
+            }
+        ],
+        "place_id": "ChIJy65Zb2AnlR4Rs36XFgmfGKI",
+        "plus_code": {
+            "compound_code": "JCF8+9X Brakpan",
+            "global_code": "5G5CJCF8+9X"
+        },
+        "rating": 4.3,
+        "reference": "ChIJy65Zb2AnlR4Rs36XFgmfGKI",
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    },
+    "Iphahamiseng Primary School": {
+        "formatted_address": "Lekobe St, Duduza, Brakpan, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3775689,
+                "lng": 28.407899
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37605797010728,
+                    "lng": 28.40915487989272
+                },
+                "southwest": {
+                    "lat": -26.37875762989272,
+                    "lng": 28.40645522010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "50d7992c4de628e32a6838dc6d5097572f4bd8b8",
+        "name": "Iphahamiseng Primary School",
+        "place_id": "ChIJew8JAVknlR4RFbyPBhBaXSs",
+        "plus_code": {
+            "compound_code": "JCC5+X5 Brakpan",
+            "global_code": "5G5CJCC5+X5"
+        },
+        "rating": 1,
+        "reference": "ChIJew8JAVknlR4RFbyPBhBaXSs",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "Emzimkhulu Primary School": {
+        "formatted_address": "442, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3677171,
+                "lng": 28.4079582
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.36621132010728,
+                    "lng": 28.40914182989272
+                },
+                "southwest": {
+                    "lat": -26.36891097989272,
+                    "lng": 28.40644217010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "9d064b260a9f8af72b3310f2ca044a83b7b93c02",
+        "name": "Emzimkhulu Primary School",
+        "place_id": "ChIJXUdY-0QnlR4RTw1f68AqI58",
+        "plus_code": {
+            "compound_code": "JCJ5+W5 Brakpan",
+            "global_code": "5G5CJCJ5+W5"
+        },
+        "rating": 3,
+        "reference": "ChIJXUdY-0QnlR4RTw1f68AqI58",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    "Sibonisiwe Primary School": {
+        "formatted_address": "5051 Mothalova Street, Duduza, Johannesburg, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.374537,
+                "lng": 28.399125
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37322032010728,
+                    "lng": 28.40025282989272
+                },
+                "southwest": {
+                    "lat": -26.37591997989272,
+                    "lng": 28.39755317010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "4bf926f3d96823d9d2291189f5a3c7f503f534c7",
+        "name": "Sibonisiwe Primary School",
+        "place_id": "ChIJczsKe1EnlR4R7kaVTmAdD_c",
+        "plus_code": {
+            "compound_code": "J9GX+5J Brakpan",
+            "global_code": "5G5CJ9GX+5J"
+        },
+        "rating": 5,
+        "reference": "ChIJczsKe1EnlR4R7kaVTmAdD_c",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "Dan Radebe Primary School": {
+        "formatted_address": "Kaunda St, Duduza, Brakpan, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3820579,
+                "lng": 28.415063
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.38096542010728,
+                    "lng": 28.41645917989272
+                },
+                "southwest": {
+                    "lat": -26.38366507989272,
+                    "lng": 28.41375952010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "27cf9bc76631c2c066f11695192f8ba6a014a799",
+        "name": "Dan Radebe Primary School",
+        "place_id": "ChIJHbvRy6HYlB4RW1VoVe--VXo",
+        "plus_code": {
+            "compound_code": "JC98+52 Brakpan",
+            "global_code": "5G5CJC98+52"
+        },
+        "rating": 5,
+        "reference": "ChIJHbvRy6HYlB4RW1VoVe--VXo",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "Esibonelwesihle High School": {
+        "formatted_address": "1689 Jacobs St, Duduza, Nigel, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3705469,
+                "lng": 28.404309
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.36953572010728,
+                    "lng": 28.40602692989272
+                },
+                "southwest": {
+                    "lat": -26.37223537989272,
+                    "lng": 28.40332727010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "97187cb087727db5bcf4ea3a9a09e755d50b23d2",
+        "name": "Esibonelwesihle High School",
+        "photos": [
+            {
+                "height": 640,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111394174870182978928/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAA5_fhQ4ohO_UtF6vIV7SV83yPO3GNetbdQO1I0aTBX3mmk17M8J6U2ERKqzBzH4rPS41zRnqgexeNHOvuNcmeW_0qD5m4_DrNMqNu1kVIDkGheHl_jT_9WuXfWIBzgMnoEhAxQbgM8vhT3tcc0wuudvvXGhQN_wo12KRL5mWT3f_zD6XsNthCnw",
+                "width": 640
+            }
+        ],
+        "place_id": "ChIJwxQKAVAnlR4RT_EiN0fm-Hs",
+        "plus_code": {
+            "compound_code": "JCH3+QP Brakpan",
+            "global_code": "5G5CJCH3+QP"
+        },
+        "rating": 3.8,
+        "reference": "ChIJwxQKAVAnlR4RT_EiN0fm-Hs",
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 9
+    },
+    "MMUSO Primary School": {
+        "formatted_address": "Lopeng St, Duduza, Brakpan, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3806549,
+                "lng": 28.40683
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37917452010728,
+                    "lng": 28.40825282989272
+                },
+                "southwest": {
+                    "lat": -26.38187417989272,
+                    "lng": 28.40555317010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "f950b022c90ee1eeed1ade3d23d812e8ebba549b",
+        "name": "MMUSO Primary School",
+        "place_id": "ChIJzROjd1gnlR4Rmmp5JdW6oLI",
+        "plus_code": {
+            "compound_code": "JC94+PP Brakpan",
+            "global_code": "5G5CJC94+PP"
+        },
+        "rating": 4,
+        "reference": "ChIJzROjd1gnlR4Rmmp5JdW6oLI",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "Zakheni Primary School": {
+        "formatted_address": "1525 Nzimande St, Duduza, Nigel, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.37388,
+                "lng": 28.406727
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37232862010728,
+                    "lng": 28.40809942989272
+                },
+                "southwest": {
+                    "lat": -26.37502827989272,
+                    "lng": 28.40539977010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "5c91b6cf6e8c7650759a6e0b5fde70d4719cb8a9",
+        "name": "Zakheni Primary School",
+        "place_id": "ChIJ8zAnNFonlR4R2pwOkIi1vOA",
+        "plus_code": {
+            "compound_code": "JCG4+CM Brakpan",
+            "global_code": "5G5CJCG4+CM"
+        },
+        "rating": 2.7,
+        "reference": "ChIJ8zAnNFonlR4R2pwOkIi1vOA",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    "Mom Sebone Secondary School": {
+        "formatted_address": "5346 Kau St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3768148,
+                "lng": 28.3973464
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37561472010728,
+                    "lng": 28.39856267989272
+                },
+                "southwest": {
+                    "lat": -26.37831437989272,
+                    "lng": 28.39586302010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "15454c389122120a6b9faaa11463335639b566e2",
+        "name": "Mom Sebone Secondary School",
+        "place_id": "ChIJ47KnklMnlR4R63afJwxsLr0",
+        "plus_code": {
+            "compound_code": "J9FW+7W Brakpan",
+            "global_code": "5G5CJ9FW+7W"
+        },
+        "rating": 3.2,
+        "reference": "ChIJ47KnklMnlR4R63afJwxsLr0",
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6
+    },
+    "Roseview Primary School": {
+        "formatted_address": "Cnr Ndululas & Limu Street, Duduza, Brakpan, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3661149,
+                "lng": 28.404376
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.36493887010728,
+                    "lng": 28.40590717989272
+                },
+                "southwest": {
+                    "lat": -26.36763852989272,
+                    "lng": 28.40320752010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "79dd1bb422ed08518af3ef928d22513e4c833465",
+        "name": "Roseview Primary School",
+        "place_id": "ChIJoyXaWU8nlR4RTwfN1QdHc54",
+        "plus_code": {
+            "compound_code": "JCM3+HQ Brakpan",
+            "global_code": "5G5CJCM3+HQ"
+        },
+        "rating": 2.8,
+        "reference": "ChIJoyXaWU8nlR4RTwfN1QdHc54",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6
+    },
+    "Thakgalang Primary School": {
+        "formatted_address": "3131 Pitzi St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3770199,
+                "lng": 28.41101
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37591752010728,
+                    "lng": 28.41221972989272
+                },
+                "southwest": {
+                    "lat": -26.37861717989272,
+                    "lng": 28.40952007010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "3eb60b30fd7366a10583a49d6cd060db0809abb5",
+        "name": "Thakgalang Primary School",
+        "place_id": "ChIJPzj91l4nlR4Rts5ACuQgdYw",
+        "plus_code": {
+            "compound_code": "JCF6+5C Brakpan",
+            "global_code": "5G5CJCF6+5C"
+        },
+        "rating": 4.5,
+        "reference": "ChIJPzj91l4nlR4Rts5ACuQgdYw",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    "M.O.M. Seboni": {
+        "formatted_address": "4889 Seboku St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3762599,
+                "lng": 28.39785
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37465682010728,
+                    "lng": 28.39916902989272
+                },
+                "southwest": {
+                    "lat": -26.37735647989272,
+                    "lng": 28.39646937010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "ea498fae9df1225466e4d0fd6e168ffef932939a",
+        "name": "M.O.M. Seboni",
+        "place_id": "ChIJm04f6VMnlR4RKUzEdpWwE3M",
+        "plus_code": {
+            "compound_code": "J9FX+F4 Brakpan",
+            "global_code": "5G5CJ9FX+F4"
+        },
+        "rating": 4.8,
+        "reference": "ChIJm04f6VMnlR4RKUzEdpWwE3M",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    },
+    "Inkanyezi Yesizwe Preschool & Creche": {
+        "formatted_address": "5514 Nzimande St, Duduza, Nigel, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3734714,
+                "lng": 28.4056983
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37207222010727,
+                    "lng": 28.40705357989272
+                },
+                "southwest": {
+                    "lat": -26.37477187989272,
+                    "lng": 28.40435392010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "6d161c3b2d55ea707322f4155182c5702b8111b2",
+        "name": "Inkanyezi Yesizwe Preschool & Creche",
+        "place_id": "ChIJu_tfZlonlR4Rd9edDCuh-Ug",
+        "plus_code": {
+            "compound_code": "JCG4+J7 Brakpan",
+            "global_code": "5G5CJCG4+J7"
+        },
+        "rating": 0,
+        "reference": "ChIJu_tfZlonlR4Rd9edDCuh-Ug",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "Mbusomusha Nursery & Pre - School": {
+        "formatted_address": "4706 Kaunda Street, Duduza, Brakpan, 1496, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.382723,
+                "lng": 28.41581
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.38132817010728,
+                    "lng": 28.41727972989273
+                },
+                "southwest": {
+                    "lat": -26.38402782989272,
+                    "lng": 28.41458007010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "77fbc825820292a9ce4e5ac577af592135bf2380",
+        "name": "Mbusomusha Nursery & Pre - School",
+        "place_id": "ChIJ6SlF3KHYlB4R_V3tsRxq4K0",
+        "plus_code": {
+            "compound_code": "JC88+W8 Brakpan",
+            "global_code": "5G5CJC88+W8"
+        },
+        "rating": 0,
+        "reference": "ChIJ6SlF3KHYlB4R_V3tsRxq4K0",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "Asser Maloka Secondary School": {
+        "formatted_address": "Honeysuckle St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3824893,
+                "lng": 28.3889294
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.38084307010728,
+                    "lng": 28.38990642989272
+                },
+                "southwest": {
+                    "lat": -26.38354272989272,
+                    "lng": 28.38720677010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "d4b3092fdb101d3ac0f5330788980a5e20865824",
+        "name": "Asser Maloka Secondary School",
+        "photos": [
+            {
+                "height": 960,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106556148278130029576/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAI8YlbHrMaZSNQHrE6mQVTKb1jznMsPx7mdHCmEWQhOB9m1_M0T6v306boKAjW9_OKBxsb1tTtJMMtRa1QF9QmsB_ILaWxTSxB20bF_XmHAwRwiIPQLR6UTLv89hns0V5EhCko_-Dmc9eb91PTL8JZqI0GhS6redd65mW9QINMVXMqoKOZWNiDg",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJyw8sf1EnlR4RtvghnKA3kJU",
+        "plus_code": {
+            "compound_code": "J99Q+2H Brakpan",
+            "global_code": "5G5CJ99Q+2H"
+        },
+        "rating": 4,
+        "reference": "ChIJyw8sf1EnlR4RtvghnKA3kJU",
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 7
+    },
+    "duduza prototype early childhood development centre": {
+        "formatted_address": "3001 Pooa St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3777794,
+                "lng": 28.4146388
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37640677010728,
+                    "lng": 28.41596432989272
+                },
+                "southwest": {
+                    "lat": -26.37910642989272,
+                    "lng": 28.41326467010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "53bb074fe1c43a0b7af5faa199e08bcead065ee8",
+        "name": "duduza prototype early childhood development centre",
+        "place_id": "ChIJkX6ZpPgnlR4R3n_Yofojisg",
+        "plus_code": {
+            "compound_code": "JCC7+VV Brakpan",
+            "global_code": "5G5CJCC7+VV"
+        },
+        "rating": 0,
+        "reference": "ChIJkX6ZpPgnlR4R3n_Yofojisg",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "Mastergucci National Youth Builder Program": {
+        "formatted_address": "Resource Centre, 97/2 Nala St, Duduza, Nigel, 1494, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3747702,
+                "lng": 28.4136788
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.37379897010728,
+                    "lng": 28.41498577989272
+                },
+                "southwest": {
+                    "lat": -26.37649862989272,
+                    "lng": 28.41228612010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "559488323a8e5817641978f6cda428b0613c650c",
+        "name": "Mastergucci National Youth Builder Program",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 516,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105041852983785032570/photos\">lemuelle nkosinathi Jonga</a>"
+                ],
+                "photo_reference": "CmRaAAAAJLIwKU4Zbk72pCSjLIjWrhxD8jeVT6dLrAf_bKQTtZ7zPBB0UVboqPV9vHuIWttTbhpzTlCXKmO3jgW3_b4-u1-gxdR78eNzh3HyGCwQlgp8RqC9AlIfzrQSC2VGrxYfEhBUq47vx4DDvdkcgNXKQZNyGhQOcvqOCnsXn66tfuzVJlUdgmjxyQ",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJafbjKOwnlR4Rn80A4IDtHIg",
+        "plus_code": {
+            "compound_code": "JCG7+3F Brakpan",
+            "global_code": "5G5CJCG7+3F"
+        },
+        "rating": 5,
+        "reference": "ChIJafbjKOwnlR4Rn80A4IDtHIg",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "SAsol garage": {
+        "formatted_address": "131327 Flamingo St, Bluegum View, Duduza, 1499, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3865152,
+                "lng": 28.4009986
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.38519382010728,
+                    "lng": 28.40233332989272
+                },
+                "southwest": {
+                    "lat": -26.38789347989272,
+                    "lng": 28.39963367010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "73c6b6dacd232751b4db1f855e5ab4ee4e20d5b7",
+        "name": "SAsol garage",
+        "place_id": "ChIJAfmxJKnYlB4RZaIWKcgQz6s",
+        "plus_code": {
+            "compound_code": "JC72+99 Brakpan",
+            "global_code": "5G5CJC72+99"
+        },
+        "rating": 1,
+        "reference": "ChIJAfmxJKnYlB4RZaIWKcgQz6s",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "asser maloka": {
+        "formatted_address": "1327 Flamingo St, Bluegum View, Duduza, 1499, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -26.3865152,
+                "lng": 28.4009986
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -26.38519382010728,
+                    "lng": 28.40233332989272
+                },
+                "southwest": {
+                    "lat": -26.38789347989272,
+                    "lng": 28.39963367010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "466f2e7dd2764409810a94a294c292ed2b82663e",
+        "name": "asser maloka",
+        "place_id": "ChIJAfmxJKnYlB4RY6q1EnsbVXc",
+        "plus_code": {
+            "compound_code": "JC72+99 Brakpan",
+            "global_code": "5G5CJC72+99"
+        },
+        "rating": 0,
+        "reference": "ChIJAfmxJKnYlB4RY6q1EnsbVXc",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    }
+}
