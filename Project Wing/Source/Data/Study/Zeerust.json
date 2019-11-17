@@ -35,41 +35,6 @@
         ],
         "user_ratings_total": 2
     },
-    "Ho\u00ebrskool Zeerust": {
-        "formatted_address": "40b Jean St, Zeerust, 2865, South Africa",
-        "geometry": {
-            "location": {
-                "lat": -25.5381699,
-                "lng": 26.0814999
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": -25.53696782010728,
-                    "lng": 26.08289387989272
-                },
-                "southwest": {
-                    "lat": -25.53966747989272,
-                    "lng": 26.08019422010727
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
-        "id": "2cc0594603ebf59843dc12e4e712d9deaf8ec368",
-        "name": "Ho\u00ebrskool Zeerust",
-        "place_id": "ChIJj3Jxvy4fvR4RPwJoVkFbo20",
-        "plus_code": {
-            "compound_code": "F36J+PH Zeerust",
-            "global_code": "5G68F36J+PH"
-        },
-        "rating": 3.8,
-        "reference": "ChIJj3Jxvy4fvR4RPwJoVkFbo20",
-        "types": [
-            "school",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 8
-    },
     "Laerskool Zeerust": {
         "formatted_address": "25 Van Riebeeck St, Zeerust, 2865, South Africa",
         "geometry": {
@@ -105,6 +70,41 @@
             "establishment"
         ],
         "user_ratings_total": 4
+    },
+    "Ho\u00ebrskool Zeerust": {
+        "formatted_address": "40b Jean St, Zeerust, 2865, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -25.5381699,
+                "lng": 26.0814999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -25.53696782010728,
+                    "lng": 26.08289387989272
+                },
+                "southwest": {
+                    "lat": -25.53966747989272,
+                    "lng": 26.08019422010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "2cc0594603ebf59843dc12e4e712d9deaf8ec368",
+        "name": "Ho\u00ebrskool Zeerust",
+        "place_id": "ChIJj3Jxvy4fvR4RPwJoVkFbo20",
+        "plus_code": {
+            "compound_code": "F36J+PH Zeerust",
+            "global_code": "5G68F36J+PH"
+        },
+        "rating": 3.8,
+        "reference": "ChIJj3Jxvy4fvR4RPwJoVkFbo20",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 8
     },
     "Ikageleng High School": {
         "formatted_address": "90, Ikageleng, Zeerust, 2865, South Africa",
@@ -311,7 +311,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/103014194615553311522/photos\">Ad\u00e9le Koekemoer</a>"
                 ],
-                "photo_reference": "CmRaAAAARCT8m_XKXUAdWsTKGqWrC5YAmacF0d_rfoLju2SBsxBEzpRmm4tJ1itntB1vu4zYLEGMoFKVRx23NG09rKVSI_AtNpd4rr31VDGIZDdB8pfsbg3MCUeHhf_shdOpoJlrEhAxB5Dmof7kJz04as2YKGZ5GhQFo3KKe5i__v2yRx_BEtT0NIe6wg",
+                "photo_reference": "CmRaAAAAFcW15ae7Sp2tRn87RYkpHeOmKH2b1P6BjYHfzb8rTXoSJh-MIWl53qWYZ_skmI4mhuCzI8jnsZizoQiWWEh3vTyk8usa0Z7cQ3LB2bcYZd8I1zNpYcGVLcLu6A2bDzBoEhBwdZIpXfbJfVueWs-n_k04GhQhCajooDgZrnEM5Fmj8x1i_I06IA",
                 "width": 1820
             }
         ],
@@ -394,7 +394,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/100939747809773231537/photos\">Precious Ngakane</a>"
                 ],
-                "photo_reference": "CmRaAAAAYWmzR4uVHhMGyRy24fAjzHO7c4_FKg3r8blwDHE_GJ8WbOXlEL4kpIGw9-w4DaNPAaoEMlOCGKTwKaS5PnBNkIpbbcGJhoxb9METxT-yklgqFOqn4LYBVCevIp8hxSToEhBiWClsvJyemzttA2-Q2SSIGhTme-ZeRuAifH0zh5WhlU5ZLghnFg",
+                "photo_reference": "CmRaAAAANdUTH5JfU4PJJOEs7cl1AOuRSXB4D7-XF87tMIQK5YeyyG51qa-DCH-yp6oetXPt3KVHRN7O_-VfcFtaTvj5O8be1VKO6MbwXQqN9VxYKRWVhC4hbIQ08yCLe0USIUA6EhD4k0zB0HwpraMCCB6kysoHGhQNojqFU9AEgnNDQxtkTVC8AIEegQ",
                 "width": 2016
             }
         ],
@@ -588,7 +588,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/107459012932580449633/photos\">Simon Tigere</a>"
                 ],
-                "photo_reference": "CmRaAAAA6siJ_6qy8OhJGUobO6oT1Jk05VBA7w6ee0fcisxHySym_9zTIYPltY2Io1EKgO3I3FpyuBuF5T6TIALZlx_gMY-V2q44bcfeNnGJr_NkTApxwWIty7C3bqnV31cLv286EhA0gbm_ZaaDVx_OM20Ch2Q8GhT1mXqHvJhfWOAawA1_D6_FptxSZg",
+                "photo_reference": "CmRaAAAAMQNgNqWmGWNug6qHcidH-OZ6KWO2uscTvYsnOW7hSyVHK-bvfmGp94nOF8JCUqolvJqyZWeoF6r4qbSATli6YME1xscSWeRVwcy9NWMciEXzNEJWmlW0frn53RIg3tyhEhC1HyLkfUvuD1yGwZV_CxfkGhT-XsAYECJYXRfXG_8WbMmmqNNWhw",
                 "width": 11792
             }
         ],
@@ -633,7 +633,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/107957262100715417752/photos\">A Google User</a>"
                 ],
-                "photo_reference": "CmRaAAAAtFaEeKsinimCdZfMzIUdWdBC01uCK0ngLcxqLiGkD3gS47lJXso3LLb5rqD9VebIbxZbsObJ8Y8msyarjaJag_WlgTDqfPvClEPfHaG6hDDrVBYvP6Caza75gRvqBVRSEhCn4z3IcQTTb8Mmw-6arfNtGhT45W9QZtc-uJ9COCCDd9iHFyv9tg",
+                "photo_reference": "CmRaAAAAoTXLM50WiHu6JYr_eZmaXAltKmucui4PgY9QtY5-GXKaRfiA7wzqgiF07LD8e4YNPPwmKAbApCOOgoKMj0i-xIX4ZJlazsI4sXkpY2zWwM2v1sDD8q-tUgjKFd3AnsxKEhAE5GWZ3X8-r5J8yhQFTAV2GhQvryEGQrq4cCJWOHyVuqMhE8uiPw",
                 "width": 3264
             }
         ],
@@ -779,7 +779,7 @@
         "id": "f62aaab6a9dabf113bb8d8fd3b8b447b5f87c7c1",
         "name": "Ackermans Zeerust",
         "opening_hours": {
-            "open_now": true
+            "open_now": false
         },
         "photos": [
             {
@@ -787,7 +787,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/107125881107215758602/photos\">A Google User</a>"
                 ],
-                "photo_reference": "CmRaAAAA9GVDt4zBBNGpVlenq-rZ6n7mw7Tx-KXztJCgCz1tGQr-PYUKpknRYdPg8w48uquaaOJ_XGJ9JugK8AjvJd2IVUzMa__tejSM3ZFdsPeqvagcM9HOAOqjmBKH_thOhuRSEhAlbDJkrvx0sbq_pfjbaGXZGhT51ZFn7bxQGVym2-cpcoV8cgszzQ",
+                "photo_reference": "CmRaAAAAwF3RzDHZn-LHhqpaDktLxzNRcpDaJsIQNg59ndXRDLbIxe_qGE9uVSqeV8IDPxJKEdHdRaWxg2dZKXBS0eZ3c02m3s1mxZ9dadgZnsQQnpatOCQvF6tz1r1KRUIsFSMSEhBSbnXn5giaquTWIxjYY0r9GhT8jaKYxxmRiupiwXpNpqGluR9N_Q",
                 "width": 1080
             }
         ],

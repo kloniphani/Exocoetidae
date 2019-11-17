@@ -26,7 +26,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/112771064324593227514/photos\">lekoloane lenos Masipa</a>"
                 ],
-                "photo_reference": "CmRaAAAApr42qyCi_D8auJqmq4rwCOLeF29Nx_NePX23BjXoDincpfBEH_PT9CFyufxIvcBhX5VgLfJCs7QKafohDOhay7ltd6M2z1MdiNf1vWazoscUfN8HEjWiciAUk-xFwZuxEhBL0mCgQYOIlXldA9Y_xntPGhR2XSt-pa0dq5DIqp1m3JG0oyJUcQ",
+                "photo_reference": "CmRaAAAAq3bIbntkHnT1OlV1u7AicRYHBLPP4BLnq2w7kM_tKc4dVSh3xPw6NRnfSsLA3yiUz80FFhLVTU-e6LiSrYxtTWCiov8zEBOBdIlEWK_FKZjfLZxpTzxvUtrNktaVhtGiEhA3_etg5XX6JEp3VDtsaEh2GhSpLDqA4L24VtwLqFeTpAtY4tuZpg",
                 "width": 639
             }
         ],
@@ -72,7 +72,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/107529123827935711007/photos\">A Google User</a>"
                 ],
-                "photo_reference": "CmRaAAAAmmhH06CBlTeoO8fVNNk3MKoeEmvxKkCPtGalZXCkoPylbCDeGN9eBXXG9ucEKFZb-4rQDgL9f8sGraB6gbGGR1qMNfWSkthBmjib7Ip-t_tEW12qHMYe3KOS1GSjqAOWEhCZw3f_15WhDUyzt_RWnfaCGhSSoFUWD1fgHvrj2572l5xtwNwivg",
+                "photo_reference": "CmRaAAAAaWuNWwY-TXf3xqtwHj-ZTWE8MmoF652J-dMZ6FH6eWMww5pCjDSDTO4nP8R2NLpsVNiM9PLNpW2hdmxpCi-PSonmEyWi1h_LQC8ZOvrM2pjB9bHx-WQky0DLguT5T-c5EhD9E52cr-vSbXVWfFsJT0KoGhRkRCVR456pTNq7yzrd0Y23cvQ2Ew",
                 "width": 2576
             }
         ],
@@ -126,52 +126,6 @@
         ],
         "user_ratings_total": 1
     },
-    "Nkateko High School.": {
-        "formatted_address": "Lulekani-A, Phalaborwa, 1392, South Africa",
-        "geometry": {
-            "location": {
-                "lat": -23.8664999,
-                "lng": 31.0729
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": -23.86486427010728,
-                    "lng": 31.07410927989272
-                },
-                "southwest": {
-                    "lat": -23.86756392989273,
-                    "lng": 31.07140962010727
-                }
-            }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
-        "id": "80bcd16266baf01504e5d093accd6d35d7934254",
-        "name": "Nkateko High School.",
-        "photos": [
-            {
-                "height": 1932,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/106051566752526823782/photos\">A Google User</a>"
-                ],
-                "photo_reference": "CmRaAAAAIAMpJIWKl_sc4UgUGAiuXZI_Ofvqt7bycs8HGBQqlkFg2s12UoBZfGVCZ0vyFcbnIpYK48Fr0vliLXyutn2euDAULyZKgGqkUKQ9uP60UJCrBI4cgXbH2InjcYjKNJa9EhBaOc-EeG-aycOHDqU6CBk5GhROffuEskN8UXgTC36GjBoQcrzvfQ",
-                "width": 2576
-            }
-        ],
-        "place_id": "ChIJeYBRvdZ6wx4R2CAqgK7h4i4",
-        "plus_code": {
-            "compound_code": "43MF+C5 Phalaborwa",
-            "global_code": "5G8H43MF+C5"
-        },
-        "rating": 3,
-        "reference": "ChIJeYBRvdZ6wx4R2CAqgK7h4i4",
-        "types": [
-            "secondary_school",
-            "school",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 2
-    },
     "Nwa Risenga Primary School": {
         "formatted_address": "124 Park St, Lulekani-B, Phalaborwa, 1392, South Africa",
         "geometry": {
@@ -208,6 +162,52 @@
         ],
         "user_ratings_total": 1
     },
+    "Nkateko High School.": {
+        "formatted_address": "Lulekani-A, Phalaborwa, 1392, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.8664999,
+                "lng": 31.0729
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.86486427010728,
+                    "lng": 31.07410927989272
+                },
+                "southwest": {
+                    "lat": -23.86756392989273,
+                    "lng": 31.07140962010727
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "80bcd16266baf01504e5d093accd6d35d7934254",
+        "name": "Nkateko High School.",
+        "photos": [
+            {
+                "height": 1932,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106051566752526823782/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAfn5b-N9nt8U0cpLpIrJrCX05YX_2npys_E2KcpYBRJ3HZCn3qH4pagu0a7R3SW37KGexpAuFr9hiDRLuRN3tWV7SueLWRst26DQOXW0qkKS08LjGxbIxGjB1r7nlY0KrEhD7qdL_0gou_4_w9NRazFiiGhRkCq7cQNqJDTG64aoablX7cWtsJQ",
+                "width": 2576
+            }
+        ],
+        "place_id": "ChIJeYBRvdZ6wx4R2CAqgK7h4i4",
+        "plus_code": {
+            "compound_code": "43MF+C5 Phalaborwa",
+            "global_code": "5G8H43MF+C5"
+        },
+        "rating": 3,
+        "reference": "ChIJeYBRvdZ6wx4R2CAqgK7h4i4",
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
     "Pondo Combined School": {
         "formatted_address": "764, Lulekani-A, Phalaborwa, 1392, South Africa",
         "geometry": {
@@ -235,7 +235,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/117491402220668130172/photos\">nhlawulo justice</a>"
                 ],
-                "photo_reference": "CmRaAAAAcj6ipn9T3njTkMTeBKRx2LtYUa8cldwD5s8TAS7yhAEDtw_SvdQDj7RedzUmuyiHkNF31NDonVpPi2v6XY0HuITuwmxWQQgevP0BOzK382k_-pSJjxQbq04W_SuTNhWFEhA3ALT5D2MwvG7s4LugLBe1GhSlbIgHoHI9bAr_1G8s5CTmKiR2bQ",
+                "photo_reference": "CmRaAAAAas6hgvAYHBZJyNGxbzOYa6l3R_RjWOMkt1fUbGYPrgSESWQig5U-utGjgrW73tHBwg60rTPQZEZ-y1wFE_4dPjb5VbYnvRc1m_Y3_UAng4ogxSMVWxKqJaqIzkCPCO0kEhD99rv7vSZvlAqMX7j4VmwPGhR_WDbWVt9879hH4v7q48Cv6ablHA",
                 "width": 640
             }
         ],
@@ -280,7 +280,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/109251093622199155983/photos\">Alie Ngoveni</a>"
                 ],
-                "photo_reference": "CmRaAAAA1w0nGxZYRiAZ9mNxIJPGtZAZ42V6ffgIPJb5kuBii2H4tpBwFHL8tROMhguxKn6g_gJEW35KbmsSlPWidNjD7dDe8MiBm1hgu9itLw0sIw6vv1QOnH7OauWMdoAKVCuoEhCCtUWfnjszdeejgpCzuRL0GhSCGiZ-21f8OcQ-9rC0mKxrMpEalw",
+                "photo_reference": "CmRaAAAAt7l4iCzs8jhvjp8YXLSCGcF_AlfWdzSEGje6xerMYKTS0pXrXkcFVgJQCEc_Oiz_dNy415wEfp2eVRKcDHQ_tGHKdFDviE8OmhquY8MfmQfLXPDUP_WjQtZ9cSRfP7eDEhD7uFUrHKSFWQK428GQmBZAGhSdrdm03a6cB7Q0gRXpW08DN3ahEA",
                 "width": 644
             }
         ],
@@ -471,7 +471,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/111237560978702768909/photos\">GIVEN GERALD PHIRI</a>"
                 ],
-                "photo_reference": "CmRaAAAAgdLhTng3aea4jSr_cmohkILoQmdyU-I_6_HteB0ZVaYii9f0EAysoNOEkYYmBJMQbekjlrw9NESWCHvA5Jblz1GyIVmOaWnwzTYWBM7sPE_XDVG7lJlr6_IWsJ0n_e10EhC0jCS9LUvvTRXSGheqPkJZGhSpBNTu_lOMVbgvOkAyWFlgDDAodg",
+                "photo_reference": "CmRaAAAAxT0pUsILTNLpEV_a48FC8qGtoF4F7DetlDQDabrng_awsubzApz-sYPddmr1cUOpJPHktsE3wThBRJHWBzt-FHGdL2xZHHFwml0ohOFD9F3Mf2Y0LZfO78J7KULFi3u4EhChuQcS8kx_9hQevNQuoin-GhQEmNo2_lBu2yEzln0IkE5I8dmjrQ",
                 "width": 3264
             }
         ],
@@ -511,7 +511,7 @@
         "id": "d37efdc17eb2641e734063f07a9913f14b56b967",
         "name": "P Driving School (PDS)",
         "opening_hours": {
-            "open_now": true
+            "open_now": false
         },
         "photos": [
             {
@@ -519,7 +519,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/114799151390091518310/photos\">Vision Baloyi</a>"
                 ],
-                "photo_reference": "CmRaAAAASnH0A721ex3gWuitvBiwJtpUyjMRRYQ8dGH_q1itK1WSP7otIaZwzN84-KO0iou6m01ZPW7JmV6hqchQR59LAEnpzqtpxbHJNckWwtQEoPZjiNA-ZVCMrVZ0o04CxWyoEhCqWhaN1HEuApWPzB5biiGhGhTvoJapB30LbULB-6LnTaHJ_n-ENA",
+                "photo_reference": "CmRaAAAAI0fDWD2ByhoClPEHWR3lBIzjJRnh-tp2sIlEl5KwAAePEu_TSDjMdqyk-TUSRfs-rQf3r1uVB4JErl_t3zzcLOKBdP0aNwmB2QXXcHfDTPZzxIeyB9QyPyb-Unfa4hLHEhDvmLP-9VQwR8DJOmQ-4LfOGhSImXEKiCCdtjt90yXmre2uU620Rg",
                 "width": 1600
             }
         ],

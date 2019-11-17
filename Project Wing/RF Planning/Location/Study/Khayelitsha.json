@@ -38,46 +38,37 @@
         "formatted_address": "Khayelitsha, Cape Town, 7784, South Africa",
         "geometry": {
             "location": {
-                "lat": -34.03150189999999,
-                "lng": 18.6987637
+                "lat": -34.0317481,
+                "lng": 18.6944777
             },
             "viewport": {
                 "northeast": {
-                    "lat": -34.03027962010728,
-                    "lng": 18.70002867989272
+                    "lat": -34.03033257010728,
+                    "lng": 18.69564397989273
                 },
                 "southwest": {
-                    "lat": -34.03297927989272,
-                    "lng": 18.69732902010728
+                    "lat": -34.03303222989273,
+                    "lng": 18.69294432010728
                 }
             }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
-        "id": "30f0406c6b76ffb3344470ca4ff3455d112d0436",
+        "id": "bfff7a77960e455b3afa5e8a4ee2c4cb33657f82",
         "name": "Academia Primary School",
-        "photos": [
-            {
-                "height": 3120,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/105033416306722905392/photos\">samanthia de villiers</a>"
-                ],
-                "photo_reference": "CmRaAAAAjm9s-KPKiH5x846Xi_UVFZRTuPibwh6ypwTPnXZjOChmA4zkg4j8EztVq4ZZSlfZ0-sunux4ltRnJEYn0HletASP44f7wMR90EyR3Jc3TNS0y-XIbWWYCVXJxFsLJRMxEhB_PLLP6fCRnhYgnVsMBtGpGhSq4c2ZrAs_-uJeJsHk3EUx-YG86w",
-                "width": 4160
-            }
-        ],
-        "place_id": "ChIJqSqes09JzB0RnLhulls_Aa0",
+        "place_id": "ChIJc-iKtktJzB0Rl2lK9fAqoPY",
         "plus_code": {
-            "compound_code": "XM9X+9G Khayelitsha, Cape Town",
-            "global_code": "4FQWXM9X+9G"
+            "compound_code": "XM9V+8Q Khayelitsha, Cape Town",
+            "global_code": "4FQWXM9V+8Q"
         },
-        "rating": 3,
-        "reference": "ChIJqSqes09JzB0RnLhulls_Aa0",
+        "rating": 3.8,
+        "reference": "ChIJc-iKtktJzB0Rl2lK9fAqoPY",
         "types": [
+            "primary_school",
             "school",
             "point_of_interest",
             "establishment"
         ],
-        "user_ratings_total": 2
+        "user_ratings_total": 4
     },
     "Bulumko Secondary School": {
         "formatted_address": "31 Mangezi St, Khayelitsha, Cape Town, 7784, South Africa",
@@ -174,7 +165,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/105594793419803004271/photos\">Chris Laidler</a>"
                 ],
-                "photo_reference": "CmRaAAAAkPnX7jGy-VV7N6Tdy82VB3zSPAD81fGJCANGjEx0njPjCOLFU7penvuBHzvFfNJGpOKAsrzWe-bVxtvBlLlb-Z_lrhPPEV84-KnEHPT6su1iAGRZX3MJNJih1ppesx6KEhBST-vGkuUwPJNab0_YBYAqGhR649LSpMly2P9pmIFQTVyFZcIedQ",
+                "photo_reference": "CmRaAAAAoAkf-A9cn6QjEKzgwHgoiA82mPVU53xmDpspH7Xr9Xmj3yqP9Goc1_2VEa_ynIoeXv8V6JPdCdgQGMxjIxJkzLnLx0FCDwS1gbUyCI2aEwmruzzrpOoNK0800WWGL8NfEhASInqszrN-4UXxr9wJFkhhGhSrgBtsqTaa1-UDXS7zmfZE5hr1KA",
                 "width": 2448
             }
         ],
@@ -291,7 +282,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/117598439047282335760/photos\">Ga\u00ebl de Mondragon</a>"
                 ],
-                "photo_reference": "CmRZAAAA9T1rd7Av07AhFfqGEmG5dQbfGPEqoCWG2VawLkiLEk8PX-orHbmbmu8O6TWpDIVYYthE1BE1Ka3bhAwAe-Y0KX8jMveyabukjRoMf62C06pJAJsAWFDX_kNrO4q-omQ8EhCHHolPCRM6Rvu6dwUmfPMoGhSTEqS_ioryLkdStrjdFBpdA8-C5A",
+                "photo_reference": "CmRZAAAA45vp1n5zMfATL40VHpRGutABuUTibGco2oDsoNN-sU1fpU6PBMmzwyROqka8LWPUGK3mCyEpyNPCjnM29Gnh5G2kLDlKHeD6BThDOmDR0Nqme1t9roeTOjDX_W7-ioNiEhD3msStpRpKBZVpd4D1xoLCGhRa8wlDorWPkWqzvspfbnTS6L9z1g",
                 "width": 4160
             }
         ],
@@ -337,7 +328,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/102987530524180618512/photos\">J. Farmer</a>"
                 ],
-                "photo_reference": "CmRaAAAA_TKa_GnWwCAw7XCApp1yBtOYn8JYx6Iz_rnEAXaya5gsFKv709uzUaLE0veZXA0Y-zdOKFBL-OulOnjo3Vg5xh9v4Ukc-bfTD5kN2x9WDPrJchcxcmCPZmgEY7TM1zeuEhDAPVJ53WRj3WK4SYSAjMj9GhRYAB_w4XvstQNt-dO1yeDU6wTqOw",
+                "photo_reference": "CmRaAAAAOGZdsUsXfJTmLoGgmiCAVLxon7We0C_lal3JZrsA74tzAWqdiYg4iVFEA3lmwszTccAP4Rej1XY70_CqswGKsg9wxmrGIUdZJ8NFT1mncNFA_tccAx-K29IwPp0XhmDgEhCHfkmSXvWTgYW_gZZodziEGhR_zmIKDTjyhmZyWdMZGkD3q1s3Uw",
                 "width": 1920
             }
         ],
@@ -382,7 +373,7 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/110968283424815047395/photos\">A Google User</a>"
                 ],
-                "photo_reference": "CmRaAAAAgqm5IEUtJ44yfUKkSyH0WqFhF_8qsZcttcrfrmwxu2OOe8CXH6SH8CUJf_ekndw0sMIBRszeXMxNoEXX177-TZxInSLJrVq0ht-_xtFr7j5w5matSlNV0UvOF1Txzp2KEhCkPJXL4zxOPcwRl3Ns4Xh1GhSNZ5qgQ25mzFpRdBNvY6xCBoAyug",
+                "photo_reference": "CmRaAAAAbj6nubcD8Sjqhy16mHd1qIr5xCoLhZHwTdJGPjFzR7y87c1UIfV6tVgAB630485SaJ6FVQfJg1Cej0_3Vet5-UvWup7V3NAakKqIC_F86u7llCjdcqxTucK5Ie98XUE0EhBFLAKj1v5s3QYIpmUIAu14GhTv8CnoBONIvVxPXJByA4Kn4MpYrg",
                 "width": 3024
             }
         ],
