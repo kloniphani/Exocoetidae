@@ -784,8 +784,8 @@ class Model(object):
 		"""
 		"""
 		print("\nComposite Balancing Model Processing")
-		Model.DistanceBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
-		Model.DensityBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
+		NODES, NETWORK, UNASSIGNED, DATA = Model.DistanceBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
+		NODES, NETWORK, UNASSIGNED, DATA = Model.DensityBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
 		return NODES, NETWORK, UNASSIGNED, DATA
 
 	def Redistribute(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):

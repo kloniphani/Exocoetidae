@@ -6,7 +6,7 @@ Copyrights:  2017 ISAT, Department of Computer Science
 """
 
 from numpy import * 
-import json, io, datetime, progressbar, csv
+import os, json, io, datetime, progressbar, csv
 from xml.etree import ElementTree
 
 #These packages are for ploting the graph
@@ -112,6 +112,50 @@ class Display(object):
 
 		doc.write('./Source/Topology/' + FileName + 'Routing.xml', xml_declaration = True, pretty_print=True, encoding='utf-16')
 
+	def SaveNetworkJSON(Nodes, Network, Unassigned, Counter = 1, Date = None, Time = None, Radius = None, Model = None, Distribution = None, Area = "South Africa"):
+		"""
+		"""
+
+		newpath = r'./Source/Network/{0}/{1}/{2}/{3}/{4}'.format(Date, Area, Distribution, Time, Counter)
+		if not os.path.exists(newpath):
+			os.makedirs(newpath)
+
+		with open('./Source/Network/{0}/{1}/{2}/{3}/{4}/{5}-Network.json'.format(
+			Date, Area, Distribution, Time, Counter, Model), 'w') as fp:
+			Temp = {}; 
+			for key, value in Network.items():
+				L = [node.Id for node in value.MEMBERS]
+				Members = {}
+				for node in L:
+					Members[key] = {'Id' : Nodes[node].Id,
+						'Name': Nodes[node].Name,
+						'SNR': Nodes[node].SNR,
+						'Energy': Nodes[node].ResidualEnergy,
+						'Position': Nodes[node].Position,
+						'Type': Nodes[node].Type} 
+
+				Temp[key] = {'Id' : value.Id,
+					'Name': value.Name,
+					'SNR': value.SNR,
+					'Energy': value.ResidualEnergy,
+					'Position': value.Position,
+					'MEMBERS': Members,
+					'Type': value.Type} 
+			json.dump(Temp, fp, indent = 4)
+		fp.close()
+
+		with open('./Source/Network/{0}/{1}/{2}/{3}/{4}/{5}-Unassigned.json'.format(
+			Date, Area, Distribution, Time, Counter, Model), 'w') as fp:
+			Temp = {}
+			for node in Unassigned:
+				Temp[key] = {'Id' : Nodes[node].Id,
+					'Name': Nodes[node].Name,
+					'SNR': Nodes[node].SNR,
+					'Energy': Nodes[node].ResidualEnergy,
+					'Position': Nodes[node].Position,
+					'Type': Nodes[node].Type} 
+			json.dump(Temp, fp, indent = 4)
+		fp.close()
 
 	def SaveNetwork(Nodes, Network, Radius, Name = None):
 		"""

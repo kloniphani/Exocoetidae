@@ -119,6 +119,9 @@ if __name__ == '__main__':
 	Network = Nodes()
 	Network.CreateNodes('./Source/Data/' + Place + '.json', Place, Code = Code, ClusterRadius = 30, ServiceProvider = ServiceProvider, Results = True)
 
+	Date = datetime.datetime.now().strftime("%d-%m-%y")
+	Time = datetime.datetime.now().strftime("%H-%M")
+
 	#MODELS
 	print("\n#02: Running Models!\n")
 	Technique = 'Myopic';	Distribution = 'Normal'
@@ -139,6 +142,7 @@ if __name__ == '__main__':
 	#NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.GreedySinkNodeSelection(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = 'TREE')
+	Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = 1, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
 
 	#NODES, NETWORK, UNASSIGNED, DATA = Multisink.BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
 	#NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.BalanceNetwork(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
