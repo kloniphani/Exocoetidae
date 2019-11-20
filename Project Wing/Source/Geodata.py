@@ -13,7 +13,7 @@ class Geodata(object):
 	"""description of class"""
 
 	def __init__(self, **kwargs):
-		self.GMaps = googlemaps.Client(key = api.Google().Geolocation, timeout = 20)
+		self.GMaps = googlemaps.Client(key = api.Google().JavaScript, timeout = 20)
 		self.Counter = 1
 		return super().__init__(**kwargs)
 
@@ -37,7 +37,7 @@ class Geodata(object):
 								Results[str(Place['name'])] = Place
 								if Results is True: print(Place);
 								if OutputFile is True:
-									self.WriteFile(FileName + ".txt", "{0:3}; {1:70}; {2:12f}; {3:12f}; \t{4}\n".format(self.Counter, Place['name'], Place['geometry']['location']['lat'], Place['geometry']['location']['lng'], Place['formatted_address']))
+									self.WriteFile(FileName + ".txt", "{0:3}; {1:70}; {2:12f}; {3:12f}; \t{4};\n".format(self.Counter, Place['name'], Place['geometry']['location']['lat'], Place['geometry']['location']['lng'], Place['formatted_address']))
 								self.Counter += 1; 				
 			time.sleep(Sleep)
 
@@ -67,7 +67,7 @@ class Geodata(object):
 				self.Counter = 1;
 		else:
 			SearchResults.update(PopulateResults(Query = Query, Location = Place, FileName = FileName, Results = Results, OutputFile = True))
-			if OutputFile is True and bool(SearchResults) == True:
+			if OutputFile is True:
 				with open(FileName + ".json", 'w') as fp:
 					json.dump(SearchResults, fp, indent = 4)
 				fp.close()
@@ -89,7 +89,7 @@ class Geodata(object):
 			for Place in PlaceResults['results']:
 				if Place['formatted_address'].find("South Africa") or Place['formatted_address'] == 'South Africa':
 					if Type in Place['types']:
-						self.WriteFile(FileName, "{0:3} {1:70} {2:12f} {3:12f}\n".format(self.Counter, Place['name'],
+						self.WriteFile(FileName, "{0:3}; {1:70}; {2:12f}; {3:12f}\n".format(self.Counter, Place['name'],
 																		Place['geometry']['location']['lat'],
 																		Place['geometry']['location']['lng']))
 						self.Counter += 1; 
@@ -111,9 +111,7 @@ if __name__ == '__main__':
 	
 	#Types = ['SAPS'], Places = ["Port Of Entry SAPS, Cape Town, Western Cape"]
 
-	#Type = ['School', 'College', 'Academy', 'University']
-
-	Type = ['School', 'College']
+	Type = ['School', 'College', 'Academy', 'University']
 
 	#Place = ['Mopani District Municipality', 'Vhembe District Municipality', 'Waterberg District Municipality', 'Chris Hani District Municipality', 'Tzaneen', 'Lulekani', 'Zeerust', 'Duduza', 'Hlankomo', 'Mandileni', 'Gonono', 'Soweto', 'Khayelitsha, Cape Town']
 	Place = ['Lulekani', 'Zeerust', 'Duduza', 'Hlankomo', 'Mandileni', 'Gonono', 'Soweto', 'Khayelitsha']

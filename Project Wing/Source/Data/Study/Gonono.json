@@ -1,0 +1,48 @@
+{
+    "Kayanene Primary School": {
+        "formatted_address": "Gonono, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -23.27542,
+                "lng": 30.48527
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -23.27378692010727,
+                    "lng": 30.48629672989273
+                },
+                "southwest": {
+                    "lat": -23.27648657989272,
+                    "lng": 30.48359707010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "a182a4626b1156f7b7558050c0bc0da82463abcf",
+        "name": "Kayanene Primary School",
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116684996835921701662/photos\">Justice Davhana</a>"
+                ],
+                "photo_reference": "CmRZAAAAtuU5LxPOqOtVJayIA1Ih7rBJd_59_rLxYcRTQzPUHw7Ut62SbQVgk8arHCZ5hw_7UYv3CvBt7XN6Yddy8mbdib4P4b-DPvWJKKqjB9CbgKpfZ3S9FbpVjNTouaeziiSPEhCLp0HhvRzsecXrU46B1uPgGhS_CHcemKbqV1kgJKYx7aILz_tusw",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJZ8B4I2M2xB4RNL53AGQ-m2s",
+        "plus_code": {
+            "compound_code": "PFFP+R4 Gonono",
+            "global_code": "5G8GPFFP+R4"
+        },
+        "rating": 4,
+        "reference": "ChIJZ8B4I2M2xB4RNL53AGQ-m2s",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    }
+}

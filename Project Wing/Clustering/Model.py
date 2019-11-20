@@ -21,7 +21,8 @@ class Model(object):
 		The function takes a @N - Node list and delete all it's members from @List by using @Index to identify the correct node
 		"""
 		Total = len(List)
-		for node in N[Index].MEMBERS:
+		if Index in list(N.keys()):
+			for node in N[str(Index)].MEMBERS:
 				position = 0; length = len(List)
 				while(position < len(List)):
 					if(node.Id is List[position] or Index is List[position] or int(Index) == int(List[position])):
@@ -784,8 +785,8 @@ class Model(object):
 		"""
 		"""
 		print("\nComposite Balancing Model Processing")
-		Model.DistanceBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
-		Model.DensityBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
+		NODES, NETWORK, UNASSIGNED, DATA = Model.DistanceBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
+		NODES, NETWORK, UNASSIGNED, DATA = Model.DensityBalancing(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes, ClusterRadius)
 		return NODES, NETWORK, UNASSIGNED, DATA
 
 	def Redistribute(NODES, NETWORK, UNASSIGNED, DATA, Median_ResidualEnergy, MaximumClusterHeads, Maximum_SNR, Minimum_SNR, NumberOfNodes = None, ClusterRadius = 50, Results = False):

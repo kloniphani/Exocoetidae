@@ -1,0 +1,641 @@
+{
+    "Yomelela Primary School": {
+        "formatted_address": "Bhemye Cres, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0280533,
+                "lng": 18.6746361
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.02641827010728,
+                    "lng": 18.67574387989272
+                },
+                "southwest": {
+                    "lat": -34.02911792989272,
+                    "lng": 18.67304422010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "11998fe5d35c5e8a27a3bf1da490f675ec0e7ba4",
+        "name": "Yomelela Primary School",
+        "place_id": "ChIJm_PQKjlPzB0RZkgwi-Ox10Q",
+        "plus_code": {
+            "compound_code": "XMCF+QV Khayelitsha, Cape Town",
+            "global_code": "4FQWXMCF+QV"
+        },
+        "rating": 0,
+        "reference": "ChIJm_PQKjlPzB0RZkgwi-Ox10Q",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "Academia Primary School": {
+        "formatted_address": "Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0317481,
+                "lng": 18.6944777
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.03033257010728,
+                    "lng": 18.69564397989273
+                },
+                "southwest": {
+                    "lat": -34.03303222989273,
+                    "lng": 18.69294432010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "bfff7a77960e455b3afa5e8a4ee2c4cb33657f82",
+        "name": "Academia Primary School",
+        "place_id": "ChIJc-iKtktJzB0Rl2lK9fAqoPY",
+        "plus_code": {
+            "compound_code": "XM9V+8Q Khayelitsha, Cape Town",
+            "global_code": "4FQWXM9V+8Q"
+        },
+        "rating": 3.8,
+        "reference": "ChIJc-iKtktJzB0Rl2lK9fAqoPY",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    },
+    "Bulumko Secondary School": {
+        "formatted_address": "31 Mangezi St, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.03881,
+                "lng": 18.6727299
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.03732477010728,
+                    "lng": 18.67386267989272
+                },
+                "southwest": {
+                    "lat": -34.04002442989272,
+                    "lng": 18.67116302010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "b92ec2bb77e570fe315534ed8ca8c890099b891d",
+        "name": "Bulumko Secondary School",
+        "place_id": "ChIJX1xwkiVJzB0REHuZzKT9iJQ",
+        "plus_code": {
+            "compound_code": "XM6F+F3 Khayelitsha, Cape Town",
+            "global_code": "4FQWXM6F+F3"
+        },
+        "rating": 5,
+        "reference": "ChIJX1xwkiVJzB0REHuZzKT9iJQ",
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "Ummangaliso Primary School": {
+        "formatted_address": "T Section Bangiso Dve Site B, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0479125,
+                "lng": 18.6705083
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04662137010728,
+                    "lng": 18.67162727989272
+                },
+                "southwest": {
+                    "lat": -34.04932102989272,
+                    "lng": 18.66892762010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "fe55380ea22540c3ee392c89d9e7125d5834e7e3",
+        "name": "Ummangaliso Primary School",
+        "place_id": "ChIJf6g78yFJzB0RSjukXxHr8KQ",
+        "rating": 1,
+        "reference": "ChIJf6g78yFJzB0RSjukXxHr8KQ",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    "Kukhanyile Publ Primary School": {
+        "formatted_address": "13 Lali St, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.02901,
+                "lng": 18.67166
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.02741197010727,
+                    "lng": 18.67305837989272
+                },
+                "southwest": {
+                    "lat": -34.03011162989272,
+                    "lng": 18.67035872010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "2d0a63d8bb26c5ecf845b6d5957616cf82f9a826",
+        "name": "Kukhanyile Publ Primary School",
+        "photos": [
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105594793419803004271/photos\">Chris Laidler</a>"
+                ],
+                "photo_reference": "CmRaAAAAoAkf-A9cn6QjEKzgwHgoiA82mPVU53xmDpspH7Xr9Xmj3yqP9Goc1_2VEa_ynIoeXv8V6JPdCdgQGMxjIxJkzLnLx0FCDwS1gbUyCI2aEwmruzzrpOoNK0800WWGL8NfEhASInqszrN-4UXxr9wJFkhhGhSrgBtsqTaa1-UDXS7zmfZE5hr1KA",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJuRY2mCxJzB0R7RnFnOPsOTE",
+        "plus_code": {
+            "compound_code": "XMCC+9M Khayelitsha, Cape Town",
+            "global_code": "4FQWXMCC+9M"
+        },
+        "rating": 4.7,
+        "reference": "ChIJuRY2mCxJzB0R7RnFnOPsOTE",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    "Chris Hani Arts & Culture High School": {
+        "formatted_address": "Paul Avenue, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.047218,
+                "lng": 18.705771
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04586472010728,
+                    "lng": 18.70673107989273
+                },
+                "southwest": {
+                    "lat": -34.04856437989272,
+                    "lng": 18.70403142010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "8591cf9a8f6e3681b452a281047406ba29b2b569",
+        "name": "Chris Hani Arts & Culture High School",
+        "place_id": "ChIJNTKkxWZJzB0RNThDcWDuBKo",
+        "plus_code": {
+            "compound_code": "XP34+48 Khayelitsha, Cape Town",
+            "global_code": "4FQWXP34+48"
+        },
+        "rating": 5,
+        "reference": "ChIJNTKkxWZJzB0RNThDcWDuBKo",
+        "types": [
+            "secondary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "Vuzamanzi P P School": {
+        "formatted_address": "Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0141349,
+                "lng": 18.6491659
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.01297867010728,
+                    "lng": 18.65039202989272
+                },
+                "southwest": {
+                    "lat": -34.01567832989272,
+                    "lng": 18.64769237010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "045f8eea19cd9fa3971ab8f525160868670475c3",
+        "name": "Vuzamanzi P P School",
+        "place_id": "ChIJjVdubjxPzB0RXyIXbejktHo",
+        "plus_code": {
+            "compound_code": "XJPX+8M Khayelitsha, Cape Town",
+            "global_code": "4FQWXJPX+8M"
+        },
+        "rating": 0,
+        "reference": "ChIJjVdubjxPzB0RXyIXbejktHo",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "Eluxolweni Primary School": {
+        "formatted_address": "Pama &, Mongesi Rd, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0297247,
+                "lng": 18.6701374
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.02841262010727,
+                    "lng": 18.67173362989272
+                },
+                "southwest": {
+                    "lat": -34.03111227989272,
+                    "lng": 18.66903397010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "f80de3663cee3c12da74f185a859edbf344ed7d4",
+        "name": "Eluxolweni Primary School",
+        "photos": [
+            {
+                "height": 2340,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117598439047282335760/photos\">Ga\u00ebl de Mondragon</a>"
+                ],
+                "photo_reference": "CmRZAAAA45vp1n5zMfATL40VHpRGutABuUTibGco2oDsoNN-sU1fpU6PBMmzwyROqka8LWPUGK3mCyEpyNPCjnM29Gnh5G2kLDlKHeD6BThDOmDR0Nqme1t9roeTOjDX_W7-ioNiEhD3msStpRpKBZVpd4D1xoLCGhRa8wlDorWPkWqzvspfbnTS6L9z1g",
+                "width": 4160
+            }
+        ],
+        "place_id": "ChIJu1XEbytJzB0R4jtu_FC4Lpw",
+        "plus_code": {
+            "compound_code": "XMCC+43 Khayelitsha, Cape Town",
+            "global_code": "4FQWXMCC+43"
+        },
+        "rating": 3,
+        "reference": "ChIJu1XEbytJzB0R4jtu_FC4Lpw",
+        "types": [
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "Noxolo Xauka Primary School": {
+        "formatted_address": "Nyanda Ave, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0427626,
+                "lng": 18.7112444
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04146447010728,
+                    "lng": 18.71244757989272
+                },
+                "southwest": {
+                    "lat": -34.04416412989272,
+                    "lng": 18.70974792010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "d1f92dc9e9ee118d804b5ea04de6692adb6d8cec",
+        "name": "Noxolo Xauka Primary School",
+        "photos": [
+            {
+                "height": 1080,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102987530524180618512/photos\">J. Farmer</a>"
+                ],
+                "photo_reference": "CmRaAAAAOGZdsUsXfJTmLoGgmiCAVLxon7We0C_lal3JZrsA74tzAWqdiYg4iVFEA3lmwszTccAP4Rej1XY70_CqswGKsg9wxmrGIUdZJ8NFT1mncNFA_tccAx-K29IwPp0XhmDgEhCHfkmSXvWTgYW_gZZodziEGhR_zmIKDTjyhmZyWdMZGkD3q1s3Uw",
+                "width": 1920
+            }
+        ],
+        "place_id": "ChIJN5iMImNnzB0RjHgwLvfYAdI",
+        "plus_code": {
+            "compound_code": "XP46+VF Khayelitsha, Cape Town",
+            "global_code": "4FQWXP46+VF"
+        },
+        "rating": 4,
+        "reference": "ChIJN5iMImNnzB0RjHgwLvfYAdI",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    "False Bay College": {
+        "formatted_address": "Mew Way & Qamba crescent, Khayelitsha, 7785, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0496718,
+                "lng": 18.6540662
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04873197010728,
+                    "lng": 18.65557232989272
+                },
+                "southwest": {
+                    "lat": -34.05143162989272,
+                    "lng": 18.65287267010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "838ae59f31ecf7860c969b2dffce893c6e95cb25",
+        "name": "False Bay College",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110968283424815047395/photos\">A Google User</a>"
+                ],
+                "photo_reference": "CmRaAAAAbj6nubcD8Sjqhy16mHd1qIr5xCoLhZHwTdJGPjFzR7y87c1UIfV6tVgAB630485SaJ6FVQfJg1Cej0_3Vet5-UvWup7V3NAakKqIC_F86u7llCjdcqxTucK5Ie98XUE0EhBFLAKj1v5s3QYIpmUIAu14GhTv8CnoBONIvVxPXJByA4Kn4MpYrg",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJQSipON1IzB0R_pQZdaoZSG0",
+        "plus_code": {
+            "compound_code": "XM23+4J Khayelitsha, Cape Town",
+            "global_code": "4FQWXM23+4J"
+        },
+        "rating": 4.6,
+        "reference": "ChIJQSipON1IzB0R_pQZdaoZSG0",
+        "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 5
+    },
+    "Falsebay Khayelitsha Campus": {
+        "formatted_address": "Mew Way, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.045269,
+                "lng": 18.655772
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04391097010727,
+                    "lng": 18.65715767989272
+                },
+                "southwest": {
+                    "lat": -34.04661062989272,
+                    "lng": 18.65445802010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "36e8b0447ad2d646b0e9e45be9abf1c019fe8124",
+        "name": "Falsebay Khayelitsha Campus",
+        "place_id": "ChIJx0AscdtIzB0RkiVIFFoOPIc",
+        "plus_code": {
+            "compound_code": "XM34+V8 Khayelitsha, Cape Town",
+            "global_code": "4FQWXM34+V8"
+        },
+        "rating": 0,
+        "reference": "ChIJx0AscdtIzB0RkiVIFFoOPIc",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "False Bay TVET College: Swartklip Campus": {
+        "formatted_address": "c/o Swartklip and, Morgenster Rd, Khayelitsha, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0323041,
+                "lng": 18.6338115
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.03092652010728,
+                    "lng": 18.63517927989272
+                },
+                "southwest": {
+                    "lat": -34.03362617989272,
+                    "lng": 18.63247962010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "4126c45833b572e1e165b0d61382dddc4169ee7c",
+        "name": "False Bay TVET College: Swartklip Campus",
+        "place_id": "ChIJtaI1Dc9PzB0Rvys6m9NgBWg",
+        "plus_code": {
+            "compound_code": "XJ9M+3G Mitchells Plain, Cape Town",
+            "global_code": "4FQWXJ9M+3G"
+        },
+        "rating": 0,
+        "reference": "ChIJtaI1Dc9PzB0Rvys6m9NgBWg",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "FALSE BAY TVET COLLEGE, SWARTKLIP CAMPUS": {
+        "formatted_address": "Swartklip Rd, Khayelitsha, Cape Town, 7785, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0471261,
+                "lng": 18.6413872
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04579947010728,
+                    "lng": 18.64271132989272
+                },
+                "southwest": {
+                    "lat": -34.04849912989272,
+                    "lng": 18.64001167010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "525dfab1bb0824760c963e6a3ffc0a77a0658c4a",
+        "name": "FALSE BAY TVET COLLEGE, SWARTKLIP CAMPUS",
+        "place_id": "ChIJAVcp3NNJzB0R-sXIWgFrEpg",
+        "plus_code": {
+            "compound_code": "XJ3R+4H Mitchells Plain, Cape Town",
+            "global_code": "4FQWXJ3R+4H"
+        },
+        "rating": 0,
+        "reference": "ChIJAVcp3NNJzB0R-sXIWgFrEpg",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "False Bay College Youth Advisory Centre": {
+        "formatted_address": "Mew Way, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.045305,
+                "lng": 18.655789
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04394797010728,
+                    "lng": 18.65717007989272
+                },
+                "southwest": {
+                    "lat": -34.04664762989272,
+                    "lng": 18.65447042010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "edc49c49e2930fd21d52dba8ea28986507be588b",
+        "name": "False Bay College Youth Advisory Centre",
+        "place_id": "ChIJMysrd9tIzB0RJfIZUxlU7SE",
+        "plus_code": {
+            "compound_code": "XM34+V8 Khayelitsha, Cape Town",
+            "global_code": "4FQWXM34+V8"
+        },
+        "rating": 4,
+        "reference": "ChIJMysrd9tIzB0RJfIZUxlU7SE",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    "Silulo Ulutho Technologies": {
+        "formatted_address": "Nonkqubela Link, Sulani Dr, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.027104,
+                "lng": 18.6647219
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.02587972010728,
+                    "lng": 18.66609487989273
+                },
+                "southwest": {
+                    "lat": -34.02857937989272,
+                    "lng": 18.66339522010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "d8967fcf735d3fc903f4778f303e4bd7024909d7",
+        "name": "Silulo Ulutho Technologies",
+        "place_id": "ChIJL_MpnypPzB0RcizZj72mkBw",
+        "plus_code": {
+            "compound_code": "XMF7+5V Khayelitsha, Cape Town",
+            "global_code": "4FQWXMF7+5V"
+        },
+        "rating": 4.5,
+        "reference": "ChIJL_MpnypPzB0RcizZj72mkBw",
+        "types": [
+            "electronics_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    "Tree Tech Academy": {
+        "formatted_address": "Mew Way /Spine Road, Bandwidth Barn, Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0455471,
+                "lng": 18.6564236
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.04425002010728,
+                    "lng": 18.65751047989272
+                },
+                "southwest": {
+                    "lat": -34.04694967989272,
+                    "lng": 18.65481082010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "37f3cd379062ddc584109e7b771f4c73063c2081",
+        "name": "Tree Tech Academy",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJAxCERTRJzB0RN9RF2Ma8JJo",
+        "plus_code": {
+            "compound_code": "XM34+QH Khayelitsha, Cape Town",
+            "global_code": "4FQWXM34+QH"
+        },
+        "rating": 0,
+        "reference": "ChIJAxCERTRJzB0RN9RF2Ma8JJo",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    },
+    "VLM Music Academy": {
+        "formatted_address": "Khayelitsha, Cape Town, 7784, South Africa",
+        "geometry": {
+            "location": {
+                "lat": -34.0378253,
+                "lng": 18.6798895
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -34.03647487010727,
+                    "lng": 18.68123882989272
+                },
+                "southwest": {
+                    "lat": -34.03917452989272,
+                    "lng": 18.67853917010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "18ee5aec6a6eb5ffd91826faab552db78fd49791",
+        "name": "VLM Music Academy",
+        "place_id": "ChIJNePuARFJzB0Rk-z9KsoaWiY",
+        "plus_code": {
+            "compound_code": "XM6H+VX Khayelitsha, Cape Town",
+            "global_code": "4FQWXM6H+VX"
+        },
+        "rating": 0,
+        "reference": "ChIJNePuARFJzB0Rk-z9KsoaWiY",
+        "types": [
+            "school",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 0
+    }
+}
