@@ -28,7 +28,7 @@ class Distribution(object):
 	def Normal(ResidualEnergyMean = 1340,
 			ResidualEnergySigma = 428.547,
 			ResidualEnergySize = 100000000,
-			SNRMean =  -92,
+			SNRMean =  -78,
 			SNRSigma = 16.59,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
