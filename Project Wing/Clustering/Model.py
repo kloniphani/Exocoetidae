@@ -21,7 +21,8 @@ class Model(object):
 		The function takes a @N - Node list and delete all it's members from @List by using @Index to identify the correct node
 		"""
 		Total = len(List)
-		for node in N[Index].MEMBERS:
+		if Index in list(N.keys()):
+			for node in N[str(Index)].MEMBERS:
 				position = 0; length = len(List)
 				while(position < len(List)):
 					if(node.Id is List[position] or Index is List[position] or int(Index) == int(List[position])):

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7c1452f9-28a1-434f-95bb-a67a6a4e6990}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Project_Wing.py</StartupFile>
+    <StartupFile>Emulations\Backhauling.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -2429,13 +2429,25 @@
     <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---30-03-18--12-15-R100.png" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Backhauling_Emulations.py">
+    <Compile Include="Decommission\Backhauling_Emulations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Multisink_Emulations.py">
+    <Compile Include="Emulations\Backbone.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Myopic_Emulations.py">
+    <Compile Include="Emulations\Backhauling.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Emulations\Multisink.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Emulations\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Decommission\Multisink_Emulations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Decommission\Myopic_Emulations.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Clustering\Algorithms.py">
@@ -2459,7 +2471,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Clustering\__init__.py" />
-    <Compile Include="Emulation.py" />
+    <Compile Include="Decommission\Emulation.py" />
     <Compile Include="GUI\Interface.py" />
     <Compile Include="GUI\Network\Network\views.py" />
     <Compile Include="GUI\Network\Network\__init__.py" />
@@ -2475,7 +2487,10 @@
     <Compile Include="Source\API.py" />
     <Compile Include="Source\Geodata.py" />
     <Compile Include="Source\__init__.py" />
-    <Compile Include="_Emulation.py">
+    <Compile Include="Decommission\_Emulation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -2515,12 +2530,19 @@
     <Folder Include="GUI\Network\Network\static\scripts" />
     <Folder Include="GUI\Network\Network\templates" />
     <Folder Include="Model" />
+    <Folder Include="Emulations\" />
+    <Folder Include="Decommission\" />
     <Folder Include="Object" />
     <Folder Include="Protocol" />
     <Folder Include="Source" />
     <Folder Include="Source\Data" />
     <Folder Include="Source\Data\Study\" />
     <Folder Include="Source\Network\" />
+    <Folder Include="Source\Results\Network\" />
+    <Folder Include="Source\Results\Network\Backbone\" />
+    <Folder Include="Source\Results\Network\Backhauling\" />
+    <Folder Include="Source\Results\Network\Multisink\" />
+    <Folder Include="Source\Results\Map\" />
     <Folder Include="Source\Topology\" />
     <Folder Include="Source\Results" />
     <Folder Include="Source\Results\01" />
