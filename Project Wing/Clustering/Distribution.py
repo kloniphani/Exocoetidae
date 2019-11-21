@@ -44,7 +44,7 @@ class Distribution(object):
 			ResidualEnergyHigh = 2400,
 			ResidualEnergySize = 100000000,
 			SNRLow =  -160,
-			SNRHigh = -20,
+			SNRHigh = -10,
 			SNRSize = 100000000,
 			TelementrySize = 100000000,
 			Size = None):

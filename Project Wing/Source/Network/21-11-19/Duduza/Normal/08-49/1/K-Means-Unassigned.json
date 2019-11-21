@@ -1,0 +1,50 @@
+{
+    "16": {
+        "Id": "16",
+        "Name": "Inkanyezi Yesizwe Preschool & Creche",
+        "SNR": -70.95657050721596,
+        "Energy": 2489.4302499504074,
+        "Position": [
+            28.4056983,
+            -26.3734714,
+            10.0
+        ],
+        "Type": -1
+    },
+    "5": {
+        "Id": "5",
+        "Name": "Iphahamiseng Primary School",
+        "SNR": -74.09015583177714,
+        "Energy": 570.4881851462209,
+        "Position": [
+            28.407899,
+            -26.3775689,
+            10.0
+        ],
+        "Type": -1
+    },
+    "9": {
+        "Id": "9",
+        "Name": "Esibonelwesihle High School",
+        "SNR": -74.66125528141187,
+        "Energy": 828.5577263532148,
+        "Position": [
+            28.404309,
+            -26.3705469,
+            7.0
+        ],
+        "Type": -2
+    },
+    "12": {
+        "Id": "12",
+        "Name": "Mom Sebone Secondary School",
+        "SNR": -81.00931632728314,
+        "Energy": 1492.1488185341695,
+        "Position": [
+            28.3973464,
+            -26.3768148,
+            7.0
+        ],
+        "Type": 0
+    }
+}

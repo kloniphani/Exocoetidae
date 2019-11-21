@@ -1,0 +1,38 @@
+{
+    "5": {
+        "Id": "5",
+        "Name": "Iphahamiseng Primary School",
+        "SNR": -89.32693086504109,
+        "Energy": 1055.4462505875738,
+        "Position": [
+            28.407899,
+            -26.3775689,
+            8.0
+        ],
+        "Type": null
+    },
+    "14": {
+        "Id": "14",
+        "Name": "Thakgalang Primary School",
+        "SNR": -94.00316829094142,
+        "Energy": 1180.8481479988816,
+        "Position": [
+            28.41101,
+            -26.3770199,
+            8.0
+        ],
+        "Type": null
+    },
+    "10": {
+        "Id": "10",
+        "Name": "MMUSO Primary School",
+        "SNR": -106.97839970923324,
+        "Energy": 1158.2604678878615,
+        "Position": [
+            28.40683,
+            -26.3806549,
+            8.0
+        ],
+        "Type": null
+    }
+}

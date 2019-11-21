@@ -1,0 +1,86 @@
+{
+    "63": {
+        "Id": "63",
+        "Name": "Prestige College",
+        "SNR": -66.72364356998591,
+        "Energy": 1701.2718189259663,
+        "Position": [
+            27.7706557,
+            -26.2719769,
+            10.0
+        ],
+        "Type": -1
+    },
+    "14": {
+        "Id": "14",
+        "Name": "Jabavu East Primary School",
+        "SNR": -67.07578084233349,
+        "Energy": 957.5094863225388,
+        "Position": [
+            27.8294095,
+            -26.2465804,
+            7.0
+        ],
+        "Type": 0
+    },
+    "10": {
+        "Id": "10",
+        "Name": "Fundani Primary School",
+        "SNR": -73.29982485280148,
+        "Energy": 2017.661736233314,
+        "Position": [
+            27.82102,
+            -26.24619,
+            7.0
+        ],
+        "Type": -1
+    },
+    "13": {
+        "Id": "13",
+        "Name": "Luyolo Higher Primary School",
+        "SNR": -88.26694830110233,
+        "Energy": 798.239920887506,
+        "Position": [
+            27.825657,
+            -26.2459089,
+            7.0
+        ],
+        "Type": 0
+    },
+    "36": {
+        "Id": "36",
+        "Name": "Impumelelo Junior Primary School",
+        "SNR": -88.62513791601249,
+        "Energy": 1419.081043701865,
+        "Position": [
+            27.817722,
+            -26.244632,
+            7.0
+        ],
+        "Type": -1
+    },
+    "16": {
+        "Id": "16",
+        "Name": "Zibambele Lower Primary School",
+        "SNR": -90.36072953509537,
+        "Energy": 1309.8472726963819,
+        "Position": [
+            27.82342,
+            -26.24183,
+            7.0
+        ],
+        "Type": -1
+    },
+    "38": {
+        "Id": "38",
+        "Name": "Vuwani Secondary School",
+        "SNR": -91.93051385229317,
+        "Energy": 1587.068562480322,
+        "Position": [
+            27.8559831,
+            -26.2856525,
+            10.0
+        ],
+        "Type": -1
+    }
+}

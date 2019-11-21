@@ -1,0 +1,26 @@
+{
+    "13": {
+        "Id": "13",
+        "Name": "FALSE BAY TVET COLLEGE, SWARTKLIP CAMPUS",
+        "SNR": -89.9368788622639,
+        "Energy": 1022.4430105312715,
+        "Position": [
+            18.6413872,
+            -34.0471261,
+            10.0
+        ],
+        "Type": -1
+    },
+    "12": {
+        "Id": "12",
+        "Name": "False Bay TVET College: Swartklip Campus",
+        "SNR": -94.37486335669757,
+        "Energy": 315.1761258270053,
+        "Position": [
+            18.6338115,
+            -34.0323041,
+            10.0
+        ],
+        "Type": -1
+    }
+}

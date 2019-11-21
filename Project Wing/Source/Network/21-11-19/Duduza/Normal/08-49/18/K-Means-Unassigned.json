@@ -1,0 +1,50 @@
+{
+    "17": {
+        "Id": "17",
+        "Name": "Mbusomusha Nursery & Pre - School",
+        "SNR": -65.62590210636604,
+        "Energy": 1676.932655117633,
+        "Position": [
+            28.41581,
+            -26.382723,
+            10.0
+        ],
+        "Type": -1
+    },
+    "12": {
+        "Id": "12",
+        "Name": "Mom Sebone Secondary School",
+        "SNR": -72.04774942740545,
+        "Energy": 1333.8166334801876,
+        "Position": [
+            28.3973464,
+            -26.3768148,
+            7.0
+        ],
+        "Type": -1
+    },
+    "11": {
+        "Id": "11",
+        "Name": "Zakheni Primary School",
+        "SNR": -72.7999529782846,
+        "Energy": 2335.328789124425,
+        "Position": [
+            28.406727,
+            -26.37388,
+            7.0
+        ],
+        "Type": -1
+    },
+    "7": {
+        "Id": "7",
+        "Name": "Sibonisiwe Primary School",
+        "SNR": -74.32780541966486,
+        "Energy": 740.5436002607639,
+        "Position": [
+            28.399125,
+            -26.374537,
+            10.0
+        ],
+        "Type": -1
+    }
+}

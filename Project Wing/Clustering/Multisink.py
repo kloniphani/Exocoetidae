@@ -52,8 +52,8 @@ class Multisink(object):
 
 	def GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP',
 				Median_ResidualEnergy = None, MaximumClusterHeads = None, Maximum_SNR = None, Minimum_SNR = None, NumberOfNodes = None, ClusterRadius = 100,
-				Theta = 0.5, Beta = 0.5, Alpha= 0.5, Profit = 0, Best_SNR = 10,
-				HopLimit = -1):	 
+				Theta = 0.5, Beta = 0.5, Alpha= 0.5, Profit = 0, Best_SNR = -60,
+				HopLimit = 2):	 
 		print("\nGreedy Sink Node Selection With Sinks Tree Balancing Model at [{0}] Processing".format(Mode))
 		if Median_ResidualEnergy is None and MaximumClusterHeads is None and Maximum_SNR is None and Minimum_SNR is None:
 			#Sorting the Nodes in Descending order based on their SNR
@@ -75,7 +75,7 @@ class Multisink(object):
 		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
 			#Selecting the Base Station and Creating the Network Graph
 			Total = 2; 
-			NODES = Multisink.InitialiseNodes(NODES, BestSNR = 50)
+			NODES = Multisink.InitialiseNodes(NODES, BestSNR = -60)
 			NODES, NETWORK, UNASSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total)
 			for id in BASESTATIONS:
 				NODES[id].SetGraphHeight(-1)

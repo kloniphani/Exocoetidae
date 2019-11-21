@@ -1,0 +1,222 @@
+{
+    "16": {
+        "Id": "16",
+        "Name": "Tree Tech Academy",
+        "SNR": -74.64599324873697,
+        "Energy": 1533.713072880419,
+        "Position": [
+            18.6564236,
+            -34.0455471,
+            10.0
+        ],
+        "MEMBERS": {
+            "13": {
+                "Id": "13",
+                "Name": "FALSE BAY TVET COLLEGE, SWARTKLIP CAMPUS",
+                "SNR": -60.2114521582318,
+                "Energy": 1154.8842869735058,
+                "Position": [
+                    18.6413872,
+                    -34.0471261,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "12": {
+                "Id": "12",
+                "Name": "False Bay TVET College: Swartklip Campus",
+                "SNR": -61.61270452720284,
+                "Energy": 856.0347327428253,
+                "Position": [
+                    18.6338115,
+                    -34.0323041,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "10": {
+                "Id": "10",
+                "Name": "False Bay College",
+                "SNR": -73.05379252177681,
+                "Energy": 1104.2072577503136,
+                "Position": [
+                    18.6540662,
+                    -34.0496718,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "15": {
+                "Id": "15",
+                "Name": "Silulo Ulutho Technologies",
+                "SNR": -67.11210892060551,
+                "Energy": 1017.8085821356369,
+                "Position": [
+                    18.6647219,
+                    -34.027104,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "3": {
+                "Id": "3",
+                "Name": "Bulumko Secondary School",
+                "SNR": -75.76385512144273,
+                "Energy": 814.2741677400332,
+                "Position": [
+                    18.6727299,
+                    -34.03881,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "9": {
+                "Id": "9",
+                "Name": "Noxolo Xauka Primary School",
+                "SNR": -77.83584105805343,
+                "Energy": 1486.9378577895557,
+                "Position": [
+                    18.7112444,
+                    -34.0427626,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "8": {
+                "Id": "8",
+                "Name": "Eluxolweni Primary School",
+                "SNR": -112.41824058188956,
+                "Energy": 1573.8590627533406,
+                "Position": [
+                    18.6701374,
+                    -34.0297247,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "11": {
+                "Id": "11",
+                "Name": "Falsebay Khayelitsha Campus",
+                "SNR": -78.9458811180916,
+                "Energy": 1213.9163880017302,
+                "Position": [
+                    18.655772,
+                    -34.045269,
+                    7.0
+                ],
+                "Type": 0
+            },
+            "5": {
+                "Id": "5",
+                "Name": "Kukhanyile Publ Primary School",
+                "SNR": -81.77232232948938,
+                "Energy": 824.4695990901328,
+                "Position": [
+                    18.67166,
+                    -34.02901,
+                    7.0
+                ],
+                "Type": -2
+            },
+            "6": {
+                "Id": "6",
+                "Name": "Chris Hani Arts & Culture High School",
+                "SNR": -91.09933573193258,
+                "Energy": 1458.1019143187473,
+                "Position": [
+                    18.705771,
+                    -34.047218,
+                    7.0
+                ],
+                "Type": -2
+            },
+            "17": {
+                "Id": "17",
+                "Name": "VLM Music Academy",
+                "SNR": -96.05873964432342,
+                "Energy": 1590.0042945233172,
+                "Position": [
+                    18.6798895,
+                    -34.0378253,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "4": {
+                "Id": "4",
+                "Name": "Ummangaliso Primary School",
+                "SNR": -78.3987259475224,
+                "Energy": 2334.122039158712,
+                "Position": [
+                    18.6705083,
+                    -34.0479125,
+                    7.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": -1
+    },
+    "14": {
+        "Id": "14",
+        "Name": "False Bay College Youth Advisory Centre",
+        "SNR": -83.62284927047753,
+        "Energy": 2376.0565486710184,
+        "Position": [
+            18.655789,
+            -34.045305,
+            10.0
+        ],
+        "MEMBERS": {
+            "5": {
+                "Id": "5",
+                "Name": "Kukhanyile Publ Primary School",
+                "SNR": -81.77232232948938,
+                "Energy": 824.4695990901328,
+                "Position": [
+                    18.67166,
+                    -34.02901,
+                    7.0
+                ],
+                "Type": -2
+            },
+            "1": {
+                "Id": "1",
+                "Name": "Yomelela Primary School",
+                "SNR": -86.1861596530103,
+                "Energy": 1512.5516481738473,
+                "Position": [
+                    18.6746361,
+                    -34.0280533,
+                    7.0
+                ],
+                "Type": 2
+            },
+            "7": {
+                "Id": "7",
+                "Name": "Vuzamanzi P P School",
+                "SNR": -87.29401906036077,
+                "Energy": 1632.2149944214432,
+                "Position": [
+                    18.6491659,
+                    -34.0141349,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "2": {
+                "Id": "2",
+                "Name": "Academia Primary School",
+                "SNR": -88.71313369004434,
+                "Energy": 1644.2273662192035,
+                "Position": [
+                    18.6944777,
+                    -34.0317481,
+                    7.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": -1
+    }
+}

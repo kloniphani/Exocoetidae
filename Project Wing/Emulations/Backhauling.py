@@ -123,14 +123,14 @@ class Emulation(object):
 if __name__ is '__main__':
 	import time
 
-	Place = 'Soweto'
+	Place = 'Duduza'
 	Code = '1818';
 	Distribution = 'Normal'
 	Date = datetime.datetime.now().strftime("%d-%m-%y")
 	Time = datetime.datetime.now().strftime("%H-%M")
 
 	RESULTS = []	
-	End = 20
+	End = 1
 
 	Network = None; NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
@@ -144,7 +144,7 @@ if __name__ is '__main__':
 			print('\n#{0:5}: Creating Nodes!'.format(i))
 			ServiceProvider = Provider(Id = '00', Address = "" + Place + ", South Africa", Position = [-23.829150, 30.142595,10])
 			Network = Nodes()
-			Network.CreateNodes('./RF Planning/Location/Study/' + Place + '.json', Place, ClusterRadius = 1000, ServiceProvider = ServiceProvider, Results = True)
+			Network.CreateNodes('./RF Planning/Location/Study/' + Place + '.json', Place, ClusterRadius = 7, ServiceProvider = ServiceProvider, Results = True)
 
 			#MODELS
 			print('\n#{0:5}: Running Models!'.format(i))
@@ -161,12 +161,13 @@ if __name__ is '__main__':
 			Technique = 'Backhauling';
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+			print("Done")
 			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = i, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
-
+			
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 			Technique = 'MSGBACK';
 			NODES, NETWORK, UNASSIGNED, DATA = Model.Greedy(NODES, NETWORK, UNASSIGNED, DATA, ClusterRadius = Network.ClusterRadius)

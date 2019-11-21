@@ -5,13 +5,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7c1452f9-28a1-434f-95bb-a67a6a4e6990}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Emulations\Backhauling.py</StartupFile>
+    <StartupFile>Emulations\Multisinks.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
     <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
     <IsWindowsApplication>False</IsWindowsApplication>
     <TestFramework>Pytest</TestFramework>
@@ -2202,231 +2202,6 @@
     <Content Include="Source\Results\Data\Mopani-Myopic-Uniform-Distribution.json" />
     <Content Include="Source\Results\Data\Nodes-Mopani-Myopic-Uniform-Distribution.json" />
     <Content Include="Source\Results\Data\NODES.json" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---01-04-18--15-21-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---01-04-18--15-24-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---01-04-18--15-43-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---02-04-18--12-36-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---02-04-18--12-43-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---02-04-18--12-51-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---02-04-18--12-56-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---19-12-17--14-51-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---19-12-17--15-10-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---21-12-17--12-31-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---21-12-17--13-28-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---21-12-17--13-31-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---21-12-17--13-39-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---21-12-17--13-51-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---21-12-17--13-54-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---21-12-17--13-56-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--10-58-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-01-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-04-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-06-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-07-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-09-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-10-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-11-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-13-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--11-16-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--22-06-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---22-12-17--22-32-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--09-37-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--09-38-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--09-45-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--09-47-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-01-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-04-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-07-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-10-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-12-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-16-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-19-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-26-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-36-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-43-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-49-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--10-53-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--11-34-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--11-36-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--11-41-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--11-45-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--11-53-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---23-12-17--11-57-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---28-12-17--16-12-R100.png" />
-    <Content Include="Source\Results\Mopani-Bachauling-Uniform-Distribution---30-03-18--12-13-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---01-04-18--15-23-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---01-04-18--15-48-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---02-04-18--12-42-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---19-12-17--14-54-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---19-12-17--15-12-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---21-12-17--13-32-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---21-12-17--13-40-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---21-12-17--13-57-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---22-12-17--22-40-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--09-40-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--09-49-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-02-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-05-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-08-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-14-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-20-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-28-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-45-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-51-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--10-55-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--11-43-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--11-47-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---23-12-17--11-55-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---28-12-17--16-14-R100.png" />
-    <Content Include="Source\Results\Mopani-KMeans-Uniform-Distribution---30-03-18--12-15-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---01-04-18--15-22-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---01-04-18--15-44-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--12-39-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--12-58-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--13-03-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--13-05-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--13-07-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--13-16-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--13-20-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--13-22-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--13-27-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-28-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-31-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-44-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-46-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-48-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-49-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-50-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-56-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-57-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--15-58-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--16-18-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--16-43-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--17-27-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--17-31-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--19-35-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---02-04-18--20-36-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---03-04-18--00-08-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---04-04-18--09-56-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--13-45-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--19-47-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--21-11-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--21-34-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--21-37-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--21-41-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--21-43-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--22-45-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--22-49-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--22-50-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--22-51-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--23-01-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--23-05-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---05-04-18--23-14-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---06-04-18--20-54-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---06-04-18--21-00-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---06-04-18--21-01-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--15-36-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--15-40-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--15-42-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--15-44-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--15-51-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--15-53-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--23-37-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--23-50-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--23-52-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--23-53-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--23-55-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--23-56-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---08-04-18--23-59-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--00-01-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--00-02-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--00-18-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--10-49-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--11-00-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--11-02-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--11-37-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-19-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-37-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-40-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-42-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-45-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-46-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-47-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-53-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--15-58-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--16-01-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--16-02-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--16-07-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---09-04-18--16-09-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---10-04-18--10-24-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---10-04-18--10-30-R1000.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---19-12-17--14-52-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---19-12-17--15-11-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---21-12-17--13-31-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---21-12-17--13-39-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---21-12-17--13-57-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---22-12-17--22-39-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--09-39-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--09-49-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-01-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-05-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-08-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-13-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-17-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-20-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-27-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-44-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-50-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--10-54-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--11-43-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--11-47-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---23-12-17--11-54-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--08-24-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--09-36-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--09-38-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--09-41-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--10-08-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--10-15-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--10-32-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--14-05-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--14-23-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--14-25-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--14-49-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--14-54-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--14-57-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--15-32-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--15-37-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--15-43-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--15-46-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-04-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-11-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-14-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-16-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-20-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-24-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-30-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--20-35-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-07-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-16-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-18-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-25-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-28-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-48-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-51-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--21-54-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--22-49-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--22-52-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--22-54-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--22-57-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--22-59-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--23-01-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--23-03-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--23-18-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--23-22-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---27-12-17--23-30-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---28-12-17--08-14-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---28-12-17--16-14-R100.png" />
-    <Content Include="Source\Results\Mopani-Myopic-Uniform-Distribution---30-03-18--12-15-R100.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Decommission\Backhauling_Emulations.py">
@@ -2438,7 +2213,7 @@
     <Compile Include="Emulations\Backhauling.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Emulations\Multisink.py">
+    <Compile Include="Emulations\Multisinks.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Emulations\__init__.py">
@@ -2550,18 +2325,6 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
-    <InterpreterReference Include="Global|VisualStudio|env (Python 3.7 (64-bit))" />
-  </ItemGroup>
-  <ItemGroup>
-    <Interpreter Include="env\env\">
-      <Id>env</Id>
-      <Version>3.7</Version>
-      <Description>env (Python 3.7 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X64</Architecture>
-    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

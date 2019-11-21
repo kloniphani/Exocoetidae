@@ -1,0 +1,268 @@
+{
+    "9": {
+        "Id": "9",
+        "Name": "Noxolo Xauka Primary School",
+        "SNR": -75.32727956558087,
+        "Energy": 1308.8018404233846,
+        "Position": [
+            18.7112444,
+            -34.0427626,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "12": {
+        "Id": "12",
+        "Name": "False Bay TVET College: Swartklip Campus",
+        "SNR": -67.34514332305828,
+        "Energy": 2134.3705674018606,
+        "Position": [
+            18.6338115,
+            -34.0323041,
+            10.0
+        ],
+        "MEMBERS": {
+            "16": {
+                "Id": "16",
+                "Name": "Tree Tech Academy",
+                "SNR": -44.88824661963969,
+                "Energy": 1856.554529795656,
+                "Position": [
+                    18.6564236,
+                    -34.0455471,
+                    10.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": -1
+    },
+    "15": {
+        "Id": "15",
+        "Name": "Silulo Ulutho Technologies",
+        "SNR": -92.28155679370897,
+        "Energy": 1195.124692374293,
+        "Position": [
+            18.6647219,
+            -34.027104,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "2": {
+        "Id": "2",
+        "Name": "Academia Primary School",
+        "SNR": -87.49016253129653,
+        "Energy": 1043.0197539588858,
+        "Position": [
+            18.6944777,
+            -34.0317481,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "7": {
+        "Id": "7",
+        "Name": "Vuzamanzi P P School",
+        "SNR": -76.26464921027576,
+        "Energy": 1897.8099003456612,
+        "Position": [
+            18.6491659,
+            -34.0141349,
+            10.0
+        ],
+        "MEMBERS": {
+            "13": {
+                "Id": "13",
+                "Name": "FALSE BAY TVET COLLEGE, SWARTKLIP CAMPUS",
+                "SNR": -91.10676777486566,
+                "Energy": 456.77644550575496,
+                "Position": [
+                    18.6413872,
+                    -34.0471261,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "15": {
+                "Id": "15",
+                "Name": "Silulo Ulutho Technologies",
+                "SNR": -92.28155679370897,
+                "Energy": 1195.124692374293,
+                "Position": [
+                    18.6647219,
+                    -34.027104,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "17": {
+                "Id": "17",
+                "Name": "VLM Music Academy",
+                "SNR": -104.5293064146196,
+                "Energy": 637.2265281481023,
+                "Position": [
+                    18.6798895,
+                    -34.0378253,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "2": {
+                "Id": "2",
+                "Name": "Academia Primary School",
+                "SNR": -87.49016253129653,
+                "Energy": 1043.0197539588858,
+                "Position": [
+                    18.6944777,
+                    -34.0317481,
+                    10.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": -1
+    },
+    "3": {
+        "Id": "3",
+        "Name": "Bulumko Secondary School",
+        "SNR": -73.7819248906909,
+        "Energy": 1992.378679797572,
+        "Position": [
+            18.6727299,
+            -34.03881,
+            10.0
+        ],
+        "MEMBERS": {
+            "11": {
+                "Id": "11",
+                "Name": "Falsebay Khayelitsha Campus",
+                "SNR": -71.23456059355992,
+                "Energy": 993.3987921799146,
+                "Position": [
+                    18.655772,
+                    -34.045269,
+                    7.0
+                ],
+                "Type": 0
+            },
+            "9": {
+                "Id": "9",
+                "Name": "Noxolo Xauka Primary School",
+                "SNR": -75.32727956558087,
+                "Energy": 1308.8018404233846,
+                "Position": [
+                    18.7112444,
+                    -34.0427626,
+                    10.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": -1
+    },
+    "13": {
+        "Id": "13",
+        "Name": "FALSE BAY TVET COLLEGE, SWARTKLIP CAMPUS",
+        "SNR": -91.10676777486566,
+        "Energy": 456.77644550575496,
+        "Position": [
+            18.6413872,
+            -34.0471261,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "6": {
+        "Id": "6",
+        "Name": "Chris Hani Arts & Culture High School",
+        "SNR": -76.65699287061675,
+        "Energy": 1858.9100458763635,
+        "Position": [
+            18.705771,
+            -34.047218,
+            10.0
+        ],
+        "MEMBERS": {
+            "15": {
+                "Id": "15",
+                "Name": "Silulo Ulutho Technologies",
+                "SNR": -92.28155679370897,
+                "Energy": 1195.124692374293,
+                "Position": [
+                    18.6647219,
+                    -34.027104,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "17": {
+                "Id": "17",
+                "Name": "VLM Music Academy",
+                "SNR": -104.5293064146196,
+                "Energy": 637.2265281481023,
+                "Position": [
+                    18.6798895,
+                    -34.0378253,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "9": {
+                "Id": "9",
+                "Name": "Noxolo Xauka Primary School",
+                "SNR": -75.32727956558087,
+                "Energy": 1308.8018404233846,
+                "Position": [
+                    18.7112444,
+                    -34.0427626,
+                    10.0
+                ],
+                "Type": -1
+            },
+            "2": {
+                "Id": "2",
+                "Name": "Academia Primary School",
+                "SNR": -87.49016253129653,
+                "Energy": 1043.0197539588858,
+                "Position": [
+                    18.6944777,
+                    -34.0317481,
+                    10.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": -1
+    },
+    "4": {
+        "Id": "4",
+        "Name": "Ummangaliso Primary School",
+        "SNR": -63.9190547120502,
+        "Energy": 1073.645758035979,
+        "Position": [
+            18.6705083,
+            -34.0479125,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "17": {
+        "Id": "17",
+        "Name": "VLM Music Academy",
+        "SNR": -104.5293064146196,
+        "Energy": 637.2265281481023,
+        "Position": [
+            18.6798895,
+            -34.0378253,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    }
+}

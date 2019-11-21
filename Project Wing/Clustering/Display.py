@@ -150,7 +150,7 @@ class Display(object):
 			Date, Area, Distribution, Time, Counter, Model), 'w') as fp:
 			Temp = {}
 			for node in Unassigned:
-				Temp[key] = {'Id' : Nodes[node].Id,
+				Temp[node] = {'Id' : Nodes[node].Id,
 					'Name': Nodes[node].Name,
 					'SNR': Nodes[node].SNR,
 					'Energy': Nodes[node].ResidualEnergy,

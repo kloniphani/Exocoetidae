@@ -1,0 +1,288 @@
+{
+    "9": {
+        "Id": "9",
+        "Name": "Noxolo Xauka Primary School",
+        "SNR": -69.48828212967504,
+        "Energy": 1905.5218852599335,
+        "Position": [
+            18.7112444,
+            -34.0427626,
+            10.0
+        ],
+        "MEMBERS": {
+            "6": {
+                "Id": "6",
+                "Name": "Chris Hani Arts & Culture High School",
+                "SNR": -55.208459316569574,
+                "Energy": 1172.1776306017507,
+                "Position": [
+                    18.705771,
+                    -34.047218,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "17": {
+                "Id": "17",
+                "Name": "VLM Music Academy",
+                "SNR": -80.5799014704546,
+                "Energy": 1618.4986158978336,
+                "Position": [
+                    18.6798895,
+                    -34.0378253,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "2": {
+                "Id": "2",
+                "Name": "Academia Primary School",
+                "SNR": -121.82494237835567,
+                "Energy": 1706.2916354342206,
+                "Position": [
+                    18.6944777,
+                    -34.0317481,
+                    7.0
+                ],
+                "Type": 2
+            }
+        },
+        "Type": -1
+    },
+    "10": {
+        "Id": "10",
+        "Name": "False Bay College",
+        "SNR": -72.07210978387546,
+        "Energy": 1700.39125452927,
+        "Position": [
+            18.6540662,
+            -34.0496718,
+            10.0
+        ],
+        "MEMBERS": {
+            "3": {
+                "Id": "3",
+                "Name": "Bulumko Secondary School",
+                "SNR": -63.860281961535804,
+                "Energy": 1564.9298793893472,
+                "Position": [
+                    18.6727299,
+                    -34.03881,
+                    7.0
+                ],
+                "Type": -2
+            },
+            "12": {
+                "Id": "12",
+                "Name": "False Bay TVET College: Swartklip Campus",
+                "SNR": -69.64481984501609,
+                "Energy": 1451.10102071789,
+                "Position": [
+                    18.6338115,
+                    -34.0323041,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "7": {
+                "Id": "7",
+                "Name": "Vuzamanzi P P School",
+                "SNR": -72.69872814323502,
+                "Energy": 695.8682701036463,
+                "Position": [
+                    18.6491659,
+                    -34.0141349,
+                    7.0
+                ],
+                "Type": 0
+            },
+            "1": {
+                "Id": "1",
+                "Name": "Yomelela Primary School",
+                "SNR": -79.35613837872026,
+                "Energy": 1104.464231055906,
+                "Position": [
+                    18.6746361,
+                    -34.0280533,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "16": {
+                "Id": "16",
+                "Name": "Tree Tech Academy",
+                "SNR": -83.35513839478408,
+                "Energy": 652.6067581444856,
+                "Position": [
+                    18.6564236,
+                    -34.0455471,
+                    7.0
+                ],
+                "Type": 0
+            }
+        },
+        "Type": -1
+    },
+    "13": {
+        "Id": "13",
+        "Name": "FALSE BAY TVET COLLEGE, SWARTKLIP CAMPUS",
+        "SNR": -83.93612172024488,
+        "Energy": 1859.8256295762862,
+        "Position": [
+            18.6413872,
+            -34.0471261,
+            10.0
+        ],
+        "MEMBERS": {
+            "7": {
+                "Id": "7",
+                "Name": "Vuzamanzi P P School",
+                "SNR": -72.69872814323502,
+                "Energy": 695.8682701036463,
+                "Position": [
+                    18.6491659,
+                    -34.0141349,
+                    7.0
+                ],
+                "Type": 0
+            },
+            "16": {
+                "Id": "16",
+                "Name": "Tree Tech Academy",
+                "SNR": -83.35513839478408,
+                "Energy": 652.6067581444856,
+                "Position": [
+                    18.6564236,
+                    -34.0455471,
+                    7.0
+                ],
+                "Type": 0
+            },
+            "8": {
+                "Id": "8",
+                "Name": "Eluxolweni Primary School",
+                "SNR": -84.39625540098544,
+                "Energy": 1537.1960687200874,
+                "Position": [
+                    18.6701374,
+                    -34.0297247,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "5": {
+                "Id": "5",
+                "Name": "Kukhanyile Publ Primary School",
+                "SNR": -85.4719387863124,
+                "Energy": 1101.1647798355884,
+                "Position": [
+                    18.67166,
+                    -34.02901,
+                    7.0
+                ],
+                "Type": 0
+            },
+            "15": {
+                "Id": "15",
+                "Name": "Silulo Ulutho Technologies",
+                "SNR": -87.58191161838997,
+                "Energy": 2319.6964022204706,
+                "Position": [
+                    18.6647219,
+                    -34.027104,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "11": {
+                "Id": "11",
+                "Name": "Falsebay Khayelitsha Campus",
+                "SNR": -91.30247742231882,
+                "Energy": 1800.3913904271526,
+                "Position": [
+                    18.655772,
+                    -34.045269,
+                    7.0
+                ],
+                "Type": -1
+            },
+            "4": {
+                "Id": "4",
+                "Name": "Ummangaliso Primary School",
+                "SNR": -96.65694589141643,
+                "Energy": 1734.3138027152072,
+                "Position": [
+                    18.6705083,
+                    -34.0479125,
+                    7.0
+                ],
+                "Type": 2
+            },
+            "14": {
+                "Id": "14",
+                "Name": "False Bay College Youth Advisory Centre",
+                "SNR": -119.18123484846215,
+                "Energy": 1679.0558465863069,
+                "Position": [
+                    18.655789,
+                    -34.045305,
+                    7.0
+                ],
+                "Type": -2
+            }
+        },
+        "Type": -1
+    },
+    "2": {
+        "Id": "2",
+        "Name": "Academia Primary School",
+        "SNR": -121.82494237835567,
+        "Energy": 1706.2916354342206,
+        "Position": [
+            18.6944777,
+            -34.0317481,
+            7.0
+        ],
+        "MEMBERS": {
+            "10": {
+                "Id": "10",
+                "Name": "False Bay College",
+                "SNR": -72.07210978387546,
+                "Energy": 1700.39125452927,
+                "Position": [
+                    18.6540662,
+                    -34.0496718,
+                    10.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": 2
+    },
+    "4": {
+        "Id": "4",
+        "Name": "Ummangaliso Primary School",
+        "SNR": -96.65694589141643,
+        "Energy": 1734.3138027152072,
+        "Position": [
+            18.6705083,
+            -34.0479125,
+            7.0
+        ],
+        "MEMBERS": {
+            "9": {
+                "Id": "9",
+                "Name": "Noxolo Xauka Primary School",
+                "SNR": -69.48828212967504,
+                "Energy": 1905.5218852599335,
+                "Position": [
+                    18.7112444,
+                    -34.0427626,
+                    10.0
+                ],
+                "Type": -1
+            }
+        },
+        "Type": 2
+    }
+}

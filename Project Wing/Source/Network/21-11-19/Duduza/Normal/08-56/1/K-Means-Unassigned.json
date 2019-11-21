@@ -1,0 +1,74 @@
+{
+    "6": {
+        "Id": "6",
+        "Name": "Emzimkhulu Primary School",
+        "SNR": -74.62735488138713,
+        "Energy": 758.0461913554251,
+        "Position": [
+            28.4079582,
+            -26.3677171,
+            10.0
+        ],
+        "Type": -1
+    },
+    "16": {
+        "Id": "16",
+        "Name": "Inkanyezi Yesizwe Preschool & Creche",
+        "SNR": -76.18250408154304,
+        "Energy": 554.3726171178162,
+        "Position": [
+            28.4056983,
+            -26.3734714,
+            7.0
+        ],
+        "Type": 0
+    },
+    "9": {
+        "Id": "9",
+        "Name": "Esibonelwesihle High School",
+        "SNR": -78.90188518552937,
+        "Energy": 1247.610421077231,
+        "Position": [
+            28.404309,
+            -26.3705469,
+            7.0
+        ],
+        "Type": 0
+    },
+    "18": {
+        "Id": "18",
+        "Name": "Asser Maloka Secondary School",
+        "SNR": -81.6496039434754,
+        "Energy": 1127.6603674622074,
+        "Position": [
+            28.3889294,
+            -26.3824893,
+            10.0
+        ],
+        "Type": -1
+    },
+    "5": {
+        "Id": "5",
+        "Name": "Iphahamiseng Primary School",
+        "SNR": -81.88941155609935,
+        "Energy": 737.9974836850434,
+        "Position": [
+            28.407899,
+            -26.3775689,
+            10.0
+        ],
+        "Type": -1
+    },
+    "3": {
+        "Id": "3",
+        "Name": "Edalinceba Primary School",
+        "SNR": -84.09868063031908,
+        "Energy": 1866.9738536401267,
+        "Position": [
+            28.40379,
+            -26.36945,
+            7.0
+        ],
+        "Type": -1
+    }
+}
