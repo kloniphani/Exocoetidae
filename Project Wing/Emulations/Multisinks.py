@@ -1,6 +1,6 @@
 """         
 Authors:     Kloni Maluleke (Msc), kloniphani@gmail.com
-Date:        November 19, 2019
+Date:        November 21, 2019
 Copyrights:  2018 ISAT, Department of Computer Science
              University of the Western Cape, Bellville, ZA
 """
@@ -60,15 +60,15 @@ class Emulation(object):
 			DATA['SNS CH'].append(data[6])
 			DATA['SNS Gateways CH'].append(data[7])
 
-			DATA['TNS I-CH'].append(data[15])
-			DATA['TNS Gateways I-CH'].append(data[16]) 			
-			DATA['SNS I-CH'].append(data[17])
-			DATA['SNS Gateways I-CH'].append(data[18])
+			DATA['TNS I-CH'].append(data[8])
+			DATA['TNS Gateways I-CH'].append(data[9]) 			
+			DATA['SNS I-CH'].append(data[10])
+			DATA['SNS Gateways I-CH'].append(data[11])
 
-			DATA['TNS Unassigned'].append(data[26])
-			DATA['TNS Gateways Unassigned'].append(data[27])						
-			DATA['SNS Unassigned'].append(data[28])
-			DATA['SNS Gateways Unassigned'].append(data[29])
+			DATA['TNS Unassigned'].append(data[12])
+			DATA['TNS Gateways Unassigned'].append(data[13])						
+			DATA['SNS Unassigned'].append(data[14])
+			DATA['SNS Gateways Unassigned'].append(data[15])
 		
 		DataFrames = pd.DataFrame(data = DATA, columns = Columns)  #Create a Pandas dataframe from some data.
 		Writer = pd.ExcelWriter(FileName, engine='xlsxwriter') #Create a Pandas Excel writer using XlsxWriter as the engine.

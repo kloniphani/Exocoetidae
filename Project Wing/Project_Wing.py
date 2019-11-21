@@ -127,10 +127,10 @@ if __name__ == '__main__':
 	Technique = 'Myopic';	Distribution = 'Normal'
 	NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
 
-	NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+	#NODES, NETWORK, UNASSIGNED, DATA = Model.Myopic(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
 	#CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-	NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
-	CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+	#NODES, NETWORK, UNASSIGNED, DATA = Model.Balancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
+	#CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 	#NODES, NETWORK, UNASSIGNED, DATA = Model.DensityBalancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
 	#CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 	#NODES, NETWORK, UNASSIGNED, DATA = Model.CompositeBalancing(NODES, NETWORK, UNASSIGNED, DATA, Network.Median_ResidualEnergy, Network.MaximumClusterHeads, Network.Maximum_SNR, Network.Minimum_SNR, ClusterRadius = Network.ClusterRadius)
@@ -138,14 +138,14 @@ if __name__ == '__main__':
 	#CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 	#NODES, NETWORK, UNASSIGNED, DATA = Model.Successive(NODES, NETWORK, UNASSIGNED, DATA)
-	#NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'UAV')
+	NODES, NETWORK, UNASSIGNED, DATA = Backbone.GraphColouringWithHeightControl(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
 	#NODES, NETWORK, UNASSIGNED, DATA = Multisink.GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
 	#NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.GreedySinkNodeSelection(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP')
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = 'TREE')
 
 	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius, Type = '2D')
-	Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = 1, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
+	Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = 0, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
 
 	#NODES, NETWORK, UNASSIGNED, DATA = Multisink.BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
 	#NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.BalanceNetwork(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
@@ -154,7 +154,7 @@ if __name__ == '__main__':
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = 'TREE')
 	
 	#Display.MapNetwork(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
-	#CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
+	CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 	#Display.DrawTreeGraph(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	#Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);
 	#NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();   
