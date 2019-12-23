@@ -1,0 +1,236 @@
+{
+    "14": {
+        "Id": "14",
+        "Name": "Henryville Primary",
+        "SNR": 7.06682169644541,
+        "Energy": 24475.765638591874,
+        "Position": [
+            26.0900382,
+            -25.5688431,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "20": {
+        "Id": "20",
+        "Name": "Ackermans Zeerust",
+        "SNR": 13.196374502209682,
+        "Energy": 14804.469506629566,
+        "Position": [
+            26.0797299,
+            -25.5449169,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "15": {
+        "Id": "15",
+        "Name": "MT Learning Academy",
+        "SNR": 26.094672789660322,
+        "Energy": 13757.916991203845,
+        "Position": [
+            26.0754367,
+            -25.5419259,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "8": {
+        "Id": "8",
+        "Name": "Mhapha Public School",
+        "SNR": 12.447374221269998,
+        "Energy": 13511.229282077347,
+        "Position": [
+            26.10017,
+            -25.56083,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "7": {
+        "Id": "7",
+        "Name": "Zeerust Combined",
+        "SNR": 14.62467227303454,
+        "Energy": 13160.97379014257,
+        "Position": [
+            26.0750306,
+            -25.5416289,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "10": {
+        "Id": "10",
+        "Name": "Sesamotho Primary",
+        "SNR": 14.057715276035768,
+        "Energy": 12653.927433416142,
+        "Position": [
+            26.06881,
+            -25.5264,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "17": {
+        "Id": "17",
+        "Name": "Mohapha Primary School",
+        "SNR": 18.358479319776343,
+        "Energy": 12272.356606467967,
+        "Position": [
+            26.1002367,
+            -25.5608717,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "9": {
+        "Id": "9",
+        "Name": "Zeerust Laerskool",
+        "SNR": 12.38763808692216,
+        "Energy": 10720.09207679139,
+        "Position": [
+            26.08596,
+            -25.54542,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "19": {
+        "Id": "19",
+        "Name": "Correctional Services",
+        "SNR": 39.63694252947481,
+        "Energy": 10633.032385127854,
+        "Position": [
+            26.08346,
+            -25.541837,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "18": {
+        "Id": "18",
+        "Name": "Koos Driving School",
+        "SNR": 5.909019414459104,
+        "Energy": 10426.813614871218,
+        "Position": [
+            26.0757239,
+            -25.54534,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "3": {
+        "Id": "3",
+        "Name": "Ho\u00ebrskool Zeerust",
+        "SNR": 14.807313614514984,
+        "Energy": 10119.561196804414,
+        "Position": [
+            26.0814999,
+            -25.5381699,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "16": {
+        "Id": "16",
+        "Name": "S A INSTITUTE OF COMMERCE AND TECHNOLOGY",
+        "SNR": 23.728177141375696,
+        "Energy": 9969.733865414424,
+        "Position": [
+            26.0767502,
+            -25.5441325,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "1": {
+        "Id": "1",
+        "Name": "Zeerust Primary School",
+        "SNR": 6.812190824713037,
+        "Energy": 9564.70652303622,
+        "Position": [
+            26.0734276,
+            -25.5449338,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "12": {
+        "Id": "12",
+        "Name": "Zeerust",
+        "SNR": 4.054138500672568,
+        "Energy": 9166.417001397289,
+        "Position": [
+            26.1004893,
+            -25.5523445,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "2": {
+        "Id": "2",
+        "Name": "Laerskool Zeerust",
+        "SNR": 12.85545608851114,
+        "Energy": 7640.202480545399,
+        "Position": [
+            26.08022,
+            -25.539,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "11": {
+        "Id": "11",
+        "Name": "Mosadikago Training",
+        "SNR": 4.0817611599037935,
+        "Energy": 7672.167569537155,
+        "Position": [
+            26.07543,
+            -25.54225,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "6": {
+        "Id": "6",
+        "Name": "Sefatlhane Primary School",
+        "SNR": 22.974918171202038,
+        "Energy": 5895.507993631787,
+        "Position": [
+            26.102598,
+            -25.5650515,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    },
+    "5": {
+        "Id": "5",
+        "Name": "Henryville Primary School",
+        "SNR": 16.383358577170043,
+        "Energy": 4037.0311656178606,
+        "Position": [
+            26.0933299,
+            -25.55483,
+            10.0
+        ],
+        "MEMBERS": {},
+        "Type": -1
+    }
+}

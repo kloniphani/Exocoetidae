@@ -1,0 +1,26 @@
+{
+    "75": {
+        "Id": "75",
+        "Name": "Pq vundla",
+        "SNR": -103.71067846231168,
+        "Energy": 1312.332165490847,
+        "Position": [
+            27.7740712,
+            -26.2706574,
+            10.0
+        ],
+        "Type": -1
+    },
+    "57": {
+        "Id": "57",
+        "Name": "Boston City Campus & Business College - Maponya Mall",
+        "SNR": -105.77317537856985,
+        "Energy": 1575.9610712673707,
+        "Position": [
+            27.9016007,
+            -26.2581542,
+            8.0
+        ],
+        "Type": null
+    }
+}

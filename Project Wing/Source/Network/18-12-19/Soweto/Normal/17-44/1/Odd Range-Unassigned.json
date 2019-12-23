@@ -1,0 +1,62 @@
+{
+    "85": {
+        "Id": "85",
+        "Name": "HB Technology",
+        "SNR": -67.7007371790975,
+        "Energy": 743.3959754589833,
+        "Position": [
+            27.84258,
+            -26.24881,
+            10.0
+        ],
+        "Type": -1
+    },
+    "28": {
+        "Id": "28",
+        "Name": "Bopasenatla Secondary School",
+        "SNR": -79.47753044966059,
+        "Energy": 973.0966146829032,
+        "Position": [
+            27.943039,
+            -26.251199,
+            10.0
+        ],
+        "Type": -1
+    },
+    "65": {
+        "Id": "65",
+        "Name": "Chris Hani Baragwanath Nursing College",
+        "SNR": -89.08653562318185,
+        "Energy": 1765.756288568479,
+        "Position": [
+            27.9451106,
+            -26.2636521,
+            10.0
+        ],
+        "Type": -1
+    },
+    "63": {
+        "Id": "63",
+        "Name": "Prestige College",
+        "SNR": -98.02904458462793,
+        "Energy": 690.1837625244149,
+        "Position": [
+            27.7706557,
+            -26.2719769,
+            7.0
+        ],
+        "Type": -1
+    },
+    "57": {
+        "Id": "57",
+        "Name": "Boston City Campus & Business College - Maponya Mall",
+        "SNR": -99.54294950719465,
+        "Energy": 1677.7788331554905,
+        "Position": [
+            27.9016007,
+            -26.2581542,
+            7.0
+        ],
+        "Type": -1
+    }
+}

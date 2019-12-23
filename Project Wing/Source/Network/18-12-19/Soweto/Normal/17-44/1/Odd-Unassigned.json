@@ -1,0 +1,38 @@
+{
+    "28": {
+        "Id": "28",
+        "Name": "Bopasenatla Secondary School",
+        "SNR": -79.47753044966059,
+        "Energy": 973.0966146829032,
+        "Position": [
+            27.943039,
+            -26.251199,
+            10.0
+        ],
+        "Type": -1
+    },
+    "65": {
+        "Id": "65",
+        "Name": "Chris Hani Baragwanath Nursing College",
+        "SNR": -89.08653562318185,
+        "Energy": 1765.756288568479,
+        "Position": [
+            27.9451106,
+            -26.2636521,
+            10.0
+        ],
+        "Type": -1
+    },
+    "63": {
+        "Id": "63",
+        "Name": "Prestige College",
+        "SNR": -98.02904458462793,
+        "Energy": 690.1837625244149,
+        "Position": [
+            27.7706557,
+            -26.2719769,
+            7.0
+        ],
+        "Type": -1
+    }
+}

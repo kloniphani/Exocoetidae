@@ -9,6 +9,8 @@ from . import *
 from numpy import *
 from networkx import *
 
+from Clustering.Distribution import *
+
 class Algorithms(object):
 	"""description of class"""
 
@@ -33,8 +35,8 @@ class Algorithms(object):
 		elif Links == False:
 			for node in NODES.values():
 				for s in NODES.values(): 
-					if node is not s.Id:
-						G.add_edge(s.Id, NODES[node].Id, weight = s.Distance(NODES[node].Position, Type = '2D', Results = Results))	
+					if str(node.Id) is not str(s.Id):
+						G.add_edge(s.Id, NODES[node.Id].Id, weight = s.Distance(NODES[node.Id].Position, Type = '2D', Results = Results))	
 		return G
 
 	def FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G,
@@ -118,3 +120,24 @@ class Algorithms(object):
 		for key, value in NODES.items():
 			REWARDS[key] = Algorithms.UAVReward(value, NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha = Alpha, Beta = Beta)
 		return REWARDS;
+
+	def GenerateRandomLinks(NODES, Results = False):
+		ResidualEnergies, SNRs = Distribution.Distribution.Normal() # Random Values
+		BestSNR = quantile(list(node.SNR for node in list(NODES.values())), 0.5)
+
+		if Results is True:
+			print("Generating Random Links")
+
+		Track = 0;
+		with progressbar.ProgressBar(max_value = len(NODES)) as bar:		 
+			for	 node in NODES.values():
+				for link in NODES.values():
+					if str(node.Id)	is not str(link.Id):
+						SNR = choice(SNRs)
+						if(SNR > BestSNR):
+							node.LINKS.append(link)
+
+			Track += 1
+			bar.update(Track)
+		return NODES;
+

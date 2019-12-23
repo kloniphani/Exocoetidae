@@ -74,35 +74,33 @@ class Backbone(object):
 			Average_ResidualEnergy = average([node.ResidualEnergy for node in TEMP])
 			Maximum_ResidualEnergy = max([node.ResidualEnergy for node in TEMP])
 		
-		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;
-		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:
-			NODES = Backbone.InitialiseNodes(NODES, BestSNR = 50)
-			#Selecting the Base Station and Creating the Network Graph
+		TrackA = 1; EndA = len(UNASSIGNED); White = 0; Gray = 1; Black = 2;	Olive = 3;	G = None;
+
+
+		BestSNR = quantile(list(node.SNR for node in list(NODES.values())), 0.75)
+		NODES = Backbone.InitialiseNodes(NODES, BestSNR = BestSNR)
+
+		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:		 		
+			#Selecting the Gateways and Creating the Network Graph
 			Total = 2; 
-
-			bar.update(TrackA)
-
 			NODES, NETWORK, UNASSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total)
-			for id in BASESTATIONS:
-				NODES[id].SetGraphHeight(-1)
-				NODES[id].SetGraphColor('olive')
-
-			G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED, Links = True)
 
 			#Finding the Profit
 			if Mode == 'LAP':
+				for id in BASESTATIONS:
+					NODES[id].SetGraphHeight(Olive)
+					NODES[id].SetGraphColor('olive')
+
+				NODES = Algorithms.GenerateRandomLinks(NODES = NODES, Results = True)
+
+				G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED, Links = True)
+
 				Profit, Average_GD_Basestations, Average_GD_Nodes = Algorithms.FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_ResidualEnergy, Theta, Beta, Alpha)
-				REWARDS = Algorithms.AllLAPRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, 
-			   Average_GD_Basestations, Average_GD_Nodes)
+				REWARDS = Algorithms.AllLAPRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G,	Average_GD_Basestations, Average_GD_Nodes)
+
 			elif Mode == 'UAV':
 				Profit = Algorithms.FindUAVProfit(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_SNR, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
 				REWARDS = Algorithms.AllUAVRewards(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
-
-
-			for key, value in NODES.items():
-				if key not in BASESTATIONS and key in UNASSIGNED and value.GraphColor == 'white' and (Profit <= REWARDS[key]):
-					NODES[key].SetGraphColor('gray')
-					#UNASSIGNED.remove(key)
 
 			while(Backbone.HasWhiteNode(NODES) == True):
 				#Picking the best Gray node
@@ -113,16 +111,15 @@ class Backbone(object):
 						BestGrayNode = NODES[UNASSIGNED[key]]
 					else:
 						key += 1
-
+				
 				NODES[BestGrayNode.Id].SetGraphColor('black')
 				NODES[BestGrayNode.Id].ChangeToClusterHead()
 				NETWORK[BestGrayNode.Id] = NODES[BestGrayNode.Id]
-
+					
 				for link in NODES[BestGrayNode.Id].LINKS:
 					if (link.Id in UNASSIGNED):
 						NODES[link.Id].SetGraphColor('gray')
-						NODES[link.Id].SetGraphHeight(BestGrayNode.GraphHeight + 1)
-						NODES[link.Id].ChangeToClusterMember(BestGrayNode)
+						 
 						NETWORK[BestGrayNode.Id].MEMBERS.append(NODES[link.Id])
 						UNASSIGNED.remove(link.Id)
 				

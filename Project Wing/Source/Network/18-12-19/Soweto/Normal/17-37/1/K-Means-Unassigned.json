@@ -1,0 +1,158 @@
+{
+    "64": {
+        "Id": "64",
+        "Name": "LechekoPowerYourMind",
+        "SNR": -38.472994382675694,
+        "Energy": 736.0050503974168,
+        "Position": [
+            27.849839,
+            -26.251995,
+            7.0
+        ],
+        "Type": 0
+    },
+    "10": {
+        "Id": "10",
+        "Name": "Fundani Primary School",
+        "SNR": -44.50480115792597,
+        "Energy": 2051.978576993716,
+        "Position": [
+            27.82102,
+            -26.24619,
+            7.0
+        ],
+        "Type": -1
+    },
+    "33": {
+        "Id": "33",
+        "Name": "Jabavu Oos Primary School",
+        "SNR": -47.93510309651454,
+        "Energy": 2132.6229243282587,
+        "Position": [
+            27.88322,
+            -26.2585269,
+            10.0
+        ],
+        "Type": -1
+    },
+    "49": {
+        "Id": "49",
+        "Name": "Thulare Secondary School",
+        "SNR": -50.82186818806432,
+        "Energy": 792.2706132977363,
+        "Position": [
+            27.87707,
+            -26.24402,
+            10.0
+        ],
+        "Type": -1
+    },
+    "35": {
+        "Id": "35",
+        "Name": "Reasoma High School",
+        "SNR": -51.08781919746907,
+        "Energy": 1309.9480514036118,
+        "Position": [
+            27.837396,
+            -26.26877,
+            10.0
+        ],
+        "Type": -1
+    },
+    "16": {
+        "Id": "16",
+        "Name": "Zibambele Lower Primary School",
+        "SNR": -52.9449466107546,
+        "Energy": 753.8602187512688,
+        "Position": [
+            27.82342,
+            -26.24183,
+            7.0
+        ],
+        "Type": 0
+    },
+    "82": {
+        "Id": "82",
+        "Name": "The Plumbing Academy",
+        "SNR": -55.129721597649734,
+        "Energy": 1915.4057462383957,
+        "Position": [
+            27.8767347,
+            -26.2711408,
+            7.0
+        ],
+        "Type": -1
+    },
+    "34": {
+        "Id": "34",
+        "Name": "Nghunghunyani Comprehensive School",
+        "SNR": -77.82762274997064,
+        "Energy": 1396.1947029584824,
+        "Position": [
+            27.87388,
+            -26.2786899,
+            10.0
+        ],
+        "Type": -1
+    },
+    "12": {
+        "Id": "12",
+        "Name": "Protea South Primary School",
+        "SNR": -84.55184843992585,
+        "Energy": 1620.8947229989794,
+        "Position": [
+            27.8397972,
+            -26.2808518,
+            10.0
+        ],
+        "Type": -1
+    },
+    "55": {
+        "Id": "55",
+        "Name": "Isipho Lower Primary School",
+        "SNR": -88.4188581941863,
+        "Energy": 2581.358863768843,
+        "Position": [
+            27.8736326,
+            -26.2628691,
+            7.0
+        ],
+        "Type": -1
+    },
+    "59": {
+        "Id": "59",
+        "Name": "WO BIBLE COLLEGE",
+        "SNR": -89.02397409248907,
+        "Energy": 1490.0242126134879,
+        "Position": [
+            27.87366,
+            -26.26606,
+            7.0
+        ],
+        "Type": 2
+    },
+    "27": {
+        "Id": "27",
+        "Name": "Vukazenzele Primary School",
+        "SNR": -90.71006206602209,
+        "Energy": 1453.5241523292502,
+        "Position": [
+            27.87812,
+            -26.2349599,
+            7.0
+        ],
+        "Type": -2
+    },
+    "1": {
+        "Id": "1",
+        "Name": "Moletsane High School",
+        "SNR": -90.86456782230427,
+        "Energy": 1088.126051894047,
+        "Position": [
+            27.85119,
+            -26.2545499,
+            7.0
+        ],
+        "Type": -2
+    }
+}
