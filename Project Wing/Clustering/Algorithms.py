@@ -11,6 +11,8 @@ from networkx import *
 
 from Clustering.Distribution import *
 
+import progressbar
+
 class Algorithms(object):
 	"""description of class"""
 
@@ -122,20 +124,20 @@ class Algorithms(object):
 		return REWARDS;
 
 	def GenerateRandomLinks(NODES, Results = False):
-		ResidualEnergies, SNRs = Distribution.Distribution.Normal() # Random Values
-		BestSNR = quantile(list(node.SNR for node in list(NODES.values())), 0.5)
+		ResidualEnergies, SNRs = Distribution.Normal() # Random Values
+		BestSNR = quantile(list(node.SNR for node in list(NODES.values())), 0.65)
 
 		if Results is True:
 			print("Generating Random Links")
 
 		Track = 0;
 		with progressbar.ProgressBar(max_value = len(NODES)) as bar:		 
-			for	 node in NODES.values():
+			for	node in NODES.values():
 				for link in NODES.values():
 					if str(node.Id)	is not str(link.Id):
-						SNR = choice(SNRs)
+						SNR = random.choice(SNRs)
 						if(SNR > BestSNR):
-							node.LINKS.append(link)
+							NODES[node.Id].LINKS.append(link)
 
 			Track += 1
 			bar.update(Track)

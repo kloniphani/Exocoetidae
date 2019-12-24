@@ -80,24 +80,24 @@ class Backbone(object):
 		BestSNR = quantile(list(node.SNR for node in list(NODES.values())), 0.75)
 		NODES = Backbone.InitialiseNodes(NODES, BestSNR = BestSNR)
 
-		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:		 		
-			#Selecting the Gateways and Creating the Network Graph
-			Total = 2; 
-			NODES, NETWORK, UNASSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total)
+		with progressbar.ProgressBar(max_value = progressbar.UnknownLength) as bar:		
+			#Creating random links
+			NODES = Algorithms.GenerateRandomLinks(NODES = NODES, Results = True)
 
 			#Finding the Profit
 			if Mode == 'LAP':
+				#Selecting the Gateways and Creating the Network Graph
+				Total = 2; 
+				NODES, NETWORK, UNASSIGNED, BASESTATIONS = Algorithms.SelectBaseStations(NODES, NETWORK, UNASSIGNED, Total)
+
 				for id in BASESTATIONS:
 					NODES[id].SetGraphHeight(Olive)
 					NODES[id].SetGraphColor('olive')
-
-				NODES = Algorithms.GenerateRandomLinks(NODES = NODES, Results = True)
 
 				G = Algorithms.CreateGraph(NODES, NETWORK, UNASSIGNED, Links = True)
 
 				Profit, Average_GD_Basestations, Average_GD_Nodes = Algorithms.FindLAPProfit(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G, Average_ResidualEnergy, Theta, Beta, Alpha)
 				REWARDS = Algorithms.AllLAPRewards(NODES, NETWORK, UNASSIGNED, BASESTATIONS, G,	Average_GD_Basestations, Average_GD_Nodes)
-
 			elif Mode == 'UAV':
 				Profit = Algorithms.FindUAVProfit(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_SNR, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
 				REWARDS = Algorithms.AllUAVRewards(NODES, NETWORK, UNASSIGNED, Maximum_SNR, Average_ResidualEnergy, Maximum_ResidualEnergy, Alpha, Beta)
@@ -105,27 +105,48 @@ class Backbone(object):
 			while(Backbone.HasWhiteNode(NODES) == True):
 				#Picking the best Gray node
 				if len(UNASSIGNED) < 1: break;
-				key = 1; BestGrayNode = NODES[UNASSIGNED[0]]
-				while(key < len(UNASSIGNED)):
-					if(REWARDS[BestGrayNode.Id] < REWARDS[UNASSIGNED[key]]):
-						BestGrayNode = NODES[UNASSIGNED[key]]
+				key = 1; BestGrayNode = None;
+
+				for head in UNASSIGNED:
+					if REWARDS[head] >= Profit and NODES[head].GraphHeight <= Gray:
+						BestGrayNode = NODES[head]
+						break;
 					else:
-						key += 1
+						pass;						
 				
-				NODES[BestGrayNode.Id].SetGraphColor('black')
-				NODES[BestGrayNode.Id].ChangeToClusterHead()
-				NETWORK[BestGrayNode.Id] = NODES[BestGrayNode.Id]
+				if BestGrayNode is not None: 
+					print("#{0}".format(BestGrayNode.Id))
+					NODES[BestGrayNode.Id].SetGraphColor('black')
+					NODES[BestGrayNode.Id].SetGraphHeight(Black)
+					NODES[BestGrayNode.Id].ChangeToClusterHead()
+					NETWORK[BestGrayNode.Id] = NODES[BestGrayNode.Id]
 					
-				for link in NODES[BestGrayNode.Id].LINKS:
-					if (link.Id in UNASSIGNED):
-						NODES[link.Id].SetGraphColor('gray')
-						 
-						NETWORK[BestGrayNode.Id].MEMBERS.append(NODES[link.Id])
-						UNASSIGNED.remove(link.Id)
-				
-				UNASSIGNED.remove(BestGrayNode.Id)
+					for link in BestGrayNode.LINKS:
+						if link.GraphHeight == White:
+							NODES[link.Id].SetGraphColor('gray')
+							NODES[link.Id].SetGraphHeight(Gray)	  						 
+							NETWORK[BestGrayNode.Id].MEMBERS.append(NODES[link.Id])
+							#UNASSIGNED.remove(link.Id)
+							print("\t{0}".format(link.Id))
+
+					UNASSIGNED = list([node.Id for node in BestGrayNode.LINKS])
+				else:
+					UNASSIGNED = list([node.Id for node in NODES.values()])
 
 				TrackA += 1
 				bar.update(TrackA)
+
+		if Mode == 'LAP':
+			TrackB = 0
+			with progressbar.ProgressBar(max_value = len(BASESTATIONS)) as bar:	
+				for station in BASESTATIONS:
+					NETWORK[station] = NODES[station]
+					for link in NODES[station].LINKS:
+						if link.Id in list([head.Id for head in NETWORK.values()]):
+							NETWORK[station].MEMBERS.append(NODES[link.Id])
+					TrackB += 1
+					bar.update(TrackB)
+
 		return NODES, NETWORK, UNASSIGNED, DATA;
-			
+		
+	
