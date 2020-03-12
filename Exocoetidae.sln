@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project Wing", "Project Win
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Network", "Project Wing\GUI\Network\Network.pyproj", "{10FF9C5F-A3E1-492D-A632-6CC723FD1D91}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task Allocation", "Task Allocation\Task Allocation.pyproj", "{029A40CA-2161-4247-9C21-FA42C86A9F98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{10FF9C5F-A3E1-492D-A632-6CC723FD1D91}.Release|x64.Build.0 = Release|Any CPU
 		{10FF9C5F-A3E1-492D-A632-6CC723FD1D91}.Release|x86.ActiveCfg = Release|Any CPU
 		{10FF9C5F-A3E1-492D-A632-6CC723FD1D91}.Release|x86.Build.0 = Release|Any CPU
+		{029A40CA-2161-4247-9C21-FA42C86A9F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029A40CA-2161-4247-9C21-FA42C86A9F98}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{029A40CA-2161-4247-9C21-FA42C86A9F98}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{029A40CA-2161-4247-9C21-FA42C86A9F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029A40CA-2161-4247-9C21-FA42C86A9F98}.Release|x64.ActiveCfg = Release|Any CPU
+		{029A40CA-2161-4247-9C21-FA42C86A9F98}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
