@@ -24,9 +24,9 @@ class Emulation(object):
 			FileName = './Source/Results/Network/Multisink/{0}-[{1}]-{2}.xlsx'.format(FileName, Stamp, Distribution)
 
 		Columns = ['Emulation', 'Minimum SNR', 'Maximum SNR', 'Median RE', 
-			 'TNS CH', 'TNS Gateways CH', 'SNS CH', 'SNS Gateways CH',
-			 'TNS I-CH', 'TNS Gateways I-CH', 'SNS I-CH', 'SNS Gateways I-CH',
-			 'TNS Unassigned', 'TNS Gateways Unassigned', 'SNS Unassigned', 'SNS Gateways Unassigned']
+			 'Tree Balancing CH', 'Path Balancing CH',
+			 'Tree Balancing I-CH', 'Path Balancing I-CH',
+			 'Tree Balancing Unassigned', 'Path Balancing Unassigned']
 		
 		DATA = {}
 		DATA['Emulation'] = []
@@ -34,20 +34,14 @@ class Emulation(object):
 		DATA['Maximum SNR'] = []
 		DATA['Median RE'] = []
 
-		DATA['TNS CH'] = []
-		DATA['TNS Gateways CH'] = []		 		
-		DATA['SNS CH'] = []
-		DATA['SNS Gateways CH'] = []
+		DATA['Tree Balancing CH'] = []
+		DATA['Path Balancing CH'] = []		 		
 
-		DATA['TNS I-CH'] = []
-		DATA['TNS Gateways I-CH'] = []	   		
-		DATA['SNS I-CH'] = []
-		DATA['SNS Gateways I-CH'] = []
+		DATA['Tree Balancing I-CH'] = []
+		DATA['Path Balancing I-CH'] = []	   		
 
-		DATA['TNS Unassigned'] = []
-		DATA['TNS Gateways Unassigned'] = []						
-		DATA['SNS Unassigned'] = []
-		DATA['SNS Gateways Unassigned'] = []
+		DATA['Tree Balancing Unassigned'] = []
+		DATA['Path Balancing Unassigned'] = []						
 
 		for data in INPUTDATA:
 			DATA['Emulation'].append(data[0])
@@ -55,20 +49,14 @@ class Emulation(object):
 			DATA['Maximum SNR'].append(data[2])
 			DATA['Median RE'].append(data[3])
 
-			DATA['TNS CH'].append(data[4])
-			DATA['TNS Gateways CH'].append(data[5])	 			
-			DATA['SNS CH'].append(data[6])
-			DATA['SNS Gateways CH'].append(data[7])
+			DATA['Tree Balancing CH'].append(data[4])
+			DATA['Path Balancing CH'].append(data[5])	 			
 
-			DATA['TNS I-CH'].append(data[8])
-			DATA['TNS Gateways I-CH'].append(data[9]) 			
-			DATA['SNS I-CH'].append(data[10])
-			DATA['SNS Gateways I-CH'].append(data[11])
+			DATA['Tree Balancing I-CH'].append(data[6])
+			DATA['Path Balancing I-CH'].append(data[7]) 			
 
-			DATA['TNS Unassigned'].append(data[12])
-			DATA['TNS Gateways Unassigned'].append(data[13])						
-			DATA['SNS Unassigned'].append(data[14])
-			DATA['SNS Gateways Unassigned'].append(data[15])
+			DATA['Tree Balancing Unassigned'].append(data[8])
+			DATA['Path Balancing Unassigned'].append(data[9])						
 		
 		DataFrames = pd.DataFrame(data = DATA, columns = Columns)  #Create a Pandas dataframe from some data.
 		Writer = pd.ExcelWriter(FileName, engine='xlsxwriter') #Create a Pandas Excel writer using XlsxWriter as the engine.
@@ -81,9 +69,9 @@ class Emulation(object):
 if __name__ is '__main__':
 	import time
 
-	Place = 'Soweto'
+	Place = 'Lulekani'
 	Code = '1818';
-	Distribution = 'Normal'
+	Distribution = 'LogNormal'
 	Date = datetime.datetime.now().strftime("%d-%m-%y")
 	Time = datetime.datetime.now().strftime("%H-%M")
 
@@ -107,42 +95,22 @@ if __name__ is '__main__':
 			#MODELS
 			print('\n#{0:5}: Running Models!'.format(i))
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-			Technique = 'TNS';
-			NODES, NETWORK, UNASSIGNED, DATA = Multisink.GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'UAV', ClusterRadius = Network.ClusterRadius)	
-			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
-			Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = i, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
-			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
-			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
-			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
-
-			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-			Technique = 'TNS Gateways';
+			Technique = 'Tree Balancing';
 			NODES, NETWORK, UNASSIGNED, DATA = Multisink.GreedySinkNodeSelectionWithSinksTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP', ClusterRadius = Network.ClusterRadius)	
 			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = i, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
-			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
+			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 
 			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-			Technique = 'SNS';
-			NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.GreedySinkNodeSelection(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'UAV', ClusterRadius = Network.ClusterRadius)	
-			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
-			Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = i, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
-			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
-			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
-			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
-
-			NODES, NETWORK, UNASSIGNED, DATA = Network.Network()
-			Technique = 'SNS Gateways';
+			Technique = 'Path Balancing';
 			NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.GreedySinkNodeSelection(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'LAP', ClusterRadius = Network.ClusterRadius)	
 			CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
 			Heads.append(CHs); Unassigned.append(len(UNASSIGNED)); Interclusters.append(ICHs); Empty.append(ECH)
 			Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = i, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
-			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
+			Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 			NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();
 			NODES = None; NETWORK = None; UNASSIGNED = None; DATA = None;
 

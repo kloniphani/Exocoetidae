@@ -9929,6 +9929,9 @@
     <Content Include="Source\Topology\Topology.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decommission\Backbone.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Decommission\Backhauling_Emulations.py">
       <SubType>Code</SubType>
     </Compile>

@@ -64,26 +64,27 @@ class Nodes(object):
 
 			if ClusterRadius is not None: self.ClusterRadius = ClusterRadius;
 
-			ResidualEnergies, SNRs = Distribution.Distribution.Normal() # Random Values
+			ResidualEnergies, SNRs = Distribution.Normal() # Random Values
 
 			#Initialising the Provider
 			if ServiceProvider is None:
 				self._PROVIDER = Provider(Address = "" + Place + ", South Africa")
 
 			#Creating Nodes from Google data
-			if Results is True:	print("{0:3} {1:70} {2:27s} {3:3s}".format(
-			'ID', 'NAME', 'RESIDUAL ENERGY', 'SNR'))
+			if Results is True:	print("{0:3} {1:70} {2:27s} {3:3s}".format('ID', 'NAME', 'RESIDUAL ENERGY', 'SNR'))
+			
 			Counter = 1
 			for k, value in JsonGeoData.items():
 				key = str(Counter);
-				if Code != None and Code not in value['formatted_address']:
-					continue;
+
 				if 'links' in value.keys():
 					self.__NODES[key] = Node(Id = key, Name = k, Position = [value['geometry']['location']['lng'], value['geometry']['location']['lat']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies), MeshNetwork = value['links'])
 				else:
 					self.__NODES[key] = Node(Id = key, Name = value['name'], Position = [value['geometry']['location']['lng'], value['geometry']['location']['lat']], SNR = random.choice(SNRs), RE = random.choice(ResidualEnergies))
+				
 				if Results is True: 
 					print("{0:4} {1:70} {2:15f} {3:15f}".format(self.__NODES[key].Id, self.__NODES[key].Name, self.__NODES[key].ResidualEnergy, self.__NODES[key].SNR))
+				
 				Counter += 1
 
 			#Sorting the Nodes in Descending order based on their SNR
@@ -108,8 +109,8 @@ class Nodes(object):
 if __name__ == '__main__':
 	import time
 
-	Place = 'Zeerust'
-	Code = '2865';
+	Place = 'Lulekani'
+	Code = '1392';
 
 	Heads = [] #To store computed number of Cluster Heads
 	Unassigned = [] #To store number of nodes not connected
@@ -144,8 +145,8 @@ if __name__ == '__main__':
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = '2D')
 	#Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius, Type = 'TREE')
 
-	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = False, Save = True, Radius = Network.ClusterRadius, Type = '2D')
-	Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = 0, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
+	Display.DrawPoints(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = False, Radius = Network.ClusterRadius, Type = '2D')
+	#Display.SaveNetworkJSON(NODES, NETWORK, UNASSIGNED, Counter = 0, Date = Date, Time = Time, Radius = Network.ClusterRadius, Model = Technique, Distribution = Distribution, Area = Place)
 
 	#NODES, NETWORK, UNASSIGNED, DATA = Multisink.BalanceTree(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
 	#NODES, NETWORK, UNASSIGNED, DATA = Shortpaths.BalanceNetwork(NODES, NETWORK, UNASSIGNED, DATA, Mode = 'Hop')
@@ -155,7 +156,7 @@ if __name__ == '__main__':
 	
 	#Display.MapNetwork(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
 	CHs, ICHs, ECH = Display.ConnectNodes(NODES = NODES, NETWORK = NETWORK, UNASSIGNED = UNASSIGNED)
-	#Display.DrawTreeGraph(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = True, Radius = Network.ClusterRadius)
+	Display.DrawTreeGraph(NODES, NETWORK, Place + '-' + Technique + '-' + Distribution + '-Distribution', Show = True, Save = False, Radius = Network.ClusterRadius)
 	#Display.SaveToCSV(NODES, NETWORK, Technique); Display.SaveTopology(NODES, NETWORK, Technique, Links = True); Display.SaveRouting(NODES, NETWORK, Technique);
 	#NODES.clear(); NETWORK.clear(); UNASSIGNED.clear();   
 

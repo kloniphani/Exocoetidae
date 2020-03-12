@@ -1,0 +1,998 @@
+{
+    "40": {
+        "Id": "40",
+        "Name": "Molaetsa Primary School",
+        "SNR": 84.07135512123861,
+        "Energy": 14820.344265755737,
+        "Position": [
+            27.871275,
+            -26.25536,
+            8.0
+        ],
+        "Type": null
+    },
+    "76": {
+        "Id": "76",
+        "Name": "Fosta Records",
+        "SNR": 56.02758075108497,
+        "Energy": 7957.816825461831,
+        "Position": [
+            27.8765626,
+            -26.2026186,
+            8.0
+        ],
+        "Type": null
+    },
+    "6": {
+        "Id": "6",
+        "Name": "St Matthews School",
+        "SNR": 40.2445855924364,
+        "Energy": 15778.199646429812,
+        "Position": [
+            27.881219,
+            -26.259996,
+            8.0
+        ],
+        "Type": null
+    },
+    "1": {
+        "Id": "1",
+        "Name": "Moletsane High School",
+        "SNR": 25.915961151317042,
+        "Energy": 5353.979724083265,
+        "Position": [
+            27.85119,
+            -26.2545499,
+            8.0
+        ],
+        "Type": null
+    },
+    "55": {
+        "Id": "55",
+        "Name": "Isipho Lower Primary School",
+        "SNR": 23.744291845309103,
+        "Energy": 17662.50469119506,
+        "Position": [
+            27.8736326,
+            -26.2628691,
+            8.0
+        ],
+        "Type": null
+    },
+    "51": {
+        "Id": "51",
+        "Name": "Moriting Primary School",
+        "SNR": 23.37925739671596,
+        "Energy": 11698.888374341832,
+        "Position": [
+            27.842893,
+            -26.2711114,
+            8.0
+        ],
+        "Type": null
+    },
+    "81": {
+        "Id": "81",
+        "Name": "Adelaide Thambo School",
+        "SNR": 22.792338074190447,
+        "Energy": 12782.055476047926,
+        "Position": [
+            27.8764192,
+            -26.2488437,
+            8.0
+        ],
+        "Type": null
+    },
+    "38": {
+        "Id": "38",
+        "Name": "Vuwani Secondary School",
+        "SNR": 21.978573257749183,
+        "Energy": 12949.976874239852,
+        "Position": [
+            27.8559831,
+            -26.2856525,
+            8.0
+        ],
+        "Type": null
+    },
+    "48": {
+        "Id": "48",
+        "Name": "P J Simelane Secondary School",
+        "SNR": 21.48775223116445,
+        "Energy": 7262.748043064657,
+        "Position": [
+            27.8595259,
+            -26.2286264,
+            8.0
+        ],
+        "Type": null
+    },
+    "37": {
+        "Id": "37",
+        "Name": "Heerengracht Primary School",
+        "SNR": 20.93301407148429,
+        "Energy": 11821.224169984393,
+        "Position": [
+            27.91602,
+            -26.28988,
+            8.0
+        ],
+        "Type": null
+    },
+    "68": {
+        "Id": "68",
+        "Name": "Nurses Home",
+        "SNR": 19.763249743331535,
+        "Energy": 12544.875329610353,
+        "Position": [
+            27.9385268,
+            -26.2600717,
+            8.0
+        ],
+        "Type": null
+    },
+    "18": {
+        "Id": "18",
+        "Name": "Emndeni Primary School",
+        "SNR": 19.2600691185402,
+        "Energy": 12852.587535496657,
+        "Position": [
+            27.821562,
+            -26.2429169,
+            8.0
+        ],
+        "Type": null
+    },
+    "66": {
+        "Id": "66",
+        "Name": "South West Gauteng College Head Office",
+        "SNR": 17.983667025885776,
+        "Energy": 10846.182468302632,
+        "Position": [
+            27.8604166,
+            -26.2643485,
+            8.0
+        ],
+        "Type": null
+    },
+    "65": {
+        "Id": "65",
+        "Name": "Chris Hani Baragwanath Nursing College",
+        "SNR": 17.971731346514254,
+        "Energy": 22169.91003404022,
+        "Position": [
+            27.9451106,
+            -26.2636521,
+            8.0
+        ],
+        "Type": null
+    },
+    "16": {
+        "Id": "16",
+        "Name": "Zibambele Lower Primary School",
+        "SNR": 17.6564050867683,
+        "Energy": 24290.684853557068,
+        "Position": [
+            27.82342,
+            -26.24183,
+            8.0
+        ],
+        "Type": null
+    },
+    "31": {
+        "Id": "31",
+        "Name": "Thabisang Primary School",
+        "SNR": 17.42375487790799,
+        "Energy": 19852.555575287242,
+        "Position": [
+            27.90275,
+            -26.24253,
+            8.0
+        ],
+        "Type": null
+    },
+    "49": {
+        "Id": "49",
+        "Name": "Thulare Secondary School",
+        "SNR": 17.26406989738419,
+        "Energy": 12230.238272997623,
+        "Position": [
+            27.87707,
+            -26.24402,
+            8.0
+        ],
+        "Type": null
+    },
+    "45": {
+        "Id": "45",
+        "Name": "Lekang Primary School",
+        "SNR": 17.237604227967264,
+        "Energy": 15431.346797735618,
+        "Position": [
+            27.8704569,
+            -26.2487667,
+            8.0
+        ],
+        "Type": null
+    },
+    "34": {
+        "Id": "34",
+        "Name": "Nghunghunyani Comprehensive School",
+        "SNR": 17.181462189855583,
+        "Energy": 19968.412346404355,
+        "Position": [
+            27.87388,
+            -26.2786899,
+            8.0
+        ],
+        "Type": null
+    },
+    "20": {
+        "Id": "20",
+        "Name": "Enkanyezini Primary School",
+        "SNR": 17.045795607633693,
+        "Energy": 22201.4675642755,
+        "Position": [
+            27.8566699,
+            -26.2679739,
+            8.0
+        ],
+        "Type": null
+    },
+    "33": {
+        "Id": "33",
+        "Name": "Jabavu Oos Primary School",
+        "SNR": 15.784061283952996,
+        "Energy": 8032.168830367355,
+        "Position": [
+            27.88322,
+            -26.2585269,
+            8.0
+        ],
+        "Type": null
+    },
+    "13": {
+        "Id": "13",
+        "Name": "Luyolo Higher Primary School",
+        "SNR": 15.546404334748187,
+        "Energy": 10530.808854232971,
+        "Position": [
+            27.825657,
+            -26.2459089,
+            8.0
+        ],
+        "Type": null
+    },
+    "27": {
+        "Id": "27",
+        "Name": "Vukazenzele Primary School",
+        "SNR": 15.118831820840901,
+        "Energy": 8822.099828744129,
+        "Position": [
+            27.87812,
+            -26.2349599,
+            8.0
+        ],
+        "Type": null
+    },
+    "80": {
+        "Id": "80",
+        "Name": "Johannesburg Bible College",
+        "SNR": 14.645519353974866,
+        "Energy": 13873.863790347965,
+        "Position": [
+            27.9159,
+            -26.25676,
+            8.0
+        ],
+        "Type": null
+    },
+    "61": {
+        "Id": "61",
+        "Name": "Izipho Zomphakathi Multiskills",
+        "SNR": 14.611389042457638,
+        "Energy": 12762.478924044784,
+        "Position": [
+            27.8648,
+            -26.2768671,
+            8.0
+        ],
+        "Type": null
+    },
+    "43": {
+        "Id": "43",
+        "Name": "Winnie Madikizela-Mandela School",
+        "SNR": 14.354617691402655,
+        "Energy": 23190.78863078537,
+        "Position": [
+            27.8689629,
+            -26.2729123,
+            8.0
+        ],
+        "Type": null
+    },
+    "78": {
+        "Id": "78",
+        "Name": "Mooki Memorial College",
+        "SNR": 14.251070803195288,
+        "Energy": 16278.605309072253,
+        "Position": [
+            27.9216979,
+            -26.2346558,
+            8.0
+        ],
+        "Type": null
+    },
+    "71": {
+        "Id": "71",
+        "Name": "Nqobile Mhaleni",
+        "SNR": 14.168424756464574,
+        "Energy": 9848.2139952096,
+        "Position": [
+            27.8540323,
+            -26.2485377,
+            8.0
+        ],
+        "Type": null
+    },
+    "50": {
+        "Id": "50",
+        "Name": "Tlhatlogang Junior Secondary School",
+        "SNR": 13.331274685104397,
+        "Energy": 14225.90962216935,
+        "Position": [
+            27.8832424,
+            -26.2450305,
+            8.0
+        ],
+        "Type": null
+    },
+    "44": {
+        "Id": "44",
+        "Name": "Enkolweni Primary School",
+        "SNR": 12.979940091975763,
+        "Energy": 20328.19442098137,
+        "Position": [
+            27.8672003,
+            -26.2266285,
+            8.0
+        ],
+        "Type": null
+    },
+    "4": {
+        "Id": "4",
+        "Name": "Daliwonga Secondary School",
+        "SNR": 12.867254274636196,
+        "Energy": 33328.68043780178,
+        "Position": [
+            27.8891019,
+            -26.2320407,
+            8.0
+        ],
+        "Type": null
+    },
+    "84": {
+        "Id": "84",
+        "Name": "Thaba Jabula Secondary School",
+        "SNR": 12.785248667695605,
+        "Energy": 8068.266331717992,
+        "Position": [
+            27.916441,
+            -26.2583229,
+            8.0
+        ],
+        "Type": null
+    },
+    "8": {
+        "Id": "8",
+        "Name": "Anchor High School",
+        "SNR": 12.725803179211562,
+        "Energy": 21008.712205760694,
+        "Position": [
+            27.914014,
+            -26.219638,
+            8.0
+        ],
+        "Type": null
+    },
+    "39": {
+        "Id": "39",
+        "Name": "Tshilidzi Primary School",
+        "SNR": 12.690224632900726,
+        "Energy": 11758.633383757333,
+        "Position": [
+            27.85415,
+            -26.253604,
+            8.0
+        ],
+        "Type": null
+    },
+    "82": {
+        "Id": "82",
+        "Name": "The Plumbing Academy",
+        "SNR": 12.48525390370655,
+        "Energy": 12272.903136922721,
+        "Position": [
+            27.8767347,
+            -26.2711408,
+            8.0
+        ],
+        "Type": null
+    },
+    "21": {
+        "Id": "21",
+        "Name": "Curro Academy Protea Glen Independent School",
+        "SNR": 11.967039432223892,
+        "Energy": 20121.862655421643,
+        "Position": [
+            27.8147354,
+            -26.2694012,
+            8.0
+        ],
+        "Type": null
+    },
+    "42": {
+        "Id": "42",
+        "Name": "Sekwati Primary School",
+        "SNR": 11.836294164297483,
+        "Energy": 22833.910800398196,
+        "Position": [
+            27.8628356,
+            -26.2567378,
+            8.0
+        ],
+        "Type": null
+    },
+    "17": {
+        "Id": "17",
+        "Name": "Rebone Primary School",
+        "SNR": 11.576655704948967,
+        "Energy": 7982.533663318154,
+        "Position": [
+            27.81666,
+            -26.25611,
+            8.0
+        ],
+        "Type": null
+    },
+    "73": {
+        "Id": "73",
+        "Name": "Melane Academy",
+        "SNR": 11.536360394279283,
+        "Energy": 21298.29988203502,
+        "Position": [
+            27.8936821,
+            -26.242175,
+            8.0
+        ],
+        "Type": null
+    },
+    "12": {
+        "Id": "12",
+        "Name": "Protea South Primary School",
+        "SNR": 11.468242444153313,
+        "Energy": 37016.274014244154,
+        "Position": [
+            27.8397972,
+            -26.2808518,
+            8.0
+        ],
+        "Type": null
+    },
+    "28": {
+        "Id": "28",
+        "Name": "Bopasenatla Secondary School",
+        "SNR": 11.389330816155521,
+        "Energy": 20780.88692377919,
+        "Position": [
+            27.943039,
+            -26.251199,
+            8.0
+        ],
+        "Type": null
+    },
+    "69": {
+        "Id": "69",
+        "Name": "BTC-Soweto",
+        "SNR": 11.261063619281167,
+        "Energy": 17040.577349322266,
+        "Position": [
+            27.8855981,
+            -26.2591331,
+            8.0
+        ],
+        "Type": null
+    },
+    "19": {
+        "Id": "19",
+        "Name": "Tetelo Secondary School",
+        "SNR": 11.171613740321439,
+        "Energy": 21822.26031312037,
+        "Position": [
+            27.829818,
+            -26.2689479,
+            8.0
+        ],
+        "Type": null
+    },
+    "36": {
+        "Id": "36",
+        "Name": "Impumelelo Junior Primary School",
+        "SNR": 10.885235401103785,
+        "Energy": 6945.657153571056,
+        "Position": [
+            27.817722,
+            -26.244632,
+            8.0
+        ],
+        "Type": null
+    },
+    "14": {
+        "Id": "14",
+        "Name": "Jabavu East Primary School",
+        "SNR": 10.567386898788202,
+        "Energy": 21113.315364318998,
+        "Position": [
+            27.8294095,
+            -26.2465804,
+            8.0
+        ],
+        "Type": null
+    },
+    "23": {
+        "Id": "23",
+        "Name": "Makhoarane Primary School",
+        "SNR": 9.978835071416318,
+        "Energy": 9427.190919402334,
+        "Position": [
+            27.873228,
+            -26.2196359,
+            8.0
+        ],
+        "Type": null
+    },
+    "57": {
+        "Id": "57",
+        "Name": "Boston City Campus & Business College - Maponya Mall",
+        "SNR": 9.923920604898639,
+        "Energy": 9861.608523300702,
+        "Position": [
+            27.9016007,
+            -26.2581542,
+            8.0
+        ],
+        "Type": null
+    },
+    "83": {
+        "Id": "83",
+        "Name": "Slovoville Primary School",
+        "SNR": 9.829991596045435,
+        "Energy": 16867.3436974927,
+        "Position": [
+            27.7777284,
+            -26.2138201,
+            8.0
+        ],
+        "Type": null
+    },
+    "56": {
+        "Id": "56",
+        "Name": "South West College",
+        "SNR": 9.334137754922786,
+        "Energy": 7304.859972255202,
+        "Position": [
+            27.8926677,
+            -26.247705,
+            8.0
+        ],
+        "Type": null
+    },
+    "75": {
+        "Id": "75",
+        "Name": "Pq vundla",
+        "SNR": 9.144498115814923,
+        "Energy": 12451.44807109024,
+        "Position": [
+            27.7740712,
+            -26.2706574,
+            8.0
+        ],
+        "Type": null
+    },
+    "74": {
+        "Id": "74",
+        "Name": "Makentse",
+        "SNR": 9.096635899033497,
+        "Energy": 4032.2466815634425,
+        "Position": [
+            27.8078506,
+            -26.2374065,
+            8.0
+        ],
+        "Type": null
+    },
+    "5": {
+        "Id": "5",
+        "Name": "Curtis Nkondo School Of Specialization",
+        "SNR": 9.012387482170901,
+        "Energy": 18263.653239009924,
+        "Position": [
+            27.8241183,
+            -26.2391445,
+            8.0
+        ],
+        "Type": null
+    },
+    "10": {
+        "Id": "10",
+        "Name": "Fundani Primary School",
+        "SNR": 8.60432884123911,
+        "Energy": 8942.921548983793,
+        "Position": [
+            27.82102,
+            -26.24619,
+            8.0
+        ],
+        "Type": null
+    },
+    "32": {
+        "Id": "32",
+        "Name": "Mveledzandivho Primary School",
+        "SNR": 8.60313519152995,
+        "Energy": 11682.41885974368,
+        "Position": [
+            27.85925,
+            -26.28598,
+            8.0
+        ],
+        "Type": null
+    },
+    "3": {
+        "Id": "3",
+        "Name": "Megatong Primary School",
+        "SNR": 8.396940025446218,
+        "Energy": 19269.60946828373,
+        "Position": [
+            27.8514,
+            -26.27573,
+            8.0
+        ],
+        "Type": null
+    },
+    "9": {
+        "Id": "9",
+        "Name": "Ditau Primary School",
+        "SNR": 8.372480721227832,
+        "Energy": 13184.622610952652,
+        "Position": [
+            27.92174,
+            -26.24879,
+            8.0
+        ],
+        "Type": null
+    },
+    "60": {
+        "Id": "60",
+        "Name": "Protea Glen College",
+        "SNR": 8.331450696325307,
+        "Energy": 5770.7494936702815,
+        "Position": [
+            27.821564,
+            -26.276664,
+            8.0
+        ],
+        "Type": null
+    },
+    "72": {
+        "Id": "72",
+        "Name": "Amadoda Ayasebenza (PTY) LTD",
+        "SNR": 8.324281139488534,
+        "Energy": 9323.462503227223,
+        "Position": [
+            27.9101377,
+            -26.2548937,
+            8.0
+        ],
+        "Type": null
+    },
+    "67": {
+        "Id": "67",
+        "Name": "Lebo Sibi",
+        "SNR": 7.826564694935383,
+        "Energy": 8026.6524129952795,
+        "Position": [
+            27.8117332,
+            -26.2757141,
+            8.0
+        ],
+        "Type": null
+    },
+    "25": {
+        "Id": "25",
+        "Name": "Entandweni Primary School",
+        "SNR": 7.490277977922937,
+        "Energy": 13661.524380021256,
+        "Position": [
+            27.8605,
+            -26.2323999,
+            8.0
+        ],
+        "Type": null
+    },
+    "11": {
+        "Id": "11",
+        "Name": "BHUKULANI SENIOR SCONDARY SCHOOL",
+        "SNR": 7.274326551053267,
+        "Energy": 11630.13122118943,
+        "Position": [
+            27.867531,
+            -26.233524,
+            8.0
+        ],
+        "Type": null
+    },
+    "15": {
+        "Id": "15",
+        "Name": "DSJ Primary School",
+        "SNR": 7.09171381337415,
+        "Energy": 13756.95894186215,
+        "Position": [
+            27.8563036,
+            -26.2219648,
+            8.0
+        ],
+        "Type": null
+    },
+    "64": {
+        "Id": "64",
+        "Name": "LechekoPowerYourMind",
+        "SNR": 7.021210954928806,
+        "Energy": 7986.843626087448,
+        "Position": [
+            27.849839,
+            -26.251995,
+            8.0
+        ],
+        "Type": null
+    },
+    "41": {
+        "Id": "41",
+        "Name": "Emadlelweni Primary School",
+        "SNR": 7.009451290065444,
+        "Energy": 12397.891969749986,
+        "Position": [
+            27.875326,
+            -26.2767439,
+            8.0
+        ],
+        "Type": null
+    },
+    "70": {
+        "Id": "70",
+        "Name": "Altmont Technical High School",
+        "SNR": 6.772003404528636,
+        "Energy": 8147.456868428456,
+        "Position": [
+            27.8424725,
+            -26.2812357,
+            8.0
+        ],
+        "Type": null
+    },
+    "63": {
+        "Id": "63",
+        "Name": "Prestige College",
+        "SNR": 6.683681626761637,
+        "Energy": 26933.493615361444,
+        "Position": [
+            27.7706557,
+            -26.2719769,
+            8.0
+        ],
+        "Type": null
+    },
+    "46": {
+        "Id": "46",
+        "Name": "Itemogele Primary School",
+        "SNR": 6.575146474018552,
+        "Energy": 19523.994007797966,
+        "Position": [
+            27.8113063,
+            -26.2653818,
+            8.0
+        ],
+        "Type": null
+    },
+    "26": {
+        "Id": "26",
+        "Name": "Rishile Lower Primary School",
+        "SNR": 6.56428104203336,
+        "Energy": 6350.801481743131,
+        "Position": [
+            27.892697,
+            -26.226479,
+            8.0
+        ],
+        "Type": null
+    },
+    "30": {
+        "Id": "30",
+        "Name": "Ibhongo Secondary School",
+        "SNR": 6.345008059174723,
+        "Energy": 10906.275860473157,
+        "Position": [
+            27.874548,
+            -26.2725039,
+            8.0
+        ],
+        "Type": null
+    },
+    "47": {
+        "Id": "47",
+        "Name": "Mambo Primary School",
+        "SNR": 5.714583672700037,
+        "Energy": 6272.504515654441,
+        "Position": [
+            27.85429,
+            -26.28069,
+            8.0
+        ],
+        "Type": null
+    },
+    "59": {
+        "Id": "59",
+        "Name": "WO BIBLE COLLEGE",
+        "SNR": 5.510476743385464,
+        "Energy": 15763.467162166826,
+        "Position": [
+            27.87366,
+            -26.26606,
+            8.0
+        ],
+        "Type": null
+    },
+    "53": {
+        "Id": "53",
+        "Name": "Forte Secondary School",
+        "SNR": 5.396711909805424,
+        "Energy": 11274.56080946458,
+        "Position": [
+            27.8672428,
+            -26.2144492,
+            8.0
+        ],
+        "Type": null
+    },
+    "52": {
+        "Id": "52",
+        "Name": "Tlholohelo Primary School",
+        "SNR": 5.26155563417095,
+        "Energy": 30712.907239268076,
+        "Position": [
+            27.8489937,
+            -26.2513708,
+            8.0
+        ],
+        "Type": null
+    },
+    "58": {
+        "Id": "58",
+        "Name": "Pace Community College",
+        "SNR": 5.196877799066548,
+        "Energy": 7407.6607593619,
+        "Position": [
+            27.854647,
+            -26.240036,
+            8.0
+        ],
+        "Type": null
+    },
+    "22": {
+        "Id": "22",
+        "Name": "Esiyalwini Junior Secondary School",
+        "SNR": 4.961893298682319,
+        "Energy": 14216.719117808123,
+        "Position": [
+            27.875065,
+            -26.2258639,
+            8.0
+        ],
+        "Type": null
+    },
+    "85": {
+        "Id": "85",
+        "Name": "HB Technology",
+        "SNR": 4.90778461106521,
+        "Energy": 26737.303337082238,
+        "Position": [
+            27.84258,
+            -26.24881,
+            8.0
+        ],
+        "Type": null
+    },
+    "62": {
+        "Id": "62",
+        "Name": "Teacher Development Centre (Central District D14)",
+        "SNR": 4.37933380157775,
+        "Energy": 12383.861262483473,
+        "Position": [
+            27.8742959,
+            -26.2660226,
+            8.0
+        ],
+        "Type": null
+    },
+    "35": {
+        "Id": "35",
+        "Name": "Reasoma High School",
+        "SNR": 4.275920337541436,
+        "Energy": 33400.91158689687,
+        "Position": [
+            27.837396,
+            -26.26877,
+            8.0
+        ],
+        "Type": null
+    },
+    "29": {
+        "Id": "29",
+        "Name": "St Angela's Primary School",
+        "SNR": 3.314595913604869,
+        "Energy": 13205.64850312984,
+        "Position": [
+            27.866275,
+            -26.2202829,
+            8.0
+        ],
+        "Type": null
+    },
+    "24": {
+        "Id": "24",
+        "Name": "Phafogang Secondary School",
+        "SNR": 2.9710054164436577,
+        "Energy": 12407.905182324734,
+        "Position": [
+            27.8671981,
+            -26.2673203,
+            8.0
+        ],
+        "Type": null
+    },
+    "54": {
+        "Id": "54",
+        "Name": "Adelaide Tambo School for the Physically Challenged",
+        "SNR": 2.907962934399714,
+        "Energy": 21441.492416988935,
+        "Position": [
+            27.8760558,
+            -26.2496042,
+            8.0
+        ],
+        "Type": null
+    },
+    "7": {
+        "Id": "7",
+        "Name": "Mapetla High School",
+        "SNR": 2.3572901164764444,
+        "Energy": 29795.466083573257,
+        "Position": [
+            27.8461848,
+            -26.273646,
+            8.0
+        ],
+        "Type": null
+    },
+    "79": {
+        "Id": "79",
+        "Name": "Peter Lengene Community Learning Centre",
+        "SNR": 2.2385342834402078,
+        "Energy": 9641.586849088291,
+        "Position": [
+            27.9161679,
+            -26.2582484,
+            8.0
+        ],
+        "Type": null
+    }
+}

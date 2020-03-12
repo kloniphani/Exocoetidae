@@ -1,0 +1,242 @@
+{
+    "1": {
+        "Id": "1",
+        "Name": "Duduza Primary School",
+        "SNR": 29.605249071248327,
+        "Energy": 19356.41987239547,
+        "Position": [
+            28.410507,
+            -26.370216,
+            8.0
+        ],
+        "Type": null
+    },
+    "7": {
+        "Id": "7",
+        "Name": "Sibonisiwe Primary School",
+        "SNR": 22.792383339240978,
+        "Energy": 13589.290202068925,
+        "Position": [
+            28.399125,
+            -26.374537,
+            8.0
+        ],
+        "Type": null
+    },
+    "13": {
+        "Id": "13",
+        "Name": "Roseview Primary School",
+        "SNR": 21.022704237955836,
+        "Energy": 9490.340644240332,
+        "Position": [
+            28.404376,
+            -26.3661149,
+            8.0
+        ],
+        "Type": null
+    },
+    "17": {
+        "Id": "17",
+        "Name": "Mbusomusha Nursery & Pre - School",
+        "SNR": 19.62174789854666,
+        "Energy": 14084.759193226997,
+        "Position": [
+            28.41581,
+            -26.382723,
+            8.0
+        ],
+        "Type": null
+    },
+    "10": {
+        "Id": "10",
+        "Name": "MMUSO Primary School",
+        "SNR": 15.746220578780594,
+        "Energy": 5783.345319954269,
+        "Position": [
+            28.40683,
+            -26.3806549,
+            8.0
+        ],
+        "Type": null
+    },
+    "4": {
+        "Id": "4",
+        "Name": "Nimrod Ndebele Secondary School",
+        "SNR": 14.61718653116274,
+        "Energy": 5525.717622532042,
+        "Position": [
+            28.417474,
+            -26.3765742,
+            8.0
+        ],
+        "Type": null
+    },
+    "18": {
+        "Id": "18",
+        "Name": "Asser Maloka Secondary School",
+        "SNR": 14.320212013362084,
+        "Energy": 9197.30002394011,
+        "Position": [
+            28.3889294,
+            -26.3824893,
+            8.0
+        ],
+        "Type": null
+    },
+    "14": {
+        "Id": "14",
+        "Name": "Thakgalang Primary School",
+        "SNR": 13.648814173035298,
+        "Energy": 13385.120539148103,
+        "Position": [
+            28.41101,
+            -26.3770199,
+            8.0
+        ],
+        "Type": null
+    },
+    "6": {
+        "Id": "6",
+        "Name": "Emzimkhulu Primary School",
+        "SNR": 13.02094532949226,
+        "Energy": 7690.541937450366,
+        "Position": [
+            28.4079582,
+            -26.3677171,
+            8.0
+        ],
+        "Type": null
+    },
+    "5": {
+        "Id": "5",
+        "Name": "Iphahamiseng Primary School",
+        "SNR": 12.732669382512045,
+        "Energy": 13216.3243770882,
+        "Position": [
+            28.407899,
+            -26.3775689,
+            8.0
+        ],
+        "Type": null
+    },
+    "2": {
+        "Id": "2",
+        "Name": "Sizwesethu Primary School",
+        "SNR": 12.62321573715609,
+        "Energy": 23411.465927444915,
+        "Position": [
+            28.4102944,
+            -26.3723112,
+            8.0
+        ],
+        "Type": null
+    },
+    "16": {
+        "Id": "16",
+        "Name": "Inkanyezi Yesizwe Preschool & Creche",
+        "SNR": 12.106711297972963,
+        "Energy": 12709.641654072242,
+        "Position": [
+            28.4056983,
+            -26.3734714,
+            8.0
+        ],
+        "Type": null
+    },
+    "11": {
+        "Id": "11",
+        "Name": "Zakheni Primary School",
+        "SNR": 11.682908181882633,
+        "Energy": 33560.930463157136,
+        "Position": [
+            28.406727,
+            -26.37388,
+            8.0
+        ],
+        "Type": null
+    },
+    "19": {
+        "Id": "19",
+        "Name": "duduza prototype early childhood development centre",
+        "SNR": 10.799578568504984,
+        "Energy": 18813.41168417029,
+        "Position": [
+            28.4146388,
+            -26.3777794,
+            8.0
+        ],
+        "Type": null
+    },
+    "15": {
+        "Id": "15",
+        "Name": "M.O.M. Seboni",
+        "SNR": 10.428268075229607,
+        "Energy": 13080.519789200804,
+        "Position": [
+            28.39785,
+            -26.3762599,
+            8.0
+        ],
+        "Type": null
+    },
+    "21": {
+        "Id": "21",
+        "Name": "SAsol garage",
+        "SNR": 9.645782766928903,
+        "Energy": 7660.826700746653,
+        "Position": [
+            28.4009986,
+            -26.3865152,
+            8.0
+        ],
+        "Type": null
+    },
+    "22": {
+        "Id": "22",
+        "Name": "asser maloka",
+        "SNR": 7.825760453305712,
+        "Energy": 20627.73230009361,
+        "Position": [
+            28.4009986,
+            -26.3865152,
+            8.0
+        ],
+        "Type": null
+    },
+    "3": {
+        "Id": "3",
+        "Name": "Edalinceba Primary School",
+        "SNR": 6.481353114875405,
+        "Energy": 18029.611329856605,
+        "Position": [
+            28.40379,
+            -26.36945,
+            8.0
+        ],
+        "Type": null
+    },
+    "8": {
+        "Id": "8",
+        "Name": "Dan Radebe Primary School",
+        "SNR": 5.2873394613284725,
+        "Energy": 10422.229156156935,
+        "Position": [
+            28.415063,
+            -26.3820579,
+            8.0
+        ],
+        "Type": null
+    },
+    "12": {
+        "Id": "12",
+        "Name": "Mom Sebone Secondary School",
+        "SNR": 4.935998720233179,
+        "Energy": 30824.215207238532,
+        "Position": [
+            28.3973464,
+            -26.3768148,
+            8.0
+        ],
+        "Type": null
+    }
+}

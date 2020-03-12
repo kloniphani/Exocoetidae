@@ -430,7 +430,7 @@ class Display(object):
 			for id, node in nodes.items():
 				if k == node.GraphHeight:
 					TEMP[id] = node;
-					TEMP[id].setPosition([column, -k, 10]);
+					TEMP[id].setPosition([column, k, 10]);
 					column += Width/OCCURENCES[k]
 			row -= Height/Level;
 
