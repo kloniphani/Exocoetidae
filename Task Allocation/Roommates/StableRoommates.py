@@ -39,9 +39,9 @@ class StableRoommates(object):
             return
         else:    
             for f in firstList:
-                self.Men.append(Man(f))
+                self.Men.append(Man.Man(f))
             for s in secondList:
-                self.Women.append(Woman(s))
+                self.Women.append(Woman.Woman(s))
             
 
         #assign preferences - 
