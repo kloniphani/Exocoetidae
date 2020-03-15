@@ -21,10 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Roommates\Person.py" />
-    <Compile Include="Roommates\Man.py" />
+    <Compile Include="Roommates\Link.py" />
+    <Compile Include="Roommates\Node.py" />
     <Compile Include="Roommates\StableRoommates.py" />
-    <Compile Include="Roommates\Woman.py" />
+    <Compile Include="Roommates\User.py" />
     <Compile Include="Roommates\__init__.py">
       <SubType>Code</SubType>
     </Compile>

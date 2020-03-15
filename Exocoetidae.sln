@@ -7,7 +7,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project Wing", "Project Win
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Network", "Project Wing\GUI\Network\Network.pyproj", "{10FF9C5F-A3E1-492D-A632-6CC723FD1D91}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task Allocation", "Task Allocation\Task Allocation.pyproj", "{029A40CA-2161-4247-9C21-FA42C86A9F98}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Task Allocation", "Project Wing\Task Allocation.pyproj", "{029A40CA-2161-4247-9C21-FA42C86A9F98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

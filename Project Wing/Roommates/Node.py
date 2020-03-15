@@ -1,4 +1,6 @@
-class Man (Person):
+from Roommates.Link import *;
+
+class Node (Link):
     """
     The Man Class
     Women/Jobs are allocated to this class
@@ -14,7 +16,8 @@ class Man (Person):
     def __init__(self, firsts):
         self.firsts = firsts
         self.name = firsts["name"]
-        self.age = firsts["age"]
+        self.snr = firsts["snr"]
+        self.pos = first["pos"]
         self.preferredMates = firsts["preferences"]
         self.mate = None #initially set mate to None
         self.potentialMates = None   #list of person objects
@@ -31,7 +34,7 @@ class Man (Person):
                  #build own preference list based on certain criteria
                 #add preference criteria here, example give below
                 #in this example self.age is used as criterion
-                if (p.getAge() != self.getAge()):
+                if (p.getSNR() != self.getSNR()):
                     self.preferredMates.append(p)
                 
     def propose(self):

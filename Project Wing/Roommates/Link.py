@@ -1,4 +1,4 @@
-class Person(object):
+class Link(object):
     """ The actual individual class
         Both the Man and Woman classes inherit this class
         In essence both Men and Women are Persons
@@ -6,10 +6,11 @@ class Person(object):
         @author: olasupoAjayi
         @date: 18/01/2020
     """
-    def __init__ (self, idx, name, age, pref):
+    def __init__ (self, idx, name, snr, pos, pref):
         self.idx = idx
-        self.age = age
+        self.snr = snr
         self.name = name
+        self.pos = pos
         self.preferredMates = pref
         self.mate = None
                 
@@ -40,8 +41,11 @@ class Person(object):
     def getId(self):
         return self.idx
     
-    def getAge(self):
-        return self.age
+    def getSNR(self):
+        return self.snr
+
+    def getPos(self):
+        return self.pos
     
     def getName(self):
         return self.name

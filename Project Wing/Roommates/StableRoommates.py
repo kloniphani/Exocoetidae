@@ -1,4 +1,5 @@
-from Roommates import *; 
+from Roommates.Node import *; 
+from Roommates.User import *;
 
 class StableRoommates(object):
     '''
@@ -21,8 +22,8 @@ class StableRoommates(object):
         self.firstList = firstList
         self.secondList = secondList
         
-        self.Women = []
-        self.Men = []        
+        self.Users = []
+        self.Nodes = []        
             #define arrays for Men and Women
         self.converter(firstList, secondList)
    
@@ -39,65 +40,65 @@ class StableRoommates(object):
             return
         else:    
             for f in firstList:
-                self.Men.append(Man.Man(f))
+                self.Nodes.append(Node(f))
             for s in secondList:
-                self.Women.append(Woman.Woman(s))
+                self.Users.append(User(s))
             
 
         #assign preferences - 
         #if preference list is already supplied, it extracts from the list
         #else it builds its own
-        for w in self.Women:
-            w.receiveOptions(self.Men)
+        for w in self.Users:
+            w.receiveOptions(self.Nodes)
             
-        for m in self.Men:
-            m.receiveOptions(self.Women)
+        for m in self.Nodes:
+            m.receiveOptions(self.Users)
     
        
-        self.findStableRoommates(self.Women, self.Men)
+        self.findStableRoommates(self.Users, self.Nodes)
         
     
-    def menPropose(): 
-        for man in Men: 
-             man.propose()
+    def nodesPropose(): 
+        for node in Nodes: 
+             node.propose()
     
     
-    def womanChoose(id):
-        return women.get(id).chooseMate()
+    def userChoose(id):
+        return users.get(id).chooseMate()
     
 
-    def findStableRoommates(self, women, men):
-            for man in men:
+    def findStableRoommates(self, users, nodes):
+            for node in nodes:
                 #a man can propose even if he already has a partner                                
-                man.propose()                    
+                node.propose()                    
                     
             #women then pick thier favourite suitor
             #this is still not an allocation. This is only the women describing what they wld like
             #hence the name Delayed Allocation
-            for woman in women:                
-                woman.chooseMate()        
+            for user in users:                
+                user.chooseMate()        
             
             #Now Clean up all unallocated
             
-            self.availableMen = []
-            self.SingleWomen = []
+            self.availableNodes = []
+            self.SingleUsers = []
             
-            for woman in women:                
-                if woman.getMate() is None: 
-                    self.SingleWomen.append(woman)
+            for user in users:                
+                if user.getMate() is None: 
+                    self.SingleUsers.append(user)
                     #print("Single Ladies -> {}".format(woman.getName()))
         
-            for m in self.Men:                
+            for m in self.Nodes:                
                 if m.isLonely():
-                    self.availableMen.append(m)
+                    self.availableNodes.append(m)
                    # print("Single Men -> {}".format(m.getName()))
             
-            self.forceMatch(self.SingleWomen, self.availableMen)
+            self.forceMatch(self.SingleUsers, self.availableNodes)
             
 
-    def forceMatch(self, singleList, fMen):
+    def forceMatch(self, singleList, fNodes):
         """This ensures that no individual is left without a pair"""
         #This is called as a last resort to ensure that all individuals are paired
                          
         for sg in singleList:
-            sg.chooseMate(fMen)    
+            sg.chooseMate(fNodes)    

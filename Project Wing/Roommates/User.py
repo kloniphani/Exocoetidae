@@ -1,4 +1,6 @@
-class Woman (Person):
+from Roommates.Link import *;
+
+class User (Link):
     """
     The Woman Class
     A Woman or Job gets allocated to a Man/Machine
@@ -21,7 +23,8 @@ class Woman (Person):
         self.seconds = seconds
         self.suitors = [] #holds the list of men that proposed to this woman
         self.name = seconds["name"]
-        self.age = seconds["age"]
+        self.snr = seconds["snr"]
+        self.pos = seconds["pos"]
         self.preferredMates = seconds["preferences"]   #list of this woman's preferred men
         self.preferredMates2 = []  #reserved 4 overloaded call
         self.mate = None #initially set mate to None
@@ -37,7 +40,7 @@ class Woman (Person):
             #build own preference list based on certain criteria
             #add preference criteria here, example give below
             #in this example self.age is used as criterion
-                if (p.getAge() != self.getAge()):
+                if (p.getSNR() != self.getSNR()):
                     preferredMates.append(p)
        
     def receiveProposal (self, suitor):
