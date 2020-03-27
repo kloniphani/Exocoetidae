@@ -33,16 +33,11 @@ class StableRoommates(object):
         #this function should be called when the two lists are to be supplied external
         #and there is a need to map them to men & women list.
         #both arrays have to be of equal size in SRM
-    
-        #check that both lists are of equal size
-        if len(firstList) != len(secondList):
-            print ("Error: Supplied Lists are of different length!")
-            return
-        else:    
-            for f in firstList:
-                self.Nodes.append(Node(f))
-            for s in secondList:
-                self.Users.append(User(s))
+  
+        for f in firstList:
+            self.Nodes.append(Node(f))
+        for s in secondList:
+            self.Users.append(User(s))
             
 
         #assign preferences - 

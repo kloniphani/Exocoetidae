@@ -1,5 +1,7 @@
 from Roommates.Link import *;
 
+import csv;
+
 class User (Link):
     """
     The Woman Class
@@ -23,7 +25,7 @@ class User (Link):
         self.seconds = seconds
         self.suitors = [] #holds the list of men that proposed to this woman
         self.name = seconds["name"]
-        self.snr = seconds["snr"]
+        self.bandwidth = seconds["bandwidwith"]
         self.pos = seconds["pos"]
         self.preferredMates = seconds["preferences"]   #list of this woman's preferred men
         self.preferredMates2 = []  #reserved 4 overloaded call
@@ -66,7 +68,13 @@ class User (Link):
                     #only continue searching if the most desired partner (first on the preferredMates list) is unavailable                    
                     continue
                 else:
-                    print ("{} chose {} as a partner".format(self.getName(), self.getMate().getName()))            
+                    print ("{} chose {} as an Access Point".format(self.getName(), self.getMate().getName()))     
+                    
+                    filename = "results.csv" 
+                    with open(filename, 'a') as f:
+                        writer = csv.writer(f)
+                        writer.writerow([self.getName(), self.getMate().getName()])
+
                     break
                     #break ensures that the priority of the preference list is considered.
         
@@ -87,5 +95,11 @@ class User (Link):
                     self.setMate(forcedPartners[0])
                 else:
                     print ("{} chose {} as a partner*".format(self.getName(), forcedPartners[f].getName()))
+                    
+                    filename = "results.csv"
+                    with open(filename, 'a') as f:
+                        writer = csv.writer(f)
+                        writer.writerow([self.getName(), self.getMate().getName()])
+
                     break
             

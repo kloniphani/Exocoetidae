@@ -16,8 +16,9 @@ class Node (Link):
     def __init__(self, firsts):
         self.firsts = firsts
         self.name = firsts["name"]
+        self.residual = firsts["residual"]
         self.snr = firsts["snr"]
-        self.pos = first["pos"]
+        self.pos = firsts["pos"]
         self.preferredMates = firsts["preferences"]
         self.mate = None #initially set mate to None
         self.potentialMates = None   #list of person objects
