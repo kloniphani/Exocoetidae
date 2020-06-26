@@ -13,6 +13,7 @@ class Link(object):
         self.pos = pos
         self.preferredMates = pref
         self.mate = None
+        self.randomMate = None
                 
     def isLonely(self):
         return self.mate is None
@@ -28,9 +29,24 @@ class Link(object):
             
             if mate != None:
                 mate.mate = self
+
+    def setRandomMate(self, randomMate):
+        if self.getRandomMate() != randomMate:
+            
+            if self.randomMate is not None:
+                self.randomMate.randomMate = None
+                
+            #set new mate if old mate is diff or non existent
+            self.randomMate = randomMate
+            
+            if randomMate != None:
+                randomMate.randomMate = self
                 
     def getMate(self):
         return self.mate
+
+    def getRandomMate(self):
+        return self.randomMate
     
     def receiveOptions(self, mates):
         self.preferredMates = mates

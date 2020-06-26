@@ -1,5 +1,5 @@
-from Roommates.Node import *; 
-from Roommates.User import *;
+from Network.Node import *; 
+from Network.User import *;
 
 class StableRoommates(object):
     '''
@@ -38,7 +38,6 @@ class StableRoommates(object):
             self.Nodes.append(Node(f))
         for s in secondList:
             self.Users.append(User(s))
-            
 
         #assign preferences - 
         #if preference list is already supplied, it extracts from the list
@@ -48,19 +47,16 @@ class StableRoommates(object):
             
         for m in self.Nodes:
             m.receiveOptions(self.Users)
-    
-       
-        self.findStableRoommates(self.Users, self.Nodes)
-        
+           
+        self.findStableRoommates(self.Users, self.Nodes)  
+        self.findRandomMates(self.Users, self.Nodes) 
     
     def nodesPropose(): 
         for node in Nodes: 
              node.propose()
     
-    
     def userChoose(id):
         return users.get(id).chooseMate()
-    
 
     def findStableRoommates(self, users, nodes):
             for node in nodes:
@@ -89,7 +85,48 @@ class StableRoommates(object):
                    # print("Single Men -> {}".format(m.getName()))
             
             self.forceMatch(self.SingleUsers, self.availableNodes)
-            
+
+    def findRandomMates(self, users, nodes):
+        import numpy as np
+        from geopy import distance
+
+        DISTANCES = {}
+        for user in users:
+            temp = []
+            for node in nodes:                
+                Vincenty = distance.vincenty((user.pos[0], user.pos[1]),(node.pos[0], node.pos[1])).kilometers
+                GreatCircle = distance.great_circle((user.pos[0], user.pos[1]),(node.pos[0], node.pos[1])).kilometers
+                d = (Vincenty + GreatCircle)/2
+                temp.append((node, d))
+            DISTANCES[str(user.id)] = sorted(temp, key=lambda x: x[1])
+
+        distances = np.array([[d[1] for d in value] for key, value in DISTANCES.items()])
+        mean = distances.mean()
+        standard = distances.std()
+        shape = mean 
+        scale = np.log(standard)
+        s = np.random.gamma(shape, scale, len(nodes)**2)
+
+        for user in users:
+            hasMate = False;
+            while(hasMate != True):
+                temp = np.random.choice(s)
+                for n, d in DISTANCES[user.id]:
+                    if int(temp) == int(d):
+                        user.setRandomMate(n)
+                        hasMate = True
+                        break
+
+        print(shape, standard, scale)
+
+        import matplotlib.pyplot as plt
+        import scipy.special as sps  
+
+        count, bins, ignored = plt.hist(s, len(nodes), density=True)
+        y = bins**(shape-1)*(np.exp(-bins/scale) /  
+                            (sps.gamma(shape)*scale**shape))
+        plt.plot(bins, y, linewidth=2, color='r')  
+        plt.show()
 
     def forceMatch(self, singleList, fNodes):
         """This ensures that no individual is left without a pair"""
@@ -97,3 +134,9 @@ class StableRoommates(object):
                          
         for sg in singleList:
             sg.chooseMate(fNodes)    
+
+    def getNodes(self):
+        return self.Nodes
+
+    def getUsers(self):
+        return self.Users

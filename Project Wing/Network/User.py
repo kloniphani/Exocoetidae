@@ -1,4 +1,4 @@
-from Roommates.Link import *;
+from Network.Link import *;
 
 import csv;
 
@@ -25,11 +25,13 @@ class User (Link):
         self.seconds = seconds
         self.suitors = [] #holds the list of men that proposed to this woman
         self.name = seconds["name"]
+        self.id = seconds["id"]
         self.bandwidth = seconds["bandwidwith"]
         self.pos = seconds["pos"]
         self.preferredMates = seconds["preferences"]   #list of this woman's preferred men
         self.preferredMates2 = []  #reserved 4 overloaded call
         self.mate = None #initially set mate to None
+        self.randomMate = None
         self.potentialMates = None            
     
     #override the parent's receiveoptions
@@ -102,4 +104,5 @@ class User (Link):
                         writer.writerow([self.getName(), self.getMate().getName()])
 
                     break
-            
+
+

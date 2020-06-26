@@ -2144,6 +2144,14 @@
     <Content Include="Model\Monthly Subscription.xlsx" />
     <Content Include="Model\Opex.xlsx" />
     <Content Include="requirements.txt" />
+    <Content Include="Roommates\__pycache__\Link.cpython-37.pyc" />
+    <Content Include="Roommates\__pycache__\Man.cpython-37.pyc" />
+    <Content Include="Roommates\__pycache__\Node.cpython-37.pyc" />
+    <Content Include="Roommates\__pycache__\Person.cpython-37.pyc" />
+    <Content Include="Roommates\__pycache__\StableRoommates.cpython-37.pyc" />
+    <Content Include="Roommates\__pycache__\User.cpython-37.pyc" />
+    <Content Include="Roommates\__pycache__\Woman.cpython-37.pyc" />
+    <Content Include="Roommates\__pycache__\__init__.cpython-37.pyc" />
     <Content Include="Source\Data\Chris Hani.txt" />
     <Content Include="Source\Data\Mopani.txt" />
     <Content Include="Source\Data\Vhembe.txt" />
@@ -9987,6 +9995,11 @@
     <Compile Include="Project_Wing.py" />
     <Compile Include="Protocol\Communication.py" />
     <Compile Include="Protocol\__init__.py" />
+    <Compile Include="Roommates\Link.py" />
+    <Compile Include="Roommates\Node.py" />
+    <Compile Include="Roommates\StableRoommates.py" />
+    <Compile Include="Roommates\User.py" />
+    <Compile Include="Roommates\__init__.py" />
     <Compile Include="Source\API.py" />
     <Compile Include="Source\Geodata.py" />
     <Compile Include="Source\__init__.py" />
@@ -10040,6 +10053,8 @@
     <Folder Include="Model\Computed Data\Backup\" />
     <Folder Include="Object" />
     <Folder Include="Protocol" />
+    <Folder Include="Roommates\" />
+    <Folder Include="Roommates\__pycache__\" />
     <Folder Include="Source" />
     <Folder Include="Source\Data" />
     <Folder Include="Source\Data\Study\" />

@@ -1,4 +1,4 @@
-from Roommates.Link import *;
+from Network.Link import *;
 
 class Node (Link):
     """
@@ -16,11 +16,13 @@ class Node (Link):
     def __init__(self, firsts):
         self.firsts = firsts
         self.name = firsts["name"]
+        self.id = firsts["id"]
         self.residual = firsts["residual"]
         self.snr = firsts["snr"]
         self.pos = firsts["pos"]
         self.preferredMates = firsts["preferences"]
         self.mate = None #initially set mate to None
+        self.randomMate = None
         self.potentialMates = None   #list of person objects
                 
    #override the parent's receiveoptions

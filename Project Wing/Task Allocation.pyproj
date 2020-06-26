@@ -22,11 +22,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Roommates\Link.py" />
-    <Compile Include="Roommates\Node.py" />
-    <Compile Include="Roommates\StableRoommates.py" />
-    <Compile Include="Roommates\User.py" />
-    <Compile Include="Roommates\__init__.py">
+    <Compile Include="Network\RandomMates.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Link.py" />
+    <Compile Include="Network\Node.py" />
+    <Compile Include="Network\StableRoommates.py" />
+    <Compile Include="Network\User.py" />
+    <Compile Include="Network\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Task_Allocation.py" />
@@ -35,7 +38,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Roommates\" />
+    <Folder Include="Network\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
